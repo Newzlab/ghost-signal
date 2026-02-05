@@ -1,0 +1,28 @@
+name: GhostSignal Sync
+on:
+  schedule:
+    - cron: '0 */3 * * *' # Every 3 hours
+  workflow_dispatch: # Allows manual "Test Run"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Crucial: Allows the bot to save signals.js
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install Dependencies
+        run: pip install feedparser
+      - name: Run Decoder
+        run: python fetch_signals.py
+      - name: Commit Signals
+        run: |
+          git config --global user.name 'GhostSignal-Bot'
+          git config --global user.email 'bot@ghostsignal.net'
+          git add signals.js
+          git commit -m "UPLINK: Fresh Signals Received" || echo "No changes to commit"
+          git push
