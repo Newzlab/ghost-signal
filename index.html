@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHOST SIGNAL | TRANSPARENCY UPLINK</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Rajdhani:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="system-header">
+        <div class="site-title">GHOST_SIGNAL</div>
+        <div class="connection-status">
+            <span>SIGNAL_INTELLIGENCE_ACTIVE</span>
+            <div class="pulse-dot"></div>
+            <span style="opacity: 0.6;">[ 2026.GLOBAL_FEED ]</span>
+        </div>
+    </header>
+
+    <div class="console-wrapper">
+        <aside class="hud-panel">
+            <div id="vault-title">SIGNAL_DIRECTORY</div>
+            <div id="vault-content" class="vault-container"></div>
+            <div class="system-logs">
+                MODE: TRANSPARENCY_ONLY<br>
+                UPLINK: ACTIVE<br>
+                DISTRACTION_FILTER: 100%<br>
+                SCANNING_VOID...
+            </div>
+        </aside>
+
+        <main class="hud-panel" id="center-stage-anchor" style="background: transparent; justify-content: center; align-items: center; text-align: center;">
+            <div class="visualizer">
+                <div class="v-bar"></div>
+                <div class="v-bar" style="animation-delay: 0.2s"></div>
+                <div class="v-bar" style="animation-delay: 0.4s"></div>
+            </div>
+            
+            <div style="max-width: 550px;">
+                <span id="label-type" style="font-size: 0.7rem; letter-spacing: 6px; color: var(--cyan); font-weight: 700;">AWAITING_SIGNAL</span>
+                <h1 id="active-title" style="font-family: 'Orbitron'; font-size: 2.2rem; margin: 15px 0;">INITIATE SCAN</h1>
+                <p id="active-description" style="opacity: 0.8; font-weight: 300; line-height: 1.6;">Select a coordinate from the directory to begin data decryption.</p>
+                <div id="player-zone">
+                    </div>
+            </div>
+        </main>
+
+        <aside class="hud-panel" id="right-sidebar">
+            <div style="font-family: 'Orbitron'; font-size: 0.7rem; color: var(--cyan); margin-bottom: 25px; letter-spacing: 2px;">INTEL_CATEGORIES</div>
+            
+            <div class="intel-module" onclick="filterSignals('HUMANITARIAN')">
+                <div class="module-header">HUMANITARIAN</div>
+                <div class="module-body">Crises ignored by mainstream media outlets.</div>
+            </div>
+
+            <div class="intel-module" onclick="filterSignals('GEOPOLITICS')">
+                <div class="module-header">GEOPOLITICS</div>
+                <div class="module-body">Global security and nuclear treaty monitoring.</div>
+            </div>
+
+            <div class="intel-module" onclick="filterSignals('SYSTEMIC')">
+                <div class="module-header">SYSTEMIC</div>
+                <div class="module-body">Investigating structural and institutional corruption.</div>
+            </div>
+
+            <div class="intel-module" onclick="showAll()">
+                <div class="action-btn">SHOW_ALL_SIGNALS</div>
+            </div>
+
+            <div class="footer-module">
+                <div class="copyright">
+                    &copy; 2026 GHOST SIGNAL.<br>
+                    ZERO TRACKING. ZERO ALGORITHM.
+                </div>
+            </div>
+        </aside>
+    </div>
+
+    <script src="signals.js"></script>
+    <script src="terminal.js"></script>
+</body>
+</html>
