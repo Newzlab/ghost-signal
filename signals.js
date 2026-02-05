@@ -112,6 +112,13 @@ const db = [
         "source_url": "https://www.propublica.org/article/massachusetts-rape-statute-of-limitations-dna-healey-proposal"
     },
     {
+        "id": "GS-13269",
+        "title": "PLASTIC HOUSEHOLD WASTE BURNED AS FUEL ON RISE IN GLOBAL SOUTH, RISKING HEALTH",
+        "type": "ENVIRONMENT",
+        "description": "Burning plastic waste for household fuel, or to manage household waste, may be far more prevalent in poor urban areas in developing countries than previously thought, raising serious environmental pollution and public health concerns for individuals,...",
+        "source_url": "https://news.mongabay.com/2026/02/plastic-household-waste-burned-as-fuel-on-rise-in-global-south-risking-health/"
+    },
+    {
         "id": "GS-13816",
         "title": "NOAA\u2019S SATELLITES CAPTURE EXTREME COLD IN STRIKING DETAIL",
         "type": "ENVIRONMENT",
@@ -159,12 +166,5 @@ const db = [
         "type": "ENVIRONMENT",
         "description": "HAT YAI, Thailand \u2014 Largely forgotten by the public, politicians and the media, the flood crisis that Hat Yai, the largest city in the south of Thailand, experienced in November 2025 is far from over. The waters have receded, but the recovery has onl...",
         "source_url": "https://news.mongabay.com/2026/02/thailands-hat-yai-picks-up-the-pieces-in-wake-of-devastating-floods-analysis/"
-    },
-    {
-        "id": "GS-13751",
-        "title": "A LAST REFUGE FOR TURTLES ON THE BRINK",
-        "type": "ENVIRONMENT",
-        "description": "The Turtle Survival Center, run by the Turtle Survival Alliance, exists to buy time for species that no longer have much of it. Founded in 2013 in South Carolina, the center functions as a high-security refuge and breeding facility for some of the wo...",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/a-last-refuge-for-turtles-on-the-brink/"
     }
 ];
