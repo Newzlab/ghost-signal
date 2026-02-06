@@ -230,14 +230,14 @@ const db = [
         "timestamp": "Fri, 30 Jan 2026 10:25:00 +0000"
     },
     {
-        "id": "GS-wsuit",
-        "title": "TWO SCHOOL DISTRICTS SUE, CLAIMING ALASKA IS FAILING ITS CONSTITUTIONAL OBLIGATION TO FUND PUBLIC EDUCATION",
+        "id": "GS-trump",
+        "title": "GRANT GUIDELINES FOR LIBRARIES AND MUSEUMS TAKE \u201cCHILLING\u201d POLITICAL TURN UNDER TRUMP",
         "type": "SYSTEMIC",
         "cat_code": "SYST",
         "source": "ProPublica",
         "description": "",
-        "source_url": "https://www.propublica.org/article/alaska-public-education-funding-failure-lawsuit",
-        "timestamp": "Fri, 30 Jan 2026 10:00:00 +0000"
+        "source_url": "https://www.propublica.org/article/institute-of-museum-and-library-services-grant-guidelines-donald-trump",
+        "timestamp": "Fri, 06 Feb 2026 15:30:00 +0000"
     },
     {
         "id": "GS--bill",
