@@ -250,6 +250,36 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-13909",
+        "title": "ENCOURAGEMENT BOOSTS PEOPLE\u2019S LIKELIHOOD TO TAKE CLIMATE ACTION",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "The fight against climate change is often framed as a sacrifice: eat less meat and drive less often. But those actions could also be framed positively: eat more plants and ride bikes more often. A new study finds presenting environmental action in a more proactive light makes people more likely to act and feel happier [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/encouragement-boosts-peoples-likelihood-to-take-climate-action/",
+        "timestamp": "06 Feb 2026 21:20:20 +0000"
+    },
+    {
+        "id": "GS-13907",
+        "title": "KATHY JEFFERSON BANCROFT, GUARDIAN OF A STOLEN LAKE",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "&#160; In California\u2019s interior, a long, straight aqueduct carries snowmelt south to a city that grew as if water were a birthright. Along the way it passes a valley that was once defined by water and birds, and is now defined, in part, by what remains when water is removed. A lakebed can become a [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/kathy-jefferson-bancroft-guardian-of-a-stolen-lake/",
+        "timestamp": "06 Feb 2026 19:40:28 +0000"
+    },
+    {
+        "id": "GS-13903",
+        "title": "PESTICIDES FOUND IN 70% OF EUROPEAN SOILS, HARMING BENEFICIAL LIFE: STUDY",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "For farmers, sometimes the easiest way to save a crop or prevent catastrophic insect damage is to spray a pesticide. But this common practice is wreaking havoc on the soil, according to new research published recently in the journal Nature. The study examined soil from 26 European countries, finding that pesticide contamination is widespread beyond [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/pesticides-found-in-70-of-european-soils-harming-beneficial-life-study/",
+        "timestamp": "06 Feb 2026 19:29:06 +0000"
+    },
+    {
         "id": "GS-13898",
         "title": "AI-GENERATED WILDLIFE PHOTOS MAKE CONSERVATION MORE DIFFICULT",
         "type": "ENVIRONMENT",
@@ -281,7 +311,7 @@ const db = [
     },
     {
         "id": "GS-13853",
-        "title": "CALIFORNIA NGO USES SCIENCE & STORYTELLING TO BOOST GLOBAL MANGROVE RESTORATION",
+        "title": "HOW INTERMEDIARIES ARE RESHAPING MANGROVE RESTORATION",
         "type": "ENVIRONMENT",
         "cat_code": "ENVI",
         "source": "Conservation news",
@@ -358,35 +388,5 @@ const db = [
         "description": "Copince Ngoma, a member of the Bakouele Indigenous community, has relied on the lush green Congo Basin rainforest his whole life. His village\u2019s forests, located in the Democratic Republic of Congo\u2019s Sangha region, are a wide repertoire for hunting, fishing and medicinal plants to care for his family. But in the last few years, as [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/whats-next-for-the-major-pledge-to-halt-reverse-congo-basin-deforestation/",
         "timestamp": "05 Feb 2026 23:01:00 +0000"
-    },
-    {
-        "id": "GS-13269",
-        "title": "PLASTIC HOUSEHOLD WASTE BURNED AS FUEL ON RISE IN GLOBAL SOUTH, RISKING HEALTH",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Burning plastic waste for household fuel, or to manage household waste, may be far more prevalent in poor urban areas in developing countries than previously thought, raising serious environmental pollution and public health concerns for individuals, families and communities. That\u2019s according to a new global study that surveyed more than 1,000 \u201ckey informants,\u201d including researchers, [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/plastic-household-waste-burned-as-fuel-on-rise-in-global-south-risking-health/",
-        "timestamp": "05 Feb 2026 18:34:42 +0000"
-    },
-    {
-        "id": "GS-13816",
-        "title": "NOAA\u2019S SATELLITES CAPTURE EXTREME COLD IN STRIKING DETAIL",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "When an Arctic blast pushed deep into the southeastern United States last weekend, it left behind more than freeze warnings and broken records. Over the Atlantic, the cold air reorganized the lower atmosphere into long, parallel cloud bands\u2014patterns that meteorologists recognize as a signature of intense cold moving over warmer water\u2014captured in striking detail by [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/noaas-satellites-capture-extreme-cold-in-striking-detail/",
-        "timestamp": "05 Feb 2026 17:29:49 +0000"
-    },
-    {
-        "id": "GS-13759",
-        "title": "LOCAL COMMUNITIES JOIN GLOBAL PUSH TO PROTECT EUROPEAN, ARCTIC & US PEATLANDS",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "After her father\u2019s death, Bigga-Helena Magga and her sister were determined that their ancestral homeland, Alttokangas, a S\u00e1mi boreal forest and peatland in Finland\u2019s Inari municipality, would not be turned into a commercial forestry operation. \u201cWe chose to take care and protect our inherited site located along the Ivalojoki river, which held great significance to [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/local-communities-join-global-push-to-protect-european-arctic-us-peatlands/",
-        "timestamp": "05 Feb 2026 16:55:38 +0000"
     }
 ];
