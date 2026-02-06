@@ -9,7 +9,6 @@ DISTRACTION_BLACKLIST = [
     "KARDASHIAN", "SWIFT", "NFL", "HALFTIME", "RED CARPET"
 ]
 
-# Mapping Categories to 4-Char codes
 CAT_CODES = {
     "HUMANITARIAN": "HUMA",
     "GEOPOLITICS": "GEOP",
@@ -25,17 +24,14 @@ FEEDS = {
 }
 
 def clean_content(text):
-    """Deep scrub for HTML and RSS footer junk."""
-    # Remove all HTML tags
-    text = re.sub(r'<[^>]+>', '', text)
-    # Remove any remaining URLs/Hyperlinks starting with http
-    text = re.sub(r'http\S+', '', text)
+    """Deep scrub for HTML and RSS junk."""
+    text = re.sub(r'<[^>]+>', '', text) # Remove HTML
+    text = re.sub(r'http\S+', '', text) # Remove raw URLs
     
     junk_markers = ["The post", "appeared first on", "read more", "Check out"]
     for marker in junk_markers:
         if marker in text:
             text = text.split(marker)[0]
-            
     return text.strip()
 
 def fetch_and_format():
@@ -43,7 +39,7 @@ def fetch_and_format():
     
     for category, url in FEEDS.items():
         feed = feedparser.parse(url)
-        # Get a clean source name (e.g., "ProPublica")
+        # Clean Source Name
         source_name = feed.feed.get('title', 'OSINT').split(' - ')[0].split(':')[0].strip()
         
         for entry in feed.entries[:15]:
@@ -58,8 +54,8 @@ def fetch_and_format():
                 "id": f"GS-{entry.get('id', entry.link)[-5:]}",
                 "title": title,
                 "type": category,
-                "cat_code": CAT_CODES.get(category, "MISC"), # THE 4-CHAR CODE
-                "source": source_name, # THE SOURCE NAME
+                "cat_code": CAT_CODES.get(category, "MISC"),
+                "source": source_name,
                 "description": summary,
                 "source_url": entry.link,
                 "timestamp": entry.get('published', datetime.now().strftime("%Y.%m.%d"))
@@ -69,7 +65,6 @@ def fetch_and_format():
     signal_db.sort(key=lambda x: x['timestamp'], reverse=True)
 
     with open("signals.js", "w") as f:
-        # We export the 'db' variable for the JS to read
         f.write(f"const db = {json.dumps(signal_db, indent=4)};")
 
 if __name__ == "__main__":
