@@ -26,13 +26,17 @@ function renderDirectory(data) {
 }
 
 function decryptSignal(item) {
-    document.getElementById('label-type').innerText = `PRIORITY_SIGNAL // ${item.type}`;
+    // UI Update: Include Source and Timestamp
+    document.getElementById('label-type').innerText = `PRIORITY_SIGNAL // ${item.type} // SOURCE: ${item.source}`;
     document.getElementById('active-title').innerText = item.title;
-    document.getElementById('active-description').innerText = item.description;
+    
+    // We'll add the timestamp at the beginning of the description
+    const formattedDate = `<span style="color: var(--orange); font-weight: 700;">[TIMESTAMP: ${item.timestamp}]</span><br><br>`;
+    document.getElementById('active-description').innerHTML = formattedDate + item.description;
     
     const zone = document.getElementById('player-zone');
     zone.innerHTML = `
-        <button class="action-btn" onclick="window.open('${item.source_url}', '_blank')" style="padding: 18px 50px; border-color: var(--cyan); color: var(--cyan);">
+        <button class="action-btn" onclick="window.open('${item.source_url}', '_blank')" style="padding: 18px 50px;">
             ACCESS RAW DATA SOURCE
         </button>
     `;
