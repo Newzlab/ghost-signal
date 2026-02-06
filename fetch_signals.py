@@ -16,11 +16,19 @@ FEEDS = {
     "ENVIRONMENT": "https://news.mongabay.com/feed/"
 }
 
-def clean_html(raw_html):
-    """Removes all HTML tags from a string."""
+def clean_content(text):
+    """Removes HTML and cuts off RSS 'junk' footers."""
+    # 1. Strip HTML tags
     cleanr = re.compile('<.*?>')
-    cleantext = re.sub(cleanr, '', raw_html)
-    return cleantext.strip()
+    text = re.sub(cleanr, '', text)
+    
+    # 2. Cut off common RSS garbage footers
+    junk_markers = ["The post", "appeared first on", "read more", "Check out"]
+    for marker in junk_markers:
+        if marker in text:
+            text = text.split(marker)[0]
+            
+    return text.strip()
 
 def fetch_and_format():
     signal_db = []
@@ -33,7 +41,7 @@ def fetch_and_format():
             title = entry.title.upper()
             # SCRUB THE SUMMARY: Remove HTML tags here
             raw_summary = entry.get('summary', '')
-            summary = clean_html(raw_summary)[:600] # Longer, clean preview
+            summary = clean_content(raw_summary)[:600] # Longer, clean preview
             
             if any(word in title or word in summary.upper() for word in DISTRACTION_BLACKLIST):
                 continue
