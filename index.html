@@ -53,39 +53,45 @@
         </main>
 
         <aside class="hud-panel" id="right-sidebar">
-            <div style="font-family: 'Montserrat'; font-weight: 700; font-size: 0.75rem; color: var(--orange); margin-bottom: 25px; letter-spacing: 2px;">INTEL_CATEGORIES</div>
-            
-<div class="intel-module" onclick="filterSignals('HUMANITARIAN')" style="cursor: pointer;">
-    <div class="module-header">HUMANITARIAN</div>
-    <div class="module-body">Global crisis points filtered for transparency.</div>
-</div>
+    <div style="font-family: 'Montserrat'; font-weight: 700; font-size: 0.75rem; color: var(--orange); margin-bottom: 25px; letter-spacing: 2px;">INTEL_CATEGORIES</div>
+    
+    <div class="intel-module" onclick="filterSignals('HUMANITARIAN')" style="cursor: pointer;">
+        <div class="module-header">HUMANITARIAN</div>
+        <div class="module-body">Global crisis points filtered for transparency.</div>
+    </div>
 
-<div class="intel-module" onclick="filterSignals('GEOPOLITICS')" style="cursor: pointer;">
-    <div class="module-header">GEOPOLITICS</div>
-    <div class="module-body">Security monitoring and border/treaty shifts.</div>
-</div>
+    <div class="intel-module" onclick="filterSignals('GEOPOLITICS')" style="cursor: pointer;">
+        <div class="module-header">GEOPOLITICS</div>
+        <div class="module-body">Security monitoring and border/treaty shifts.</div>
+    </div>
 
-<div class="intel-module" onclick="filterSignals('SYSTEMIC')" style="cursor: pointer;">
-    <div class="module-header">SYSTEMIC</div>
-    <div class="module-body">Corruption, corporate leaks, and institutional shifts.</div>
-</div>
+    <div class="intel-module" onclick="filterSignals('SYSTEMIC')" style="cursor: pointer;">
+        <div class="module-header">SYSTEMIC</div>
+        <div class="module-body">Analyzing institutional corruption and corporate transparency.</div>
+    </div>
 
-            <div class="intel-module" onclick="showAll()" style="margin-top: auto;">
-                <div class="action-btn">RESET_SIGNAL_FILTERS</div>
-            </div>
+    <div class="intel-module" onclick="filterSignals('ENVIRONMENT')" style="cursor: pointer;">
+        <div class="module-header">ENVIRONMENT</div>
+        <div class="module-body">Tracking resource scarcity and ecological shifts.</div>
+    </div>
 
-            <div class="footer-module">
-                <div class="copyright">
-                    &copy; 2026 GHOST SIGNAL.<br>
-                    INFRASTRUCTURE: GITHUB_NODE<br>
-                    LOGIC: NEWZLAB_CONSTRUCT
-                </div>
-            </div>
-        </aside>
+    <div class="intel-module" onclick="showAll()" style="margin-top: auto;">
+        <div class="action-btn">RESET_SIGNAL_FILTERS</div>
+    </div>
+
+    <div class="footer-module">
+        <div class="copyright">
+            &copy; 2026 GHOST SIGNAL.<br>
+            INFRASTRUCTURE: GITHUB_NODE<br>
+            LOGIC: NEWZLAB_CONSTRUCT
+        </div>
+    </div>
+</aside>
     </div>
 
     <script src="signals.js"></script>
     <script src="terminal.js"></script>
 </body>
 </html>
+
 
