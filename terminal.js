@@ -31,8 +31,11 @@ function renderDirectory(data, label) {
     data.forEach(item => {
         const div = document.createElement('div');
         div.className = 'vault-item';
-        // We'll show the source name in brackets for quick scanning
-        div.innerHTML = `<span style="color: var(--orange); font-size: 0.7rem;">[${item.source}]</span> ${item.title}`;
+        
+        // Safety check: if source is missing, use 'UNKNOWN'
+        const sourceLabel = item.source ? item.source : 'OSINT';
+        
+        div.innerHTML = `<span style="color: var(--orange); font-size: 0.7rem;">[${sourceLabel}]</span> ${item.title}`;
         div.onclick = () => decryptSignal(item);
         container.appendChild(div);
     });
@@ -61,3 +64,4 @@ function decryptSignal(item) {
     // Audio Cue Placeholder (Ready for our sound FX task next)
     console.log("SIGNAL_DECRYPTED: " + item.id);
 }
+
