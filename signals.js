@@ -240,6 +240,16 @@ const db = [
         "timestamp": "Fri, 30 Jan 2026 10:00:00 +0000"
     },
     {
+        "id": "GS--bill",
+        "title": "THE CLEAR LABELS ACT WOULD CHANGE WHAT YOU KNOW ABOUT YOUR PRESCRIPTION MEDICATION",
+        "type": "SYSTEMIC",
+        "cat_code": "SYST",
+        "source": "ProPublica",
+        "description": "",
+        "source_url": "https://www.propublica.org/article/drug-manufacturer-labels-us-senate-bill",
+        "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
+    },
+    {
         "id": "GS-13806",
         "title": "RISK-TAKING COMES EARLIER IN CHIMPANZEES THAN IN HUMANS, STUDY FINDS",
         "type": "ENVIRONMENT",
@@ -378,15 +388,5 @@ const db = [
         "description": "HAT YAI, Thailand \u2014 Largely forgotten by the public, politicians and the media, the flood crisis that Hat Yai, the largest city in the south of Thailand, experienced in November 2025 is far from over. The waters have receded, but the recovery has only just begun. That the flood occurred should not have come as [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/thailands-hat-yai-picks-up-the-pieces-in-wake-of-devastating-floods-analysis/",
         "timestamp": "05 Feb 2026 02:29:47 +0000"
-    },
-    {
-        "id": "GS-13751",
-        "title": "A LAST REFUGE FOR TURTLES ON THE BRINK",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "The Turtle Survival Center, run by the Turtle Survival Alliance, exists to buy time for species that no longer have much of it. Founded in 2013 in South Carolina, the center functions as a high-security refuge and breeding facility for some of the world\u2019s rarest freshwater turtles and tortoises. It houses hundreds of animals representing [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/a-last-refuge-for-turtles-on-the-brink/",
-        "timestamp": "05 Feb 2026 00:56:12 +0000"
     }
 ];
