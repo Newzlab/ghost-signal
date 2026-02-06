@@ -112,6 +112,20 @@ const db = [
         "source_url": "https://www.propublica.org/article/massachusetts-rape-statute-of-limitations-dna-healey-proposal"
     },
     {
+        "id": "GS-13847",
+        "title": "FROM KIGALI TO THE CONGO BASIN: AIMABLE TWAHIRWA\u2019S PATH IN ENVIRONMENTAL JOURNALISM",
+        "type": "ENVIRONMENT",
+        "description": "As Mongabay deepens its reporting across Africa\u2019s biodiversity and climate challenges, award-winning senior science journalist Aimable Twahirwa is bringing his decades of experience to ensure the region\u2019s stories reach international audiences. For Tw...",
+        "source_url": "https://news.mongabay.com/2026/02/from-kigali-to-the-congo-basin-aimable-twahirwas-path-in-environmental-journalism/"
+    },
+    {
+        "id": "GS-13829",
+        "title": "WHAT\u2019S NEXT FOR THE MAJOR PLEDGE TO HALT & REVERSE CONGO BASIN DEFORESTATION?",
+        "type": "ENVIRONMENT",
+        "description": "Copince Ngoma, a member of the Bakouele Indigenous community, has relied on the lush green Congo Basin rainforest his whole life. His village\u2019s forests, located in the Democratic Republic of Congo\u2019s Sangha region, are a wide repertoire for hunting, f...",
+        "source_url": "https://news.mongabay.com/2026/02/whats-next-for-the-major-pledge-to-halt-reverse-congo-basin-deforestation/"
+    },
+    {
         "id": "GS-13269",
         "title": "PLASTIC HOUSEHOLD WASTE BURNED AS FUEL ON RISE IN GLOBAL SOUTH, RISKING HEALTH",
         "type": "ENVIRONMENT",
@@ -152,19 +166,5 @@ const db = [
         "type": "ENVIRONMENT",
         "description": "KUALA LUMPUR, Malaysia (AP) \u2014\u00a0Malaysia\u00a0has announced an immediate and full ban on the\u00a0importation of electronic waste, as the government vowed the country would not be a \u201cdumping ground\u201d for the world&#8217;s waste. The Malaysian Anti-Corruption Comm...",
         "source_url": "https://news.mongabay.com/short-article/2026/02/malaysia-bans-e-waste-imports-vows-to-end-illegal-dumping/"
-    },
-    {
-        "id": "GS-13752",
-        "title": "MALAYSIA LOST 20% OF ITS CORAL REEFS IN THREE YEARS",
-        "type": "ENVIRONMENT",
-        "description": "Malaysia\u2019s coral reefs are shrinking at a pace that is hard to ignore. According to the latest national survey by Reef Check Malaysia, about one-fifth of the country\u2019s coral cover has been lost since 2022, a decline compressed into just three years. ...",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/malaysia-lost-20-of-its-coral-reefs-in-three-years/"
-    },
-    {
-        "id": "GS-13720",
-        "title": "THAILAND\u2019S HAT YAI PICKS UP THE PIECES IN WAKE OF DEVASTATING FLOODS (ANALYSIS)",
-        "type": "ENVIRONMENT",
-        "description": "HAT YAI, Thailand \u2014 Largely forgotten by the public, politicians and the media, the flood crisis that Hat Yai, the largest city in the south of Thailand, experienced in November 2025 is far from over. The waters have receded, but the recovery has onl...",
-        "source_url": "https://news.mongabay.com/2026/02/thailands-hat-yai-picks-up-the-pieces-in-wake-of-devastating-floods-analysis/"
     }
 ];
