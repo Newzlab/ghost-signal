@@ -240,6 +240,26 @@ const db = [
         "timestamp": "Fri, 30 Jan 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-13771",
+        "title": "ETHIOPIA\u2019S RENAISSANCE MEGA-DAM FUELS ENERGY HOPES AND REGIONAL ANXIETY",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "This January, U.S. President Donald Trump offered to act as a mediator between Egypt and Ethiopia over Nile River waters, signaling renewed interest in the dispute. Ethiopia\u2019s flagship project, the Grand Ethiopian Renaissance Dam (GERD), launched in 2011, has been a source of prolonged friction among Nile Basin countries. The row intensified with the dam\u2019s [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/ethiopias-renaissance-mega-dam-fuels-energy-hopes-and-regional-anxiety/",
+        "timestamp": "06 Feb 2026 06:30:32 +0000"
+    },
+    {
+        "id": "GS-13668",
+        "title": "CRITICAL SHARK AND RAY HABITATS IN WESTERN INDIAN OCEAN LARGELY UNPROTECTED: STUDY",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Sharks and rays in the Western Indian Ocean are facing an extinction crisis. Almost half of the region\u2019s 270 known species (46%) are currently threatened with extinction. A recently released study by the Shark Specialist Group of the IUCN, the global wildlife conservation authority, mapped out areas that are vital for the species\u2019 survival, while [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/critical-shark-and-ray-habitats-in-western-indian-ocean-largely-unprotected-study/",
+        "timestamp": "06 Feb 2026 06:14:24 +0000"
+    },
+    {
         "id": "GS-13745",
         "title": "MINES, DAMS MOVE IN AS PROTECTION SLIPS IN A CAMBODIAN WILDLIFE SANCTUARY",
         "type": "ENVIRONMENT",
@@ -368,25 +388,5 @@ const db = [
         "description": "Nighttime light is a well-known hazard for migrating birds and sea turtles. New research suggests it may also pose risks for human health. The study finds that plants exposed to artificial light at night (ALAN) produce pollen for an extended period of time, which is \u201ca major public health issue,\u201d Andrew Richardson, an ecologist with [&#8230;]",
         "source_url": "https://news.mongabay.com/short-article/2026/02/light-pollution-could-worsen-allergy-seasons-new-study-suggests/",
         "timestamp": "05 Feb 2026 00:33:04 +0000"
-    },
-    {
-        "id": "GS-13732",
-        "title": "A DAM THREATENS NEPAL\u2019S INDIGENOUS COMMUNITY; THEY WANT IT ON THE BALLOT",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "MULKHARKA, Nepal \u2014 Ashok Tamang\u2019s first glimpse of his community\u2019s future flickered on a projector screen inside a local monastery. It was July 2023, and a few dozen people had gathered at the Sonam Choeling Monastery in Mulkharka, a small settlement tucked within Shivapuri Nagarjun National Park on the northern edge of Nepal\u2019s capital, Kathmandu. [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/a-dam-threatens-nepals-indigenous-community-they-want-it-on-the-ballot/",
-        "timestamp": "04 Feb 2026 20:17:12 +0000"
-    },
-    {
-        "id": "GS-13740",
-        "title": "AGAVE OR BUST! MEXICAN LONG-NOSED BATS HEAD FARTHER NORTH IN SEARCH OF SWEET NECTAR",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "ALBUQUERQUE, N.M. (AP) \u2014 Mexican long-nosed bats have a taste for agave, their tongues designed to lap up the famous desert plant&#8217;s nectar during nightly flights. It&#8217;s not just a means of satisfying taste buds. It&#8217;s a matter of fueling up for an arduous journey. The endangered species migrates each summer from Mexico into the [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/agave-or-bust-mexican-long-nosed-bats-head-farther-north-in-search-of-sweet-nectar/",
-        "timestamp": "04 Feb 2026 19:02:21 +0000"
     }
 ];
