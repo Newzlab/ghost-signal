@@ -190,16 +190,6 @@ const db = [
         "timestamp": "Mon, 02 Feb 26 13:49:34 +0000"
     },
     {
-        "id": "GS-64315",
-        "title": "Q&A: WHAT NEXT FOR HUMANITARIANS AND THE GLOBAL GAG RULE?",
-        "type": "HUMANITARIAN",
-        "cat_code": "HUMA",
-        "source": "The New Humanitarian",
-        "description": "The global gag rule will hit US humanitarian funding for the first time. Health advocates warn of chaotic responses and over-compliance \u2013 and highlight what to prioritise.",
-        "source_url": "https://www.thenewhumanitarian.org/interview/2026/02/02/qa-what-next-humanitarians-and-global-gag-rule",
-        "timestamp": "Mon, 02 Feb 26 13:46:16 +0000"
-    },
-    {
         "id": "GS-lines",
         "title": "FAA WARNS AIRLINES ABOUT SAFETY RISKS FROM ROCKET LAUNCHES, URGES \u201cEXTREME CAUTION\u201d",
         "type": "SYSTEMIC",
@@ -230,6 +220,16 @@ const db = [
         "timestamp": "Fri, 30 Jan 2026 10:25:00 +0000"
     },
     {
+        "id": "GS-64325",
+        "title": "SUDAN SIEGE ENDS, VIOLENCE IN PAKISTAN, AND WHO\u2019S IN THE EPSTEIN FILES? THE CHEAT SHEET",
+        "type": "HUMANITARIAN",
+        "cat_code": "HUMA",
+        "source": "The New Humanitarian",
+        "description": "A weekly read to keep you in the loop on humanitarian issues.",
+        "source_url": "https://www.thenewhumanitarian.org/news/2026/02/06/sudan-siege-ends-violence-pakistan-epstein-files-cheat-sheet",
+        "timestamp": "Fri, 06 Feb 26 16:37:54 +0000"
+    },
+    {
         "id": "GS-trump",
         "title": "GRANT GUIDELINES FOR LIBRARIES AND MUSEUMS TAKE \u201cCHILLING\u201d POLITICAL TURN UNDER TRUMP",
         "type": "SYSTEMIC",
@@ -248,6 +248,56 @@ const db = [
         "description": "",
         "source_url": "https://www.propublica.org/article/drug-manufacturer-labels-us-senate-bill",
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
+    },
+    {
+        "id": "GS-13898",
+        "title": "AI-GENERATED WILDLIFE PHOTOS MAKE CONSERVATION MORE DIFFICULT",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Anyone who looks at a social media feed with any regularity is likely familiar with the deluge of fabricated images and videos now circulating online. Some are harmless curiosities (other than the resource use). Others are more troubling. Among the most consequential are AI-generated depictions of wildlife, which are beginning to distort how people understand [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/ai-generated-wildlife-photos-make-conservation-more-difficult/",
+        "timestamp": "06 Feb 2026 18:29:04 +0000"
+    },
+    {
+        "id": "GS-13893",
+        "title": "MOROCCO EVACUATES 140,000 PEOPLE AS TORRENTIAL RAINS AND DAM RELEASES TRIGGER FLOODS",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "RABAT, Morocco (AP) \u2014 More than 140,000 people were evacuated from their homes in northwestern\u00a0Morocco\u00a0as heavy rainfall and water releases from overfilled dams led to flooding, the Interior Ministry said. Stormy weather also disrupted maritime traffic between Morocco and Spain. Torrential rains\u00a0and water releases from overfilled dams raised water levels in recent days in rivers [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/morocco-evacuates-140000-people-as-torrential-rains-and-dam-releases-trigger-floods/",
+        "timestamp": "06 Feb 2026 17:40:12 +0000"
+    },
+    {
+        "id": "GS-13895",
+        "title": "WHAT IS LOST WHEN ENVIRONMENTAL COVERAGE IS CUT",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Word that the Washington Post would be cutting roughly one-third of its staff spread quickly this week. Among those affected were at least a dozen reporters, editors, and visual journalists covering climate and the environment. The cuts will materially reduce the Post\u2019s climate coverage. They come just over three years after the paper significantly expanded [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/what-is-lost-when-environmental-coverage-is-cut/",
+        "timestamp": "06 Feb 2026 17:37:20 +0000"
+    },
+    {
+        "id": "GS-13853",
+        "title": "CALIFORNIA NGO USES SCIENCE & STORYTELLING TO BOOST GLOBAL MANGROVE RESTORATION",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Mangrove forests, located along tropical and subtropical coastlines, are increasingly recognized for their role in buffering climate disasters, storing carbon, supporting wildlife and livelihoods. Yet even as interest in mangrove conservation and restoration has surged in recent years, many projects fail \u2014 seedlings die, sites degrade further or communities disengage. One reason, according to Catherine [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/california-ngo-uses-science-storytelling-to-boost-global-mangrove-restoration/",
+        "timestamp": "06 Feb 2026 16:25:43 +0000"
+    },
+    {
+        "id": "GS-13833",
+        "title": "BOLIVIA INDIGENOUS COMMUNITIES, LOCAL GOV\u2019TS HELP PROTECT NEARLY 1 MILLION HECTARES",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Bolivia has added nearly a million hectares to its protected areas over the last several months, an effort by local governments to link Indigenous territories with nearby national parks and strengthen ecological connectivity. The four new protected areas cover 907,244 hectares (2.2 million acres) of Amazon lowlands and Andean highlands, creating corridors intended to improve [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/bolivia-indigenous-communities-local-govts-help-protect-nearly-1-million-hectares/",
+        "timestamp": "06 Feb 2026 15:55:33 +0000"
     },
     {
         "id": "GS-13806",
@@ -338,55 +388,5 @@ const db = [
         "description": "After her father\u2019s death, Bigga-Helena Magga and her sister were determined that their ancestral homeland, Alttokangas, a S\u00e1mi boreal forest and peatland in Finland\u2019s Inari municipality, would not be turned into a commercial forestry operation. \u201cWe chose to take care and protect our inherited site located along the Ivalojoki river, which held great significance to [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/local-communities-join-global-push-to-protect-european-arctic-us-peatlands/",
         "timestamp": "05 Feb 2026 16:55:38 +0000"
-    },
-    {
-        "id": "GS-13794",
-        "title": "SUCCESSFUL CAMPAIGN PROVES GHANA\u2019S FORESTS ARE WORTH MORE THAN GOLD (COMMENTARY)",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "On Dec. 10, 2025, Ghana\u2019s government revoked one of the worst pieces of environmental legislation in our country\u2019s history. The Environmental Protection (Mining in Forest Reserves) Regulations passed in 2022 opened up nearly 90% of Ghana\u2019s forest reserves, including globally significant biodiversity areas, to mining. These forests, which cover more than 9 million hectares (22 [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/successful-campaign-proves-ghanas-forests-are-worth-more-than-gold-commentary/",
-        "timestamp": "05 Feb 2026 16:19:25 +0000"
-    },
-    {
-        "id": "GS-13786",
-        "title": "GLOBAL MORATORIUM ON WHALING, A \u2018DEFINING MOMENT,\u2019 TURNS 40",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "The global moratorium on commercial whaling reached its 40-year mark in January, during which time it\u2019s been credited with helping Earth\u2019s largest creatures recover from centuries of hunting pressure. The moratorium went into effect in January 1986 following a 1982 vote by member countries of the International Whaling Commission. Though a few countries have continued [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/global-moratorium-on-whaling-a-defining-moment-turns-40/",
-        "timestamp": "05 Feb 2026 16:15:57 +0000"
-    },
-    {
-        "id": "GS-13788",
-        "title": "MALAYSIA BANS E-WASTE IMPORTS, VOWS TO END ILLEGAL DUMPING",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "KUALA LUMPUR, Malaysia (AP) \u2014\u00a0Malaysia\u00a0has announced an immediate and full ban on the\u00a0importation of electronic waste, as the government vowed the country would not be a \u201cdumping ground\u201d for the world&#8217;s waste. The Malaysian Anti-Corruption Commission said in a statement late Wednesday that all electronic waste, commonly known as e-waste, would be reclassified under the [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/malaysia-bans-e-waste-imports-vows-to-end-illegal-dumping/",
-        "timestamp": "05 Feb 2026 15:48:29 +0000"
-    },
-    {
-        "id": "GS-13752",
-        "title": "MALAYSIA LOST 20% OF ITS CORAL REEFS IN THREE YEARS",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Malaysia\u2019s coral reefs are shrinking at a pace that is hard to ignore. According to the latest national survey by Reef Check Malaysia, about one-fifth of the country\u2019s coral cover has been lost since 2022, a decline compressed into just three years. What had been gradual erosion now looks more like a slide. The 2025 [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/malaysia-lost-20-of-its-coral-reefs-in-three-years/",
-        "timestamp": "05 Feb 2026 13:51:10 +0000"
-    },
-    {
-        "id": "GS-13720",
-        "title": "THAILAND\u2019S HAT YAI PICKS UP THE PIECES IN WAKE OF DEVASTATING FLOODS (ANALYSIS)",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "HAT YAI, Thailand \u2014 Largely forgotten by the public, politicians and the media, the flood crisis that Hat Yai, the largest city in the south of Thailand, experienced in November 2025 is far from over. The waters have receded, but the recovery has only just begun. That the flood occurred should not have come as [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/thailands-hat-yai-picks-up-the-pieces-in-wake-of-devastating-floods-analysis/",
-        "timestamp": "05 Feb 2026 02:29:47 +0000"
     }
 ];
