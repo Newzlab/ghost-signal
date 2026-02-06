@@ -43,25 +43,34 @@ function renderDirectory(data, label) {
 
 // Data Decryption Logic (Center Console)
 function decryptSignal(item) {
-    // Top-bar metadata update
-    document.getElementById('label-type').innerText = `PRIORITY_SIGNAL // ${item.type} // SOURCE: ${item.source}`;
+    // 1. Calculate reading time (avg 200 words per minute)
+    const wordCount = item.description.split(' ').length;
+    const readTime = Math.ceil(wordCount / 200);
+
+    // 2. Update Header Metadata
+    document.getElementById('label-type').innerText = `PRIORITY_SIGNAL // ${item.type}`;
     
-    // Title Update
+    // 3. Update Title
     document.getElementById('active-title').innerText = item.title;
     
-    // Description + Timestamp
-    const timestampHTML = `<div style="color: var(--orange); font-size: 0.8rem; margin-bottom: 20px; font-weight: 700;">TIMESTAMP: ${item.timestamp}</div>`;
-    document.getElementById('active-description').innerHTML = timestampHTML + item.description;
+    // 4. Update Description with Intel Briefing style
+    const intelMetadata = `
+        <div style="border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 20px; display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 700;">
+            <span>SOURCE: <span style="color: var(--orange);">${item.source}</span></span>
+            <span>EST_READ_TIME: <span style="color: var(--orange);">${readTime} MIN</span></span>
+            <span>DATE: <span style="color: var(--orange);">${item.timestamp}</span></span>
+        </div>
+    `;
     
-    // Action Button
+    document.getElementById('active-description').innerHTML = intelMetadata + item.description + "...";
+    
+    // 5. Action Button
     const zone = document.getElementById('player-zone');
     zone.innerHTML = `
         <button class="action-btn" onclick="window.open('${item.source_url}', '_blank')" style="padding: 18px 50px;">
-            ACCESS RAW DATA SOURCE
+            OPEN FULL INTELLIGENCE REPORT
         </button>
     `;
-
-    // Audio Cue Placeholder (Ready for our sound FX task next)
-    console.log("SIGNAL_DECRYPTED: " + item.id);
 }
+
 
