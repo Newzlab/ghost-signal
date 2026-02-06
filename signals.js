@@ -240,6 +240,16 @@ const db = [
         "timestamp": "Fri, 30 Jan 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-13806",
+        "title": "RISK-TAKING COMES EARLIER IN CHIMPANZEES THAN IN HUMANS, STUDY FINDS",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Chimpanzees appear to be the biggest daredevils when they&#8217;re infants. Humans tend to take more chances and put themselves in the most danger in adolescence, so the expectation has been that chimpanzees (Pan troglodytes), among our closest evolutionary cousins, follow a similar pattern. But undergraduate researcher Bryce Murray&#8217;s observations of young chimps \u2014 and especially [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/risk-taking-comes-earlier-in-chimpanzees-than-in-humans-study-finds/",
+        "timestamp": "06 Feb 2026 09:07:37 +0000"
+    },
+    {
         "id": "GS-13771",
         "title": "ETHIOPIA\u2019S RENAISSANCE MEGA-DAM FUELS ENERGY HOPES AND REGIONAL ANXIETY",
         "type": "ENVIRONMENT",
@@ -378,15 +388,5 @@ const db = [
         "description": "The Turtle Survival Center, run by the Turtle Survival Alliance, exists to buy time for species that no longer have much of it. Founded in 2013 in South Carolina, the center functions as a high-security refuge and breeding facility for some of the world\u2019s rarest freshwater turtles and tortoises. It houses hundreds of animals representing [&#8230;]",
         "source_url": "https://news.mongabay.com/short-article/2026/02/a-last-refuge-for-turtles-on-the-brink/",
         "timestamp": "05 Feb 2026 00:56:12 +0000"
-    },
-    {
-        "id": "GS-13742",
-        "title": "LIGHT POLLUTION COULD WORSEN ALLERGY SEASONS, NEW STUDY SUGGESTS",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Nighttime light is a well-known hazard for migrating birds and sea turtles. New research suggests it may also pose risks for human health. The study finds that plants exposed to artificial light at night (ALAN) produce pollen for an extended period of time, which is \u201ca major public health issue,\u201d Andrew Richardson, an ecologist with [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/light-pollution-could-worsen-allergy-seasons-new-study-suggests/",
-        "timestamp": "05 Feb 2026 00:33:04 +0000"
     }
 ];
