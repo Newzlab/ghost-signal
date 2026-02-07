@@ -250,6 +250,16 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-13912",
+        "title": "AFTER INTENSE FLOODING, KRUGER NATIONAL PARK RUSHES TO REPAIR DAMAGE",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "In mid-January, intense flooding across South Africa\u2019s Mpumalanga and Limpopo provinces forced Kruger National Park to briefly close to day visitors. Now, South African National Parks (SANParks) says it has reopened some roads and camp infrastructure. \u201cRestoration efforts are ongoing, and visitor safety remains our highest priority,\u201d the agency wrote in a Feb. 2 update. [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/after-intense-flooding-kruger-national-park-rushes-to-repair-damage/",
+        "timestamp": "06 Feb 2026 23:07:44 +0000"
+    },
+    {
         "id": "GS-13909",
         "title": "ENCOURAGEMENT BOOSTS PEOPLE\u2019S LIKELIHOOD TO TAKE CLIMATE ACTION",
         "type": "ENVIRONMENT",
@@ -378,15 +388,5 @@ const db = [
         "description": "As Mongabay deepens its reporting across Africa\u2019s biodiversity and climate challenges, award-winning senior science journalist Aimable Twahirwa is bringing his decades of experience to ensure the region\u2019s stories reach international audiences. For Twahirwa, journalism serves as a tool to not only report on facts, but strengthen general audiences and the media\u2019s resilience. \u201cCountering misinformation and [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/from-kigali-to-the-congo-basin-aimable-twahirwas-path-in-environmental-journalism/",
         "timestamp": "06 Feb 2026 01:28:19 +0000"
-    },
-    {
-        "id": "GS-13829",
-        "title": "WHAT\u2019S NEXT FOR THE MAJOR PLEDGE TO HALT & REVERSE CONGO BASIN DEFORESTATION?",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Copince Ngoma, a member of the Bakouele Indigenous community, has relied on the lush green Congo Basin rainforest his whole life. His village\u2019s forests, located in the Democratic Republic of Congo\u2019s Sangha region, are a wide repertoire for hunting, fishing and medicinal plants to care for his family. But in the last few years, as [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/whats-next-for-the-major-pledge-to-halt-reverse-congo-basin-deforestation/",
-        "timestamp": "05 Feb 2026 23:01:00 +0000"
     }
 ];
