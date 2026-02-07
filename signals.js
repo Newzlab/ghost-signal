@@ -275,7 +275,7 @@ const db = [
         "type": "ENVIRONMENT",
         "cat_code": "ENVI",
         "source": "Conservation news",
-        "description": "&#160; In California\u2019s interior, a long, straight aqueduct carries snowmelt south to a city that grew as if water were a birthright. Along the way it passes a valley that was once defined by water and birds, and is now defined, in part, by what remains when water is removed. A lakebed can become a [&#8230;]",
+        "description": "In California\u2019s interior, a long, straight aqueduct carries snowmelt south to a city that grew as if water were a birthright. Along the way it passes a valley that was once defined by water and birds, and is now defined, in part, by what remains when water is removed. A lakebed can become a workplace. [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/kathy-jefferson-bancroft-guardian-of-a-stolen-lake/",
         "timestamp": "06 Feb 2026 19:40:28 +0000"
     },
