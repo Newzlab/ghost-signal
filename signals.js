@@ -170,14 +170,24 @@ const db = [
         "timestamp": "Sun, 01 Feb 2026 21:10:00 +0000"
     },
     {
-        "id": "GS-hotos",
-        "title": "WHAT WE SAW IN MINNEAPOLIS",
+        "id": "GS-ldren",
+        "title": "THE CHILDREN OF DILLEY",
         "type": "SYSTEMIC",
         "cat_code": "SYST",
         "source": "ProPublica",
         "description": "",
-        "source_url": "https://www.propublica.org/article/minneapolis-immigration-protests-photos",
-        "timestamp": "Sat, 31 Jan 2026 10:00:00 +0000"
+        "source_url": "https://www.propublica.org/article/life-inside-ice-dilley-children",
+        "timestamp": "Mon, 09 Feb 2026 10:30:00 +0000"
+    },
+    {
+        "id": "GS-tters",
+        "title": "\u201cI HAVE BEEN HERE TOO LONG\u201d: READ LETTERS FROM THE CHILDREN DETAINED AT ICE\u2019S DILLEY FACILITY",
+        "type": "SYSTEMIC",
+        "cat_code": "SYST",
+        "source": "ProPublica",
+        "description": "",
+        "source_url": "https://www.propublica.org/article/ice-dilley-children-letters",
+        "timestamp": "Mon, 09 Feb 2026 10:25:00 +0000"
     },
     {
         "id": "GS-orgia",
@@ -210,16 +220,6 @@ const db = [
         "timestamp": "Mon, 02 Feb 2026 10:00:00 +0000"
     },
     {
-        "id": "GS-nesia",
-        "title": "NIKE SAYS ITS FACTORY WORKERS MAKE NEARLY DOUBLE THE MINIMUM WAGE. IN INDONESIA, WORKERS SAY, \u201cIT\u2019S NOT TRUE.\u201d",
-        "type": "SYSTEMIC",
-        "cat_code": "SYST",
-        "source": "ProPublica",
-        "description": "",
-        "source_url": "https://www.propublica.org/article/nike-wages-clothing-shoe-factory-indonesia",
-        "timestamp": "Fri, 30 Jan 2026 10:30:00 +0000"
-    },
-    {
         "id": "GS-64325",
         "title": "SUDAN SIEGE ENDS, VIOLENCE IN PAKISTAN, AND WHO\u2019S IN THE EPSTEIN FILES? THE CHEAT SHEET",
         "type": "HUMANITARIAN",
@@ -248,6 +248,16 @@ const db = [
         "description": "",
         "source_url": "https://www.propublica.org/article/drug-manufacturer-labels-us-senate-bill",
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
+    },
+    {
+        "id": "GS-13961",
+        "title": "RODENT BURROWS OFFER UNUSUAL SANCTUARY TO AFRICA\u2019S SMALLEST WILDCAT",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Under cover of night, a black-footed cat moves almost invisibly through the grasses of southern Namibia, hunting small rodents, birds and insects. Barely a third the size of a domestic cat, its tawny coat speckled with dark spots helps it disappear into the darkened landscape. By day, the cat disappears underground, folding its small body [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/rodent-burrows-offer-unusual-sanctuary-to-africas-smallest-wildcat/",
+        "timestamp": "09 Feb 2026 11:09:40 +0000"
     },
     {
         "id": "GS-13944",
@@ -378,15 +388,5 @@ const db = [
         "description": "Bolivia has added nearly a million hectares to its protected areas over the last several months, an effort by local governments to link Indigenous territories with nearby national parks and strengthen ecological connectivity. The four new protected areas cover 907,244 hectares (2.2 million acres) of Amazon lowlands and Andean highlands, creating corridors intended to improve [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/bolivia-indigenous-communities-local-govts-help-protect-nearly-1-million-hectares/",
         "timestamp": "06 Feb 2026 15:55:33 +0000"
-    },
-    {
-        "id": "GS-13806",
-        "title": "RISK-TAKING COMES EARLIER IN CHIMPANZEES THAN IN HUMANS, STUDY FINDS",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Chimpanzees appear to be the biggest daredevils when they&#8217;re infants. Humans tend to take more chances and put themselves in the most danger in adolescence, so the expectation has been that chimpanzees (Pan troglodytes), among our closest evolutionary cousins, follow a similar pattern. But undergraduate researcher Bryce Murray&#8217;s observations of young chimps \u2014 and especially [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/risk-taking-comes-earlier-in-chimpanzees-than-in-humans-study-finds/",
-        "timestamp": "06 Feb 2026 09:07:37 +0000"
     }
 ];
