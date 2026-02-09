@@ -180,6 +180,16 @@ const db = [
         "timestamp": "Sat, 31 Jan 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-orgia",
+        "title": "THE CONSERVATIVE RESEARCHER BEING LINKED TO THE FBI\u2019S SEIZURE OF ELECTION RECORDS IN GEORGIA",
+        "type": "SYSTEMIC",
+        "cat_code": "SYST",
+        "source": "ProPublica",
+        "description": "",
+        "source_url": "https://www.propublica.org/article/kevin-moncla-election-researcher-fulton-county-georgia",
+        "timestamp": "Mon, 09 Feb 2026 10:00:00 +0000"
+    },
+    {
         "id": "GS-64316",
         "title": "TURNING POINT? TOP DONOR NORWAY LAUNCHES TOTAL AID POLICY REVIEW",
         "type": "HUMANITARIAN",
@@ -210,16 +220,6 @@ const db = [
         "timestamp": "Fri, 30 Jan 2026 10:30:00 +0000"
     },
     {
-        "id": "GS-ocate",
-        "title": "SHE WAS A KEY VOICE OF THE 1990S LABOR MOVEMENT IN NIKE\u2019S INDONESIA FACTORIES. TODAY SHE RELIES ON DONATIONS FROM ABROAD.",
-        "type": "SYSTEMIC",
-        "cat_code": "SYST",
-        "source": "ProPublica",
-        "description": "",
-        "source_url": "https://www.propublica.org/article/nike-factory-worker-rights-indonesia-advocate",
-        "timestamp": "Fri, 30 Jan 2026 10:25:00 +0000"
-    },
-    {
         "id": "GS-64325",
         "title": "SUDAN SIEGE ENDS, VIOLENCE IN PAKISTAN, AND WHO\u2019S IN THE EPSTEIN FILES? THE CHEAT SHEET",
         "type": "HUMANITARIAN",
@@ -248,6 +248,16 @@ const db = [
         "description": "",
         "source_url": "https://www.propublica.org/article/drug-manufacturer-labels-us-senate-bill",
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
+    },
+    {
+        "id": "GS-13944",
+        "title": "LANDSLIDES CLAIM MORE THAN 220 LIVES IN DRC\u2019S RUBAYA COLTAN MINING SITE",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "More than 220 people were killed in two successive landslides on Jan. 28 and 29 in eastern Democratic Republic of Congo. The victims were artisanal miners known as \u201cdiggers.\u201d The accident occurred at the Luwowo mining site in Gasasa, within the Rubaya mining perimeter in Masisi territory, North Kivu. Mines in this area produce around [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/landslides-claim-more-than-220-lives-in-drcs-rubaya-coltan-mining-site/",
+        "timestamp": "09 Feb 2026 07:09:26 +0000"
     },
     {
         "id": "GS-13914",
@@ -378,15 +388,5 @@ const db = [
         "description": "Chimpanzees appear to be the biggest daredevils when they&#8217;re infants. Humans tend to take more chances and put themselves in the most danger in adolescence, so the expectation has been that chimpanzees (Pan troglodytes), among our closest evolutionary cousins, follow a similar pattern. But undergraduate researcher Bryce Murray&#8217;s observations of young chimps \u2014 and especially [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/risk-taking-comes-earlier-in-chimpanzees-than-in-humans-study-finds/",
         "timestamp": "06 Feb 2026 09:07:37 +0000"
-    },
-    {
-        "id": "GS-13771",
-        "title": "ETHIOPIA\u2019S RENAISSANCE MEGA-DAM FUELS ENERGY HOPES AND REGIONAL ANXIETY",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "This January, U.S. President Donald Trump offered to act as a mediator between Egypt and Ethiopia over Nile River waters, signaling renewed interest in the dispute. Ethiopia\u2019s flagship project, the Grand Ethiopian Renaissance Dam (GERD), launched in 2011, has been a source of prolonged friction among Nile Basin countries. The row intensified with the dam\u2019s [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/ethiopias-renaissance-mega-dam-fuels-energy-hopes-and-regional-anxiety/",
-        "timestamp": "06 Feb 2026 06:30:32 +0000"
     }
 ];
