@@ -250,6 +250,26 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-13914",
+        "title": "GERARD C. BOERE, CONSERVATIONIST AND DESIGNER OF FLYWAYS, DIED JAN 6, AGED 83",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "At the edges of continents, where water thins into mud and birds gather before long journeys, conservation has often been a matter of persistence. It has required people willing to think across borders, seasons, and political cycles. Long before such thinking was fashionable, a small group of scientists and civil servants argued that migratory birds [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/gerard-c-boere-conservationist-and-designer-of-flyways-died-jan-6-aged-83/",
+        "timestamp": "09 Feb 2026 03:58:15 +0000"
+    },
+    {
+        "id": "GS-13558",
+        "title": "FINANCING BIODIVERSITY: LISA MILLER ON INVESTING IN NATURE",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Lisa Miller did not arrive at biodiversity finance through spreadsheets or climate models. Her starting point was animals. Growing up in Australia, she was drawn to wildlife in a way that preceded any broader argument about conservation, and by the age of six she already imagined a future working with them. In the 1980s, as [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/financing-biodiversity-lisa-miller-on-investing-in-nature/",
+        "timestamp": "09 Feb 2026 03:03:36 +0000"
+    },
+    {
         "id": "GS-13920",
         "title": "TIPPING POINTS AND ECOSYSTEM COLLAPSE ARE THE REAL GEOPOLITICAL RISK (COMMENTARY)",
         "type": "ENVIRONMENT",
@@ -368,25 +388,5 @@ const db = [
         "description": "This January, U.S. President Donald Trump offered to act as a mediator between Egypt and Ethiopia over Nile River waters, signaling renewed interest in the dispute. Ethiopia\u2019s flagship project, the Grand Ethiopian Renaissance Dam (GERD), launched in 2011, has been a source of prolonged friction among Nile Basin countries. The row intensified with the dam\u2019s [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/ethiopias-renaissance-mega-dam-fuels-energy-hopes-and-regional-anxiety/",
         "timestamp": "06 Feb 2026 06:30:32 +0000"
-    },
-    {
-        "id": "GS-13668",
-        "title": "CRITICAL SHARK AND RAY HABITATS IN WESTERN INDIAN OCEAN LARGELY UNPROTECTED: STUDY",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Sharks and rays in the Western Indian Ocean are facing an extinction crisis. Almost half of the region\u2019s 270 known species (46%) are currently threatened with extinction. A recently released study by the Shark Specialist Group of the IUCN, the global wildlife conservation authority, mapped out areas that are vital for the species\u2019 survival, while [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/critical-shark-and-ray-habitats-in-western-indian-ocean-largely-unprotected-study/",
-        "timestamp": "06 Feb 2026 06:14:24 +0000"
-    },
-    {
-        "id": "GS-13745",
-        "title": "MINES, DAMS MOVE IN AS PROTECTION SLIPS IN A CAMBODIAN WILDLIFE SANCTUARY",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "In Sre Chhuk village, a quiet patch in northeast Cambodia where the Mekong\u2019s smaller veins trace the edge of a fading wildlife sanctuary, Vorn Pang and Sao Thorn once believed their land was safe. By 2018, officials and conservation groups had formalized their farmland as part of the Veal Kambor Community Protected Area (CPA), under [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/mines-dams-move-in-as-protection-slips-in-a-cambodian-wildlife-sanctuary/",
-        "timestamp": "06 Feb 2026 02:54:15 +0000"
     }
 ];
