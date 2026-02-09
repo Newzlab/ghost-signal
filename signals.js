@@ -170,6 +170,16 @@ const db = [
         "timestamp": "Sun, 01 Feb 2026 21:10:00 +0000"
     },
     {
+        "id": "GS-64326",
+        "title": "IN GAZA, MY HOMELAND IS BEING TRANSFORMED INTO AN ENGINEERING PROJECT",
+        "type": "HUMANITARIAN",
+        "cat_code": "HUMA",
+        "source": "The New Humanitarian",
+        "description": "Trump\u2019s Board of Peace is treating Gaza as a management problem, erasing Israeli crimes and the fact that the Palestinian people have rights.",
+        "source_url": "https://www.thenewhumanitarian.org/opinion/2026/02/09/Gaza-Board-of-Peace-homeland-transformed-engineering-project",
+        "timestamp": "Mon, 09 Feb 26 14:54:40 +0000"
+    },
+    {
         "id": "GS-ldren",
         "title": "THE CHILDREN OF DILLEY",
         "type": "SYSTEMIC",
@@ -198,16 +208,6 @@ const db = [
         "description": "",
         "source_url": "https://www.propublica.org/article/kevin-moncla-election-researcher-fulton-county-georgia",
         "timestamp": "Mon, 09 Feb 2026 10:00:00 +0000"
-    },
-    {
-        "id": "GS-64316",
-        "title": "TURNING POINT? TOP DONOR NORWAY LAUNCHES TOTAL AID POLICY REVIEW",
-        "type": "HUMANITARIAN",
-        "cat_code": "HUMA",
-        "source": "The New Humanitarian",
-        "description": "Norway\u2019s aid minister says plans need to change in response to roiling global crises, but he insists cutbacks aren\u2019t part of his reforms.",
-        "source_url": "https://www.thenewhumanitarian.org/news/2026/02/02/turning-point-top-donor-norway-launches-total-aid-policy-review",
-        "timestamp": "Mon, 02 Feb 26 13:49:34 +0000"
     },
     {
         "id": "GS-lines",
@@ -248,6 +248,16 @@ const db = [
         "description": "",
         "source_url": "https://www.propublica.org/article/drug-manufacturer-labels-us-senate-bill",
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
+    },
+    {
+        "id": "GS-13973",
+        "title": "\u2018WE HAVE TO BRING TRUST\u2019 INTO FUNDING TALKS: VAL\u00c9RIA PAYE ON INDIGENOUS-LED FUNDS",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Emotions were running high when Brazilian President Luiz In\u00e1cio Lula da Silva announced the formal recognition of several Indigenous territories at COP30, the U.N. climate conference held in the Amazonian city of Bel\u00e9m. For Indigenous peoples in one of those territories \u2014 the 22,000-square-kilometer (8,500-square-mile) Kaxuyana-Tunayana Territory \u2014 it was a landmark moment in a [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/we-have-to-bring-trust-into-funding-talks-valeria-paye-on-indigenous-led-funds/",
+        "timestamp": "09 Feb 2026 15:13:58 +0000"
     },
     {
         "id": "GS-13961",
