@@ -250,6 +250,16 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-13920",
+        "title": "TIPPING POINTS AND ECOSYSTEM COLLAPSE ARE THE REAL GEOPOLITICAL RISK (COMMENTARY)",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "The focus of\u00a0experts in\u00a0global security\u00a0tends to\u00a0orbit familiar threats. War in Europe and the Middle East. Trade disruption and financial volatility. Technology shocks and threats to information integrity. But the most consequential driver of instability is unfolding under our feet and over our heads. The world&#8217;s climate system is edging toward tipping points and nature is [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/tipping-points-and-ecosystem-collapse-are-the-real-geopolitical-risk-commentary/",
+        "timestamp": "09 Feb 2026 00:25:23 +0000"
+    },
+    {
         "id": "GS-13912",
         "title": "AFTER INTENSE FLOODING, KRUGER NATIONAL PARK RUSHES TO REPAIR DAMAGE",
         "type": "ENVIRONMENT",
@@ -378,15 +388,5 @@ const db = [
         "description": "In Sre Chhuk village, a quiet patch in northeast Cambodia where the Mekong\u2019s smaller veins trace the edge of a fading wildlife sanctuary, Vorn Pang and Sao Thorn once believed their land was safe. By 2018, officials and conservation groups had formalized their farmland as part of the Veal Kambor Community Protected Area (CPA), under [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/mines-dams-move-in-as-protection-slips-in-a-cambodian-wildlife-sanctuary/",
         "timestamp": "06 Feb 2026 02:54:15 +0000"
-    },
-    {
-        "id": "GS-13847",
-        "title": "FROM KIGALI TO THE CONGO BASIN: AIMABLE TWAHIRWA\u2019S PATH IN ENVIRONMENTAL JOURNALISM",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "As Mongabay deepens its reporting across Africa\u2019s biodiversity and climate challenges, award-winning senior science journalist Aimable Twahirwa is bringing his decades of experience to ensure the region\u2019s stories reach international audiences. For Twahirwa, journalism serves as a tool to not only report on facts, but strengthen general audiences and the media\u2019s resilience. \u201cCountering misinformation and [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/from-kigali-to-the-congo-basin-aimable-twahirwas-path-in-environmental-journalism/",
-        "timestamp": "06 Feb 2026 01:28:19 +0000"
     }
 ];
