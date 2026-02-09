@@ -250,6 +250,36 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-13992",
+        "title": "MONGABAY\u2019S RHETT BUTLER ON BUILDING A GLOBAL NEWSROOM FOR LOCAL IMPACT",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "When I launched Mongabay in 1999, I\u2019d just finished college, armed mainly with a love of rainforests, a pile of musty field notes from Borneo to Madagascar and the uneasy realization that the forests I\u2019d explored were vanishing faster than most people knew. I coded the first version of the site by hand in my [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/mongabays-rhett-butler-on-building-a-global-newsroom-for-local-impact/",
+        "timestamp": "09 Feb 2026 18:49:53 +0000"
+    },
+    {
+        "id": "GS-13989",
+        "title": "ANIMALS DYING IN KENYA AS DROUGHT CONDITIONS LEAVE MANY HUNGRY",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "KAMPALA, Uganda (AP) \u2014 Drought conditions have left over 2 million people facing hunger in parts of Kenya, with cattle-keeping communities in the northeast the hardest hit, according to the United Nations and others. In recent weeks, images of emaciated livestock in the arid area near the Somali border have shocked many in a region [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/animals-dying-in-kenya-as-drought-conditions-leave-many-hungry/",
+        "timestamp": "09 Feb 2026 18:20:23 +0000"
+    },
+    {
+        "id": "GS-13784",
+        "title": "ABANDONED TUNA-FISHING DEVICES POLLUTE THE GAL\u00c1PAGOS MARINE RESERVE",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "SANTA CRUZ, GAL\u00c1PAGOS ISLANDS, Ecuador \u2014 \u201cGood morning,\u201d Walter Borbor, a social media-famous fisher, says to his followers in a 2022 Instagram video. \u201cWhat we have here is a plantado.\u201d He points to a large black floating device with a trailing rope that\u2019s wrapped around the tail of a decomposing whale \u2014 right in the [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/abandoned-tuna-fishing-devices-pollute-the-galapagos-marine-reserve/",
+        "timestamp": "09 Feb 2026 17:35:37 +0000"
+    },
+    {
         "id": "GS-13973",
         "title": "\u2018WE HAVE TO BRING TRUST\u2019 INTO FUNDING TALKS: VAL\u00c9RIA PAYE ON INDIGENOUS-LED FUNDS",
         "type": "ENVIRONMENT",
@@ -368,35 +398,5 @@ const db = [
         "description": "RABAT, Morocco (AP) \u2014 More than 140,000 people were evacuated from their homes in northwestern\u00a0Morocco\u00a0as heavy rainfall and water releases from overfilled dams led to flooding, the Interior Ministry said. Stormy weather also disrupted maritime traffic between Morocco and Spain. Torrential rains\u00a0and water releases from overfilled dams raised water levels in recent days in rivers [&#8230;]",
         "source_url": "https://news.mongabay.com/short-article/2026/02/morocco-evacuates-140000-people-as-torrential-rains-and-dam-releases-trigger-floods/",
         "timestamp": "06 Feb 2026 17:40:12 +0000"
-    },
-    {
-        "id": "GS-13895",
-        "title": "WHAT IS LOST WHEN ENVIRONMENTAL COVERAGE IS CUT",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Word that the Washington Post would be cutting roughly one-third of its staff spread quickly this week. Among those affected were at least a dozen reporters, editors, and visual journalists covering climate and the environment. The cuts will materially reduce the Post\u2019s climate coverage. They come just over three years after the paper significantly expanded [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/what-is-lost-when-environmental-coverage-is-cut/",
-        "timestamp": "06 Feb 2026 17:37:20 +0000"
-    },
-    {
-        "id": "GS-13853",
-        "title": "HOW INTERMEDIARIES ARE RESHAPING MANGROVE RESTORATION",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Mangrove forests, located along tropical and subtropical coastlines, are increasingly recognized for their role in buffering climate disasters, storing carbon, supporting wildlife and livelihoods. Yet even as interest in mangrove conservation and restoration has surged in recent years, many projects fail \u2014 seedlings die, sites degrade further or communities disengage. One reason, according to Catherine [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/california-ngo-uses-science-storytelling-to-boost-global-mangrove-restoration/",
-        "timestamp": "06 Feb 2026 16:25:43 +0000"
-    },
-    {
-        "id": "GS-13833",
-        "title": "BOLIVIA INDIGENOUS COMMUNITIES, LOCAL GOV\u2019TS HELP PROTECT NEARLY 1 MILLION HECTARES",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Bolivia has added nearly a million hectares to its protected areas over the last several months, an effort by local governments to link Indigenous territories with nearby national parks and strengthen ecological connectivity. The four new protected areas cover 907,244 hectares (2.2 million acres) of Amazon lowlands and Andean highlands, creating corridors intended to improve [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/bolivia-indigenous-communities-local-govts-help-protect-nearly-1-million-hectares/",
-        "timestamp": "06 Feb 2026 15:55:33 +0000"
     }
 ];
