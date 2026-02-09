@@ -11,18 +11,29 @@ jobs:
       contents: write # Crucial: Allows the bot to save signals.js
     steps:
       - uses: actions/checkout@v4
+      
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.9'
+          
       - name: Install Dependencies
         run: pip install feedparser
+        
       - name: Run Decoder
         run: python fetch_signals.py
-      - name: Commit Signals
+        
+      - name: Commit and Push Signals
         run: |
           git config --global user.name 'GhostSignal-Bot'
           git config --global user.email 'bot@ghostsignal.net'
           git add signals.js
-          git commit -m "UPLINK: Fresh Signals Received" || echo "No changes to commit"
-          git push
+          
+          # Only commit if there are actual changes in signals.js
+          git diff --quiet && git diff --staged --quiet || (git commit -m "UPLINK: Fresh Signals Received")
+          
+          # THE FIX: Pull the latest changes from the server and rebase our news on top
+          git pull --rebase origin main
+          
+          # Push the clean, combined history back to the live site
+          git push origin main
