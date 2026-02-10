@@ -70,6 +70,16 @@ const db = [
         "timestamp": "Wed, 04 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-64327",
+        "title": "LET\u2019S NOT PRETEND THE US WANTS TO FUND PRINCIPLED HUMANITARIAN ACTION",
+        "type": "HUMANITARIAN",
+        "cat_code": "HUMA",
+        "source": "The New Humanitarian",
+        "description": "The US is trying to redefine humanitarian principles by dictating  discrimination. Humanitarians \u2013 and other donors \u2013 must draw a line.",
+        "source_url": "https://www.thenewhumanitarian.org/opinion/2026/02/10/lets-not-pretend-us-fund-principled-humanitarian-action",
+        "timestamp": "Tue, 10 Feb 26 13:04:46 +0000"
+    },
+    {
         "id": "GS-cker/",
         "title": "TRACKING HABEAS CASES",
         "type": "SYSTEMIC",
@@ -108,16 +118,6 @@ const db = [
         "description": "A journey to the South Kivu city exposes the hollowness of the US-mediated accord.",
         "source_url": "https://www.thenewhumanitarian.org/opinion/first-person/2026/02/03/road-dr-congo-uvira-peace-deal-cooked-washington-shows-its-true-face",
         "timestamp": "Tue, 03 Feb 26 13:07:15 +0000"
-    },
-    {
-        "id": "GS-64317",
-        "title": "REPATRIATING CHILDREN FROM SYRIA\u2019S IS CAMPS IS THE RIGHT THING AND THE SMART THING TO DO",
-        "type": "HUMANITARIAN",
-        "cat_code": "HUMA",
-        "source": "The New Humanitarian",
-        "description": "Bringing children home from the al-Hol and al-Roj camps both upholds their rights and protects them and society from the threat of violent extremism.",
-        "source_url": "https://www.thenewhumanitarian.org/opinion/2026/02/03/repatriating-children-syria-camps-right-thing-al-hol-al-roj",
-        "timestamp": "Tue, 03 Feb 26 12:57:03 +0000"
     },
     {
         "id": "GS-posal",
@@ -250,6 +250,26 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-14009",
+        "title": "NEPAL\u2019S COMMUNITY FORESTS SIT ON UNSOLD TIMBER",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "KATHMANDU \u2014 The Khorthali Community Forest User Group in Dolakha, central Nepal, produced 1,189 cubic meters (42,000 cubic feet) of timber in 2025 \u2014 roughly 18 standard 40-foot shipping containers in volume. However, the group could not sell all of it. About 340 m3 (12,000 ft3) of wood still lies on the roadside. \u201cCommunity members [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/nepals-community-forests-sit-on-unsold-timber/",
+        "timestamp": "10 Feb 2026 11:28:43 +0000"
+    },
+    {
+        "id": "GS-13982",
+        "title": "COMMUNITY COMPLAINTS IN LIMBO AS SOCFIN CUTS TIES WITH EARTHWORM FOUNDATION",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "When agribusiness giant Socfin found itself embroiled in allegations of human rights and environmental violations at its plantations in Africa and Southeast Asia in 2017, it called on the Switzerland-based sustainability consultant Earthworm Foundation for help. Earthworm\u2019s investigations eventually substantiated many of the grievances filed by communities across Socfin\u2019s operations, notably including complaints of sexual [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/community-complaints-in-limbo-as-socfin-cuts-ties-with-earthworm-foundation/",
+        "timestamp": "10 Feb 2026 10:15:13 +0000"
+    },
+    {
         "id": "GS-14007",
         "title": "BRAZIL\u2019S RIO DE JANEIRO BANS SHARK MEAT IN MOST STATE SCHOOLS",
         "type": "ENVIRONMENT",
@@ -378,25 +398,5 @@ const db = [
         "description": "The fight against climate change is often framed as a sacrifice: eat less meat and drive less often. But those actions could also be framed positively: eat more plants and ride bikes more often. A new study finds presenting environmental action in a more proactive light makes people more likely to act and feel happier [&#8230;]",
         "source_url": "https://news.mongabay.com/short-article/2026/02/encouragement-boosts-peoples-likelihood-to-take-climate-action/",
         "timestamp": "06 Feb 2026 21:20:20 +0000"
-    },
-    {
-        "id": "GS-13907",
-        "title": "KATHY JEFFERSON BANCROFT, GUARDIAN OF A STOLEN LAKE",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "In California\u2019s interior, a long, straight aqueduct carries snowmelt south to a city that grew as if water were a birthright. Along the way it passes a valley that was once defined by water and birds, and is now defined, in part, by what remains when water is removed. A lakebed can become a workplace. [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/kathy-jefferson-bancroft-guardian-of-a-stolen-lake/",
-        "timestamp": "06 Feb 2026 19:40:28 +0000"
-    },
-    {
-        "id": "GS-13903",
-        "title": "PESTICIDES FOUND IN 70% OF EUROPEAN SOILS, HARMING BENEFICIAL LIFE: STUDY",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "For farmers, sometimes the easiest way to save a crop or prevent catastrophic insect damage is to spray a pesticide. But this common practice is wreaking havoc on the soil, according to new research published recently in the journal Nature. The study examined soil from 26 European countries, finding that pesticide contamination is widespread beyond [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/pesticides-found-in-70-of-european-soils-harming-beneficial-life-study/",
-        "timestamp": "06 Feb 2026 19:29:06 +0000"
     }
 ];
