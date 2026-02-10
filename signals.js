@@ -250,6 +250,16 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-13950",
+        "title": "CAMBODIA\u2019S CANAL MEGA-PROJECT THREATENS COASTAL COMMUNITIES AND MARINE LIFE",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "This is the first of two stories about the potential impact of Cambodia\u2019s planned Funan Techo Canal. Part two, about consequences for inland communities and wildlife, will be published soon. KEP, Cambodia \u2014\u00a0\u201cNobody from the government has spoken to us directly about how we\u2019ll be affected,\u201d Mae Vuthy told Mongabay while he sat on his [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/cambodias-canal-mega-project-threatens-coastal-communities-and-marine-life/",
+        "timestamp": "10 Feb 2026 02:16:15 +0000"
+    },
+    {
         "id": "GS-13992",
         "title": "MONGABAY\u2019S RHETT BUTLER ON BUILDING A GLOBAL NEWSROOM FOR LOCAL IMPACT",
         "type": "ENVIRONMENT",
@@ -388,15 +398,5 @@ const db = [
         "description": "Anyone who looks at a social media feed with any regularity is likely familiar with the deluge of fabricated images and videos now circulating online. Some are harmless curiosities (other than the resource use). Others are more troubling. Among the most consequential are AI-generated depictions of wildlife, which are beginning to distort how people understand [&#8230;]",
         "source_url": "https://news.mongabay.com/short-article/2026/02/ai-generated-wildlife-photos-make-conservation-more-difficult/",
         "timestamp": "06 Feb 2026 18:29:04 +0000"
-    },
-    {
-        "id": "GS-13893",
-        "title": "MOROCCO EVACUATES 140,000 PEOPLE AS TORRENTIAL RAINS AND DAM RELEASES TRIGGER FLOODS",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "RABAT, Morocco (AP) \u2014 More than 140,000 people were evacuated from their homes in northwestern\u00a0Morocco\u00a0as heavy rainfall and water releases from overfilled dams led to flooding, the Interior Ministry said. Stormy weather also disrupted maritime traffic between Morocco and Spain. Torrential rains\u00a0and water releases from overfilled dams raised water levels in recent days in rivers [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/morocco-evacuates-140000-people-as-torrential-rains-and-dam-releases-trigger-floods/",
-        "timestamp": "06 Feb 2026 17:40:12 +0000"
     }
 ];
