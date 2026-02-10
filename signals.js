@@ -70,6 +70,26 @@ const db = [
         "timestamp": "Wed, 04 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-cker/",
+        "title": "TRACKING HABEAS CASES",
+        "type": "SYSTEMIC",
+        "cat_code": "SYST",
+        "source": "ProPublica",
+        "description": "",
+        "source_url": "https://projects.propublica.org/habeas-tracker/",
+        "timestamp": "Tue, 10 Feb 2026 10:05:00 +0000"
+    },
+    {
+        "id": "GS-trump",
+        "title": "IMMIGRANTS WHO SAY THEIR DETENTION IS ILLEGAL HAVE FILED MORE THAN 18,000 CASES. IT\u2019S A HISTORIC HIGH.",
+        "type": "SYSTEMIC",
+        "cat_code": "SYST",
+        "source": "ProPublica",
+        "description": "",
+        "source_url": "https://www.propublica.org/article/habeas-petitions-immigrant-detentions-trump",
+        "timestamp": "Tue, 10 Feb 2026 10:00:00 +0000"
+    },
+    {
         "id": "GS-64319",
         "title": "PAKISTAN\u2019S BALOCH STUDENTS ARE VANISHING, AND NO ONE IS HELD ACCOUNTABLE",
         "type": "HUMANITARIAN",
@@ -160,16 +180,6 @@ const db = [
         "timestamp": "Thu, 05 Feb 2026 10:00:00 +0000"
     },
     {
-        "id": "GS-errez",
-        "title": "TWO CBP AGENTS IDENTIFIED IN ALEX PRETTI SHOOTING",
-        "type": "SYSTEMIC",
-        "cat_code": "SYST",
-        "source": "ProPublica",
-        "description": "",
-        "source_url": "https://www.propublica.org/article/alex-pretti-shooting-cbp-agents-identified-jesus-ochoa-raymundo-gutierrez",
-        "timestamp": "Sun, 01 Feb 2026 21:10:00 +0000"
-    },
-    {
         "id": "GS-64326",
         "title": "IN GAZA, MY HOMELAND IS BEING TRANSFORMED INTO AN ENGINEERING PROJECT",
         "type": "HUMANITARIAN",
@@ -208,16 +218,6 @@ const db = [
         "description": "",
         "source_url": "https://www.propublica.org/article/kevin-moncla-election-researcher-fulton-county-georgia",
         "timestamp": "Mon, 09 Feb 2026 10:00:00 +0000"
-    },
-    {
-        "id": "GS-lines",
-        "title": "FAA WARNS AIRLINES ABOUT SAFETY RISKS FROM ROCKET LAUNCHES, URGES \u201cEXTREME CAUTION\u201d",
-        "type": "SYSTEMIC",
-        "cat_code": "SYST",
-        "source": "ProPublica",
-        "description": "",
-        "source_url": "https://www.propublica.org/article/faa-safety-warning-spacex-starship-explosions-airlines",
-        "timestamp": "Mon, 02 Feb 2026 10:00:00 +0000"
     },
     {
         "id": "GS-64325",
