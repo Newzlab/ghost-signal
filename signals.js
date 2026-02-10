@@ -250,6 +250,16 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-14007",
+        "title": "BRAZIL\u2019S RIO DE JANEIRO BANS SHARK MEAT IN MOST STATE SCHOOLS",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "The Brazilian state of Rio de Janeiro recently announced it has banned the purchase of shark meat for roughly 95% of its state-run schools, citing environmental and health concerns. A July 2025 \u00a0Mongabay investigation found shark meat was commonly purchased for use across Brazil in public institutions, including eldercare facilities and schools. The expos\u00e9 found [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/brazils-rio-de-janeiro-bans-shark-meat-in-most-state-schools/",
+        "timestamp": "10 Feb 2026 03:25:46 +0000"
+    },
+    {
         "id": "GS-13950",
         "title": "CAMBODIA\u2019S CANAL MEGA-PROJECT THREATENS COASTAL COMMUNITIES AND MARINE LIFE",
         "type": "ENVIRONMENT",
@@ -388,15 +398,5 @@ const db = [
         "description": "For farmers, sometimes the easiest way to save a crop or prevent catastrophic insect damage is to spray a pesticide. But this common practice is wreaking havoc on the soil, according to new research published recently in the journal Nature. The study examined soil from 26 European countries, finding that pesticide contamination is widespread beyond [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/pesticides-found-in-70-of-european-soils-harming-beneficial-life-study/",
         "timestamp": "06 Feb 2026 19:29:06 +0000"
-    },
-    {
-        "id": "GS-13898",
-        "title": "AI-GENERATED WILDLIFE PHOTOS MAKE CONSERVATION MORE DIFFICULT",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Anyone who looks at a social media feed with any regularity is likely familiar with the deluge of fabricated images and videos now circulating online. Some are harmless curiosities (other than the resource use). Others are more troubling. Among the most consequential are AI-generated depictions of wildlife, which are beginning to distort how people understand [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/ai-generated-wildlife-photos-make-conservation-more-difficult/",
-        "timestamp": "06 Feb 2026 18:29:04 +0000"
     }
 ];
