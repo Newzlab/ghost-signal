@@ -70,6 +70,26 @@ const db = [
         "timestamp": "Wed, 04 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-64329",
+        "title": "WHAT THE ARCTIC IN A TIME OF CRISIS MEANS FOR HUMANITARIANS",
+        "type": "HUMANITARIAN",
+        "cat_code": "HUMA",
+        "source": "The New Humanitarian",
+        "description": "The climate crisis, the thirst for fossil fuels and critical minerals, colonial legacies and Indigenous rights: A battle for the Arctic has begun.",
+        "source_url": "https://www.thenewhumanitarian.org/editors-take/2026/02/10/what-arctic-time-crisis-means-humanitarians",
+        "timestamp": "Tue, 10 Feb 26 15:31:55 +0000"
+    },
+    {
+        "id": "GS-64328",
+        "title": "DECOLONISE HOW? FROM CRITIQUE TO CONSTRUCTION",
+        "type": "HUMANITARIAN",
+        "cat_code": "HUMA",
+        "source": "The New Humanitarian",
+        "description": "We need to build new structures and develop ways of working to support ethical communications under real-world pressures.",
+        "source_url": "https://www.thenewhumanitarian.org/column/2026/02/10/decolonise-how-critique-construction-ethical-communication-real-world",
+        "timestamp": "Tue, 10 Feb 26 13:37:00 +0000"
+    },
+    {
         "id": "GS-64327",
         "title": "LET\u2019S NOT PRETEND THE US WANTS TO FUND PRINCIPLED HUMANITARIAN ACTION",
         "type": "HUMANITARIAN",
@@ -98,26 +118,6 @@ const db = [
         "description": "",
         "source_url": "https://www.propublica.org/article/habeas-petitions-immigrant-detentions-trump",
         "timestamp": "Tue, 10 Feb 2026 10:00:00 +0000"
-    },
-    {
-        "id": "GS-64319",
-        "title": "PAKISTAN\u2019S BALOCH STUDENTS ARE VANISHING, AND NO ONE IS HELD ACCOUNTABLE",
-        "type": "HUMANITARIAN",
-        "cat_code": "HUMA",
-        "source": "The New Humanitarian",
-        "description": "The recent eruption of violence in Balochistan should also draw attention to an ongoing epidemic of forced disappearances and extrajudicial killings.",
-        "source_url": "https://www.thenewhumanitarian.org/news-feature/2026/02/03/pakistans-baloch-students-are-vanishing-and-no-one-held-accountable",
-        "timestamp": "Tue, 03 Feb 26 14:31:35 +0000"
-    },
-    {
-        "id": "GS-64318",
-        "title": "ON THE ROAD TO DR CONGO\u2019S UVIRA, A PEACE DEAL COOKED UP IN WASHINGTON SHOWS ITS TRUE FACE",
-        "type": "HUMANITARIAN",
-        "cat_code": "HUMA",
-        "source": "The New Humanitarian",
-        "description": "A journey to the South Kivu city exposes the hollowness of the US-mediated accord.",
-        "source_url": "https://www.thenewhumanitarian.org/opinion/first-person/2026/02/03/road-dr-congo-uvira-peace-deal-cooked-washington-shows-its-true-face",
-        "timestamp": "Tue, 03 Feb 26 13:07:15 +0000"
     },
     {
         "id": "GS-posal",
@@ -250,6 +250,46 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-14027",
+        "title": "BIODIVERSITY BONDS CAN WORK, BUT THEIR DESIGN FLAWS MUST BE FIXED (COMMENTARY)",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "The interlinked crises of climate change and biodiversity loss are slipping down political agendas just as geopolitical instability and fiscal pressures rise. Overseas development aid is falling in real terms, and many megadiverse countries are juggling debt stress that pushes conservation to the margins. Meanwhile, the global biodiversity finance gap remains vast, estimated at roughly [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/biodiversity-bonds-can-work-but-their-design-flaws-must-be-fixed-commentary/",
+        "timestamp": "10 Feb 2026 15:49:24 +0000"
+    },
+    {
+        "id": "GS-13934",
+        "title": "WHY A HEALTHY INFORMATION ECOSYSTEM MATTERS",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "When people think about change, they often look for a central actor. A donor whose gift unlocked progress. An organization whose strategy made the difference. An individual whose decision shifted events. These figures are easy to name and easier to photograph. They offer clarity in systems that are otherwise diffuse. What shapes outcomes often sits [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/why-information-matters-before-decisions-do/",
+        "timestamp": "10 Feb 2026 15:48:14 +0000"
+    },
+    {
+        "id": "GS-14037",
+        "title": "INDIGENOUS PROTESTS FORCE BRAZIL TO SUSPEND TAPAJ\u00d3S RIVER DREDGING PLAN",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Brazil has suspended a decree on dredging and privatizing the Tapaj\u00f3s River, a major tributary of the Amazon, after protests shut down a grain terminal \u2014 but Indigenous groups are pressing for its full revocation. Hundreds of Indigenous protesters have since Jan. 22 blockaded the Cargill grain facility in the Amazonian city of Santar\u00e9m over [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/indigenous-protests-force-brazil-to-suspend-tapajos-river-dredging-plan/",
+        "timestamp": "10 Feb 2026 15:38:06 +0000"
+    },
+    {
+        "id": "GS-14001",
+        "title": "UNIDENTIFIED OIL WASHES UP ON SOUTH AFRICAN BEACHES",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "A mysterious oil spill is raising concern among South African conservationists and coastal communities. On Jan. 22, reports started emerging of congealed oil washing up on South Africa\u2019s southeast coast, stretching from George to Durban, some 1,200 kilometers (745 miles) away. Several beaches closed due to the pollution. Citizen networks are monitoring more than 20 [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/unidentified-oil-washes-up-on-south-african-beaches/",
+        "timestamp": "10 Feb 2026 14:59:33 +0000"
+    },
+    {
         "id": "GS-14009",
         "title": "NEPAL\u2019S COMMUNITY FORESTS SIT ON UNSOLD TIMBER",
         "type": "ENVIRONMENT",
@@ -358,45 +398,5 @@ const db = [
         "description": "At the edges of continents, where water thins into mud and birds gather before long journeys, conservation has often been a matter of persistence. It has required people willing to think across borders, seasons, and political cycles. Long before such thinking was fashionable, a small group of scientists and civil servants argued that migratory birds [&#8230;]",
         "source_url": "https://news.mongabay.com/short-article/2026/02/gerard-c-boere-conservationist-and-designer-of-flyways-died-jan-6-aged-83/",
         "timestamp": "09 Feb 2026 03:58:15 +0000"
-    },
-    {
-        "id": "GS-13558",
-        "title": "FINANCING BIODIVERSITY: LISA MILLER ON INVESTING IN NATURE",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Lisa Miller did not arrive at biodiversity finance through spreadsheets or climate models. Her starting point was animals. Growing up in Australia, she was drawn to wildlife in a way that preceded any broader argument about conservation, and by the age of six she already imagined a future working with them. In the 1980s, as [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/financing-biodiversity-lisa-miller-on-investing-in-nature/",
-        "timestamp": "09 Feb 2026 03:03:36 +0000"
-    },
-    {
-        "id": "GS-13920",
-        "title": "TIPPING POINTS AND ECOSYSTEM COLLAPSE ARE THE REAL GEOPOLITICAL RISK (COMMENTARY)",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "The focus of\u00a0experts in\u00a0global security\u00a0tends to\u00a0orbit familiar threats. War in Europe and the Middle East. Trade disruption and financial volatility. Technology shocks and threats to information integrity. But the most consequential driver of instability is unfolding under our feet and over our heads. The world&#8217;s climate system is edging toward tipping points and nature is [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/tipping-points-and-ecosystem-collapse-are-the-real-geopolitical-risk-commentary/",
-        "timestamp": "09 Feb 2026 00:25:23 +0000"
-    },
-    {
-        "id": "GS-13912",
-        "title": "AFTER INTENSE FLOODING, KRUGER NATIONAL PARK RUSHES TO REPAIR DAMAGE",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "In mid-January, intense flooding across South Africa\u2019s Mpumalanga and Limpopo provinces forced Kruger National Park to briefly close to day visitors. Now, South African National Parks (SANParks) says it has reopened some roads and camp infrastructure. \u201cRestoration efforts are ongoing, and visitor safety remains our highest priority,\u201d the agency wrote in a Feb. 2 update. [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/after-intense-flooding-kruger-national-park-rushes-to-repair-damage/",
-        "timestamp": "06 Feb 2026 23:07:44 +0000"
-    },
-    {
-        "id": "GS-13909",
-        "title": "ENCOURAGEMENT BOOSTS PEOPLE\u2019S LIKELIHOOD TO TAKE CLIMATE ACTION",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "The fight against climate change is often framed as a sacrifice: eat less meat and drive less often. But those actions could also be framed positively: eat more plants and ride bikes more often. A new study finds presenting environmental action in a more proactive light makes people more likely to act and feel happier [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/encouragement-boosts-peoples-likelihood-to-take-climate-action/",
-        "timestamp": "06 Feb 2026 21:20:20 +0000"
     }
 ];
