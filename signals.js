@@ -60,16 +60,6 @@ const db = [
         "timestamp": "Wed, 04 Feb 2026 10:30:00 +0000"
     },
     {
-        "id": "GS-mpact",
-        "title": "IDAHO SEEKS TO IMPROVE ITS TROUBLED CORONER SYSTEM AND LAGGING CHILD AUTOPSY RATES",
-        "type": "SYSTEMIC",
-        "cat_code": "SYST",
-        "source": "ProPublica",
-        "description": "",
-        "source_url": "https://www.propublica.org/article/idaho-coroner-system-legislation-impact",
-        "timestamp": "Wed, 04 Feb 2026 10:00:00 +0000"
-    },
-    {
         "id": "GS-64329",
         "title": "WHAT THE ARCTIC IN A TIME OF CRISIS MEANS FOR HUMANITARIANS",
         "type": "HUMANITARIAN",
@@ -98,6 +88,16 @@ const db = [
         "description": "The US is trying to redefine humanitarian principles by dictating  discrimination. Humanitarians \u2013 and other donors \u2013 must draw a line.",
         "source_url": "https://www.thenewhumanitarian.org/opinion/2026/02/10/lets-not-pretend-us-fund-principled-humanitarian-action",
         "timestamp": "Tue, 10 Feb 26 13:04:46 +0000"
+    },
+    {
+        "id": "GS-ssure",
+        "title": "UNDER GOP PRESSURE, FEDERAL AGENCY PULLS CLIMATE CHANGE CHAPTER FROM OFFICIAL MANUAL FOR U.S. JUDGES",
+        "type": "SYSTEMIC",
+        "cat_code": "SYST",
+        "source": "ProPublica",
+        "description": "",
+        "source_url": "https://www.propublica.org/article/federal-judicial-center-climate-change-republican-pressure",
+        "timestamp": "Tue, 10 Feb 2026 20:15:00 +0000"
     },
     {
         "id": "GS--pfas",
@@ -250,6 +250,16 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-14049",
+        "title": "MEXICO CONSIDERS SHRINKING PROTECTED AREAS FOR ENDANGERED VAQUITA PORPOISE",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "MEXICO CITY \u2014 Mexican officials have proposed scaling back fishing regulations meant to protect a narrow stretch of ocean home to the last 10 remaining vaquitas, the world\u2019s smallest species of porpoise. If implemented, the changes could shrink protected areas and open up vessel traffic in the northern Gulf of California, the stretch of water [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/mexico-considers-shrinking-protected-areas-for-endangered-vaquita-porpoise/",
+        "timestamp": "10 Feb 2026 20:57:11 +0000"
+    },
+    {
         "id": "GS-14039",
         "title": "SCIENTISTS CALL FOR ETHICS RULES AS AI FUELS ANIMAL COMMUNICATION RESEARCH",
         "type": "ENVIRONMENT",
@@ -388,15 +398,5 @@ const db = [
         "description": "Under cover of night, a black-footed cat moves almost invisibly through the grasses of southern Namibia, hunting small rodents, birds and insects. Barely a third the size of a domestic cat, its tawny coat speckled with dark spots helps it disappear into the darkened landscape. By day, the cat disappears underground, folding its small body [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/rodent-burrows-offer-unusual-sanctuary-to-africas-smallest-wildcat/",
         "timestamp": "09 Feb 2026 11:09:40 +0000"
-    },
-    {
-        "id": "GS-13944",
-        "title": "LANDSLIDES CLAIM MORE THAN 220 LIVES IN DRC\u2019S RUBAYA COLTAN MINING SITE",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "More than 220 people were killed in two successive landslides on Jan. 28 and 29 in eastern Democratic Republic of Congo. The victims were artisanal miners known as \u201cdiggers.\u201d The accident occurred at the Luwowo mining site in Gasasa, within the Rubaya mining perimeter in Masisi territory, North Kivu. Mines in this area produce around [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/landslides-claim-more-than-220-lives-in-drcs-rubaya-coltan-mining-site/",
-        "timestamp": "09 Feb 2026 07:09:26 +0000"
     }
 ];
