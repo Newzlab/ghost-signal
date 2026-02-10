@@ -100,6 +100,16 @@ const db = [
         "timestamp": "Tue, 10 Feb 26 13:04:46 +0000"
     },
     {
+        "id": "GS--pfas",
+        "title": "FIREFIGHTERS WORE GEAR CONTAINING \u201cFOREVER CHEMICALS.\u201d THE FOREST SERVICE KNEW AND STAYED SILENT FOR YEARS.",
+        "type": "SYSTEMIC",
+        "cat_code": "SYST",
+        "source": "ProPublica",
+        "description": "",
+        "source_url": "https://www.propublica.org/article/forest-service-forever-chemical-firefighter-pfas",
+        "timestamp": "Tue, 10 Feb 2026 17:40:00 +0000"
+    },
+    {
         "id": "GS-cker/",
         "title": "TRACKING HABEAS CASES",
         "type": "SYSTEMIC",
@@ -118,16 +128,6 @@ const db = [
         "description": "",
         "source_url": "https://www.propublica.org/article/habeas-petitions-immigrant-detentions-trump",
         "timestamp": "Tue, 10 Feb 2026 10:00:00 +0000"
-    },
-    {
-        "id": "GS-posal",
-        "title": "MASS. GOVERNOR PROPOSES ELIMINATING STATUTE OF LIMITATIONS FOR RAPE WHEN DNA EVIDENCE EXISTS",
-        "type": "SYSTEMIC",
-        "cat_code": "SYST",
-        "source": "ProPublica",
-        "description": "",
-        "source_url": "https://www.propublica.org/article/massachusetts-rape-statute-of-limitations-dna-healey-proposal",
-        "timestamp": "Tue, 03 Feb 2026 15:45:00 +0000"
     },
     {
         "id": "GS-64324",
@@ -248,6 +248,16 @@ const db = [
         "description": "",
         "source_url": "https://www.propublica.org/article/drug-manufacturer-labels-us-senate-bill",
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
+    },
+    {
+        "id": "GS-14039",
+        "title": "SCIENTISTS CALL FOR ETHICS RULES AS AI FUELS ANIMAL COMMUNICATION RESEARCH",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Researchers have proposed a new ethical framework to regulate emerging technologies, such as artificial intelligence and machine learning, used to decode animal communication, Ana Cristina Alvarado reports for Mongabay Latam. The proposed guidelines, known as the PEPP Framework, which stands for Prepare, Engage, Prevent and Protect, lay out the principles for studying animal communication responsibly. [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/scientists-call-for-ethics-rules-as-ai-fuels-animal-communication-research/",
+        "timestamp": "10 Feb 2026 16:14:37 +0000"
     },
     {
         "id": "GS-14027",
@@ -388,15 +398,5 @@ const db = [
         "description": "More than 220 people were killed in two successive landslides on Jan. 28 and 29 in eastern Democratic Republic of Congo. The victims were artisanal miners known as \u201cdiggers.\u201d The accident occurred at the Luwowo mining site in Gasasa, within the Rubaya mining perimeter in Masisi territory, North Kivu. Mines in this area produce around [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/landslides-claim-more-than-220-lives-in-drcs-rubaya-coltan-mining-site/",
         "timestamp": "09 Feb 2026 07:09:26 +0000"
-    },
-    {
-        "id": "GS-13914",
-        "title": "GERARD C. BOERE, CONSERVATIONIST AND DESIGNER OF FLYWAYS, DIED JAN 6, AGED 83",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "At the edges of continents, where water thins into mud and birds gather before long journeys, conservation has often been a matter of persistence. It has required people willing to think across borders, seasons, and political cycles. Long before such thinking was fashionable, a small group of scientists and civil servants argued that migratory birds [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/gerard-c-boere-conservationist-and-designer-of-flyways-died-jan-6-aged-83/",
-        "timestamp": "09 Feb 2026 03:58:15 +0000"
     }
 ];
