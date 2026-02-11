@@ -1,5 +1,15 @@
 const db = [
     {
+        "id": "GS-64330",
+        "title": "DEMOCRACY IN DARKNESS: ATTACKS ON JOURNALISTS SILENCE PRE-ELECTION BANGLADESH",
+        "type": "HUMANITARIAN",
+        "cat_code": "HUMA",
+        "source": "The New Humanitarian",
+        "description": "Without coverage, victims remain invisible, aid groups cannot respond, and humanitarian crises vanish in the fog of mob violence.",
+        "source_url": "https://www.thenewhumanitarian.org/analysis/2026/02/11/democracy-darkness-attacks-journalists-silence-pre-election-bangladesh",
+        "timestamp": "Wed, 11 Feb 26 14:33:55 +0000"
+    },
+    {
         "id": "GS-ssons",
         "title": "AS HELENE SURVIVORS WAIT FOR STATE HELP, SOME VICTIMS OF EARLIER HURRICANES ARE STILL OUT OF THEIR HOMES",
         "type": "SYSTEMIC",
@@ -28,16 +38,6 @@ const db = [
         "description": "Taking advantage of an unprecedented governance crisis, criminal groups are consolidating their hold on communities through extortions and killings.",
         "source_url": "https://www.thenewhumanitarian.org/news-feature/2026/02/04/organised-crime-surges-peru-are-left-fend-themselves",
         "timestamp": "Wed, 04 Feb 26 15:20:31 +0000"
-    },
-    {
-        "id": "GS-64320",
-        "title": "WHY TANZANIA\u2019S MASS REPATRIATION OF BURUNDI REFUGEES MUST BE STOPPED",
-        "type": "HUMANITARIAN",
-        "cat_code": "HUMA",
-        "source": "The New Humanitarian",
-        "description": "Detentions, torture, and the extra judicial killings of government opponents is prevalent in Burundi, and a threat to returning refugees.",
-        "source_url": "https://www.thenewhumanitarian.org/opinion/2026/02/04/why-tanzania-mass-repatriation-burundi-refugees-must-be-stopped",
-        "timestamp": "Wed, 04 Feb 26 12:27:24 +0000"
     },
     {
         "id": "GS-ragua",
@@ -250,6 +250,16 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-14015",
+        "title": "\u2018FREE FOR ALL\u2019 \u2014 DOMINICAN REPUBLIC WITHDRAWS TRADE PROTECTIONS, THE LATEST BLOW TO AMERICAN EELS\u2019 FUTURE",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Slimy, snake-shaped and yellow-brown, freshwater eels swim the rivers, estuaries and the coastal waters of Asia, Oceania, Europe, Africa and North America. Despite what their name says, these fish have strong ties to the oceans: They spawn at sea and the babies drift to their freshwater habitats, piggybacking on ocean currents. Though there are 19 [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/free-for-all-dominican-republic-withdraws-trade-protections-the-latest-blow-to-american-eels-future/",
+        "timestamp": "11 Feb 2026 14:50:57 +0000"
+    },
+    {
         "id": "GS-14094",
         "title": "CITIZEN SCIENCE REDISCOVERS RARE SOUTH AFRICAN MOTH",
         "type": "ENVIRONMENT",
@@ -288,6 +298,16 @@ const db = [
         "description": "JAKARTA \u2014 Indonesia\u2019s steel industry is becoming one of the country\u2019s fastest-growing sources of greenhouse gas emissions, even as it receives far less public attention than other carbon-intensive sectors. The industry is already one of the country\u2019s largest industrial emitters, and is set to become far more polluting if current trends continue, according to a [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/indonesias-steel-expansion-risks-a-surge-in-greenhouse-gas-emissions/",
         "timestamp": "11 Feb 2026 04:31:03 +0000"
+    },
+    {
+        "id": "GS-14016",
+        "title": "THE MAN WHO RISKED EVERYTHING TO STEAL BIRD EGGS",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Jeffrey Lendrum spent nearly four decades traveling the world in search of rare bird eggs, becoming one of the most notorious wildlife smugglers on the planet. Operating across multiple continents, he targeted nesting sites from the African savanna to the Arctic Circle, dangling from helicopters and scaling cliffs to collect eggs from birds of prey [&#8230;]",
+        "source_url": "https://news.mongabay.com/video/2026/02/the-man-who-risked-everything-to-steal-bird-eggs/",
+        "timestamp": "11 Feb 2026 00:01:37 +0000"
     },
     {
         "id": "GS-14057",
@@ -378,25 +398,5 @@ const db = [
         "description": "KATHMANDU \u2014 The Khorthali Community Forest User Group in Dolakha, central Nepal, produced 1,189 cubic meters (42,000 cubic feet) of timber in 2025 \u2014 roughly 18 standard 40-foot shipping containers in volume. However, the group could not sell all of it. About 340 m3 (12,000 ft3) of wood still lies on the roadside. \u201cCommunity members [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/nepals-community-forests-sit-on-unsold-timber/",
         "timestamp": "10 Feb 2026 11:28:43 +0000"
-    },
-    {
-        "id": "GS-13982",
-        "title": "COMMUNITY COMPLAINTS IN LIMBO AS SOCFIN CUTS TIES WITH EARTHWORM FOUNDATION",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "When agribusiness giant Socfin found itself embroiled in allegations of human rights and environmental violations at its plantations in Africa and Southeast Asia in 2017, it called on the Switzerland-based sustainability consultant Earthworm Foundation for help. Earthworm\u2019s investigations eventually substantiated many of the grievances filed by communities across Socfin\u2019s operations, notably including complaints of sexual [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/community-complaints-in-limbo-as-socfin-cuts-ties-with-earthworm-foundation/",
-        "timestamp": "10 Feb 2026 10:15:13 +0000"
-    },
-    {
-        "id": "GS-14007",
-        "title": "BRAZIL\u2019S RIO DE JANEIRO BANS SHARK MEAT IN MOST STATE SCHOOLS",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "The Brazilian state of Rio de Janeiro recently announced it has banned the purchase of shark meat for roughly 95% of its state-run schools, citing environmental and health concerns. A July 2025 \u00a0Mongabay investigation found shark meat was commonly purchased for use across Brazil in public institutions, including eldercare facilities and schools. The expos\u00e9 found [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/brazils-rio-de-janeiro-bans-shark-meat-in-most-state-schools/",
-        "timestamp": "10 Feb 2026 03:25:46 +0000"
     }
 ];
