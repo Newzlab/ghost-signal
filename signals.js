@@ -250,6 +250,16 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-14073",
+        "title": "INDONESIA\u2019S STEEL EXPANSION RISKS A SURGE IN GREENHOUSE GAS EMISSIONS",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "JAKARTA \u2014 Indonesia\u2019s steel industry is becoming one of the country\u2019s fastest-growing sources of greenhouse gas emissions, even as it receives far less public attention than other carbon-intensive sectors. The industry is already one of the country\u2019s largest industrial emitters, and is set to become far more polluting if current trends continue, according to a [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/indonesias-steel-expansion-risks-a-surge-in-greenhouse-gas-emissions/",
+        "timestamp": "11 Feb 2026 04:31:03 +0000"
+    },
+    {
         "id": "GS-14057",
         "title": "TRUMP OPENS ONLY US MARINE NATIONAL MONUMENT IN ATLANTIC TO FISHING \u2014 AGAIN",
         "type": "ENVIRONMENT",
@@ -388,15 +398,5 @@ const db = [
         "description": "KAMPALA, Uganda (AP) \u2014 Drought conditions have left over 2 million people facing hunger in parts of Kenya, with cattle-keeping communities in the northeast the hardest hit, according to the United Nations and others. In recent weeks, images of emaciated livestock in the arid area near the Somali border have shocked many in a region [&#8230;]",
         "source_url": "https://news.mongabay.com/short-article/2026/02/animals-dying-in-kenya-as-drought-conditions-leave-many-hungry/",
         "timestamp": "09 Feb 2026 18:20:23 +0000"
-    },
-    {
-        "id": "GS-13784",
-        "title": "ABANDONED TUNA-FISHING DEVICES POLLUTE THE GAL\u00c1PAGOS MARINE RESERVE",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "SANTA CRUZ, GAL\u00c1PAGOS ISLANDS, Ecuador \u2014 \u201cGood morning,\u201d Walter Borbor, a social media-famous fisher, says to his followers in a 2022 Instagram video. \u201cWhat we have here is a plantado.\u201d He points to a large black floating device with a trailing rope that\u2019s wrapped around the tail of a decomposing whale \u2014 right in the [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/abandoned-tuna-fishing-devices-pollute-the-galapagos-marine-reserve/",
-        "timestamp": "09 Feb 2026 17:35:37 +0000"
     }
 ];
