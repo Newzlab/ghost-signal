@@ -1,5 +1,15 @@
 const db = [
     {
+        "id": "GS-ssons",
+        "title": "AS HELENE SURVIVORS WAIT FOR STATE HELP, SOME VICTIMS OF EARLIER HURRICANES ARE STILL OUT OF THEIR HOMES",
+        "type": "SYSTEMIC",
+        "cat_code": "SYST",
+        "source": "ProPublica",
+        "description": "",
+        "source_url": "https://www.propublica.org/article/hurricane-helene-housing-recovery-program-lessons",
+        "timestamp": "Wed, 11 Feb 2026 10:00:00 +0000"
+    },
+    {
         "id": "GS-64322",
         "title": "ARRESTS AND RED TAPE: HOW BURKINA FASO\u2019S JUNTA IS THROTTLING HUMANITARIAN AID",
         "type": "HUMANITARIAN",
@@ -48,16 +58,6 @@ const db = [
         "description": "",
         "source_url": "https://www.propublica.org/article/jackson-mississippi-synagogue-arson-antisemitism",
         "timestamp": "Wed, 04 Feb 2026 11:00:00 +0000"
-    },
-    {
-        "id": "GS-ochul",
-        "title": "WE FOUND NEW YORK\u2019S GUARDIANSHIP SYSTEM IN SHAMBLES. NOW STATE LAWMAKERS SAY THEY HAVE A PLAN TO HELP FIX IT.",
-        "type": "SYSTEMIC",
-        "cat_code": "SYST",
-        "source": "ProPublica",
-        "description": "",
-        "source_url": "https://www.propublica.org/article/new-york-good-guardianship-act-kathy-hochul",
-        "timestamp": "Wed, 04 Feb 2026 10:30:00 +0000"
     },
     {
         "id": "GS-64329",
@@ -250,6 +250,16 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-14050",
+        "title": "BANGLADESH\u2019S POLITICAL PARTIES SHARE MANIFESTOS, LEAVE ENVIRONMENTALISTS FRUSTRATED",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Feb. 12 marks Bangladesh\u2019s first national election poll since the 2024 mass uprising and the consequent fall of the Awami League government after 15 years in power, a period its political opponents blame for policies that accelerated environmental degradation, among other faults. In the lead up to the 13th Jatiya Sangsad (National Parliament) Election, there [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/bangladeshs-political-parties-share-manifestos-leaves-environmentalists-frustrated/",
+        "timestamp": "11 Feb 2026 08:32:09 +0000"
+    },
+    {
         "id": "GS-14073",
         "title": "INDONESIA\u2019S STEEL EXPANSION RISKS A SURGE IN GREENHOUSE GAS EMISSIONS",
         "type": "ENVIRONMENT",
@@ -388,15 +398,5 @@ const db = [
         "description": "When I launched Mongabay in 1999, I\u2019d just finished college, armed mainly with a love of rainforests, a pile of musty field notes from Borneo to Madagascar and the uneasy realization that the forests I\u2019d explored were vanishing faster than most people knew. I coded the first version of the site by hand in my [&#8230;]",
         "source_url": "https://news.mongabay.com/short-article/2026/02/mongabays-rhett-butler-on-building-a-global-newsroom-for-local-impact/",
         "timestamp": "09 Feb 2026 18:49:53 +0000"
-    },
-    {
-        "id": "GS-13989",
-        "title": "ANIMALS DYING IN KENYA AS DROUGHT CONDITIONS LEAVE MANY HUNGRY",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "KAMPALA, Uganda (AP) \u2014 Drought conditions have left over 2 million people facing hunger in parts of Kenya, with cattle-keeping communities in the northeast the hardest hit, according to the United Nations and others. In recent weeks, images of emaciated livestock in the arid area near the Somali border have shocked many in a region [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/animals-dying-in-kenya-as-drought-conditions-leave-many-hungry/",
-        "timestamp": "09 Feb 2026 18:20:23 +0000"
     }
 ];
