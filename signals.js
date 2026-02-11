@@ -250,6 +250,26 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-14094",
+        "title": "CITIZEN SCIENCE REDISCOVERS RARE SOUTH AFRICAN MOTH",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "A strikingly handsome emerald-green moth, lost to science for nearly one-and-a-half centuries, has been rediscovered in South Africa by citizen scientists who posted photographs of it online. The moth, Drepanogynis insciata, whose body and wing margins look as though they\u2019ve been stained with red wine, was thought to be extinct. The species hadn\u2019t been recorded [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/citizen-science-rediscovers-rare-south-african-moth/",
+        "timestamp": "11 Feb 2026 13:00:22 +0000"
+    },
+    {
+        "id": "GS-14068",
+        "title": "MAPPING UNDERGROUND FUNGAL NETWORKS: INTERVIEW WITH SPUN\u2019S TOBY KIERS",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "All around her, scientists had their eyes set on studying flora and fauna that lived aboveground. But Toby Kiers\u2019s interest always lay in the oft-overlooked biodiversity that existed beneath it. It was the mysterious nature of the vast mycorrhizal fungal networks that so fascinated Kiers. \u201cIt\u2019s so alive, but humble and quiet,\u201d Kiers, an evolutionary [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/mapping-underground-fungal-networks-interview-with-spuns-toby-kiers/",
+        "timestamp": "11 Feb 2026 10:16:46 +0000"
+    },
+    {
         "id": "GS-14050",
         "title": "BANGLADESH\u2019S POLITICAL PARTIES SHARE MANIFESTOS, LEAVE ENVIRONMENTALISTS FRUSTRATED",
         "type": "ENVIRONMENT",
@@ -378,25 +398,5 @@ const db = [
         "description": "The Brazilian state of Rio de Janeiro recently announced it has banned the purchase of shark meat for roughly 95% of its state-run schools, citing environmental and health concerns. A July 2025 \u00a0Mongabay investigation found shark meat was commonly purchased for use across Brazil in public institutions, including eldercare facilities and schools. The expos\u00e9 found [&#8230;]",
         "source_url": "https://news.mongabay.com/short-article/2026/02/brazils-rio-de-janeiro-bans-shark-meat-in-most-state-schools/",
         "timestamp": "10 Feb 2026 03:25:46 +0000"
-    },
-    {
-        "id": "GS-13950",
-        "title": "CAMBODIA\u2019S CANAL MEGA-PROJECT THREATENS COASTAL COMMUNITIES AND MARINE LIFE",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "This is the first of two stories about the potential impact of Cambodia\u2019s planned Funan Techo Canal. Part two, about consequences for inland communities and wildlife, will be published soon. KEP, Cambodia \u2014\u00a0\u201cNobody from the government has spoken to us directly about how we\u2019ll be affected,\u201d Mae Vuthy told Mongabay while he sat on his [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/cambodias-canal-mega-project-threatens-coastal-communities-and-marine-life/",
-        "timestamp": "10 Feb 2026 02:16:15 +0000"
-    },
-    {
-        "id": "GS-13992",
-        "title": "MONGABAY\u2019S RHETT BUTLER ON BUILDING A GLOBAL NEWSROOM FOR LOCAL IMPACT",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "When I launched Mongabay in 1999, I\u2019d just finished college, armed mainly with a love of rainforests, a pile of musty field notes from Borneo to Madagascar and the uneasy realization that the forests I\u2019d explored were vanishing faster than most people knew. I coded the first version of the site by hand in my [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/mongabays-rhett-butler-on-building-a-global-newsroom-for-local-impact/",
-        "timestamp": "09 Feb 2026 18:49:53 +0000"
     }
 ];
