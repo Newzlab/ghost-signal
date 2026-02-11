@@ -1,5 +1,15 @@
 const db = [
     {
+        "id": "GS-64331",
+        "title": "COMPLIANT AID: WHO ARE THE ISRAEL-APPROVED NGOS SCALING UP IN GAZA?",
+        "type": "HUMANITARIAN",
+        "cat_code": "HUMA",
+        "source": "The New Humanitarian",
+        "description": "As established groups that see advocacy as part of their mission are banned, a new cohort is being given preferential treatment to take their place.",
+        "source_url": "https://www.thenewhumanitarian.org/investigations/2026/02/11/compliant-aid-who-are-israel-approved-ngos-scaling-gaza",
+        "timestamp": "Wed, 11 Feb 26 17:43:00 +0000"
+    },
+    {
         "id": "GS-64330",
         "title": "DEMOCRACY IN DARKNESS: ATTACKS ON JOURNALISTS SILENCE PRE-ELECTION BANGLADESH",
         "type": "HUMANITARIAN",
@@ -28,16 +38,6 @@ const db = [
         "description": "Military rulers are tightening control through access bans, legal threats, and control of data.",
         "source_url": "https://www.thenewhumanitarian.org/analysis/2026/02/04/arrests-red-tape-how-burkina-faso-junta-throttling-humanitarian-aid",
         "timestamp": "Wed, 04 Feb 26 15:47:46 +0000"
-    },
-    {
-        "id": "GS-64321",
-        "title": "AS ORGANISED CRIME SURGES, PERUVIANS ARE LEFT TO FEND FOR THEMSELVES",
-        "type": "HUMANITARIAN",
-        "cat_code": "HUMA",
-        "source": "The New Humanitarian",
-        "description": "Taking advantage of an unprecedented governance crisis, criminal groups are consolidating their hold on communities through extortions and killings.",
-        "source_url": "https://www.thenewhumanitarian.org/news-feature/2026/02/04/organised-crime-surges-peru-are-left-fend-themselves",
-        "timestamp": "Wed, 04 Feb 26 15:20:31 +0000"
     },
     {
         "id": "GS-ragua",
@@ -250,6 +250,66 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-14157",
+        "title": "SNAKES ON A TRAIN: KING COBRAS ARE HITCHING RIDES IN INDIA",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "On India\u2019s railways, stowaways are not limited to ticketless passengers. Some arrive without limbs, luggage or much interest in timetables. A paper recently published in Biotropica suggests that king cobras (Ophiophagus kaalinga) may occasionally hitch a ride on trains in western India, turning railways into unexpected dispersal routes. The study, by Dikansh S. Parmar and [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/snakes-on-a-train-king-cobras-are-hitching-rides-in-india/",
+        "timestamp": "11 Feb 2026 18:55:02 +0000"
+    },
+    {
+        "id": "GS-14155",
+        "title": "STUDY FINDS CLIMATE CHANGE SET THE STAGE FOR DEVASTATING WILDFIRES IN ARGENTINA AND CHILE",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "BUENOS AIRES, Argentina (AP) \u2014 A team of researchers say that human-caused climate change had an important impact on the recent ferocious wildfires that engulfed parts of Chile and Argentina\u2019s Patagonia region, making the extremely high-risk conditions that led to widespread burning up to three times more likely than in a world without global warming. [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/study-finds-climate-change-set-the-stage-for-devastating-wildfires-in-argentina-and-chile/",
+        "timestamp": "11 Feb 2026 18:33:08 +0000"
+    },
+    {
+        "id": "GS-14071",
+        "title": "IN KENYA\u2019S JOMVU CREEK, WOMEN HELP RESTORE A VANISHING COAST THROUGH CRAB FARMING",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "MOMBASA COUNTY, Kenya \u2014 Five minutes\u2019 walk up the hilly road from the mangroves lining the tidal flats of Jomvu Creek, the sharp scent of sea water fills the air. A dozen women fill a small hall with laughter and conversation. In the coastal villages of Mombasa county, these gatherings of women to manage informal [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/in-kenyas-jomvu-creek-women-help-restore-a-vanishing-coast-through-crab-farming/",
+        "timestamp": "11 Feb 2026 18:13:17 +0000"
+    },
+    {
+        "id": "GS-14134",
+        "title": "ANOTHER CONTROVERSIAL LAND DEAL IN SURINAME THREATENS THE AMAZON RAINFOREST",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "Officials in Suriname are trying to cancel a controversial agribusiness contract that could result in the clearance of over a hundred thousand hectares of Amazon rainforest, risking the country\u2019s carbon-negative status. In 2024, the agriculture ministry partnered with a private company to develop 113,465 hectares (280,378 acres) of rainforest for industrial agriculture in the northwestern [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/another-controversial-land-deal-in-suriname-threatens-the-amazon-rainforest/",
+        "timestamp": "11 Feb 2026 18:05:21 +0000"
+    },
+    {
+        "id": "GS-14108",
+        "title": "BRAZIL\u2019S ATLANTIC FOREST INDIGENOUS LANDS SHOW STRONG RESTORATION GAINS",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "\u201cThe land is the greatest asset we have,\u201d said Luzineth Patax\u00f3, a Patax\u00f3 leader from the Caramuru-Paragua\u00e7u Indigenous Territory, in the Atlantic forests of Brazil\u2019s Bahia state. \u201cOur people have always taken care of our territory and forests because it is from them that we derive our livelihoods \u2026 and connect with the sacred beings [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/brazils-atlantic-forest-indigenous-lands-show-strong-restoration-gains/",
+        "timestamp": "11 Feb 2026 17:34:47 +0000"
+    },
+    {
+        "id": "GS-14054",
+        "title": "INDIGENOUS CONCERNS SURFACE AS U.S. AGENCY CONSIDERS SEABED MINING IN ALASKAN WATERS",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "A U.S. federal agency\u00a0is considering allowing companies to lease more than 45.7 million hectares (113 million acres) of waters off Alaska for seabed mining. Alaska is the latest of several places President Donald Trump has sought to open to the fledging industry over the past year, including waters around American Samoa, Guam, and the Northern [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/indigenous-concerns-surface-as-u-s-agency-considers-seabed-mining-in-alaskan-waters/",
+        "timestamp": "11 Feb 2026 16:27:46 +0000"
+    },
+    {
         "id": "GS-14015",
         "title": "\u2018FREE FOR ALL\u2019 \u2014 DOMINICAN REPUBLIC WITHDRAWS TRADE PROTECTIONS, THE LATEST BLOW TO AMERICAN EELS\u2019 FUTURE",
         "type": "ENVIRONMENT",
@@ -328,75 +388,5 @@ const db = [
         "description": "A year ago, U.S. President Donald Trump shut down public access to the Development Experience Clearinghouse, a $30 billion database holding 60 years\u2019 worth of institutional knowledge from more than 150,000 projects administered by the U.S. Agency for International Development. But before the closure, former USAID employee and artificial intelligence scientist Lindsey Moore used a [&#8230;]",
         "source_url": "https://news.mongabay.com/podcast/2026/02/60-years-of-buried-lessons-on-conservation-projects-from-usaid-have-been-saved/",
         "timestamp": "10 Feb 2026 22:13:20 +0000"
-    },
-    {
-        "id": "GS-14049",
-        "title": "MEXICO CONSIDERS SHRINKING PROTECTED AREAS FOR ENDANGERED VAQUITA PORPOISE",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "MEXICO CITY \u2014 Mexican officials have proposed scaling back fishing regulations meant to protect a narrow stretch of ocean home to the last 10 remaining vaquitas, the world\u2019s smallest species of porpoise. If implemented, the changes could shrink protected areas and open up vessel traffic in the northern Gulf of California, the stretch of water [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/mexico-considers-shrinking-protected-areas-for-endangered-vaquita-porpoise/",
-        "timestamp": "10 Feb 2026 20:57:11 +0000"
-    },
-    {
-        "id": "GS-14039",
-        "title": "SCIENTISTS CALL FOR ETHICS RULES AS AI FUELS ANIMAL COMMUNICATION RESEARCH",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Researchers have proposed a new ethical framework to regulate emerging technologies, such as artificial intelligence and machine learning, used to decode animal communication, Ana Cristina Alvarado reports for Mongabay Latam. The proposed guidelines, known as the PEPP Framework, which stands for Prepare, Engage, Prevent and Protect, lay out the principles for studying animal communication responsibly. [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/scientists-call-for-ethics-rules-as-ai-fuels-animal-communication-research/",
-        "timestamp": "10 Feb 2026 16:14:37 +0000"
-    },
-    {
-        "id": "GS-14027",
-        "title": "BIODIVERSITY BONDS CAN WORK, BUT THEIR DESIGN FLAWS MUST BE FIXED (COMMENTARY)",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "The interlinked crises of climate change and biodiversity loss are slipping down political agendas just as geopolitical instability and fiscal pressures rise. Overseas development aid is falling in real terms, and many megadiverse countries are juggling debt stress that pushes conservation to the margins. Meanwhile, the global biodiversity finance gap remains vast, estimated at roughly [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/biodiversity-bonds-can-work-but-their-design-flaws-must-be-fixed-commentary/",
-        "timestamp": "10 Feb 2026 15:49:24 +0000"
-    },
-    {
-        "id": "GS-13934",
-        "title": "WHY A HEALTHY INFORMATION ECOSYSTEM MATTERS",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "When people think about change, they often look for a central actor. A donor whose gift unlocked progress. An organization whose strategy made the difference. An individual whose decision shifted events. These figures are easy to name and easier to photograph. They offer clarity in systems that are otherwise diffuse. What shapes outcomes often sits [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/why-information-matters-before-decisions-do/",
-        "timestamp": "10 Feb 2026 15:48:14 +0000"
-    },
-    {
-        "id": "GS-14037",
-        "title": "INDIGENOUS PROTESTS FORCE BRAZIL TO SUSPEND TAPAJ\u00d3S RIVER DREDGING PLAN",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Brazil has suspended a decree on dredging and privatizing the Tapaj\u00f3s River, a major tributary of the Amazon, after protests shut down a grain terminal \u2014 but Indigenous groups are pressing for its full revocation. Hundreds of Indigenous protesters have since Jan. 22 blockaded the Cargill grain facility in the Amazonian city of Santar\u00e9m over [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/indigenous-protests-force-brazil-to-suspend-tapajos-river-dredging-plan/",
-        "timestamp": "10 Feb 2026 15:38:06 +0000"
-    },
-    {
-        "id": "GS-14001",
-        "title": "UNIDENTIFIED OIL WASHES UP ON SOUTH AFRICAN BEACHES",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "A mysterious oil spill is raising concern among South African conservationists and coastal communities. On Jan. 22, reports started emerging of congealed oil washing up on South Africa\u2019s southeast coast, stretching from George to Durban, some 1,200 kilometers (745 miles) away. Several beaches closed due to the pollution. Citizen networks are monitoring more than 20 [&#8230;]",
-        "source_url": "https://news.mongabay.com/short-article/2026/02/unidentified-oil-washes-up-on-south-african-beaches/",
-        "timestamp": "10 Feb 2026 14:59:33 +0000"
-    },
-    {
-        "id": "GS-14009",
-        "title": "NEPAL\u2019S COMMUNITY FORESTS SIT ON UNSOLD TIMBER",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "KATHMANDU \u2014 The Khorthali Community Forest User Group in Dolakha, central Nepal, produced 1,189 cubic meters (42,000 cubic feet) of timber in 2025 \u2014 roughly 18 standard 40-foot shipping containers in volume. However, the group could not sell all of it. About 340 m3 (12,000 ft3) of wood still lies on the roadside. \u201cCommunity members [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/nepals-community-forests-sit-on-unsold-timber/",
-        "timestamp": "10 Feb 2026 11:28:43 +0000"
     }
 ];
