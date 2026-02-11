@@ -250,6 +250,26 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-14057",
+        "title": "TRUMP OPENS ONLY US MARINE NATIONAL MONUMENT IN ATLANTIC TO FISHING \u2014 AGAIN",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "U.S. President Donald Trump issued a proclamation on Feb. 6 to open a marine protected area off the northeastern U.S. to commercial fishing, in his latest move to deregulate the country\u2019s waters and fisheries. The Northeast Canyons and Seamounts Marine National Monument, a 12,725-square-kilometer (4,913-square-mile) area roughly 209 km (130 mi) southeast of Cape Cod, [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/trump-opens-only-us-marine-national-monument-in-atlantic-to-fishing-again/",
+        "timestamp": "10 Feb 2026 22:31:09 +0000"
+    },
+    {
+        "id": "GS-13698",
+        "title": "60 YEARS OF BURIED LESSONS ON CONSERVATION PROJECTS FROM USAID HAVE BEEN SAVED",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "A year ago, U.S. President Donald Trump shut down public access to the Development Experience Clearinghouse, a $30 billion database holding 60 years\u2019 worth of institutional knowledge from more than 150,000 projects administered by the U.S. Agency for International Development. But before the closure, former USAID employee and artificial intelligence scientist Lindsey Moore used a [&#8230;]",
+        "source_url": "https://news.mongabay.com/podcast/2026/02/60-years-of-buried-lessons-on-conservation-projects-from-usaid-have-been-saved/",
+        "timestamp": "10 Feb 2026 22:13:20 +0000"
+    },
+    {
         "id": "GS-14049",
         "title": "MEXICO CONSIDERS SHRINKING PROTECTED AREAS FOR ENDANGERED VAQUITA PORPOISE",
         "type": "ENVIRONMENT",
@@ -378,25 +398,5 @@ const db = [
         "description": "SANTA CRUZ, GAL\u00c1PAGOS ISLANDS, Ecuador \u2014 \u201cGood morning,\u201d Walter Borbor, a social media-famous fisher, says to his followers in a 2022 Instagram video. \u201cWhat we have here is a plantado.\u201d He points to a large black floating device with a trailing rope that\u2019s wrapped around the tail of a decomposing whale \u2014 right in the [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/abandoned-tuna-fishing-devices-pollute-the-galapagos-marine-reserve/",
         "timestamp": "09 Feb 2026 17:35:37 +0000"
-    },
-    {
-        "id": "GS-13973",
-        "title": "\u2018WE HAVE TO BRING TRUST\u2019 INTO FUNDING TALKS: VAL\u00c9RIA PAYE ON INDIGENOUS-LED FUNDS",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Emotions were running high when Brazilian President Luiz In\u00e1cio Lula da Silva announced the formal recognition of several Indigenous territories at COP30, the U.N. climate conference held in the Amazonian city of Bel\u00e9m. For Indigenous peoples in one of those territories \u2014 the 22,000-square-kilometer (8,500-square-mile) Kaxuyana-Tunayana Territory \u2014 it was a landmark moment in a [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/we-have-to-bring-trust-into-funding-talks-valeria-paye-on-indigenous-led-funds/",
-        "timestamp": "09 Feb 2026 15:13:58 +0000"
-    },
-    {
-        "id": "GS-13961",
-        "title": "RODENT BURROWS OFFER UNUSUAL SANCTUARY TO AFRICA\u2019S SMALLEST WILDCAT",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Under cover of night, a black-footed cat moves almost invisibly through the grasses of southern Namibia, hunting small rodents, birds and insects. Barely a third the size of a domestic cat, its tawny coat speckled with dark spots helps it disappear into the darkened landscape. By day, the cat disappears underground, folding its small body [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/rodent-burrows-offer-unusual-sanctuary-to-africas-smallest-wildcat/",
-        "timestamp": "09 Feb 2026 11:09:40 +0000"
     }
 ];
