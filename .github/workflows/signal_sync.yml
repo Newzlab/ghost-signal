@@ -28,6 +28,12 @@ jobs:
           git config --global user.name 'GhostSignal-Bot'
           git config --global user.email 'bot@ghostsignal.net'
           git add signals.js
+          # Commit only if there are changes
+          git diff --quiet && git diff --staged --quiet || (git commit -m "UPLINK: Futurist Signals Received")
+          
+          # Force sync to override the Error 500 collisions
+          git pull --rebase --autostash origin main
+          git push origin main
           
           # Only commit if there are actual changes in signals.js
           git diff --quiet && git diff --staged --quiet || (git commit -m "UPLINK: Fresh Signals Received")
