@@ -250,6 +250,26 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-14184",
+        "title": "FARMERS FEAR DISPLACEMENT, DROUGHT, FLOODING TIED TO CAMBODIA\u2019S FUNAN TECHO CANAL",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "This is the second of two stories about the potential impact of Cambodia\u2019s planned Funan Techo Canal. Read part one, about consequences for coastal communities and wildlife, here. TAKEO, Cambodia \u2014\u00a0Thet Chanton finally finished construction on his new home along the banks of the Prek Bassac (Bassac creek) in Prey Sambor village, a small farming [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/farmers-fear-displacement-drought-flooding-tied-to-cambodias-funan-techo-canal/",
+        "timestamp": "12 Feb 2026 06:33:31 +0000"
+    },
+    {
+        "id": "GS-14167",
+        "title": "SCRUTINY GROWS OVER DRC-US MINERALS DEAL, EVEN AS OTHER AFRICAN NATIONS SIGN UP",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "On Feb 4, the U.S. hosted the Critical Minerals Ministerial, a summit bringing together delegations from more than 50 countries, including seven African countries, with the aim of securing access to the critical minerals used in everything from electric vehicles to semiconductors. Among the countries attending the summit was Guinea, a West African nation rich [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/scrutiny-grows-over-drc-us-minerals-deal-even-as-other-african-nations-sign-up/",
+        "timestamp": "12 Feb 2026 06:01:12 +0000"
+    },
+    {
         "id": "GS-14178",
         "title": "BRAZIL MINING BOSS SENTENCED FOR ILLEGAL GOLD OPERATION ON INDIGENOUS LAND",
         "type": "ENVIRONMENT",
@@ -368,25 +388,5 @@ const db = [
         "description": "All around her, scientists had their eyes set on studying flora and fauna that lived aboveground. But Toby Kiers\u2019s interest always lay in the oft-overlooked biodiversity that existed beneath it. It was the mysterious nature of the vast mycorrhizal fungal networks that so fascinated Kiers. \u201cIt\u2019s so alive, but humble and quiet,\u201d Kiers, an evolutionary [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/mapping-underground-fungal-networks-interview-with-spuns-toby-kiers/",
         "timestamp": "11 Feb 2026 10:16:46 +0000"
-    },
-    {
-        "id": "GS-14050",
-        "title": "BANGLADESH\u2019S POLITICAL PARTIES SHARE MANIFESTOS, LEAVE ENVIRONMENTALISTS FRUSTRATED",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Feb. 12 marks Bangladesh\u2019s first national election poll since the 2024 mass uprising and the consequent fall of the Awami League government after 15 years in power, a period its political opponents blame for policies that accelerated environmental degradation, among other faults. In the lead up to the 13th Jatiya Sangsad (National Parliament) Election, there [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/bangladeshs-political-parties-share-manifestos-leaves-environmentalists-frustrated/",
-        "timestamp": "11 Feb 2026 08:32:09 +0000"
-    },
-    {
-        "id": "GS-14073",
-        "title": "INDONESIA\u2019S STEEL EXPANSION RISKS A SURGE IN GREENHOUSE GAS EMISSIONS",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "JAKARTA \u2014 Indonesia\u2019s steel industry is becoming one of the country\u2019s fastest-growing sources of greenhouse gas emissions, even as it receives far less public attention than other carbon-intensive sectors. The industry is already one of the country\u2019s largest industrial emitters, and is set to become far more polluting if current trends continue, according to a [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/indonesias-steel-expansion-risks-a-surge-in-greenhouse-gas-emissions/",
-        "timestamp": "11 Feb 2026 04:31:03 +0000"
     }
 ];
