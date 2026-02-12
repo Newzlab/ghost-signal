@@ -1,12 +1,6 @@
-/* --- GHOST SIGNAL | TERMINAL CORE v2.2 --- */
+/* --- GHOST SIGNAL | TERMINAL CORE v2.5 --- */
 
-window.onload = () => { 
-    if (typeof db !== 'undefined') {
-        showAll(); 
-    } else {
-        document.getElementById('vault-content').innerHTML = "WAITING_FOR_UPLINK...";
-    }
-};
+window.onload = () => { if (typeof db !== 'undefined') showAll(); };
 
 function showAll() { renderDirectory(db, "ALL_SIGNALS"); }
 
@@ -17,15 +11,14 @@ function filterSignals(category) {
 
 function renderDirectory(data, label) {
     const container = document.getElementById('vault-content');
-    const title = document.getElementById('vault-title');
-    title.innerText = `SIGNAL_DIRECTORY // ${label}`;
+    document.getElementById('vault-title').innerText = `SIGNAL_DIRECTORY // ${label}`;
     container.innerHTML = '';
     
     data.forEach(item => {
         const div = document.createElement('div');
         div.className = 'vault-item';
-        // Fallback for cat_code
-        const code = item.cat_code || "OSINT";
+        // Use the new H+++ / CORP / VOID codes
+        const code = item.cat_code || "DECK";
         div.innerHTML = `<span style="color: var(--orange); font-size: 0.7rem; font-weight:700;">[${code}]</span> ${item.title}`;
         div.onclick = () => decryptSignal(item);
         container.appendChild(div);
@@ -33,46 +26,39 @@ function renderDirectory(data, label) {
 }
 
 function decryptSignal(item) {
-    // 1. Logic for Reading Time
-    const text = item.description || "";
-    const words = text.split(/\s+/).length;
-    const readTime = Math.max(1, Math.ceil(words / 150));
+    const words = item.description ? item.description.split(/\s+/).length : 0;
+    const readTime = Math.max(1, Math.ceil(words / 180));
 
-    // 2. Map Variables (Double-checking keys match Python)
-    const source = item.source || "UNKNOWN";
-    const date = item.timestamp || "2026.02.05";
-    const type = item.type || "SIGNAL";
-
-    // 3. Update Text Content
-    document.getElementById('label-type').innerText = `PRIORITY_SIGNAL // ${type}`;
+    document.getElementById('label-type').innerText = `PRIORITY_SIGNAL // ${item.type}`;
     document.getElementById('active-title').innerText = item.title;
     
-    // 4. Inject Metadata and Description
-    const metadataHTML = `
+    const meta = `
         <div style="border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 20px; display: flex; justify-content: space-between; font-size: 0.7rem; font-weight: 700;">
-            <span>SOURCE: <span style="color: var(--orange);">${source.toUpperCase()}</span></span>
-            <span>READ: <span style="color: var(--orange);">${readTime} MIN</span></span>
-            <span>DATE: <span style="color: var(--orange);">${date}</span></span>
+            <span>SOURCE: <span style="color: var(--orange);">${item.source.toUpperCase()}</span></span>
+            <span>EST_READ: <span style="color: var(--orange);">${readTime} MIN</span></span>
+            <span>DATE: <span style="color: var(--orange);">${item.timestamp}</span></span>
         </div>
     `;
     
-    document.getElementById('active-description').innerHTML = metadataHTML + text + "...";
-    
-    // 5. Fix the Button
-    const zone = document.getElementById('player-zone');
-    const url = item.source_url || "#";
-    zone.innerHTML = `<button class="action-btn" onclick="window.open('${url}', '_blank')" style="padding: 18px 50px;">ACCESS RAW DATA SOURCE</button>`;
+    document.getElementById('active-description').innerHTML = meta + item.description + "...";
+    document.getElementById('player-zone').innerHTML = `<button class="action-btn" onclick="window.open('${item.source_url}', '_blank')" style="padding: 18px 50px;">ACCESS RAW DATA SOURCE</button>`;
 }
+
+// --- HARDENED AUDIO LOGIC ---
 let audioPlaying = false;
 function toggleAudio() {
     const audio = document.getElementById('bg-audio');
     const btn = document.getElementById('play-trigger');
     
     if (!audioPlaying) {
-        audio.play();
-        btn.innerText = "TERMINATE_AUDIO";
-        btn.style.color = "#ff0000"; // Red alert style when active
-        audioPlaying = true;
+        audio.play().then(() => {
+            btn.innerText = "TERMINATE_AUDIO";
+            btn.style.color = "#ff0000";
+            audioPlaying = true;
+        }).catch(err => {
+            console.error("Audio Blocked: ", err);
+            btn.innerText = "UPLINK_FAILED_RETRY";
+        });
     } else {
         audio.pause();
         btn.innerText = "INITIALIZE_AUDIO";
