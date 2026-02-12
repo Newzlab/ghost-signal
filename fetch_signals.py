@@ -4,18 +4,15 @@ import re
 import time
 from datetime import datetime
 
-# --- THE FUTURIST KILL-LIST ---
-DISTRACTION_BLACKLIST = ["GRAMMYS", "SUPERBOWL", "CELEBRITY", "HOLLYWOOD", "NFL"]
-
 # --- CYBERPUNK TAXONOMY ---
 CAT_CODES = {
-    "NEURAL_LINK": "HUM+",  # Transhumanism, AI, Bio-hacking
-    "MEGA_CORP": "CORP",   # Tech giants, economics, space-race
-    "SYNTH_CITY": "URBN",   # Cyberpunk aesthetics, cities, surveillance
-    "VOID_SIGHT": "VOID",   # Speculative fiction, dystopian trends
-    "ORBIT_DECK": "SATL",   # Space Force, NASA, Orbital mechanics
-    "GHOST_GEAR": "TECH",   # Defense tech, UAPs, emerging hardware
-    "DARK_NET": "SEC_"      # Cybersecurity, digital rights, encryption
+    "NEURAL_LINK": "H+++",  # Advanced Tech/AI
+    "MEGA_CORP": "CORP",   # Space/Industry/Big Tech
+    "SYNTH_CITY": "URBN",   # Cyberpunk/Surveillance/Cities
+    "VOID_SIGHT": "VOID",   # Speculative Fiction/Dystopia
+    "ORBIT_DECK": "SATL",   # Space Exploration/Satellites
+    "GHOST_GEAR": "GEAR",   # UAPs/Defense Tech
+    "DARK_NET": "SEC_"      # Cybersecurity/Hacking
 }
 
 FEEDS = {
@@ -23,9 +20,9 @@ FEEDS = {
     "MEGA_CORP": "https://futurism.com/feed/",
     "SYNTH_CITY": "https://www.wired.com/feed/category/science/latest/rss", 
     "VOID_SIGHT": "https://clarkesworldmagazine.com/feed/",
-    "ORBIT_DECK": "https://www.spaceforce.mil/RSS/",
-    "GHOST_GEAR": "https://www.jpl.nasa.gov/feeds/news/",
-    "DARK_NET": "https://cacm.acm.org/feeds/news"
+    "ORBIT_DECK": "https://www.nasa.gov/rss/recently_published_content.rss",
+    "GHOST_GEAR": "https://thehacker news.com/feeds/posts/default",
+    "DARK_NET": "https://www.helpnetsecurity.com/view/news/feed/"
 }
 
 def deep_scrub(text):
@@ -39,16 +36,14 @@ def deep_scrub(text):
 def fetch_and_format():
     signal_db = []
     for category, url in FEEDS.items():
-        clean_url = f"{url}?t={int(time.time())}" # Cache buster
+        clean_url = f"{url}?t={int(time.time())}"
         feed = feedparser.parse(clean_url)
         source = feed.feed.get('title', 'DECK_LOG').split(' - ')[0].split(':')[0].strip()
         
         for entry in feed.entries[:8]:
             title = entry.title.upper()
             summary = deep_scrub(entry.get('summary', entry.get('description', '')))
-            if any(word in title or word in summary.upper() for word in DISTRACTION_BLACKLIST):
-                continue
-                
+            
             signal_db.append({
                 "id": f"GS-{entry.get('id', entry.link)[-5:]}",
                 "title": title,
