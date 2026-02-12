@@ -4,21 +4,28 @@ import re
 import time
 from datetime import datetime
 
-# --- CONFIGURATION ---
-DISTRACTION_BLACKLIST = ["GRAMMYS", "SUPERBOWL", "NFL", "CELEBRITY", "RED CARPET"]
+# --- THE FUTURIST KILL-LIST ---
+DISTRACTION_BLACKLIST = ["GRAMMYS", "SUPERBOWL", "CELEBRITY", "HOLLYWOOD", "NFL"]
 
+# --- CYBERPUNK TAXONOMY ---
 CAT_CODES = {
-    "NEURAL_LINK": "H+++",  # Advanced Tech/AI
-    "MEGA_CORP": "CORP",   # Space/Industry/Big Tech
-    "SYNTH_CITY": "URBN",   # Cyberpunk/Surveillance/Cities
-    "VOID_SIGHT": "VOID"    # Speculative Fiction/Dystopia
+    "NEURAL_LINK": "HUM+",  # Transhumanism, AI, Bio-hacking
+    "MEGA_CORP": "CORP",   # Tech giants, economics, space-race
+    "SYNTH_CITY": "URBN",   # Cyberpunk aesthetics, cities, surveillance
+    "VOID_SIGHT": "VOID",   # Speculative fiction, dystopian trends
+    "ORBIT_DECK": "SATL",   # Space Force, NASA, Orbital mechanics
+    "GHOST_GEAR": "TECH",   # Defense tech, UAPs, emerging hardware
+    "DARK_NET": "SEC_"      # Cybersecurity, digital rights, encryption
 }
 
 FEEDS = {
     "NEURAL_LINK": "https://thedebrief.org/feed/",
     "MEGA_CORP": "https://futurism.com/feed/",
     "SYNTH_CITY": "https://www.wired.com/feed/category/science/latest/rss", 
-    "VOID_SIGHT": "https://clarkesworldmagazine.com/feed/"
+    "VOID_SIGHT": "https://clarkesworldmagazine.com/feed/",
+    "ORBIT_DECK": "https://www.spaceforce.mil/RSS/",
+    "GHOST_GEAR": "https://www.jpl.nasa.gov/feeds/news/",
+    "DARK_NET": "https://cacm.acm.org/feeds/news"
 }
 
 def deep_scrub(text):
@@ -32,17 +39,13 @@ def deep_scrub(text):
 def fetch_and_format():
     signal_db = []
     for category, url in FEEDS.items():
-        # CACHE BUSTER: Adds timestamp to URL to force fresh fetch
-        clean_url = f"{url}?t={int(time.time())}"
+        clean_url = f"{url}?t={int(time.time())}" # Cache buster
         feed = feedparser.parse(clean_url)
-        
         source = feed.feed.get('title', 'DECK_LOG').split(' - ')[0].split(':')[0].strip()
         
-        for entry in feed.entries[:10]:
+        for entry in feed.entries[:8]:
             title = entry.title.upper()
-            raw_summary = entry.get('summary', entry.get('description', ''))
-            summary = deep_scrub(raw_summary)
-            
+            summary = deep_scrub(entry.get('summary', entry.get('description', '')))
             if any(word in title or word in summary.upper() for word in DISTRACTION_BLACKLIST):
                 continue
                 
@@ -57,9 +60,7 @@ def fetch_and_format():
                 "timestamp": entry.get('published', datetime.now().strftime("%Y.%m.%d"))
             })
 
-    # Sort: Newest first
     signal_db.sort(key=lambda x: x['timestamp'], reverse=True)
-
     with open("signals.js", "w") as f:
         f.write(f"const db = {json.dumps(signal_db, indent=4)};")
 
