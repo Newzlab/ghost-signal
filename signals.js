@@ -20,6 +20,16 @@ const db = [
         "timestamp": "Wed, 11 Feb 26 14:33:55 +0000"
     },
     {
+        "id": "GS-ystem",
+        "title": "COLORADO MARIJUANA REGULATORS CONSIDER MAJOR CHANGES TO HOW LABS TEST FOR CONTAMINANTS",
+        "type": "SYSTEMIC",
+        "cat_code": "SYST",
+        "source": "ProPublica",
+        "description": "",
+        "source_url": "https://www.propublica.org/article/colorado-regulators-marijuana-lab-testing-system",
+        "timestamp": "Wed, 11 Feb 2026 22:30:00 +0000"
+    },
+    {
         "id": "GS-ssons",
         "title": "AS HELENE SURVIVORS WAIT FOR STATE HELP, SOME VICTIMS OF EARLIER HURRICANES ARE STILL OUT OF THEIR HOMES",
         "type": "SYSTEMIC",
@@ -48,16 +58,6 @@ const db = [
         "description": "",
         "source_url": "https://www.propublica.org/article/chicago-venezuela-immigration-ice-raid-landlord-tren-de-aragua",
         "timestamp": "Wed, 04 Feb 2026 15:30:00 +0000"
-    },
-    {
-        "id": "GS-itism",
-        "title": "A MISSISSIPPI SYNAGOGUE WAS ATTACKED IN 1967 AND 2026. THE ANTISEMITIC RHETORIC LOOKED THE SAME THEN AND NOW.",
-        "type": "SYSTEMIC",
-        "cat_code": "SYST",
-        "source": "ProPublica",
-        "description": "",
-        "source_url": "https://www.propublica.org/article/jackson-mississippi-synagogue-arson-antisemitism",
-        "timestamp": "Wed, 04 Feb 2026 11:00:00 +0000"
     },
     {
         "id": "GS-64329",
@@ -250,6 +250,36 @@ const db = [
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
     },
     {
+        "id": "GS-14178",
+        "title": "BRAZIL MINING BOSS SENTENCED FOR ILLEGAL GOLD OPERATION ON INDIGENOUS LAND",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "A Brazilian federal court has sentenced a key financier to more than 22 years in prison. He was found guilty of leading an illegal mining operation in the Yanomami Indigenous Territory, a huge protected area in the Amazon Rainforest that has been devastated by pollution, disease and deforestation. Rodrigo Martins de Mello, known as Rodrigo [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/brazil-mining-boss-sentenced-for-illegal-gold-operation-on-indigenous-land/",
+        "timestamp": "12 Feb 2026 02:39:52 +0000"
+    },
+    {
+        "id": "GS-14163",
+        "title": "BANKS DECLINE TO FINANCE LNG PROJECT IN PAPUA NEW GUINEA",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "A total of Twenty-nine international banks and export credit agencies have ruled out financing a liquefied natural gas (LNG) project in Papua New Guinea, citing climate, environmental and human rights concerns. The project is led by French oil and gas giant TotalEnergies, which says the project will go on as planned, nonetheless.\u00a0 Twelve financial institutions [&#8230;]",
+        "source_url": "https://news.mongabay.com/short-article/2026/02/banks-decline-to-finance-lng-project-in-papua-new-guinea/",
+        "timestamp": "11 Feb 2026 22:09:20 +0000"
+    },
+    {
+        "id": "GS-14160",
+        "title": "SUSTAINABLE FISHERIES CAN\u2019T BE BUILT ON EXPLOITED LABOR (COMMENTARY)",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "For decades, the global fisheries conservation community has rightly focused on the health of fish stocks, the integrity of management systems, and the long-term sustainability of ocean resources. But there is a fundamental truth we can no longer afford to sidestep: fisheries management that fails to protect the people working at sea is neither credible [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/sustainable-fisheries-cant-be-built-on-exploited-labor-commentary/",
+        "timestamp": "11 Feb 2026 21:56:12 +0000"
+    },
+    {
         "id": "GS-14157",
         "title": "SNAKES ON A TRAIN: KING COBRAS ARE HITCHING RIDES IN INDIA",
         "type": "ENVIRONMENT",
@@ -358,35 +388,5 @@ const db = [
         "description": "JAKARTA \u2014 Indonesia\u2019s steel industry is becoming one of the country\u2019s fastest-growing sources of greenhouse gas emissions, even as it receives far less public attention than other carbon-intensive sectors. The industry is already one of the country\u2019s largest industrial emitters, and is set to become far more polluting if current trends continue, according to a [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/indonesias-steel-expansion-risks-a-surge-in-greenhouse-gas-emissions/",
         "timestamp": "11 Feb 2026 04:31:03 +0000"
-    },
-    {
-        "id": "GS-14016",
-        "title": "THE MAN WHO RISKED EVERYTHING TO STEAL BIRD EGGS",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "Jeffrey Lendrum spent nearly four decades traveling the world in search of rare bird eggs, becoming one of the most notorious wildlife smugglers on the planet. Operating across multiple continents, he targeted nesting sites from the African savanna to the Arctic Circle, dangling from helicopters and scaling cliffs to collect eggs from birds of prey [&#8230;]",
-        "source_url": "https://news.mongabay.com/video/2026/02/the-man-who-risked-everything-to-steal-bird-eggs/",
-        "timestamp": "11 Feb 2026 00:01:37 +0000"
-    },
-    {
-        "id": "GS-14057",
-        "title": "TRUMP OPENS ONLY US MARINE NATIONAL MONUMENT IN ATLANTIC TO FISHING \u2014 AGAIN",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "U.S. President Donald Trump issued a proclamation on Feb. 6 to open a marine protected area off the northeastern U.S. to commercial fishing, in his latest move to deregulate the country\u2019s waters and fisheries. The Northeast Canyons and Seamounts Marine National Monument, a 12,725-square-kilometer (4,913-square-mile) area roughly 209 km (130 mi) southeast of Cape Cod, [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/trump-opens-only-us-marine-national-monument-in-atlantic-to-fishing-again/",
-        "timestamp": "10 Feb 2026 22:31:09 +0000"
-    },
-    {
-        "id": "GS-13698",
-        "title": "60 YEARS OF BURIED LESSONS ON CONSERVATION PROJECTS FROM USAID HAVE BEEN SAVED",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "A year ago, U.S. President Donald Trump shut down public access to the Development Experience Clearinghouse, a $30 billion database holding 60 years\u2019 worth of institutional knowledge from more than 150,000 projects administered by the U.S. Agency for International Development. But before the closure, former USAID employee and artificial intelligence scientist Lindsey Moore used a [&#8230;]",
-        "source_url": "https://news.mongabay.com/podcast/2026/02/60-years-of-buried-lessons-on-conservation-projects-from-usaid-have-been-saved/",
-        "timestamp": "10 Feb 2026 22:13:20 +0000"
     }
 ];
