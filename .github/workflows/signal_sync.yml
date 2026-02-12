@@ -8,7 +8,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Crucial: Allows the bot to save signals.js
+      contents: write
     steps:
       - uses: actions/checkout@v4
       
@@ -28,18 +28,12 @@ jobs:
           git config --global user.name 'GhostSignal-Bot'
           git config --global user.email 'bot@ghostsignal.net'
           git add signals.js
-          # Commit only if there are changes
-          git diff --quiet && git diff --staged --quiet || (git commit -m "UPLINK: Futurist Signals Received")
           
-          # Force sync to override the Error 500 collisions
+          # Force a commit with a timestamp to ensure the 'Ghost' always has fresh data to push
+          git commit -m "UPLINK_STABLE: $(date)" || echo "No changes to commit"
+          
+          # Sync with the server to prevent the Error 500 / 128 collisions
           git pull --rebase --autostash origin main
-          git push origin main
           
-          # Only commit if there are actual changes in signals.js
-          git diff --quiet && git diff --staged --quiet || (git commit -m "UPLINK: Fresh Signals Received")
-          
-          # THE FIX: Pull the latest changes from the server and rebase our news on top
-          git pull --rebase origin main
-          
-          # Push the clean, combined history back to the live site
+          # Push the clean futurist feed to the live site
           git push origin main
