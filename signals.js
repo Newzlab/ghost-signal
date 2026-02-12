@@ -40,16 +40,6 @@ const db = [
         "timestamp": "Wed, 11 Feb 2026 10:00:00 +0000"
     },
     {
-        "id": "GS-ragua",
-        "title": "THE REAL STORY BEHIND THE MIDNIGHT IMMIGRATION RAID ON A CHICAGO APARTMENT BUILDING",
-        "type": "SYSTEMIC",
-        "cat_code": "SYST",
-        "source": "ProPublica",
-        "description": "",
-        "source_url": "https://www.propublica.org/article/chicago-venezuela-immigration-ice-raid-landlord-tren-de-aragua",
-        "timestamp": "Wed, 04 Feb 2026 15:30:00 +0000"
-    },
-    {
         "id": "GS-64329",
         "title": "WHAT THE ARCTIC IN A TIME OF CRISIS MEANS FOR HUMANITARIANS",
         "type": "HUMANITARIAN",
@@ -128,6 +118,16 @@ const db = [
         "description": "Why humanitarians have a \u201cburnout culture\u201d, how people can identify it and take action, and what organisations must do better to help their staff.",
         "source_url": "https://www.thenewhumanitarian.org/podcasts/2026/02/12/rethinking-humanitarianism-burnout-aid-sector-and-how-respond",
         "timestamp": "Thu, 12 Feb 26 09:51:19 +0000"
+    },
+    {
+        "id": "GS-amily",
+        "title": "SALTY, OILY DRINKING WATER LEFT SORES IN THEIR MOUTHS. OKLAHOMA REFUSED TO FIND OUT WHY.",
+        "type": "SYSTEMIC",
+        "cat_code": "SYST",
+        "source": "ProPublica",
+        "description": "",
+        "source_url": "https://www.propublica.org/article/oklahoma-oil-polluted-drinking-water-boarman-family",
+        "timestamp": "Thu, 12 Feb 2026 10:00:00 +0000"
     },
     {
         "id": "GS-64324",
@@ -248,6 +248,16 @@ const db = [
         "description": "",
         "source_url": "https://www.propublica.org/article/drug-manufacturer-labels-us-senate-bill",
         "timestamp": "Fri, 06 Feb 2026 10:00:00 +0000"
+    },
+    {
+        "id": "GS-14199",
+        "title": "PILOT PROJECTS AIM TO BREAK INDONESIA\u2019S HABIT OF BURNING HOUSEHOLD WASTE",
+        "type": "ENVIRONMENT",
+        "cat_code": "ENVI",
+        "source": "Conservation news",
+        "description": "JAKARTA \u2014 When old mattresses and broken chairs are dumped by the roadside in his neighborhood, Erwinsyah faces a choice: leave them there and risk accidents, or set them on fire. The head of a neighborhood unit, or RT, in the city of Bogor, south of Jakarta, Erwinsyah says residents often discard bulky waste such [&#8230;]",
+        "source_url": "https://news.mongabay.com/2026/02/pilot-projects-aim-to-break-indonesias-habit-of-burning-household-waste/",
+        "timestamp": "12 Feb 2026 12:51:31 +0000"
     },
     {
         "id": "GS-14184",
@@ -378,15 +388,5 @@ const db = [
         "description": "A strikingly handsome emerald-green moth, lost to science for nearly one-and-a-half centuries, has been rediscovered in South Africa by citizen scientists who posted photographs of it online. The moth, Drepanogynis insciata, whose body and wing margins look as though they\u2019ve been stained with red wine, was thought to be extinct. The species hadn\u2019t been recorded [&#8230;]",
         "source_url": "https://news.mongabay.com/2026/02/citizen-science-rediscovers-rare-south-african-moth/",
         "timestamp": "11 Feb 2026 13:00:22 +0000"
-    },
-    {
-        "id": "GS-14068",
-        "title": "MAPPING UNDERGROUND FUNGAL NETWORKS: INTERVIEW WITH SPUN\u2019S TOBY KIERS",
-        "type": "ENVIRONMENT",
-        "cat_code": "ENVI",
-        "source": "Conservation news",
-        "description": "All around her, scientists had their eyes set on studying flora and fauna that lived aboveground. But Toby Kiers\u2019s interest always lay in the oft-overlooked biodiversity that existed beneath it. It was the mysterious nature of the vast mycorrhizal fungal networks that so fascinated Kiers. \u201cIt\u2019s so alive, but humble and quiet,\u201d Kiers, an evolutionary [&#8230;]",
-        "source_url": "https://news.mongabay.com/2026/02/mapping-underground-fungal-networks-interview-with-spuns-toby-kiers/",
-        "timestamp": "11 Feb 2026 10:16:46 +0000"
     }
 ];
