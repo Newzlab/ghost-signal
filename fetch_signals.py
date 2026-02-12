@@ -3,67 +3,58 @@ import json
 import re
 from datetime import datetime
 
-# --- CONFIGURATION ---
-DISTRACTION_BLACKLIST = [
-    "GRAMMYS", "SUPERBOWL", "CELEBRITY", "HOLLYWOOD", 
-    "KARDASHIAN", "SWIFT", "NFL", "HALFTIME", "RED CARPET"
-]
+# --- THE FUTURIST KILL-LIST ---
+DISTRACTION_BLACKLIST = ["GRAMMYS", "SUPERBOWL", "NFL", "CELEBRITY", "HOLLYWOOD"]
 
+# --- THE CYBERPUNK CATEGORIES ---
 CAT_CODES = {
-    "HUMANITARIAN": "HUMA",
-    "GEOPOLITICS": "GEOP",
-    "SYSTEMIC": "SYST",
-    "ENVIRONMENT": "ENVI"
+    "NEURAL_LINK": "H+++",  # Transhumanism, AI, Bio-hacking
+    "MEGA_CORP": "CORP",   # Tech giants, economics, space-race
+    "SYNTH_CITY": "URBN",   # Cyberpunk aesthetics, smart cities, surveillance
+    "VOID_SIGHT": "VOID"    # Dystopian trends, speculative fiction, apocalypse
 }
 
 FEEDS = {
-    "HUMANITARIAN": "https://www.thenewhumanitarian.org/rss/all.xml",
-    "GEOPOLITICS": "https://www.csis.org/rss/publications",
-    "SYSTEMIC": "https://www.propublica.org/feeds/propublica/main",
-    "ENVIRONMENT": "https://news.mongabay.com/feed/"
+    "NEURAL_LINK": "https://singularityhub.com/feed/",
+    "MEGA_CORP": "https://futurism.com/feed/",
+    "SYNTH_CITY": "https://cyberpunkdatabase.net/rss", 
+    "VOID_SIGHT": "https://clarkesworldmagazine.com/feed/"
 }
 
-def clean_content(text):
-    """Deep scrub for HTML and RSS junk."""
-    text = re.sub(r'<[^>]+>', '', text) # Remove HTML
-    text = re.sub(r'http\S+', '', text) # Remove raw URLs
-    
-    junk_markers = ["The post", "appeared first on", "read more", "Check out"]
-    for marker in junk_markers:
-        if marker in text:
-            text = text.split(marker)[0]
+def deep_scrub(text):
+    text = re.sub(r'<[^>]+>', '', text) 
+    text = re.sub(r'http\S+', '', text) 
+    junk = ["The post", "appeared first on", "read more", "Check out"]
+    for marker in junk:
+        if marker in text: text = text.split(marker)[0]
     return text.strip()
 
 def fetch_and_format():
     signal_db = []
-    
     for category, url in FEEDS.items():
         feed = feedparser.parse(url)
         # Clean Source Name
-        source_name = feed.feed.get('title', 'OSINT').split(' - ')[0].split(':')[0].strip()
+        source = feed.feed.get('title', 'DECK_LOG').split(' - ')[0].split(':')[0].strip()
         
         for entry in feed.entries[:15]:
             title = entry.title.upper()
-            raw_summary = entry.get('summary', entry.get('description', ''))
-            summary = clean_content(raw_summary)
+            summary = deep_scrub(entry.get('summary', entry.get('description', '')))
             
             if any(word in title or word in summary.upper() for word in DISTRACTION_BLACKLIST):
                 continue
                 
-            signal_entry = {
+            signal_db.append({
                 "id": f"GS-{entry.get('id', entry.link)[-5:]}",
                 "title": title,
                 "type": category,
                 "cat_code": CAT_CODES.get(category, "MISC"),
-                "source": source_name,
+                "source": source,
                 "description": summary,
                 "source_url": entry.link,
                 "timestamp": entry.get('published', datetime.now().strftime("%Y.%m.%d"))
-            }
-            signal_db.append(signal_entry)
+            })
 
     signal_db.sort(key=lambda x: x['timestamp'], reverse=True)
-
     with open("signals.js", "w") as f:
         f.write(f"const db = {json.dumps(signal_db, indent=4)};")
 
