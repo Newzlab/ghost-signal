@@ -63,3 +63,20 @@ function decryptSignal(item) {
     const url = item.source_url || "#";
     zone.innerHTML = `<button class="action-btn" onclick="window.open('${url}', '_blank')" style="padding: 18px 50px;">ACCESS RAW DATA SOURCE</button>`;
 }
+let audioPlaying = false;
+function toggleAudio() {
+    const audio = document.getElementById('bg-audio');
+    const btn = document.getElementById('play-trigger');
+    
+    if (!audioPlaying) {
+        audio.play();
+        btn.innerText = "TERMINATE_AUDIO";
+        btn.style.color = "#ff0000"; // Red alert style when active
+        audioPlaying = true;
+    } else {
+        audio.pause();
+        btn.innerText = "INITIALIZE_AUDIO";
+        btn.style.color = "var(--orange)";
+        audioPlaying = false;
+    }
+}
