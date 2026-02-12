@@ -15,7 +15,7 @@
             <span style="font-weight:300; font-size: 0.7rem; letter-spacing: 2px; margin-left: 12px; opacity: 0.6; color: #fff;">// NEWZLAB_CONSTRUCT</span>
         </div>
         <div class="connection-status">
-            <span>OS_INT_NETWORK_READY</span>
+            <span>INTEL_TRANSMISSION_ACTIVE</span>
             <div class="pulse-dot"></div>
             <span style="opacity: 0.5;">[ 2026.02.05 ]</span>
         </div>
@@ -26,6 +26,16 @@
             <div id="vault-title">SIGNAL_DIRECTORY</div>
             <div id="vault-content" class="vault-container">
                 </div>
+            <div class="audio-module" style="margin-top: 20px; border-top: 1px solid var(--border); padding-top: 15px;">
+    <div id="vault-title" style="margin-bottom: 10px; font-size: 0.6rem;">ATMOSPHERIC_UPLINK</div>
+    <audio id="bg-audio" loop>
+        <source src="https://somafm.com/groovesalad256.pls" type="audio/x-scpls">
+        <source src="https://ice6.somafm.com/groovesalad-256-mp3" type="audio/mpeg">
+    </audio>
+    <div class="btn-row">
+        <div class="action-btn" id="play-trigger" onclick="toggleAudio()" style="font-size: 0.6rem;">INITIALIZE_AUDIO</div>
+    </div>
+</div>
             <div class="system-logs">
                 MODE: TRANSPARENCY_ONLY<br>
                 UPLINK: ACTIVE<br>
@@ -93,6 +103,7 @@
     <script src="terminal.js"></script>
 </body>
 </html>
+
 
 
 
