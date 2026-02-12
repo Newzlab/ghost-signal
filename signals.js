@@ -40,16 +40,6 @@ const db = [
         "timestamp": "Wed, 11 Feb 2026 10:00:00 +0000"
     },
     {
-        "id": "GS-64322",
-        "title": "ARRESTS AND RED TAPE: HOW BURKINA FASO\u2019S JUNTA IS THROTTLING HUMANITARIAN AID",
-        "type": "HUMANITARIAN",
-        "cat_code": "HUMA",
-        "source": "The New Humanitarian",
-        "description": "Military rulers are tightening control through access bans, legal threats, and control of data.",
-        "source_url": "https://www.thenewhumanitarian.org/analysis/2026/02/04/arrests-red-tape-how-burkina-faso-junta-throttling-humanitarian-aid",
-        "timestamp": "Wed, 04 Feb 26 15:47:46 +0000"
-    },
-    {
         "id": "GS-ragua",
         "title": "THE REAL STORY BEHIND THE MIDNIGHT IMMIGRATION RAID ON A CHICAGO APARTMENT BUILDING",
         "type": "SYSTEMIC",
@@ -128,6 +118,16 @@ const db = [
         "description": "",
         "source_url": "https://www.propublica.org/article/habeas-petitions-immigrant-detentions-trump",
         "timestamp": "Tue, 10 Feb 2026 10:00:00 +0000"
+    },
+    {
+        "id": "GS-64332",
+        "title": "RETHINKING HUMANITARIANISM | BURNOUT IN THE AID SECTOR AND HOW TO RESPOND",
+        "type": "HUMANITARIAN",
+        "cat_code": "HUMA",
+        "source": "The New Humanitarian",
+        "description": "Why humanitarians have a \u201cburnout culture\u201d, how people can identify it and take action, and what organisations must do better to help their staff.",
+        "source_url": "https://www.thenewhumanitarian.org/podcasts/2026/02/12/rethinking-humanitarianism-burnout-aid-sector-and-how-respond",
+        "timestamp": "Thu, 12 Feb 26 09:51:19 +0000"
     },
     {
         "id": "GS-64324",
