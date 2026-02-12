@@ -63,30 +63,37 @@
         </main>
 
         <aside class="hud-panel" id="right-sidebar">
-    <div style="font-family: 'Montserrat'; font-weight: 700; font-size: 0.75rem; color: var(--orange); margin-bottom: 25px; letter-spacing: 2px;">NEURAL_NET_FILTERS</div>
+    <div style="font-family: 'Montserrat'; font-weight: 700; font-size: 0.75rem; color: var(--orange); margin-bottom: 20px; letter-spacing: 2px;">NEURAL_NET_FILTERS</div>
     
-    <div class="intel-module" onclick="filterSignals('NEURAL_LINK')" style="cursor: pointer;">
-        <div class="module-header">NEURAL_LINK [H+++]</div>
-        <div class="module-body">Transhumanism, Synthetic Intelligence, and Bio-Sovereignty.</div>
-    </div>
-
-    <div class="intel-module" onclick="filterSignals('MEGA_CORP')" style="cursor: pointer;">
-        <div class="module-header">MEGA_CORP [CORP]</div>
-        <div class="module-body">The economic arc of the tech giants and the orbit-economy.</div>
-    </div>
-
-    <div class="intel-module" onclick="filterSignals('SYNTH_CITY')" style="cursor: pointer;">
-        <div class="module-header">SYNTH_CITY [URBN]</div>
-        <div class="module-body">Surveillance states, neon architecture, and urban decay.</div>
-    </div>
-
-    <div class="intel-module" onclick="filterSignals('VOID_SIGHT')" style="cursor: pointer;">
-        <div class="module-header">VOID_SIGHT [VOID]</div>
-        <div class="module-body">Speculative fiction, dystopian trends, and post-collapse lore.</div>
+    <div class="vault-container" style="overflow-y: auto; padding-right: 10px;">
+        <div class="intel-module" onclick="filterSignals('NEURAL_LINK')">
+            <div class="module-header">NEURAL_LINK [H+++]</div>
+            <div class="module-body">Transhumanism and Synthetic Intelligence.</div>
+        </div>
+        <div class="intel-module" onclick="filterSignals('MEGA_CORP')">
+            <div class="module-header">MEGA_CORP [CORP]</div>
+            <div class="module-body">The economic arc of tech giants.</div>
+        </div>
+        <div class="intel-module" onclick="filterSignals('SYNTH_CITY')">
+            <div class="module-header">SYNTH_CITY [URBN]</div>
+            <div class="module-body">Surveillance and urban architecture.</div>
+        </div>
+        <div class="intel-module" onclick="filterSignals('ORBIT_DECK')">
+            <div class="module-header">ORBIT_DECK [SATL]</div>
+            <div class="module-body">Extra-planetary defense and logistics.</div>
+        </div>
+        <div class="intel-module" onclick="filterSignals('VOID_SIGHT')">
+            <div class="module-header">VOID_SIGHT [VOID]</div>
+            <div class="module-body">Speculative lore and dystopian trends.</div>
+        </div>
+        <div class="intel-module" onclick="filterSignals('DARK_NET')">
+            <div class="module-header">DARK_NET [SEC_]</div>
+            <div class="module-body">Encryption and digital sovereignty.</div>
+        </div>
     </div>
 
     <div class="intel-module" onclick="showAll()" style="margin-top: auto;">
-        <div class="action-btn">REBOOT_NEURAL_UPLINK</div>
+        <div class="action-btn">REBOOT_UPLINK</div>
     </div>
 
     <div class="footer-module">
@@ -103,6 +110,7 @@
     <script src="terminal.js"></script>
 </body>
 </html>
+
 
 
 
