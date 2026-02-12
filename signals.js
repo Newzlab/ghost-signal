@@ -140,16 +140,6 @@ const db = [
         "timestamp": "Wed, 11 Feb 2026 15:10:33 -0500"
     },
     {
-        "id": "GS-20676",
-        "title": "RING BOASTS ABOUT POWER TO SURVEIL ENTIRE NEIGHBORHOODS",
-        "type": "MEGA_CORP",
-        "cat_code": "CORP",
-        "source": "Futurism",
-        "description": "\"There's no world in which finding lost dogs is the final end-use for this technology.\"",
-        "source_url": "https://futurism.com/future-society/ring-doorbell-surveillance-dog",
-        "timestamp": "Wed, 11 Feb 2026 14:12:18 -0500"
-    },
-    {
         "id": "GS-44476",
         "title": "THE SEARCH FOR ALIEN TECH REVEALS A PULSAR AT THE HEART OF THE GALAXY\u2014AND IT COULD HELP TEST EINSTEIN\u2019S THEORY OF GRAVITY",
         "type": "NEURAL_LINK",
@@ -188,16 +178,6 @@ const db = [
         "description": "NASA and the ESA\u2019s Hubble Space Telescope has captured an incredible image of the Egg Nebula, providing astronomers with rare details.",
         "source_url": "https://thedebrief.org/stunning-hubble-image-of-the-egg-nebula-is-the-clearest-ever-captured/",
         "timestamp": "Wed, 11 Feb 2026 13:25:56 +0000"
-    },
-    {
-        "id": "GS-20904",
-        "title": "SICKOS CACKLE WITH GLEE AS BITCOIN STARTS TO FALL AGAIN",
-        "type": "MEGA_CORP",
-        "cat_code": "CORP",
-        "source": "Futurism",
-        "description": "\"I\u2019m going to enjoy watching Bitcoin crash.\"",
-        "source_url": "https://futurism.com/future-society/bitcoin-starts-fall-again",
-        "timestamp": "Wed, 11 Feb 2026 13:12:23 -0500"
     },
     {
         "id": "GS-fef13",
@@ -250,16 +230,6 @@ const db = [
         "timestamp": "Tue, 10 Feb 2026 18:47:27 +0000"
     },
     {
-        "id": "GS-62658",
-        "title": "CUBESATS\u2019 MISSIONS BEGIN",
-        "type": "ORBIT_DECK",
-        "cat_code": "SATL",
-        "source": "NASA",
-        "description": "NASA astronaut Chris Williams pointed a camera out a window on the&#160;cupola&#160;as a set of CubeSats were deployed outside the&#160;Kibo laboratory module&#160;by a small satellite orbital deployer into Earth orbit. Students from&#160;Mexico, Italy,&#160;Thailand,&#160;Malaysia, and&#160;Japan&#160;designed the shoe-boxed satellites for a series of Earth observations and technology demonstrations. CubeSats are a class of nanosatellites \u2013 small spacecraft [&#8230;]",
-        "source_url": "https://www.nasa.gov/image-article/cubesats-missions-begin/",
-        "timestamp": "Tue, 10 Feb 2026 17:03:30 +0000"
-    },
-    {
         "id": "GS-.html",
         "title": "GOOGLE REPORTS STATE-BACKED HACKERS USING GEMINI AI FOR RECON AND ATTACK SUPPORT",
         "type": "DARK_NET",
@@ -278,6 +248,16 @@ const db = [
         "description": "Cybersecurity researchers have discovered a fresh set of malicious packages across npm and the Python Package Index (PyPI) repository linked to a fake recruitment-themed campaign orchestrated by the North Korea-linked Lazarus Group.\nThe coordinated campaign has been codenamed graphalgo in reference to the first package published in the npm registry. It's assessed to be active since May 2025.\n\"",
         "source_url": "https://thehackernews.com/2026/02/lazarus-campaign-plants-malicious.html",
         "timestamp": "Thu, 12 Feb 2026 22:25:00 +0530"
+    },
+    {
+        "id": "GS-64208",
+        "title": "NASA SELECTS VAST FOR SIXTH PRIVATE MISSION TO SPACE STATION",
+        "type": "ORBIT_DECK",
+        "cat_code": "SATL",
+        "source": "NASA",
+        "description": "NASA and Vast have signed an order for the sixth private astronaut mission to the International Space Station, targeted to launch no earlier than summer 2027 from Florida. This private astronaut mission marks the company&#8217;s first selection to the orbiting laboratory, underscoring NASA\u2019s ongoing investment in fostering a commercial space economy and expanding opportunities for [&#8230;]",
+        "source_url": "https://www.nasa.gov/news-release/nasa-selects-vast-for-sixth-private-mission-to-space-station/",
+        "timestamp": "Thu, 12 Feb 2026 21:11:19 +0000"
     },
     {
         "id": "GS-44574",
@@ -320,6 +300,16 @@ const db = [
         "timestamp": "Thu, 12 Feb 2026 16:07:23 +0000"
     },
     {
+        "id": "GS-20824",
+        "title": "CREEPS ARE USING GROK TO UNBLUR CHILDREN\u2019S FACES IN THE EPSTEIN FILES",
+        "type": "MEGA_CORP",
+        "cat_code": "CORP",
+        "source": "Futurism",
+        "description": "It's always Grok.",
+        "source_url": "https://futurism.com/artificial-intelligence/grok-unblur-epstein-files",
+        "timestamp": "Thu, 12 Feb 2026 16:02:34 -0500"
+    },
+    {
         "id": "GS-.html",
         "title": "THE CTEM DIVIDE: WHY 84% OF SECURITY PROGRAMS ARE FALLING BEHIND",
         "type": "DARK_NET",
@@ -328,6 +318,16 @@ const db = [
         "description": "A new 2026 market intelligence study of 128 enterprise security decision-makers (available here) reveals a stark divide forming between organizations \u2013 one that has nothing to do with budget size or industry and everything to do with a single framework decision. Organizations implementing Continuous Threat Exposure Management (CTEM) demonstrate 50% better attack surface visibility, 23-point",
         "source_url": "https://thehackernews.com/2026/02/the-ctem-divide-why-84-of-security.html",
         "timestamp": "Thu, 12 Feb 2026 16:00:00 +0530"
+    },
+    {
+        "id": "GS-21034",
+        "title": "VENDING MACHINE RUN BY CLAUDE MORE OF A DISASTER THAN PREVIOUSLY KNOWN",
+        "type": "MEGA_CORP",
+        "cat_code": "CORP",
+        "source": "Futurism",
+        "description": "Not quite ready for the real world.",
+        "source_url": "https://futurism.com/future-society/vending-machine-claude-disaster",
+        "timestamp": "Thu, 12 Feb 2026 15:06:06 -0500"
     },
     {
         "id": "GS-44527",
