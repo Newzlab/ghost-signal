@@ -281,4 +281,17 @@ html, body {
     .console-wrapper { display: flex; flex-direction: column; height: auto; }
     .hud-panel { min-height: 450px; border-bottom: 2px solid var(--border); padding: 15px; }
 }
+.site-title {
+    animation: text-flicker 3s infinite;
+}
+
+@keyframes text-flicker {
+    0% { opacity: 1; }
+    2% { opacity: 0.8; }
+    4% { opacity: 1; }
+    70% { opacity: 1; }
+    72% { opacity: 0.2; }
+    74% { opacity: 1; }
+    100% { opacity: 1; }
+}
 
