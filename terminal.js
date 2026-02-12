@@ -66,3 +66,10 @@ function toggleAudio() {
         audioPlaying = false;
     }
 }
+function openManifesto() {
+    document.getElementById('manifesto-overlay').style.display = 'flex';
+}
+
+function closeManifesto() {
+    document.getElementById('manifesto-overlay').style.display = 'none';
+}
