@@ -1,5 +1,15 @@
 const db = [
     {
+        "id": "GS-ected",
+        "title": "NETWORKS KEEPING NASA\u2019S ARTEMIS II MISSION CONNECTED",
+        "type": "GHOST_GEAR",
+        "cat_code": "TECH",
+        "source": "News and Features",
+        "description": "Artemis missions rely on both the Near Space Network, managed by NASA Goddard, and the Deep Space Network, managed by the Jet Propulsion Laboratory.",
+        "source_url": "https://www.jpl.nasa.gov/news/networks-keeping-nasas-artemis-ii-mission-connected",
+        "timestamp": "Wed, 28 Jan 2026 12:00:00 -0800"
+    },
+    {
         "id": "GS-fe1dd",
         "title": "STUDY OF BUDDHIST MONKS FINDS MEDITATION ALTERS BRAIN ACTIVITY",
         "type": "SYNTH_CITY",
@@ -23,7 +33,7 @@ const db = [
         "id": "GS-44505",
         "title": "SCIENTISTS REPORT \u201cHIGH-CONFIDENCE DETECTIONS OF ARTIFICIAL OBJECTS\u201d ON THE MOON\u2014COULD THEY SOLVE A COLD WAR-ERA MYSTERY?",
         "type": "NEURAL_LINK",
-        "cat_code": "H+++",
+        "cat_code": "HUM+",
         "source": "The Debrief",
         "description": "Researchers report the detection of \"artificial objects\" on the Moon that could help locate a long-lost Soviet spacecraft.",
         "source_url": "https://thedebrief.org/scientists-report-high-confidence-detections-of-artificial-objects-on-the-moon-could-they-solve-a-cold-war-era-mystery/",
@@ -63,7 +73,7 @@ const db = [
         "id": "GS-44476",
         "title": "THE SEARCH FOR ALIEN TECH REVEALS A PULSAR AT THE HEART OF THE GALAXY\u2014AND IT COULD HELP TEST EINSTEIN\u2019S THEORY OF GRAVITY",
         "type": "NEURAL_LINK",
-        "cat_code": "H+++",
+        "cat_code": "HUM+",
         "source": "The Debrief",
         "description": "Researchers looking for signs of extraterrestrial life instead stumbled upon a pulsar at the center of the Milky Way galaxy.",
         "source_url": "https://thedebrief.org/the-search-for-alien-tech-reveals-a-pulsar-at-the-heart-of-the-galaxy-and-it-could-help-test-einsteins-theory-of-gravity/",
@@ -73,7 +83,7 @@ const db = [
         "id": "GS-44482",
         "title": "\u201cA MISSION THAT PUSHES THE BOUNDARIES OF COMMERCIAL SPACE\u201d: AUTONOMOUS \u2018SPACEPILOT\u2019 WILL PILOT SPACECRAFT TO ASTEROID APOPHIS",
         "type": "NEURAL_LINK",
-        "cat_code": "H+++",
+        "cat_code": "HUM+",
         "source": "The Debrief",
         "description": "Commercial deep-space mission operator ExLabs has selected SpacePilot autonomous software for the 2029 Apophis asteroid intercept mission.",
         "source_url": "https://thedebrief.org/a-mission-that-pushes-the-boundaries-of-commercial-space-autonomous-spacepilot-will-pilot-spacecraft-to-asteroid-apophis/",
@@ -83,21 +93,11 @@ const db = [
         "id": "GS-44485",
         "title": "EXERCISE AND FOOD RESTRICTION SHAPE PSILOCYBIN\u2019S EFFECTS, NEW STUDY FINDS",
         "type": "NEURAL_LINK",
-        "cat_code": "H+++",
+        "cat_code": "HUM+",
         "source": "The Debrief",
         "description": "A new study from Monash University, published in Genomic Press Psychedelics, found that psilocybin changes social behavior and immune signaling in female mice.",
         "source_url": "https://thedebrief.org/exercise-and-food-restriction-shape-psilocybins-effects-new-study-finds/",
         "timestamp": "Wed, 11 Feb 2026 13:33:56 +0000"
-    },
-    {
-        "id": "GS-44459",
-        "title": "STUNNING HUBBLE IMAGE OF THE EGG NEBULA IS THE CLEAREST EVER CAPTURED",
-        "type": "NEURAL_LINK",
-        "cat_code": "H+++",
-        "source": "The Debrief",
-        "description": "NASA and the ESA\u2019s Hubble Space Telescope has captured an incredible image of the Egg Nebula, providing astronomers with rare details.",
-        "source_url": "https://thedebrief.org/stunning-hubble-image-of-the-egg-nebula-is-the-clearest-ever-captured/",
-        "timestamp": "Wed, 11 Feb 2026 13:25:56 +0000"
     },
     {
         "id": "GS-20904",
@@ -110,26 +110,6 @@ const db = [
         "timestamp": "Wed, 11 Feb 2026 13:12:23 -0500"
     },
     {
-        "id": "GS-20884",
-        "title": "ERRATIC ELON MUSK TELLS EMPLOYEES TO BUILD MASSIVE CATAPULT ON MOON",
-        "type": "MEGA_CORP",
-        "cat_code": "CORP",
-        "source": "Futurism",
-        "description": "Fire away!",
-        "source_url": "https://futurism.com/space/elon-musk-catapult-moon",
-        "timestamp": "Wed, 11 Feb 2026 12:02:52 -0500"
-    },
-    {
-        "id": "GS-20781",
-        "title": "JOB BOARD FOR AI AGENTS IMMEDIATELY OVERRUN WITH HUMANS DESPERATE FOR WORK",
-        "type": "MEGA_CORP",
-        "cat_code": "CORP",
-        "source": "Futurism",
-        "description": "The job market is *bad* bad.",
-        "source_url": "https://futurism.com/artificial-intelligence/ai-agent-job-board",
-        "timestamp": "Wed, 11 Feb 2026 11:06:29 -0500"
-    },
-    {
         "id": "GS-fef13",
         "title": "ASTRONOMERS ARE CLOSING IN ON THE KUIPER BELT\u2019S SECRETS",
         "type": "SYNTH_CITY",
@@ -138,6 +118,26 @@ const db = [
         "description": "As next-generation telescopes map this outer frontier, astronomers are bracing for discoveries that could reveal hidden planets, strange structures, and clues to the solar system\u2019s chaotic youth.",
         "source_url": "https://www.wired.com/story/astronomers-are-closing-in-on-the-kuiper-belts-secrets/",
         "timestamp": "Wed, 11 Feb 2026 10:00:00 +0000"
+    },
+    {
+        "id": "GS-shell",
+        "title": "NASA\u2019S JUNO MEASURES THICKNESS OF EUROPA\u2019S ICE SHELL",
+        "type": "GHOST_GEAR",
+        "cat_code": "TECH",
+        "source": "News and Features",
+        "description": "Results from the solar-powered spacecraft provide a new measurement of the thickness of the ice shell encasing the Jovian moon\u2019s ocean.",
+        "source_url": "https://www.jpl.nasa.gov/news/nasas-juno-measures-thickness-of-europas-ice-shell",
+        "timestamp": "Tue, 27 Jan 2026 11:00:00 -0800"
+    },
+    {
+        "id": "GS-aunch",
+        "title": "NASA\u2019S SUNRISE SMALLSATS ACE TESTS, MOVING CLOSER TO LAUNCH",
+        "type": "GHOST_GEAR",
+        "cat_code": "TECH",
+        "source": "News and Features",
+        "description": "The small satellites passed a crucible of tests, ending with a simulation of the intense vibrations of launch.",
+        "source_url": "https://www.jpl.nasa.gov/news/nasas-sunrise-smallsats-ace-tests-moving-closer-to-launch",
+        "timestamp": "Tue, 20 Jan 2026 11:00:00 -0800"
     },
     {
         "id": "GS-ea131",
@@ -160,20 +160,30 @@ const db = [
         "timestamp": "Tue, 10 Feb 2026 20:30:28 +0000"
     },
     {
-        "id": "GS-44455",
-        "title": "\u201cTHIS ISN\u2019T FOLKLORE; IT\u2019S PHARMACOLOGY\u201d: CENTURIES-OLD TRADITIONAL MEDICINE COULD BE A GAME-CHANGER FOR HAIR LOSS",
-        "type": "NEURAL_LINK",
-        "cat_code": "H+++",
-        "source": "The Debrief",
-        "description": "Scientists say new research shows a centuries-old traditional Chinese herbal medicine could be a game-changer in fighting hair loss.",
-        "source_url": "https://thedebrief.org/this-isnt-folklore-its-pharmacology-centuries-old-traditional-medicine-could-be-a-game-changer-for-hair-loss/",
-        "timestamp": "Tue, 10 Feb 2026 18:21:15 +0000"
+        "id": "GS-delta",
+        "title": "NASA-ISRO RADAR MISSION PEERS THROUGH CLOUDS TO SEE MISSISSIPPI RIVER DELTA",
+        "type": "GHOST_GEAR",
+        "cat_code": "TECH",
+        "source": "News and Features",
+        "description": "A new image from the NISAR mission shows off the satellite\u2019s ability to reveal details of Earth\u2019s surfaces. The science team also released new sample data.",
+        "source_url": "https://www.jpl.nasa.gov/news/nasa-isro-radar-mission-peers-through-clouds-to-see-mississippi-river-delta",
+        "timestamp": "Thu, 29 Jan 2026 12:00:00 -0800"
+    },
+    {
+        "id": "GS--2025",
+        "title": "NASA ANALYSIS SHOWS LA NI\u00d1A LIMITED SEA LEVEL RISE IN 2025",
+        "type": "GHOST_GEAR",
+        "cat_code": "TECH",
+        "source": "News and Features",
+        "description": "A mild La Ni\u00f1a caused greater rainfall over the Amazon basin, which offset rising sea levels due to record warming of Earth\u2019s oceans.",
+        "source_url": "https://www.jpl.nasa.gov/news/nasa-analysis-shows-la-nina-limited-sea-level-rise-in-2025",
+        "timestamp": "Thu, 29 Jan 2026 09:00:00 -0800"
     },
     {
         "id": "GS-44527",
         "title": "EXTRAORDINARY CLAIM? NASA STUDY SAYS LIFE ON ANCIENT MARS MAY BE THE BEST EXPLANATION FOR ODD CURIOSITY ROVER SAMPLES",
         "type": "NEURAL_LINK",
-        "cat_code": "H+++",
+        "cat_code": "HUM+",
         "source": "The Debrief",
         "description": "Organic compounds discovered on the Red Planet cannot be fully explained by non-biological sources, say astrobiologists.",
         "source_url": "https://thedebrief.org/extraordinary-claim-nasa-study-says-life-on-ancient-mars-may-be-the-best-explanation-for-odd-curiosity-rover-samples/",
@@ -183,7 +193,7 @@ const db = [
         "id": "GS-44538",
         "title": "THE LASER THAT SHUT DOWN EL PASO\u2019S SKIES: WHAT WE KNOW ABOUT THE ARMY\u2019S \u2018LOCUST\u2019 COUNTER-DRONE WEAPON",
         "type": "NEURAL_LINK",
-        "cat_code": "H+++",
+        "cat_code": "HUM+",
         "source": "The Debrief",
         "description": "LOCUST counter-drone laser linked to El Paso airspace shutdown highlights how directed-energy weapons are entering real-world use.",
         "source_url": "https://thedebrief.org/the-laser-that-shut-down-el-pasos-skies-what-we-know-about-the-armys-locust-counter-drone-weapon/",
@@ -193,7 +203,7 @@ const db = [
         "id": "GS-44531",
         "title": "\u2018HOLORADAR\u2019 EQUIPPED ROBOTS USE RADIO WAVES AND AI TO \u2018SEE\u2019 AROUND CORNERS",
         "type": "NEURAL_LINK",
-        "cat_code": "H+++",
+        "cat_code": "HUM+",
         "source": "The Debrief",
         "description": "University of Pennsylvania scientists have revealed the AI-driven HoloRadar system that lets robots see around corners using radio waves.",
         "source_url": "https://thedebrief.org/holoradar-equipped-robots-use-radio-waves-and-ai-to-see-around-corners/",
@@ -203,7 +213,7 @@ const db = [
         "id": "GS-44002",
         "title": "\u201cMALICIOUS AI SWARMS\u201d COULD HIJACK DEMOCRACY\u2014AND MAY EVEN GO UNNOTICED, EXPERTS SAY",
         "type": "NEURAL_LINK",
-        "cat_code": "H+++",
+        "cat_code": "HUM+",
         "source": "The Debrief",
         "description": "A new breed of AI-controlled personas could pose an unprecedented threat to democratic societies, experts have recently warned.",
         "source_url": "https://thedebrief.org/malicious-ai-swarms-could-hijack-democracy-and-may-even-go-unnoticed-experts-say/",
@@ -320,26 +330,6 @@ const db = [
         "timestamp": "Sun, 01 Feb 2026 18:23:50 +0000"
     },
     {
-        "id": "GS-2_26/",
-        "title": "PAINSTAKING BY RICH LARSON",
-        "type": "VOID_SIGHT",
-        "cat_code": "VOID",
-        "source": "Clarkesworld Magazine \u2013 Science Fiction & Fantasy",
-        "description": "Mars can smell meat cooking over charcoal. Before he was recruited, before the procedures, the scent was foreign to him. He survived on tuwo and onions as a child; meat [&#8230;]",
-        "source_url": "https://clarkesworldmagazine.com/larson_02_26/",
-        "timestamp": "Sun, 01 Feb 2026 18:23:42 +0000"
-    },
-    {
-        "id": "GS-2_26/",
-        "title": "THREE FORTUNES ON ALCESTIS AS TOLD BY THE FRAUD BAELISS SHUDAL BY LOUIS INGLIS HALL",
-        "type": "VOID_SIGHT",
-        "cat_code": "VOID",
-        "source": "Clarkesworld Magazine \u2013 Science Fiction & Fantasy",
-        "description": "FIRST FORTUNE: CLADOMANCY There are a thousand thousand routes to divination. I say routes because that is what they are; that is what my grandmother first taught me. We stand [&#8230;]",
-        "source_url": "https://clarkesworldmagazine.com/hall_02_26/",
-        "timestamp": "Sun, 01 Feb 2026 18:23:32 +0000"
-    },
-    {
         "id": "GS-_26a/",
         "title": "CHIP BY D.A. XIAOLIN SPIRES (AUDIO)",
         "type": "VOID_SIGHT",
@@ -350,6 +340,16 @@ const db = [
         "timestamp": "Sat, 07 Feb 2026 14:37:18 +0000"
     },
     {
+        "id": "GS-ebris",
+        "title": "HOW NASA IS HOMING IN FROM SPACE ON OCEAN DEBRIS",
+        "type": "GHOST_GEAR",
+        "cat_code": "TECH",
+        "source": "News and Features",
+        "description": "Space-based technology could help track plastic and other flotsam by its \u2018fingerprints.\u2019",
+        "source_url": "https://www.jpl.nasa.gov/news/how-nasa-is-homing-in-from-space-on-ocean-debris",
+        "timestamp": "Mon, 26 Jan 2026 09:00:00 -0800"
+    },
+    {
         "id": "GS-9e9ff",
         "title": "THIS STARTUP THINKS IT CAN MAKE ROCKET FUEL FROM WATER. STOP LAUGHING",
         "type": "SYNTH_CITY",
@@ -358,6 +358,16 @@ const db = [
         "description": "General Galactic, cofounded by a former SpaceX engineer, plans to test its water-based propellant this fall. If successful, it could help usher in a new era of space travel. That's a big \u201cif.\u201d",
         "source_url": "https://www.wired.com/story/general-galactic-water-rocket-fuel-test/",
         "timestamp": "Mon, 09 Feb 2026 10:30:00 +0000"
+    },
+    {
+        "id": "GS--mars",
+        "title": "NASA\u2019S PERSEVERANCE ROVER COMPLETES FIRST AI-PLANNED DRIVE ON MARS",
+        "type": "GHOST_GEAR",
+        "cat_code": "TECH",
+        "source": "News and Features",
+        "description": "The team for the six-wheeled scientist used a vision-capable AI to create a safe route over the Red Planet\u2019s surface without the input of human route planners.",
+        "source_url": "https://www.jpl.nasa.gov/news/nasas-perseverance-rover-completes-first-ai-planned-drive-on-mars",
+        "timestamp": "Fri, 30 Jan 2026 10:00:00 -0800"
     },
     {
         "id": "GS-439be",
@@ -378,25 +388,5 @@ const db = [
         "description": "Red and blue states alike have introduced legislation in recent weeks that would halt data center development, citing concerns from climate to high energy prices.",
         "source_url": "https://www.wired.com/story/new-york-is-the-latest-state-to-consider-a-data-center-pause/",
         "timestamp": "Fri, 06 Feb 2026 18:58:46 +0000"
-    },
-    {
-        "id": "GS-d93d4",
-        "title": "WHY THE ARTEMIS II CREW STAYS IN QUARANTINE BEFORE THEIR JOURNEY TO MOON",
-        "type": "SYNTH_CITY",
-        "cat_code": "URBN",
-        "source": "Science Latest",
-        "description": "For two weeks, medical experts monitor the astronauts as they remain indoors, live in isolation, and avoid physical touch, all to prevent harmful microbes from traveling to space.",
-        "source_url": "https://www.wired.com/story/why-the-artemis-ii-crew-stays-in-quarantine-before-their-journey-to-moon/",
-        "timestamp": "Fri, 06 Feb 2026 11:30:00 +0000"
-    },
-    {
-        "id": "GS-a708d",
-        "title": "FIGURE SKATERS AT THE 2026 WINTER OLYMPICS ARE PUSHING THE LIMITS OF WHAT\u2019S POSSIBLE",
-        "type": "SYNTH_CITY",
-        "cat_code": "URBN",
-        "source": "Science Latest",
-        "description": "For years, quad axel jumps seemed impossible. Then Ilia Malinin landed one in 2022. As he heads to the Milano Cortina Games, everyone wants to know what\u2019s next.",
-        "source_url": "https://www.wired.com/story/figure-skating-2026-winter-olympics-pushing-the-limits/",
-        "timestamp": "Fri, 06 Feb 2026 11:00:00 +0000"
     }
 ];
