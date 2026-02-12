@@ -32,7 +32,7 @@ jobs:
           # Force a commit with a timestamp to ensure the 'Ghost' always has fresh data to push
           git commit -m "UPLINK_STABLE: $(date)" || echo "No changes to commit"
           
-          # Sync with the server to prevent the Error 500 / 128 collisions
+          # Sync with the server using rebase to prevent collisions
           git pull --rebase --autostash origin main
           
           # Push the clean futurist feed to the live site
