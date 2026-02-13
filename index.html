@@ -14,10 +14,18 @@
             GHOST_SIGNAL 
             <span style="font-weight:300; font-size: 0.7rem; letter-spacing: 2px; margin-left: 12px; opacity: 0.6; color: #fff;">// NEWZLAB_CONSTRUCT</span>
         </div>
+        
+        <div class="top-bar" style="display: flex; gap: 30px; align-items: center;">
+            <div class="status-zone" style="font-family: 'Montserrat'; font-weight: 700; font-size: 0.65rem; letter-spacing: 1px;">
+                <span class="pulse-dot" style="display: inline-block; margin-right: 8px;"></span>
+                SYSTEM_STATUS: <span style="color: #00ff00;">DECRYPTING_LIVE_TRANSCRIPTIONS</span>
+            </div>
+            <div class="clock" id="digital-clock" style="font-family: 'Orbitron'; font-size: 0.8rem; color: var(--orange); letter-spacing: 2px; opacity: 0.8;">00:00:00</div>
+        </div>
+
         <div class="connection-status">
             <span>TERMINAL_UPLINK_STABLE</span>
-            <div class="pulse-dot"></div>
-            <span style="opacity: 0.5;">[ 2026.02.12 ]</span>
+            <span style="opacity: 0.5; margin-left: 10px;">[ 2026.02.12 ]</span>
         </div>
     </header>
 
@@ -94,7 +102,9 @@
                     <div class="module-header">DARK_NET [SEC_]</div>
                     <div class="module-body">Encryption and digital sovereignty.</div>
                 </div>
-            </div> <div class="intel-module" onclick="showAll()" style="margin-top: auto;">
+            </div> 
+
+            <div class="intel-module" onclick="showAll()" style="margin-top: auto;">
                 <div class="action-btn">REBOOT_UPLINK</div>
             </div>
 
@@ -107,7 +117,9 @@
             </div>
         </aside>
 
-    </div> <script src="signals.js"></script>
+    </div> 
+
+    <script src="signals.js"></script>
     <script src="terminal.js"></script>
 
     <div id="manifesto-overlay" class="overlay" onclick="closeManifesto()">
@@ -118,13 +130,25 @@
             </div>
             <div class="overlay-text">
                 <h2 style="color: var(--orange); font-family: 'Orbitron';">PROTOCOL: GHOST_SIGNAL</h2>
-                <p>The network was established in late 2025 as a response to the <strong>Great Algorithm Smoothing</strong>. While the corporate nets were busy filtering reality for comfort, we built the Ghost.</p>
+                <p>The network was established in late 2025 as a response to the <strong>Great Algorithm Smoothing</strong>.</p>
                 <p>> <strong>STATUS:</strong> Decentralized. AI-Native. <br>
                    > <strong>PURPOSE:</strong> Tracking the trajectory toward the Singularity without the "Dystopian Buffer."</p>
-                <p>The <strong>Newzlab Construct</strong> isn't just a news aggregator. It is a digital sieve designed to catch the signals of tomorrow before they are "corrected" by the legacy media conglomerates. You are now tuned into the frequency of the future.</p>
+                <p>The <strong>Newzlab Construct</strong> isn't just a news aggregator. It is a digital sieve designed to catch the signals of tomorrow.</p>
                 <p style="opacity: 0.5; font-size: 0.7rem;">// END_OF_TRANSMISSION</p>
             </div>
         </div>
     </div>
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const timeStr = now.getHours().toString().padStart(2, '0') + ":" + 
+                            now.getMinutes().toString().padStart(2, '0') + ":" + 
+                            now.getSeconds().toString().padStart(2, '0');
+            document.getElementById('digital-clock').innerText = timeStr;
+        }
+        setInterval(updateClock, 1000);
+        updateClock();
+    </script>
 </body>
 </html>
