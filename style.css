@@ -76,21 +76,20 @@ html, body {
 /* --- MAIN LAYOUT --- */
 .console-wrapper {
     display: grid;
-    grid-template-columns: 320px 1fr 340px;
-    flex: 1; 
-    min-height: 0;
-    gap: 1px;
-    background: var(--border);
-    box-shadow: inset 0 0 100px rgba(255, 85, 0, 0.1);
+    grid-template-columns: 320px 1fr 340px; /* Force the OSINT proportions */
+    grid-template-rows: 1fr;
+    flex: 1;
+    overflow: hidden; /* Prevents the whole page from scrolling */
+    background: #000;
 }
 
 .hud-panel {
     background: var(--panel-bg);
-    backdrop-filter: blur(25px);
-    padding: 25px;
+    border-right: 1px solid var(--border);
     display: flex;
     flex-direction: column;
-    position: relative;
+    padding: 20px;
+    height: 100%;
     overflow: hidden;
 }
 
@@ -206,7 +205,40 @@ html, body {
 .intel-module.active-module .module-header { color: var(--alert-red); }
 
 .module-body { font-size: 0.75rem; opacity: 0.7; font-weight: 300; line-height: 1.5; }
+.center-stage {
+    background: rgba(20, 20, 20, 0.4) !important;
+    overflow-y: auto !important; /* Enable article scrolling */
+    display: block; /* Break flex centering */
+    text-align: left;
+    padding: 60px;
+}
 
+.content-body {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#active-title {
+    font-size: 3rem;
+    margin: 20px 0;
+    line-height: 1;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* --- SIDEBAR SCROLLING --- */
+.intel-scroll-area, .vault-container {
+    flex: 1;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.intel-scroll-area::-webkit-scrollbar { display: none; }
+
+.footer-sticky {
+    margin-top: auto;
+    padding-top: 20px;
+    border-top: 1px dashed var(--border);
+}
 /* --- UI COMPONENTS --- */
 .action-btn {
     border: 1px solid var(--orange);
@@ -268,3 +300,4 @@ html, body {
     .console-wrapper { display: flex; flex-direction: column; }
     .hud-panel { min-height: 450px; border-bottom: 2px solid var(--border); }
 }
+
