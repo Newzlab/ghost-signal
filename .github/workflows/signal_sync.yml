@@ -30,12 +30,6 @@ jobs:
           git config --global user.name 'GhostSignal-Bot'
           git config --global user.email 'bot@ghostsignal.net'
           git add signals.js
-          
-          # Force a commit with a timestamp to ensure the 'Ghost' always has fresh data to push
           git commit -m "UPLINK_STABLE: $(date)" || echo "No changes to commit"
-          
-          # Sync with the server using rebase to prevent collisions
           git pull --rebase --autostash origin main
-          
-          # Push the clean futurist feed to the live site
           git push origin main
