@@ -22,8 +22,12 @@ FEEDS = {
     "DARK_NET": "https://thehackernews.com/feeds/posts/default"
 }
 
-DARPA_KEYWORDS = ["DARPA", "ANSR", "AIQ", "CLARA", "SHAFTO", "SUSMIT JHA", "VALPIANI", "NAVY", "AFOSR"]
-
+# Wider net for 2026 Defense Trends
+DARPA_KEYWORDS = [
+    "DARPA", "ANSR", "AIQ", "CLARA", "SHAFTO", "SUSMIT JHA", "VALPIANI", 
+    "NAVY", "AFOSR", "AUTONOMOUS WEAPON", "SWARM", "ELECTRONIC WARFARE",
+    "LARGE LANGUAGE MODEL DEFENSE", "CYBER ATTACK LOGIC"
+]
 def get_arxiv_acknowledgments(url):
     """Deep-scrapes arXiv abstract pages for funding credits."""
     try:
@@ -44,16 +48,17 @@ def fetch_and_format():
         print(f"POLLING: {category}")
         feed = feedparser.parse(url)
         
-        for entry in feed.entries[:10]:
+        # INCREASED BUFFER: Check top 25 entries for D-INT hits
+        for entry in feed.entries[:25]:
             title = entry.title.upper()
             summary = re.sub(r'<[^>]+>', '', entry.get('summary', ''))
             
-            # THE DARPA PROTOCOL: Filter arXiv for funding
             target_cat = category
             if category == "ARXIV_AI":
                 is_defense_funded = get_arxiv_acknowledgments(entry.link)
-                if not is_defense_funded:
-                    continue # Skip if not DARPA-related
+                # If acknowledgment scraping fails, check title/summary for high-value keywords
+                if not is_defense_funded and not any(word in (title + summary).upper() for word in DARPA_KEYWORDS):
+                    continue 
                 target_cat = "D_INT_DARK"
 
             signal_db.append({
@@ -61,7 +66,7 @@ def fetch_and_format():
                 "title": title,
                 "type": target_cat,
                 "cat_code": CAT_CODES.get(target_cat, "DECK"),
-                "source": feed.feed.get('title', 'INTEL_NODE').split(':')[0],
+                "source": feed.feed.get('title', 'INTEL_NODE').split(':')[0].strip(),
                 "description": summary[:400] + "...",
                 "source_url": entry.link,
                 "timestamp": datetime.now().strftime("%Y.%m.%d")
