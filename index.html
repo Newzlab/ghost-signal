@@ -17,25 +17,26 @@
         <div class="connection-status">
             <span>TERMINAL_UPLINK_STABLE</span>
             <div class="pulse-dot"></div>
-            <span style="opacity: 0.5;">[ 2026.02.05 ]</span>
+            <span style="opacity: 0.5;">[ 2026.02.12 ]</span>
         </div>
     </header>
 
     <div class="console-wrapper">
         <aside class="hud-panel">
             <div id="vault-title">SIGNAL_DIRECTORY</div>
-            <div id="vault-content" class="vault-container">
-                </div>
+            <div id="vault-content" class="vault-container"></div>
+            
             <div class="audio-module" style="margin-top: 20px; border-top: 1px solid var(--border); padding-top: 15px;">
-            <div id="vault-title" style="margin-bottom: 10px; font-size: 0.6rem;">ATMOSPHERIC_UPLINK</div>
+                <div id="vault-title" style="margin-bottom: 10px; font-size: 0.6rem;">ATMOSPHERIC_UPLINK</div>
                 <audio id="bg-audio" loop>
                    <source src="https://somafm.com/groovesalad256.pls" type="audio/x-scpls">
                    <source src="https://ice6.somafm.com/groovesalad-256-mp3" type="audio/mpeg">
                 </audio>
-            <div class="btn-row">
-            <div class="action-btn" id="play-trigger" onclick="toggleAudio()" style="font-size: 0.6rem;">INITIALIZE_AUDIO</div>
+                <div class="btn-row">
+                    <div class="action-btn" id="play-trigger" onclick="toggleAudio()" style="font-size: 0.6rem;">INITIALIZE_AUDIO</div>
                 </div>
             </div><br>
+
             <div class="system-logs">
                 MODE: TRANSPARENCY_ONLY<br>
                 UPLINK: ACTIVE<br>
@@ -57,85 +58,73 @@
                 <p id="active-description" style="opacity: 0.8; font-weight: 300; line-height: 1.8; margin-bottom: 30px;">
                     Select a high-priority coordinate from the Signal Directory to begin deep-packet decryption.
                 </p>
-                <div id="player-zone">
-                    </div>
+                <div id="player-zone"></div>
             </div>
         </main>
 
         <aside class="hud-panel" id="right-sidebar">
-    <div style="font-family: 'Montserrat'; font-weight: 700; font-size: 0.75rem; color: var(--orange); margin-bottom: 20px; letter-spacing: 2px;">INTEL_FILTERS</div>
-    
-    <div class="vault-container" style="overflow-y: auto; padding-right: 10px;">
-        <div class="intel-module active-module" onclick="filterSignals('D_INT_DARK')" style="border-left: 3px solid #ff0000;">
-            <div class="module-header">DEFENSE_INTEL [DARK]</div>
-            <div class="module-body">DARPA, SAM.gov, and autonomous defense-tech giants.</div>
-        </div>
+            <div style="font-family: 'Montserrat'; font-weight: 700; font-size: 0.75rem; color: var(--orange); margin-bottom: 20px; letter-spacing: 2px;">INTEL_FILTERS</div>
+            
+            <div class="vault-container" style="overflow-y: auto; padding-right: 10px;">
+                <div class="intel-module active-module" onclick="filterSignals('D_INT_DARK')" style="border-left: 3px solid #ff0000;">
+                    <div class="module-header">DEFENSE_INTEL [DARK]</div>
+                    <div class="module-body">DARPA, SAM.gov, and autonomous defense-tech giants.</div>
+                </div>
 
-        <div class="intel-module" onclick="filterSignals('NEURAL_LINK')">
-            <div class="module-header">NEURAL_LINK [H+++]</div>
-        </div>
-        </div>
-        <div class="intel-module" onclick="filterSignals('MEGA_CORP')">
-            <div class="module-header">MEGA_CORP [CORP]</div>
-            <div class="module-body">The economic arc of tech giants.</div>
-        </div>
-        <div class="intel-module" onclick="filterSignals('SYNTH_CITY')">
-            <div class="module-header">SYNTH_CITY [URBN]</div>
-            <div class="module-body">Surveillance and urban architecture.</div>
-        </div>
-        <div class="intel-module" onclick="filterSignals('ORBIT_DECK')">
-            <div class="module-header">ORBIT_DECK [SATL]</div>
-            <div class="module-body">Extra-planetary defense and logistics.</div>
-        </div>
+                <div class="intel-module" onclick="filterSignals('NEURAL_LINK')">
+                    <div class="module-header">NEURAL_LINK [H+++]</div>
+                </div>
 
-        <div class="intel-module" onclick="filterSignals('DARK_NET')">
-            <div class="module-header">DARK_NET [SEC_]</div>
-            <div class="module-body">Encryption and digital sovereignty.</div>
-        </div>
-    </div>
+                <div class="intel-module" onclick="filterSignals('MEGA_CORP')">
+                    <div class="module-header">MEGA_CORP [CORP]</div>
+                    <div class="module-body">The economic arc of tech giants.</div>
+                </div>
 
-    <div class="intel-module" onclick="showAll()" style="margin-top: auto;">
-        <div class="action-btn">REBOOT_UPLINK</div>
-    </div>
+                <div class="intel-module" onclick="filterSignals('SYNTH_CITY')">
+                    <div class="module-header">SYNTH_CITY [URBN]</div>
+                    <div class="module-body">Surveillance and urban architecture.</div>
+                </div>
 
-    <div class="footer-module">
-        <div class="copyright">
-            &copy; 2026 GHOST SIGNAL.<br>
-            INFRASTRUCTURE: GITHUB_NODE<br>
-            LOGIC: NEWZLAB_CONSTRUCT
-        </div>
-    </div>
-    </div>
-</aside>
+                <div class="intel-module" onclick="filterSignals('ORBIT_DECK')">
+                    <div class="module-header">ORBIT_DECK [SATL]</div>
+                    <div class="module-body">Extra-planetary defense and logistics.</div>
+                </div>
 
-    <script src="signals.js"></script>
+                <div class="intel-module" onclick="filterSignals('DARK_NET')">
+                    <div class="module-header">DARK_NET [SEC_]</div>
+                    <div class="module-body">Encryption and digital sovereignty.</div>
+                </div>
+            </div> <div class="intel-module" onclick="showAll()" style="margin-top: auto;">
+                <div class="action-btn">REBOOT_UPLINK</div>
+            </div>
+
+            <div class="footer-module">
+                <div class="copyright">
+                    &copy; 2026 GHOST SIGNAL.<br>
+                    INFRASTRUCTURE: GITHUB_NODE<br>
+                    LOGIC: NEWZLAB_CONSTRUCT
+                </div>
+            </div>
+        </aside>
+
+    </div> <script src="signals.js"></script>
     <script src="terminal.js"></script>
+
     <div id="manifesto-overlay" class="overlay" onclick="closeManifesto()">
-    <div class="overlay-content" onclick="event.stopPropagation()">
-        <div class="overlay-header">
-            <span>[INTERNAL_MEMO // REDACTED]</span>
-            <button class="close-btn" onclick="closeManifesto()">CLOSE_LOG</button>
-        </div>
-        <div class="overlay-text">
-            <h2 style="color: var(--orange); font-family: 'Orbitron';">PROTOCOL: GHOST_SIGNAL</h2>
-            <p>The network was established in late 2025 as a response to the <strong>Great Algorithm Smoothing</strong>. While the corporate nets were busy filtering reality for comfort, we built the Ghost.</p>
-            <p>> <strong>STATUS:</strong> Decentralized. AI-Native. <br>
-               > <strong>PURPOSE:</strong> Tracking the trajectory toward the Singularity without the "Dystopian Buffer."</p>
-            <p>The <strong>Newzlab Construct</strong> isn't just a news aggregator. It is a digital sieve designed to catch the signals of tomorrow before they are "corrected" by the legacy media conglomerates. You are now tuned into the frequency of the future.</p>
-            <p style="opacity: 0.5; font-size: 0.7rem;">// END_OF_TRANSMISSION</p>
+        <div class="overlay-content" onclick="event.stopPropagation()">
+            <div class="overlay-header">
+                <span>[INTERNAL_MEMO // REDACTED]</span>
+                <button class="close-btn" onclick="closeManifesto()">CLOSE_LOG</button>
+            </div>
+            <div class="overlay-text">
+                <h2 style="color: var(--orange); font-family: 'Orbitron';">PROTOCOL: GHOST_SIGNAL</h2>
+                <p>The network was established in late 2025 as a response to the <strong>Great Algorithm Smoothing</strong>. While the corporate nets were busy filtering reality for comfort, we built the Ghost.</p>
+                <p>> <strong>STATUS:</strong> Decentralized. AI-Native. <br>
+                   > <strong>PURPOSE:</strong> Tracking the trajectory toward the Singularity without the "Dystopian Buffer."</p>
+                <p>The <strong>Newzlab Construct</strong> isn't just a news aggregator. It is a digital sieve designed to catch the signals of tomorrow before they are "corrected" by the legacy media conglomerates. You are now tuned into the frequency of the future.</p>
+                <p style="opacity: 0.5; font-size: 0.7rem;">// END_OF_TRANSMISSION</p>
+            </div>
         </div>
     </div>
-</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
