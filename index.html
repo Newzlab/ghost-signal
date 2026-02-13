@@ -73,12 +73,20 @@
         <aside class="hud-panel" id="right-sidebar">
             <div style="font-family: 'Montserrat'; font-weight: 700; font-size: 0.75rem; color: var(--orange); margin-bottom: 20px; letter-spacing: 2px;">INTEL_FILTERS</div>
             
-            <div class="vault-container" style="overflow-y: auto; padding-right: 10px;">
-                <div class="intel-module active-module" onclick="filterSignals('D_INT_DARK')" style="border-left: 3px solid #ff0000;">
+            <div class="vault-container">
+                <div class="intel-module" onclick="filterSignals('D_INT_DARK')">
                     <div class="module-header">DEFENSE_INTEL [DARK]</div>
-                    <div class="module-body">DARPA, SAM.gov, and autonomous defense-tech giants.</div>
+                    <div class="module-body">DARPA, Anduril, Shield AI.</div>
                 </div>
 
+                <div class="intel-module" onclick="filterSignals('DECK')">
+                    <div class="module-header">UNCLASSIFIED [DECK]</div>
+                    <div class="module-body">General intelligence and overflow.</div>
+                </div>
+
+                <div class="intel-module" onclick="filterSignals('DARK_NET')">
+                    <div class="module-header">DARK_NET [SEC_]</div>
+                </div>
                 <div class="intel-module" onclick="filterSignals('NEURAL_LINK')">
                     <div class="module-header">NEURAL_LINK [H+++]</div>
                 </div>
@@ -98,10 +106,6 @@
                     <div class="module-body">Extra-planetary defense and logistics.</div>
                 </div>
 
-                <div class="intel-module" onclick="filterSignals('DARK_NET')">
-                    <div class="module-header">DARK_NET [SEC_]</div>
-                    <div class="module-body">Encryption and digital sovereignty.</div>
-                </div>
             </div> 
 
             <div class="intel-module" onclick="showAll()" style="margin-top: auto;">
@@ -152,3 +156,4 @@
     </script>
 </body>
 </html>
+
