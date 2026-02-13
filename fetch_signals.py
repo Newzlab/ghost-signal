@@ -7,13 +7,26 @@ from datetime import datetime
 
 # --- TAXONOMY ---
 CAT_CODES = {
-    "D_INT_DARK": "DARK",
-    "NEURAL_LINK": "H+++",
-    "MEGA_CORP": "CORP",
-    "DARK_NET": "SEC_",
-    "ARXIV_AI": "DARK",   # Fallback for arXiv
-    "ANDURIL": "DARK",    # Mapping direct sources
-    "SHIELD_AI": "DARK"   # This prevents the [DECK] error
+    # Defense & Private Intel
+    "darpa": "D_INT_DARK",
+    "anduril": "D_INT_DARK",
+    "shield_ai": "D_INT_DARK",
+    "palantir": "D_INT_DARK",
+    "vannevar": "D_INT_DARK",
+    
+    # Bio-Digital / Neural
+    "bci": "NEURAL_LINK",
+    "neuralink": "NEURAL_LINK",
+    "biotech": "NEURAL_LINK",
+    
+    # Economic / Megacorp
+    "market_pulse": "MEGA_CORP",
+    "supply_chain": "MEGA_CORP",
+    
+    # Cyber / DarkNet
+    "zero_day": "DARK_NET",
+    "exploit": "DARK_NET",
+    "encrypted": "DARK_NET"
 }
 
 FEEDS = {
