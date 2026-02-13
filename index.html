@@ -9,6 +9,8 @@
 </head>
 <body>
 
+    <div id="alert-anchor"></div>
+
     <header class="system-header">
         <div class="site-title" onclick="openManifesto()" style="cursor: pointer;">
             GHOST_SIGNAL 
@@ -25,7 +27,7 @@
 
         <div class="connection-status">
             <span>TERMINAL_UPLINK_STABLE</span>
-            <span style="opacity: 0.5; margin-left: 10px;">[ 2026.02.12 ]</span>
+            <span style="opacity: 0.5; margin-left: 10px;">[ 2026.02.13 ]</span>
         </div>
     </header>
 
@@ -37,7 +39,6 @@
             <div class="audio-module" style="margin-top: 20px; border-top: 1px solid var(--border); padding-top: 15px;">
                 <div id="vault-title" style="margin-bottom: 10px; font-size: 0.6rem;">ATMOSPHERIC_UPLINK</div>
                 <audio id="bg-audio" loop>
-                   <source src="https://somafm.com/groovesalad256.pls" type="audio/x-scpls">
                    <source src="https://ice6.somafm.com/groovesalad-256-mp3" type="audio/mpeg">
                 </audio>
                 <div class="btn-row">
@@ -53,23 +54,28 @@
             </div>
         </aside>
 
-        <main class="hud-panel" id="center-stage-anchor" style="background: transparent; justify-content: center; align-items: center; text-align: center;">
-            <div class="visualizer">
-                <div class="v-bar"></div>
-                <div class="v-bar" style="animation-delay: 0.2s"></div>
-                <div class="v-bar" style="animation-delay: 0.4s"></div>
-            </div>
-            
-            <div style="max-width: 600px;">
-                <span id="label-type" style="font-size: 0.7rem; letter-spacing: 6px; text-transform: uppercase;">AWAITING_SIGNAL</span>
-                <h1 id="active-title" style="font-size: 2.5rem; margin: 15px 0; text-transform: uppercase;">INITIALIZING...</h1>
-                <p id="active-description" style="opacity: 0.8; font-weight: 300; line-height: 1.8; margin-bottom: 30px;">
-                    Select a high-priority coordinate from the Signal Directory to begin deep-packet decryption.
-                </p>
-                <div id="player-zone"></div>
+        <main class="hud-panel" id="center-stage-anchor" style="background: transparent; display: block; overflow-y: auto;">
+            <div class="article-limiter" style="max-width: 700px; margin: 0 auto; padding: 40px 20px;">
+                
+                <div class="visualizer">
+                    <div class="v-bar"></div>
+                    <div class="v-bar"></div>
+                    <div class="v-bar"></div>
+                </div>
+                
+                <div id="decrypt-view">
+                    <span id="label-type" style="font-size: 0.7rem; letter-spacing: 6px; text-transform: uppercase; display: block; margin-bottom: 10px;">AWAITING_SIGNAL</span>
+                    <h1 id="active-title" style="font-size: 2.5rem; margin: 15px 0; text-transform: uppercase; line-height: 1.1;">INITIALIZING...</h1>
+                    
+                    <div id="active-description" style="opacity: 0.8; font-weight: 300; line-height: 1.8; margin-bottom: 30px; font-size: 1rem; text-align: left;">
+                        Select a high-priority coordinate from the Signal Directory to begin deep-packet decryption.
+                    </div>
+                    
+                    <div id="player-zone"></div>
+                </div>
             </div>
         </main>
-<div id="alert-anchor"></div>
+
         <aside class="hud-panel" id="right-sidebar">
             <div style="font-family: 'Montserrat'; font-weight: 700; font-size: 0.75rem; color: var(--orange); margin-bottom: 20px; letter-spacing: 2px;">INTEL_FILTERS</div>
             
@@ -86,9 +92,12 @@
 
                 <div class="intel-module" onclick="filterSignals('DARK_NET')">
                     <div class="module-header">DARK_NET [SEC_]</div>
+                    <div class="module-body">Cybersecurity and zero-day tracking.</div>
                 </div>
+
                 <div class="intel-module" onclick="filterSignals('NEURAL_LINK')">
                     <div class="module-header">NEURAL_LINK [H+++]</div>
+                    <div class="module-body">Bio-digital integration signals.</div>
                 </div>
 
                 <div class="intel-module" onclick="filterSignals('MEGA_CORP')">
@@ -105,7 +114,6 @@
                     <div class="module-header">ORBIT_DECK [SATL]</div>
                     <div class="module-body">Extra-planetary defense and logistics.</div>
                 </div>
-
             </div> 
 
             <div class="intel-module" onclick="showAll()" style="margin-top: auto;">
@@ -120,7 +128,6 @@
                 </div>
             </div>
         </aside>
-
     </div> 
 
     <script src="signals.js"></script>
@@ -136,8 +143,7 @@
                 <h2 style="color: var(--orange); font-family: 'Orbitron';">PROTOCOL: GHOST_SIGNAL</h2>
                 <p>The network was established in late 2025 as a response to the <strong>Great Algorithm Smoothing</strong>.</p>
                 <p>> <strong>STATUS:</strong> Decentralized. AI-Native. <br>
-                   > <strong>PURPOSE:</strong> Tracking the trajectory toward the Singularity without the "Dystopian Buffer."</p>
-                <p>The <strong>Newzlab Construct</strong> isn't just a news aggregator. It is a digital sieve designed to catch the signals of tomorrow.</p>
+                   > <strong>PURPOSE:</strong> Tracking the trajectory toward the Singularity.</p>
                 <p style="opacity: 0.5; font-size: 0.7rem;">// END_OF_TRANSMISSION</p>
             </div>
         </div>
@@ -156,5 +162,3 @@
     </script>
 </body>
 </html>
-
-
