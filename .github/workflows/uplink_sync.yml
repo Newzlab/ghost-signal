@@ -1,7 +1,7 @@
 name: GhostSignal Uplink
 on:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '0 */3 * * *' # Every 3 hours
   workflow_dispatch:
 
 jobs:
@@ -10,10 +10,13 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Ensures we have the history for a clean rebase
       
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.9'
           
@@ -29,7 +32,13 @@ jobs:
         run: |
           git config --global user.name 'GhostSignal-Bot'
           git config --global user.email 'bot@ghostsignal.net'
-          git add signals.js
-          git commit -m "STABLE_UPLINK: $(date)" || echo "No changes"
-          git pull --rebase --autostash origin main
-          git push origin main
+          
+          # Only proceed if signals.js has actual changes
+          if [[ -n "$(git status --porcelain signals.js)" ]]; then
+            git add signals.js
+            git commit -m "STABLE_UPLINK: $(date +'%Y-%m-%d %H:%M:%S')"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "SIGNAL_IDLE: No new data packets detected."
+          fi
