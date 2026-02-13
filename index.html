@@ -1,133 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GHOST SIGNAL | OSINT TERMINAL</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <div id="alert-anchor"></div>
-
-    <header class="system-header">
-        <div class="site-title" onclick="openManifesto()">
-            GHOST_SIGNAL <span style="font-weight:300; font-size: 0.7rem; letter-spacing: 2px; margin-left: 12px; opacity: 0.6; color: #fff;">// NEWZLAB_CONSTRUCT</span>
-        </div>
-        
-        <div class="top-bar">
-            <div class="status-zone">
-                <span class="pulse-dot"></span>
-                SYSTEM_STATUS: <span style="color: #00ff00;">DECRYPTING_LIVE_TRANSCRIPTIONS</span>
-            </div>
-            <div class="clock" id="digital-clock">00:00:00</div>
-        </div>
-
-        <div class="connection-status">
-            <span>TERMINAL_UPLINK_STABLE</span>
-            <span style="opacity: 0.5; margin-left: 10px;">[ 2026.02.13 ]</span>
-        </div>
+<header class="system-header">
+    <div class="site-title" onclick="openManifesto()" style="cursor: pointer;">
+        GHOST_SIGNAL <span style="font-weight:300; font-size: 0.6rem; letter-spacing: 2px; margin-left: 10px; opacity: 0.6;">// NEWZLAB_CONSTRUCT</span>
+    </div>
     </header>
 
-    <div class="console-wrapper">
-        <aside class="hud-panel">
-            <div id="vault-title">SIGNAL_DIRECTORY</div>
-            <div id="vault-content" class="vault-container"></div>
-            
-            <div class="audio-module">
-                <div id="vault-title" style="margin-bottom: 10px; font-size: 0.6rem;">ATMOSPHERIC_UPLINK</div>
-                <audio id="bg-audio" loop>
-                   <source src="https://ice6.somafm.com/groovesalad-256-mp3" type="audio/mpeg">
-                </audio>
-                <div class="action-btn" id="play-trigger" onclick="toggleAudio()">INITIALIZE_AUDIO</div>
-            </div>
+<div class="console-wrapper">
+    <aside class="hud-panel left-vault">
+        <div id="vault-title">SIGNAL_DIRECTORY</div>
+        <div id="vault-content" class="vault-container"></div>
+        
+        <div class="system-logs">
+            MODE: TRANSPARENCY_ONLY<br>
+            UPLINK: ACTIVE<br>
+            <span style="opacity: 0.5;">AUTH: ARCHITECT_2026</span>
+        </div>
+    </aside>
 
-            <div class="system-logs">
-                MODE: TRANSPARENCY_ONLY<br>
-                UPLINK: ACTIVE<br>
-                <span style="color: #fff; opacity: 0.5;">AUTH: NEWZLAB_ARCHITECT</span>
-            </div>
-        </aside>
-
-        <main class="hud-panel center-stage">
-            <div class="article-limiter">
-                <div class="visualizer">
-                    <div class="v-bar"></div>
-                    <div class="v-bar"></div>
-                    <div class="v-bar"></div>
-                </div>
-                
-                <div id="decrypt-view">
-                    <span id="label-type">AWAITING_SIGNAL</span>
-                    <h1 id="active-title">INITIALIZING...</h1>
-                    <div id="active-description">
-                        Select a high-priority coordinate from the Signal Directory to begin deep-packet decryption.
-                    </div>
-                    <div id="player-zone"></div>
-                </div>
-            </div>
-        </main>
-
-        <aside class="hud-panel">
-            <div class="sidebar-label">INTEL_FILTERS</div>
-            
-            <div class="intel-scroll-area">
-                <div class="intel-module" onclick="filterSignals('D_INT_DARK')">
-                    <div class="module-header">DEFENSE_INTEL [DARK]</div>
-                    <div class="module-body">DARPA, Anduril, Shield AI.</div>
-                </div>
-                <div class="intel-module" onclick="filterSignals('DECK')">
-                    <div class="module-header">UNCLASSIFIED [DECK]</div>
-                    <div class="module-body">General intelligence and overflow.</div>
-                </div>
-                <div class="intel-module" onclick="filterSignals('DARK_NET')">
-                    <div class="module-header">DARK_NET [SEC_]</div>
-                </div>
-                <div class="intel-module" onclick="filterSignals('NEURAL_LINK')">
-                    <div class="module-header">NEURAL_LINK [H+++]</div>
-                </div>
-                <div class="intel-module" onclick="filterSignals('MEGA_CORP')">
-                    <div class="module-header">MEGA_CORP [CORP]</div>
-                </div>
-            </div> 
-
-            <div class="footer-area">
-                <div class="action-btn" onclick="showAll()">REBOOT_UPLINK</div>
-                <div class="copyright">
-                    &copy; 2026 GHOST SIGNAL.<br>
-                    LOGIC: NEWZLAB_CONSTRUCT
-                </div>
-            </div>
-        </aside>
-    </div> 
-
-    <div id="manifesto-overlay" class="overlay" onclick="closeManifesto()">
-        <div class="overlay-content" onclick="event.stopPropagation()">
-            <div class="overlay-header">
-                <span>[INTERNAL_MEMO // REDACTED]</span>
-                <button class="close-btn" onclick="closeManifesto()">CLOSE_LOG</button>
-            </div>
-            <div class="overlay-text">
-                <h2 style="color: var(--orange); font-family: 'Orbitron';">PROTOCOL: GHOST_SIGNAL</h2>
-                <p>The network was established in late 2025 as a response to the <strong>Great Algorithm Smoothing</strong>.</p>
-                <p>> <strong>STATUS:</strong> Decentralized. AI-Native. <br>
-                   > <strong>PURPOSE:</strong> Tracking the Singularity.</p>
+    <main class="hud-panel center-stage">
+        <div class="article-wrap">
+            <div id="decrypt-view">
+                <span id="label-type">AWAITING_SIGNAL</span>
+                <h1 id="active-title">INITIALIZING...</h1>
+                <div id="active-description">Select a coordinate to begin.</div>
+                <div id="player-zone"></div>
             </div>
         </div>
-    </div>
+    </main>
 
-    <script src="signals.js"></script>
-    <script src="terminal.js"></script>
-    <script>
-        function updateClock() {
-            const now = new Date();
-            document.getElementById('digital-clock').innerText = 
-                now.getHours().toString().padStart(2, '0') + ":" + 
-                now.getMinutes().toString().padStart(2, '0') + ":" + 
-                now.getSeconds().toString().padStart(2, '0');
-        }
-        setInterval(updateClock, 1000); updateClock();
-    </script>
-</body>
-</html>
+    <aside class="hud-panel right-filters">
+        </aside>
+</div>
+
+<div id="manifesto-overlay" class="overlay">
+    <div class="overlay-content">
+        <div class="overlay-header">
+            <span>[INTERNAL_MEMO // REDACTED]</span>
+            <button class="close-btn" onclick="closeManifesto()">CLOSE_LOG</button>
+        </div>
+        <div class="overlay-text">
+            <h2 style="color: var(--orange); font-family: 'Orbitron'; font-size: 1rem;">PROTOCOL: GHOST_SIGNAL</h2>
+            <p>The network was established in late 2025 as a response to the <strong>Great Algorithm Smoothing</strong>.</p>
+            <p style="font-size: 0.7rem; color: var(--orange);">
+                > <strong>STATUS:</strong> Decentralized. AI-Native.<br>
+                > <strong>PURPOSE:</strong> Tracking the Singularity.
+            </p>
+        </div>
+    </div>
+</div>
