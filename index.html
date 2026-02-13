@@ -32,58 +32,51 @@
     </header>
 
     <div class="console-wrapper">
-        <aside class="hud-panel">
-            <div id="vault-title">SIGNAL_DIRECTORY</div>
-            <div id="vault-content" class="vault-container"></div>
-            
-            <div class="audio-module" style="margin-top: 20px; border-top: 1px solid var(--border); padding-top: 15px;">
-                <div id="vault-title" style="margin-bottom: 10px; font-size: 0.6rem;">ATMOSPHERIC_UPLINK</div>
-                <audio id="bg-audio" loop>
-                   <source src="https://ice6.somafm.com/groovesalad-256-mp3" type="audio/mpeg">
-                </audio>
-                <div class="btn-row">
-                    <div class="action-btn" id="play-trigger" onclick="toggleAudio()" style="font-size: 0.6rem;">INITIALIZE_AUDIO</div>
-                </div>
-            </div><br>
+    <aside class="hud-panel left-vault">
+        <div id="vault-title">SIGNAL_DIRECTORY</div>
+        <div id="vault-content" class="vault-container"></div>
+        
+        <div class="audio-module">
+            <div class="module-header" style="font-size: 0.6rem;">ATMOSPHERIC_UPLINK</div>
+            <audio id="bg-audio" loop>
+               <source src="https://ice6.somafm.com/groovesalad-256-mp3" type="audio/mpeg">
+            </audio>
+            <div class="action-btn" id="play-trigger" onclick="toggleAudio()">INITIALIZE_AUDIO</div>
+        </div>
 
-            <div class="system-logs">
-                MODE: TRANSPARENCY_ONLY<br>
-                UPLINK: ACTIVE<br>
-                FILTER: OSINT_STANDARDS<br>
-                <span style="color: #fff; opacity: 0.5;">AUTH: NEWZLAB_ARCHITECT</span>
+        <div class="system-logs">
+            MODE: TRANSPARENCY_ONLY<br>
+            UPLINK: ACTIVE<br>
+            <span style="color: #fff; opacity: 0.5;">AUTH: NEWZLAB_ARCHITECT</span>
+        </div>
+    </aside>
+
+    <main class="hud-panel center-stage">
+        <div class="visualizer">
+            <div class="v-bar"></div>
+            <div class="v-bar"></div>
+            <div class="v-bar"></div>
+        </div>
+        
+        <div class="content-body">
+            <span id="label-type">AWAITING_SIGNAL</span>
+            <h1 id="active-title">INITIALIZING...</h1>
+            <div id="active-description">
+                Select a high-priority coordinate from the Signal Directory to begin deep-packet decryption.
             </div>
-        </aside>
+            <div id="player-zone"></div>
+        </div>
+    </main>
 
-        <main class="hud-panel" id="center-stage-anchor" style="background: transparent; display: block; overflow-y: auto;">
-            <div class="article-limiter" style="max-width: 700px; margin: 0 auto; padding: 40px 20px;">
-                
-                <div class="visualizer">
-                    <div class="v-bar"></div>
-                    <div class="v-bar"></div>
-                    <div class="v-bar"></div>
-                </div>
-                
-                <div id="decrypt-view">
-                    <span id="label-type" style="font-size: 0.7rem; letter-spacing: 6px; text-transform: uppercase; display: block; margin-bottom: 10px;">AWAITING_SIGNAL</span>
-                    <h1 id="active-title" style="font-size: 2.5rem; margin: 15px 0; text-transform: uppercase; line-height: 1.1;">INITIALIZING...</h1>
-                    
-                    <div id="active-description" style="opacity: 0.8; font-weight: 300; line-height: 1.8; margin-bottom: 30px; font-size: 1rem; text-align: left;">
-                        Select a high-priority coordinate from the Signal Directory to begin deep-packet decryption.
-                    </div>
-                    
-                    <div id="player-zone"></div>
-                </div>
+    <aside class="hud-panel right-intel">
+        <div class="sidebar-label">INTEL_FILTERS</div>
+        
+        <div class="intel-scroll-area">
+            <div class="intel-module" onclick="filterSignals('D_INT_DARK')">
+                <div class="module-header">DEFENSE_INTEL [DARK]</div>
+                <div class="module-body">DARPA, Anduril, Shield AI.</div>
             </div>
-        </main>
-
-        <aside class="hud-panel" id="right-sidebar">
-            <div style="font-family: 'Montserrat'; font-weight: 700; font-size: 0.75rem; color: var(--orange); margin-bottom: 20px; letter-spacing: 2px;">INTEL_FILTERS</div>
-            
-            <div class="vault-container">
-                <div class="intel-module" onclick="filterSignals('D_INT_DARK')">
-                    <div class="module-header">DEFENSE_INTEL [DARK]</div>
-                    <div class="module-body">DARPA, Anduril, Shield AI.</div>
-                </div>
+            </div> 
 
                 <div class="intel-module" onclick="filterSignals('DECK')">
                     <div class="module-header">UNCLASSIFIED [DECK]</div>
@@ -120,15 +113,15 @@
                 <div class="action-btn">REBOOT_UPLINK</div>
             </div>
 
-            <div class="footer-module">
-                <div class="copyright">
-                    &copy; 2026 GHOST SIGNAL.<br>
-                    INFRASTRUCTURE: GITHUB_NODE<br>
-                    LOGIC: NEWZLAB_CONSTRUCT
-                </div>
+             <div class="footer-sticky">
+            <div class="action-btn" onclick="showAll()">REBOOT_UPLINK</div>
+            <div class="copyright">
+                &copy; 2026 GHOST SIGNAL.<br>
+                LOGIC: NEWZLAB_CONSTRUCT
             </div>
-        </aside>
-    </div> 
+        </div>
+    </aside>
+</div>
 
     <script src="signals.js"></script>
     <script src="terminal.js"></script>
@@ -162,3 +155,4 @@
     </script>
 </body>
 </html>
+
