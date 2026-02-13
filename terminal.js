@@ -1,17 +1,31 @@
-/* --- GHOST SIGNAL | TERMINAL CORE v2.5 --- */
+/* --- GHOST SIGNAL | TERMINAL CORE v2.6 | 2026 STABLE --- */
 
-window.onload = () => { if (typeof db !== 'undefined') showAll(); };
+// --- INITIALIZATION ---
+window.onload = () => {
+    if (typeof db !== 'undefined') {
+        filterSignals('D_INT_DARK'); // Default to Defense Intel on boot
+        // Slight delay for the startup alert to ensure DOM is ready
+        setTimeout(() => triggerSystemAlert("UPLINK_ESTABLISHED: ENCRYPTED_FEED_ACTIVE"), 1000);
+    }
+};
 
-function showAll() { renderDirectory(db, "ALL_SIGNALS"); }
-
+// --- CORE LOGIC ---
 function filterSignals(category) {
     console.log("UPLINK_REQUESTED:", category);
 
-    // 1. Visually update the active module
+    // 1. Visually update the active module (Updated for Sidebar Reset)
     document.querySelectorAll('.intel-module').forEach(m => m.classList.remove('active-module'));
+    
     const activeModule = Array.from(document.querySelectorAll('.intel-module'))
         .find(m => m.getAttribute('onclick').includes(category));
-    if (activeModule) activeModule.classList.add('active-module');
+    
+    if (activeModule) {
+        activeModule.classList.add('active-module');
+        // Trigger a red alert style toast if user clicks into Dark Intel
+        if (category === 'D_INT_DARK') {
+            triggerSystemAlert("CAUTION: ACCESSING_RESTRICTED_DEFENSE_FEEDS");
+        }
+    }
 
     // 2. The Smart Filter: Checks both the long-form type and the short cat_code
     const filtered = db.filter(item => {
@@ -25,24 +39,24 @@ function filterSignals(category) {
     renderDirectory(filtered, category);
 }
 
-// Ensure the directory renders on boot
-window.onload = () => {
-    if (typeof db !== 'undefined') {
-        filterSignals('D_INT_DARK'); // Default to Defense Intel on boot
-    }
-};
-
 function renderDirectory(data, label) {
     const container = document.getElementById('vault-content');
-    document.getElementById('vault-title').innerText = `SIGNAL_DIRECTORY // ${label}`;
+    const vaultTitle = document.getElementById('vault-title');
+    
+    if (vaultTitle) vaultTitle.innerText = `SIGNAL_DIRECTORY // ${label}`;
+    if (!container) return;
+
     container.innerHTML = '';
     
     data.forEach(item => {
         const div = document.createElement('div');
         div.className = 'vault-item';
-        // Use the new H+++ / CORP / VOID codes
         const code = item.cat_code || "DECK";
-        div.innerHTML = `<span style="color: var(--orange); font-size: 0.7rem; font-weight:700;">[${code}]</span> ${item.title}`;
+        
+        // Aesthetic: DARK sources get a red bracket in the list
+        const codeColor = code === 'DARK' ? 'var(--alert-red)' : 'var(--orange)';
+        
+        div.innerHTML = `<span style="color: ${codeColor}; font-size: 0.7rem; font-weight:700;">[${code}]</span> ${item.title}`;
         div.onclick = () => decryptSignal(item);
         container.appendChild(div);
     });
@@ -51,6 +65,10 @@ function renderDirectory(data, label) {
 function decryptSignal(item) {
     const words = item.description ? item.description.split(/\s+/).length : 0;
     const readTime = Math.max(1, Math.ceil(words / 180));
+
+    // Reset center scroll position on new article
+    const centerPanel = document.querySelector('.console-wrapper > .hud-panel:nth-child(2)');
+    if (centerPanel) centerPanel.scrollTop = 0;
 
     document.getElementById('label-type').innerText = `PRIORITY_SIGNAL // ${item.type}`;
     document.getElementById('active-title').innerText = item.title;
@@ -64,19 +82,42 @@ function decryptSignal(item) {
     `;
     
     document.getElementById('active-description').innerHTML = meta + item.description + "...";
-    document.getElementById('player-zone').innerHTML = `<button class="action-btn" onclick="window.open('${item.source_url}', '_blank')" style="padding: 18px 50px;">ACCESS RAW DATA SOURCE</button>`;
+    document.getElementById('player-zone').innerHTML = `<button class="action-btn" onclick="window.open('${item.source_url}', '_blank')" style="padding: 18px 50px; width:100%;">ACCESS RAW DATA SOURCE</button>`;
 }
 
-// --- HARDENED AUDIO LOGIC ---
+// --- PHASE 2: SYSTEM ALERT LOGIC ---
+function triggerSystemAlert(message) {
+    const alertContainer = document.getElementById('alert-anchor'); // Ensure this div exists in your HTML
+    if (!alertContainer) return;
+
+    const toast = document.createElement('div');
+    toast.className = 'alert-toast';
+    toast.innerHTML = `
+        <span style="font-weight:900;">[!]</span>
+        <span>${message}</span>
+    `;
+
+    alertContainer.appendChild(toast);
+
+    // Self-destruct after 4 seconds
+    setTimeout(() => {
+        toast.style.opacity = '0';
+        toast.style.transform = 'translateX(20px)';
+        setTimeout(() => toast.remove(), 500);
+    }, 4000);
+}
+
+// --- AUDIO CONTROLS ---
 let audioPlaying = false;
 function toggleAudio() {
     const audio = document.getElementById('bg-audio');
     const btn = document.getElementById('play-trigger');
+    if (!audio) return;
     
     if (!audioPlaying) {
         audio.play().then(() => {
             btn.innerText = "TERMINATE_AUDIO";
-            btn.style.color = "#ff0000";
+            btn.style.color = "var(--alert-red)";
             audioPlaying = true;
         }).catch(err => {
             console.error("Audio Blocked: ", err);
@@ -89,12 +130,7 @@ function toggleAudio() {
         audioPlaying = false;
     }
 }
-function openManifesto() {
-    document.getElementById('manifesto-overlay').style.display = 'flex';
-}
 
-function closeManifesto() {
-    document.getElementById('manifesto-overlay').style.display = 'none';
-}
-
-
+// --- MODAL CONTROLS ---
+function openManifesto() { document.getElementById('manifesto-overlay').style.display = 'flex'; }
+function closeManifesto() { document.getElementById('manifesto-overlay').style.display = 'none'; }
