@@ -2,79 +2,75 @@ import feedparser
 import json
 import re
 import time
-import ssl
+import requests
 from datetime import datetime
 
-# Fix for SSL certificate issues on some servers
-if hasattr(ssl, '_create_unverified_context'):
-    ssl._create_default_https_context = ssl._create_unverified_context
-
-# --- DEFENSE INTEL COORDINATES ---
+# --- TAXONOMY ---
 CAT_CODES = {
-    "D_INT_DARK": "DARK",  # DARPA, Contracts, Defense Labs
-    "NEURAL_LINK": "H+++", 
-    "MEGA_CORP": "CORP",   
+    "D_INT_DARK": "DARK",
+    "NEURAL_LINK": "H+++",
+    "MEGA_CORP": "CORP",
     "DARK_NET": "SEC_"
 }
 
-# New high-value sources integrated from your research
 FEEDS = {
     "D_INT_DARK": "https://www.darpa.mil/news/rss",
-    "ARXIV_AI": "https://arxiv.org/rss/cs.AI", # Filtered for DARPA keywords
+    "ARXIV_AI": "https://arxiv.org/rss/cs.AI",
     "ANDURIL": "https://www.anduril.com/news/feed/",
     "SHIELD_AI": "https://shield.ai/feed/",
     "NEURAL_LINK": "https://thedebrief.org/feed/",
-    "MEGA_CORP": "https://futurism.com/feed/",
-    "VOID_SIGHT": "https://clarkesworldmagazine.com/feed/",
     "DARK_NET": "https://thehackernews.com/feeds/posts/default"
 }
 
-# Keywords to trigger a D-INT signal from general research feeds
-DARPA_PROTOCOL_KEYWORDS = ["DARPA", "ANSR", "AIQ", "CLARA", "SHAFTO", "SUSMIT JHA", "VALPIANI"]
+DARPA_KEYWORDS = ["DARPA", "ANSR", "AIQ", "CLARA", "SHAFTO", "SUSMIT JHA", "VALPIANI", "NAVY", "AFOSR"]
 
-def deep_scrub(text):
-    text = re.sub(r'<[^>]+>', '', text) 
-    text = re.sub(r'http\S+', '', text) 
-    junk = ["The post", "appeared first on", "read more", "Check out"]
-    for marker in junk:
-        if marker in text: text = text.split(marker)[0]
-    return text.strip()
+def get_arxiv_acknowledgments(url):
+    """Deep-scrapes arXiv abstract pages for funding credits."""
+    try:
+        # arXiv links in RSS are usually /abs/ format
+        response = requests.get(url, timeout=5, headers={'User-Agent': 'Mozilla/5.0'})
+        if response.status_code == 200:
+            # Look for common funding phrases
+            found = any(word in response.text.upper() for word in DARPA_KEYWORDS)
+            return found
+    except:
+        return False
+    return False
 
 def fetch_and_format():
     signal_db = []
-    feedparser.USER_AGENT = "GhostSignalBot/2.0 (Defense Intel Module)"
-
+    
     for category, url in FEEDS.items():
-        print(f"POLLING_UPLINK: {category}")
-        feed = feedparser.parse(f"{url}?t={int(time.time())}")
+        print(f"POLLING: {category}")
+        feed = feedparser.parse(url)
         
-        for entry in feed.entries[:12]:
+        for entry in feed.entries[:10]:
             title = entry.title.upper()
-            summary = deep_scrub(entry.get('summary', entry.get('description', '')))
+            summary = re.sub(r'<[^>]+>', '', entry.get('summary', ''))
             
-            # Specialized Filter: If it's arXiv, only include it if DARPA keywords are found
+            # THE DARPA PROTOCOL: Filter arXiv for funding
+            target_cat = category
             if category == "ARXIV_AI":
-                if not any(word in (title + summary).upper() for word in DARPA_PROTOCOL_KEYWORDS):
-                    continue
-                target_category = "D_INT_DARK" # Re-route to D-INT
-            else:
-                target_category = category
+                is_defense_funded = get_arxiv_acknowledgments(entry.link)
+                if not is_defense_funded:
+                    continue # Skip if not DARPA-related
+                target_cat = "D_INT_DARK"
 
             signal_db.append({
-                "id": f"GS-{entry.get('id', entry.link)[-5:]}",
+                "id": f"GS-{hash(entry.link) % 10000}",
                 "title": title,
-                "type": target_category,
-                "cat_code": CAT_CODES.get(target_category, "DECK"),
-                "source": feed.feed.get('title', 'OSINT_FEED').split(' - ')[0],
-                "description": summary[:500] + "...",
+                "type": target_cat,
+                "cat_code": CAT_CODES.get(target_cat, "DECK"),
+                "source": feed.feed.get('title', 'INTEL_NODE').split(':')[0],
+                "description": summary[:400] + "...",
                 "source_url": entry.link,
                 "timestamp": datetime.now().strftime("%Y.%m.%d")
             })
 
-    signal_db.sort(key=lambda x: x['timestamp'], reverse=True)
+    # Save to signals.js
     with open("signals.js", "w") as f:
         f.write(f"const db = {json.dumps(signal_db, indent=4)};")
-    print(f"UPLINK_COMPLETE: {len(signal_db)} SIGNALS_STORED")
+    print(f"UPLINK_COMPLETE: {len(signal_db)} SIGNALS_LOCKED")
 
 if __name__ == "__main__":
     fetch_and_format()
