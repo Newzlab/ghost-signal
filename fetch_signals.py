@@ -1,17 +1,16 @@
 import feedparser
 import json
 import re
+import time
 import requests
 from datetime import datetime
 
+# --- TAXONOMY ---
 CAT_CODES = {
     "D_INT_DARK": "DARK",
     "NEURAL_LINK": "H+++",
     "MEGA_CORP": "CORP",
-    "DARK_NET": "SEC_",
-    "ARXIV_AI": "DARK",
-    "ANDURIL": "DARK",
-    "SHIELD_AI": "DARK"
+    "DARK_NET": "SEC_"
 }
 
 FEEDS = {
@@ -23,42 +22,55 @@ FEEDS = {
     "DARK_NET": "https://thehackernews.com/feeds/posts/default"
 }
 
-DARPA_KEYWORDS = ["DARPA", "ANSR", "AIQ", "CLARA", "SHAFTO", "SUSMIT JHA", "VALPIANI", "NAVY", "AFOSR", "AUTONOMOUS", "SWARM", "WARFARE"]
+DARPA_KEYWORDS = ["DARPA", "ANSR", "AIQ", "CLARA", "SHAFTO", "SUSMIT JHA", "VALPIANI", "NAVY", "AFOSR"]
 
 def get_arxiv_acknowledgments(url):
+    """Deep-scrapes arXiv abstract pages for funding credits."""
     try:
+        # arXiv links in RSS are usually /abs/ format
         response = requests.get(url, timeout=5, headers={'User-Agent': 'Mozilla/5.0'})
-        return any(word in response.text.upper() for word in DARPA_KEYWORDS)
-    except: return False
+        if response.status_code == 200:
+            # Look for common funding phrases
+            found = any(word in response.text.upper() for word in DARPA_KEYWORDS)
+            return found
+    except:
+        return False
+    return False
 
 def fetch_and_format():
     signal_db = []
+    
     for category, url in FEEDS.items():
+        print(f"POLLING: {category}")
         feed = feedparser.parse(url)
-        for entry in feed.entries[:20]:
+        
+        for entry in feed.entries[:10]:
             title = entry.title.upper()
             summary = re.sub(r'<[^>]+>', '', entry.get('summary', ''))
-            target_cat = category
             
-            if category in ["D_INT_DARK", "ANDURIL", "SHIELD_AI"]:
-                target_cat = "D_INT_DARK"
-            elif category == "ARXIV_AI":
-                if not (get_arxiv_acknowledgments(entry.link) or any(w in title for w in DARPA_KEYWORDS)): continue
+            # THE DARPA PROTOCOL: Filter arXiv for funding
+            target_cat = category
+            if category == "ARXIV_AI":
+                is_defense_funded = get_arxiv_acknowledgments(entry.link)
+                if not is_defense_funded:
+                    continue # Skip if not DARPA-related
                 target_cat = "D_INT_DARK"
 
             signal_db.append({
                 "id": f"GS-{hash(entry.link) % 10000}",
                 "title": title,
                 "type": target_cat,
-                "cat_code": CAT_CODES.get(target_cat, "DARK"),
-                "source": feed.feed.get('title', 'INTEL_NODE').split(':')[0].strip(),
-                "description": summary[:500],
+                "cat_code": CAT_CODES.get(target_cat, "DECK"),
+                "source": feed.feed.get('title', 'INTEL_NODE').split(':')[0],
+                "description": summary[:400] + "...",
                 "source_url": entry.link,
                 "timestamp": datetime.now().strftime("%Y.%m.%d")
             })
 
+    # Save to signals.js
     with open("signals.js", "w") as f:
         f.write(f"const db = {json.dumps(signal_db, indent=4)};")
+    print(f"UPLINK_COMPLETE: {len(signal_db)} SIGNALS_LOCKED")
 
 if __name__ == "__main__":
     fetch_and_format()
