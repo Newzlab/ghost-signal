@@ -5,22 +5,32 @@ window.onload = () => { if (typeof db !== 'undefined') showAll(); };
 function showAll() { renderDirectory(db, "ALL_SIGNALS"); }
 
 function filterSignals(category) {
-    // Select all modules and remove active class
-    document.querySelectorAll('.intel-module').forEach(m => m.classList.remove('active-module'));
-    
-    // Add active class to the clicked one (if event exists)
-    if (event) event.currentTarget.classList.add('active-module');
+    console.log("UPLINK_REQUESTED:", category);
 
-    // THE FIX: Check both the category and the cat_code
-    // This allows 'D_INT_DARK' (Python type) to match 'DARK' (UI request)
-    const filtered = db.filter(item => 
-        item.type === category || 
-        item.cat_code === category ||
-        (category === 'D_INT_DARK' && item.cat_code === 'DARK')
-    );
+    // 1. Visually update the active module
+    document.querySelectorAll('.intel-module').forEach(m => m.classList.remove('active-module'));
+    const activeModule = Array.from(document.querySelectorAll('.intel-module'))
+        .find(m => m.getAttribute('onclick').includes(category));
+    if (activeModule) activeModule.classList.add('active-module');
+
+    // 2. The Smart Filter: Checks both the long-form type and the short cat_code
+    const filtered = db.filter(item => {
+        return item.type === category || item.cat_code === category;
+    });
+
+    if (filtered.length === 0) {
+        console.warn("SIGNAL_VACUUM: No data for", category);
+    }
 
     renderDirectory(filtered, category);
 }
+
+// Ensure the directory renders on boot
+window.onload = () => {
+    if (typeof db !== 'undefined') {
+        filterSignals('D_INT_DARK'); // Default to Defense Intel on boot
+    }
+};
 
 function renderDirectory(data, label) {
     const container = document.getElementById('vault-content');
@@ -86,4 +96,5 @@ function openManifesto() {
 function closeManifesto() {
     document.getElementById('manifesto-overlay').style.display = 'none';
 }
+
 
