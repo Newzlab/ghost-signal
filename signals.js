@@ -1,6 +1,6 @@
 const db = [
     {
-        "id": "GS-5581",
+        "id": "GS-7671",
         "title": "SHIELD AI SELECTED AS MISSION AUTONOMY PROVIDER FOR THE U.S. AIR FORCE COLLABORATIVE COMBAT AIRCRAFT PROGRAM",
         "type": "SHIELD_AI",
         "cat_code": "DECK",
@@ -10,7 +10,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-72",
+        "id": "GS-7046",
         "title": "SHIELD AI SIGNS CONTRACT WITH TAIWAN\u2019S NATIONAL CHUNG-SHAN INSTITUTE OF SCIENCE AND TECHNOLOGY TO ACCELERATE AND INDIGENIZE TAIWAN-DEVELOPED AI PILOTS",
         "type": "SHIELD_AI",
         "cat_code": "DECK",
@@ -20,7 +20,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-8931",
+        "id": "GS-5820",
         "title": "SHIELD AI, REPUBLIC OF SINGAPORE AIR FORCE, AND DEFENCE SCIENCE AND TECHNOLOGY AGENCY EXPAND PARTNERSHIP TO PROGRESSIVELY FIELD AUTONOMY CAPABILITIES",
         "type": "SHIELD_AI",
         "cat_code": "DECK",
@@ -30,7 +30,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-558",
+        "id": "GS-6645",
         "title": "SHIELD AI AND ST ENGINEERING SIGN MOU TO BOOST NEXT-GENERATION AUTONOMOUS DEFENSE CAPABILITIES",
         "type": "SHIELD_AI",
         "cat_code": "DECK",
@@ -40,7 +40,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-4794",
+        "id": "GS-2504",
         "title": "SHIELD AI SELECTED TO PROVIDE V-BAT\u00a0UNMANNED AIRCRAFT SYSTEMS\u00a0AND HIVEMIND\u00a0AUTONOMY SOFTWARE\u00a0TO THE INDIAN ARMY",
         "type": "SHIELD_AI",
         "cat_code": "DECK",
@@ -50,7 +50,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-7617",
+        "id": "GS-7102",
         "title": "LIG NEX1 AND SHIELD AI HOLD CONTRACT COMMEMORATION EVENT AT UMEX 2026",
         "type": "SHIELD_AI",
         "cat_code": "DECK",
@@ -60,7 +60,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-8962",
+        "id": "GS-1523",
         "title": "CONCRETE: THE NOT-SO-SILENT KILLER",
         "type": "SHIELD_AI",
         "cat_code": "DECK",
@@ -70,7 +70,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-8316",
+        "id": "GS-7546",
         "title": "2025: A NEW CHAPTER FOR SHIELD AI",
         "type": "SHIELD_AI",
         "cat_code": "DECK",
@@ -80,7 +80,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-9065",
+        "id": "GS-468",
         "title": "SHIELD AI TOOK ITS DRONES FROM THE \u2018BATCAVE\u2019 TO THE BATTLEFIELD. NOW THE $5.6 BILLION DEFENSE-TECH STARTUP\u2019S NEW CEO SAYS IT\u2019S AT AN INFLECTION POINT",
         "type": "SHIELD_AI",
         "cat_code": "DECK",
@@ -90,7 +90,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-7785",
+        "id": "GS-1030",
         "title": "TOP AI DEFENSE CEO SEES CHINA PLANNING FOR A \u2018VERY PROTRACTED CONFLICT\u2019 AND THE U.S. RUNNING OUT OF WEAPONS IN 7 DAYS",
         "type": "SHIELD_AI",
         "cat_code": "DECK",
@@ -100,7 +100,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-349",
+        "id": "GS-3017",
         "title": "NASA\u2019S JAMES WEBB SPACE TELESCOPE DETECTS HYDROGEN SULFIDE AROUND DISTANT PLANET, IMPACTING SEARCH FOR LIFE",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -110,7 +110,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-2941",
+        "id": "GS-7834",
         "title": "ASTRONOMERS WERE BAFFLED BY THE DISAPPEARANCE OF A MASSIVE STAR IN A NEARBY GALAXY\u2014NOW THEY HAVE SOLVED THIS COSMIC COLD CASE",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -120,7 +120,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-1298",
+        "id": "GS-3117",
         "title": "A FORGOTTEN ESP STUDY FROM 1943 IS RAISING NEW QUESTIONS ABOUT EXPERIMENTS ON CANADA\u2019S INDIGENOUS CHILDREN",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -130,7 +130,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-271",
+        "id": "GS-7743",
         "title": "AI OUTPERFORMED HUMANS AT EMOTIONAL CONNECTIONS\u2014BUT ONLY WHEN PEOPLE THOUGHT IT WAS HUMAN, STUDY FINDS",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -140,7 +140,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-3954",
+        "id": "GS-487",
         "title": "SUDDEN EL PASO FLIGHT RESTRICTION RAISES QUESTIONS ABOUT U.S. AERIAL THREAT DETECTION",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -150,7 +150,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-337",
+        "id": "GS-1059",
         "title": "EXTRAORDINARY CLAIM? NASA STUDY SAYS LIFE ON ANCIENT MARS MAY BE THE BEST EXPLANATION FOR ODD CURIOSITY ROVER SAMPLES",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -160,7 +160,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-2347",
+        "id": "GS-7426",
         "title": "THE LASER THAT SHUT DOWN EL PASO\u2019S SKIES: WHAT WE KNOW ABOUT THE ARMY\u2019S \u2018LOCUST\u2019 COUNTER-DRONE WEAPON",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -170,7 +170,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-2577",
+        "id": "GS-4999",
         "title": "\u2018HOLORADAR\u2019 EQUIPPED ROBOTS USE RADIO WAVES AND AI TO \u2018SEE\u2019 AROUND CORNERS",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -180,7 +180,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-791",
+        "id": "GS-4315",
         "title": "\u201cMALICIOUS AI SWARMS\u201d COULD HIJACK DEMOCRACY\u2014AND MAY EVEN GO UNNOTICED, EXPERTS SAY",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -190,7 +190,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-691",
+        "id": "GS-7839",
         "title": "SCIENTISTS REPORT \u201cHIGH-CONFIDENCE DETECTIONS OF ARTIFICIAL OBJECTS\u201d ON THE MOON\u2014COULD THEY SOLVE A COLD WAR-ERA MYSTERY?",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -200,7 +200,157 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-5597",
+        "id": "GS-7650",
+        "title": "THE SEARCH FOR ALIEN TECH REVEALS A PULSAR AT THE HEART OF THE GALAXY\u2014AND IT COULD HELP TEST EINSTEIN\u2019S THEORY OF GRAVITY",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "Researchers looking for signs of extraterrestrial life instead stumbled upon a pulsar at the center of the Milky Way galaxy....",
+        "source_url": "https://thedebrief.org/the-search-for-alien-tech-reveals-a-pulsar-at-the-heart-of-the-galaxy-and-it-could-help-test-einsteins-theory-of-gravity/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-9002",
+        "title": "\u201cA MISSION THAT PUSHES THE BOUNDARIES OF COMMERCIAL SPACE\u201d: AUTONOMOUS \u2018SPACEPILOT\u2019 WILL PILOT SPACECRAFT TO ASTEROID APOPHIS",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "Commercial deep-space mission operator ExLabs has selected SpacePilot autonomous software for the 2029 Apophis asteroid intercept mission....",
+        "source_url": "https://thedebrief.org/a-mission-that-pushes-the-boundaries-of-commercial-space-autonomous-spacepilot-will-pilot-spacecraft-to-asteroid-apophis/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-5234",
+        "title": "EXERCISE AND FOOD RESTRICTION SHAPE PSILOCYBIN\u2019S EFFECTS, NEW STUDY FINDS",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "A new study from Monash University, published in Genomic Press Psychedelics, found that psilocybin changes social behavior and immune signaling in female mice....",
+        "source_url": "https://thedebrief.org/exercise-and-food-restriction-shape-psilocybins-effects-new-study-finds/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-243",
+        "title": "STUNNING HUBBLE IMAGE OF THE EGG NEBULA IS THE CLEAREST EVER CAPTURED",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "NASA and the ESA\u2019s Hubble Space Telescope has captured an incredible image of the Egg Nebula, providing astronomers with rare details....",
+        "source_url": "https://thedebrief.org/stunning-hubble-image-of-the-egg-nebula-is-the-clearest-ever-captured/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-7888",
+        "title": "\u201cTHIS ISN\u2019T FOLKLORE; IT\u2019S PHARMACOLOGY\u201d: CENTURIES-OLD TRADITIONAL MEDICINE COULD BE A GAME-CHANGER FOR HAIR LOSS",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "Scientists say new research shows a centuries-old traditional Chinese herbal medicine could be a game-changer in fighting hair loss....",
+        "source_url": "https://thedebrief.org/this-isnt-folklore-its-pharmacology-centuries-old-traditional-medicine-could-be-a-game-changer-for-hair-loss/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-8271",
+        "title": "PENTAGON UNVEILS NEW REVERSE ENGINEERING EFFORT TO LEVERAGE LEGACY TECHNOLOGIES FOR WHICH \u201cDATA NO LONGER EXISTS\u201d",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "The Pentagon has announced a new reverse-engineering initiative to prolong the use of obsolete defense technologies....",
+        "source_url": "https://thedebrief.org/pentagon-unveils-new-reverse-engineering-effort-to-leverage-legacy-technologies-for-which-data-no-longer-exists/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-5172",
+        "title": "LEVITATION DEFYING NEWTON\u2019S LAWS, AN OCTOPUS-INSPIRED \u201cSMART SKIN,\u201d AND A MYSTERIOUS STRUCTURE SPOTTED ON VENUS",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "This week, science discoveries include a new type of levitating \"time crystal,\" an octopus-inspired \"smart skin,\" and a mysterious structure on Venus....",
+        "source_url": "https://thedebrief.org/levitation-defying-newtons-laws-an-octopus-inspired-smart-skin-and-a-mysterious-structure-spotted-on-venus/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-4653",
+        "title": "SCIENTISTS CREATE OCTOPUS-INSPIRED \u201cSMART SKIN\u201d THAT CAN HIDE IMAGES, CHANGE SHAPE, AND ENCODE INFORMATION",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "Researchers unveil octopus-inspired smart skin that hides images, changes shape, and encodes data via 4D printing....",
+        "source_url": "https://thedebrief.org/scientists-create-octopus-inspired-smart-skin-that-can-hide-images-change-shape-and-encode-information/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-9459",
+        "title": "QUANTUM SCALE BREAKTHROUGH: SCIENTISTS MEASURE ULTRA-SHORT EVENTS LASTING JUST ATTOSECONDS",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "Scientists have demonstrated a new method for measuring how long ultrashort events like quantum tunneling to occur at quantum scale time....",
+        "source_url": "https://thedebrief.org/quantum-scale-breakthrough-scientists-measure-ultra-short-events-lasting-just-attoseconds/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-5978",
+        "title": "THOUSANDS OF ALIEN PLANT SPECIES COULD SOON TAKE ROOT IN THE ARCTIC",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "A recent study published in NeoBiota indicates that thousands of non-native plant species could now find suitable conditions in the Arctic....",
+        "source_url": "https://thedebrief.org/thousands-of-alien-plant-species-could-soon-take-root-in-the-arctic/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-2681",
+        "title": "RING\u2019S SUPER BOWL AD REVEALED HOW COMFORTABLE\u2014AND UNCOMFORTABLE\u2014WE\u2019VE BECOME WITH AI SURVEILLANCE",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "For some, Ring\u2019s Super Bowl ad for Search Party raises concerns over AI surveillance, privacy, and how tech is reshaping daily life....",
+        "source_url": "https://thedebrief.org/rings-super-bowl-ad-revealed-how-comfortable-and-uncomfortable-weve-become-with-ai-surveillance-search-party/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-8574",
+        "title": "NASA IMAGES REVEAL ODD \u201cSLITHERING\u201d IMPRESSIONS ACROSS THE LUNAR SURFACE\u2014THIS IS THEIR SURPRISING SOURCE",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "A bizarre-looking series of features on the Moon, captured in NASA imagery, appears to resemble the pathway of an enormous serpent slithering across the lunar surface....",
+        "source_url": "https://thedebrief.org/nasa-images-reveal-odd-slithering-impressions-across-the-lunar-surface-this-is-their-surprising-source/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-6699",
+        "title": "RADAR DATA HAS REVEALED A LARGE \u201cSTRUCTURE\u201d BENEATH THE SURFACE OF VENUS\u2014HERE\u2019S WHAT THAT COULD MEAN",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "A massive subsurface structure has been discovered on Venus, according to astronomers relying on radar data analysis....",
+        "source_url": "https://thedebrief.org/radar-data-has-revealed-a-large-structure-beneath-the-surface-of-venus-heres-what-that-could-mean/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-2636",
+        "title": "JAMES WEBB SPACE TELESCOPE SPOTS EARLY-UNIVERSE GALAXY COLLISIONS, COMPLICATING OUR UNDERSTANDING OF THE ANCIENT COSMOS",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "Astronomers using the James Webb Space Telescope (JWST) have discovered galaxies colliding in the early universe, revealing that cosmic structures are far more complicated than astronomers once believed....",
+        "source_url": "https://thedebrief.org/james-webb-space-telescope-spots-early-universe-galaxy-collisions-complicating-our-understanding-of-the-ancient-cosmos/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-7663",
+        "title": "JAMES WEBB SPACE TELESCOPE SPOTS AN UNEXPECTED ABUNDANCE OF ORGANIC MOLECULES IN A DISTANT GALACTIC NUCLEUS",
+        "type": "NEURAL_LINK",
+        "cat_code": "H+++",
+        "source": "The Debrief",
+        "description": "New James Webb Space Telescope observations suggest that organic molecules are much more common outside our galaxy than previously believed....",
+        "source_url": "https://thedebrief.org/james-webb-space-telescope-spots-an-unexpected-abundance-of-organic-molecules-in-a-distant-galactic-nucleus/",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-1408",
         "title": "UAT-9921 DEPLOYS VOIDLINK MALWARE TO TARGET TECHNOLOGY AND FINANCIAL SECTORS",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -210,7 +360,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-2293",
+        "id": "GS-4356",
         "title": "MALICIOUS CHROME EXTENSIONS CAUGHT STEALING BUSINESS DATA, EMAILS, AND BROWSING HISTORY",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -220,7 +370,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-6114",
+        "id": "GS-78",
         "title": "NPM\u2019S UPDATE TO HARDEN THEIR SUPPLY CHAIN, AND POINTS TO CONSIDER",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -230,7 +380,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-7733",
+        "id": "GS-3402",
         "title": "RESEARCHERS OBSERVE IN-THE-WILD EXPLOITATION OF BEYONDTRUST CVSS 9.9 VULNERABILITY",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -240,7 +390,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-1108",
+        "id": "GS-7801",
         "title": "GOOGLE REPORTS STATE-BACKED HACKERS USING GEMINI AI FOR RECON AND ATTACK SUPPORT",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -250,7 +400,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-1776",
+        "id": "GS-8862",
         "title": "LAZARUS CAMPAIGN PLANTS MALICIOUS PACKAGES IN NPM AND PYPI ECOSYSTEMS",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -260,7 +410,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-1965",
+        "id": "GS-8347",
         "title": "THREATSDAY BULLETIN: AI PROMPT RCE, CLAUDE 0-CLICK, RENENGINE LOADER, AUTO 0-DAYS & 25+ STORIES",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -270,7 +420,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-9811",
+        "id": "GS-7232",
         "title": "THE CTEM DIVIDE: WHY 84% OF SECURITY PROGRAMS ARE FALLING BEHIND",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -280,7 +430,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-5197",
+        "id": "GS-3694",
         "title": "83% OF IVANTI EPMM EXPLOITS LINKED TO SINGLE IP ON BULLETPROOF HOSTING INFRASTRUCTURE",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -290,13 +440,163 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-7444",
+        "id": "GS-9437",
         "title": "APPLE FIXES EXPLOITED ZERO-DAY AFFECTING IOS, MACOS, AND OTHER DEVICES",
         "type": "DARK_NET",
         "cat_code": "SEC_",
         "source": "The Hacker News",
         "description": "Apple on Wednesday released iOS, iPadOS, macOS Tahoe, tvOS, watchOS, and visionOS updates to address a zero-day flaw that it said has been exploited in sophisticated cyber attacks.\nThe vulnerability, tracked as CVE-2026-20700 (CVSS score: 7.8), has been described as a memory corruption issue in dyld, Apple's Dynamic Link Editor. Successful exploitation of the vulnerability could allow an...",
         "source_url": "https://thehackernews.com/2026/02/apple-fixes-exploited-zero-day.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-5129",
+        "title": "FIRST MALICIOUS OUTLOOK ADD-IN FOUND STEALING 4,000+ MICROSOFT CREDENTIALS",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "Cybersecurity researchers have discovered what they said is the first known malicious Microsoft Outlook add-in detected in the wild.\nIn this unusual supply chain attack detailed by Koi Security, an unknown attacker claimed the domain associated with a now-abandoned legitimate add-in to serve a fake Microsoft login page, stealing over 4,000 credentials in the process. The activity has been...",
+        "source_url": "https://thehackernews.com/2026/02/first-malicious-outlook-add-in-found.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-7582",
+        "title": "APT36 AND SIDECOPY LAUNCH CROSS-PLATFORM RAT CAMPAIGNS AGAINST INDIAN ENTITIES",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "Indian defense sector and government-aligned organizations have been targeted by multiple campaigns that are designed to compromise Windows and Linux environments with remote access trojans capable of stealing sensitive data and ensuring continued access to infected machines.\nThe campaigns are characterized by the use of malware families like Geta RAT, Ares RAT, and DeskRAT, which are often...",
+        "source_url": "https://thehackernews.com/2026/02/apt36-and-sidecopy-launch-cross.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-4455",
+        "title": "OVER 60 SOFTWARE VENDORS ISSUE SECURITY FIXES ACROSS OS, CLOUD, AND NETWORK PLATFORMS",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "It's Patch Tuesday, which means a number of software vendors have released patches for various security vulnerabilities impacting their products and services.\nMicrosoft issued fixes for 59 flaws, including six actively exploited zero-days in various Windows components that could be abused to bypass security features, escalate privileges, and trigger a denial-of-service (DoS) condition.\nElsewhere...",
+        "source_url": "https://thehackernews.com/2026/02/over-60-software-vendors-issue-security.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-9224",
+        "title": "EXPOSED TRAINING OPEN THE DOOR FOR CRYPTO-MINING IN FORTUNE 500 CLOUD ENVIRONMENTS",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "Intentionally vulnerable training applications are widely used for security education, internal testing, and product demonstrations. Tools such as OWASP Juice Shop, DVWA, Hackazon, and bWAPP are designed to be insecure by default, making them useful for learning how common attack techniques work in controlled environments.\nThe issue is not the applications themselves, but how they are often...",
+        "source_url": "https://thehackernews.com/2026/02/exposed-training-open-door-for-crypto.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-9350",
+        "title": "MICROSOFT PATCHES 59 VULNERABILITIES INCLUDING SIX ACTIVELY EXPLOITED ZERO-DAYS",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "Microsoft on Tuesday released security updates to address a set of 59 flaws across its software, including six vulnerabilities that it said have been exploited in the wild.\nOf the 59 flaws, five are rated Critical, 52 are rated Important, and two are rated Moderate in severity. Twenty-five of the patched vulnerabilities have been classified as privilege escalation, followed by remote code...",
+        "source_url": "https://thehackernews.com/2026/02/microsoft-patches-59-vulnerabilities.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-6300",
+        "title": "SSHSTALKER BOTNET USES IRC C2 TO CONTROL LINUX SYSTEMS VIA LEGACY KERNEL EXPLOITS",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "Cybersecurity researchers have disclosed details of a new botnet operation called SSHStalker that relies on the Internet Relay Chat (IRC) communication protocol for command-and-control (C2) purposes.\n\"The toolset blends stealth helpers with legacy-era Linux exploitation: Alongside log cleaners (utmp/wtmp/lastlog tampering) and rootkit-class artifacts, the actor keeps a large back-catalog of...",
+        "source_url": "https://thehackernews.com/2026/02/sshstalker-botnet-uses-irc-c2-to.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-673",
+        "title": "NORTH KOREA-LINKED UNC1069 USES AI LURES TO ATTACK CRYPTOCURRENCY ORGANIZATIONS",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "The North Korea-linked threat actor known as UNC1069 has been observed targeting the cryptocurrency sector to steal sensitive data from Windows and macOS systems with the ultimate goal of facilitating financial theft.\n\"The intrusion relied on a social engineering scheme involving a compromised Telegram account, a fake Zoom meeting, a ClickFix infection vector, and reported usage of AI-generated...",
+        "source_url": "https://thehackernews.com/2026/02/north-korea-linked-unc1069-uses-ai.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-2549",
+        "title": "DPRK OPERATIVES IMPERSONATE PROFESSIONALS ON LINKEDIN TO INFILTRATE COMPANIES",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "The information technology (IT) workers associated with the Democratic People's Republic of Korea (DPRK) are now applying to remote positions using real LinkedIn accounts of individuals they're impersonating, marking a new escalation of the fraudulent scheme.\n\"These profiles often have verified workplace emails and identity badges, which DPRK operatives hope will make their fraudulent...",
+        "source_url": "https://thehackernews.com/2026/02/dprk-operatives-impersonate.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-5627",
+        "title": "REYNOLDS RANSOMWARE EMBEDS BYOVD DRIVER TO DISABLE EDR SECURITY TOOLS",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "Cybersecurity researchers have disclosed details of an emergent ransomware family dubbed Reynolds that comes embedded with a built-in bring your own vulnerable driver (BYOVD) component for defense evasion purposes within the ransomware payload itself.\nBYOVD refers to an adversarial technique that abuses legitimate but flawed driver software to escalate privileges and disable Endpoint Detection...",
+        "source_url": "https://thehackernews.com/2026/02/reynolds-ransomware-embeds-byovd-driver.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-5355",
+        "title": "FROM RANSOMWARE TO RESIDENCY: INSIDE THE RISE OF THE DIGITAL PARASITE",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "Are ransomware and encryption still the defining signals of modern cyberattacks, or has the industry been too fixated on noise while missing a more dangerous shift happening quietly all around them?\nAccording to Picus Labs\u2019 new Red Report 2026, which analyzed over 1.1 million malicious files and mapped 15.5 million adversarial actions observed across 2025, attackers are no longer optimizing for...",
+        "source_url": "https://thehackernews.com/2026/02/from-ransomware-to-residency-inside.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-761",
+        "title": "FORTINET PATCHES CRITICAL SQLI FLAW ENABLING UNAUTHENTICATED CODE EXECUTION",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "Fortinet has released security updates to address a critical flaw impacting FortiClientEMS that could lead to the execution of arbitrary code on susceptible systems.\nThe vulnerability, tracked as CVE-2026-21643, has a CVSS rating of 9.1 out of a maximum of 10.0.\n\n\"An improper neutralization of special elements used in an SQL Command ('SQL Injection') vulnerability [CWE-89] in FortiClientEMS may...",
+        "source_url": "https://thehackernews.com/2026/02/fortinet-patches-critical-sqli-flaw.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-2751",
+        "title": "ZAST.AI RAISES $6M PRE-A TO SCALE \"ZERO FALSE POSITIVE\" AI-POWERED CODE SECURITY",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "January 5, 2026, Seattle, USA \u2014 ZAST.AI announced the completion of a $6 million Pre-A funding round. This investment came from the well-known investment firm Hillhouse Capital, bringing ZAST.AI's total funding close to $10 million. This marks a recognition from leading capital markets of a new solution: ending the era of high false positive rates in security tools and making every alert...",
+        "source_url": "https://thehackernews.com/2026/02/zastai-raises-6m-pre-to-scale-zero.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-7421",
+        "title": "WARLOCK RANSOMWARE BREACHES SMARTERTOOLS THROUGH UNPATCHED SMARTERMAIL SERVER",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "SmarterTools confirmed last week that the Warlock (aka Storm-2603) ransomware gang breached its network by exploiting an unpatched SmarterMail instance.\nThe incident took place on January 29, 2026, when a mail server that was not updated to the latest version was compromised, the company's Chief Commercial Officer, Derek Curtis, said.\n\"Prior to the breach, we had approximately 30 servers/VMs...",
+        "source_url": "https://thehackernews.com/2026/02/warlock-ransomware-breaches.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-8626",
+        "title": "DUTCH AUTHORITIES CONFIRM IVANTI ZERO-DAY EXPLOIT EXPOSED EMPLOYEE CONTACT DATA",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "The Netherlands' Dutch Data Protection Authority (AP) and the Council for the Judiciary confirmed both agencies (Rvdr) have disclosed that their systems were impacted by cyber attacks that exploited the recently disclosed security flaws in Ivanti Endpoint Manager Mobile (EPMM), according to a notice sent to the country's parliament on Friday.\n\"On January 29, the National Cyber Security Center (...",
+        "source_url": "https://thehackernews.com/2026/02/dutch-authorities-confirm-ivanti-zero.html",
+        "timestamp": "2026.02.13"
+    },
+    {
+        "id": "GS-8211",
+        "title": "CHINA-LINKED UNC3886 TARGETS SINGAPORE TELECOM SECTOR IN CYBER ESPIONAGE CAMPAIGN",
+        "type": "DARK_NET",
+        "cat_code": "SEC_",
+        "source": "The Hacker News",
+        "description": "The Cyber Security Agency (CSA) of Singapore on Monday revealed that the China-nexus cyber espionage group known as UNC3886 targeted its telecommunications sector.\n\"UNC3886 had launched a deliberate, targeted, and well-planned campaign against Singapore's telecommunications sector,\" CSA said. \"All four of Singapore's major telecommunications operators ('telcos') \u2013 M1, SIMBA Telecom, Singtel, and...",
+        "source_url": "https://thehackernews.com/2026/02/china-linked-unc3886-targets-singapore.html",
         "timestamp": "2026.02.13"
     }
 ];
