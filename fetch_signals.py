@@ -1,7 +1,6 @@
 import feedparser
 import json
 import re
-import time
 import requests
 from datetime import datetime
 
@@ -10,7 +9,10 @@ CAT_CODES = {
     "D_INT_DARK": "DARK",
     "NEURAL_LINK": "H+++",
     "MEGA_CORP": "CORP",
-    "DARK_NET": "SEC_"
+    "DARK_NET": "SEC_",
+    "ARXIV_AI": "DARK",
+    "ANDURIL": "DARK",
+    "SHIELD_AI": "DARK"
 }
 
 FEEDS = {
@@ -22,17 +24,14 @@ FEEDS = {
     "DARK_NET": "https://thehackernews.com/feeds/posts/default"
 }
 
-DARPA_KEYWORDS = ["DARPA", "ANSR", "AIQ", "CLARA", "SHAFTO", "SUSMIT JHA", "VALPIANI", "NAVY", "AFOSR"]
+DARPA_KEYWORDS = ["DARPA", "ANSR", "AIQ", "CLARA", "SHAFTO", "SUSMIT JHA", "VALPIANI", "NAVY", "AFOSR", "AUTONOMOUS", "SWARM", "WARFARE"]
 
 def get_arxiv_acknowledgments(url):
-    """Deep-scrapes arXiv abstract pages for funding credits."""
+    """Scrapes arXiv for funding credits."""
     try:
-        # arXiv links in RSS are usually /abs/ format
         response = requests.get(url, timeout=5, headers={'User-Agent': 'Mozilla/5.0'})
         if response.status_code == 200:
-            # Look for common funding phrases
-            found = any(word in response.text.upper() for word in DARPA_KEYWORDS)
-            return found
+            return any(word in response.text.upper() for word in DARPA_KEYWORDS)
     except:
         return False
     return False
@@ -44,25 +43,28 @@ def fetch_and_format():
         print(f"POLLING: {category}")
         feed = feedparser.parse(url)
         
-        for entry in feed.entries[:10]:
+        for entry in feed.entries[:20]:
             title = entry.title.upper()
             summary = re.sub(r'<[^>]+>', '', entry.get('summary', ''))
-            
-            # THE DARPA PROTOCOL: Filter arXiv for funding
             target_cat = category
-            if category == "ARXIV_AI":
-                is_defense_funded = get_arxiv_acknowledgments(entry.link)
-                if not is_defense_funded:
-                    continue # Skip if not DARPA-related
+            
+            # --- OVERRIDE LOGIC ---
+            if category in ["D_INT_DARK", "ANDURIL", "SHIELD_AI"]:
+                target_cat = "D_INT_DARK"
+            elif category == "ARXIV_AI":
+                is_defense = get_arxiv_acknowledgments(entry.link)
+                keyword_match = any(word in (title + summary).upper() for word in DARPA_KEYWORDS)
+                if not (is_defense or keyword_match):
+                    continue 
                 target_cat = "D_INT_DARK"
 
             signal_db.append({
                 "id": f"GS-{hash(entry.link) % 10000}",
                 "title": title,
                 "type": target_cat,
-                "cat_code": CAT_CODES.get(target_cat, "DECK"),
-                "source": feed.feed.get('title', 'INTEL_NODE').split(':')[0],
-                "description": summary[:400] + "...",
+                "cat_code": CAT_CODES.get(target_cat, "DARK"),
+                "source": feed.feed.get('title', 'INTEL_NODE').split(':')[0].strip(),
+                "description": summary[:400],
                 "source_url": entry.link,
                 "timestamp": datetime.now().strftime("%Y.%m.%d")
             })
