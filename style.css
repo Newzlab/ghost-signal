@@ -138,8 +138,29 @@ html, body {
 }
 
 /* --- CENTER CONTENT --- */
-.visualizer { display: flex; align-items: flex-end; justify-content: center; gap: 4px; height: 40px; margin-bottom: 20px; }
-.v-bar { width: 3px; background: var(--orange); animation: bounce 1.2s infinite ease-in-out; }
+.visualizer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 8px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.v-bar {
+    width: 6px;
+    background: var(--orange);
+    animation: signal-pulse 0.5s ease-in-out infinite alternate;
+}
+
+@keyframes signal-pulse {
+    0% { height: 10px; opacity: 0.3; }
+    100% { height: 50px; opacity: 1; }
+}
+/* Add variety to the bars */
+.v-bar:nth-child(1) { animation-duration: 0.4s; }
+.v-bar:nth-child(2) { animation-duration: 0.7s; background: #fff; }
+.v-bar:nth-child(3) { animation-duration: 0.5s; }
 
 #label-type {
     font-family: 'Montserrat', sans-serif;
@@ -358,6 +379,7 @@ html, body {
     background: var(--border);
     border-radius: 2px;
 }
+
 
 
 
