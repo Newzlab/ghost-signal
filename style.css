@@ -1,4 +1,4 @@
-/* --- GHOST SIGNAL | BEAUTIFUL STABLE v2.0 --- */
+/* --- GHOST SIGNAL | RESTORATION v2.8 --- */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Orbitron:wght@400;700&display=swap');
 
 :root {
@@ -6,7 +6,7 @@
     --orange-glow: rgba(255, 85, 0, 0.3);
     --border: rgba(255, 85, 0, 0.25);
     --bg: #1A1A1A;
-    --panel-bg: rgba(26, 26, 26, 0.95);
+    --panel-bg: rgba(26, 26, 26, 0.9);
 }
 
 html, body {
@@ -19,102 +19,150 @@ html, body {
     background-size: cover, 100% 3px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
-    overflow: hidden; 
+    overflow: hidden;
     display: flex;
     flex-direction: column;
 }
 
 /* --- HEADER --- */
 .system-header {
-    height: 80px; min-height: 80px;
+    height: 80px;
     border-bottom: 1px solid var(--border);
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 0 40px; background: rgba(0,0,0,0.8);
-    backdrop-filter: blur(15px); z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    background: rgba(0,0,0,0.8);
+    backdrop-filter: blur(15px);
+    z-index: 1000;
 }
 
 .site-title {
+    font-weight: 900;
+    font-size: 1.4rem;
+    color: var(--orange);
+    text-shadow: 0 0 15px var(--orange-glow);
     font-family: 'Montserrat', sans-serif;
-    font-weight: 900; font-size: 1.4rem;
-    color: var(--orange); text-shadow: 0 0 15px var(--orange-glow);
+    letter-spacing: -1px;
 }
 
-/* --- MAIN LAYOUT --- */
+/* --- MAIN CONSOLE --- */
 .console-wrapper {
     display: grid;
     grid-template-columns: 320px 1fr 340px;
-    flex: 1; min-height: 0;
-    gap: 1px; background: var(--border);
+    flex: 1;
+    min-height: 0;
+    background: var(--border);
+    box-shadow: inset 0 0 100px rgba(255, 85, 0, 0.1);
 }
 
 .hud-panel {
     background: var(--panel-bg);
     padding: 25px;
-    display: flex; flex-direction: column;
-    position: relative;
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-/* --- SCROLLING AREAS --- */
-.vault-container {
-    flex-grow: 1; overflow-y: auto;
-    scrollbar-width: none; -ms-overflow-style: none;
+/* --- SCROLLING & ARTICLE AREA --- */
+.scroll-area {
+    flex-grow: 1;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: var(--orange) transparent;
+    padding-right: 10px;
 }
-.vault-container::-webkit-scrollbar { display: none; }
 
-/* SURGICAL FIX: Independent Scrolling for the Article Stage */
-#center-stage-anchor {
-    overflow-y: auto !important; 
-    display: block; 
+.scroll-area::-webkit-scrollbar { width: 4px; }
+.scroll-area::-webkit-scrollbar-thumb { background: var(--orange); }
+
+.main-stage {
     padding: 40px;
+    background: radial-gradient(circle at center, rgba(255, 85, 0, 0.03) 0%, transparent 100%);
 }
 
-/* SURGICAL FIX: Locked Visualizer height to stop the 'Bouncing' text */
+/* --- VISUALIZER --- */
 .visualizer {
-    display: flex; justify-content: center; align-items: flex-end;
-    gap: 8px; 
-    height: 60px; min-height: 60px; 
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 6px;
+    height: 50px;
     margin-bottom: 30px;
 }
 
 .v-bar {
-    width: 6px; background: var(--orange);
-    animation: signal-pulse 0.5s ease-in-out infinite alternate;
+    width: 5px;
+    background: var(--orange);
+    box-shadow: 0 0 10px var(--orange-glow);
+    animation: bounce 0.8s infinite alternate;
 }
 
-@keyframes signal-pulse {
+.v-bar:nth-child(2) { animation-delay: 0.2s; background: #fff; }
+.v-bar:nth-child(3) { animation-delay: 0.4s; }
+
+@keyframes bounce {
     0% { height: 10px; opacity: 0.3; }
-    100% { height: 50px; opacity: 1; }
+    100% { height: 45px; opacity: 1; }
 }
 
-/* --- SIDEBAR MODULES --- */
-.intel-module { 
-    margin-bottom: 25px; 
-    transition: 0.3s; 
-    padding: 15px; 
-    border: 1px solid transparent; 
-    cursor: pointer;
-}
-
-.intel-module:hover { border-color: var(--border); background: rgba(255, 149, 0, 0.02); }
-
-/* The Active Link Border Logic */
-.active-module {
-    background: rgba(255, 85, 0, 0.1) !important;
-    border-left: 3px solid var(--orange) !important;
-}
-
-.vault-item { padding: 12px; font-size: 0.8rem; border-bottom: 1px solid rgba(255, 149, 0, 0.1); transition: 0.2s; }
-.vault-item:hover { color: var(--orange); background: rgba(255, 149, 0, 0.05); }
-
-.action-btn { 
-    border: 1px solid var(--orange); 
-    padding: 15px; text-align: center; 
-    font-size: 0.7rem; cursor: pointer; 
-    color: var(--orange); font-weight: 700; 
-    letter-spacing: 2px; margin-top: 20px;
+/* --- TEXT STYLES --- */
+#active-title {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 700;
+    font-size: 2.2rem;
+    margin: 15px 0;
+    letter-spacing: -1px;
     text-transform: uppercase;
 }
-.action-btn:hover { background: var(--orange); color: #000; box-shadow: 0 0 15px var(--orange-glow); }
 
-#active-title { font-family: 'Orbitron'; font-weight: 700; font-size: 2.2rem; margin: 15px 0; text-transform: uppercase; }
+.vault-item {
+    padding: 12px;
+    font-size: 0.8rem;
+    border-bottom: 1px solid rgba(255, 85, 0, 0.1);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.vault-item:hover {
+    background: rgba(255, 85, 0, 0.05);
+    color: var(--orange);
+}
+
+.intel-module {
+    margin-bottom: 20px;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 1px solid transparent;
+}
+
+.intel-module:hover {
+    background: rgba(255, 255, 255, 0.03);
+    border-color: var(--border);
+}
+
+.active-module {
+    border-left: 3px solid var(--orange) !important;
+    background: rgba(255, 85, 0, 0.08);
+}
+
+.action-btn {
+    border: 1px solid var(--orange);
+    padding: 15px;
+    text-align: center;
+    color: var(--orange);
+    font-weight: 700;
+    font-size: 0.7rem;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.action-btn:hover {
+    background: var(--orange);
+    color: #000;
+    box-shadow: 0 0 15px var(--orange-glow);
+}
