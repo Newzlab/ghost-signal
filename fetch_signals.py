@@ -10,7 +10,10 @@ CAT_CODES = {
     "D_INT_DARK": "DARK",
     "NEURAL_LINK": "H+++",
     "MEGA_CORP": "CORP",
-    "DARK_NET": "SEC_"
+    "DARK_NET": "SEC_",
+    "ARXIV_AI": "DARK",   # Fallback for arXiv
+    "ANDURIL": "DARK",    # Mapping direct sources
+    "SHIELD_AI": "DARK"   # This prevents the [DECK] error
 }
 
 FEEDS = {
