@@ -1,28 +1,44 @@
-/* --- GHOST SIGNAL TERMINAL LOGIC v2.6 --- */
+/* --- GHOST SIGNAL TERMINAL v2.7 --- */
 
 window.onload = () => {
-    if (typeof db !== 'undefined') filterSignals('D_INT_DARK');
+    // 1. Start Clock
+    setInterval(updateClock, 1000); 
+    
+    // 2. BOOT: Load Database immediately
+    if (typeof db !== 'undefined') {
+        filterSignals('D_INT_DARK'); 
+    }
 };
 
+function updateClock() {
+    const now = new Date();
+    const clock = document.getElementById('digital-clock');
+    if (clock) clock.innerText = now.toLocaleTimeString('en-GB', { hour12: false });
+}
+
 function filterSignals(category) {
+    // UI Update
     document.querySelectorAll('.intel-module').forEach(m => m.classList.remove('active-module'));
     const activeModule = Array.from(document.querySelectorAll('.intel-module'))
         .find(m => m.getAttribute('onclick').includes(category));
     if (activeModule) activeModule.classList.add('active-module');
 
+    // Data Update
     const filtered = db.filter(item => item.type === category || item.cat_code === category);
     renderDirectory(filtered, category);
 }
 
 function renderDirectory(data, label) {
     const container = document.getElementById('vault-content');
-    document.getElementById('vault-title').innerText = `DIRECTORY // ${label}`;
+    const title = document.getElementById('vault-title');
+    if (title) title.innerText = `DIRECTORY // ${label}`;
+    if (!container) return;
+
     container.innerHTML = '';
     data.forEach(item => {
         const div = document.createElement('div');
         div.className = 'vault-item';
-        div.style = "padding: 10px; border-bottom: 1px solid rgba(255,85,0,0.1); cursor: pointer; font-size: 0.8rem;";
-        div.innerHTML = `<span style="color: var(--orange);">[${item.cat_code || 'DARK'}]</span> ${item.title}`;
+        div.innerHTML = `<span style="color: var(--orange); font-weight:700;">[${item.cat_code || 'DARK'}]</span> ${item.title}`;
         div.onclick = () => decryptSignal(item);
         container.appendChild(div);
     });
@@ -31,20 +47,8 @@ function renderDirectory(data, label) {
 function decryptSignal(item) {
     document.getElementById('label-type').innerText = `PRIORITY_SIGNAL // ${item.type}`;
     document.getElementById('active-title').innerText = item.title;
-    document.getElementById('active-description').innerHTML = `<p style="line-height:1.8;">${item.description}</p>`;
-    document.getElementById('player-zone').innerHTML = `<button class="action-btn" onclick="window.open('${item.source_url}', '_blank')">ACCESS RAW DATA</button>`;
+    document.getElementById('active-description').innerText = item.description;
     document.querySelector('.center-stage').scrollTop = 0;
-}
-
-let audioPlaying = false;
-function toggleAudio() {
-    const audio = document.getElementById('bg-audio');
-    const btn = document.getElementById('play-trigger');
-    if (!audioPlaying) {
-        audio.play(); btn.innerText = "TERMINATE_AUDIO"; btn.style.color = "#ff0000"; audioPlaying = true;
-    } else {
-        audio.pause(); btn.innerText = "INITIALIZE_AUDIO"; btn.style.color = "var(--orange)"; audioPlaying = false;
-    }
 }
 
 function openManifesto() { document.getElementById('manifesto-overlay').style.display = 'flex'; }
