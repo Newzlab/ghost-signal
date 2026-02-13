@@ -54,12 +54,23 @@ def fetch_and_format():
             summary = re.sub(r'<[^>]+>', '', entry.get('summary', ''))
             
             target_cat = category
-            if category == "ARXIV_AI":
+            
+            # --- FORCE UPLINK: DARPA/Anduril/Shield always go to DARK ---
+            if category in ["D_INT_DARK", "ANDURIL", "SHIELD_AI"]:
+                target_cat = "D_INT_DARK"
+            
+            # --- FILTERED UPLINK: arXiv only if it hits keywords ---
+            elif category == "ARXIV_AI":
                 is_defense_funded = get_arxiv_acknowledgments(entry.link)
-                # If acknowledgment scraping fails, check title/summary for high-value keywords
-                if not is_defense_funded and not any(word in (title + summary).upper() for word in DARPA_KEYWORDS):
+                keyword_match = any(word in (title + summary).upper() for word in DARPA_KEYWORDS)
+                
+                if not (is_defense_funded or keyword_match):
                     continue 
                 target_cat = "D_INT_DARK"
+
+            # --- DEFAULT: Other feeds (H+++, SEC_) keep their original category ---
+            else:
+                target_cat = category
 
             signal_db.append({
                 "id": f"GS-{hash(entry.link) % 10000}",
