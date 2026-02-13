@@ -18,7 +18,8 @@ jobs:
           python-version: '3.9'
           
       - name: Install Dependencies
-        run: pip install feedparser
+        run: |
+          pip install feedparser requests
         
       - name: Run Decoder
         run: python fetch_signals.py
