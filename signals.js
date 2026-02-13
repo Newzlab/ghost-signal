@@ -1,6 +1,6 @@
 const db = [
     {
-        "id": "GS-6877",
+        "id": "GS-4500",
         "title": "SHIELD AI SELECTED AS MISSION AUTONOMY PROVIDER FOR THE U.S. AIR FORCE COLLABORATIVE COMBAT AIRCRAFT PROGRAM",
         "type": "D_INT_DARK",
         "cat_code": "DARK",
@@ -10,7 +10,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-7264",
+        "id": "GS-2445",
         "title": "SHIELD AI SIGNS CONTRACT WITH TAIWAN\u2019S NATIONAL CHUNG-SHAN INSTITUTE OF SCIENCE AND TECHNOLOGY TO ACCELERATE AND INDIGENIZE TAIWAN-DEVELOPED AI PILOTS",
         "type": "D_INT_DARK",
         "cat_code": "DARK",
@@ -20,7 +20,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-6828",
+        "id": "GS-7603",
         "title": "SHIELD AI, REPUBLIC OF SINGAPORE AIR FORCE, AND DEFENCE SCIENCE AND TECHNOLOGY AGENCY EXPAND PARTNERSHIP TO PROGRESSIVELY FIELD AUTONOMY CAPABILITIES",
         "type": "D_INT_DARK",
         "cat_code": "DARK",
@@ -30,7 +30,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-8355",
+        "id": "GS-6778",
         "title": "SHIELD AI AND ST ENGINEERING SIGN MOU TO BOOST NEXT-GENERATION AUTONOMOUS DEFENSE CAPABILITIES",
         "type": "D_INT_DARK",
         "cat_code": "DARK",
@@ -40,7 +40,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-3238",
+        "id": "GS-1818",
         "title": "SHIELD AI SELECTED TO PROVIDE V-BAT\u00a0UNMANNED AIRCRAFT SYSTEMS\u00a0AND HIVEMIND\u00a0AUTONOMY SOFTWARE\u00a0TO THE INDIAN ARMY",
         "type": "D_INT_DARK",
         "cat_code": "DARK",
@@ -50,7 +50,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-5628",
+        "id": "GS-422",
         "title": "LIG NEX1 AND SHIELD AI HOLD CONTRACT COMMEMORATION EVENT AT UMEX 2026",
         "type": "D_INT_DARK",
         "cat_code": "DARK",
@@ -60,7 +60,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-9184",
+        "id": "GS-8801",
         "title": "CONCRETE: THE NOT-SO-SILENT KILLER",
         "type": "D_INT_DARK",
         "cat_code": "DARK",
@@ -70,7 +70,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-4789",
+        "id": "GS-5473",
         "title": "2025: A NEW CHAPTER FOR SHIELD AI",
         "type": "D_INT_DARK",
         "cat_code": "DARK",
@@ -80,7 +80,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-1752",
+        "id": "GS-3348",
         "title": "SHIELD AI TOOK ITS DRONES FROM THE \u2018BATCAVE\u2019 TO THE BATTLEFIELD. NOW THE $5.6 BILLION DEFENSE-TECH STARTUP\u2019S NEW CEO SAYS IT\u2019S AT AN INFLECTION POINT",
         "type": "D_INT_DARK",
         "cat_code": "DARK",
@@ -90,7 +90,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-5946",
+        "id": "GS-3592",
         "title": "TOP AI DEFENSE CEO SEES CHINA PLANNING FOR A \u2018VERY PROTRACTED CONFLICT\u2019 AND THE U.S. RUNNING OUT OF WEAPONS IN 7 DAYS",
         "type": "D_INT_DARK",
         "cat_code": "DARK",
@@ -100,7 +100,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-826",
+        "id": "GS-4189",
         "title": "NASA\u2019S JAMES WEBB SPACE TELESCOPE DETECTS HYDROGEN SULFIDE AROUND DISTANT PLANET, IMPACTING SEARCH FOR LIFE",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -110,7 +110,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-630",
+        "id": "GS-7067",
         "title": "ASTRONOMERS WERE BAFFLED BY THE DISAPPEARANCE OF A MASSIVE STAR IN A NEARBY GALAXY\u2014NOW THEY HAVE SOLVED THIS COSMIC COLD CASE",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -120,7 +120,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-3862",
+        "id": "GS-2348",
         "title": "A FORGOTTEN ESP STUDY FROM 1943 IS RAISING NEW QUESTIONS ABOUT EXPERIMENTS ON CANADA\u2019S INDIGENOUS CHILDREN",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -130,7 +130,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-6975",
+        "id": "GS-231",
         "title": "AI OUTPERFORMED HUMANS AT EMOTIONAL CONNECTIONS\u2014BUT ONLY WHEN PEOPLE THOUGHT IT WAS HUMAN, STUDY FINDS",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -140,7 +140,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-8928",
+        "id": "GS-4346",
         "title": "SUDDEN EL PASO FLIGHT RESTRICTION RAISES QUESTIONS ABOUT U.S. AERIAL THREAT DETECTION",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -150,7 +150,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-1618",
+        "id": "GS-6362",
         "title": "EXTRAORDINARY CLAIM? NASA STUDY SAYS LIFE ON ANCIENT MARS MAY BE THE BEST EXPLANATION FOR ODD CURIOSITY ROVER SAMPLES",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -160,7 +160,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-9062",
+        "id": "GS-5180",
         "title": "THE LASER THAT SHUT DOWN EL PASO\u2019S SKIES: WHAT WE KNOW ABOUT THE ARMY\u2019S \u2018LOCUST\u2019 COUNTER-DRONE WEAPON",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -170,7 +170,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-1832",
+        "id": "GS-603",
         "title": "\u2018HOLORADAR\u2019 EQUIPPED ROBOTS USE RADIO WAVES AND AI TO \u2018SEE\u2019 AROUND CORNERS",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -180,7 +180,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-7426",
+        "id": "GS-4569",
         "title": "\u201cMALICIOUS AI SWARMS\u201d COULD HIJACK DEMOCRACY\u2014AND MAY EVEN GO UNNOTICED, EXPERTS SAY",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -190,7 +190,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-8234",
+        "id": "GS-3059",
         "title": "SCIENTISTS REPORT \u201cHIGH-CONFIDENCE DETECTIONS OF ARTIFICIAL OBJECTS\u201d ON THE MOON\u2014COULD THEY SOLVE A COLD WAR-ERA MYSTERY?",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -200,7 +200,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-6963",
+        "id": "GS-549",
         "title": "THE SEARCH FOR ALIEN TECH REVEALS A PULSAR AT THE HEART OF THE GALAXY\u2014AND IT COULD HELP TEST EINSTEIN\u2019S THEORY OF GRAVITY",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -210,7 +210,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-3975",
+        "id": "GS-309",
         "title": "\u201cA MISSION THAT PUSHES THE BOUNDARIES OF COMMERCIAL SPACE\u201d: AUTONOMOUS \u2018SPACEPILOT\u2019 WILL PILOT SPACECRAFT TO ASTEROID APOPHIS",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -220,7 +220,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-7112",
+        "id": "GS-8300",
         "title": "EXERCISE AND FOOD RESTRICTION SHAPE PSILOCYBIN\u2019S EFFECTS, NEW STUDY FINDS",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -230,7 +230,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-8389",
+        "id": "GS-5802",
         "title": "STUNNING HUBBLE IMAGE OF THE EGG NEBULA IS THE CLEAREST EVER CAPTURED",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -240,7 +240,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-9877",
+        "id": "GS-5202",
         "title": "\u201cTHIS ISN\u2019T FOLKLORE; IT\u2019S PHARMACOLOGY\u201d: CENTURIES-OLD TRADITIONAL MEDICINE COULD BE A GAME-CHANGER FOR HAIR LOSS",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -250,7 +250,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-2179",
+        "id": "GS-9368",
         "title": "PENTAGON UNVEILS NEW REVERSE ENGINEERING EFFORT TO LEVERAGE LEGACY TECHNOLOGIES FOR WHICH \u201cDATA NO LONGER EXISTS\u201d",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -260,7 +260,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-8305",
+        "id": "GS-9239",
         "title": "LEVITATION DEFYING NEWTON\u2019S LAWS, AN OCTOPUS-INSPIRED \u201cSMART SKIN,\u201d AND A MYSTERIOUS STRUCTURE SPOTTED ON VENUS",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -270,7 +270,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-1938",
+        "id": "GS-8738",
         "title": "SCIENTISTS CREATE OCTOPUS-INSPIRED \u201cSMART SKIN\u201d THAT CAN HIDE IMAGES, CHANGE SHAPE, AND ENCODE INFORMATION",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -280,7 +280,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-2834",
+        "id": "GS-2104",
         "title": "QUANTUM SCALE BREAKTHROUGH: SCIENTISTS MEASURE ULTRA-SHORT EVENTS LASTING JUST ATTOSECONDS",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -290,7 +290,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-1811",
+        "id": "GS-9999",
         "title": "THOUSANDS OF ALIEN PLANT SPECIES COULD SOON TAKE ROOT IN THE ARCTIC",
         "type": "NEURAL_LINK",
         "cat_code": "H+++",
@@ -300,7 +300,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-1543",
+        "id": "GS-3507",
         "title": "GOOGLE TIES SUSPECTED RUSSIAN ACTOR TO CANFAIL MALWARE ATTACKS ON UKRAINIAN ORGS",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -310,7 +310,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-636",
+        "id": "GS-2097",
         "title": "GOOGLE LINKS CHINA, IRAN, RUSSIA, NORTH KOREA TO COORDINATED DEFENSE SECTOR CYBER OPERATIONS",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -320,7 +320,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-4225",
+        "id": "GS-5820",
         "title": "UAT-9921 DEPLOYS VOIDLINK MALWARE TO TARGET TECHNOLOGY AND FINANCIAL SECTORS",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -330,7 +330,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-1378",
+        "id": "GS-9433",
         "title": "MALICIOUS CHROME EXTENSIONS CAUGHT STEALING BUSINESS DATA, EMAILS, AND BROWSING HISTORY",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -340,7 +340,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-4267",
+        "id": "GS-580",
         "title": "NPM\u2019S UPDATE TO HARDEN THEIR SUPPLY CHAIN, AND POINTS TO CONSIDER",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -350,7 +350,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-6503",
+        "id": "GS-1018",
         "title": "RESEARCHERS OBSERVE IN-THE-WILD EXPLOITATION OF BEYONDTRUST CVSS 9.9 VULNERABILITY",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -360,7 +360,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-1004",
+        "id": "GS-1148",
         "title": "GOOGLE REPORTS STATE-BACKED HACKERS USING GEMINI AI FOR RECON AND ATTACK SUPPORT",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -370,7 +370,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-4228",
+        "id": "GS-9628",
         "title": "LAZARUS CAMPAIGN PLANTS MALICIOUS PACKAGES IN NPM AND PYPI ECOSYSTEMS",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -380,7 +380,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-2592",
+        "id": "GS-4884",
         "title": "THREATSDAY BULLETIN: AI PROMPT RCE, CLAUDE 0-CLICK, RENENGINE LOADER, AUTO 0-DAYS & 25+ STORIES",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -390,7 +390,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-9563",
+        "id": "GS-2942",
         "title": "THE CTEM DIVIDE: WHY 84% OF SECURITY PROGRAMS ARE FALLING BEHIND",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -400,7 +400,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-9247",
+        "id": "GS-4749",
         "title": "83% OF IVANTI EPMM EXPLOITS LINKED TO SINGLE IP ON BULLETPROOF HOSTING INFRASTRUCTURE",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -410,7 +410,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-8861",
+        "id": "GS-7103",
         "title": "APPLE FIXES EXPLOITED ZERO-DAY AFFECTING IOS, MACOS, AND OTHER DEVICES",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -420,7 +420,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-2377",
+        "id": "GS-5748",
         "title": "FIRST MALICIOUS OUTLOOK ADD-IN FOUND STEALING 4,000+ MICROSOFT CREDENTIALS",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -430,7 +430,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-2171",
+        "id": "GS-2968",
         "title": "APT36 AND SIDECOPY LAUNCH CROSS-PLATFORM RAT CAMPAIGNS AGAINST INDIAN ENTITIES",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -440,7 +440,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-2223",
+        "id": "GS-8308",
         "title": "OVER 60 SOFTWARE VENDORS ISSUE SECURITY FIXES ACROSS OS, CLOUD, AND NETWORK PLATFORMS",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -450,7 +450,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-7504",
+        "id": "GS-9622",
         "title": "EXPOSED TRAINING OPEN THE DOOR FOR CRYPTO-MINING IN FORTUNE 500 CLOUD ENVIRONMENTS",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -460,7 +460,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-1001",
+        "id": "GS-9185",
         "title": "MICROSOFT PATCHES 59 VULNERABILITIES INCLUDING SIX ACTIVELY EXPLOITED ZERO-DAYS",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -470,7 +470,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-8899",
+        "id": "GS-2899",
         "title": "SSHSTALKER BOTNET USES IRC C2 TO CONTROL LINUX SYSTEMS VIA LEGACY KERNEL EXPLOITS",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -480,7 +480,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-2425",
+        "id": "GS-3591",
         "title": "NORTH KOREA-LINKED UNC1069 USES AI LURES TO ATTACK CRYPTOCURRENCY ORGANIZATIONS",
         "type": "DARK_NET",
         "cat_code": "SEC_",
@@ -490,7 +490,7 @@ const db = [
         "timestamp": "2026.02.13"
     },
     {
-        "id": "GS-7238",
+        "id": "GS-6568",
         "title": "DPRK OPERATIVES IMPERSONATE PROFESSIONALS ON LINKEDIN TO INFILTRATE COMPANIES",
         "type": "DARK_NET",
         "cat_code": "SEC_",
