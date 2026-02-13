@@ -5,7 +5,20 @@ window.onload = () => { if (typeof db !== 'undefined') showAll(); };
 function showAll() { renderDirectory(db, "ALL_SIGNALS"); }
 
 function filterSignals(category) {
-    const filtered = db.filter(item => item.type === category);
+    // Select all modules and remove active class
+    document.querySelectorAll('.intel-module').forEach(m => m.classList.remove('active-module'));
+    
+    // Add active class to the clicked one (if event exists)
+    if (event) event.currentTarget.classList.add('active-module');
+
+    // THE FIX: Check both the category and the cat_code
+    // This allows 'D_INT_DARK' (Python type) to match 'DARK' (UI request)
+    const filtered = db.filter(item => 
+        item.type === category || 
+        item.cat_code === category ||
+        (category === 'D_INT_DARK' && item.cat_code === 'DARK')
+    );
+
     renderDirectory(filtered, category);
 }
 
@@ -73,3 +86,4 @@ function openManifesto() {
 function closeManifesto() {
     document.getElementById('manifesto-overlay').style.display = 'none';
 }
+
