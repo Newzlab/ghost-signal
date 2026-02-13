@@ -3,57 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GHOST SIGNAL | OSINT TERMINAL</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+    <title>GHOST SIGNAL | TERMINAL</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="system-header">
-        <div class="site-title" onclick="openManifesto()">GHOST_SIGNAL <span class="sub-label">// NEWZLAB_CONSTRUCT</span></div>
-        <div class="top-bar">
-            <div class="status-zone"><span class="pulse-dot"></span> SYSTEM_STATUS: <span class="live-text">DECRYPTING_LIVE</span></div>
-            <div class="clock" id="digital-clock">00:00:00</div>
-        </div>
+        <div class="site-title">GHOST_SIGNAL <span style="opacity:0.5; font-size:0.7rem;">// OSINT_2026</span></div>
+        <div class="status-zone">STATUS: <span style="color:#00ff00;">ONLINE</span></div>
     </header>
 
     <div class="console-wrapper">
-        <aside class="hud-panel left-sidebar">
+        <aside class="hud-panel side-panel">
             <div id="vault-title">SIGNAL_DIRECTORY</div>
-            <div id="vault-content" class="vault-container"></div>
-            <div class="audio-module">
-                <audio id="bg-audio" loop><source src="https://ice6.somafm.com/groovesalad-256-mp3" type="audio/mpeg"></audio>
-                <div class="action-btn" id="play-trigger" onclick="toggleAudio()">INITIALIZE_AUDIO</div>
-            </div>
+            <div id="vault-content" class="scroll-area"></div>
         </aside>
 
-        <main class="hud-panel center-stage" id="center-stage-anchor">
-            <div class="visualizer">
-                <div class="v-bar"></div><div class="v-bar"></div><div class="v-bar"></div>
-            </div>
-            <div class="content-body">
-                <span id="label-type">AWAITING_SIGNAL</span>
-                <h1 id="active-title">INITIALIZING...</h1>
-                <p id="active-description">Select a coordinate to begin decryption.</p>
-                <div id="player-zone"></div>
+        <main class="hud-panel main-stage">
+            <div class="visualizer"><div class="v-bar"></div><div class="v-bar"></div><div class="v-bar"></div></div>
+            <div id="article-area" class="scroll-area">
+                <span id="label-type" style="color:#FF5500; font-weight:700; font-size:0.7rem;">AWAITING_UPLINK</span>
+                <h1 id="active-title" style="margin:10px 0;">SYSTEM_READY</h1>
+                <div id="active-description" style="line-height:1.6; opacity:0.8;">Select a node to decrypt data.</div>
+                <div id="player-zone" style="margin-top:20px;"></div>
             </div>
         </main>
 
-        <aside class="hud-panel right-sidebar">
-            <div class="filter-label">INTEL_FILTERS</div>
-            <div class="intel-module" onclick="filterSignals('D_INT_DARK')">
-                <div class="module-header">DEFENSE_INTEL [DARK]</div>
-                <div class="module-body">DARPA & Autonomous Defense.</div>
-            </div>
-            <div class="intel-module" onclick="filterSignals('NEURAL_LINK')">
-                <div class="module-header">NEURAL_LINK [H+++]</div>
-            </div>
-            <div class="intel-module" onclick="filterSignals('DARK_NET')">
-                <div class="module-header">DARK_NET [SEC_]</div>
-            </div>
+        <aside class="hud-panel side-panel">
+            <div class="filter-label" style="color:#FF5500; font-weight:700; margin-bottom:15px;">INTEL_FILTERS</div>
+            <div class="intel-module" onclick="filterSignals('D_INT_DARK')">DEFENSE_INTEL [DARK]</div>
+            <div class="intel-module" onclick="filterSignals('NEURAL_LINK')">NEURAL_LINK [H+++]</div>
+            <div class="intel-module" onclick="filterSignals('DARK_NET')">DARK_NET [SEC_]</div>
         </aside>
     </div>
 
-    <script src="signals.js?v=2026"></script>
-    <script src="terminal.js"></script>
+    <script src="signals.js?v=3.0"></script>
+    <script src="terminal.js?v=3.0"></script>
 </body>
 </html>
