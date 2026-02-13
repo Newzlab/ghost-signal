@@ -5,28 +5,15 @@ import time
 import requests
 from datetime import datetime
 
-# --- TAXONOMY ---
+# --- TAXONOMY | 2026 STABLE ---
+# Mapped to match the target_cat strings exactly to avoid [DECK] leakage
 CAT_CODES = {
-    # Defense & Private Intel
-    "darpa": "D_INT_DARK",
-    "anduril": "D_INT_DARK",
-    "shield_ai": "D_INT_DARK",
-    "palantir": "D_INT_DARK",
-    "vannevar": "D_INT_DARK",
-    
-    # Bio-Digital / Neural
-    "bci": "NEURAL_LINK",
-    "neuralink": "NEURAL_LINK",
-    "biotech": "NEURAL_LINK",
-    
-    # Economic / Megacorp
-    "market_pulse": "MEGA_CORP",
-    "supply_chain": "MEGA_CORP",
-    
-    # Cyber / DarkNet
-    "zero_day": "DARK_NET",
-    "exploit": "DARK_NET",
-    "encrypted": "DARK_NET"
+    "D_INT_DARK": "DARK",
+    "NEURAL_LINK": "H+++",
+    "MEGA_CORP": "CORP",
+    "DARK_NET": "SEC_",
+    "ORBIT_DECK": "SATL",
+    "SYNTH_CITY": "URBN"
 }
 
 FEEDS = {
@@ -38,21 +25,19 @@ FEEDS = {
     "DARK_NET": "https://thehackernews.com/feeds/posts/default"
 }
 
-# Wider net for 2026 Defense Trends
 DARPA_KEYWORDS = [
     "DARPA", "ANSR", "AIQ", "CLARA", "SHAFTO", "SUSMIT JHA", "VALPIANI", 
     "NAVY", "AFOSR", "AUTONOMOUS WEAPON", "SWARM", "ELECTRONIC WARFARE",
-    "LARGE LANGUAGE MODEL DEFENSE", "CYBER ATTACK LOGIC"
+    "LARGE LANGUAGE MODEL DEFENSE", "CYBER ATTACK LOGIC", "ANDURIL", "SHIELD AI"
 ]
+
 def get_arxiv_acknowledgments(url):
-    """Deep-scrapes arXiv abstract pages for funding credits."""
+    """Deep-scrapes arXiv abstract pages for defense funding signatures."""
     try:
-        # arXiv links in RSS are usually /abs/ format
-        response = requests.get(url, timeout=5, headers={'User-Agent': 'Mozilla/5.0'})
+        response = requests.get(url, timeout=5, headers={'User-Agent': 'GhostSignal/2.0'})
         if response.status_code == 200:
-            # Look for common funding phrases
-            found = any(word in response.text.upper() for word in DARPA_KEYWORDS)
-            return found
+            content = response.text.upper()
+            return any(word in content for word in DARPA_KEYWORDS)
     except:
         return False
     return False
@@ -61,21 +46,22 @@ def fetch_and_format():
     signal_db = []
     
     for category, url in FEEDS.items():
-        print(f"POLLING: {category}")
+        print(f"POLLING_NODE: {category}")
         feed = feedparser.parse(url)
         
-        # INCREASED BUFFER: Check top 25 entries for D-INT hits
+        # Buffer limited to top 25 to prevent GitHub Action timeouts
         for entry in feed.entries[:25]:
             title = entry.title.upper()
+            # Clean HTML tags from summary
             summary = re.sub(r'<[^>]+>', '', entry.get('summary', ''))
             
             target_cat = category
             
-            # --- FORCE UPLINK: DARPA/Anduril/Shield always go to DARK ---
+            # --- UPLINK LOGIC: DEFENSE SOURCE FORCING ---
             if category in ["D_INT_DARK", "ANDURIL", "SHIELD_AI"]:
                 target_cat = "D_INT_DARK"
             
-            # --- FILTERED UPLINK: arXiv only if it hits keywords ---
+            # --- UPLINK LOGIC: ARXIV SCRAPE ---
             elif category == "ARXIV_AI":
                 is_defense_funded = get_arxiv_acknowledgments(entry.link)
                 keyword_match = any(word in (title + summary).upper() for word in DARPA_KEYWORDS)
@@ -84,14 +70,12 @@ def fetch_and_format():
                     continue 
                 target_cat = "D_INT_DARK"
 
-            # --- DEFAULT: Other feeds (H+++, SEC_) keep their original category ---
-            else:
-                target_cat = category
-
+            # --- DATA CONSTRUCTION ---
             signal_db.append({
                 "id": f"GS-{hash(entry.link) % 10000}",
                 "title": title,
                 "type": target_cat,
+                # Fix: Using target_cat directly with the corrected CAT_CODES mapping
                 "cat_code": CAT_CODES.get(target_cat, "DECK"),
                 "source": feed.feed.get('title', 'INTEL_NODE').split(':')[0].strip(),
                 "description": summary[:400] + "...",
@@ -99,10 +83,12 @@ def fetch_and_format():
                 "timestamp": datetime.now().strftime("%Y.%m.%d")
             })
 
-    # Save to signals.js
+    # Save to signals.js for the Frontend Uplink
     with open("signals.js", "w") as f:
+        # Wrapping in a JS constant for direct import
         f.write(f"const db = {json.dumps(signal_db, indent=4)};")
-    print(f"UPLINK_COMPLETE: {len(signal_db)} SIGNALS_LOCKED")
+    
+    print(f"UPLINK_COMPLETE: {len(signal_db)} SIGNALS_ENCRYPTED_TO_JS")
 
 if __name__ == "__main__":
     fetch_and_format()
