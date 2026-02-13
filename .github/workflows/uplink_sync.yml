@@ -1,8 +1,8 @@
-name: GhostSignal Uplink
+name: GhostSignal Sync
 on:
   schedule:
     - cron: '0 */3 * * *' # Every 3 hours
-  workflow_dispatch:
+  workflow_dispatch: # Allows manual "Test Run"
 
 jobs:
   build:
@@ -10,35 +10,30 @@ jobs:
     permissions:
       contents: write
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Ensures we have the history for a clean rebase
+      - uses: actions/checkout@v4
       
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.9'
           
       - name: Install Dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install feedparser requests
+        run: pip install feedparser
         
       - name: Run Decoder
         run: python fetch_signals.py
         
-      - name: Commit and Push
+      - name: Commit and Push Signals
         run: |
           git config --global user.name 'GhostSignal-Bot'
           git config --global user.email 'bot@ghostsignal.net'
+          git add signals.js
           
-          # Only proceed if signals.js has actual changes
-          if [[ -n "$(git status --porcelain signals.js)" ]]; then
-            git add signals.js
-            git commit -m "STABLE_UPLINK: $(date +'%Y-%m-%d %H:%M:%S')"
-            git pull --rebase origin main
-            git push origin main
-          else
-            echo "SIGNAL_IDLE: No new data packets detected."
-          fi
+          # Force a commit with a timestamp to ensure the 'Ghost' always has fresh data to push
+          git commit -m "UPLINK_STABLE: $(date)" || echo "No changes to commit"
+          
+          # Sync with the server using rebase to prevent collisions
+          git pull --rebase --autostash origin main
+          
+          # Push the clean futurist feed to the live site
+          git push origin main
