@@ -1,20 +1,21 @@
-/* --- GHOST SIGNAL v2.6 STABLE --- */
+/* --- GHOST SIGNAL v2.7 FINAL --- */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Orbitron:wght@400;700&display=swap');
 
 :root {
     --orange: #FF5500;
     --orange-glow: rgba(255, 85, 0, 0.3);
-    --border: rgba(255, 85, 0, 0.25);
-    --bg: #1A1A1A;
-    --panel-bg: #1A1A1A;
-    --alert-red: #FF0000;
+    --border: rgba(255, 85, 0, 0.2);
+    --bg: #0D0D0D;
+    --panel-bg: #111111;
 }
 
-html, body {
+html { font-size: 14px; } /* Resetting for OSINT density */
+
+body {
     margin: 0; padding: 0; height: 100vh; width: 100%;
     background: var(--bg);
-    background-image: radial-gradient(circle at 50% 50%, #2b2b2b 0%, #1a1a1a 100%),
-                      repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.02) 0px, rgba(255, 255, 255, 0.02) 1px, transparent 1px, transparent 2px);
+    background-image: radial-gradient(circle at 50% 50%, #1a1a1a 0%, #0d0d0d 100%),
+                      repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.01) 0px, transparent 1px, transparent 2px);
     background-size: cover, 100% 3px;
     color: #fff; font-family: 'Montserrat', sans-serif; overflow: hidden;
     display: flex; flex-direction: column;
@@ -22,61 +23,62 @@ html, body {
 
 /* --- HEADER --- */
 .system-header {
-    height: 80px; border-bottom: 1px solid var(--border);
+    height: 70px; border-bottom: 1px solid var(--border);
     display: flex; justify-content: space-between; align-items: center;
-    padding: 0 40px; background: rgba(0,0,0,0.8); backdrop-filter: blur(15px); z-index: 1000;
+    padding: 0 30px; background: rgba(0,0,0,0.9); backdrop-filter: blur(10px); z-index: 1000;
 }
 
-.site-title { font-weight: 900; font-size: 1.4rem; color: var(--orange); text-shadow: 0 0 15px var(--orange-glow); cursor: pointer; }
-
-.top-bar { display: flex; gap: 30px; align-items: center; }
+.site-title { font-weight: 900; font-size: 1.2rem; color: var(--orange); text-shadow: 0 0 10px var(--orange-glow); }
+.top-bar { display: flex; gap: 20px; align-items: center; font-family: 'Orbitron'; font-size: 0.7rem; }
 
 .pulse-dot {
-    width: 10px; height: 10px; background: #00ff00; border-radius: 50%;
-    animation: status-pulse 2s infinite; box-shadow: 0 0 10px #00ff00;
+    width: 8px; height: 8px; background: #00ff00; border-radius: 50%;
+    animation: pulse 2s infinite; box-shadow: 0 0 10px #00ff00;
 }
 
-/* --- GRID SYSTEM --- */
+/* --- THE GRID --- */
 .console-wrapper {
     display: grid; grid-template-columns: 320px 1fr 340px;
-    flex: 1; min-height: 0; background: var(--border);
+    flex: 1; min-height: 0; background: var(--border); gap: 1px;
 }
 
 .hud-panel {
-    background: var(--panel-bg); padding: 25px;
-    display: flex; flex-direction: column; position: relative; overflow: hidden;
-    border-right: 1px solid var(--border);
+    background: var(--panel-bg); padding: 20px;
+    display: flex; flex-direction: column; overflow: hidden;
 }
 
 /* --- CENTER STAGE --- */
-.center-stage { background: transparent; overflow-y: auto; display: block; }
-
-.article-limiter { max-width: 800px; margin: 0 auto; padding: 40px 0; }
-
-#active-title { font-size: 3.5rem; font-weight: 900; font-family: 'Orbitron'; margin: 15px 0; text-transform: uppercase; }
-
-#label-type { font-family: 'Orbitron'; font-size: 0.7rem; letter-spacing: 5px; color: var(--orange); }
+.center-stage { background: #0a0a0a; overflow-y: auto; display: block; }
+.article-limiter { max-width: 750px; margin: 0 auto; padding: 40px 20px; }
+#active-title { font-size: 2.2rem; font-weight: 900; font-family: 'Orbitron'; margin: 10px 0; text-transform: uppercase; line-height: 1.1; }
+#label-type { font-family: 'Orbitron'; font-size: 0.65rem; letter-spacing: 4px; color: var(--orange); opacity: 0.8; }
+#active-description { font-size: 0.95rem; line-height: 1.7; opacity: 0.8; font-weight: 300; text-align: left; }
 
 /* --- SIDEBARS --- */
 .vault-container, .intel-scroll-area { flex-grow: 1; overflow-y: auto; margin-top: 15px; }
+.vault-item { font-size: 0.75rem; padding: 10px 0; border-bottom: 1px solid rgba(255,85,0,0.05); cursor: pointer; transition: 0.2s; }
+.vault-item:hover { color: var(--orange); padding-left: 5px; }
 
-.intel-module { padding: 15px; margin-bottom: 10px; border: 1px solid transparent; cursor: pointer; transition: 0.3s; }
-.intel-module:hover { border-color: var(--border); background: rgba(255, 85, 0, 0.05); }
+.intel-module { padding: 12px; margin-bottom: 8px; border: 1px solid transparent; cursor: pointer; transition: 0.3s; }
+.intel-module.active-module { border-left: 3px solid #FF0000; background: rgba(255, 0, 0, 0.05); }
+.module-header { font-weight: 700; font-size: 0.75rem; color: var(--orange); margin-bottom: 4px; }
+.module-body { font-size: 0.65rem; opacity: 0.6; }
 
-.intel-module.active-module {
-    border-left: 3px solid var(--alert-red); background: rgba(255, 0, 0, 0.05);
+/* --- MANIFESTO POPUP --- */
+.overlay {
+    display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%;
+    background: rgba(0,0,0,0.95); backdrop-filter: blur(10px); z-index: 9999;
+    justify-content: center; align-items: center;
 }
-
-.module-header { font-weight: 700; font-size: 0.8rem; color: var(--orange); }
-
-.action-btn {
-    border: 1px solid var(--orange); padding: 12px; text-align: center;
-    font-size: 0.7rem; cursor: pointer; transition: 0.2s; color: var(--orange); font-weight: 700;
+.overlay-content {
+    background: #111; border: 1px solid var(--orange); padding: 30px;
+    width: 450px; box-shadow: 0 0 40px rgba(0,0,0,1);
 }
-.action-btn:hover { background: var(--orange); color: #000; }
+.overlay-header { display: flex; justify-content: space-between; font-size: 0.6rem; color: var(--orange); border-bottom: 1px solid var(--border); margin-bottom: 20px; padding-bottom: 10px; }
+.close-btn { background: transparent; border: 1px solid var(--orange); color: var(--orange); font-size: 0.6rem; cursor: pointer; padding: 4px 8px; }
 
-/* --- ANIMATIONS --- */
-.visualizer { display: flex; gap: 8px; height: 40px; margin-bottom: 20px; }
-.v-bar { width: 6px; background: var(--orange); animation: data-bounce 0.8s infinite; }
-@keyframes data-bounce { 0%, 100% { height: 10px; } 50% { height: 40px; } }
-@keyframes status-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.4; } }
+/* --- SCROLLBARS --- */
+::-webkit-scrollbar { width: 3px; }
+::-webkit-scrollbar-thumb { background: var(--border); }
+
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.3; } }
