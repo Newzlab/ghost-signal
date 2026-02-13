@@ -9,26 +9,28 @@ from datetime import datetime
 if hasattr(ssl, '_create_unverified_context'):
     ssl._create_default_https_context = ssl._create_unverified_context
 
-# --- CYBERPUNK TAXONOMY ---
+# --- DEFENSE INTEL COORDINATES ---
 CAT_CODES = {
-    "NEURAL_LINK": "H+++",
-    "MEGA_CORP": "CORP",
-    "SYNTH_CITY": "URBN",
-    "VOID_SIGHT": "VOID",
-    "ORBIT_DECK": "SATL",
-    "GHOST_GEAR": "GEAR",
+    "D_INT_DARK": "DARK",  # DARPA, Contracts, Defense Labs
+    "NEURAL_LINK": "H+++", 
+    "MEGA_CORP": "CORP",   
     "DARK_NET": "SEC_"
 }
 
+# New high-value sources integrated from your research
 FEEDS = {
+    "D_INT_DARK": "https://www.darpa.mil/news/rss",
+    "ARXIV_AI": "https://arxiv.org/rss/cs.AI", # Filtered for DARPA keywords
+    "ANDURIL": "https://www.anduril.com/news/feed/",
+    "SHIELD_AI": "https://shield.ai/feed/",
     "NEURAL_LINK": "https://thedebrief.org/feed/",
     "MEGA_CORP": "https://futurism.com/feed/",
-    "SYNTH_CITY": "https://www.wired.com/feed/category/science/latest/rss", 
     "VOID_SIGHT": "https://clarkesworldmagazine.com/feed/",
-    "ORBIT_DECK": "https://www.nasa.gov/news-release/feed/", 
-    "GHOST_GEAR": "https://spectrum.ieee.org/rss/robotics/fulltext",
     "DARK_NET": "https://thehackernews.com/feeds/posts/default"
 }
+
+# Keywords to trigger a D-INT signal from general research feeds
+DARPA_PROTOCOL_KEYWORDS = ["DARPA", "ANSR", "AIQ", "CLARA", "SHAFTO", "SUSMIT JHA", "VALPIANI"]
 
 def deep_scrub(text):
     text = re.sub(r'<[^>]+>', '', text) 
@@ -40,43 +42,36 @@ def deep_scrub(text):
 
 def fetch_and_format():
     signal_db = []
-    # Set a User-Agent so we don't get blocked by security filters
-    feedparser.USER_AGENT = "GhostSignalBot/1.0 (+https://newzlab.net)"
+    feedparser.USER_AGENT = "GhostSignalBot/2.0 (Defense Intel Module)"
 
     for category, url in FEEDS.items():
-        print(f"FETCHING_SIGNAL: {category}...")
-        clean_url = f"{url}?t={int(time.time())}"
-        feed = feedparser.parse(clean_url)
+        print(f"POLLING_UPLINK: {category}")
+        feed = feedparser.parse(f"{url}?t={int(time.time())}")
         
-        # Fallback for source title
-        source = feed.feed.get('title', 'DECK_LOG').split(' - ')[0].split(':')[0].strip()
-        
-        if not feed.entries:
-            print(f"!!! SIGNAL_LOST: {category}")
-            continue
-
-        for entry in feed.entries[:10]:
+        for entry in feed.entries[:12]:
             title = entry.title.upper()
-            raw_summary = entry.get('summary', entry.get('description', ''))
-            summary = deep_scrub(raw_summary)
+            summary = deep_scrub(entry.get('summary', entry.get('description', '')))
             
-            # Formatting Date
-            date_str = entry.get('published', datetime.now().strftime("%Y.%m.%d"))
-            
+            # Specialized Filter: If it's arXiv, only include it if DARPA keywords are found
+            if category == "ARXIV_AI":
+                if not any(word in (title + summary).upper() for word in DARPA_PROTOCOL_KEYWORDS):
+                    continue
+                target_category = "D_INT_DARK" # Re-route to D-INT
+            else:
+                target_category = category
+
             signal_db.append({
                 "id": f"GS-{entry.get('id', entry.link)[-5:]}",
                 "title": title,
-                "type": category,
-                "cat_code": CAT_CODES.get(category, "MISC"),
-                "source": source,
-                "description": summary,
+                "type": target_category,
+                "cat_code": CAT_CODES.get(target_category, "DECK"),
+                "source": feed.feed.get('title', 'OSINT_FEED').split(' - ')[0],
+                "description": summary[:500] + "...",
                 "source_url": entry.link,
-                "timestamp": date_str
+                "timestamp": datetime.now().strftime("%Y.%m.%d")
             })
 
-    # Sort: Newest first
     signal_db.sort(key=lambda x: x['timestamp'], reverse=True)
-    
     with open("signals.js", "w") as f:
         f.write(f"const db = {json.dumps(signal_db, indent=4)};")
     print(f"UPLINK_COMPLETE: {len(signal_db)} SIGNALS_STORED")
