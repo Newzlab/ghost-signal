@@ -1,128 +1,14 @@
-/* --- GHOST SIGNAL | SYSTEM CORE v2.6 --- */
-:root {
-    --orange: #FF5500;
-    --orange-glow: rgba(255, 85, 0, 0.3);
-    --border: rgba(255, 85, 0, 0.25);
-    --bg: #1A1A1A;
-    --panel-bg: #1A1A1A;
-}
-
-html, body {
-    margin: 0; padding: 0;
-    height: 100vh; width: 100%;
-    background: var(--bg);
-    background-image: 
-        radial-gradient(circle at 50% 50%, #2b2b2b 0%, #1a1a1a 100%),
-        repeating-linear-gradient(0deg, rgba(255, 255, 255, 0.02) 0px, rgba(255, 255, 255, 0.02) 1px, transparent 1px, transparent 2px);
-    background-size: cover, 100% 3px;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-}
-
-/* --- HEADER --- */
-.system-header {
-    height: 80px; min-height: 80px;
-    border-bottom: 1px solid var(--border);
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 0 40px; background: rgba(0,0,0,0.8);
-    backdrop-filter: blur(15px); z-index: 1000;
-}
-
-.site-title {
-    font-weight: 900; font-size: 1.4rem; color: var(--orange);
-    text-shadow: 0 0 15px var(--orange-glow);
-    cursor: pointer;
-}
-
-.sub-label { font-weight: 300; font-size: 0.7rem; color: #fff; opacity: 0.6; margin-left: 10px; }
-
-/* --- MAIN LAYOUT --- */
-.console-wrapper {
-    display: grid;
-    grid-template-columns: 320px 1fr 340px;
-    flex: 1; min-height: 0;
-    background: var(--border);
-}
-
-.hud-panel {
-    background: var(--panel-bg);
-    padding: 25px;
-    display: flex; flex-direction: column;
-    position: relative;
-}
-
-/* --- SCROLLING LOGIC --- */
-.vault-container {
-    flex-grow: 1; overflow-y: auto;
-    scrollbar-width: thin; scrollbar-color: var(--orange) transparent;
-}
-
-.center-stage {
-    overflow-y: auto; /* CRUCIAL: Enables scrolling for long articles */
-    display: block; /* Allows content to flow naturally */
-    padding: 40px;
-}
-
-/* --- CENTER CONTENT (The decryption zone) --- */
-.visualizer {
-    height: 60px; min-height: 60px; /* Locked height prevents jitter */
-    display: flex; align-items: flex-end; justify-content: center;
-    gap: 8px; margin-bottom: 30px;
-}
-
-.v-bar {
-    width: 6px; background: var(--orange);
-    box-shadow: 0 0 10px var(--orange-glow);
-}
-
-/* Chaos animations for the bars */
-.v-bar:nth-child(1) { animation: bounce 0.8s infinite; }
-.v-bar:nth-child(2) { animation: bounce 1.1s infinite 0.2s; background: #fff; }
-.v-bar:nth-child(3) { animation: bounce 0.9s infinite 0.4s; }
-
-@keyframes bounce {
-    0%, 100% { height: 10px; opacity: 0.3; }
-    50% { height: 50px; opacity: 1; }
-}
-
-#active-title { font-family: 'Orbitron'; font-weight: 700; font-size: 2.2rem; margin: 20px 0; }
-#active-description { line-height: 1.8; opacity: 0.9; font-weight: 300; margin-bottom: 40px; }
-
-/* --- INTEL MODULES (Right Sidebar) --- */
-.intel-module {
-    margin-bottom: 15px; padding: 15px;
-    border: 1px solid transparent; cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.intel-module:hover { background: rgba(255, 85, 0, 0.05); }
-
-.intel-module.active-module {
-    background: rgba(255, 85, 0, 0.1);
-    border-left: 3px solid var(--orange) !important;
-}
-
-.module-header { font-weight: 700; color: var(--orange); font-size: 0.8rem; letter-spacing: 1px; }
-.module-body { font-size: 0.75rem; opacity: 0.6; margin-top: 5px; }
-
-/* --- BUTTONS --- */
-.action-btn {
-    border: 1px solid var(--orange);
-    padding: 15px; text-align: center;
-    color: var(--orange); cursor: pointer;
-    font-weight: 700; font-size: 0.7rem;
-    letter-spacing: 2px; transition: 0.2s;
-}
-
-.action-btn:hover { background: var(--orange); color: #000; box-shadow: 0 0 15px var(--orange-glow); }
-
-/* --- VAULT ITEMS --- */
-.vault-item {
-    padding: 12px; font-size: 0.8rem; border-bottom: 1px solid rgba(255, 85, 0, 0.1);
-    cursor: pointer; transition: 0.2s;
-}
-.vault-item:hover { background: rgba(255, 85, 0, 0.1); color: var(--orange); }
-.cat-tag { color: var(--orange); font-weight: 700; margin-right: 8px; }
+:root { --orange: #FF5500; --bg: #111; --panel: #1A1A1A; }
+body { margin: 0; background: var(--bg); color: #fff; font-family: sans-serif; height: 100vh; display: flex; flex-direction: column; overflow: hidden; }
+.system-header { height: 60px; display: flex; justify-content: space-between; align-items: center; padding: 0 20px; border-bottom: 1px solid #333; }
+.console-wrapper { display: grid; grid-template-columns: 300px 1fr 300px; flex: 1; overflow: hidden; }
+.hud-panel { background: var(--panel); border: 1px solid #222; padding: 20px; display: flex; flex-direction: column; }
+.scroll-area { flex: 1; overflow-y: auto; padding-right: 10px; }
+.vault-item { padding: 10px; border-bottom: 1px solid #222; cursor: pointer; font-size: 0.8rem; }
+.vault-item:hover { background: #222; }
+.intel-module { padding: 15px; background: #222; margin-bottom: 10px; cursor: pointer; font-weight: bold; font-size: 0.8rem; }
+.visualizer { height: 40px; display: flex; gap: 5px; margin-bottom: 20px; }
+.v-bar { width: 5px; background: var(--orange); animation: b 0.6s infinite alternate; }
+@keyframes b { from { height: 10px; } to { height: 40px; } }
+.btn { width: 100%; padding: 15px; background: transparent; border: 1px solid var(--orange); color: var(--orange); cursor: pointer; font-weight: bold; }
+.btn:hover { background: var(--orange); color: #000; }
