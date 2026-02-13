@@ -300,6 +300,64 @@ html, body {
     box-shadow: inset 0 0 100px rgba(255, 85, 0, 0.1);
 }
 
+/* --- UPDATED: SIGNAL STATUS PULSE --- */
+.pulse-dot {
+    width: 10px; 
+    height: 10px;
+    background: #00ff00; /* Overriding orange to green for "Stable" status */
+    border-radius: 50%;
+    animation: status-pulse 2s infinite;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+@keyframes status-pulse {
+    0% { opacity: 1; transform: scale(1); box-shadow: 0 0 5px #00ff00; }
+    50% { opacity: 0.4; transform: scale(1.2); box-shadow: 0 0 15px #00ff00; }
+    100% { opacity: 1; transform: scale(1); box-shadow: 0 0 5px #00ff00; }
+}
+
+/* --- UPDATED: CENTER CONSOLE VISUALIZER --- */
+.visualizer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 6px;
+    height: 60px; /* Increased for better visual impact */
+    margin-bottom: 30px;
+}
+
+.v-bar {
+    width: 4px;
+    background: var(--orange);
+    box-shadow: 0 0 10px var(--orange-glow);
+    /* Individualized animations for a chaotic "data" look */
+}
+
+.v-bar:nth-child(1) { animation: data-bounce 0.8s infinite; }
+.v-bar:nth-child(2) { animation: data-bounce 1.1s infinite 0.2s; }
+.v-bar:nth-child(3) { animation: data-bounce 0.9s infinite 0.4s; }
+
+@keyframes data-bounce {
+    0%, 100% { height: 10px; opacity: 0.3; }
+    50% { height: 50px; opacity: 1; }
+}
+
+/* --- ACTIVE FILTER HIGHLIGHT --- */
+.intel-module.active-module {
+    background: rgba(255, 85, 0, 0.08);
+    border-left: 3px solid var(--orange) !important;
+}
+
+/* --- SCROLLBAR POLISH (For Media Review) --- */
+.vault-container::-webkit-scrollbar {
+    width: 4px;
+    display: block; /* Making it slightly visible for professional feel */
+}
+
+.vault-container::-webkit-scrollbar-thumb {
+    background: var(--border);
+    border-radius: 2px;
+}
 
 
 
