@@ -17,7 +17,7 @@
         <div class="connection-status">
             <span>TERMINAL_UPLINK_STABLE</span>
             <div class="pulse-dot"></div>
-            <span style="opacity: 0.5;">[ 2026.02.12 ]</span>
+            <span style="opacity: 0.5;">[ 2026.02.14 ]</span>
         </div>
     </header>
 
@@ -66,35 +66,38 @@
             <div style="font-family: 'Montserrat'; font-weight: 700; font-size: 0.75rem; color: var(--orange); margin-bottom: 20px; letter-spacing: 2px;">INTEL_FILTERS</div>
             
             <div class="vault-container" style="overflow-y: auto; padding-right: 10px;">
-                <div class="intel-module active-module" onclick="filterSignals('D_INT_DARK')" style="border-left: 3px solid #ff0000;">
-                    <div class="module-header">DEFENSE_INTEL [DARK]</div>
-                    <div class="module-body">DARPA, SAM.gov, and autonomous defense-tech giants.</div>
+                <div class="intel-module" onclick="filterSignals('GOV_DECK')">
+                    <div class="module-header">GOV_DECK [DARK]</div>
+                    <div class="module-body">DARPA, IARPA, and AFRL institutional nodes.</div>
                 </div>
 
-                <div class="intel-module" onclick="filterSignals('NEURAL_LINK')">
-                    <div class="module-header">NEURAL_LINK [H+++]</div>
+                <div class="intel-module" onclick="filterSignals('PRIME_FORGE')">
+                    <div class="module-header">PRIME_FORGE [FORGE]</div>
+                    <div class="module-body">Anduril, Shield AI, and hardware manufacturers.</div>
                 </div>
 
-                <div class="intel-module" onclick="filterSignals('MEGA_CORP')">
-                    <div class="module-header">MEGA_CORP [CORP]</div>
-                    <div class="module-body">The economic arc of tech giants.</div>
+                <div class="intel-module" onclick="filterSignals('RESEARCH_ARCHIVE')">
+                    <div class="module-header">RESEARCH_ARCHIVE [ARCH]</div>
+                    <div class="module-body">MIT Lincoln Lab and defense-funded technical papers.</div>
                 </div>
 
-                <div class="intel-module" onclick="filterSignals('SYNTH_CITY')">
-                    <div class="module-header">SYNTH_CITY [URBN]</div>
-                    <div class="module-body">Surveillance and urban architecture.</div>
+                <div class="intel-module" onclick="filterSignals('CYBER_SEC')">
+                    <div class="module-header">CYBER_SEC [SEC_]</div>
+                    <div class="module-body">CISA alerts and raw technical advisories.</div>
                 </div>
 
                 <div class="intel-module" onclick="filterSignals('ORBIT_DECK')">
                     <div class="module-header">ORBIT_DECK [SATL]</div>
-                    <div class="module-body">Extra-planetary defense and logistics.</div>
+                    <div class="module-body">Aerospace primes and satellite logistics.</div>
                 </div>
 
-                <div class="intel-module" onclick="filterSignals('DARK_NET')">
-                    <div class="module-header">DARK_NET [SEC_]</div>
-                    <div class="module-body">Encryption and digital sovereignty.</div>
+                <div class="intel-module" onclick="filterSignals('MEGA_CORP')">
+                    <div class="module-header">MEGA_CORP [CORP]</div>
+                    <div class="module-body">Strategic industry shifts from top defense primes.</div>
                 </div>
-            </div> <div class="intel-module" onclick="showAll()" style="margin-top: auto;">
+            </div> 
+            
+            <div class="intel-module" onclick="showAll()" style="margin-top: auto;">
                 <div class="action-btn">REBOOT_UPLINK</div>
             </div>
 
