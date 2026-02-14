@@ -1,4 +1,4 @@
-/* --- GHOST SIGNAL | TERMINAL CORE v2.6 (MOBILE ENABLED) --- */
+/* --- GHOST SIGNAL | TERMINAL CORE v2.7 (LINEAR MOBILE FLOW) --- */
 
 window.onload = () => { if (typeof db !== 'undefined') showAll(); };
 
@@ -8,20 +8,16 @@ function showAll() {
     renderDirectory(db, "ALL_SIGNALS"); 
 }
 
-// SURGICAL PATCH: Mobile Navigation Toggle Logic
-function toggleNav(side) {
+// SURGICAL PATCH: Unified Mobile Navigation Logic
+function toggleNav() {
     const body = document.getElementById('main-body');
-    if (side === 'left') {
-        body.classList.toggle('sidebar-active-left');
-        body.classList.remove('sidebar-active-right');
-    } else {
-        body.classList.toggle('sidebar-active-right');
-        body.classList.remove('sidebar-active-left');
-    }
+    body.classList.toggle('sidebar-active-right');
+    // Ensure directory view is reset when opening/closing main menu
+    body.classList.remove('directory-open');
 }
 
 function filterSignals(category) {
-    // SURGICAL PATCH: Update active class on sidebar modules
+    // Update active class on sidebar modules
     document.querySelectorAll('.intel-module').forEach(m => m.classList.remove('active-module'));
     
     // Find the clicked module to apply the active highlight
@@ -32,7 +28,7 @@ function filterSignals(category) {
         }
     });
 
-    // SURGICAL PATCH: Elastic filter checks both type and cat_code to bridge Python/JS labels
+    // Elastic filter checks both type and cat_code to bridge Python/JS labels
     const filtered = db.filter(item => 
         item.type === category || 
         item.cat_code === category
@@ -40,8 +36,10 @@ function filterSignals(category) {
     
     renderDirectory(filtered, category);
 
-    // SURGICAL PATCH: Auto-close sidebars on mobile after filtering
-    document.getElementById('main-body').classList.remove('sidebar-active-left', 'sidebar-active-right');
+    // SURGICAL PATCH: On mobile, reveal the Directory section below the filters
+    if (window.innerWidth <= 1024) {
+        document.getElementById('main-body').classList.add('directory-open');
+    }
 }
 
 function renderDirectory(data, label) {
@@ -67,7 +65,7 @@ function decryptSignal(item) {
     document.getElementById('label-type').innerText = `PRIORITY_SIGNAL // ${item.type}`;
     document.getElementById('active-title').innerText = item.title;
     
-    // SURGICAL PATCH: Reset scroll position of center stage when switching articles
+    // Reset scroll position of center stage when switching articles
     document.getElementById('center-stage-anchor').scrollTop = 0;
 
     const meta = `
@@ -81,8 +79,8 @@ function decryptSignal(item) {
     document.getElementById('active-description').innerHTML = meta + item.description + "...";
     document.getElementById('player-zone').innerHTML = `<button class="action-btn" onclick="window.open('${item.source_url}', '_blank')" style="padding: 18px 50px;">ACCESS RAW DATA SOURCE</button>`;
 
-    // SURGICAL PATCH: Auto-close sidebars on mobile after selecting a signal
-    document.getElementById('main-body').classList.remove('sidebar-active-left', 'sidebar-active-right');
+    // SURGICAL PATCH: Auto-close all mobile menus after selecting a signal
+    document.getElementById('main-body').classList.remove('sidebar-active-right', 'directory-open');
 }
 
 // --- HARDENED AUDIO LOGIC ---
