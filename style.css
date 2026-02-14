@@ -1,6 +1,11 @@
-/* --- GHOST SIGNAL | NEWZLAB OSINT THEME v1.1 (MOBILE RESPONSIVE) --- */
+/* --- GHOST SIGNAL | NEWZLAB OSINT THEME v1.2 (MOBILE STABILITY PATCH) --- */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Orbitron:wght@400;700&display=swap');
+
+/* SURGICAL PATCH: Global box-sizing fix to prevent clipping/overflow */
+* {
+    box-sizing: border-box;
+}
 
 :root {
     --orange: #FF5500;
@@ -38,7 +43,7 @@ html, body {
     padding: 0 40px;
     background: rgba(0,0,0,0.8);
     backdrop-filter: blur(15px);
-    z-index: 2001; /* Above mobile overlays */
+    z-index: 2001;
 }
 
 .site-title {
@@ -62,7 +67,7 @@ html, body {
     white-space: nowrap;
 }
 
-/* --- MOBILE NAV TOGGLE (Hidden on Desktop) --- */
+/* --- MOBILE NAV TOGGLE --- */
 .mobile-nav-toggle {
     display: none;
     flex-direction: column;
@@ -106,7 +111,6 @@ html, body {
     margin: 15px 0;
     padding-right: 5px;
     scrollbar-width: none; 
-    -ms-overflow-style: none; 
 }
 .vault-container::-webkit-scrollbar { display: none; }
 
@@ -215,13 +219,8 @@ html, body {
 }
 .action-btn:hover { background: var(--orange); color: #000; box-shadow: 0 0 15px var(--orange-glow); }
 
-/* --- FOOTER --- */
-.footer-module { margin-top: 25px; padding-top: 15px; border-top: 1px dashed var(--border); text-align: center; }
-.copyright { font-size: 0.55rem; letter-spacing: 2px; line-height: 1.6; opacity: 0.4; text-transform: uppercase; }
-
 /* --- ANIMATIONS --- */
 @keyframes data-bounce { 0%, 100% { height: 10px; opacity: 0.3; } 50% { height: 50px; opacity: 1; } }
-@keyframes pulse-glow { 0%, 100% { opacity: 0.4; } 50% { opacity: 1; } }
 @keyframes status-pulse {
     0% { opacity: 1; transform: scale(1); box-shadow: 0 0 5px #00ff00; }
     50% { opacity: 0.4; transform: scale(1.2); box-shadow: 0 0 15px #00ff00; }
@@ -251,39 +250,40 @@ html, body {
     display: flex; flex-direction: column;
 }
 
-/* --- MOBILE SURGICAL PATCH v2.0 (UNIFIED FLOW) --- */
+/* --- MOBILE SURGICAL PATCH v2.1 (TRANSFORM STABILITY) --- */
 @media (max-width: 1024px) {
     .system-header { padding: 0 20px; height: 60px; min-height: 60px; }
     .connection-status { display: none; }
-    .mobile-nav-toggle { display: flex; } /* Single hamburger on right */
+    .mobile-nav-toggle { display: flex; }
 
     .console-wrapper {
         display: block; 
         position: relative;
     }
 
-    /* UNIFIED OVERLAY: Both sidebars stack here on mobile */
+    /* SURGICAL PATCH: Switch to transform for smoother, more stable off-canvas logic */
     .hud-panel:first-child,
     .hud-panel:last-child {
         position: fixed;
         top: 60px;
-        right: -100%; /* Off-screen right */
-        width: 100%;
+        left: 0;
+        width: 100vw;
         height: calc(100vh - 60px);
         z-index: 2000;
+        transform: translateX(100%); /* Hardware accelerated off-screen */
         transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         background: var(--panel-bg);
         border-left: 1px solid var(--border);
         overflow-y: auto;
     }
 
-    /* Slide-in behavior controlled by body classes */
-    .sidebar-active-right .hud-panel:last-child { right: 0; }
+    /* Active state for the unified right menu */
+    .sidebar-active-right .hud-panel:last-child { transform: translateX(0); }
     
-    /* Directory (First Panel) logic: Hidden until category picked */
+    /* Directory logic: Stacks below filters when active */
     .sidebar-active-right .hud-panel:first-child { 
         display: none;
-        right: 0;
+        transform: translateX(0);
         height: auto;
         min-height: 50%;
         position: relative;
