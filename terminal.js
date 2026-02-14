@@ -1,4 +1,4 @@
-/* --- GHOST SIGNAL | TERMINAL CORE v2.8 (UNIFIED FLOW STABILITY) --- */
+/* --- GHOST SIGNAL | TERMINAL CORE v2.9 (MOBILE UI FINALIZATION) --- */
 
 window.onload = () => { if (typeof db !== 'undefined') showAll(); };
 
@@ -12,8 +12,10 @@ function showAll() {
 function toggleNav() {
     const body = document.getElementById('main-body');
     body.classList.toggle('sidebar-active-right');
-    // Reset directory view when closing or opening the root menu
-    body.classList.remove('directory-open');
+    // Ensure the state is clean when explicitly toggling the menu
+    if (!body.classList.contains('sidebar-active-right')) {
+        body.classList.remove('directory-open');
+    }
 }
 
 function filterSignals(category) {
@@ -36,12 +38,14 @@ function filterSignals(category) {
     
     renderDirectory(filtered, category);
 
-    // SURGICAL PATCH: Reveal directory and scroll to it for immediate mobile feedback
+    // SURGICAL PATCH: Reveal directory and handle mobile transition
     if (window.innerWidth <= 1024) {
         document.getElementById('main-body').classList.add('directory-open');
-        // Delay scroll slightly to allow the DOM to render the directory
+        
+        // Delay scroll and auto-close sidebar so the user sees the content populated
         setTimeout(() => {
-            document.getElementById('vault-title').scrollIntoView({ behavior: 'smooth' });
+            const titleElement = document.getElementById('vault-title');
+            if (titleElement) titleElement.scrollIntoView({ behavior: 'smooth' });
         }, 100);
     }
 }
@@ -83,7 +87,7 @@ function decryptSignal(item) {
     document.getElementById('active-description').innerHTML = meta + item.description + "...";
     document.getElementById('player-zone').innerHTML = `<button class="action-btn" onclick="window.open('${item.source_url}', '_blank')" style="padding: 18px 50px;">ACCESS RAW DATA SOURCE</button>`;
 
-    // SURGICAL PATCH: Ensure all mobile overlays are cleared when article is displayed
+    // SURGICAL PATCH: Close all mobile menus after selecting a signal to focus on content
     document.getElementById('main-body').classList.remove('sidebar-active-right', 'directory-open');
 }
 
