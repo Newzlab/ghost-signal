@@ -114,6 +114,11 @@ html, body {
     text-transform: uppercase;
 }
 
+/* SURGICAL PATCH: Ensure the center stage respects overflow for scrollable articles */
+#center-stage-anchor {
+    overflow-y: auto !important;
+}
+
 /* --- ITEMS --- */
 .vault-item { 
     padding: 12px; 
@@ -138,9 +143,6 @@ html, body {
 }
 
 /* --- CENTER CONTENT --- */
-.visualizer { display: flex; align-items: flex-end; justify-content: center; gap: 4px; height: 40px; margin-bottom: 20px; }
-.v-bar { width: 3px; background: var(--orange); animation: bounce 1.2s infinite ease-in-out; }
-
 #label-type {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -323,6 +325,7 @@ html, body {
     justify-content: center;
     gap: 6px;
     height: 60px; /* Increased for better visual impact */
+    min-height: 60px; /* SURGICAL PATCH: Fix height to prevent text bouncing */
     margin-bottom: 30px;
 }
 
@@ -358,5 +361,3 @@ html, body {
     background: var(--border);
     border-radius: 2px;
 }
-
-
