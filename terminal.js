@@ -2,10 +2,30 @@
 
 window.onload = () => { if (typeof db !== 'undefined') showAll(); };
 
-function showAll() { renderDirectory(db, "ALL_SIGNALS"); }
+function showAll() { 
+    // Clear active states on sidebar when showing all
+    document.querySelectorAll('.intel-module').forEach(m => m.classList.remove('active-module'));
+    renderDirectory(db, "ALL_SIGNALS"); 
+}
 
 function filterSignals(category) {
-    const filtered = db.filter(item => item.type === category);
+    // SURGICAL PATCH: Update active class on sidebar modules
+    document.querySelectorAll('.intel-module').forEach(m => m.classList.remove('active-module'));
+    
+    // Find the clicked module to apply the active highlight
+    const modules = document.querySelectorAll('.intel-module');
+    modules.forEach(m => {
+        if (m.getAttribute('onclick').includes(category)) {
+            m.classList.add('active-module');
+        }
+    });
+
+    // SURGICAL PATCH: Elastic filter checks both type and cat_code to bridge Python/JS labels
+    const filtered = db.filter(item => 
+        item.type === category || 
+        item.cat_code === category
+    );
+    
     renderDirectory(filtered, category);
 }
 
@@ -17,7 +37,7 @@ function renderDirectory(data, label) {
     data.forEach(item => {
         const div = document.createElement('div');
         div.className = 'vault-item';
-        // Use the new H+++ / CORP / VOID codes
+        // Use the cat_code or default to DECK
         const code = item.cat_code || "DECK";
         div.innerHTML = `<span style="color: var(--orange); font-size: 0.7rem; font-weight:700;">[${code}]</span> ${item.title}`;
         div.onclick = () => decryptSignal(item);
@@ -32,6 +52,9 @@ function decryptSignal(item) {
     document.getElementById('label-type').innerText = `PRIORITY_SIGNAL // ${item.type}`;
     document.getElementById('active-title').innerText = item.title;
     
+    // SURGICAL PATCH: Reset scroll position of center stage when switching articles
+    document.getElementById('center-stage-anchor').scrollTop = 0;
+
     const meta = `
         <div style="border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 20px; display: flex; justify-content: space-between; font-size: 0.7rem; font-weight: 700;">
             <span>SOURCE: <span style="color: var(--orange);">${item.source.toUpperCase()}</span></span>
@@ -66,6 +89,7 @@ function toggleAudio() {
         audioPlaying = false;
     }
 }
+
 function openManifesto() {
     document.getElementById('manifesto-overlay').style.display = 'flex';
 }
