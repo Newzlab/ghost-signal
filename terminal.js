@@ -1,4 +1,4 @@
-/* --- GHOST SIGNAL | TERMINAL CORE v2.7 (LINEAR MOBILE FLOW) --- */
+/* --- GHOST SIGNAL | TERMINAL CORE v2.8 (UNIFIED FLOW STABILITY) --- */
 
 window.onload = () => { if (typeof db !== 'undefined') showAll(); };
 
@@ -12,7 +12,7 @@ function showAll() {
 function toggleNav() {
     const body = document.getElementById('main-body');
     body.classList.toggle('sidebar-active-right');
-    // Ensure directory view is reset when opening/closing main menu
+    // Reset directory view when closing or opening the root menu
     body.classList.remove('directory-open');
 }
 
@@ -36,9 +36,13 @@ function filterSignals(category) {
     
     renderDirectory(filtered, category);
 
-    // SURGICAL PATCH: On mobile, reveal the Directory section below the filters
+    // SURGICAL PATCH: Reveal directory and scroll to it for immediate mobile feedback
     if (window.innerWidth <= 1024) {
         document.getElementById('main-body').classList.add('directory-open');
+        // Delay scroll slightly to allow the DOM to render the directory
+        setTimeout(() => {
+            document.getElementById('vault-title').scrollIntoView({ behavior: 'smooth' });
+        }, 100);
     }
 }
 
@@ -79,7 +83,7 @@ function decryptSignal(item) {
     document.getElementById('active-description').innerHTML = meta + item.description + "...";
     document.getElementById('player-zone').innerHTML = `<button class="action-btn" onclick="window.open('${item.source_url}', '_blank')" style="padding: 18px 50px;">ACCESS RAW DATA SOURCE</button>`;
 
-    // SURGICAL PATCH: Auto-close all mobile menus after selecting a signal
+    // SURGICAL PATCH: Ensure all mobile overlays are cleared when article is displayed
     document.getElementById('main-body').classList.remove('sidebar-active-right', 'directory-open');
 }
 
