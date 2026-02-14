@@ -1,8 +1,7 @@
-/* --- GHOST SIGNAL | NEWZLAB OSINT THEME v1.2 (MOBILE STABILITY PATCH) --- */
+/* --- GHOST SIGNAL | NEWZLAB OSINT THEME v1.3 (STABILITY & ALIGNMENT) --- */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Orbitron:wght@400;700&display=swap');
 
-/* SURGICAL PATCH: Global box-sizing fix to prevent clipping/overflow */
 * {
     box-sizing: border-box;
 }
@@ -30,10 +29,13 @@ html, body {
     overflow: hidden; 
     display: flex;
     flex-direction: column;
+    padding-top: 80px; /* Offset for fixed header */
 }
 
-/* --- HEADER --- */
+/* --- HEADER (FIXED) --- */
 .system-header {
+    position: fixed;
+    top: 0; left: 0; width: 100%;
     height: 80px;
     min-height: 80px;
     border-bottom: 1px solid var(--border);
@@ -41,9 +43,9 @@ html, body {
     justify-content: space-between;
     align-items: center;
     padding: 0 40px;
-    background: rgba(0,0,0,0.8);
+    background: rgba(0,0,0,0.9);
     backdrop-filter: blur(15px);
-    z-index: 2001;
+    z-index: 3001; /* Highest layer */
 }
 
 .site-title {
@@ -73,7 +75,7 @@ html, body {
     flex-direction: column;
     gap: 5px;
     cursor: pointer;
-    z-index: 2002;
+    z-index: 3002;
     padding: 10px;
 }
 .mobile-nav-toggle span {
@@ -142,7 +144,7 @@ html, body {
 
 .system-logs {
     margin-top: auto;
-    font-size: 0.65rem;
+    font-size: 0.65rem; /* UNIFIED SIZE */
     letter-spacing: 1px;
     padding-top: 15px;
     border-top: 1px solid var(--border);
@@ -219,6 +221,16 @@ html, body {
 }
 .action-btn:hover { background: var(--orange); color: #000; box-shadow: 0 0 15px var(--orange-glow); }
 
+/* --- FOOTER UNIFICATION --- */
+.footer-module { margin-top: 25px; padding-top: 15px; border-top: 1px dashed var(--border); text-align: center; }
+.copyright { 
+    font-size: 0.65rem; /* UNIFIED SIZE */
+    letter-spacing: 2px; 
+    line-height: 1.6; 
+    opacity: 0.5; 
+    text-transform: uppercase; 
+}
+
 /* --- ANIMATIONS --- */
 @keyframes data-bounce { 0%, 100% { height: 10px; opacity: 0.3; } 50% { height: 50px; opacity: 1; } }
 @keyframes status-pulse {
@@ -242,16 +254,12 @@ html, body {
     display: none; position: fixed;
     top: 0; left: 0; width: 100%; height: 100%;
     background: rgba(0, 0, 0, 0.9); backdrop-filter: blur(10px);
-    z-index: 3000; justify-content: center; align-items: center;
-}
-.overlay-content {
-    background: var(--panel-bg); border: 1px solid var(--orange);
-    width: 90%; max-width: 600px; max-height: 80vh; padding: 30px;
-    display: flex; flex-direction: column;
+    z-index: 4000; justify-content: center; align-items: center;
 }
 
-/* --- MOBILE SURGICAL PATCH v2.1 (TRANSFORM STABILITY) --- */
+/* --- MOBILE SURGICAL PATCH v2.2 --- */
 @media (max-width: 1024px) {
+    body { padding-top: 60px; }
     .system-header { padding: 0 20px; height: 60px; min-height: 60px; }
     .connection-status { display: none; }
     .mobile-nav-toggle { display: flex; }
@@ -261,7 +269,6 @@ html, body {
         position: relative;
     }
 
-    /* SURGICAL PATCH: Switch to transform for smoother, more stable off-canvas logic */
     .hud-panel:first-child,
     .hud-panel:last-child {
         position: fixed;
@@ -269,18 +276,16 @@ html, body {
         left: 0;
         width: 100vw;
         height: calc(100vh - 60px);
-        z-index: 2000;
-        transform: translateX(100%); /* Hardware accelerated off-screen */
+        z-index: 3000;
+        transform: translateX(100%);
         transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         background: var(--panel-bg);
         border-left: 1px solid var(--border);
         overflow-y: auto;
     }
 
-    /* Active state for the unified right menu */
     .sidebar-active-right .hud-panel:last-child { transform: translateX(0); }
     
-    /* Directory logic: Stacks below filters when active */
     .sidebar-active-right .hud-panel:first-child { 
         display: none;
         transform: translateX(0);
@@ -290,6 +295,7 @@ html, body {
         top: 0;
         border-top: 1px solid var(--border);
         border-left: none;
+        margin-bottom: 60px; /* Space for the footer scroll */
     }
 
     .directory-open .hud-panel:first-child { display: flex; }
@@ -299,6 +305,4 @@ html, body {
         padding: 20px;
         height: calc(100vh - 60px);
     }
-    
-    #active-title { font-size: 1.6rem; }
 }
