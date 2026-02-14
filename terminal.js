@@ -1,4 +1,4 @@
-/* --- GHOST SIGNAL | TERMINAL CORE v2.5 --- */
+/* --- GHOST SIGNAL | TERMINAL CORE v2.6 (MOBILE ENABLED) --- */
 
 window.onload = () => { if (typeof db !== 'undefined') showAll(); };
 
@@ -6,6 +6,18 @@ function showAll() {
     // Clear active states on sidebar when showing all
     document.querySelectorAll('.intel-module').forEach(m => m.classList.remove('active-module'));
     renderDirectory(db, "ALL_SIGNALS"); 
+}
+
+// SURGICAL PATCH: Mobile Navigation Toggle Logic
+function toggleNav(side) {
+    const body = document.getElementById('main-body');
+    if (side === 'left') {
+        body.classList.toggle('sidebar-active-left');
+        body.classList.remove('sidebar-active-right');
+    } else {
+        body.classList.toggle('sidebar-active-right');
+        body.classList.remove('sidebar-active-left');
+    }
 }
 
 function filterSignals(category) {
@@ -27,6 +39,9 @@ function filterSignals(category) {
     );
     
     renderDirectory(filtered, category);
+
+    // SURGICAL PATCH: Auto-close sidebars on mobile after filtering
+    document.getElementById('main-body').classList.remove('sidebar-active-left', 'sidebar-active-right');
 }
 
 function renderDirectory(data, label) {
@@ -65,6 +80,9 @@ function decryptSignal(item) {
     
     document.getElementById('active-description').innerHTML = meta + item.description + "...";
     document.getElementById('player-zone').innerHTML = `<button class="action-btn" onclick="window.open('${item.source_url}', '_blank')" style="padding: 18px 50px;">ACCESS RAW DATA SOURCE</button>`;
+
+    // SURGICAL PATCH: Auto-close sidebars on mobile after selecting a signal
+    document.getElementById('main-body').classList.remove('sidebar-active-left', 'sidebar-active-right');
 }
 
 // --- HARDENED AUDIO LOGIC ---
