@@ -5,22 +5,29 @@ import requests
 from datetime import datetime
 
 # --- TAXONOMY ---
+# SURGICAL PATCH: Added missing mappings for SYNTH_CITY and ORBIT_DECK
 CAT_CODES = {
     "D_INT_DARK": "DARK",
     "NEURAL_LINK": "H+++",
     "MEGA_CORP": "CORP",
     "DARK_NET": "SEC_",
+    "SYNTH_CITY": "URBN",
+    "ORBIT_DECK": "SATL",
     "ARXIV_AI": "DARK",
     "ANDURIL": "DARK",
     "SHIELD_AI": "DARK"
 }
 
+# SURGICAL PATCH: Populated FEEDS with relevant sources for previously empty categories
 FEEDS = {
     "D_INT_DARK": "https://www.darpa.mil/news/rss",
     "ARXIV_AI": "https://arxiv.org/rss/cs.AI",
     "ANDURIL": "https://www.anduril.com/news/feed/",
     "SHIELD_AI": "https://shield.ai/feed/",
     "NEURAL_LINK": "https://thedebrief.org/feed/",
+    "MEGA_CORP": "https://www.wired.com/feed/category/business/latest/rss",
+    "SYNTH_CITY": "https://www.wired.com/feed/category/security/latest/rss",
+    "ORBIT_DECK": "https://spacenews.com/feed/",
     "DARK_NET": "https://thehackernews.com/feeds/posts/default"
 }
 
@@ -62,7 +69,8 @@ def fetch_and_format():
                 "id": f"GS-{hash(entry.link) % 10000}",
                 "title": title,
                 "type": target_cat,
-                "cat_code": CAT_CODES.get(target_cat, "DARK"),
+                # CAT_CODES.get now uses "DECK" as a fallback to identify unmapped data
+                "cat_code": CAT_CODES.get(target_cat, "DECK"),
                 "source": feed.feed.get('title', 'INTEL_NODE').split(':')[0].strip(),
                 "description": summary[:400],
                 "source_url": entry.link,
