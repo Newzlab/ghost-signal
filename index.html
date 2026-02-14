@@ -7,13 +7,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="main-body">
 
     <header class="system-header">
+        <div class="mobile-nav-toggle" onclick="toggleNav('left')">
+            <span></span><span></span>
+        </div>
+
         <div class="site-title" onclick="openManifesto()" style="cursor: pointer;">
             GHOST_SIGNAL 
             <span style="font-weight:300; font-size: 0.7rem; letter-spacing: 2px; margin-left: 12px; opacity: 0.6; color: #fff;">// NEWZLAB_CONSTRUCT</span>
         </div>
+
+        <div class="mobile-nav-toggle" onclick="toggleNav('right')">
+            <span></span><span></span>
+        </div>
+
         <div class="connection-status">
             <span>TERMINAL_UPLINK_STABLE</span>
             <div class="pulse-dot"></div>
@@ -21,8 +30,8 @@
         </div>
     </header>
 
-    <div class="console-wrapper">
-        <aside class="hud-panel">
+    <div class="console-wrapper" id="console-node">
+        <aside class="hud-panel" id="left-sidebar">
             <div id="vault-title">SIGNAL_DIRECTORY</div>
             <div id="vault-content" class="vault-container"></div>
             
