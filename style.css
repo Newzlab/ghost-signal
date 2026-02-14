@@ -251,42 +251,48 @@ html, body {
     display: flex; flex-direction: column;
 }
 
-/* --- MOBILE SURGICAL PATCH (THE STACK) --- */
+/* --- MOBILE SURGICAL PATCH v2.0 (UNIFIED FLOW) --- */
 @media (max-width: 1024px) {
     .system-header { padding: 0 20px; height: 60px; min-height: 60px; }
     .connection-status { display: none; }
-    .mobile-nav-toggle { display: flex; }
+    .mobile-nav-toggle { display: flex; } /* Single hamburger on right */
 
     .console-wrapper {
-        display: block; /* Grid to Block for stacking */
+        display: block; 
         position: relative;
     }
 
-    /* Sidebars hidden by default on mobile */
+    /* UNIFIED OVERLAY: Both sidebars stack here on mobile */
     .hud-panel:first-child,
     .hud-panel:last-child {
         position: fixed;
         top: 60px;
-        left: -100%; /* Off-screen */
-        width: 85%;
+        right: -100%; /* Off-screen right */
+        width: 100%;
         height: calc(100vh - 60px);
         z-index: 2000;
-        transition: 0.4s ease-in-out;
+        transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         background: var(--panel-bg);
-        border-right: 1px solid var(--border);
-    }
-
-    /* Right Sidebar (Filters) positioning */
-    .hud-panel:last-child {
-        left: auto;
-        right: -100%;
-        border-right: none;
         border-left: 1px solid var(--border);
+        overflow-y: auto;
     }
 
-    /* Active states to slide them in */
-    .sidebar-active-left .hud-panel:first-child { left: 0; }
+    /* Slide-in behavior controlled by body classes */
     .sidebar-active-right .hud-panel:last-child { right: 0; }
+    
+    /* Directory (First Panel) logic: Hidden until category picked */
+    .sidebar-active-right .hud-panel:first-child { 
+        display: none;
+        right: 0;
+        height: auto;
+        min-height: 50%;
+        position: relative;
+        top: 0;
+        border-top: 1px solid var(--border);
+        border-left: none;
+    }
+
+    .directory-open .hud-panel:first-child { display: flex; }
 
     .main-stage {
         width: 100%;
