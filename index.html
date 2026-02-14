@@ -15,7 +15,7 @@
             <span style="font-weight:300; font-size: 0.7rem; letter-spacing: 2px; margin-left: 12px; opacity: 0.6; color: #fff;">// NEWZLAB_CONSTRUCT</span>
         </div>
 
-        <div class="mobile-nav-toggle" onclick="toggleNav('right')">
+        <div class="mobile-nav-toggle" onclick="toggleNav()">
             <span style="width: 30px;"></span>
             <span style="width: 20px;"></span>
         </div>
@@ -33,7 +33,7 @@
             <div id="vault-content" class="vault-container"></div>
             
             <div class="audio-module" style="margin-top: 20px; border-top: 1px solid var(--border); padding-top: 15px;">
-                <div id="vault-title" style="margin-bottom: 10px; font-size: 0.6rem;">ATMOSPHERIC_UPLINK</div>
+                <div style="margin-bottom: 10px; font-size: 0.6rem; font-family: 'Montserrat'; font-weight: 700; color: var(--orange); letter-spacing: 3px;">ATMOSPHERIC_UPLINK</div>
                 <audio id="bg-audio" loop>
                    <source src="https://somafm.com/groovesalad256.pls" type="audio/x-scpls">
                    <source src="https://ice6.somafm.com/groovesalad-256-mp3" type="audio/mpeg">
@@ -116,7 +116,9 @@
             </div>
         </aside>
 
-    </div> <script src="signals.js"></script>
+    </div> 
+
+    <script src="signals.js"></script>
     <script src="terminal.js"></script>
 
     <div id="manifesto-overlay" class="overlay" onclick="closeManifesto()">
