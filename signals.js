@@ -1,6 +1,6 @@
 const db = [
     {
-        "id": "GS-6424",
+        "id": "GS-876",
         "title": "SHIELD AI SELECTED AS MISSION AUTONOMY PROVIDER FOR THE U.S. AIR FORCE COLLABORATIVE COMBAT AIRCRAFT PROGRAM",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -10,7 +10,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-6846",
+        "id": "GS-4834",
         "title": "SHIELD AI SIGNS CONTRACT WITH TAIWAN\u2019S NATIONAL CHUNG-SHAN INSTITUTE OF SCIENCE AND TECHNOLOGY TO ACCELERATE AND INDIGENIZE TAIWAN-DEVELOPED AI PILOTS",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -20,7 +20,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-2543",
+        "id": "GS-3471",
         "title": "SHIELD AI, REPUBLIC OF SINGAPORE AIR FORCE, AND DEFENCE SCIENCE AND TECHNOLOGY AGENCY EXPAND PARTNERSHIP TO PROGRESSIVELY FIELD AUTONOMY CAPABILITIES",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -30,7 +30,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-3733",
+        "id": "GS-5027",
         "title": "SHIELD AI AND ST ENGINEERING SIGN MOU TO BOOST NEXT-GENERATION AUTONOMOUS DEFENSE CAPABILITIES",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -40,7 +40,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-9969",
+        "id": "GS-9444",
         "title": "SHIELD AI SELECTED TO PROVIDE V-BAT\u00a0UNMANNED AIRCRAFT SYSTEMS\u00a0AND HIVEMIND\u00a0AUTONOMY SOFTWARE\u00a0TO THE INDIAN ARMY",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -50,7 +50,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-5928",
+        "id": "GS-7040",
         "title": "LIG NEX1 AND SHIELD AI HOLD CONTRACT COMMEMORATION EVENT AT UMEX 2026",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -60,7 +60,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-671",
+        "id": "GS-3144",
         "title": "CONCRETE: THE NOT-SO-SILENT KILLER",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -70,7 +70,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-7074",
+        "id": "GS-492",
         "title": "2025: A NEW CHAPTER FOR SHIELD AI",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -80,27 +80,27 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-9377",
+        "id": "GS-4103",
         "title": "SHIELD AI TOOK ITS DRONES FROM THE \u2018BATCAVE\u2019 TO THE BATTLEFIELD. NOW THE $5.6 BILLION DEFENSE-TECH STARTUP\u2019S NEW CEO SAYS IT\u2019S AT AN INFLECTION POINT",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
         "source": "Shield AI",
-        "description": "",
+        "description": "NO_DESCRIPTION_AVAILABLE_DECRYPT_VIA_RAW_SOURCE",
         "source_url": "https://shield.ai/shield-ai-took-its-drones-from-the-batcave-to-the-battlefield-now-the-5-6-billion-defense-tech-startups-new-ceo-says-its-at-an-inflection-point/",
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-5979",
+        "id": "GS-4254",
         "title": "TOP AI DEFENSE CEO SEES CHINA PLANNING FOR A \u2018VERY PROTRACTED CONFLICT\u2019 AND THE U.S. RUNNING OUT OF WEAPONS IN 7 DAYS",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
         "source": "Shield AI",
-        "description": "",
+        "description": "NO_DESCRIPTION_AVAILABLE_DECRYPT_VIA_RAW_SOURCE",
         "source_url": "https://shield.ai/top-ai-defense-ceo-sees-china-planning-for-a-very-protracted-conflict-and-the-u-s-running-out-of-weapons-in-7-days/",
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-5126",
+        "id": "GS-2078",
         "title": "NASA CONTINUES SLS HYDROGEN LEAK TESTS",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -110,7 +110,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-4549",
+        "id": "GS-5474",
         "title": "A NEW BOOK CAPTURES THE FORCES SHAPING SPACE: CHINA, THE MOON AND INDUSTRY",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -120,7 +120,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-2453",
+        "id": "GS-9699",
         "title": "SENATE COMMITTEE ADVANCES FCC SATELLITE LICENSING BILL AFTER CHANGES",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -130,7 +130,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-259",
+        "id": "GS-8255",
         "title": "STARTUP BETS ON NEW APPROACH TO SPACE-BASED MISSILE DEFENSE",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -140,7 +140,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-1931",
+        "id": "GS-4794",
         "title": "CREW-12 LAUNCHES TO ISS",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -150,7 +150,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-3461",
+        "id": "GS-4055",
         "title": "VAST WINS ISS PRIVATE ASTRONAUT MISSION",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -160,7 +160,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-6826",
+        "id": "GS-9295",
         "title": "CHINA\u2019S ISPACE LAUNCH FIRM RAISES RECORD $729 MILLION FOR REUSABLE ROCKETS",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -170,7 +170,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-1431",
+        "id": "GS-4726",
         "title": "SPACE STARTUPS FIND MORE PATHS TO LIQUIDITY AS INVESTORS WARM TO MATURING SECTOR",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -180,7 +180,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-8255",
+        "id": "GS-6959",
         "title": "FIRST ARIANE 64 LAUNCHES AMAZON LEO SATELLITES",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -190,7 +190,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-4286",
+        "id": "GS-23",
         "title": "AXIOM SPACE RAISES ADDITIONAL $350 MILLION",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -200,7 +200,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-4773",
+        "id": "GS-2720",
         "title": "THINKOM GETS MILITARY CONTRACT TO SUPPLY PORTABLE GROUND STATIONS FOR SATELLITE COMMUNICATIONS",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -210,7 +210,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-627",
+        "id": "GS-1812",
         "title": "IT IS TIME TO TAKE ASTRONOMY OFF EARTH",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -220,7 +220,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-7841",
+        "id": "GS-4722",
         "title": "SOFTWARE STARTUP INTEGRATE MAKES PUSH INTO DEFENSE MARKET FOLLOWING SPACE FORCE AWARD",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -230,7 +230,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-3278",
+        "id": "GS-5336",
         "title": "LAUNCH COMPANIES DEBATE HOW TO COMPETE AGAINST SPACEX",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -240,7 +240,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-5348",
+        "id": "GS-4324",
         "title": "ULA\u2019S VULCAN LAUNCHES SPACE FORCE MISSION; SOLID BOOSTER ANOMALY UNDER INVESTIGATION",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -250,57 +250,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-2651",
-        "title": "FCC SPACE BUREAU CHIEF SHARES AGENDA FOR REGULATORY REFORM",
-        "type": "ORBIT_DECK",
-        "cat_code": "SATL",
-        "source": "SpaceNews",
-        "description": "\nMOUNTAIN VIEW, Calif. &#8212; The U.S. Federal Communications Commission\u2019s Space Bureau is pursuing an ambitious agenda for regulatory reform. The space plank of the FCC\u2019s Build America Agenda would allocate additional spectrum for space activities, streamline the satellite licensing process and give spacecraft operators more flexibility to modernize operations. \u201cWe&#8217;re seeking to extend the",
-        "source_url": "https://spacenews.com/fcc-space-bureau-chief-shares-agenda-for-regulatory-reform/",
-        "timestamp": "2026.02.15"
-    },
-    {
-        "id": "GS-6281",
-        "title": "SPACEX IPO MAY SUCK OXYGEN FROM MARKET BEFORE UNLEASHING BROAD CAPITAL SURGE",
-        "type": "ORBIT_DECK",
-        "cat_code": "SATL",
-        "source": "SpaceNews",
-        "description": "\nSpace investors and dealmakers anticipate SpaceX\u2019s planned IPO this year will trigger a surge of capital across the industry, but not without the risk of pulling investor attention away from other companies in the run-up.\nThe post SpaceX IPO may suck oxygen from market before unleashing broad capital surge appeared first on SpaceNews.",
-        "source_url": "https://spacenews.com/spacex-ipo-may-suck-oxygen-from-market-before-unleashing-broad-capital-surge/",
-        "timestamp": "2026.02.15"
-    },
-    {
-        "id": "GS-2720",
-        "title": "UK LAUNCHER ORBEX FILES FOR ADMINISTRATION AFTER FAILED FUNDING EFFORTS",
-        "type": "ORBIT_DECK",
-        "cat_code": "SATL",
-        "source": "SpaceNews",
-        "description": "\nMILAN \u2014 United Kingdom-based launch company Orbex announced that its business is folding after multiple attempts to stay solvent fell through.\u00a0 The company announced Feb. 11 that it has filed a notice of intention to appoint administrators \u2014 a process in the U.K. that\u2019s similar to declaring bankruptcy \u2014 after fundraising, merger and acquisition efforts [&#8230;]\nThe post UK launcher Orbex files f",
-        "source_url": "https://spacenews.com/uk-launcher-orbex-files-for-administration-after-failed-funding-efforts/",
-        "timestamp": "2026.02.15"
-    },
-    {
-        "id": "GS-9117",
-        "title": "SPACE COMPANIES BET ON GOLDEN DOME AS QUESTIONS PERSIST OVER SCOPE AND FUNDING",
-        "type": "ORBIT_DECK",
-        "cat_code": "SATL",
-        "source": "SpaceNews",
-        "description": "\nAt SmallSat Symposium, executives cite enduring missile threat as rationale for continued investment\nThe post Space companies bet on Golden Dome as questions persist over scope and funding appeared first on SpaceNews.",
-        "source_url": "https://spacenews.com/space-companies-bet-on-golden-dome-as-questions-persist-over-scope-and-funding/",
-        "timestamp": "2026.02.15"
-    },
-    {
-        "id": "GS-8058",
-        "title": "INTEGRATE RAISES $17M TO COMMERCIALIZE THE WORLD\u2019S FIRST ULTRA-SECURE PROJECT MANAGEMENT PLATFORM FOR CLASSIFIED PROGRAMS",
-        "type": "ORBIT_DECK",
-        "cat_code": "SATL",
-        "source": "SpaceNews",
-        "description": "\nSEATTLE,\u00a0Feb. 11, 2026\u00a0&#8212;\u00a0Integrate, the developer of the world&#8217;s first ultra-secure project management platform for dynamic multi-entity execution, today announced a $17 million Series A raise led by\u00a0FPV Ventures\u00a0with participation from\u00a0Fuse [&#8230;]\nThe post Integrate Raises $17M to Commercialize the World&#8217;s First Ultra-Secure Project Management Platform for Classified Program",
-        "source_url": "https://spacenews.com/integrate-raises-17m-to-commercialize-the-worlds-first-ultra-secure-project-management-platform-for-classified-programs/",
-        "timestamp": "2026.02.15"
-    },
-    {
-        "id": "GS-950",
+        "id": "GS-1473",
         "title": "CISA ADDS ONE KNOWN EXPLOITED VULNERABILITY TO CATALOG",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -310,7 +260,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-8159",
+        "id": "GS-3249",
         "title": "SIEMENS SINEC OS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -320,7 +270,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-8680",
+        "id": "GS-6858",
         "title": "SIEMENS SOLID EDGE",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -330,7 +280,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-680",
+        "id": "GS-6548",
         "title": "CISA ADDS FOUR KNOWN EXPLOITED VULNERABILITIES TO CATALOG",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -340,7 +290,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-8466",
+        "id": "GS-4502",
         "title": "SIEMENS SIVEILLANCE VIDEO MANAGEMENT SERVERS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -350,7 +300,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-4626",
+        "id": "GS-2248",
         "title": "SIEMENS POLARION",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -360,7 +310,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-1040",
+        "id": "GS-5436",
         "title": "AIRLEADER MASTER",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -370,7 +320,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-3327",
+        "id": "GS-5672",
         "title": "SIEMENS NX",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -380,7 +330,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-9762",
+        "id": "GS-1124",
         "title": "SIEMENS DESIGO CC PRODUCT FAMILY AND SENTRON POWERMANAGER",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -390,7 +340,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-8978",
+        "id": "GS-2655",
         "title": "SIEMENS COMOS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -400,7 +350,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-901",
+        "id": "GS-9786",
         "title": "HITACHI ENERGY SUPROS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -410,7 +360,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-3947",
+        "id": "GS-3753",
         "title": "SIEMENS SINEC NMS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -420,7 +370,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-6575",
+        "id": "GS-3201",
         "title": "ZOLL EPCR IOS MOBILE APPLICATION",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -430,7 +380,7 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-1806",
+        "id": "GS-8249",
         "title": "CISA ADDS SIX KNOWN EXPLOITED VULNERABILITIES TO CATALOG",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -440,63 +390,13 @@ const db = [
         "timestamp": "2026.02.15"
     },
     {
-        "id": "GS-5602",
+        "id": "GS-9302",
         "title": "ZLAN INFORMATION TECHNOLOGY CO. ZLAN5143D",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
         "source": "All CISA Advisories",
         "description": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in an attacker bypassing authentication, or resetting the device password.\nThe following versions of ZLAN Information Technology Co. ZLAN5143D are affected:\n\nZLAN5143D v1.600 (CVE-2026-25084, CVE-2026-24789)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nZLAN Information Technology Co.\nZLAN Information Technolog",
         "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-041-02",
-        "timestamp": "2026.02.15"
-    },
-    {
-        "id": "GS-1351",
-        "title": "AVEVA PI TO CONNECT AGENT",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in an unauthorized access to the proxy server.\nThe following versions of AVEVA PI to CONNECT Agent are affected:\n\nPI to CONNECT Agent &lt;=v2.4.2520 (CVE-2026-1495)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 6.5\nAVEVA\nAVEVA PI to CONNECT Agent\nInsertion of Sensitive Information into Log File\n\n\n\n\nBackground\n\nCritica",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-041-04",
-        "timestamp": "2026.02.15"
-    },
-    {
-        "id": "GS-6019",
-        "title": "\u200b\u200bBARRIERS TO SECURE OT COMMUNICATION: WHY JOHNNY CAN\u2019T AUTHENTICATE\u200b",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "CISA released the guidance, Barriers to Secure OT Communication: Why Johnny Can\u2019t Authenticate, which highlights the known issues with insecure-by-design legacy industrial protocols and seeks to understand why the technology to secure these protocols is not widely adopted. CISA developed this guidance in partnership with operational technology (OT) equipment manufacturers and standard development ",
-        "source_url": "https://www.cisa.gov/resources-tools/resources/barriers-secure-ot-communication-why-johnny-cant-authenticate",
-        "timestamp": "2026.02.15"
-    },
-    {
-        "id": "GS-8769",
-        "title": "AVEVA PI DATA ARCHIVE",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could result in a denial-of-service condition.\nThe following versions of AVEVA PI Data Archive are affected:\n\nPI Data Archive PI Server &lt;=2018_SP3_Patch_7 (CVE-2026-1507)\nPI Data Archive PI Server 2023 (CVE-2026-1507)\nPI Data Archive PI Server 2023_Patch_1 (CVE-2026-1507)\nPI Data Archive PI Server 2024 (CVE-2026-1507)\n\n\n\n\n\nCVSS\nVen",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-041-03",
-        "timestamp": "2026.02.15"
-    },
-    {
-        "id": "GS-3069",
-        "title": "YOKOGAWA FAST/TOOLS",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to redirected users to malicious sites, decrypt communications, perform a man-in-the-middle (MITM) attack, execute malicious scripts, steal files, and perform other various attacks.\nThe following versions of Yokogawa FAST/TOOLS are affected:\n\nFAST/TOOLS &gt;=R9.01|&lt;=R10.04 (CVE-2025-66594, CVE-2025-66595,",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-041-01",
-        "timestamp": "2026.02.15"
-    },
-    {
-        "id": "GS-1972",
-        "title": "POLAND ENERGY SECTOR CYBER INCIDENT HIGHLIGHTS OT AND ICS SECURITY GAPS",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "\nThe purpose of this Alert is to amplify Poland\u2019s Computer Emergency Response Team (CERT Polska\u2019s) Energy Sector Incident Report published on Jan. 30, 2026, and highlight key mitigations for Energy Sector stakeholders.&nbsp;\nIn December 2025, a malicious cyber actor(s) targeted and compromised operational technology (OT) and industrial control systems (ICS) in Poland\u2019s Energy Sector\u2014specifically r",
-        "source_url": "https://www.cisa.gov/news-events/alerts/2026/02/10/poland-energy-sector-cyber-incident-highlights-ot-and-ics-security-gaps",
         "timestamp": "2026.02.15"
     }
 ];
