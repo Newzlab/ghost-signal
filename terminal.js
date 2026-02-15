@@ -1,4 +1,4 @@
-/* --- GHOST SIGNAL | TERMINAL CORE v2.9 (MOBILE UI FINALIZATION) --- */
+/* --- GHOST SIGNAL | TERMINAL CORE v3.0 (MOBILE INTERACTION PATCH) --- */
 
 window.onload = () => { if (typeof db !== 'undefined') showAll(); };
 
@@ -12,7 +12,7 @@ function showAll() {
 function toggleNav() {
     const body = document.getElementById('main-body');
     body.classList.toggle('sidebar-active-right');
-    // Ensure the state is clean when explicitly toggling the menu
+    // If we are closing the menu, clean up the directory state
     if (!body.classList.contains('sidebar-active-right')) {
         body.classList.remove('directory-open');
     }
@@ -25,7 +25,7 @@ function filterSignals(category) {
     // Find the clicked module to apply the active highlight
     const modules = document.querySelectorAll('.intel-module');
     modules.forEach(m => {
-        if (m.getAttribute('onclick').includes(category)) {
+        if (m.getAttribute('onclick') && m.getAttribute('onclick').includes(category)) {
             m.classList.add('active-module');
         }
     });
@@ -38,15 +38,21 @@ function filterSignals(category) {
     
     renderDirectory(filtered, category);
 
-    // SURGICAL PATCH: Reveal directory and handle mobile transition
+    // SURGICAL PATCH: Fix for Problem #3 (Mobile Interaction)
     if (window.innerWidth <= 1024) {
-        document.getElementById('main-body').classList.add('directory-open');
+        const body = document.getElementById('main-body');
         
-        // Delay scroll and auto-close sidebar so the user sees the content populated
+        // 1. Close the filter sidebar so results are visible
+        body.classList.remove('sidebar-active-right');
+        
+        // 2. Ensure directory is flagged as open (for layout logic)
+        body.classList.add('directory-open');
+        
+        // 3. Scroll user to the directory list immediately
         setTimeout(() => {
-            const titleElement = document.getElementById('vault-title');
-            if (titleElement) titleElement.scrollIntoView({ behavior: 'smooth' });
-        }, 100);
+            const vault = document.getElementById('vault-title');
+            if (vault) vault.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 300);
     }
 }
 
@@ -58,7 +64,6 @@ function renderDirectory(data, label) {
     data.forEach(item => {
         const div = document.createElement('div');
         div.className = 'vault-item';
-        // Use the cat_code or default to DECK
         const code = item.cat_code || "DECK";
         div.innerHTML = `<span style="color: var(--orange); font-size: 0.7rem; font-weight:700;">[${code}]</span> ${item.title}`;
         div.onclick = () => decryptSignal(item);
@@ -87,7 +92,7 @@ function decryptSignal(item) {
     document.getElementById('active-description').innerHTML = meta + item.description + "...";
     document.getElementById('player-zone').innerHTML = `<button class="action-btn" onclick="window.open('${item.source_url}', '_blank')" style="padding: 18px 50px;">ACCESS RAW DATA SOURCE</button>`;
 
-    // SURGICAL PATCH: Close all mobile menus after selecting a signal to focus on content
+    // Close all mobile menus after selecting a signal to focus on content
     document.getElementById('main-body').classList.remove('sidebar-active-right', 'directory-open');
 }
 
