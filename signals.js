@@ -1,6 +1,6 @@
 const db = [
     {
-        "id": "GS-1012",
+        "id": "GS-6893",
         "title": "SHIELD AI SELECTED AS MISSION AUTONOMY PROVIDER FOR THE U.S. AIR FORCE COLLABORATIVE COMBAT AIRCRAFT PROGRAM",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -10,7 +10,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-9893",
+        "id": "GS-2886",
         "title": "SHIELD AI SIGNS CONTRACT WITH TAIWAN\u2019S NATIONAL CHUNG-SHAN INSTITUTE OF SCIENCE AND TECHNOLOGY TO ACCELERATE AND INDIGENIZE TAIWAN-DEVELOPED AI PILOTS",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -20,7 +20,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-9209",
+        "id": "GS-2397",
         "title": "SHIELD AI, REPUBLIC OF SINGAPORE AIR FORCE, AND DEFENCE SCIENCE AND TECHNOLOGY AGENCY EXPAND PARTNERSHIP TO PROGRESSIVELY FIELD AUTONOMY CAPABILITIES",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -30,7 +30,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-5866",
+        "id": "GS-7586",
         "title": "SHIELD AI AND ST ENGINEERING SIGN MOU TO BOOST NEXT-GENERATION AUTONOMOUS DEFENSE CAPABILITIES",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -40,7 +40,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-9654",
+        "id": "GS-8961",
         "title": "SHIELD AI SELECTED TO PROVIDE V-BAT\u00a0UNMANNED AIRCRAFT SYSTEMS\u00a0AND HIVEMIND\u00a0AUTONOMY SOFTWARE\u00a0TO THE INDIAN ARMY",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -50,7 +50,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-9960",
+        "id": "GS-1257",
         "title": "LIG NEX1 AND SHIELD AI HOLD CONTRACT COMMEMORATION EVENT AT UMEX 2026",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -60,7 +60,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-2611",
+        "id": "GS-3494",
         "title": "CONCRETE: THE NOT-SO-SILENT KILLER",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -70,7 +70,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-2984",
+        "id": "GS-4013",
         "title": "2025: A NEW CHAPTER FOR SHIELD AI",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -80,7 +80,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-7517",
+        "id": "GS-8705",
         "title": "SHIELD AI TOOK ITS DRONES FROM THE \u2018BATCAVE\u2019 TO THE BATTLEFIELD. NOW THE $5.6 BILLION DEFENSE-TECH STARTUP\u2019S NEW CEO SAYS IT\u2019S AT AN INFLECTION POINT",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -90,7 +90,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-5402",
+        "id": "GS-3198",
         "title": "TOP AI DEFENSE CEO SEES CHINA PLANNING FOR A \u2018VERY PROTRACTED CONFLICT\u2019 AND THE U.S. RUNNING OUT OF WEAPONS IN 7 DAYS",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -100,7 +100,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-8563",
+        "id": "GS-785",
         "title": "CHINA\u2019S SPACE EPOCH RAISES NEW FUNDING, TARGETS 2026 LAUNCH AND RECOVERY ATTEMPT",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -110,7 +110,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-6194",
+        "id": "GS-4182",
         "title": "SATVU TO EXPAND THERMAL IMAGING CONSTELLATION WITH NATO-BACKED FUNDS",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -120,7 +120,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-4720",
+        "id": "GS-2286",
         "title": "GLOBAL LEADERS MEET AT SPACE-COMM EXPO IN LONDON TO ACCELERATE FUTURE OF EUROPEAN SPACE INDUSTRY",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -130,7 +130,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-6978",
+        "id": "GS-9667",
         "title": "ARTEMIS HATERS, CAN WE HAVE A MOMENT, PLEASE?",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -140,7 +140,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-4470",
+        "id": "GS-9326",
         "title": "SATELIOT TO LAUNCH SATELLITES WITH PLD SPACE",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -150,7 +150,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-3564",
+        "id": "GS-3931",
         "title": "LEONARDO FUNDING DEVELOPMENT OF EARTH OBSERVATION CONSTELLATION",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -160,7 +160,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-281",
+        "id": "GS-8212",
         "title": "NASA WORK ON SEVERAL PROGRAMS PENDING RESPONSES TO WHITE HOUSE EXECUTIVE ORDER",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -170,7 +170,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-2641",
+        "id": "GS-941",
         "title": "THE SPACE NUCLEAR POWER BOTTLENECK \u2014 AND HOW TO FIX IT",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -180,7 +180,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-597",
+        "id": "GS-7523",
         "title": "LOW-PROFILE CHINESE LAUNCH FIRM CONDUCTS FIRST STAGE STATIC FIRE",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -190,7 +190,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-9382",
+        "id": "GS-981",
         "title": "PORTIONS OF THE PENTAGON\u2019S LEO CONSTELLATION ON HOLD AS ACQUISITION REVIEWS PROCEED",
         "type": "MEGA_CORP",
         "cat_code": "CORP",
@@ -200,7 +200,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-3237",
+        "id": "GS-3058",
         "title": "ISAACMAN PLANNING TO MEET WITH HEAD OF ROSCOSMOS",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -210,7 +210,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-886",
+        "id": "GS-317",
         "title": "NASA CONTINUES SLS HYDROGEN LEAK TESTS",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -220,7 +220,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-5987",
+        "id": "GS-5463",
         "title": "A NEW BOOK CAPTURES THE FORCES SHAPING SPACE: CHINA, THE MOON AND INDUSTRY",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -230,7 +230,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-3587",
+        "id": "GS-3827",
         "title": "SENATE COMMITTEE ADVANCES FCC SATELLITE LICENSING BILL AFTER CHANGES",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -240,7 +240,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-8739",
+        "id": "GS-1453",
         "title": "STARTUP BETS ON NEW APPROACH TO SPACE-BASED MISSILE DEFENSE",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -250,27 +250,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-3131",
-        "title": "SIEMENS SIMCENTER FEMAP AND NASTRAN",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nSiemens Simcenter Femap and Nastran is affected by multiple file parsing vulnerabilities that could be triggered when the application reads files in NDB and XDB formats. If a user is tricked to open a malicious file with any of the affected products, this could lead the application to crash or potentially lead to arbitrary code execution. Siemens has released new versions for the",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-01",
-        "timestamp": "2026.02.17"
-    },
-    {
-        "id": "GS-6307",
-        "title": "GE VERNOVA ENERVISTA UR SETUP",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities may allow code execution with elevated privileges.\nThe following versions of GE Vernova Enervista UR Setup are affected:\n\nEnervista UR Setup &lt;8.70 (CVE-2026-1762, CVE-2026-1763)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.8\nGE Vernova\nGE Vernova Enervista UR Setup\nUncontrolled Search Path Element, Path Traversal: '.../..",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-03",
-        "timestamp": "2026.02.17"
-    },
-    {
-        "id": "GS-9",
+        "id": "GS-9638",
         "title": "HONEYWELL CCTV PRODUCTS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -280,7 +260,17 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-2285",
+        "id": "GS-9655",
+        "title": "CISA ADDS FOUR KNOWN EXPLOITED VULNERABILITIES TO CATALOG",
+        "type": "CYBER_SEC",
+        "cat_code": "SEC_",
+        "source": "All CISA Advisories",
+        "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2008-0015 Microsoft Windows Video ActiveX Control Remote Code Execution Vulnerability\nCVE-2020-7796 Synacor Zimbra Collaboration Suite (ZCS) Server-Side Request Forgery Vulnerability\nCVE-2024-7694 TeamT5 ThreatSonar Anti-Ransomware Unrestricted Upload of File",
+        "source_url": "https://www.cisa.gov/news-events/alerts/2026/02/17/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+        "timestamp": "2026.02.17"
+    },
+    {
+        "id": "GS-4521",
         "title": "DELTA ELECTRONICS ASDA-SOFT",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -290,7 +280,27 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-2328",
+        "id": "GS-6121",
+        "title": "GE VERNOVA ENERVISTA UR SETUP",
+        "type": "CYBER_SEC",
+        "cat_code": "SEC_",
+        "source": "All CISA Advisories",
+        "description": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities may allow code execution with elevated privileges.\nThe following versions of GE Vernova Enervista UR Setup are affected:\n\nEnervista UR Setup &lt;8.70 (CVE-2026-1762, CVE-2026-1763)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.8\nGE Vernova\nGE Vernova Enervista UR Setup\nUncontrolled Search Path Element, Path Traversal: '.../..",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-03",
+        "timestamp": "2026.02.17"
+    },
+    {
+        "id": "GS-697",
+        "title": "SIEMENS SIMCENTER FEMAP AND NASTRAN",
+        "type": "CYBER_SEC",
+        "cat_code": "SEC_",
+        "source": "All CISA Advisories",
+        "description": "View CSAF\nSummary\nSiemens Simcenter Femap and Nastran is affected by multiple file parsing vulnerabilities that could be triggered when the application reads files in NDB and XDB formats. If a user is tricked to open a malicious file with any of the affected products, this could lead the application to crash or potentially lead to arbitrary code execution. Siemens has released new versions for the",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-01",
+        "timestamp": "2026.02.17"
+    },
+    {
+        "id": "GS-3062",
         "title": "CISA ADDS ONE KNOWN EXPLOITED VULNERABILITY TO CATALOG",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -300,27 +310,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-3394",
-        "title": "SIEMENS SINEC NMS",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nMultiple Siemens products are affected by two local privilege escalation vulnerabilities which could allow an low privileged attacker to load malicious DLLs, potentially leading to arbitrary code execution with elevated privileges. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens SINEC N",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-01",
-        "timestamp": "2026.02.17"
-    },
-    {
-        "id": "GS-4744",
-        "title": "AIRLEADER MASTER",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to obtain remote code execution.\nThe following versions of Airleader Master are affected:\n\nAirleader Master &lt;=6.381 (CVE-2026-1358)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nAirleader GmbH\nAirleader Master\nUnrestricted Upload of File with Dangerous Type\n\n\n\n\nBackground\n\nCritical Infrastructure Sec",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-10",
-        "timestamp": "2026.02.17"
-    },
-    {
-        "id": "GS-9548",
+        "id": "GS-5011",
         "title": "SIEMENS POLARION",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -330,7 +320,17 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-4177",
+        "id": "GS-7118",
+        "title": "AIRLEADER MASTER",
+        "type": "CYBER_SEC",
+        "cat_code": "SEC_",
+        "source": "All CISA Advisories",
+        "description": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to obtain remote code execution.\nThe following versions of Airleader Master are affected:\n\nAirleader Master &lt;=6.381 (CVE-2026-1358)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nAirleader GmbH\nAirleader Master\nUnrestricted Upload of File with Dangerous Type\n\n\n\n\nBackground\n\nCritical Infrastructure Sec",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-10",
+        "timestamp": "2026.02.17"
+    },
+    {
+        "id": "GS-8558",
         "title": "SIEMENS DESIGO CC PRODUCT FAMILY AND SENTRON POWERMANAGER",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -340,7 +340,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-8654",
+        "id": "GS-875",
         "title": "SIEMENS SINEC OS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -350,7 +350,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-9307",
+        "id": "GS-2249",
         "title": "SIEMENS COMOS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -360,7 +360,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-3274",
+        "id": "GS-841",
         "title": "HITACHI ENERGY SUPROS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -370,7 +370,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-7814",
+        "id": "GS-7033",
         "title": "SIEMENS SIVEILLANCE VIDEO MANAGEMENT SERVERS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -380,7 +380,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-7581",
+        "id": "GS-6990",
         "title": "CISA ADDS FOUR KNOWN EXPLOITED VULNERABILITIES TO CATALOG",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -390,7 +390,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-6431",
+        "id": "GS-3393",
         "title": "SIEMENS SOLID EDGE",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
