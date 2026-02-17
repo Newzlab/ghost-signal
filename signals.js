@@ -1,6 +1,6 @@
 const db = [
     {
-        "id": "GS-2927",
+        "id": "GS-1012",
         "title": "SHIELD AI SELECTED AS MISSION AUTONOMY PROVIDER FOR THE U.S. AIR FORCE COLLABORATIVE COMBAT AIRCRAFT PROGRAM",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -10,7 +10,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-9931",
+        "id": "GS-9893",
         "title": "SHIELD AI SIGNS CONTRACT WITH TAIWAN\u2019S NATIONAL CHUNG-SHAN INSTITUTE OF SCIENCE AND TECHNOLOGY TO ACCELERATE AND INDIGENIZE TAIWAN-DEVELOPED AI PILOTS",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -20,7 +20,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-8287",
+        "id": "GS-9209",
         "title": "SHIELD AI, REPUBLIC OF SINGAPORE AIR FORCE, AND DEFENCE SCIENCE AND TECHNOLOGY AGENCY EXPAND PARTNERSHIP TO PROGRESSIVELY FIELD AUTONOMY CAPABILITIES",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -30,7 +30,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-7269",
+        "id": "GS-5866",
         "title": "SHIELD AI AND ST ENGINEERING SIGN MOU TO BOOST NEXT-GENERATION AUTONOMOUS DEFENSE CAPABILITIES",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -40,7 +40,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-491",
+        "id": "GS-9654",
         "title": "SHIELD AI SELECTED TO PROVIDE V-BAT\u00a0UNMANNED AIRCRAFT SYSTEMS\u00a0AND HIVEMIND\u00a0AUTONOMY SOFTWARE\u00a0TO THE INDIAN ARMY",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -50,7 +50,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-8114",
+        "id": "GS-9960",
         "title": "LIG NEX1 AND SHIELD AI HOLD CONTRACT COMMEMORATION EVENT AT UMEX 2026",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -60,7 +60,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-6499",
+        "id": "GS-2611",
         "title": "CONCRETE: THE NOT-SO-SILENT KILLER",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -70,7 +70,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-569",
+        "id": "GS-2984",
         "title": "2025: A NEW CHAPTER FOR SHIELD AI",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -80,7 +80,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-3826",
+        "id": "GS-7517",
         "title": "SHIELD AI TOOK ITS DRONES FROM THE \u2018BATCAVE\u2019 TO THE BATTLEFIELD. NOW THE $5.6 BILLION DEFENSE-TECH STARTUP\u2019S NEW CEO SAYS IT\u2019S AT AN INFLECTION POINT",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -90,7 +90,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-6287",
+        "id": "GS-5402",
         "title": "TOP AI DEFENSE CEO SEES CHINA PLANNING FOR A \u2018VERY PROTRACTED CONFLICT\u2019 AND THE U.S. RUNNING OUT OF WEAPONS IN 7 DAYS",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -100,7 +100,37 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-7448",
+        "id": "GS-8563",
+        "title": "CHINA\u2019S SPACE EPOCH RAISES NEW FUNDING, TARGETS 2026 LAUNCH AND RECOVERY ATTEMPT",
+        "type": "ORBIT_DECK",
+        "cat_code": "SATL",
+        "source": "SpaceNews",
+        "description": "\nChinese launch startup Space Epoch has secured B-round funding as the company moves towards a first orbital launch and recovery attempt late this year.\nThe post China\u2019s Space Epoch raises new funding, targets 2026 launch and recovery attempt appeared first on SpaceNews.",
+        "source_url": "https://spacenews.com/chinas-space-epoch-raises-new-funding-targets-2026-launch-and-recovery-attempt/",
+        "timestamp": "2026.02.17"
+    },
+    {
+        "id": "GS-6194",
+        "title": "SATVU TO EXPAND THERMAL IMAGING CONSTELLATION WITH NATO-BACKED FUNDS",
+        "type": "ORBIT_DECK",
+        "cat_code": "SATL",
+        "source": "SpaceNews",
+        "description": "\nEarth observation startup SatVu said Feb. 17 it has raised $41 million in a funding round that included the NATO Innovation Fund, as commercial space-based thermal imagery gains traction with defense and intelligence agencies.\nThe post SatVu to expand thermal imaging constellation with NATO-backed funds appeared first on SpaceNews.",
+        "source_url": "https://spacenews.com/satvu-to-expand-thermal-imaging-constellation-with-nato-backed-funds/",
+        "timestamp": "2026.02.17"
+    },
+    {
+        "id": "GS-4720",
+        "title": "GLOBAL LEADERS MEET AT SPACE-COMM EXPO IN LONDON TO ACCELERATE FUTURE OF EUROPEAN SPACE INDUSTRY",
+        "type": "ORBIT_DECK",
+        "cat_code": "SATL",
+        "source": "SpaceNews",
+        "description": "\nSpace-Comm Expo is one of Europe\u2019s premier space industry events and the largest event in the UK, taking place in just 2 weeks\u2019 time 4-5 March, ExCeL London. Over 5,400 [&#8230;]\nThe post Global leaders meet at Space-Comm Expo in London to accelerate future of European space industry appeared first on SpaceNews.",
+        "source_url": "https://spacenews.com/global-leaders-meet-at-space-comm-expo-in-london-to-accelerate-future-of-european-space-industry/",
+        "timestamp": "2026.02.17"
+    },
+    {
+        "id": "GS-6978",
         "title": "ARTEMIS HATERS, CAN WE HAVE A MOMENT, PLEASE?",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -110,7 +140,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-665",
+        "id": "GS-4470",
         "title": "SATELIOT TO LAUNCH SATELLITES WITH PLD SPACE",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -120,7 +150,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-4619",
+        "id": "GS-3564",
         "title": "LEONARDO FUNDING DEVELOPMENT OF EARTH OBSERVATION CONSTELLATION",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -130,7 +160,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-2104",
+        "id": "GS-281",
         "title": "NASA WORK ON SEVERAL PROGRAMS PENDING RESPONSES TO WHITE HOUSE EXECUTIVE ORDER",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -140,7 +170,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-3675",
+        "id": "GS-2641",
         "title": "THE SPACE NUCLEAR POWER BOTTLENECK \u2014 AND HOW TO FIX IT",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -150,7 +180,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-3005",
+        "id": "GS-597",
         "title": "LOW-PROFILE CHINESE LAUNCH FIRM CONDUCTS FIRST STAGE STATIC FIRE",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -160,7 +190,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-8052",
+        "id": "GS-9382",
         "title": "PORTIONS OF THE PENTAGON\u2019S LEO CONSTELLATION ON HOLD AS ACQUISITION REVIEWS PROCEED",
         "type": "MEGA_CORP",
         "cat_code": "CORP",
@@ -170,7 +200,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-5347",
+        "id": "GS-3237",
         "title": "ISAACMAN PLANNING TO MEET WITH HEAD OF ROSCOSMOS",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -180,7 +210,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-6530",
+        "id": "GS-886",
         "title": "NASA CONTINUES SLS HYDROGEN LEAK TESTS",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -190,7 +220,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-7515",
+        "id": "GS-5987",
         "title": "A NEW BOOK CAPTURES THE FORCES SHAPING SPACE: CHINA, THE MOON AND INDUSTRY",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -200,7 +230,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-1280",
+        "id": "GS-3587",
         "title": "SENATE COMMITTEE ADVANCES FCC SATELLITE LICENSING BILL AFTER CHANGES",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -210,7 +240,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-8071",
+        "id": "GS-8739",
         "title": "STARTUP BETS ON NEW APPROACH TO SPACE-BASED MISSILE DEFENSE",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -220,37 +250,47 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-8580",
-        "title": "CREW-12 LAUNCHES TO ISS",
-        "type": "ORBIT_DECK",
-        "cat_code": "SATL",
-        "source": "SpaceNews",
-        "description": "\nA Falcon 9 launched a new crew to the International Space Station Feb. 13 to start a busy schedule of arriving and departing vehicles at the station.\nThe post Crew-12 launches to ISS appeared first on SpaceNews.",
-        "source_url": "https://spacenews.com/crew-12-launches-to-iss/",
+        "id": "GS-3131",
+        "title": "SIEMENS SIMCENTER FEMAP AND NASTRAN",
+        "type": "CYBER_SEC",
+        "cat_code": "SEC_",
+        "source": "All CISA Advisories",
+        "description": "View CSAF\nSummary\nSiemens Simcenter Femap and Nastran is affected by multiple file parsing vulnerabilities that could be triggered when the application reads files in NDB and XDB formats. If a user is tricked to open a malicious file with any of the affected products, this could lead the application to crash or potentially lead to arbitrary code execution. Siemens has released new versions for the",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-01",
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-59",
-        "title": "VAST WINS ISS PRIVATE ASTRONAUT MISSION",
-        "type": "ORBIT_DECK",
-        "cat_code": "SATL",
-        "source": "SpaceNews",
-        "description": "\nNASA has selected commercial space station company Vast to fly a private astronaut mission to the International Space Station in 2027.\nThe post Vast wins ISS private astronaut mission appeared first on SpaceNews.",
-        "source_url": "https://spacenews.com/vast-wins-iss-private-astronaut-mission/",
+        "id": "GS-6307",
+        "title": "GE VERNOVA ENERVISTA UR SETUP",
+        "type": "CYBER_SEC",
+        "cat_code": "SEC_",
+        "source": "All CISA Advisories",
+        "description": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities may allow code execution with elevated privileges.\nThe following versions of GE Vernova Enervista UR Setup are affected:\n\nEnervista UR Setup &lt;8.70 (CVE-2026-1762, CVE-2026-1763)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.8\nGE Vernova\nGE Vernova Enervista UR Setup\nUncontrolled Search Path Element, Path Traversal: '.../..",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-03",
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-1116",
-        "title": "CHINA\u2019S ISPACE LAUNCH FIRM RAISES RECORD $729 MILLION FOR REUSABLE ROCKETS",
-        "type": "ORBIT_DECK",
-        "cat_code": "SATL",
-        "source": "SpaceNews",
-        "description": "\nChinese launch firm iSpace has secured a record D++ funding round to accelerate its reusable rocket development efforts and expand its industrial footprint.\nThe post China\u2019s iSpace launch firm raises record $729 million for reusable rockets appeared first on SpaceNews.",
-        "source_url": "https://spacenews.com/chinas-ispace-launch-firm-raises-record-729-million-for-reusable-rockets/",
+        "id": "GS-9",
+        "title": "HONEYWELL CCTV PRODUCTS",
+        "type": "CYBER_SEC",
+        "cat_code": "SEC_",
+        "source": "All CISA Advisories",
+        "description": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could lead to account takeovers and unauthorized access to camera feeds; an unauthenticated attacker may change the recovery email address, potentially leading to further network compromise.\nThe following versions of Honeywell CCTV Products are affected:\n\nI-HIB2PI-UL 2MP IP 6.1.22.1216 (CVE-2026-1670)\nSMB NDAA MVO-3 WDR_2MP_32M_PTZ_v2",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-04",
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-6862",
+        "id": "GS-2285",
+        "title": "DELTA ELECTRONICS ASDA-SOFT",
+        "type": "CYBER_SEC",
+        "cat_code": "SEC_",
+        "source": "All CISA Advisories",
+        "description": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability may allow an attacker to write arbitrary data beyond the bounds of a stack-allocated buffer, leading to the corruption of a structured exception handler (SEH).\nThe following versions of Delta Electronics ASDA-Soft are affected:\n\nASDA-Soft &lt;=7.2.0.0 (CVE-2026-1361)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 7.8\nDelta Electron",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-048-02",
+        "timestamp": "2026.02.17"
+    },
+    {
+        "id": "GS-2328",
         "title": "CISA ADDS ONE KNOWN EXPLOITED VULNERABILITY TO CATALOG",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -260,107 +300,7 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-4295",
-        "title": "SIEMENS SINEC OS",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nSINEC OS before V3.3 contains third-party components with multiple vulnerabilities. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens SINEC OS are affected:\n\nRUGGEDCOM RST2428P (6GK6242-6PA00) vers:intdot/&lt;3.3 (CVE-2022-48174, CVE-2023-7256, CVE-2023-39810, CVE-2023-42363, CVE-2023-423",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-06",
-        "timestamp": "2026.02.17"
-    },
-    {
-        "id": "GS-2696",
-        "title": "SIEMENS SOLID EDGE",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nSolid Edge uses PS/IGES Parasolid Translator Component that contains an out of bounds read that could be triggered when the application reads files in IGS file formats. If a user is tricked to open a malicious file with any of the affected products, this could lead the application to crash or potentially lead to arbitrary code execution. Siemens has released a new version for Sol",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-05",
-        "timestamp": "2026.02.17"
-    },
-    {
-        "id": "GS-4588",
-        "title": "CISA ADDS FOUR KNOWN EXPLOITED VULNERABILITIES TO CATALOG",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2024-43468 Microsoft Configuration Manager SQL Injection Vulnerability\nCVE-2025-15556 Notepad++ Download of Code Without Integrity Check Vulnerability\nCVE-2025-40536 SolarWinds Web Help Desk Security Control Bypass Vulnerability\nCVE-2026-20700 Apple Multiple ",
-        "source_url": "https://www.cisa.gov/news-events/alerts/2026/02/12/cisa-adds-four-known-exploited-vulnerabilities-catalog",
-        "timestamp": "2026.02.17"
-    },
-    {
-        "id": "GS-2426",
-        "title": "SIEMENS SIVEILLANCE VIDEO MANAGEMENT SERVERS",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nThe Webhooks implementation of Siveillance Video Management Servers contains a vulnerability that could allow an authenticated remote attacker with read-only privileges to achieve full access to Webhooks API. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens Siveillance Video Management S",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-07",
-        "timestamp": "2026.02.17"
-    },
-    {
-        "id": "GS-1648",
-        "title": "SIEMENS POLARION",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nPolarion before V2506 contains a vulnerability that could allow authenticated remote attackers to conduct cross-site scripting attacks. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens Polarion are affected:\n\nPolarion V2404 vers:intdot/&lt;2404.5 (CVE-2025-40587)\nPolarion V2410 vers:intd",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-02",
-        "timestamp": "2026.02.17"
-    },
-    {
-        "id": "GS-3287",
-        "title": "AIRLEADER MASTER",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to obtain remote code execution.\nThe following versions of Airleader Master are affected:\n\nAirleader Master &lt;=6.381 (CVE-2026-1358)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nAirleader GmbH\nAirleader Master\nUnrestricted Upload of File with Dangerous Type\n\n\n\n\nBackground\n\nCritical Infrastructure Sec",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-10",
-        "timestamp": "2026.02.17"
-    },
-    {
-        "id": "GS-8053",
-        "title": "SIEMENS NX",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nSiemens NX is affected by multiple file parsing vulnerabilities that could be triggered when the application reads files in CGM format. If a user is tricked to open a malicious file with any of the affected products, this could lead the application to crash or potentially lead to arbitrary code execution. Siemens has released a new version for NX and recommends to update to the l",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-08",
-        "timestamp": "2026.02.17"
-    },
-    {
-        "id": "GS-8441",
-        "title": "SIEMENS DESIGO CC PRODUCT FAMILY AND SENTRON POWERMANAGER",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nVersions V6.0 through V8 QU1 of the Desigo CC product family (Desigo CC, Desigo CC Compact, Desigo CC Connect, Cerberus DMS), as well as the Desigo CC-based SENTRON Powermanager, are affected by a vulnerability in the underlying third-party component WIBU Systems CodeMeter Runtime. Successful exploitation of this vulnerability could lead to code execution in the context of the cu",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-04",
-        "timestamp": "2026.02.17"
-    },
-    {
-        "id": "GS-6330",
-        "title": "SIEMENS COMOS",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nCOMOS is affected by multiple vulnerabilities that could allow an attacker to execute arbitrary code or cause denial of service condition, data infiltration or perform access control violations. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends countermeasures f",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-03",
-        "timestamp": "2026.02.17"
-    },
-    {
-        "id": "GS-4122",
-        "title": "HITACHI ENERGY SUPROS",
-        "type": "CYBER_SEC",
-        "cat_code": "SEC_",
-        "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nHitachi Energy is aware of a vulnerability that affects the SuprOS product versions listed in this document. An attacker successfully exploiting this vulnerability can cause confidentiality, integrity and availability impacts. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation.\nThe following versions of Hitachi Energy SuprOS are aff",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-09",
-        "timestamp": "2026.02.17"
-    },
-    {
-        "id": "GS-5022",
+        "id": "GS-3394",
         "title": "SIEMENS SINEC NMS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -370,33 +310,93 @@ const db = [
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-8416",
-        "title": "ZOLL EPCR IOS MOBILE APPLICATION",
+        "id": "GS-4744",
+        "title": "AIRLEADER MASTER",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
         "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to gain unauthorized access to protected health information (PHI) or device telemetry.\nThe following versions of ZOLL ePCR IOS Mobile Application are affected:\n\nePCR IOS Mobile Application 2.6.7 (CVE-2025-12699)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 5.5\nZOLL\nZOLL ePCR IOS Mobile Application\nInsertio",
-        "source_url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-041-01",
+        "description": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to obtain remote code execution.\nThe following versions of Airleader Master are affected:\n\nAirleader Master &lt;=6.381 (CVE-2026-1358)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nAirleader GmbH\nAirleader Master\nUnrestricted Upload of File with Dangerous Type\n\n\n\n\nBackground\n\nCritical Infrastructure Sec",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-10",
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-5713",
-        "title": "CISA ADDS SIX KNOWN EXPLOITED VULNERABILITIES TO CATALOG",
+        "id": "GS-9548",
+        "title": "SIEMENS POLARION",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
         "source": "All CISA Advisories",
-        "description": "\nCISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.&nbsp;\n\nCVE-2026-21510 Microsoft Windows Shell Protection Mechanism Failure Vulnerability\nCVE-2026-21513 Microsoft MSHTML Framework Security Feature Bypass Vulnerability\nCVE-2026-21514 Microsoft Office Word Reliance on Untrusted Inputs in a Security Decision Vulner",
-        "source_url": "https://www.cisa.gov/news-events/alerts/2026/02/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+        "description": "View CSAF\nSummary\nPolarion before V2506 contains a vulnerability that could allow authenticated remote attackers to conduct cross-site scripting attacks. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens Polarion are affected:\n\nPolarion V2404 vers:intdot/&lt;2404.5 (CVE-2025-40587)\nPolarion V2410 vers:intd",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-02",
         "timestamp": "2026.02.17"
     },
     {
-        "id": "GS-5095",
-        "title": "ZLAN INFORMATION TECHNOLOGY CO. ZLAN5143D",
+        "id": "GS-4177",
+        "title": "SIEMENS DESIGO CC PRODUCT FAMILY AND SENTRON POWERMANAGER",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
         "source": "All CISA Advisories",
-        "description": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could result in an attacker bypassing authentication, or resetting the device password.\nThe following versions of ZLAN Information Technology Co. ZLAN5143D are affected:\n\nZLAN5143D v1.600 (CVE-2026-25084, CVE-2026-24789)\n\n\n\n\n\nCVSS\nVendor\nEquipment\nVulnerabilities\n\n\n\n\nv3 9.8\nZLAN Information Technology Co.\nZLAN Information Technolog",
-        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-041-02",
+        "description": "View CSAF\nSummary\nVersions V6.0 through V8 QU1 of the Desigo CC product family (Desigo CC, Desigo CC Compact, Desigo CC Connect, Cerberus DMS), as well as the Desigo CC-based SENTRON Powermanager, are affected by a vulnerability in the underlying third-party component WIBU Systems CodeMeter Runtime. Successful exploitation of this vulnerability could lead to code execution in the context of the cu",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-04",
+        "timestamp": "2026.02.17"
+    },
+    {
+        "id": "GS-8654",
+        "title": "SIEMENS SINEC OS",
+        "type": "CYBER_SEC",
+        "cat_code": "SEC_",
+        "source": "All CISA Advisories",
+        "description": "View CSAF\nSummary\nSINEC OS before V3.3 contains third-party components with multiple vulnerabilities. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens SINEC OS are affected:\n\nRUGGEDCOM RST2428P (6GK6242-6PA00) vers:intdot/&lt;3.3 (CVE-2022-48174, CVE-2023-7256, CVE-2023-39810, CVE-2023-42363, CVE-2023-423",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-06",
+        "timestamp": "2026.02.17"
+    },
+    {
+        "id": "GS-9307",
+        "title": "SIEMENS COMOS",
+        "type": "CYBER_SEC",
+        "cat_code": "SEC_",
+        "source": "All CISA Advisories",
+        "description": "View CSAF\nSummary\nCOMOS is affected by multiple vulnerabilities that could allow an attacker to execute arbitrary code or cause denial of service condition, data infiltration or perform access control violations. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends countermeasures f",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-03",
+        "timestamp": "2026.02.17"
+    },
+    {
+        "id": "GS-3274",
+        "title": "HITACHI ENERGY SUPROS",
+        "type": "CYBER_SEC",
+        "cat_code": "SEC_",
+        "source": "All CISA Advisories",
+        "description": "View CSAF\nSummary\nHitachi Energy is aware of a vulnerability that affects the SuprOS product versions listed in this document. An attacker successfully exploiting this vulnerability can cause confidentiality, integrity and availability impacts. Please refer to the Recommended Immediate Actions for information about the mitigation/remediation.\nThe following versions of Hitachi Energy SuprOS are aff",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-09",
+        "timestamp": "2026.02.17"
+    },
+    {
+        "id": "GS-7814",
+        "title": "SIEMENS SIVEILLANCE VIDEO MANAGEMENT SERVERS",
+        "type": "CYBER_SEC",
+        "cat_code": "SEC_",
+        "source": "All CISA Advisories",
+        "description": "View CSAF\nSummary\nThe Webhooks implementation of Siveillance Video Management Servers contains a vulnerability that could allow an authenticated remote attacker with read-only privileges to achieve full access to Webhooks API. Siemens has released new versions for the affected products and recommends to update to the latest versions.\nThe following versions of Siemens Siveillance Video Management S",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-07",
+        "timestamp": "2026.02.17"
+    },
+    {
+        "id": "GS-7581",
+        "title": "CISA ADDS FOUR KNOWN EXPLOITED VULNERABILITIES TO CATALOG",
+        "type": "CYBER_SEC",
+        "cat_code": "SEC_",
+        "source": "All CISA Advisories",
+        "description": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n\nCVE-2024-43468 Microsoft Configuration Manager SQL Injection Vulnerability\nCVE-2025-15556 Notepad++ Download of Code Without Integrity Check Vulnerability\nCVE-2025-40536 SolarWinds Web Help Desk Security Control Bypass Vulnerability\nCVE-2026-20700 Apple Multiple ",
+        "source_url": "https://www.cisa.gov/news-events/alerts/2026/02/12/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+        "timestamp": "2026.02.17"
+    },
+    {
+        "id": "GS-6431",
+        "title": "SIEMENS SOLID EDGE",
+        "type": "CYBER_SEC",
+        "cat_code": "SEC_",
+        "source": "All CISA Advisories",
+        "description": "View CSAF\nSummary\nSolid Edge uses PS/IGES Parasolid Translator Component that contains an out of bounds read that could be triggered when the application reads files in IGS file formats. If a user is tricked to open a malicious file with any of the affected products, this could lead the application to crash or potentially lead to arbitrary code execution. Siemens has released a new version for Sol",
+        "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-043-05",
         "timestamp": "2026.02.17"
     }
 ];
