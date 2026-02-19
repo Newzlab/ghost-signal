@@ -1,6 +1,16 @@
 const db = [
     {
-        "id": "GS-6300",
+        "id": "GS-5261",
+        "title": "SHIELD AI DEMONSTRATES AI-ENABLED AUTONOMY FOR FUTURE COLLABORATIVE COMBAT AIRCRAFT",
+        "type": "PRIME_FORGE",
+        "cat_code": "FORGE",
+        "source": "Shield AI",
+        "description": "WASHINGTON (February 19, 2026) \u2013 Shield AI, in partnership with the Navy\u2019s Strike Planning and Execution (PMA-281) and Aerial Targets (PMA-208) programs, successfully demonstrated Hivemind, its AI-enabled mission autonomy software, autonomously flying two Navy BQM-177A aircraft during a December flight test at Point Mugu Sea Range in California. The flight served as the capstone event [&#8230;]",
+        "source_url": "https://shield.ai/shield-ai-demonstrates-ai-enabled-autonomy-for-future-collaborative-combat-aircraft/",
+        "timestamp": "2026.02.19"
+    },
+    {
+        "id": "GS-6149",
         "title": "SHIELD AI SELECTED AS MISSION AUTONOMY PROVIDER FOR THE U.S. AIR FORCE COLLABORATIVE COMBAT AIRCRAFT PROGRAM",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -10,7 +20,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-287",
+        "id": "GS-8971",
         "title": "SHIELD AI SIGNS CONTRACT WITH TAIWAN\u2019S NATIONAL CHUNG-SHAN INSTITUTE OF SCIENCE AND TECHNOLOGY TO ACCELERATE AND INDIGENIZE TAIWAN-DEVELOPED AI PILOTS",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -20,7 +30,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-2240",
+        "id": "GS-3053",
         "title": "SHIELD AI, REPUBLIC OF SINGAPORE AIR FORCE, AND DEFENCE SCIENCE AND TECHNOLOGY AGENCY EXPAND PARTNERSHIP TO PROGRESSIVELY FIELD AUTONOMY CAPABILITIES",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -30,7 +40,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-1767",
+        "id": "GS-7882",
         "title": "SHIELD AI AND ST ENGINEERING SIGN MOU TO BOOST NEXT-GENERATION AUTONOMOUS DEFENSE CAPABILITIES",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -40,7 +50,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7812",
+        "id": "GS-4318",
         "title": "SHIELD AI SELECTED TO PROVIDE V-BAT\u00a0UNMANNED AIRCRAFT SYSTEMS\u00a0AND HIVEMIND\u00a0AUTONOMY SOFTWARE\u00a0TO THE INDIAN ARMY",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -50,7 +60,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3394",
+        "id": "GS-2991",
         "title": "LIG NEX1 AND SHIELD AI HOLD CONTRACT COMMEMORATION EVENT AT UMEX 2026",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -60,7 +70,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-9773",
+        "id": "GS-8268",
         "title": "CONCRETE: THE NOT-SO-SILENT KILLER",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -70,7 +80,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-8700",
+        "id": "GS-5992",
         "title": "2025: A NEW CHAPTER FOR SHIELD AI",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -80,7 +90,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-2054",
+        "id": "GS-3486",
         "title": "SHIELD AI TOOK ITS DRONES FROM THE \u2018BATCAVE\u2019 TO THE BATTLEFIELD. NOW THE $5.6 BILLION DEFENSE-TECH STARTUP\u2019S NEW CEO SAYS IT\u2019S AT AN INFLECTION POINT",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -90,17 +100,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-9489",
-        "title": "TOP AI DEFENSE CEO SEES CHINA PLANNING FOR A \u2018VERY PROTRACTED CONFLICT\u2019 AND THE U.S. RUNNING OUT OF WEAPONS IN 7 DAYS",
-        "type": "PRIME_FORGE",
-        "cat_code": "FORGE",
-        "source": "Shield AI",
-        "description": "NO_DESCRIPTION_AVAILABLE_DECRYPT_VIA_RAW_SOURCE",
-        "source_url": "https://shield.ai/top-ai-defense-ceo-sees-china-planning-for-a-very-protracted-conflict-and-the-u-s-running-out-of-weapons-in-7-days/",
-        "timestamp": "2026.02.19"
-    },
-    {
-        "id": "GS-6322",
+        "id": "GS-8183",
         "title": "OPTIMIZATION INSTABILITY IN AUTONOMOUS AGENTIC WORKFLOWS FOR CLINICAL SYMPTOM DETECTION",
         "type": "RESEARCH_ARCHIVE",
         "cat_code": "ARCH",
@@ -110,7 +110,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7926",
+        "id": "GS-2277",
         "title": "HOW UNCERTAIN IS THE GRADE? A BENCHMARK OF UNCERTAINTY METRICS FOR LLM-BASED AUTOMATIC ASSESSMENT",
         "type": "RESEARCH_ARCHIVE",
         "cat_code": "ARCH",
@@ -120,7 +120,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7070",
+        "id": "GS-2450",
         "title": "LEARNING PERSONALIZED AGENTS FROM HUMAN FEEDBACK",
         "type": "RESEARCH_ARCHIVE",
         "cat_code": "ARCH",
@@ -130,7 +130,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-9244",
+        "id": "GS-4155",
         "title": "CAUSALLY-GUIDED AUTOMATED FEATURE ENGINEERING WITH MULTI-AGENT REINFORCEMENT LEARNING",
         "type": "RESEARCH_ARCHIVE",
         "cat_code": "ARCH",
@@ -140,7 +140,37 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3143",
+        "id": "GS-1444",
+        "title": "CREATING NEW DEMAND IN THE NASCENT ORBITAL ECONOMY",
+        "type": "ORBIT_DECK",
+        "cat_code": "SATL",
+        "source": "SpaceNews",
+        "description": "\nIn this episode of Space Minds, David Ariosto interviews Matt Kuta, president and co-founder of Voyager Technologies about how the company is pursuing a commercialized future in low Earth orbit. [&#8230;]\nThe post Creating new demand in the nascent orbital economy appeared first on SpaceNews.",
+        "source_url": "https://spacenews.com/creating-new-demand-in-the-nascent-orbital-economy/",
+        "timestamp": "2026.02.19"
+    },
+    {
+        "id": "GS-2402",
+        "title": "EARTHDAILY IN ORBIT: FROM FIRST LAUNCH TO COMMERCIAL OPERATIONS",
+        "type": "ORBIT_DECK",
+        "cat_code": "SATL",
+        "source": "SpaceNews",
+        "description": "\nWith six additional satellites launching in May and continued expansion later this year, the EarthDaily Constellation will enter commercial operations in Summer 2026, delivering daily, consistent global coverage.\nThe post EarthDaily in Orbit: From First Launch to Commercial Operations appeared first on SpaceNews.",
+        "source_url": "https://spacenews.com/earthdaily-in-orbit-from-first-launch-to-commercial-operations/",
+        "timestamp": "2026.02.19"
+    },
+    {
+        "id": "GS-9508",
+        "title": "GOLDEN DOME WILL FAIL WITHOUT SOFTWARE-DEFINED WARFARE",
+        "type": "ORBIT_DECK",
+        "cat_code": "SATL",
+        "source": "SpaceNews",
+        "description": "\nIf the United States wants to defend the homeland against the next generation of missile and aerial threats, hardware alone will not save us. Sensors, radars and interceptors are necessary but no longer sufficient. The decisive advantage for Golden Dome for America will come from software and the ability to integrate, test, adapt and fight [&#8230;]\nThe post Golden Dome will fail without software",
+        "source_url": "https://spacenews.com/golden-dome-will-fail-without-software-defined-warfare/",
+        "timestamp": "2026.02.19"
+    },
+    {
+        "id": "GS-3599",
         "title": "AGILE SPACE INDUSTRIES OVERSUBSCRIBED $17M SERIES A ACCELERATES GROWTH OF IN-SPACE PROPULSION CAPABILITIES",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -150,7 +180,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-5615",
+        "id": "GS-7254",
         "title": "JAPAN\u2019S ISPACE WARNS OF DELAYS IN NEW LUNAR LANDER ENGINE",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -160,7 +190,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-1081",
+        "id": "GS-5816",
         "title": "PENTAGON SEEKS COMMERCIALLY BUILT GEO SPY SATELLITES",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -170,7 +200,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3413",
+        "id": "GS-2643",
         "title": "WHY GPS III, AND WHAT COMES AFTER IT, STILL FALLS SHORT IN MODERN WAR",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -180,7 +210,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-4427",
+        "id": "GS-7557",
         "title": "VANTOR PARTNERS WITH GOOGLE AI TO AUTOMATE INTELLIGENCE REPORTS FOR GOVERNMENT AGENCIES",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -190,7 +220,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-2578",
+        "id": "GS-4659",
         "title": "SPACEX UNVEILS SPACE TRAFFIC MANAGEMENT SYSTEM",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -200,7 +230,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-5988",
+        "id": "GS-5361",
         "title": "UK CAPS LAUNCH LIABILITY IN TIMELY BOOST FOR NASCENT DOMESTIC MARKET",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -210,7 +240,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-6543",
+        "id": "GS-387",
         "title": "LANDSPACE TARGETS Q2 FOR NEXT ZHUQUE-3 ORBITAL LAUNCH AND RECOVERY ATTEMPT",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -220,7 +250,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3430",
+        "id": "GS-1590",
         "title": "SIMERA SENSE TO OFFER LARGER CAMERAS AND ENHANCED AUTONOMY",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -230,7 +260,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7408",
+        "id": "GS-230",
         "title": "CHINA\u2019S SPACE EPOCH RAISES NEW FUNDING, TARGETS 2026 LAUNCH AND RECOVERY ATTEMPT",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -240,7 +270,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-4570",
+        "id": "GS-8124",
         "title": "SATVU TO EXPAND THERMAL IMAGING CONSTELLATION WITH NATO-BACKED FUNDS",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -250,7 +280,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7082",
+        "id": "GS-1378",
         "title": "GLOBAL LEADERS MEET AT SPACE-COMM EXPO IN LONDON TO ACCELERATE FUTURE OF EUROPEAN SPACE INDUSTRY",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -260,37 +290,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-1104",
-        "title": "ARTEMIS HATERS, CAN WE HAVE A MOMENT, PLEASE?",
-        "type": "ORBIT_DECK",
-        "cat_code": "SATL",
-        "source": "SpaceNews",
-        "description": "\nIt\u2019s taking too long. It costs too much. Yet it\u2019s not being talked about enough. It\u2019s not historic enough. It\u2019s not safe enough. I\u2019m talking about Artemis. Or at least what a goodly portion of the space community is saying privately or online, replete with sensationalist interviews and even vomit emojis. Let\u2019s take a breath, [&#8230;]\nThe post Artemis haters, can we have a moment, please? appeare",
-        "source_url": "https://spacenews.com/artemis-haters-can-we-have-a-moment-please/",
-        "timestamp": "2026.02.19"
-    },
-    {
-        "id": "GS-3763",
-        "title": "SATELIOT TO LAUNCH SATELLITES WITH PLD SPACE",
-        "type": "ORBIT_DECK",
-        "cat_code": "SATL",
-        "source": "SpaceNews",
-        "description": "\nSateliot will launch two of its next-generation direct-to-device satellites on a PLD Space rocket in what is billed as the first fully private Spanish mission.\nThe post Sateliot to launch satellites with PLD Space appeared first on SpaceNews.",
-        "source_url": "https://spacenews.com/sateliot-to-launch-satellites-with-pld-space/",
-        "timestamp": "2026.02.19"
-    },
-    {
-        "id": "GS-6499",
-        "title": "LEONARDO FUNDING DEVELOPMENT OF EARTH OBSERVATION CONSTELLATION",
-        "type": "ORBIT_DECK",
-        "cat_code": "SATL",
-        "source": "SpaceNews",
-        "description": "\nLeonardo is funding development of an Earth observation constellation designed to highlight its capabilities while also being a model for larger European initiatives.\nThe post Leonardo funding development of Earth observation constellation appeared first on SpaceNews.",
-        "source_url": "https://spacenews.com/leonardo-funding-development-of-earth-observation-constellation/",
-        "timestamp": "2026.02.19"
-    },
-    {
-        "id": "GS-7731",
+        "id": "GS-8306",
         "title": "CISA ADDS TWO KNOWN EXPLOITED VULNERABILITIES TO CATALOG",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -300,7 +300,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3414",
+        "id": "GS-4947",
         "title": "SIEMENS SIMCENTER FEMAP AND NASTRAN",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -310,7 +310,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-6102",
+        "id": "GS-5841",
         "title": "DELTA ELECTRONICS ASDA-SOFT",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -320,7 +320,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-8510",
+        "id": "GS-7527",
         "title": "GE VERNOVA ENERVISTA UR SETUP",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -330,7 +330,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7216",
+        "id": "GS-3560",
         "title": "CISA ADDS FOUR KNOWN EXPLOITED VULNERABILITIES TO CATALOG",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -340,7 +340,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-5116",
+        "id": "GS-4247",
         "title": "HONEYWELL CCTV PRODUCTS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -350,7 +350,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-6702",
+        "id": "GS-6834",
         "title": "CISA ADDS ONE KNOWN EXPLOITED VULNERABILITY TO CATALOG",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -360,7 +360,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7659",
+        "id": "GS-7012",
         "title": "SIEMENS SIVEILLANCE VIDEO MANAGEMENT SERVERS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -370,7 +370,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3001",
+        "id": "GS-772",
         "title": "SIEMENS POLARION",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -380,7 +380,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7813",
+        "id": "GS-2721",
         "title": "AIRLEADER MASTER",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -390,7 +390,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-2780",
+        "id": "GS-8318",
         "title": "SIEMENS DESIGO CC PRODUCT FAMILY AND SENTRON POWERMANAGER",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -400,7 +400,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3698",
+        "id": "GS-7101",
         "title": "SIEMENS SINEC OS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -410,7 +410,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-1567",
+        "id": "GS-9989",
         "title": "SIEMENS COMOS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -420,7 +420,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3948",
+        "id": "GS-7915",
         "title": "HITACHI ENERGY SUPROS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -430,7 +430,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-2587",
+        "id": "GS-6442",
         "title": "CISA ADDS FOUR KNOWN EXPLOITED VULNERABILITIES TO CATALOG",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
