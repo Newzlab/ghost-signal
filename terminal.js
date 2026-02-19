@@ -1,128 +1,98 @@
-/* --- GHOST SIGNAL | TERMINAL CORE v3.0 (MOBILE INTERACTION PATCH) --- */
+/* --- GHOST SIGNAL | NAVIGATION ENGINE v4.0 --- */
 
-window.onload = () => { if (typeof db !== 'undefined') showAll(); };
+let navStack = []; // Tracks where the user is: [Industry, Category, Feed]
 
-function showAll() { 
-    // Clear active states on sidebar when showing all
-    document.querySelectorAll('.intel-module').forEach(m => m.classList.remove('active-module'));
-    renderDirectory(db, "ALL_SIGNALS"); 
-}
-
-// SURGICAL PATCH: Unified Mobile Navigation Logic
-function toggleNav() {
-    const body = document.getElementById('main-body');
-    body.classList.toggle('sidebar-active-right');
-    // If we are closing the menu, clean up the directory state
-    if (!body.classList.contains('sidebar-active-right')) {
-        body.classList.remove('directory-open');
+window.onload = () => {
+    if (typeof signalTree !== 'undefined') {
+        renderLevel("INDUSTRY", signalTree.industries);
     }
-}
+};
 
-function filterSignals(category) {
-    // Update active class on sidebar modules
-    document.querySelectorAll('.intel-module').forEach(m => m.classList.remove('active-module'));
-    
-    // Find the clicked module to apply the active highlight
-    const modules = document.querySelectorAll('.intel-module');
-    modules.forEach(m => {
-        if (m.getAttribute('onclick') && m.getAttribute('onclick').includes(category)) {
-            m.classList.add('active-module');
-        }
-    });
-
-    // Elastic filter checks both type and cat_code to bridge Python/JS labels
-    const filtered = db.filter(item => 
-        item.type === category || 
-        item.cat_code === category
-    );
-    
-    renderDirectory(filtered, category);
-
-    // SURGICAL PATCH: Fix for Problem #3 (Mobile Interaction)
-    if (window.innerWidth <= 1024) {
-        const body = document.getElementById('main-body');
-        
-        // 1. Close the filter sidebar so results are visible
-        body.classList.remove('sidebar-active-right');
-        
-        // 2. Ensure directory is flagged as open (for layout logic)
-        body.classList.add('directory-open');
-        
-        // 3. Scroll user to the directory list immediately
-        setTimeout(() => {
-            const vault = document.getElementById('vault-title');
-            if (vault) vault.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }, 300);
-    }
-}
-
-function renderDirectory(data, label) {
+/**
+ * Renders a specific level in the left sidebar
+ * @param {string} type - INDUSTRY, CATEGORY, or FEED
+ * @param {Array} items - The data to render
+ */
+function renderLevel(type, items) {
     const container = document.getElementById('vault-content');
-    document.getElementById('vault-title').innerText = `SIGNAL_DIRECTORY // ${label}`;
-    container.innerHTML = '';
+    const title = document.getElementById('vault-title');
     
-    data.forEach(item => {
+    // Update the Sidebar Title with a Breadcrumb feel
+    title.innerText = `SIGNAL_DIRECTORY // ${type}`;
+    container.innerHTML = '';
+
+    // Add a BACK button if we aren't at the root level
+    if (navStack.length > 0) {
+        const backBtn = document.createElement('div');
+        backBtn.className = 'vault-item back-trigger';
+        backBtn.innerHTML = `<span style="color: var(--orange);"><< RETURN_TO_PREVIOUS</span>`;
+        backBtn.onclick = () => goBack();
+        container.appendChild(backBtn);
+    }
+
+    items.forEach(item => {
         const div = document.createElement('div');
         div.className = 'vault-item';
-        const code = item.cat_code || "DECK";
-        div.innerHTML = `<span style="color: var(--orange); font-size: 0.7rem; font-weight:700;">[${code}]</span> ${item.title}`;
-        div.onclick = () => decryptSignal(item);
+        
+        // Visual indicator of what's inside
+        const suffix = type === "FEED" ? `[${item.articles.length}]` : ">>";
+        div.innerHTML = `${item.name} <span style="float:right; opacity:0.5;">${suffix}</span>`;
+        
+        div.onclick = () => {
+            if (type === "INDUSTRY") {
+                navStack.push(item);
+                renderLevel("CATEGORY", item.categories);
+            } else if (type === "CATEGORY") {
+                navStack.push(item);
+                renderLevel("FEED", item.feeds);
+            } else if (type === "FEED") {
+                displayFeedArticles(item);
+            }
+        };
         container.appendChild(div);
     });
 }
 
-function decryptSignal(item) {
-    const words = item.description ? item.description.split(/\s+/).length : 0;
-    const readTime = Math.max(1, Math.ceil(words / 180));
-
-    document.getElementById('label-type').innerText = `PRIORITY_SIGNAL // ${item.type}`;
-    document.getElementById('active-title').innerText = item.title;
-    
-    // Reset scroll position of center stage when switching articles
-    document.getElementById('center-stage-anchor').scrollTop = 0;
-
-    const meta = `
-        <div style="border-bottom: 1px solid var(--border); padding-bottom: 10px; margin-bottom: 20px; display: flex; justify-content: space-between; font-size: 0.7rem; font-weight: 700;">
-            <span>SOURCE: <span style="color: var(--orange);">${item.source.toUpperCase()}</span></span>
-            <span>EST_READ: <span style="color: var(--orange);">${readTime} MIN</span></span>
-            <span>DATE: <span style="color: var(--orange);">${item.timestamp}</span></span>
-        </div>
-    `;
-    
-    document.getElementById('active-description').innerHTML = meta + item.description + "...";
-    document.getElementById('player-zone').innerHTML = `<button class="action-btn" onclick="window.open('${item.source_url}', '_blank')" style="padding: 18px 50px;">ACCESS RAW DATA SOURCE</button>`;
-
-    // Close all mobile menus after selecting a signal to focus on content
-    document.getElementById('main-body').classList.remove('sidebar-active-right', 'directory-open');
-}
-
-// --- HARDENED AUDIO LOGIC ---
-let audioPlaying = false;
-function toggleAudio() {
-    const audio = document.getElementById('bg-audio');
-    const btn = document.getElementById('play-trigger');
-    
-    if (!audioPlaying) {
-        audio.play().then(() => {
-            btn.innerText = "TERMINATE_AUDIO";
-            btn.style.color = "#ff0000";
-            audioPlaying = true;
-        }).catch(err => {
-            console.error("Audio Blocked: ", err);
-            btn.innerText = "UPLINK_FAILED_RETRY";
-        });
-    } else {
-        audio.pause();
-        btn.innerText = "INITIALIZE_AUDIO";
-        btn.style.color = "var(--orange)";
-        audioPlaying = false;
+function goBack() {
+    navStack.pop();
+    if (navStack.length === 0) {
+        renderLevel("INDUSTRY", signalTree.industries);
+    } else if (navStack.length === 1) {
+        renderLevel("CATEGORY", navStack[0].categories);
     }
 }
 
-function openManifesto() {
-    document.getElementById('manifesto-overlay').style.display = 'flex';
-}
+/**
+ * Renders the list of articles from a specific feed into the CENTER CONSOLE
+ */
+function displayFeedArticles(feed) {
+    const centerStage = document.getElementById('center-stage-anchor');
+    const playerZone = document.getElementById('player-zone');
+    
+    // Clear previous article content
+    document.getElementById('active-title').innerText = feed.name;
+    document.getElementById('active-description').innerHTML = `Select a packet from the decrypted stream below to begin analysis.`;
+    playerZone.innerHTML = '';
 
-function closeManifesto() {
-    document.getElementById('manifesto-overlay').style.display = 'none';
+    // Create a list of articles in the center stage
+    const listContainer = document.createElement('div');
+    listContainer.className = 'article-stream';
+    listContainer.style.textAlign = "left";
+    listContainer.style.marginTop = "30px";
+
+    feed.entries.forEach(article => {
+        const artDiv = document.createElement('div');
+        artDiv.className = 'vault-item'; // Reusing your existing style
+        artDiv.style.border = "1px solid var(--border)";
+        artDiv.style.marginBottom = "10px";
+        artDiv.innerHTML = `
+            <div style="font-size: 0.6rem; color: var(--orange);">${article.timestamp}</div>
+            <div style="font-weight: 700; margin: 5px 0;">${article.title}</div>
+            <div style="font-size: 0.75rem; opacity: 0.7;">${article.description.substring(0, 100)}...</div>
+        `;
+        artDiv.onclick = () => decryptSignal(article);
+        listContainer.appendChild(artDiv);
+    });
+
+    centerStage.appendChild(listContainer);
 }
