@@ -1,6 +1,6 @@
 const db = [
     {
-        "id": "GS-8065",
+        "id": "GS-6300",
         "title": "SHIELD AI SELECTED AS MISSION AUTONOMY PROVIDER FOR THE U.S. AIR FORCE COLLABORATIVE COMBAT AIRCRAFT PROGRAM",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -10,7 +10,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3327",
+        "id": "GS-287",
         "title": "SHIELD AI SIGNS CONTRACT WITH TAIWAN\u2019S NATIONAL CHUNG-SHAN INSTITUTE OF SCIENCE AND TECHNOLOGY TO ACCELERATE AND INDIGENIZE TAIWAN-DEVELOPED AI PILOTS",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -20,7 +20,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-4517",
+        "id": "GS-2240",
         "title": "SHIELD AI, REPUBLIC OF SINGAPORE AIR FORCE, AND DEFENCE SCIENCE AND TECHNOLOGY AGENCY EXPAND PARTNERSHIP TO PROGRESSIVELY FIELD AUTONOMY CAPABILITIES",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -30,7 +30,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-5406",
+        "id": "GS-1767",
         "title": "SHIELD AI AND ST ENGINEERING SIGN MOU TO BOOST NEXT-GENERATION AUTONOMOUS DEFENSE CAPABILITIES",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -40,7 +40,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-4309",
+        "id": "GS-7812",
         "title": "SHIELD AI SELECTED TO PROVIDE V-BAT\u00a0UNMANNED AIRCRAFT SYSTEMS\u00a0AND HIVEMIND\u00a0AUTONOMY SOFTWARE\u00a0TO THE INDIAN ARMY",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -50,7 +50,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-5979",
+        "id": "GS-3394",
         "title": "LIG NEX1 AND SHIELD AI HOLD CONTRACT COMMEMORATION EVENT AT UMEX 2026",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -60,7 +60,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-5286",
+        "id": "GS-9773",
         "title": "CONCRETE: THE NOT-SO-SILENT KILLER",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -70,7 +70,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-5490",
+        "id": "GS-8700",
         "title": "2025: A NEW CHAPTER FOR SHIELD AI",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -80,7 +80,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-1692",
+        "id": "GS-2054",
         "title": "SHIELD AI TOOK ITS DRONES FROM THE \u2018BATCAVE\u2019 TO THE BATTLEFIELD. NOW THE $5.6 BILLION DEFENSE-TECH STARTUP\u2019S NEW CEO SAYS IT\u2019S AT AN INFLECTION POINT",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -90,7 +90,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-2779",
+        "id": "GS-9489",
         "title": "TOP AI DEFENSE CEO SEES CHINA PLANNING FOR A \u2018VERY PROTRACTED CONFLICT\u2019 AND THE U.S. RUNNING OUT OF WEAPONS IN 7 DAYS",
         "type": "PRIME_FORGE",
         "cat_code": "FORGE",
@@ -100,7 +100,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-244",
+        "id": "GS-6322",
         "title": "OPTIMIZATION INSTABILITY IN AUTONOMOUS AGENTIC WORKFLOWS FOR CLINICAL SYMPTOM DETECTION",
         "type": "RESEARCH_ARCHIVE",
         "cat_code": "ARCH",
@@ -110,7 +110,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-2377",
+        "id": "GS-7926",
         "title": "HOW UNCERTAIN IS THE GRADE? A BENCHMARK OF UNCERTAINTY METRICS FOR LLM-BASED AUTOMATIC ASSESSMENT",
         "type": "RESEARCH_ARCHIVE",
         "cat_code": "ARCH",
@@ -120,7 +120,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7397",
+        "id": "GS-7070",
         "title": "LEARNING PERSONALIZED AGENTS FROM HUMAN FEEDBACK",
         "type": "RESEARCH_ARCHIVE",
         "cat_code": "ARCH",
@@ -130,7 +130,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-8653",
+        "id": "GS-9244",
         "title": "CAUSALLY-GUIDED AUTOMATED FEATURE ENGINEERING WITH MULTI-AGENT REINFORCEMENT LEARNING",
         "type": "RESEARCH_ARCHIVE",
         "cat_code": "ARCH",
@@ -140,7 +140,27 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-2361",
+        "id": "GS-3143",
+        "title": "AGILE SPACE INDUSTRIES OVERSUBSCRIBED $17M SERIES A ACCELERATES GROWTH OF IN-SPACE PROPULSION CAPABILITIES",
+        "type": "ORBIT_DECK",
+        "cat_code": "SATL",
+        "source": "SpaceNews",
+        "description": "\n02.19.2026 DURANGO, Colo. \u2014 Agile Space Industries, a leading provider of in-space chemical propulsion, today announced their Series A equity financing round. The round was led by Caruso Ventures and [&#8230;]\nThe post Agile Space Industries Oversubscribed $17M Series A Accelerates Growth of In-Space Propulsion Capabilities appeared first on SpaceNews.",
+        "source_url": "https://spacenews.com/agile-space-industries-oversubscribed-17m-series-a-accelerates-growth-of-in-space-propulsion-capabilities/",
+        "timestamp": "2026.02.19"
+    },
+    {
+        "id": "GS-5615",
+        "title": "JAPAN\u2019S ISPACE WARNS OF DELAYS IN NEW LUNAR LANDER ENGINE",
+        "type": "ORBIT_DECK",
+        "cat_code": "SATL",
+        "source": "SpaceNews",
+        "description": "\nJapanese lunar company ispace said work on a new engine for its lunar landers is facing delays and that it is keeping open the option of switching engines.\nThe post Japan\u2019s ispace warns of delays in new lunar lander engine appeared first on SpaceNews.",
+        "source_url": "https://spacenews.com/japans-ispace-warns-of-delays-in-new-lunar-lander-engine/",
+        "timestamp": "2026.02.19"
+    },
+    {
+        "id": "GS-1081",
         "title": "PENTAGON SEEKS COMMERCIALLY BUILT GEO SPY SATELLITES",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -150,7 +170,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7392",
+        "id": "GS-3413",
         "title": "WHY GPS III, AND WHAT COMES AFTER IT, STILL FALLS SHORT IN MODERN WAR",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -160,7 +180,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3848",
+        "id": "GS-4427",
         "title": "VANTOR PARTNERS WITH GOOGLE AI TO AUTOMATE INTELLIGENCE REPORTS FOR GOVERNMENT AGENCIES",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -170,7 +190,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-4752",
+        "id": "GS-2578",
         "title": "SPACEX UNVEILS SPACE TRAFFIC MANAGEMENT SYSTEM",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -180,7 +200,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7486",
+        "id": "GS-5988",
         "title": "UK CAPS LAUNCH LIABILITY IN TIMELY BOOST FOR NASCENT DOMESTIC MARKET",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -190,7 +210,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-2531",
+        "id": "GS-6543",
         "title": "LANDSPACE TARGETS Q2 FOR NEXT ZHUQUE-3 ORBITAL LAUNCH AND RECOVERY ATTEMPT",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -200,7 +220,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3661",
+        "id": "GS-3430",
         "title": "SIMERA SENSE TO OFFER LARGER CAMERAS AND ENHANCED AUTONOMY",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -210,7 +230,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-6571",
+        "id": "GS-7408",
         "title": "CHINA\u2019S SPACE EPOCH RAISES NEW FUNDING, TARGETS 2026 LAUNCH AND RECOVERY ATTEMPT",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -220,7 +240,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3164",
+        "id": "GS-4570",
         "title": "SATVU TO EXPAND THERMAL IMAGING CONSTELLATION WITH NATO-BACKED FUNDS",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -230,7 +250,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-9571",
+        "id": "GS-7082",
         "title": "GLOBAL LEADERS MEET AT SPACE-COMM EXPO IN LONDON TO ACCELERATE FUTURE OF EUROPEAN SPACE INDUSTRY",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -240,7 +260,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7198",
+        "id": "GS-1104",
         "title": "ARTEMIS HATERS, CAN WE HAVE A MOMENT, PLEASE?",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -250,7 +270,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7270",
+        "id": "GS-3763",
         "title": "SATELIOT TO LAUNCH SATELLITES WITH PLD SPACE",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -260,7 +280,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-6692",
+        "id": "GS-6499",
         "title": "LEONARDO FUNDING DEVELOPMENT OF EARTH OBSERVATION CONSTELLATION",
         "type": "ORBIT_DECK",
         "cat_code": "SATL",
@@ -270,27 +290,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7240",
-        "title": "NASA WORK ON SEVERAL PROGRAMS PENDING RESPONSES TO WHITE HOUSE EXECUTIVE ORDER",
-        "type": "ORBIT_DECK",
-        "cat_code": "SATL",
-        "source": "SpaceNews",
-        "description": "\nNASA Administrator Jared Isaacman said he expects to provide details about several agency priorities, including lunar exploration and commercial space stations, in the coming weeks.\nThe post NASA work on several programs pending responses to White House executive order appeared first on SpaceNews.",
-        "source_url": "https://spacenews.com/nasa-work-on-several-programs-pending-responses-to-white-house-executive-order/",
-        "timestamp": "2026.02.19"
-    },
-    {
-        "id": "GS-8961",
-        "title": "THE SPACE NUCLEAR POWER BOTTLENECK \u2014 AND HOW TO FIX IT",
-        "type": "ORBIT_DECK",
-        "cat_code": "SATL",
-        "source": "SpaceNews",
-        "description": "\nNo technology holds more transformative potential for America\u2019s space aspirations than nuclear power. Radioisotopes can safely produce heat that will enable deep space exploration and survival of the frigid lunar night while fission reactors are capable of producing kilowatts of electricity on the moon or in orbit. Fission is also the key to advanced nuclear [&#8230;]\nThe post The space nuclear p",
-        "source_url": "https://spacenews.com/the-space-nuclear-power-bottleneck-and-how-to-fix-it/",
-        "timestamp": "2026.02.19"
-    },
-    {
-        "id": "GS-1944",
+        "id": "GS-7731",
         "title": "CISA ADDS TWO KNOWN EXPLOITED VULNERABILITIES TO CATALOG",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -300,7 +300,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3817",
+        "id": "GS-3414",
         "title": "SIEMENS SIMCENTER FEMAP AND NASTRAN",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -310,7 +310,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3798",
+        "id": "GS-6102",
         "title": "DELTA ELECTRONICS ASDA-SOFT",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -320,7 +320,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-5646",
+        "id": "GS-8510",
         "title": "GE VERNOVA ENERVISTA UR SETUP",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -330,7 +330,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-5814",
+        "id": "GS-7216",
         "title": "CISA ADDS FOUR KNOWN EXPLOITED VULNERABILITIES TO CATALOG",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -340,7 +340,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-6474",
+        "id": "GS-5116",
         "title": "HONEYWELL CCTV PRODUCTS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -350,7 +350,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-1725",
+        "id": "GS-6702",
         "title": "CISA ADDS ONE KNOWN EXPLOITED VULNERABILITY TO CATALOG",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -360,7 +360,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-2569",
+        "id": "GS-7659",
         "title": "SIEMENS SIVEILLANCE VIDEO MANAGEMENT SERVERS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -370,7 +370,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-350",
+        "id": "GS-3001",
         "title": "SIEMENS POLARION",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -380,7 +380,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-2611",
+        "id": "GS-7813",
         "title": "AIRLEADER MASTER",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -390,7 +390,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-683",
+        "id": "GS-2780",
         "title": "SIEMENS DESIGO CC PRODUCT FAMILY AND SENTRON POWERMANAGER",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -400,7 +400,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3062",
+        "id": "GS-3698",
         "title": "SIEMENS SINEC OS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -410,7 +410,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-3234",
+        "id": "GS-1567",
         "title": "SIEMENS COMOS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -420,7 +420,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-7866",
+        "id": "GS-3948",
         "title": "HITACHI ENERGY SUPROS",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
@@ -430,7 +430,7 @@ const db = [
         "timestamp": "2026.02.19"
     },
     {
-        "id": "GS-4689",
+        "id": "GS-2587",
         "title": "CISA ADDS FOUR KNOWN EXPLOITED VULNERABILITIES TO CATALOG",
         "type": "CYBER_SEC",
         "cat_code": "SEC_",
