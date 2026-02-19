@@ -10,132 +10,52 @@
 <body id="main-body">
 
     <header class="system-header">
-        <div class="site-title" onclick="openManifesto()" style="cursor: pointer;">
-            GHOST_SIGNAL 
-            <span style="font-weight:300; font-size: 0.7rem; letter-spacing: 2px; margin-left: 12px; opacity: 0.6; color: #fff;">// NEWZLAB_CONSTRUCT</span>
-        </div>
-
-        <div class="mobile-nav-toggle" onclick="toggleNav()">
-            <span style="width: 30px;"></span>
-            <span style="width: 20px;"></span>
-        </div>
-
-        <div class="connection-status">
-            <span>TERMINAL_UPLINK_STABLE</span>
-            <div class="pulse-dot"></div>
-            <span style="opacity: 0.5;">[ 2026.02.14 ]</span>
-        </div>
+        <div class="nav-trigger" onclick="toggleNav('left')">DIR_</div>
+        <div class="site-title" onclick="location.reload()">GHOST_SIGNAL <span class="tagline">// NEWZLAB_CONSTRUCT</span></div>
+        <div class="nav-trigger" onclick="toggleNav('right')">SYS_</div>
     </header>
 
-    <div class="console-wrapper" id="console-node">
-        <aside class="hud-panel" id="left-sidebar">
+    <div class="console-wrapper">
+        <aside class="hud-panel nav-computer" id="left-sidebar">
             <div id="vault-title">SIGNAL_DIRECTORY</div>
             <div id="vault-content" class="vault-container"></div>
-            
-            <div class="audio-module" style="margin-top: 20px; border-top: 1px solid var(--border); padding-top: 15px;">
-                <div style="margin-bottom: 10px; font-size: 0.6rem; font-family: 'Montserrat'; font-weight: 700; color: var(--orange); letter-spacing: 3px;">ATMOSPHERIC_UPLINK</div>
-                <audio id="bg-audio" loop>
-                   <source src="https://somafm.com/groovesalad256.pls" type="audio/x-scpls">
-                   <source src="https://ice6.somafm.com/groovesalad-256-mp3" type="audio/mpeg">
-                </audio>
-                <div class="btn-row">
-                    <div class="action-btn" id="play-trigger" onclick="toggleAudio()" style="font-size: 0.6rem;">INITIALIZE_AUDIO</div>
-                </div>
-            </div><br>
-
-            <div class="system-logs">
-                MODE: TRANSPARENCY_ONLY<br>
-                UPLINK: ACTIVE<br>
-                FILTER: OSINT_STANDARDS<br>
-                <span style="color: #fff; opacity: 0.5;">AUTH: NEWZLAB_ARCHITECT</span>
-            </div>
+            <div class="system-logs">STATUS: UPLINK_STABLE</div>
         </aside>
 
-        <main class="hud-panel" id="center-stage-anchor" style="background: transparent; text-align: center; overflow-y: auto; display: block; padding-top: 40px;">
-            <div class="visualizer">
-                <div class="v-bar"></div>
-                <div class="v-bar" style="animation-delay: 0.2s"></div>
-                <div class="v-bar" style="animation-delay: 0.4s"></div>
-            </div>
-            
-            <div style="max-width: 600px; margin: 0 auto; padding-bottom: 40px;">
-                <span id="label-type" style="font-size: 0.7rem; letter-spacing: 6px; text-transform: uppercase;">AWAITING_SIGNAL</span>
-                <h1 id="active-title" style="font-size: 2.5rem; margin: 15px 0; text-transform: uppercase;">INITIALIZING...</h1>
-                <p id="active-description" style="opacity: 0.8; font-weight: 300; line-height: 1.8; margin-bottom: 30px;">
-                    Select a high-priority coordinate from the Signal Directory to begin deep-packet decryption.
-                </p>
+        <main class="hud-panel content-terminal" id="center-stage-anchor">
+            <div id="terminal-view-area">
+                <span id="label-type">AWAITING_COORDINATES</span>
+                <h1 id="active-title">INITIALIZING...</h1>
+                <div class="visualizer">
+                    <div class="v-bar"></div><div class="v-bar"></div><div class="v-bar"></div>
+                </div>
+                <div id="active-description">Select an industry node from the directory to begin deep-packet decryption.</div>
                 <div id="player-zone"></div>
             </div>
         </main>
 
-        <aside class="hud-panel" id="right-sidebar">
-            <div style="font-family: 'Montserrat'; font-weight: 700; font-size: 0.75rem; color: var(--orange); margin-bottom: 20px; letter-spacing: 2px;">INTEL_FILTERS</div>
-            
-            <div class="vault-container" style="overflow-y: auto; padding-right: 10px;">
-                <div class="intel-module" onclick="filterSignals('GOV_DECK')">
-                    <div class="module-header">GOV_DECK [DARK]</div>
-                    <div class="module-body">DARPA, IARPA, and AFRL institutional nodes.</div>
-                </div>
+        <aside class="hud-panel system-hub" id="right-sidebar">
+            <div class="hub-section">
+                <div class="section-label">ATMOSPHERIC_UPLINK</div>
+                <audio id="bg-audio" loop>
+                   <source src="https://ice6.somafm.com/groovesalad-256-mp3" type="audio/mpeg">
+                </audio>
+                <div class="action-btn" id="play-trigger" onclick="toggleAudio()">INITIALIZE_AUDIO</div>
+            </div>
 
-                <div class="intel-module" onclick="filterSignals('PRIME_FORGE')">
-                    <div class="module-header">PRIME_FORGE [FORGE]</div>
-                    <div class="module-body">Anduril, Shield AI, and hardware manufacturers.</div>
-                </div>
-
-                <div class="intel-module" onclick="filterSignals('RESEARCH_ARCHIVE')">
-                    <div class="module-header">RESEARCH_ARCHIVE [ARCH]</div>
-                    <div class="module-body">MIT Lincoln Lab and defense-funded technical papers.</div>
-                </div>
-
-                <div class="intel-module" onclick="filterSignals('CYBER_SEC')">
-                    <div class="module-header">CYBER_SEC [SEC_]</div>
-                    <div class="module-body">CISA alerts and raw technical advisories.</div>
-                </div>
-
-                <div class="intel-module" onclick="filterSignals('ORBIT_DECK')">
-                    <div class="module-header">ORBIT_DECK [SATL]</div>
-                    <div class="module-body">Aerospace primes and satellite logistics.</div>
-                </div>
-
-                <div class="intel-module" onclick="filterSignals('MEGA_CORP')">
-                    <div class="module-header">MEGA_CORP [CORP]</div>
-                    <div class="module-body">Strategic industry shifts from top defense primes.</div>
-                </div>
-            </div> 
-            
-            <div class="intel-module" onclick="showAll()" style="margin-top: auto;">
-                <div class="action-btn">REBOOT_UPLINK</div>
+            <div class="hub-section">
+                <div class="section-label">SYSTEM_LINKS</div>
+                <div class="action-btn" onclick="openManifesto()">PROTOCOL_MANIFESTO</div>
+                <div class="action-btn" onclick="window.open('https://github.com/your-repo', '_blank')">SOURCE_CODE</div>
             </div>
 
             <div class="footer-module">
-                <div class="copyright">
-                    &copy; 2026 GHOST SIGNAL.<br>
-                    INFRASTRUCTURE: GITHUB_NODE<br>
-                    LOGIC: NEWZLAB_CONSTRUCT
-                </div>
+                <div class="copyright">&copy; 2026 GHOST SIGNAL<br>NODE: GITHUB_PAGES</div>
             </div>
         </aside>
-
-    </div> 
+    </div>
 
     <script src="signals.js"></script>
     <script src="terminal.js"></script>
-
-    <div id="manifesto-overlay" class="overlay" onclick="closeManifesto()">
-        <div class="overlay-content" onclick="event.stopPropagation()">
-            <div class="overlay-header">
-                <span>[INTERNAL_MEMO // REDACTED]</span>
-                <button class="close-btn" onclick="closeManifesto()">CLOSE_LOG</button>
-            </div>
-            <div class="overlay-text">
-                <h2 style="color: var(--orange); font-family: 'Orbitron';">PROTOCOL: GHOST_SIGNAL</h2>
-                <p>The network was established in late 2025 as a response to the <strong>Great Algorithm Smoothing</strong>. While the corporate nets were busy filtering reality for comfort, we built the Ghost.</p>
-                <p>> <strong>STATUS:</strong> Decentralized. AI-Native. <br>
-                    > <strong>PURPOSE:</strong> Tracking the trajectory toward the Singularity without the "Dystopian Buffer."</p>
-                <p>The <strong>Newzlab Construct</strong> isn't just a news aggregator. It is a digital sieve designed to catch the signals of tomorrow before they are "corrected" by the legacy media conglomerates. You are now tuned into the frequency of the future.</p>
-                <p style="opacity: 0.5; font-size: 0.7rem;">// END_OF_TRANSMISSION</p>
-            </div>
-        </div>
-    </div>
 </body>
 </html>
