@@ -1,6 +1,4 @@
-/* --- GHOST SIGNAL | NAVIGATION ENGINE v4.0 --- */
-
-let navStack = []; // Tracks where the user is: [Industry, Category, Feed]
+let navStack = []; 
 
 window.onload = () => {
     if (typeof signalTree !== 'undefined') {
@@ -8,24 +6,16 @@ window.onload = () => {
     }
 };
 
-/**
- * Renders a specific level in the left sidebar
- * @param {string} type - INDUSTRY, CATEGORY, or FEED
- * @param {Array} items - The data to render
- */
 function renderLevel(type, items) {
     const container = document.getElementById('vault-content');
     const title = document.getElementById('vault-title');
-    
-    // Update the Sidebar Title with a Breadcrumb feel
-    title.innerText = `SIGNAL_DIRECTORY // ${type}`;
+    title.innerText = `DIR // ${type}`;
     container.innerHTML = '';
 
-    // Add a BACK button if we aren't at the root level
     if (navStack.length > 0) {
         const backBtn = document.createElement('div');
-        backBtn.className = 'vault-item back-trigger';
-        backBtn.innerHTML = `<span style="color: var(--orange);"><< RETURN_TO_PREVIOUS</span>`;
+        backBtn.className = 'vault-item back-btn';
+        backBtn.innerHTML = `<span style="color:var(--orange)"><< BACK</span>`;
         backBtn.onclick = () => goBack();
         container.appendChild(backBtn);
     }
@@ -33,20 +23,18 @@ function renderLevel(type, items) {
     items.forEach(item => {
         const div = document.createElement('div');
         div.className = 'vault-item';
-        
-        // Visual indicator of what's inside
-        const suffix = type === "FEED" ? `[${item.articles.length}]` : ">>";
-        div.innerHTML = `${item.name} <span style="float:right; opacity:0.5;">${suffix}</span>`;
+        const icon = type === "FEED" ? "•" : "»";
+        div.innerHTML = `${item.name} <span style="float:right; opacity:0.4;">${icon}</span>`;
         
         div.onclick = () => {
             if (type === "INDUSTRY") {
-                navStack.push(item);
+                navStack.push({type: "INDUSTRY", data: items});
                 renderLevel("CATEGORY", item.categories);
             } else if (type === "CATEGORY") {
-                navStack.push(item);
+                navStack.push({type: "CATEGORY", data: items});
                 renderLevel("FEED", item.feeds);
             } else if (type === "FEED") {
-                displayFeedArticles(item);
+                renderArticleList(item);
             }
         };
         container.appendChild(div);
@@ -54,45 +42,58 @@ function renderLevel(type, items) {
 }
 
 function goBack() {
-    navStack.pop();
-    if (navStack.length === 0) {
-        renderLevel("INDUSTRY", signalTree.industries);
-    } else if (navStack.length === 1) {
-        renderLevel("CATEGORY", navStack[0].categories);
-    }
+    const prev = navStack.pop();
+    renderLevel(prev.type, prev.data);
 }
 
-/**
- * Renders the list of articles from a specific feed into the CENTER CONSOLE
- */
-function displayFeedArticles(feed) {
-    const centerStage = document.getElementById('center-stage-anchor');
-    const playerZone = document.getElementById('player-zone');
-    
-    // Clear previous article content
+function renderArticleList(feed) {
+    const stage = document.getElementById('terminal-view-area');
     document.getElementById('active-title').innerText = feed.name;
-    document.getElementById('active-description').innerHTML = `Select a packet from the decrypted stream below to begin analysis.`;
-    playerZone.innerHTML = '';
-
-    // Create a list of articles in the center stage
-    const listContainer = document.createElement('div');
-    listContainer.className = 'article-stream';
-    listContainer.style.textAlign = "left";
-    listContainer.style.marginTop = "30px";
-
-    feed.entries.forEach(article => {
-        const artDiv = document.createElement('div');
-        artDiv.className = 'vault-item'; // Reusing your existing style
-        artDiv.style.border = "1px solid var(--border)";
-        artDiv.style.marginBottom = "10px";
-        artDiv.innerHTML = `
-            <div style="font-size: 0.6rem; color: var(--orange);">${article.timestamp}</div>
-            <div style="font-weight: 700; margin: 5px 0;">${article.title}</div>
-            <div style="font-size: 0.75rem; opacity: 0.7;">${article.description.substring(0, 100)}...</div>
-        `;
-        artDiv.onclick = () => decryptSignal(article);
-        listContainer.appendChild(artDiv);
+    document.getElementById('label-type').innerText = "FEED_STREAMS";
+    
+    let html = `<div class="article-list">`;
+    feed.articles.forEach(art => {
+        html += `
+            <div class="article-snippet" onclick="viewArticle(${JSON.stringify(art).replace(/"/g, '&quot;')})">
+                <span class="art-date">${art.timestamp}</span>
+                <div class="art-title">${art.title}</div>
+            </div>`;
     });
+    html += `</div>`;
+    stage.querySelector('#active-description').innerHTML = html;
+    
+    if (window.innerWidth <= 1024) document.body.classList.remove('nav-open');
+}
 
-    centerStage.appendChild(listContainer);
+function viewArticle(art) {
+    document.getElementById('active-title').innerText = art.title;
+    document.getElementById('active-description').innerHTML = `
+        <div class="meta-row">ORIGIN: ${art.timestamp}</div>
+        <div class="decrypted-text">${art.description}</div>
+    `;
+    document.getElementById('player-zone').innerHTML = `
+        <button class="action-btn" onclick="window.open('${art.source_url}', '_blank')">ACCESS_RAW_DATA</button>
+    `;
+}
+
+// --- SYSTEM UTILS ---
+function toggleNav(side) {
+    const body = document.body;
+    if (side === 'left') body.classList.toggle('nav-open');
+    else body.classList.toggle('hub-open');
+}
+
+let audioPlaying = false;
+function toggleAudio() {
+    const audio = document.getElementById('bg-audio');
+    const btn = document.getElementById('play-trigger');
+    if (!audioPlaying) {
+        audio.play();
+        btn.innerText = "TERMINATE_AUDIO";
+        audioPlaying = true;
+    } else {
+        audio.pause();
+        btn.innerText = "INITIALIZE_AUDIO";
+        audioPlaying = false;
+    }
 }
