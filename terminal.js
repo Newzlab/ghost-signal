@@ -1,4 +1,4 @@
-/* --- GHOST SIGNAL | NAVIGATION ENGINE v4.3 --- */
+/* --- GHOST SIGNAL | NAVIGATION ENGINE v4.4 --- */
 
 let navStack = []; 
 
@@ -16,15 +16,13 @@ function renderLevel(type, items) {
     const title = document.getElementById('vault-title');
     if (!container) return;
 
-    // --- BREADCRUMB LOGIC (The "Where am I" Fix) ---
+    // --- BREADCRUMB LOGIC ---
     let breadcrumb = `<div style="color: #fff; opacity: 0.5;">// ROOT_DIRECTORY</div>`;
     if (navStack.length > 0) {
         breadcrumb = "";
         navStack.forEach((step) => {
             breadcrumb += `<div style="color: #fff; opacity: 0.5; margin-top: 5px;">> ${step.label}</div>`;
         });
-        // Highlights the current level you are selecting
-        breadcrumb += `<div style="color: var(--orange); margin-top: 5px;">> SELECT_${type}</div>`;
     }
     
     // Inject the breadcrumb path into the sidebar title area
@@ -32,17 +30,17 @@ function renderLevel(type, items) {
     
     container.innerHTML = '';
 
-    // Add BACK button
-    if (navStack.length > 0) {
-        const backBtn = document.createElement('div');
-        backBtn.className = 'vault-item back-btn';
-        backBtn.style.color = "var(--orange)";
-        backBtn.style.fontWeight = "700";
-        backBtn.innerHTML = `<< RETURN_TO_PREVIOUS`;
-        backBtn.onclick = () => goBack();
-        container.appendChild(backBtn);
-    }
+    // --- 1. THE ACTION PROMPT (Top of List) ---
+    const selectPrompt = document.createElement('div');
+    selectPrompt.className = 'vault-item';
+    selectPrompt.style.color = "var(--orange)";
+    selectPrompt.style.fontWeight = "700";
+    selectPrompt.style.cursor = "default"; // Not clickable
+    selectPrompt.style.borderBottom = "1px dashed var(--orange)"; // Visual separation
+    selectPrompt.innerHTML = `> SELECT_${type}`;
+    container.appendChild(selectPrompt);
 
+    // --- 2. THE DATA LIST ---
     items.forEach(item => {
         const div = document.createElement('div');
         div.className = 'vault-item';
@@ -51,7 +49,6 @@ function renderLevel(type, items) {
         
         div.onclick = () => {
             if (type === "INDUSTRY") {
-                // We now save the "label" (name) so we can build the breadcrumb
                 navStack.push({type: "INDUSTRY", data: items, label: item.name});
                 renderLevel("CATEGORY", item.categories);
             } else if (type === "CATEGORY") {
@@ -63,6 +60,18 @@ function renderLevel(type, items) {
         };
         container.appendChild(div);
     });
+
+    // --- 3. THE BACK BUTTON (Bottom of List) ---
+    if (navStack.length > 0) {
+        const backBtn = document.createElement('div');
+        backBtn.className = 'vault-item back-btn';
+        backBtn.style.color = "var(--orange)";
+        backBtn.style.fontWeight = "700";
+        backBtn.style.marginTop = "10px"; // Give it slight separation from the list
+        backBtn.innerHTML = `<< RETURN_TO_PREVIOUS`;
+        backBtn.onclick = () => goBack();
+        container.appendChild(backBtn);
+    }
 }
 
 function goBack() {
