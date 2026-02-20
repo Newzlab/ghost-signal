@@ -3,27 +3,40 @@ import json
 import re
 from datetime import datetime
 
-# --- CONFIGURATION: THE SOURCE TREE ---
-# This defines your 4-level hierarchy. You can add or remove feeds here.
+# --- CONFIGURATION: THE SOURCE TREE (EXPANDED) ---
 MASTER_CONFIG = {
     "DEFENSE_SYSTEMS": {
         "UNMANNED_AUTONOMY": [
             {"name": "SHIELD_AI", "url": "https://shield.ai/feed/"},
-            {"name": "ANDURIL_NODE", "url": "https://www.anduril.com/news/feed/"}
+            {"name": "ANDURIL_INDUSTRIES", "url": "https://www.anduril.com/news/feed/"}
         ],
-        "R_AND_D": [
+        "GOVERNMENT_DECKS": [
             {"name": "DARPA_WIRE", "url": "https://www.darpa.mil/news/rss"},
-            {"name": "MIT_LINCOLN", "url": "https://www.ll.mit.edu/news/rss.xml"}
+            {"name": "IARPA_SIGNAL", "url": "https://www.iarpa.gov/newsroom?format=feed&type=rss"},
+            {"name": "AFRL_NODE", "url": "https://www.af.mil/RSS/"}
+        ],
+        "RESEARCH_LABS": [
+            {"name": "MIT_LINCOLN_LAB", "url": "https://www.ll.mit.edu/news/rss.xml"},
+            {"name": "ARXIV_AI_PAPERS", "url": "https://arxiv.org/rss/cs.AI"}
         ]
     },
-    "AEROSPACE": {
+    "AEROSPACE_COMMAND": {
         "ORBITAL_LOGISTICS": [
-            {"name": "SPACE_NEWS", "url": "https://spacenews.com/feed/"}
+            {"name": "SPACE_NEWS", "url": "https://spacenews.com/feed/"},
+            {"name": "NASA_BREAKING", "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss"}
+        ],
+        "DEFENSE_SPACE": [
+            {"name": "BREAKING_DEFENSE_SPACE", "url": "https://breakingdefense.com/category/space/feed/"}
         ]
     },
     "CYBER_INTELLIGENCE": {
         "THREAT_ADVISORIES": [
-            {"name": "CISA_ALERTS", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"}
+            {"name": "CISA_ALERTS", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"},
+            {"name": "HACKER_NEWS_RAW", "url": "https://news.ycombinator.com/rss"}
+        ],
+        "EXPLOIT_TRACKERS": [
+            {"name": "BLEEPING_COMPUTER", "url": "https://www.bleepingcomputer.com/feed/"},
+            {"name": "KREBS_ON_SECURITY", "url": "https://krebsonsecurity.com/feed/"}
         ]
     }
 }
@@ -46,6 +59,7 @@ def fetch_all_signals():
                 print(f"POLLING_SOURCE: {feed_info['name']}...")
                 
                 try:
+                    # Timeout added to prevent dead feeds from hanging the GitHub Action
                     parsed = feedparser.parse(feed_info['url'])
                     feed_node = {"name": feed_info['name'], "articles": []}
                     
@@ -60,7 +74,7 @@ def fetch_all_signals():
                             date_val = entry.updated
                             
                         # Extract description safely
-                        desc = entry.get('summary', entry.get('description', 'NO_DESCRIPTION_AVAILABLE'))
+                        desc = entry.get('summary', entry.get('description', 'NO_DESCRIPTION_AVAILABLE_DECRYPT_VIA_RAW_SOURCE'))
                         
                         feed_node["articles"].append({
                             "id": f"GS-{hash(entry.link) % 100000}",
