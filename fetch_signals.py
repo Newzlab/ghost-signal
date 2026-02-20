@@ -1,4 +1,5 @@
 import feedparser
+import requests
 import json
 import re
 import os
@@ -9,17 +10,17 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 from time import mktime
 
-# --- CONFIGURATION: THE SOURCE TREE ---
+# --- CONFIGURATION: THE SOURCE TREE (FORTIFIED) ---
 MASTER_CONFIG = {
     "DEFENSE_SYSTEMS": {
         "UNMANNED_AUTONOMY": [
             {"name": "SHIELD_AI", "url": "https://shield.ai/feed/"},
-            {"name": "ANDURIL_INDUSTRIES", "url": "https://www.anduril.com/news/feed/"}
+            {"name": "C4ISRNET_UNMANNED", "url": "https://www.c4isrnet.com/arc/outboundfeeds/rss/category/unmanned/"}
         ],
         "GOVERNMENT_DECKS": [
-            {"name": "DARPA_WIRE", "url": "https://www.darpa.mil/news/rss"},
-            {"name": "IARPA_SIGNAL", "url": "https://www.iarpa.gov/newsroom?format=feed&type=rss"},
-            {"name": "AFRL_NODE", "url": "https://www.af.mil/RSS/"}
+            {"name": "DEFENSE_ONE_TECH", "url": "https://www.defenseone.com/rss/technology/"},
+            {"name": "AF_TOP_STORIES", "url": "https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx?PortalId=1&ModuleId=730&max=20"},
+            {"name": "DEFENSE_NEWS", "url": "https://www.defensenews.com/arc/outboundfeeds/rss/"}
         ],
         "RESEARCH_LABS": [
             {"name": "MIT_LINCOLN_LAB", "url": "https://www.ll.mit.edu/news/rss.xml"},
@@ -47,12 +48,17 @@ MASTER_CONFIG = {
     }
 }
 
+# The "Disguise": Makes the script look like a standard Google Chrome browser
+HEADERS = {
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+    'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+}
+
 def clean_summary(text):
     clean = re.sub(r'<[^>]+>', '', text)
     return clean[:400] + "..." if len(clean) > 400 else clean
 
 def dispatch_daily_brief(recent_articles):
-    """Compiles and sends the 24-hour intel report via email."""
     sender = os.environ.get("SMTP_USER")
     password = os.environ.get("SMTP_PASS")
     receiver = os.environ.get("SMTP_TO")
@@ -91,7 +97,6 @@ def dispatch_daily_brief(recent_articles):
     msg.attach(MIMEText(html_body, "html"))
 
     try:
-        # Assuming Gmail SMTP. Adjust if using SendGrid, etc.
         server = smtplib.SMTP("smtp.gmail.com", 587)
         server.starttls()
         server.login(sender, password)
@@ -115,11 +120,15 @@ def fetch_all_signals(send_email=False):
             for feed_info in feeds:
                 print(f"POLLING_SOURCE: {feed_info['name']}...")
                 try:
-                    parsed = feedparser.parse(feed_info['url'])
+                    # Request the feed using our fake browser identity
+                    response = requests.get(feed_info['url'], headers=HEADERS, timeout=15)
+                    response.raise_for_status() # Check for HTTP errors
+                    
+                    # Parse the raw text content rather than relying on feedparser to do the network request
+                    parsed = feedparser.parse(response.content)
                     feed_node = {"name": feed_info['name'], "articles": []}
                     
                     for entry in parsed.entries[:15]:
-                        # Handle Date Extraction
                         date_val = datetime.now().strftime("%Y.%m.%d")
                         is_recent = False
                         
@@ -138,11 +147,10 @@ def fetch_all_signals(send_email=False):
                             "description": clean_desc,
                             "source_url": entry.link,
                             "timestamp": date_val,
-                            "feed_name": feed_info['name'] # Saved for the email loop
+                            "feed_name": feed_info['name']
                         }
                         
                         feed_node["articles"].append(article_data)
-                        
                         if is_recent:
                             recent_articles.append(article_data)
                     
@@ -153,12 +161,10 @@ def fetch_all_signals(send_email=False):
             industry_node["categories"].append(category_node)
         tree["industries"].append(industry_node)
 
-    # Save to UI
     with open("signals.js", "w", encoding="utf-8") as f:
         f.write(f"const signalTree = {json.dumps(tree, indent=4)};\n")
     print("UPLINK_COMPLETE: Data tree generated.")
 
-    # Trigger Email if requested
     if send_email:
         dispatch_daily_brief(recent_articles)
 
