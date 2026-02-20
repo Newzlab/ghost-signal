@@ -1,9 +1,15 @@
 import feedparser
 import json
 import re
-from datetime import datetime
+import os
+import smtplib
+import argparse
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+from datetime import datetime, timedelta
+from time import mktime
 
-# --- CONFIGURATION: THE SOURCE TREE (EXPANDED) ---
+# --- CONFIGURATION: THE SOURCE TREE ---
 MASTER_CONFIG = {
     "DEFENSE_SYSTEMS": {
         "UNMANNED_AUTONOMY": [
@@ -42,12 +48,63 @@ MASTER_CONFIG = {
 }
 
 def clean_summary(text):
-    """Removes HTML tags and truncates to 400 characters for the UI."""
     clean = re.sub(r'<[^>]+>', '', text)
     return clean[:400] + "..." if len(clean) > 400 else clean
 
-def fetch_all_signals():
+def dispatch_daily_brief(recent_articles):
+    """Compiles and sends the 24-hour intel report via email."""
+    sender = os.environ.get("SMTP_USER")
+    password = os.environ.get("SMTP_PASS")
+    receiver = os.environ.get("SMTP_TO")
+
+    if not all([sender, password, receiver]):
+        print("SYSTEM_WARNING: Missing SMTP credentials in GitHub Secrets. Email aborted.")
+        return
+
+    if not recent_articles:
+        print("NO_NEW_SIGNALS: Skipping email dispatch.")
+        return
+
+    msg = MIMEMultipart("alternative")
+    msg["Subject"] = f"GHOST SIGNAL // Daily Intel Brief ({datetime.now().strftime('%Y.%m.%d')})"
+    msg["From"] = sender
+    msg["To"] = receiver
+
+    html_body = f"""
+    <html>
+      <body style="font-family: Arial, sans-serif; background-color: #111; color: #eee; padding: 20px;">
+        <h2 style="color: #FF5500; border-bottom: 1px solid #FF5500; padding-bottom: 10px;">GHOST SIGNAL // 24-HOUR DECRYPT</h2>
+        <p>The following high-priority signals were intercepted in the last 24 hours:</p>
+    """
+
+    for art in recent_articles:
+        html_body += f"""
+        <div style="margin-bottom: 25px; border-left: 3px solid #FF5500; padding-left: 15px;">
+            <div style="font-size: 12px; color: #FF5500; font-weight: bold;">NODE: {art['feed_name']}</div>
+            <div style="font-size: 16px; font-weight: bold; margin: 5px 0;">{art['title']}</div>
+            <div style="font-size: 14px; color: #aaa; margin-bottom: 10px;">{art['description']}</div>
+            <a href="{art['source_url']}" style="color: #FF5500; text-decoration: none; font-size: 12px; border: 1px solid #FF5500; padding: 5px 10px; display: inline-block;">ACCESS RAW DATA</a>
+        </div>
+        """
+
+    html_body += "</body></html>"
+    msg.attach(MIMEText(html_body, "html"))
+
+    try:
+        # Assuming Gmail SMTP. Adjust if using SendGrid, etc.
+        server = smtplib.SMTP("smtp.gmail.com", 587)
+        server.starttls()
+        server.login(sender, password)
+        server.sendmail(sender, receiver, msg.as_string())
+        server.quit()
+        print("UPLINK_SUCCESS: Daily Briefing Dispatched.")
+    except Exception as e:
+        print(f"MAILER_ERROR: {e}")
+
+def fetch_all_signals(send_email=False):
     tree = {"industries": []}
+    recent_articles = []
+    time_limit = datetime.now() - timedelta(days=1)
 
     for ind_name, categories in MASTER_CONFIG.items():
         industry_node = {"name": ind_name, "categories": []}
@@ -57,32 +114,37 @@ def fetch_all_signals():
             
             for feed_info in feeds:
                 print(f"POLLING_SOURCE: {feed_info['name']}...")
-                
                 try:
-                    # Timeout added to prevent dead feeds from hanging the GitHub Action
                     parsed = feedparser.parse(feed_info['url'])
                     feed_node = {"name": feed_info['name'], "articles": []}
                     
-                    # Limit to the latest 15 articles per feed to keep JSON size manageable
                     for entry in parsed.entries[:15]:
-                        
-                        # Extract the best available date
+                        # Handle Date Extraction
                         date_val = datetime.now().strftime("%Y.%m.%d")
-                        if hasattr(entry, 'published'):
-                            date_val = entry.published
-                        elif hasattr(entry, 'updated'):
-                            date_val = entry.updated
-                            
-                        # Extract description safely
-                        desc = entry.get('summary', entry.get('description', 'NO_DESCRIPTION_AVAILABLE_DECRYPT_VIA_RAW_SOURCE'))
+                        is_recent = False
                         
-                        feed_node["articles"].append({
+                        if hasattr(entry, 'published_parsed') and entry.published_parsed:
+                            entry_dt = datetime.fromtimestamp(mktime(entry.published_parsed))
+                            date_val = entry_dt.strftime("%Y.%m.%d")
+                            if entry_dt >= time_limit:
+                                is_recent = True
+                        
+                        desc = entry.get('summary', entry.get('description', 'NO_DESCRIPTION_AVAILABLE'))
+                        clean_desc = clean_summary(desc)
+                        
+                        article_data = {
                             "id": f"GS-{hash(entry.link) % 100000}",
                             "title": entry.title.upper(),
-                            "description": clean_summary(desc),
+                            "description": clean_desc,
                             "source_url": entry.link,
-                            "timestamp": date_val
-                        })
+                            "timestamp": date_val,
+                            "feed_name": feed_info['name'] # Saved for the email loop
+                        }
+                        
+                        feed_node["articles"].append(article_data)
+                        
+                        if is_recent:
+                            recent_articles.append(article_data)
                     
                     category_node["feeds"].append(feed_node)
                 except Exception as e:
@@ -91,11 +153,18 @@ def fetch_all_signals():
             industry_node["categories"].append(category_node)
         tree["industries"].append(industry_node)
 
-    # Save directly to signals.js for the frontend to consume
+    # Save to UI
     with open("signals.js", "w", encoding="utf-8") as f:
         f.write(f"const signalTree = {json.dumps(tree, indent=4)};\n")
-    
-    print("UPLINK_COMPLETE: Hierarchical data tree generated successfully.")
+    print("UPLINK_COMPLETE: Data tree generated.")
+
+    # Trigger Email if requested
+    if send_email:
+        dispatch_daily_brief(recent_articles)
 
 if __name__ == "__main__":
-    fetch_all_signals()
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--email", action="store_true", help="Send the daily briefing email")
+    args = parser.parse_args()
+    
+    fetch_all_signals(send_email=args.email)
