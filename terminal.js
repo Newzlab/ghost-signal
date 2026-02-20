@@ -1,15 +1,29 @@
-/* --- GHOST SIGNAL | NAVIGATION ENGINE v4.4 --- */
+/* --- GHOST SIGNAL | NAVIGATION ENGINE v4.5 --- */
 
 let navStack = []; 
 
 window.onload = () => {
     console.log("TERMINAL_UPLINK: Status Stable.");
+    
+    // 1. Set the initial "Root" state in the browser's history
+    history.replaceState({ level: "ROOT" }, "");
+
     if (typeof signalTree !== 'undefined') {
         renderLevel("INDUSTRY", signalTree.industries);
     } else {
         console.error("DATA_ERROR: signalTree not found.");
     }
 };
+
+// --- 2. THE BROWSER "BACK" BUTTON INTERCEPTOR ---
+// This listens for physical mouse back buttons or browser back arrows
+window.addEventListener('popstate', (event) => {
+    if (navStack.length > 0) {
+        // If we are deep in a menu, pop the stack and render the previous level
+        const prev = navStack.pop();
+        renderLevel(prev.type, prev.data);
+    }
+});
 
 function renderLevel(type, items) {
     const container = document.getElementById('vault-content');
@@ -25,22 +39,20 @@ function renderLevel(type, items) {
         });
     }
     
-    // Inject the breadcrumb path into the sidebar title area
     title.innerHTML = `SIGNAL_DIRECTORY<br><div style="margin-top: 15px; font-size: 0.65rem; line-height: 1.4; letter-spacing: 1px; font-family: 'Orbitron';">${breadcrumb}</div>`;
-    
     container.innerHTML = '';
 
-    // --- 1. THE ACTION PROMPT (Top of List) ---
+    // --- THE ACTION PROMPT (Top of List) ---
     const selectPrompt = document.createElement('div');
     selectPrompt.className = 'vault-item';
     selectPrompt.style.color = "var(--orange)";
     selectPrompt.style.fontWeight = "700";
-    selectPrompt.style.cursor = "default"; // Not clickable
-    selectPrompt.style.borderBottom = "1px dashed var(--orange)"; // Visual separation
+    selectPrompt.style.cursor = "default";
+    selectPrompt.style.borderBottom = "1px dashed var(--orange)";
     selectPrompt.innerHTML = `> SELECT_${type}`;
     container.appendChild(selectPrompt);
 
-    // --- 2. THE DATA LIST ---
+    // --- THE DATA LIST ---
     items.forEach(item => {
         const div = document.createElement('div');
         div.className = 'vault-item';
@@ -49,9 +61,13 @@ function renderLevel(type, items) {
         
         div.onclick = () => {
             if (type === "INDUSTRY") {
+                // 3. Push a fake "page" to the browser history
+                history.pushState({ level: "CATEGORY" }, "");
                 navStack.push({type: "INDUSTRY", data: items, label: item.name});
                 renderLevel("CATEGORY", item.categories);
             } else if (type === "CATEGORY") {
+                // 3. Push a fake "page" to the browser history
+                history.pushState({ level: "FEED" }, "");
                 navStack.push({type: "CATEGORY", data: items, label: item.name});
                 renderLevel("FEED", item.feeds);
             } else if (type === "FEED") {
@@ -61,31 +77,27 @@ function renderLevel(type, items) {
         container.appendChild(div);
     });
 
-    // --- 3. THE BACK BUTTON (Bottom of List) ---
+    // --- THE BACK BUTTON (Bottom of List) ---
     if (navStack.length > 0) {
         const backBtn = document.createElement('div');
         backBtn.className = 'vault-item back-btn';
         backBtn.style.color = "var(--orange)";
         backBtn.style.fontWeight = "700";
-        backBtn.style.marginTop = "10px"; // Give it slight separation from the list
+        backBtn.style.marginTop = "10px";
         backBtn.innerHTML = `<< RETURN_TO_PREVIOUS`;
-        backBtn.onclick = () => goBack();
+        
+        // 4. Update the UI button to trigger the native browser back function!
+        backBtn.onclick = () => history.back();
+        
         container.appendChild(backBtn);
     }
-}
-
-function goBack() {
-    const prev = navStack.pop();
-    renderLevel(prev.type, prev.data);
 }
 
 function renderArticleList(feed) {
     const descriptionArea = document.getElementById('active-description');
     
-    // Show the full path in the center stage header
     const fullPath = navStack.map(step => step.label).join(" // ");
     document.getElementById('label-type').innerText = fullPath;
-    
     document.getElementById('active-title').innerText = feed.name;
     
     let html = `<div class="article-list" style="text-align:left; margin-top:20px;">`;
