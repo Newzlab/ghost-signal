@@ -1,0 +1,36 @@
+name: GhostSignal Daily Briefing
+
+on:
+  schedule:
+    - cron: '0 14 * * *' # 14:00 UTC = 6:00 AM PST
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Install Dependencies
+        run: pip install feedparser requests
+        
+      - name: Run Decoder & Send Email
+        env:
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          SMTP_TO: ${{ secrets.SMTP_TO }}
+        run: python fetch_signals.py --email
+        
+      - name: Commit and Push
+        run: |
+          git config --global user.name 'GhostSignal-Bot'
+          git config --global user.email 'bot@ghostsignal.net'
+          git add signals.js
+          git commit -m "MORNING_BRIEF: $(date)" || echo "No changes"
+          git pull --rebase --autostash origin main
+          git push origin main
