@@ -1,4 +1,4 @@
-/* --- GHOST SIGNAL | CORE UI v4.2 --- */
+/* --- GHOST SIGNAL | CORE UI v4.3 (MOBILE CENTER PATCH) --- */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Orbitron:wght@400;700&display=swap');
 
 * { box-sizing: border-box; }
@@ -38,6 +38,11 @@ html, body {
     font-family: 'Montserrat', sans-serif; font-weight: 900; font-size: 1.4rem;
     color: var(--orange); text-shadow: 0 0 15px var(--orange-glow);
     cursor: pointer; animation: text-flicker 4s infinite;
+}
+
+.tagline {
+    font-weight: 300; font-size: 0.7rem; letter-spacing: 2px; 
+    margin-left: 12px; opacity: 0.6; color: #fff; display: inline-block;
 }
 
 .nav-trigger { 
@@ -120,9 +125,12 @@ html, body {
 
 /* --- MOBILE DUAL-DRAWER ENGINE --- */
 @media (max-width: 1024px) {
-    .system-header { padding: 0 20px; height: 60px; min-height: 60px; }
-    .site-title { font-size: 1.1rem; }
-    .nav-trigger { display: block; }
+    .system-header { padding: 0 15px; height: 60px; min-height: 60px; }
+    
+    /* MOBILE HEADER PERFECT CENTERING */
+    .site-title { font-size: 1.5rem; text-align: center; }
+    .tagline { display: none; } /* Hide sub-text */
+    .nav-trigger { display: block; width: 65px; text-align: center; } /* Equal widths ensure center balance */
 
     .console-wrapper { display: block; position: relative; }
     
