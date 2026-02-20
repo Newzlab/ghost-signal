@@ -1,11 +1,12 @@
-/* --- GHOST SIGNAL | NAVIGATION ENGINE v4.5 --- */
+/* --- GHOST SIGNAL | NAVIGATION ENGINE v4.6 --- */
 
 let navStack = []; 
+let currentFeedData = null; // Memory variable to hold the active feed
 
 window.onload = () => {
     console.log("TERMINAL_UPLINK: Status Stable.");
     
-    // 1. Set the initial "Root" state in the browser's history
+    // Set the initial "Root" state in the browser's history
     history.replaceState({ level: "ROOT" }, "");
 
     if (typeof signalTree !== 'undefined') {
@@ -15,11 +16,8 @@ window.onload = () => {
     }
 };
 
-// --- 2. THE BROWSER "BACK" BUTTON INTERCEPTOR ---
-// This listens for physical mouse back buttons or browser back arrows
 window.addEventListener('popstate', (event) => {
     if (navStack.length > 0) {
-        // If we are deep in a menu, pop the stack and render the previous level
         const prev = navStack.pop();
         renderLevel(prev.type, prev.data);
     }
@@ -42,7 +40,7 @@ function renderLevel(type, items) {
     title.innerHTML = `SIGNAL_DIRECTORY<br><div style="margin-top: 15px; font-size: 0.65rem; line-height: 1.4; letter-spacing: 1px; font-family: 'Orbitron';">${breadcrumb}</div>`;
     container.innerHTML = '';
 
-    // --- THE ACTION PROMPT (Top of List) ---
+    // --- THE ACTION PROMPT ---
     const selectPrompt = document.createElement('div');
     selectPrompt.className = 'vault-item';
     selectPrompt.style.color = "var(--orange)";
@@ -61,12 +59,10 @@ function renderLevel(type, items) {
         
         div.onclick = () => {
             if (type === "INDUSTRY") {
-                // 3. Push a fake "page" to the browser history
                 history.pushState({ level: "CATEGORY" }, "");
                 navStack.push({type: "INDUSTRY", data: items, label: item.name});
                 renderLevel("CATEGORY", item.categories);
             } else if (type === "CATEGORY") {
-                // 3. Push a fake "page" to the browser history
                 history.pushState({ level: "FEED" }, "");
                 navStack.push({type: "CATEGORY", data: items, label: item.name});
                 renderLevel("FEED", item.feeds);
@@ -77,7 +73,7 @@ function renderLevel(type, items) {
         container.appendChild(div);
     });
 
-    // --- THE BACK BUTTON (Bottom of List) ---
+    // --- THE BACK BUTTON ---
     if (navStack.length > 0) {
         const backBtn = document.createElement('div');
         backBtn.className = 'vault-item back-btn';
@@ -85,15 +81,13 @@ function renderLevel(type, items) {
         backBtn.style.fontWeight = "700";
         backBtn.style.marginTop = "10px";
         backBtn.innerHTML = `<< RETURN_TO_PREVIOUS`;
-        
-        // 4. Update the UI button to trigger the native browser back function!
         backBtn.onclick = () => history.back();
-        
         container.appendChild(backBtn);
     }
 }
 
 function renderArticleList(feed) {
+    currentFeedData = feed; // Save the feed to memory for the escape hatch
     const descriptionArea = document.getElementById('active-description');
     
     const fullPath = navStack.map(step => step.label).join(" // ");
@@ -118,14 +112,20 @@ function renderArticleList(feed) {
 function viewArticle(blob) {
     const art = JSON.parse(decodeURIComponent(atob(blob)));
     document.getElementById('active-title').innerText = art.title;
+    
+    // Injected sticky button at the top of the article text
     document.getElementById('active-description').innerHTML = `
+        <div class="sticky-back-btn" onclick="renderArticleList(currentFeedData)">
+            << RETURN_TO_FEED_LIST
+        </div>
         <div style="font-size:0.7rem; color:var(--orange); margin-bottom:15px; border-bottom:1px solid var(--border); padding-bottom:5px;">
             ORIGIN: ${art.timestamp}
         </div>
-        <div class="decrypted-text" style="line-height:1.6;">${art.description}</div>
+        <div class="decrypted-text" style="line-height:1.6; text-align: left;">${art.description}</div>
     `;
+    
     document.getElementById('player-zone').innerHTML = `
-        <button class="action-btn" onclick="window.open('${art.source_url}', '_blank')" style="width:100%">ACCESS_RAW_DATA</button>
+        <button class="action-btn" onclick="window.open('${art.source_url}', '_blank')" style="width:100%; padding: 15px;">ACCESS_RAW_DATA</button>
     `;
 }
 
