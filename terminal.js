@@ -1,4 +1,4 @@
-/* --- GHOST SIGNAL | NAVIGATION ENGINE v4.2 --- */
+/* --- GHOST SIGNAL | NAVIGATION ENGINE v4.3 --- */
 
 let navStack = []; 
 
@@ -16,14 +16,29 @@ function renderLevel(type, items) {
     const title = document.getElementById('vault-title');
     if (!container) return;
 
-    title.innerText = `DIR // ${type}`;
+    // --- BREADCRUMB LOGIC (The "Where am I" Fix) ---
+    let breadcrumb = `<div style="color: #fff; opacity: 0.5;">// ROOT_DIRECTORY</div>`;
+    if (navStack.length > 0) {
+        breadcrumb = "";
+        navStack.forEach((step) => {
+            breadcrumb += `<div style="color: #fff; opacity: 0.5; margin-top: 5px;">> ${step.label}</div>`;
+        });
+        // Highlights the current level you are selecting
+        breadcrumb += `<div style="color: var(--orange); margin-top: 5px;">> SELECT_${type}</div>`;
+    }
+    
+    // Inject the breadcrumb path into the sidebar title area
+    title.innerHTML = `SIGNAL_DIRECTORY<br><div style="margin-top: 15px; font-size: 0.65rem; line-height: 1.4; letter-spacing: 1px; font-family: 'Orbitron';">${breadcrumb}</div>`;
+    
     container.innerHTML = '';
 
+    // Add BACK button
     if (navStack.length > 0) {
         const backBtn = document.createElement('div');
         backBtn.className = 'vault-item back-btn';
         backBtn.style.color = "var(--orange)";
-        backBtn.innerHTML = `<< BACK`;
+        backBtn.style.fontWeight = "700";
+        backBtn.innerHTML = `<< RETURN_TO_PREVIOUS`;
         backBtn.onclick = () => goBack();
         container.appendChild(backBtn);
     }
@@ -36,10 +51,11 @@ function renderLevel(type, items) {
         
         div.onclick = () => {
             if (type === "INDUSTRY") {
-                navStack.push({type: "INDUSTRY", data: items});
+                // We now save the "label" (name) so we can build the breadcrumb
+                navStack.push({type: "INDUSTRY", data: items, label: item.name});
                 renderLevel("CATEGORY", item.categories);
             } else if (type === "CATEGORY") {
-                navStack.push({type: "CATEGORY", data: items});
+                navStack.push({type: "CATEGORY", data: items, label: item.name});
                 renderLevel("FEED", item.feeds);
             } else if (type === "FEED") {
                 renderArticleList(item);
@@ -56,12 +72,15 @@ function goBack() {
 
 function renderArticleList(feed) {
     const descriptionArea = document.getElementById('active-description');
+    
+    // Show the full path in the center stage header
+    const fullPath = navStack.map(step => step.label).join(" // ");
+    document.getElementById('label-type').innerText = fullPath;
+    
     document.getElementById('active-title').innerText = feed.name;
-    document.getElementById('label-type').innerText = "FEED_STREAMS";
     
     let html = `<div class="article-list" style="text-align:left; margin-top:20px;">`;
     feed.articles.forEach(art => {
-        // Safe encoding for transport
         const blob = btoa(encodeURIComponent(JSON.stringify(art)));
         html += `
             <div class="vault-item" onclick="viewArticle('${blob}')" style="border:1px solid var(--border); margin-bottom:10px;">
@@ -72,8 +91,7 @@ function renderArticleList(feed) {
     html += `</div>`;
     descriptionArea.innerHTML = html;
     
-    // Close mobile nav if open
-    document.body.classList.remove('nav-open');
+    if (window.innerWidth <= 1024) document.body.classList.remove('nav-open');
 }
 
 function viewArticle(blob) {
