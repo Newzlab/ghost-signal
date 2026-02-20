@@ -11,25 +11,39 @@
 
     <header class="system-header">
         <div class="nav-trigger" onclick="toggleNav('left')">DIR_</div>
-        <div class="site-title" onclick="location.reload()">GHOST_SIGNAL <span class="tagline">// NEWZLAB_CONSTRUCT</span></div>
+        <div class="site-title" onclick="location.reload()">
+            GHOST_SIGNAL 
+            <span style="font-weight:300; font-size: 0.7rem; letter-spacing: 2px; margin-left: 12px; opacity: 0.6; color: #fff; display: inline-block;">// NEWZLAB_CONSTRUCT</span>
+        </div>
         <div class="nav-trigger" onclick="toggleNav('right')">SYS_</div>
     </header>
 
-    <div class="console-wrapper">
+    <div class="console-wrapper" id="console-node">
+        
         <aside class="hud-panel nav-computer" id="left-sidebar">
             <div id="vault-title">SIGNAL_DIRECTORY</div>
             <div id="vault-content" class="vault-container"></div>
-            <div class="system-logs">STATUS: UPLINK_STABLE</div>
+            <div class="system-logs">
+                MODE: DEEP_PACKET_INSPECTION<br>
+                AUTH: NEWZLAB_ARCHITECT<br>
+                STATUS: UPLINK_STABLE
+            </div>
         </aside>
 
         <main class="hud-panel content-terminal" id="center-stage-anchor">
             <div id="terminal-view-area">
-                <span id="label-type">AWAITING_COORDINATES</span>
-                <h1 id="active-title">INITIALIZING...</h1>
+                <span id="label-type" style="font-size: 0.7rem; letter-spacing: 6px; text-transform: uppercase; color: var(--orange);">AWAITING_COORDINATES</span>
+                <h1 id="active-title" style="font-size: 2.5rem; margin: 15px 0; text-transform: uppercase; text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);">INITIALIZING...</h1>
+                
                 <div class="visualizer">
-                    <div class="v-bar"></div><div class="v-bar"></div><div class="v-bar"></div>
+                    <div class="v-bar"></div>
+                    <div class="v-bar" style="animation-delay: 0.2s"></div>
+                    <div class="v-bar" style="animation-delay: 0.4s"></div>
                 </div>
-                <div id="active-description">Select an industry node from the directory to begin deep-packet decryption.</div>
+                
+                <div id="active-description" style="opacity: 0.8; font-weight: 300; line-height: 1.8; margin-bottom: 30px;">
+                    Select an industry node from the directory to begin decryption sequence.
+                </div>
                 <div id="player-zone"></div>
             </div>
         </main>
@@ -38,21 +52,44 @@
             <div class="hub-section">
                 <div class="section-label">ATMOSPHERIC_UPLINK</div>
                 <audio id="bg-audio" loop>
+                   <source src="https://somafm.com/groovesalad256.pls" type="audio/x-scpls">
                    <source src="https://ice6.somafm.com/groovesalad-256-mp3" type="audio/mpeg">
                 </audio>
                 <div class="action-btn" id="play-trigger" onclick="toggleAudio()">INITIALIZE_AUDIO</div>
             </div>
 
-            <div class="hub-section">
+            <div class="hub-section" style="margin-top: 30px;">
                 <div class="section-label">SYSTEM_LINKS</div>
-                <div class="action-btn" onclick="openManifesto()">PROTOCOL_MANIFESTO</div>
-                <div class="action-btn" onclick="window.open('https://github.com/your-repo', '_blank')">SOURCE_CODE</div>
+                <div class="action-btn" onclick="document.getElementById('manifesto-overlay').style.display = 'flex'">PROTOCOL_MANIFESTO</div>
+                <div class="action-btn" onclick="window.location.href='mailto:support@ghostsignal.net'">CONTACT_UPLINK</div>
             </div>
 
             <div class="footer-module">
-                <div class="copyright">&copy; 2026 GHOST SIGNAL<br>NODE: GITHUB_PAGES</div>
+                <div class="copyright">
+                    &copy; 2026 GHOST SIGNAL<br>
+                    INFRASTRUCTURE: GITHUB_NODE<br>
+                    LOGIC: NEWZLAB_CONSTRUCT
+                </div>
             </div>
         </aside>
+
+    </div>
+
+    <div id="manifesto-overlay" class="overlay" onclick="this.style.display='none'">
+        <div class="overlay-content" onclick="event.stopPropagation()">
+            <div class="overlay-header" style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--orange); padding-bottom: 10px; margin-bottom: 20px;">
+                <span style="color: var(--orange); font-size: 0.8rem; font-weight: 700; letter-spacing: 2px;">[INTERNAL_MEMO // REDACTED]</span>
+                <button class="action-btn" onclick="document.getElementById('manifesto-overlay').style.display='none'" style="margin: 0; padding: 5px 10px; border: none;">[X] CLOSE</button>
+            </div>
+            <div class="overlay-text" style="line-height: 1.6;">
+                <h2 style="color: var(--orange); font-family: 'Orbitron'; margin-top: 0;">PROTOCOL: GHOST_SIGNAL</h2>
+                <p>The network was established in late 2025 as a response to the <strong>Great Algorithm Smoothing</strong>. While the corporate nets were busy filtering reality for comfort, we built the Ghost.</p>
+                <p>> <strong>STATUS:</strong> Decentralized. AI-Native. <br>
+                   > <strong>PURPOSE:</strong> Tracking the trajectory toward the Singularity without the "Dystopian Buffer."</p>
+                <p>The <strong>Newzlab Construct</strong> isn't just a news aggregator. It is a digital sieve designed to catch the signals of tomorrow before they are "corrected" by the legacy media conglomerates. You are now tuned into the frequency of the future.</p>
+                <p style="opacity: 0.5; font-size: 0.7rem; margin-top: 30px;">// END_OF_TRANSMISSION</p>
+            </div>
+        </div>
     </div>
 
     <script src="signals.js"></script>
