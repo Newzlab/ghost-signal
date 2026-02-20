@@ -1,4 +1,4 @@
-/* --- GHOST SIGNAL | CORE UI v4.4 (STICKY ESCAPE PATCH) --- */
+/* --- GHOST SIGNAL | CORE UI v4.5 (READ STATE PATCH) --- */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Orbitron:wght@400;700&display=swap');
 
 * { box-sizing: border-box; }
@@ -70,6 +70,7 @@ html, body {
 #vault-title {
     font-weight: 700; font-size: 0.75rem; color: var(--orange);
     margin-bottom: 20px; letter-spacing: 3px; text-transform: uppercase;
+    cursor: pointer; /* Makes root clickable */
 }
 
 .section-label {
@@ -84,6 +85,17 @@ html, body {
     cursor: pointer; transition: 0.2s; line-height: 1.4;
 }
 .vault-item:hover { background: rgba(255,85,0,0.1); color: var(--orange); padding-left: 15px; }
+
+/* --- READ ARTICLE STATE --- */
+.read-article {
+    opacity: 0.45;
+    border-color: rgba(255, 255, 255, 0.05) !important;
+    filter: grayscale(100%);
+}
+.read-article:hover {
+    opacity: 0.8;
+    filter: grayscale(0%);
+}
 
 /* --- ESCAPE HATCH BUTTON --- */
 .sticky-back-btn {
