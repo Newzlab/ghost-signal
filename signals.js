@@ -10,7 +10,7 @@ const signalTree = {
                             "name": "SHIELD_AI",
                             "articles": [
                                 {
-                                    "id": "GS-712",
+                                    "id": "GS-35618",
                                     "title": "SHIELD AI DEMONSTRATES AI-ENABLED AUTONOMY FOR FUTURE COLLABORATIVE COMBAT AIRCRAFT",
                                     "description": "WASHINGTON (February 19, 2026) \u2013 Shield AI, in partnership with the Navy\u2019s Strike Planning and Execution (PMA-281) and Aerial Targets (PMA-208) programs, successfully demonstrated Hivemind, its AI-enabled mission autonomy software, autonomously flying two Navy BQM-177A aircraft during a December flight test at Point Mugu Sea Range in California. The flight served as the capstone event [&#8230;]",
                                     "source_url": "https://shield.ai/shield-ai-demonstrates-ai-enabled-autonomy-for-future-collaborative-combat-aircraft/",
@@ -18,7 +18,7 @@ const signalTree = {
                                     "feed_name": "SHIELD_AI"
                                 },
                                 {
-                                    "id": "GS-82752",
+                                    "id": "GS-98658",
                                     "title": "SHIELD AI CEO GARY STEELE: WE ARE PUTTING AN AI PILOT ON THESE AIRCRAFT",
                                     "description": "",
                                     "source_url": "https://shield.ai/shield-ai-ceo-gary-steele-we-are-putting-an-ai-pilot-on-these-aircraft/",
@@ -26,7 +26,7 @@ const signalTree = {
                                     "feed_name": "SHIELD_AI"
                                 },
                                 {
-                                    "id": "GS-79270",
+                                    "id": "GS-14691",
                                     "title": "SHIELD AI SELECTED AS MISSION AUTONOMY PROVIDER FOR THE U.S. AIR FORCE COLLABORATIVE COMBAT AIRCRAFT PROGRAM",
                                     "description": "Hivemind autonomy software will fly aboard Anduril\u2019s Fury (YFQ-44A)\u00a0 WASHINGTON\u00a0(February\u00a013, 2026) \u2014 Shield AI, the deep\u2011tech company building state\u2011of\u2011the\u2011art autonomy software products and\u00a0aircraft, today announced its selection as a mission autonomy provider supporting the U.S. Air Force Collaborative Combat Aircraft (CCA) program. Shield AI was selected following a competitive evaluation to s...",
                                     "source_url": "https://shield.ai/shield-ai-selected-as-mission-autonomy-provider-for-the-u-s-air-force-collaborative-combat-aircraft-program/",
@@ -34,7 +34,7 @@ const signalTree = {
                                     "feed_name": "SHIELD_AI"
                                 },
                                 {
-                                    "id": "GS-330",
+                                    "id": "GS-15629",
                                     "title": "AIR FORCE CCA MISSION AUTONOMY PHASE BEGINS WITH SOFTWARE FROM COLLINS AEROSPACE AND SHIELD AI",
                                     "description": "",
                                     "source_url": "https://shield.ai/air-force-cca-mission-autonomy-phase-begins-with-software-from-collins-aerospace-and-shield-ai/",
@@ -42,7 +42,7 @@ const signalTree = {
                                     "feed_name": "SHIELD_AI"
                                 },
                                 {
-                                    "id": "GS-3243",
+                                    "id": "GS-76157",
                                     "title": "SHIELD AI SIGNS CONTRACT WITH TAIWAN\u2019S NATIONAL CHUNG-SHAN INSTITUTE OF SCIENCE AND TECHNOLOGY TO ACCELERATE AND INDIGENIZE TAIWAN-DEVELOPED AI PILOTS",
                                     "description": "TAIPEI (February 11, 2026) \u2014 Shield AI announced today that it has signed a contract with Taiwan\u2019s National Chung-Shan Institute of Science and Technology (NCSIST) to advance the development, demonstration, and deployment of AI-piloted unmanned systems. The collaboration will integrate Shield AI\u2019s Hivemind platform into NCSIST\u2019s intelligent unmanned systems, supporting both software development an...",
                                     "source_url": "https://shield.ai/shield-ai-signs-contract-with-taiwans-national-chung-shan-institute-of-science-and-technology-to-accelerate-and-indigenize-taiwan-developed-ai-pilots/",
@@ -50,7 +50,7 @@ const signalTree = {
                                     "feed_name": "SHIELD_AI"
                                 },
                                 {
-                                    "id": "GS-15229",
+                                    "id": "GS-78307",
                                     "title": "ARMENIA BOOSTS MILITARY WITH US V-BAT DRONES",
                                     "description": "",
                                     "source_url": "https://shield.ai/armenia-boosts-military-with-us-v-bat-drones/",
@@ -58,7 +58,7 @@ const signalTree = {
                                     "feed_name": "SHIELD_AI"
                                 },
                                 {
-                                    "id": "GS-98556",
+                                    "id": "GS-61540",
                                     "title": "SHIELD AI, REPUBLIC OF SINGAPORE AIR FORCE, AND DEFENCE SCIENCE AND TECHNOLOGY AGENCY EXPAND PARTNERSHIP TO PROGRESSIVELY FIELD AUTONOMY CAPABILITIES",
                                     "description": "SINGAPORE (February 5, 2026) \u2014 Shield AI today announced the expansion of their partnership with Singapore\u2019s Defence Science and Technology Agency (DSTA) and the Republic of Singapore Air Force (RSAF) to co-develop and proliferate Artificial Intelligence (AI) across a wider range of autonomous drone applications using Shield AI\u2019s Hivemind software development kit (SDK). Building on [&#8230;]",
                                     "source_url": "https://shield.ai/shield-ai-republic-of-singapore-air-force-and-defence-science-and-technology-agency-expand-partnership-to-progressively-field-autonomy-capabilities/",
@@ -66,7 +66,7 @@ const signalTree = {
                                     "feed_name": "SHIELD_AI"
                                 },
                                 {
-                                    "id": "GS-25713",
+                                    "id": "GS-49137",
                                     "title": "TO WHAT EXTENT SHOULD AUTOMATION BE USED IN WARFARE? DEFENSE TECH STARTUP SHIELD AI DISCUSSES",
                                     "description": "",
                                     "source_url": "https://shield.ai/to-what-extent-should-automation-be-used-in-warfare-defense-tech-startup-shield-ai-discusses/",
@@ -74,7 +74,7 @@ const signalTree = {
                                     "feed_name": "SHIELD_AI"
                                 },
                                 {
-                                    "id": "GS-45036",
+                                    "id": "GS-62279",
                                     "title": "SHIELD AI AND ST ENGINEERING SIGN MOU TO BOOST NEXT-GENERATION AUTONOMOUS DEFENSE CAPABILITIES",
                                     "description": "SINGAPORE (February 4, 2026) \u2014 Shield AI and ST Engineering signed a Memorandum of Understanding (MoU) at the Singapore Airshow to collaborate on advancing ST Engineering\u2019s next-generation autonomous solutions. Under the agreement, both companies will integrate Shield AI\u2019s Hivemind autonomy software across selected ST Engineering platforms to enhance autonomous performance. ST Engineering will als...",
                                     "source_url": "https://shield.ai/shield-ai-and-st-engineering-sign-mou-to-boost-next-generation-autonomous-defense-capabilities/",
@@ -82,7 +82,7 @@ const signalTree = {
                                     "feed_name": "SHIELD_AI"
                                 },
                                 {
-                                    "id": "GS-55996",
+                                    "id": "GS-14727",
                                     "title": "INDIAN ARMY TO PROCURE US FIRM\u2019S AUTONOMOUS V-BAT DRONES",
                                     "description": "",
                                     "source_url": "https://shield.ai/indian-army-to-procure-us-firms-autonomous-v-bat-drones/",
@@ -95,7 +95,7 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
-                                    "id": "GS-87147",
+                                    "id": "GS-87136",
                                     "title": "DRONES \u2018CHANGE EVERYTHING\u2019 ABOUT COMBINED ARMS COMBAT, US ARMY AVIATION CHIEF SAYS",
                                     "description": "The commanding general of the U.S. Army Aviation Center of Excellence discusses the impact of unmanned systems on U.S. Army aviation and combined arms.",
                                     "source_url": "https://www.c4isrnet.com/news/your-military/2026/02/20/drones-change-everything-about-combined-arms-combat-us-army-aviation-chief-says/",
@@ -103,7 +103,7 @@ const signalTree = {
                                     "feed_name": "C4ISRNET_UNMANNED"
                                 },
                                 {
-                                    "id": "GS-94721",
+                                    "id": "GS-9782",
                                     "title": "NATIONAL GUARD TEAM CLINCHES AWARD FOR CLAWED DRONE AT ARMY COMPETITION",
                                     "description": "Soldiers of the Army National Guard\u2019s 28th Infantry Division snagged the award for Best Innovation at the inaugural Best Drone Warfighter Competition.",
                                     "source_url": "https://www.c4isrnet.com/news/your-military/2026/02/20/national-guard-team-clinches-award-for-clawed-drone-at-army-competition/",
@@ -111,7 +111,7 @@ const signalTree = {
                                     "feed_name": "C4ISRNET_UNMANNED"
                                 },
                                 {
-                                    "id": "GS-89115",
+                                    "id": "GS-61917",
                                     "title": "HOW COMMERCIAL DRONES MAKE THE PENTAGON\u2019S \u2018BLUE UAS SELECT\u2019 LIST",
                                     "description": "For an off-the-shelf drone to be added to the Blue UAS list, it must pass rigorous testing and cyber security evaluations.",
                                     "source_url": "https://www.c4isrnet.com/news/pentagon-congress/2026/02/20/how-commercial-drones-make-the-pentagons-blue-uas-select-list/",
@@ -119,7 +119,7 @@ const signalTree = {
                                     "feed_name": "C4ISRNET_UNMANNED"
                                 },
                                 {
-                                    "id": "GS-95264",
+                                    "id": "GS-47916",
                                     "title": "US ARMY LETS SOLDIERS FLAUNT THEIR DRONE SKILLS IN FIRST-EVER COMPETITION",
                                     "description": "The event is in line with service plans to incorporate unmanned technology at every echelon of the force.",
                                     "source_url": "https://www.c4isrnet.com/news/your-military/2026/02/19/us-army-lets-soldiers-flaunt-their-drone-skills-in-first-ever-competition/",
@@ -127,7 +127,7 @@ const signalTree = {
                                     "feed_name": "C4ISRNET_UNMANNED"
                                 },
                                 {
-                                    "id": "GS-30164",
+                                    "id": "GS-80011",
                                     "title": "APACHE HELICOPTERS DOWNED DRONES IN AIR-TO-AIR COMBAT WITH 30MM PROXIMITY AMMO",
                                     "description": "Gunship pilots test-fired APEX munitions, designed to pulverize targets with shrapnel.",
                                     "source_url": "https://www.c4isrnet.com/news/your-military/2026/02/18/apache-helicopters-downed-drones-in-air-to-air-combat-with-30mm-proximity-ammo/",
@@ -135,7 +135,7 @@ const signalTree = {
                                     "feed_name": "C4ISRNET_UNMANNED"
                                 },
                                 {
-                                    "id": "GS-75723",
+                                    "id": "GS-11237",
                                     "title": "AUSTRALIA PREPARES FOR NEXT BATCH OF \u2018GHOST BAT\u2019 WARPLANE BUDDY DRONES",
                                     "description": "The Royal Australian Air Force is on track to have 10 operational Ghost Bat collaborative combat aircraft by 2028.",
                                     "source_url": "https://www.c4isrnet.com/global/asia-pacific/2026/02/17/australia-prepares-for-next-batch-of-ghost-bat-warplane-buddy-drones/",
@@ -143,7 +143,7 @@ const signalTree = {
                                     "feed_name": "C4ISRNET_UNMANNED"
                                 },
                                 {
-                                    "id": "GS-64875",
+                                    "id": "GS-95237",
                                     "title": "US ARMY TO DEBUT FPV BUMBLEBEE V2 DRONE INTERCEPTOR NEXT MONTH",
                                     "description": "The U.S. Army\u2019s Global Response Force will begin assessing the Bumblebee V2 drone interceptor in March following a $5.2 million contract inked in January.",
                                     "source_url": "https://www.c4isrnet.com/news/your-military/2026/02/13/us-army-to-debut-fpv-bumblebee-v2-drone-interceptor-next-month/",
@@ -151,7 +151,7 @@ const signalTree = {
                                     "feed_name": "C4ISRNET_UNMANNED"
                                 },
                                 {
-                                    "id": "GS-89925",
+                                    "id": "GS-47890",
                                     "title": "PENTAGON WANTS COUNTER-DRONE SENSORS TO PROTECT US INFRASTRUCTURE \u2014 AND FAST",
                                     "description": "\u201cThe urgency of the threat\u201d is prompting the Defense Innovation Unit to solicit products in time for a spring 2026 demonstration.",
                                     "source_url": "https://www.c4isrnet.com/news/pentagon-congress/2026/02/13/pentagon-wants-counter-drone-sensors-to-protect-us-infrastructure-and-fast/",
@@ -159,7 +159,7 @@ const signalTree = {
                                     "feed_name": "C4ISRNET_UNMANNED"
                                 },
                                 {
-                                    "id": "GS-4762",
+                                    "id": "GS-42311",
                                     "title": "CHINA\u2019S NEW MARITIME COMBAT DRONE POISED FOR GLOBAL SUCCESS: ANALYSTS",
                                     "description": "Beijing is positioning itself as a drone provider for certain countries, while the country's next-gen fighter jet faces more uncertain export prospects.",
                                     "source_url": "https://www.c4isrnet.com/global/asia-pacific/2026/02/12/chinas-new-maritime-combat-drone-poised-for-global-success-analysts/",
@@ -167,7 +167,7 @@ const signalTree = {
                                     "feed_name": "C4ISRNET_UNMANNED"
                                 },
                                 {
-                                    "id": "GS-92898",
+                                    "id": "GS-73114",
                                     "title": "LOCKHEED UNVEILS LAMPREY UNDERWATER DRONE THAT CAN ATTACH TO SHIPS",
                                     "description": "The Lamprey Multi\u2011Mission Autonomous Undersea Vehicle can attach itself to ships, launch torpedoes and deploy airborne drones from the surface.",
                                     "source_url": "https://www.c4isrnet.com/unmanned/2026/02/10/lockheeds-unveils-lamprey-undersea-drone-that-can-attach-to-ships/",
@@ -175,7 +175,7 @@ const signalTree = {
                                     "feed_name": "C4ISRNET_UNMANNED"
                                 },
                                 {
-                                    "id": "GS-52101",
+                                    "id": "GS-21655",
                                     "title": "UKRAINE SEEKS GOD MODE WITH NEW CONTROL APP FOR DRONE WAR",
                                     "description": "Mission Control feeds directly into Ukraine\u2019s performance-based \u201cgamification\u201d model, where drone units earn points for verified kills.",
                                     "source_url": "https://www.c4isrnet.com/unmanned/2026/02/09/ukraine-seeks-god-mode-with-new-control-app-for-drone-war/",
@@ -183,7 +183,7 @@ const signalTree = {
                                     "feed_name": "C4ISRNET_UNMANNED"
                                 },
                                 {
-                                    "id": "GS-82923",
+                                    "id": "GS-89172",
                                     "title": "US MARINE DESIGNS CORPS\u2019 FIRST NDAA-COMPLIANT 3D-PRINTED DRONE",
                                     "description": "Sgt. Henry David Volpe designed the Marine Corps\u2019 first National Defense Authorizing Act-compliant 3D-printed drone.",
                                     "source_url": "https://www.c4isrnet.com/news/your-military/2026/02/06/us-marine-designs-corps-first-ndaa-compliant-3d-printed-drone/",
@@ -191,7 +191,7 @@ const signalTree = {
                                     "feed_name": "C4ISRNET_UNMANNED"
                                 },
                                 {
-                                    "id": "GS-12847",
+                                    "id": "GS-33861",
                                     "title": "SHIELD AI, ST ENGINEERING JOIN FORCES ON FINE-TUNING DRONE SWARMS",
                                     "description": "The companies will use artificial intelligence to optimize the interactions of drones with drones, and drones with humans.",
                                     "source_url": "https://www.c4isrnet.com/unmanned/2026/02/06/shield-ai-st-engineering-join-forces-on-fine-tuning-drone-swarms/",
@@ -199,7 +199,7 @@ const signalTree = {
                                     "feed_name": "C4ISRNET_UNMANNED"
                                 },
                                 {
-                                    "id": "GS-78483",
+                                    "id": "GS-24626",
                                     "title": "\u2018NO STRANGERS TO DRONES\u2019: SINGAPORE EYES UNMANNED SURGE WITH ISRAELI TECH",
                                     "description": "Israel's Aeronautics Group and Elbit Systems were center-stage at the static display of this year\u2019s Singapore Airshow.",
                                     "source_url": "https://www.c4isrnet.com/industry/techwatch/2026/02/05/no-strangers-to-drones-singapore-eyes-unmanned-surge-with-israeli-tech/",
@@ -207,7 +207,7 @@ const signalTree = {
                                     "feed_name": "C4ISRNET_UNMANNED"
                                 },
                                 {
-                                    "id": "GS-24391",
+                                    "id": "GS-96446",
                                     "title": "THE US ARMY IS SEEKING AUTONOMOUS DRONES TO CLEAN UP CHEMICAL WEAPONS",
                                     "description": "The Autonomous Decontamination System, or ADS, would scrub vehicles, critical infrastructure and key terrain while allowing troops to protect themselves.",
                                     "source_url": "https://www.c4isrnet.com/news/your-military/2026/02/03/the-us-army-is-seeking-autonomous-drones-to-clean-up-chemical-weapons/",
@@ -225,7 +225,7 @@ const signalTree = {
                             "name": "DEFENSE_ONE_TECH",
                             "articles": [
                                 {
-                                    "id": "GS-22401",
+                                    "id": "GS-50491",
                                     "title": "NEW ARMY OFFICE AIMS TO QUICKLY DEVELOP AND SCALE SOLDIER IDEAS",
                                     "description": "Pathway for Innovation and Technology will connect rapid-acquisition hubs to program chiefs.",
                                     "source_url": "https://www.defenseone.com/technology/2026/02/new-army-office-aims-quickly-develop-and-scale-soldier-ideas/411587/",
@@ -233,7 +233,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_ONE_TECH"
                                 },
                                 {
-                                    "id": "GS-18723",
+                                    "id": "GS-5991",
                                     "title": "MOVE OVER, BEST RANGER; THE ARMY\u2019S LOOKING FOR THE BEST DRONE PILOTS",
                                     "description": "The Huntsville competition is also meant to shape the selection and training of unmanned systems operators.",
                                     "source_url": "https://www.defenseone.com/technology/2026/02/move-over-best-ranger-armys-looking-best-drone-pilots/411539/",
@@ -241,7 +241,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_ONE_TECH"
                                 },
                                 {
-                                    "id": "GS-32842",
+                                    "id": "GS-22393",
                                     "title": "THE PENTAGON SAYS IT\u2019S GETTING ITS AI PROVIDERS ON \u2018THE SAME BASELINE\u2019",
                                     "description": "Military is still abiding by ethics principles, according to DOD research head.",
                                     "source_url": "https://www.defenseone.com/technology/2026/02/pentagon-says-its-getting-its-ai-providers-same-baseline/411506/",
@@ -249,7 +249,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_ONE_TECH"
                                 },
                                 {
-                                    "id": "GS-43395",
+                                    "id": "GS-4281",
                                     "title": "INITIAL SENTINEL ICBM EXPECTED BY EARLY 2030, AIR FORCE SAYS",
                                     "description": "Officials say a new Pentagon-controlled manager role helped accelerate the Sentinel timeline.",
                                     "source_url": "https://www.defenseone.com/technology/2026/02/initial-sentinel-icbm-expected-early-2030-air-force-says/411483/",
@@ -257,7 +257,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_ONE_TECH"
                                 },
                                 {
-                                    "id": "GS-38554",
+                                    "id": "GS-83020",
                                     "title": "THE ARMY IS WRITING THE BOOK ON USING SMALL DRONES IN A TANK FORMATION",
                                     "description": "The goal is to make every soldier a drone operator.",
                                     "source_url": "https://www.defenseone.com/technology/2026/02/army-writing-book-using-small-drones-tank-formation/411338/",
@@ -265,7 +265,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_ONE_TECH"
                                 },
                                 {
-                                    "id": "GS-20329",
+                                    "id": "GS-81119",
                                     "title": "PENTAGON LEADERS SHOULD HAVE MORE CONTROL OVER SERVICES\u2019 TECH BUDGETS, GAO SUGGESTS",
                                     "description": "Unsurprisingly, \u201cThe Departments of Army, Air Force, and Navy disagreed.\u201d",
                                     "source_url": "https://www.defenseone.com/technology/2026/02/pentagon-leaders-should-have-more-control-over-services-tech-budgets-gao-suggests/411242/",
@@ -273,7 +273,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_ONE_TECH"
                                 },
                                 {
-                                    "id": "GS-17288",
+                                    "id": "GS-74644",
                                     "title": "NEW PENTAGON SCIENCE-AND-INNOVATION BOARD ARRIVES AS ADMINISTRATION CUTS RESEARCH FUNDING",
                                     "description": "Even as department leaders work to fast-track new tech, the administration is slashing funding that supports and secures innovation.",
                                     "source_url": "https://www.defenseone.com/technology/2026/02/new-science-and-innovation-board-comes-pentagon-cuts-science-research-elsewhere/411146/",
@@ -281,7 +281,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_ONE_TECH"
                                 },
                                 {
-                                    "id": "GS-8611",
+                                    "id": "GS-6891",
                                     "title": "US MILITARY USED NEW 'NON-KINETIC' CELL TO GUIDE CYBER OPS DURING MADURO CAPTURE",
                                     "description": "The unit is part of a broader push to better integrate cyber, EW, and other non-destructive effects into missions, leaders told lawmakers on Wednesday.",
                                     "source_url": "https://www.defenseone.com/technology/2026/01/us-developed-non-kinetic-cell-ahead-venezuela-mission-push-cyber-operations/411034/",
@@ -289,7 +289,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_ONE_TECH"
                                 },
                                 {
-                                    "id": "GS-60920",
+                                    "id": "GS-79533",
                                     "title": "AS COMBAT EVOLVES, LEADERS SEEK NOT \u2018SUPER-ATHLETES\u2019 BUT \u2018HUMAN WEAPON SYSTEMS\u2019",
                                     "description": "The military wants to measure and build the ability to perform missions, not just do pushups.",
                                     "source_url": "https://www.defenseone.com/technology/2026/01/combat-evolves-leaders-seek-not-super-athletes-human-weapon-systems/410880/",
@@ -297,7 +297,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_ONE_TECH"
                                 },
                                 {
-                                    "id": "GS-80635",
+                                    "id": "GS-59258",
                                     "title": "DOE SEEKS BATTERIES WITH FOUR TIMES THE JUICE",
                                     "description": "Six teams will get money to build manufacturable prototypes in two years.",
                                     "source_url": "https://www.defenseone.com/technology/2026/01/doe-seeks-batteries-four-times-juice/410870/",
@@ -305,7 +305,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_ONE_TECH"
                                 },
                                 {
-                                    "id": "GS-38536",
+                                    "id": "GS-4433",
                                     "title": "CHINA IS BUILDING \u2018FULL-STACK\u2019 DEFENSE-INNOVATION CITIES",
                                     "description": "While the U.S. struggles to add rare-earth factories and drone-test ranges, Beijing is creating them in clusters.",
                                     "source_url": "https://www.defenseone.com/technology/2026/01/china-building-full-stack-defense-innovation-cities/410779/",
@@ -313,7 +313,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_ONE_TECH"
                                 },
                                 {
-                                    "id": "GS-3983",
+                                    "id": "GS-89921",
                                     "title": "THE PENTAGON LEANS INTO DRONE SWARMS WITH A $100M CHALLENGE",
                                     "description": "An Ender\u2019s Game challenge illustrates the U.S. military's evolving approach to AI.",
                                     "source_url": "https://www.defenseone.com/technology/2026/01/pentagon-leans-drone-swarms-100m-challenge/410742/",
@@ -321,7 +321,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_ONE_TECH"
                                 },
                                 {
-                                    "id": "GS-45150",
+                                    "id": "GS-98042",
                                     "title": "QUANTUM CAMERAS COULD REMAKE SPACE-BASED INTELLIGENCE",
                                     "description": "A Boston startup is getting ready to test a new imagery method for orbital satellites.",
                                     "source_url": "https://www.defenseone.com/technology/2026/01/quantum-cameras-could-remake-space-based-intelligence/410636/",
@@ -329,7 +329,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_ONE_TECH"
                                 },
                                 {
-                                    "id": "GS-83585",
+                                    "id": "GS-57198",
                                     "title": "LIGHTNING LAB GIVES PACIFIC ARMY DIVISION DRONE-BUILDING CAPABILITIES ON THE FRONT LINES",
                                     "description": "The small group of soldiers can produce gear\u2014and then immediately take feedback to make it better.",
                                     "source_url": "https://www.defenseone.com/technology/2026/01/lightning-lab-gives-pacific-army-division-drone-building-capabilities-front-lines/410607/",
@@ -337,7 +337,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_ONE_TECH"
                                 },
                                 {
-                                    "id": "GS-61802",
+                                    "id": "GS-25173",
                                     "title": "MARINE CORPS PICKS INDUSTRY TEAM TO CREATE A ROBOT WINGMAN OF ITS OWN",
                                     "description": "Northrop will integrate systems on Kratos\u2019 XQ-58 Valkyrie drone.",
                                     "source_url": "https://www.defenseone.com/technology/2026/01/marine-corps-picks-industry-team-create-robot-wingman-its-own/410549/",
@@ -350,7 +350,7 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
-                                    "id": "GS-55504",
+                                    "id": "GS-12987",
                                     "title": "DRONES \u2018CHANGE EVERYTHING\u2019 ABOUT COMBINED ARMS COMBAT, US ARMY AVIATION CHIEF SAYS",
                                     "description": "The commanding general of the U.S. Army Aviation Center of Excellence discusses the impact of unmanned systems on U.S. Army aviation and combined arms.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/02/20/drones-change-everything-about-combined-arms-combat-us-army-aviation-chief-says/",
@@ -358,7 +358,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_NEWS"
                                 },
                                 {
-                                    "id": "GS-90341",
+                                    "id": "GS-88008",
                                     "title": "NATIONAL GUARD TEAM CLINCHES AWARD FOR CLAWED DRONE AT ARMY COMPETITION",
                                     "description": "Soldiers of the Army National Guard\u2019s 28th Infantry Division snagged the award for Best Innovation at the inaugural Best Drone Warfighter Competition.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/02/20/national-guard-team-clinches-award-for-clawed-drone-at-army-competition/",
@@ -366,7 +366,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_NEWS"
                                 },
                                 {
-                                    "id": "GS-29997",
+                                    "id": "GS-77354",
                                     "title": "HOW COMMERCIAL DRONES MAKE THE PENTAGON\u2019S \u2018BLUE UAS SELECT\u2019 LIST",
                                     "description": "For an off-the-shelf drone to be added to the Blue UAS list, it must pass rigorous testing and cyber security evaluations.",
                                     "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/02/20/how-commercial-drones-make-the-pentagons-blue-uas-select-list/",
@@ -374,7 +374,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_NEWS"
                                 },
                                 {
-                                    "id": "GS-18105",
+                                    "id": "GS-50731",
                                     "title": "EXPERTS WORRY ABOUT NUCLEAR QUID PRO QUO IN RUSSIA-NORTH KOREA ALLIANCE AGAINST UKRAINE",
                                     "description": "Analysts differ on the question of whether Moscow would trade away highly sensitive nuclear submarine technology in exchange for battlefield support.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/02/20/experts-worry-about-nuclear-quid-pro-quo-in-russia-north-korea-alliance-against-ukraine/",
@@ -382,7 +382,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_NEWS"
                                 },
                                 {
-                                    "id": "GS-52738",
+                                    "id": "GS-67862",
                                     "title": "ESTONIA BEGINS BUYING HUNDREDS OF POP-UP BUNKERS TO FORTIFY BORDER WITH RUSSIA",
                                     "description": "The Baltic nations are installing a variety of border security features meant to repel an invasion from Russia or Belarus.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/02/20/estonia-begins-buying-hundreds-of-pop-up-bunkers-to-fortify-border-with-russia/",
@@ -390,7 +390,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_NEWS"
                                 },
                                 {
-                                    "id": "GS-80221",
+                                    "id": "GS-17197",
                                     "title": "US NAVY TAPS FINCANTIERI TO BUILD MARINE CORPS LANDING VESSELS",
                                     "description": "The Navy is seeking a Vessel Construction Manager as an intermediary between the sea service and shipyards when building additional Medium Landing Ships.",
                                     "source_url": "https://www.defensenews.com/naval/2026/02/20/us-navy-taps-fincantieri-to-build-marine-corps-landing-vessels/",
@@ -398,7 +398,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_NEWS"
                                 },
                                 {
-                                    "id": "GS-28264",
+                                    "id": "GS-41146",
                                     "title": "SPACEX AND BLUE ORIGIN ABRUPTLY SHIFT PRIORITIES AMID US GOLDEN DOME PUSH",
                                     "description": "The largest U.S. commercial space companies recently shifted priorities toward lunar development, just as DOD pushes its next-gen missile shield plans.",
                                     "source_url": "https://www.defensenews.com/space/2026/02/19/spacex-and-blue-origin-abruptly-shift-priorities-amid-us-golden-dome-push/",
@@ -406,7 +406,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_NEWS"
                                 },
                                 {
-                                    "id": "GS-99772",
+                                    "id": "GS-17513",
                                     "title": "US MILITARY ASSETS FLOCK TO MIDDLE EAST AMID IRAN STANDOFF",
                                     "description": "The aircraft carrier USS Gerald R. Ford is set to soon become the keystone of the Pentagon\u2019s naval armada in the region.",
                                     "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/02/19/us-military-assets-flock-to-middle-east-amid-iran-standoff/",
@@ -414,7 +414,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_NEWS"
                                 },
                                 {
-                                    "id": "GS-69567",
+                                    "id": "GS-95848",
                                     "title": "NAVY SEEKS NEW ANTI-RADAR MISSILE COMPATIBLE WITH F-18, F-35 AIRCRAFT",
                                     "description": "The Navy is seeking a next-gen missile, compatible with F/A-18E/F, EA-18G and F-35 aircraft, for knocking out modern radar systems.",
                                     "source_url": "https://www.defensenews.com/industry/techwatch/2026/02/19/navy-seeks-new-anti-radar-missile-compatible-with-f-18-f-35-aircraft/",
@@ -422,7 +422,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_NEWS"
                                 },
                                 {
-                                    "id": "GS-22002",
+                                    "id": "GS-88312",
                                     "title": "US ARMY LETS SOLDIERS FLAUNT THEIR DRONE SKILLS IN FIRST-EVER COMPETITION",
                                     "description": "The event is in line with service plans to incorporate unmanned technology at every echelon of the force.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/02/19/us-army-lets-soldiers-flaunt-their-drone-skills-in-first-ever-competition/",
@@ -430,7 +430,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_NEWS"
                                 },
                                 {
-                                    "id": "GS-33182",
+                                    "id": "GS-20615",
                                     "title": "AIRBUS OPEN TO TWO-FIGHTER OPTION FOR FCAS TO KEEP PROGRAM ALIVE",
                                     "description": "\u201cThe deadlock of a single pillar should not jeopardize the entire future of this high-tech European capability, which will bolster our collective defense.\"",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/02/19/airbus-open-to-two-fighter-option-for-fcas-to-keep-program-alive/",
@@ -438,7 +438,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_NEWS"
                                 },
                                 {
-                                    "id": "GS-15159",
+                                    "id": "GS-67005",
                                     "title": "US-LED ARTILLERY DRILL COMBINES NATO NATIONS\u2019 FIREPOWER FOR MASS EFFECT",
                                     "description": "Combined fires are meant to create a deterrence effect, with strikes \u201cso unrelenting\u201d that no adversary would dare to attack, one commander said.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/02/19/us-led-artillery-drill-combines-nato-nations-firepower-for-mass-effect/",
@@ -446,7 +446,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_NEWS"
                                 },
                                 {
-                                    "id": "GS-9688",
+                                    "id": "GS-57514",
                                     "title": "BAE SAYS ITS EUROFIGHTER PIPELINE IS FILLED UNTIL FIRST GCAP ASSEMBLY",
                                     "description": "Europe accounted for 32% of the BAE order book at the end of December, while accounting for 11% of sales in 2025, the company said.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/02/19/bae-says-its-eurofighter-pipeline-is-filled-until-first-gcap-assembly/",
@@ -454,7 +454,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_NEWS"
                                 },
                                 {
-                                    "id": "GS-66708",
+                                    "id": "GS-76882",
                                     "title": "AIR FORCE ONE WILL BE PAINTED RED, WHITE AND BLUE AS TRUMP HAS HINTED, US MILITARY SAYS",
                                     "description": "A red, white and blue color scheme championed by President Donald Trump will become the new look for Air Force One, the U.S. military said Thursday.",
                                     "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/02/19/air-force-one-will-be-painted-red-white-and-blue-as-trump-has-hinted-us-military-says/",
@@ -462,7 +462,7 @@ const signalTree = {
                                     "feed_name": "DEFENSE_NEWS"
                                 },
                                 {
-                                    "id": "GS-57115",
+                                    "id": "GS-69504",
                                     "title": "IRAN-US NUCLEAR TALKS MAY FAIL DUE TO BOTH NATIONS\u2019 RED LINES \u2013 BUT THAT DOESN\u2019T MAKE THEM FUTILE",
                                     "description": "\"Talks do not necessarily need an end point \u2014 in the shape of a deal \u2014 for them to have purpose,\" argues an international relations professor.",
                                     "source_url": "https://www.defensenews.com/opinion/commentary/2026/02/19/iran-us-nuclear-talks-may-fail-due-to-both-nations-red-lines-but-that-doesnt-make-them-futile/",
@@ -494,7 +494,7 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
-                                    "id": "GS-82054",
+                                    "id": "GS-57786",
                                     "title": "GERMAN DEFENSE FIRM SAID TO BE WEIGHING BID FOR MYNARIC",
                                     "description": "\nRheinmetall\u2019s reported interest in the laser communications firm would complicate Rocket Lab\u2019s planned acquisition\nThe post German defense firm said to be weighing bid for Mynaric appeared first on SpaceNews.",
                                     "source_url": "https://spacenews.com/german-defense-firm-said-to-be-weighing-bid-for-mynaric/",
@@ -502,7 +502,7 @@ const signalTree = {
                                     "feed_name": "SPACE_NEWS"
                                 },
                                 {
-                                    "id": "GS-39917",
+                                    "id": "GS-26605",
                                     "title": "NASA PREPARING FOR ARTEMIS 2 ROLLBACK TO FIX UPPER STAGE PROBLEM",
                                     "description": "\nJust 24 hours after setting a March 6 launch date for the Artemis 2 mission, NASA said a problem with the Space Launch System upper stage will delay the launch.\nThe post NASA preparing for Artemis 2 rollback to fix upper stage problem appeared first on SpaceNews.",
                                     "source_url": "https://spacenews.com/nasa-preparing-for-artemis-2-rollback-to-fix-upper-stage-problem/",
@@ -510,7 +510,7 @@ const signalTree = {
                                     "feed_name": "SPACE_NEWS"
                                 },
                                 {
-                                    "id": "GS-10220",
+                                    "id": "GS-3467",
                                     "title": "BRUNO SAYS HE JOINED BLUE ORIGIN TO WORK ON \u2018URGENT\u2019 NATIONAL SECURITY PROJECTS",
                                     "description": "\nTory Bruno, former CEO of United Launch Alliance, said he decided to join Blue Origin to work on important national security projects, including applications of the company\u2019s Blue Ring spacecraft.\nThe post Bruno says he joined Blue Origin to work on \u2018urgent\u2019 national security projects appeared first on SpaceNews.",
                                     "source_url": "https://spacenews.com/bruno-says-he-joined-blue-origin-to-work-on-urgent-national-security-projects/",
@@ -518,7 +518,7 @@ const signalTree = {
                                     "feed_name": "SPACE_NEWS"
                                 },
                                 {
-                                    "id": "GS-23756",
+                                    "id": "GS-20585",
                                     "title": "AALTO PLOTS AUSTRALIA BASE TO BOOST PLANNED HIGH-ALTITUDE PSEUDO SATELLITE SERVICE",
                                     "description": "\nAalto is turning to Australia as a key operating base to bolster the business case for initial commercial services of its stratospheric pseudo-satellite over Japan, now pushed to 2027 amid regulatory hurdles and ongoing system-integration work.\nThe post Aalto plots Australia base to boost planned high-altitude pseudo satellite service appeared first on SpaceNews.",
                                     "source_url": "https://spacenews.com/aalto-plots-australia-base-to-boost-planned-high-altitude-pseudo-satellite-service/",
@@ -526,7 +526,7 @@ const signalTree = {
                                     "feed_name": "SPACE_NEWS"
                                 },
                                 {
-                                    "id": "GS-30659",
+                                    "id": "GS-21562",
                                     "title": "NASA TARGETING MARCH 6 FOR ARTEMIS 2 LAUNCH",
                                     "description": "\nNASA is targeting a March 6 launch for Artemis 2 after completing a countdown test with few problems.\nThe post NASA targeting March 6 for Artemis 2 launch appeared first on SpaceNews.",
                                     "source_url": "https://spacenews.com/nasa-targeting-march-6-for-artemis-2-launch/",
@@ -534,7 +534,7 @@ const signalTree = {
                                     "feed_name": "SPACE_NEWS"
                                 },
                                 {
-                                    "id": "GS-26724",
+                                    "id": "GS-96125",
                                     "title": "BOEING TO BOOST PRODUCTION OF MISSILE-TRACKING SENSORS FOR MILITARY SATELLITES",
                                     "description": "\nThe company opened a new facility in El Segundo to support Millennium\u2019s missile-warning satellite backlog\nThe post Boeing to boost production of missile-tracking sensors for military satellites appeared first on SpaceNews.",
                                     "source_url": "https://spacenews.com/boeing-to-boost-production-of-missile-tracking-sensors-for-military-satellites/",
@@ -542,7 +542,7 @@ const signalTree = {
                                     "feed_name": "SPACE_NEWS"
                                 },
                                 {
-                                    "id": "GS-14203",
+                                    "id": "GS-67779",
                                     "title": "NASA COMPLETES SECOND ARTEMIS 2 FUELING TEST",
                                     "description": "\nNASA completed a second wet dress rehearsal for the Artemis 2 mission on Feb. 19 without any of the hydrogen leaks seen in the first such test earlier this month.\nThe post NASA completes second Artemis 2 fueling test appeared first on SpaceNews.",
                                     "source_url": "https://spacenews.com/nasa-completes-second-artemis-2-fueling-test/",
@@ -550,7 +550,7 @@ const signalTree = {
                                     "feed_name": "SPACE_NEWS"
                                 },
                                 {
-                                    "id": "GS-69549",
+                                    "id": "GS-76904",
                                     "title": "STARLINER INVESTIGATION IDENTIFIES FLAWED NASA DECISION MAKING",
                                     "description": "\nNASA has classified the flawed Starliner crewed test flight in 2024 as its most serious level of mishap, with the agency\u2019s leadership citing shortfalls in how officials oversaw the program.\nThe post Starliner investigation identifies flawed NASA decision making appeared first on SpaceNews.",
                                     "source_url": "https://spacenews.com/starliner-investigation-identifies-flawed-nasa-decision-making/",
@@ -558,7 +558,7 @@ const signalTree = {
                                     "feed_name": "SPACE_NEWS"
                                 },
                                 {
-                                    "id": "GS-99595",
+                                    "id": "GS-29154",
                                     "title": "CREATING NEW DEMAND IN THE NASCENT ORBITAL ECONOMY",
                                     "description": "\nIn this episode of Space Minds, David Ariosto interviews Matt Kuta, president and co-founder of Voyager Technologies about how the company is pursuing a commercialized future in low Earth orbit. [&#8230;]\nThe post Creating new demand in the nascent orbital economy appeared first on SpaceNews.",
                                     "source_url": "https://spacenews.com/creating-new-demand-in-the-nascent-orbital-economy/",
@@ -566,7 +566,7 @@ const signalTree = {
                                     "feed_name": "SPACE_NEWS"
                                 },
                                 {
-                                    "id": "GS-89114",
+                                    "id": "GS-34440",
                                     "title": "EARTHDAILY IN ORBIT: FROM FIRST LAUNCH TO COMMERCIAL OPERATIONS",
                                     "description": "\nWith six additional satellites launching in May and continued expansion later this year, the EarthDaily Constellation will enter commercial operations in Summer 2026, delivering daily, consistent global coverage.\nThe post EarthDaily in Orbit: From First Launch to Commercial Operations appeared first on SpaceNews.",
                                     "source_url": "https://spacenews.com/earthdaily-in-orbit-from-first-launch-to-commercial-operations/",
@@ -574,7 +574,7 @@ const signalTree = {
                                     "feed_name": "SPACE_NEWS"
                                 },
                                 {
-                                    "id": "GS-77545",
+                                    "id": "GS-42141",
                                     "title": "GOLDEN DOME WILL FAIL WITHOUT SOFTWARE-DEFINED WARFARE",
                                     "description": "\nIf the United States wants to defend the homeland against the next generation of missile and aerial threats, hardware alone will not save us. Sensors, radars and interceptors are necessary but no longer sufficient. The decisive advantage for Golden Dome for America will come from software and the ability to integrate, test, adapt and fight [&#8230;]\nThe post Golden Dome will fail without software...",
                                     "source_url": "https://spacenews.com/golden-dome-will-fail-without-software-defined-warfare/",
@@ -582,7 +582,7 @@ const signalTree = {
                                     "feed_name": "SPACE_NEWS"
                                 },
                                 {
-                                    "id": "GS-79962",
+                                    "id": "GS-36745",
                                     "title": "AGILE SPACE INDUSTRIES OVERSUBSCRIBED $17M SERIES A ACCELERATES GROWTH OF IN-SPACE PROPULSION CAPABILITIES",
                                     "description": "\n02.19.2026 DURANGO, Colo. \u2014 Agile Space Industries, a leading provider of in-space chemical propulsion, today announced their Series A equity financing round. The round was led by Caruso Ventures and [&#8230;]\nThe post Agile Space Industries Oversubscribed $17M Series A Accelerates Growth of In-Space Propulsion Capabilities appeared first on SpaceNews.",
                                     "source_url": "https://spacenews.com/agile-space-industries-oversubscribed-17m-series-a-accelerates-growth-of-in-space-propulsion-capabilities/",
@@ -590,7 +590,7 @@ const signalTree = {
                                     "feed_name": "SPACE_NEWS"
                                 },
                                 {
-                                    "id": "GS-70945",
+                                    "id": "GS-47306",
                                     "title": "JAPAN\u2019S ISPACE WARNS OF DELAYS IN NEW LUNAR LANDER ENGINE",
                                     "description": "\nJapanese lunar company ispace said work on a new engine for its lunar landers is facing delays and that it is keeping open the option of switching engines.\nThe post Japan\u2019s ispace warns of delays in new lunar lander engine appeared first on SpaceNews.",
                                     "source_url": "https://spacenews.com/japans-ispace-warns-of-delays-in-new-lunar-lander-engine/",
@@ -598,7 +598,7 @@ const signalTree = {
                                     "feed_name": "SPACE_NEWS"
                                 },
                                 {
-                                    "id": "GS-57373",
+                                    "id": "GS-80497",
                                     "title": "PENTAGON SEEKS COMMERCIALLY BUILT GEO SPY SATELLITES",
                                     "description": "\nThe Defense Innovation Unit plans to select companies to field and operate spacecraft before transferring them to government control within three years\nThe post Pentagon seeks commercially built GEO spy satellites\u00a0 appeared first on SpaceNews.",
                                     "source_url": "https://spacenews.com/pentagon-seeks-commercially-built-geo-spy-satellites/",
@@ -606,7 +606,7 @@ const signalTree = {
                                     "feed_name": "SPACE_NEWS"
                                 },
                                 {
-                                    "id": "GS-55502",
+                                    "id": "GS-39552",
                                     "title": "WHY GPS III, AND WHAT COMES AFTER IT, STILL FALLS SHORT IN MODERN WAR",
                                     "description": "\nWith the final GPS III satellite scheduled to launch in March, the United States is completing the most significant upgrade to its positioning, navigation, and timing (PNT) infrastructure in more than a decade.\u00a0 GPS III delivers improved accuracy, stronger signals and enhanced anti-jam capabilities for military users. By any technical measure, it is a better [&#8230;]\nThe post Why GPS III, and wh...",
                                     "source_url": "https://spacenews.com/why-gps-iii-and-what-comes-after-it-still-falls-short-in-modern-war/",
@@ -619,7 +619,7 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
-                                    "id": "GS-28736",
+                                    "id": "GS-66978",
                                     "title": "NASA IS HELPING BRING GIANT TORTOISES BACK TO THE GAL\u00c1PAGOS",
                                     "description": "Giant tortoises are returning to Floreana Island after more than 150 years, guided by NASA data that shows suitable areas for release.",
                                     "source_url": "https://science.nasa.gov/earth/nasa-is-helping-bring-giant-tortoises-back-to-the-galapagos/",
@@ -627,7 +627,7 @@ const signalTree = {
                                     "feed_name": "NASA_BREAKING"
                                 },
                                 {
-                                    "id": "GS-68358",
+                                    "id": "GS-59292",
                                     "title": "ARTEMIS II CREW TRAINS ON T-38",
                                     "description": "NASA astronaut Christina Koch and Canadian Space Agency astronaut Jeremy Hansen take off on a T-38 training flight from Ellington Field on Feb. 11, 2026, as a waning crescent Moon hovers above. Koch and Hansen, along with NASA astronauts Reid Wiseman and Victor Glover, are part of NASA\u2019s Artemis II mission, the first crewed flight [&#8230;]",
                                     "source_url": "https://www.nasa.gov/image-article/artemis-ii-crew-trains-on-t-38/",
@@ -635,7 +635,7 @@ const signalTree = {
                                     "feed_name": "NASA_BREAKING"
                                 },
                                 {
-                                    "id": "GS-85590",
+                                    "id": "GS-67566",
                                     "title": "WINDS WHIP UP FIRES AND DUST ON THE SOUTHERN PLAINS",
                                     "description": "Dry, gusty conditions spurred fast-growing fires in Oklahoma and Kansas, along with dangerous dust storms across the region.",
                                     "source_url": "https://science.nasa.gov/earth/earth-observatory/winds-whip-up-fires-and-dust-on-the-southern-plains/",
@@ -643,7 +643,7 @@ const signalTree = {
                                     "feed_name": "NASA_BREAKING"
                                 },
                                 {
-                                    "id": "GS-59925",
+                                    "id": "GS-97917",
                                     "title": "NASA INVESTIGATES HOW PEOPLE RESPOND TO AIR TAXI NOISE",
                                     "description": "New kinds of aircraft taking to the skies could mean unfamiliar sounds overhead \u2014 and where you\u2019re hearing them might matter, according to new NASA research. NASA aeronautics has worked for years to enable new air transportation options for people and goods, and to find ways to make sure they can be safely and effectively [&#8230;]",
                                     "source_url": "https://www.nasa.gov/image-article/nasa-investigates-how-people-respond-to-air-taxi-noise/",
@@ -651,7 +651,7 @@ const signalTree = {
                                     "feed_name": "NASA_BREAKING"
                                 },
                                 {
-                                    "id": "GS-68340",
+                                    "id": "GS-19117",
                                     "title": "NASA RELEASES REPORT ON STARLINER CREWED FLIGHT TEST INVESTIGATION",
                                     "description": "At&#160;a&#160;news conference&#160;on Thursday, NASA&#160;released a report of findings from the Program Investigation Team examining the Boeing CST-100 Starliner Crewed Flight Test&#160;as part of the&#160;agency\u2019s Commercial Crew Program.&#160;&#160; \u201cThe Boeing Starliner spacecraft has faced challenges throughout its uncrewed and most recent crewed missions. While Boeing built Starliner, NASA ...",
                                     "source_url": "https://www.nasa.gov/news-release/nasa-releases-report-on-starliner-crewed-flight-test-investigation/",
@@ -659,7 +659,7 @@ const signalTree = {
                                     "feed_name": "NASA_BREAKING"
                                 },
                                 {
-                                    "id": "GS-98359",
+                                    "id": "GS-51982",
                                     "title": "NASA TO PROVIDE STARLINER CREW FLIGHT TEST REVIEW FINDINGS TODAY",
                                     "description": "During a news conference at 2 p.m. EST on Thursday NASA will discuss the findings of investigations into the 2024 crewed test flight of Boeing Starliner to the International Space Station. The news conference will stream live on NASA\u2019s YouTube channel. An instant replay will be available online. NASA participants include: To ask questions during [&#8230;]",
                                     "source_url": "https://www.nasa.gov/news-release/nasa-to-provide-starliner-crew-flight-test-review-findings-today/",
@@ -667,7 +667,7 @@ const signalTree = {
                                     "feed_name": "NASA_BREAKING"
                                 },
                                 {
-                                    "id": "GS-40144",
+                                    "id": "GS-92586",
                                     "title": "AWARD-WINNING NASA CAMERA REVOLUTIONIZES HOW WE SEE THE INVISIBLE",
                                     "description": "Imagine trying to photograph wind. That&#8217;s similar to what NASA engineers dealt with during a recent effort to study how air moves around planes, rockets, and other kinds of aerospace vehicles. Air is invisible, but our understanding of how it flows is crucial for building better, safer aircraft. For 80 years, researchers used a technique [&#8230;]",
                                     "source_url": "https://www.nasa.gov/aeronautics/award-winning-nasa-camera-revolutionizes-how-we-see-the-invisible/",
@@ -675,7 +675,7 @@ const signalTree = {
                                     "feed_name": "NASA_BREAKING"
                                 },
                                 {
-                                    "id": "GS-19112",
+                                    "id": "GS-88488",
                                     "title": "CRYSTALS GROWN IN SPACE",
                                     "description": "This June 5, 2024, image shows lysozyme crystals aboard&#160;the International Space Station. Lysozyme is a protein found in bodily fluids like tears, saliva, and milk, and is used as a control compound to demonstrate well-formed crystals. Lysozyme plays a vital role in innate immunity, protecting against bacteria, viruses, and fungi. The crystals were grown with [&#8230;]",
                                     "source_url": "https://www.nasa.gov/image-article/crystals-grown-in-space/",
@@ -683,7 +683,7 @@ const signalTree = {
                                     "feed_name": "NASA_BREAKING"
                                 },
                                 {
-                                    "id": "GS-34858",
+                                    "id": "GS-47431",
                                     "title": "MAP THE EARTH\u2019S MAGNETIC SHIELD WITH THE SPACE UMBRELLA PROJECT",
                                     "description": "Use data from NASA\u2019s Magnetosphere Multiscale Mission to shed light on solar storms. For anyone with a laptop or cell.",
                                     "source_url": "https://science.nasa.gov/get-involved/citizen-science/map-the-earths-magnetic-shield-with-the-space-umbrella-project/",
@@ -691,7 +691,7 @@ const signalTree = {
                                     "feed_name": "NASA_BREAKING"
                                 },
                                 {
-                                    "id": "GS-62511",
+                                    "id": "GS-12082",
                                     "title": "SMALL BUT MIGHTY LAB DEVICE COULD TRANSFORM NASA RESEARCH",
                                     "description": "A small but mighty piece of lab equipment, about the size of a cellphone, has arrived at the International Space Station after launching with NASA\u2019s SpaceX Crew-12 mission. NASA aims to use the off-the-shelf device, called a microplate reader, to conduct vital biological research in space and get real-time access to data.",
                                     "source_url": "https://science.nasa.gov/science-research/biological-physical-sciences/small-but-mighty-lab-device-could-transform-nasa-research/",
@@ -718,23 +718,15 @@ const signalTree = {
                             "name": "HACKER_NEWS_RAW",
                             "articles": [
                                 {
-                                    "id": "GS-94237",
-                                    "title": "MINIONS: STRIPE'S ONE-SHOT, END-TO-END CODING AGENTS \u2013 STRIPE DOT DEV BLOG",
+                                    "id": "GS-28447",
+                                    "title": "ATTENTION MEDIA \u2260 SOCIAL NETWORKS",
                                     "description": "Comments",
-                                    "source_url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents",
+                                    "source_url": "https://susam.net/attention-media-vs-social-networks.html",
                                     "timestamp": "2026.02.22",
                                     "feed_name": "HACKER_NEWS_RAW"
                                 },
                                 {
-                                    "id": "GS-86166",
-                                    "title": "BACK TO FREEBSD: PART 1",
-                                    "description": "Comments",
-                                    "source_url": "https://hypha.pub/back-to-freebsd-part-1",
-                                    "timestamp": "2026.02.22",
-                                    "feed_name": "HACKER_NEWS_RAW"
-                                },
-                                {
-                                    "id": "GS-58543",
+                                    "id": "GS-22476",
                                     "title": "WHAT IS A DATABASE TRANSACTION?",
                                     "description": "Comments",
                                     "source_url": "https://planetscale.com/blog/database-transactions",
@@ -742,31 +734,23 @@ const signalTree = {
                                     "feed_name": "HACKER_NEWS_RAW"
                                 },
                                 {
-                                    "id": "GS-4309",
-                                    "title": "SHOW HN: ELECXZY \u2013 A LIGHTWEIGHT, LISP-FREE EMACS-LIKE EDITOR IN ELECTRON",
+                                    "id": "GS-4350",
+                                    "title": "MINIONS: STRIPE'S ONE-SHOT, END-TO-END CODING AGENTS \u2013 STRIPE DOT DEV BLOG",
                                     "description": "Comments",
-                                    "source_url": "https://github.com/kurouna/elecxzy",
-                                    "timestamp": "2026.02.21",
-                                    "feed_name": "HACKER_NEWS_RAW"
-                                },
-                                {
-                                    "id": "GS-3491",
-                                    "title": "PORKBUN SELLS OUT \u2013 STARTS REQUIRING AGE ID DESPITE NO LEGAL REQUIREMENT",
-                                    "description": "Comments",
-                                    "source_url": "https://kb.porkbun.com/article/225-why-porkbun-id-verification",
+                                    "source_url": "https://stripe.dev/blog/minions-stripes-one-shot-end-to-end-coding-agents",
                                     "timestamp": "2026.02.22",
                                     "feed_name": "HACKER_NEWS_RAW"
                                 },
                                 {
-                                    "id": "GS-81865",
-                                    "title": "HOW I USE CLAUDE CODE: SEPARATION OF PLANNING AND EXECUTION",
+                                    "id": "GS-31032",
+                                    "title": "BACK TO FREEBSD: PART 1",
                                     "description": "Comments",
-                                    "source_url": "https://boristane.com/blog/how-i-use-claude-code/",
+                                    "source_url": "https://hypha.pub/back-to-freebsd-part-1",
                                     "timestamp": "2026.02.22",
                                     "feed_name": "HACKER_NEWS_RAW"
                                 },
                                 {
-                                    "id": "GS-26648",
+                                    "id": "GS-96677",
                                     "title": "HOW TAALAS \u201cPRINTS\u201d LLM ONTO A CHIP?",
                                     "description": "Comments",
                                     "source_url": "https://www.anuragk.com/blog/posts/Taalas.html",
@@ -774,15 +758,23 @@ const signalTree = {
                                     "feed_name": "HACKER_NEWS_RAW"
                                 },
                                 {
-                                    "id": "GS-68184",
-                                    "title": "POSTGRES IS YOUR FRIEND. ORM IS NOT",
+                                    "id": "GS-89495",
+                                    "title": "VOLATILITY: THE VOLATILE MEMORY FORENSIC EXTRACTION FRAMEWORK",
                                     "description": "Comments",
-                                    "source_url": "https://hypha.pub/postgres-is-your-friend-orm-is-not",
+                                    "source_url": "https://github.com/volatilityfoundation/volatility3",
                                     "timestamp": "2026.02.22",
                                     "feed_name": "HACKER_NEWS_RAW"
                                 },
                                 {
-                                    "id": "GS-66590",
+                                    "id": "GS-52461",
+                                    "title": "HOW I USE CLAUDE CODE: SEPARATION OF PLANNING AND EXECUTION",
+                                    "description": "Comments",
+                                    "source_url": "https://boristane.com/blog/how-i-use-claude-code/",
+                                    "timestamp": "2026.02.22",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-18185",
                                     "title": "JAPANESE WOODBLOCK PRINT SEARCH",
                                     "description": "Comments",
                                     "source_url": "https://ukiyo-e.org/",
@@ -790,7 +782,7 @@ const signalTree = {
                                     "feed_name": "HACKER_NEWS_RAW"
                                 },
                                 {
-                                    "id": "GS-89632",
+                                    "id": "GS-30796",
                                     "title": "HOW FAR BACK IN TIME CAN YOU UNDERSTAND ENGLISH?",
                                     "description": "Comments",
                                     "source_url": "https://www.deadlanguagesociety.com/p/how-far-back-in-time-understand-english",
@@ -798,7 +790,7 @@ const signalTree = {
                                     "feed_name": "HACKER_NEWS_RAW"
                                 },
                                 {
-                                    "id": "GS-2902",
+                                    "id": "GS-13398",
                                     "title": "GAMEDATE \u2013 A SITE TO REVIVE DEAD MULTIPLAYER GAMES",
                                     "description": "Comments",
                                     "source_url": "https://gamedate.org/",
@@ -806,7 +798,7 @@ const signalTree = {
                                     "feed_name": "HACKER_NEWS_RAW"
                                 },
                                 {
-                                    "id": "GS-40459",
+                                    "id": "GS-3190",
                                     "title": "SHOW HN: LLAMA 3.1 70B ON A SINGLE RTX 3090 VIA NVME-TO-GPU BYPASSING THE CPU",
                                     "description": "Comments",
                                     "source_url": "https://github.com/xaskasdf/ntransformer",
@@ -814,7 +806,7 @@ const signalTree = {
                                     "feed_name": "HACKER_NEWS_RAW"
                                 },
                                 {
-                                    "id": "GS-6583",
+                                    "id": "GS-22846",
                                     "title": "TWO BITS ARE BETTER THAN ONE: MAKING BLOOM FILTERS 2X MORE ACCURATE",
                                     "description": "Comments",
                                     "source_url": "https://floedb.ai/blog/two-bits-are-better-than-one-making-bloom-filters-2x-more-accurate",
@@ -822,7 +814,15 @@ const signalTree = {
                                     "feed_name": "HACKER_NEWS_RAW"
                                 },
                                 {
-                                    "id": "GS-45459",
+                                    "id": "GS-64864",
+                                    "title": "THE DANCE FLOOR IS DISAPPEARING IN A SEA OF PHONES",
+                                    "description": "Comments",
+                                    "source_url": "https://www.bloomberg.com/news/features/2026-02-20/a-boom-in-electronic-dance-music-is-changing-club-culture",
+                                    "timestamp": "2026.02.22",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-1912",
                                     "title": "UNREAL NUMBERS",
                                     "description": "Comments",
                                     "source_url": "https://lcamtuf.substack.com/p/unreal-numbers",
@@ -830,7 +830,7 @@ const signalTree = {
                                     "feed_name": "HACKER_NEWS_RAW"
                                 },
                                 {
-                                    "id": "GS-1196",
+                                    "id": "GS-90931",
                                     "title": "EVIDENCE OF THE BOUBA-KIKI EFFECT IN NA\u00cfVE BABY CHICKS",
                                     "description": "Comments",
                                     "source_url": "https://www.science.org/doi/10.1126/science.adq7188",
@@ -848,7 +848,7 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
-                                    "id": "GS-59168",
+                                    "id": "GS-16783",
                                     "title": "PREDATOR SPYWARE HOOKS IOS SPRINGBOARD TO HIDE MIC, CAMERA ACTIVITY",
                                     "description": "Intellexa's Predator spyware can hide iOS recording indicators while secretly streaming camera and microphone feeds to its operators. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/predator-spyware-hooks-ios-springboard-to-hide-mic-camera-activity/",
@@ -856,7 +856,7 @@ const signalTree = {
                                     "feed_name": "BLEEPING_COMPUTER"
                                 },
                                 {
-                                    "id": "GS-99891",
+                                    "id": "GS-47155",
                                     "title": "AMAZON: AI-ASSISTED HACKER BREACHED 600 FORTINET FIREWALLS IN 5 WEEKS",
                                     "description": "Amazon is warning that a Russian-speaking hacker used multiple generative AI services as part of a campaign that breached more than 600 FortiGate firewalls across 55 countries in five weeks. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/amazon-ai-assisted-hacker-breached-600-fortigate-firewalls-in-5-weeks/",
@@ -864,7 +864,7 @@ const signalTree = {
                                     "feed_name": "BLEEPING_COMPUTER"
                                 },
                                 {
-                                    "id": "GS-30473",
+                                    "id": "GS-58517",
                                     "title": "JAPANESE TECH GIANT ADVANTEST HIT BY RANSOMWARE ATTACK",
                                     "description": "Advantest Corporation disclosed that its corporate network has been targeted in a ransomware attack that may have affected customer or employee data. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/japanese-tech-giant-advantest-hit-by-ransomware-attack/",
@@ -872,7 +872,7 @@ const signalTree = {
                                     "feed_name": "BLEEPING_COMPUTER"
                                 },
                                 {
-                                    "id": "GS-99535",
+                                    "id": "GS-97554",
                                     "title": "CISA: BEYONDTRUST RCE FLAW NOW EXPLOITED IN RANSOMWARE ATTACKS",
                                     "description": "Hackers are actively exploiting the CVE-2026-1731 vulnerability in the BeyondTrust Remote Support product, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) warns. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/cisa-beyondtrust-rce-flaw-now-exploited-in-ransomware-attacks/",
@@ -880,7 +880,7 @@ const signalTree = {
                                     "feed_name": "BLEEPING_COMPUTER"
                                 },
                                 {
-                                    "id": "GS-82827",
+                                    "id": "GS-86738",
                                     "title": "DATA BREACH AT FRENCH BANK REGISTRY IMPACTS 1.2 MILLION ACCOUNTS",
                                     "description": "The French Ministry of Finance has published an announcement informing of a cybersecurity incident that has impacted 1.2 million accounts. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/data-breach-at-french-bank-registry-impacts-12-million-accounts/",
@@ -888,7 +888,7 @@ const signalTree = {
                                     "feed_name": "BLEEPING_COMPUTER"
                                 },
                                 {
-                                    "id": "GS-39664",
+                                    "id": "GS-60897",
                                     "title": "WHY THE SHIFT LEFT DREAM HAS BECOME A NIGHTMARE FOR SECURITY AND DEVELOPERS",
                                     "description": "The \"shift left\" approach has increased pressure on developers, as speed demands override security checks in modern CI pipelines. Qualys explains how analyzing 34,000 public container images revealed 7.3% were malicious and why security must be enforced at the infrastructure layer by default. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/why-the-shift-left-dream-has-become-a-nightmare-for-security-and-developers/",
@@ -896,7 +896,7 @@ const signalTree = {
                                     "feed_name": "BLEEPING_COMPUTER"
                                 },
                                 {
-                                    "id": "GS-77752",
+                                    "id": "GS-80963",
                                     "title": "PAYPAL DISCLOSES DATA BREACH THAT EXPOSED USER INFO FOR 6 MONTHS",
                                     "description": "PayPal is notifying customers of a data breach after a software error in a loan application exposed their sensitive personal information, including Social Security numbers, for nearly 6 months last year. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/paypal-discloses-data-breach-exposing-users-personal-information/",
@@ -904,7 +904,7 @@ const signalTree = {
                                     "feed_name": "BLEEPING_COMPUTER"
                                 },
                                 {
-                                    "id": "GS-76912",
+                                    "id": "GS-19233",
                                     "title": "MISSISSIPPI MEDICAL CENTER CLOSES ALL CLINICS AFTER RANSOMWARE ATTACK",
                                     "description": "The University of Mississippi Medical Center (UMMC) closed all its clinic locations statewide on Thursday following a ransomware attack. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/university-of-mississippi-medical-center-closes-clinics-after-ransomware-attack/",
@@ -912,7 +912,7 @@ const signalTree = {
                                     "feed_name": "BLEEPING_COMPUTER"
                                 },
                                 {
-                                    "id": "GS-11717",
+                                    "id": "GS-10922",
                                     "title": "FBI: OVER $20 MILLION STOLEN IN SURGE OF ATM MALWARE ATTACKS IN 2025",
                                     "description": "The FBI warned that Americans lost more than $20 million last year amid a massive surge in ATM \"jackpotting\" attacks, in which criminals use malware to force cash machines to dispense money. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/fbi-over-20-million-stolen-in-surge-of-atm-malware-attacks-in-2025/",
@@ -920,7 +920,7 @@ const signalTree = {
                                     "feed_name": "BLEEPING_COMPUTER"
                                 },
                                 {
-                                    "id": "GS-6031",
+                                    "id": "GS-77590",
                                     "title": "UKRAINIAN GETS 5 YEARS FOR HELPING NORTH KOREANS INFILTRATE US FIRMS",
                                     "description": "A Ukrainian national was sentenced to five years in prison for providing North Korean IT workers with stolen identities that helped them infiltrate U.S. companies. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/ukrainian-gets-5-years-for-helping-north-koreans-infiltrate-us-firms/",
@@ -928,7 +928,7 @@ const signalTree = {
                                     "feed_name": "BLEEPING_COMPUTER"
                                 },
                                 {
-                                    "id": "GS-98225",
+                                    "id": "GS-8279",
                                     "title": "PROMPTSPY IS THE FIRST KNOWN ANDROID MALWARE TO USE GENERATIVE AI AT RUNTIME",
                                     "description": "Researchers have discovered the first known Android malware to use\u00a0generative AI in its execution flow, using Google's Gemini model to adapt its persistence across different devices. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/promptspy-is-the-first-known-android-malware-to-use-generative-ai-at-runtime/",
@@ -936,7 +936,7 @@ const signalTree = {
                                     "feed_name": "BLEEPING_COMPUTER"
                                 },
                                 {
-                                    "id": "GS-4199",
+                                    "id": "GS-92411",
                                     "title": "FLAW IN GRANDSTREAM VOIP PHONES ALLOWS STEALTHY EAVESDROPPING",
                                     "description": "A critical vulnerability in Grandstream GXP1600 series VoIP phones allows a remote, unauthenticated attacker\u00a0to gain root privileges and silently eavesdrop on communications. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/flaw-in-grandstream-voip-phones-allows-stealthy-eavesdropping/",
@@ -944,7 +944,7 @@ const signalTree = {
                                     "feed_name": "BLEEPING_COMPUTER"
                                 },
                                 {
-                                    "id": "GS-26031",
+                                    "id": "GS-46332",
                                     "title": "GOOGLE BLOCKED OVER 1.75 MILLION PLAY STORE APP SUBMISSIONS IN 2025",
                                     "description": "Google says that through 2025, it blocked more than 255,000 Android apps from obtaining excessive access to sensitive user data and rejected\u00a0over 1.75 million apps from being published on Google Play due to policy violations. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/google-blocked-over-175-million-play-store-app-submissions-in-2025/",
@@ -952,7 +952,7 @@ const signalTree = {
                                     "feed_name": "BLEEPING_COMPUTER"
                                 },
                                 {
-                                    "id": "GS-24362",
+                                    "id": "GS-28528",
                                     "title": "CISA ORDERS FEDS TO PATCH ACTIVELY EXPLOITED DELL FLAW WITHIN 3 DAYS",
                                     "description": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) ordered government agencies to patch their systems within three days against a\u00a0maximum-severity Dell vulnerability that has been under active exploitation since\u00a0mid-2024. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-dell-flaw-within-3-days/",
@@ -960,7 +960,7 @@ const signalTree = {
                                     "feed_name": "BLEEPING_COMPUTER"
                                 },
                                 {
-                                    "id": "GS-60167",
+                                    "id": "GS-66790",
                                     "title": "HOW INFOSTEALERS TURN STOLEN CREDENTIALS INTO REAL IDENTITIES",
                                     "description": "Infostealer dumps increasingly tie stolen credentials to real identities, linking usernames, cookies, and behavior across personal and enterprise accounts. Specops explains how analyzing 90,000 dumps shows reuse fuels enterprise risk and how continuous AD scanning disrupts that cycle. [...]",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/how-infostealers-turn-stolen-credentials-into-real-identities/",
@@ -973,7 +973,7 @@ const signalTree = {
                             "name": "KREBS_ON_SECURITY",
                             "articles": [
                                 {
-                                    "id": "GS-17059",
+                                    "id": "GS-61638",
                                     "title": "\u2018STARKILLER\u2019 PHISHING SERVICE PROXIES REAL LOGIN PAGES, MFA",
                                     "description": "Most phishing websites are little more than static copies of login pages for popular online destinations, and they are often quickly taken down by anti-abuse activists and security firms. But a stealthy new phishing-as-a-service offering lets customers sidestep both of these pitfalls: It uses cleverly disguised links to load the target brand's real website, and then acts as a relay between the tar...",
                                     "source_url": "https://krebsonsecurity.com/2026/02/starkiller-phishing-service-proxies-real-login-pages-mfa/",
@@ -981,7 +981,7 @@ const signalTree = {
                                     "feed_name": "KREBS_ON_SECURITY"
                                 },
                                 {
-                                    "id": "GS-10963",
+                                    "id": "GS-65653",
                                     "title": "KIMWOLF BOTNET SWAMPS ANONYMITY NETWORK I2P",
                                     "description": "For the past week, the massive \"Internet of Things\" (IoT) botnet known as Kimwolf has been disrupting the The Invisible Internet Project (I2P), a decentralized, encrypted communications network designed to anonymize and secure online communications. I2P users started reporting disruptions in the network around the same time the Kimwolf botmasters began relying on it to evade takedown attempts agai...",
                                     "source_url": "https://krebsonsecurity.com/2026/02/kimwolf-botnet-swamps-anonymity-network-i2p/",
@@ -989,7 +989,7 @@ const signalTree = {
                                     "feed_name": "KREBS_ON_SECURITY"
                                 },
                                 {
-                                    "id": "GS-34422",
+                                    "id": "GS-54687",
                                     "title": "PATCH TUESDAY, FEBRUARY 2026 EDITION",
                                     "description": "Microsoft today released updates to fix more than 50 security holes in its Windows operating systems and other software, including patches for a whopping six \"zero-day\" vulnerabilities that attackers are already exploiting in the wild.",
                                     "source_url": "https://krebsonsecurity.com/2026/02/patch-tuesday-february-2026-edition/",
@@ -997,7 +997,7 @@ const signalTree = {
                                     "feed_name": "KREBS_ON_SECURITY"
                                 },
                                 {
-                                    "id": "GS-51529",
+                                    "id": "GS-42049",
                                     "title": "PLEASE DON\u2019T FEED THE SCATTERED LAPSUS SHINYHUNTERS",
                                     "description": "A prolific data ransom gang that calls itself Scattered Lapsus ShinyHunters (SLSH) has a distinctive playbook when it seeks to extort payment from victim firms: Harassing, threatening and even swatting executives and their families, all while notifying journalists and regulators\u2026 Read More &#187;",
                                     "source_url": "https://krebsonsecurity.com/2026/02/please-dont-feed-the-scattered-lapsus-shiny-hunters/",
@@ -1005,7 +1005,7 @@ const signalTree = {
                                     "feed_name": "KREBS_ON_SECURITY"
                                 },
                                 {
-                                    "id": "GS-93823",
+                                    "id": "GS-30865",
                                     "title": "WHO OPERATES THE BADBOX 2.0 BOTNET?",
                                     "description": "The cybercriminals in control of Kimwolf -- a disruptive botnet that has infected more than 2 million devices -- recently shared a screenshot indicating they'd compromised the control panel for Badbox 2.0, a vast China-based botnet powered by malicious software that comes pre-installed on many Android TV streaming boxes. Both the FBI and Google say they are hunting for the people behind Badbox 2.0...",
                                     "source_url": "https://krebsonsecurity.com/2026/01/who-operates-the-badbox-2-0-botnet/",
@@ -1013,7 +1013,7 @@ const signalTree = {
                                     "feed_name": "KREBS_ON_SECURITY"
                                 },
                                 {
-                                    "id": "GS-51012",
+                                    "id": "GS-46430",
                                     "title": "KIMWOLF BOTNET LURKING IN CORPORATE, GOVT. NETWORKS",
                                     "description": "A new Internet-of-Things botnet called Kimwolf has spread to more than 2 million devices, forcing infected systems to participate in massive distributed denial-of-service (DDoS) attacks and to relay other malicious and abusive Internet traffic. Kimwolf's ability to scan the local networks of compromised systems for other IoT devices to infect makes it a sobering threat to organizations, and new re...",
                                     "source_url": "https://krebsonsecurity.com/2026/01/kimwolf-botnet-lurking-in-corporate-govt-networks/",
@@ -1021,7 +1021,7 @@ const signalTree = {
                                     "feed_name": "KREBS_ON_SECURITY"
                                 },
                                 {
-                                    "id": "GS-89699",
+                                    "id": "GS-9107",
                                     "title": "PATCH TUESDAY, JANUARY 2026 EDITION",
                                     "description": "Microsoft today issued patches to plug at least 113 security holes in its various Windows operating systems and supported software. Eight of the vulnerabilities earned Microsoft's most-dire \"critical\" rating, and the company warns that attackers are already exploiting one of the bugs fixed today.",
                                     "source_url": "https://krebsonsecurity.com/2026/01/patch-tuesday-january-2026-edition/",
@@ -1029,7 +1029,7 @@ const signalTree = {
                                     "feed_name": "KREBS_ON_SECURITY"
                                 },
                                 {
-                                    "id": "GS-10324",
+                                    "id": "GS-82345",
                                     "title": "WHO BENEFITED FROM THE AISURU AND KIMWOLF BOTNETS?",
                                     "description": "Our first story of 2026 revealed how a destructive new botnet called Kimwolf rapidly grew to infect more than two million devices by mass-compromising a vast number of unofficial Android TV streaming boxes. Today, we'll dig through digital clues left behind by the hackers, network operators, and cybercrime services that appear to have benefitted from Kimwolf's spread.",
                                     "source_url": "https://krebsonsecurity.com/2026/01/who-benefited-from-the-aisuru-and-kimwolf-botnets/",
@@ -1037,7 +1037,7 @@ const signalTree = {
                                     "feed_name": "KREBS_ON_SECURITY"
                                 },
                                 {
-                                    "id": "GS-842",
+                                    "id": "GS-34006",
                                     "title": "THE KIMWOLF BOTNET IS STALKING YOUR LOCAL NETWORK",
                                     "description": "The story you are reading is a series of scoops nestled inside a far more urgent Internet-wide security advisory. The vulnerability at issue has been exploited for months already, and it's time for a broader awareness of the threat. The short version is that everything you thought you knew about the security of the internal network behind your Internet router probably is now dangerously out of dat...",
                                     "source_url": "https://krebsonsecurity.com/2026/01/the-kimwolf-botnet-is-stalking-your-local-network/",
@@ -1045,7 +1045,7 @@ const signalTree = {
                                     "feed_name": "KREBS_ON_SECURITY"
                                 },
                                 {
-                                    "id": "GS-99768",
+                                    "id": "GS-30683",
                                     "title": "HAPPY 16TH BIRTHDAY, KREBSONSECURITY.COM!",
                                     "description": "KrebsOnSecurity.com celebrates its 16th anniversary today! A huge \"thank you\" to all of our readers -- newcomers, long-timers and drive-by critics alike. Your engagement this past year here has been tremendous and truly a salve on a handful of dark days. Happily, comeuppance was a strong theme running through our coverage in 2025, with a primary focus on entities that enabled complex and globally-...",
                                     "source_url": "https://krebsonsecurity.com/2025/12/happy-16th-birthday-krebsonsecurity-com/",
