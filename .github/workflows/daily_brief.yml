@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: '3.9'
       - name: Install Dependencies
-        run: pip install feedparser requests
+        run: pip install feedparser requests beautifulsoup4
         
       - name: Run Decoder & Send Email
         env:
