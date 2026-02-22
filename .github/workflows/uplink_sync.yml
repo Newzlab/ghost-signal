@@ -2,7 +2,7 @@ name: GhostSignal Uplink
 
 on:
   schedule:
-    - cron: '0 */3 * * *' # Every 3 hours
+    - cron: '0 */3 * * *'
   workflow_dispatch:
 
 jobs:
@@ -17,8 +17,10 @@ jobs:
         with:
           python-version: '3.9'
       - name: Install Dependencies
-        run: pip install feedparser requests beautifulsoup4
-      - name: Run Decoder (No Email)
+        run: pip install feedparser requests beautifulsoup4 google-generativeai
+      - name: Run Decoder
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python fetch_signals.py
       - name: Commit and Push
         run: |
