@@ -7,6 +7,7 @@ import smtplib
 import argparse
 import time
 from bs4 import BeautifulSoup
+import google.generativeai as genai
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
@@ -56,7 +57,7 @@ HEADERS = {
 }
 
 def clean_summary(text):
-    """Fallback cleaner if deep scrape fails."""
+    """Fallback cleaner if deep scrape or AI fails."""
     clean = re.sub(r'<[^>]+>', '', text)
     return clean[:400] + "..." if len(clean) > 400 else clean
 
@@ -68,24 +69,48 @@ def deep_scrape_article(url):
         
         soup = BeautifulSoup(response.content, 'html.parser')
         
-        # Destroy scripts, styles, and headers so they don't pollute the text
         for element in soup(["script", "style", "header", "footer", "nav", "aside"]):
             element.extract()
             
-        # Find all paragraph tags
         paragraphs = soup.find_all('p')
-        
-        # Join paragraphs that actually contain sentences (length > 40)
         article_text = " ".join([p.get_text().strip() for p in paragraphs if len(p.get_text().strip()) > 40])
         
         if len(article_text) > 100:
-            # Clean up extra spaces and truncate to 800 characters for the UI
             clean = re.sub(r'\s+', ' ', article_text)
-            return clean[:800] + " [DATA_TRUNCATED]..." if len(clean) > 800 else clean
+            # Give the AI a solid chunk to read, up to 4000 chars
+            return clean[:4000]
             
         return None
     except Exception as e:
         print(f"DEEP_SCRAPE_FAILED for {url}: {e}")
+        return None
+
+def summarize_with_ai(article_text):
+    """Passes raw text to Gemini AI to generate an OSINT briefing format."""
+    api_key = os.environ.get("GEMINI_API_KEY")
+    if not api_key:
+        return None
+        
+    try:
+        genai.configure(api_key=api_key)
+        # Using the fast, efficient Flash model
+        model = genai.GenerativeModel("gemini-2.5-flash") 
+        
+        prompt = f"""
+        You are an elite OSINT (Open Source Intelligence) AI. 
+        Read the following intercepted article text and summarize it.
+        Format your response EXACTLY like this (use HTML formatting for the bold tags):
+        
+        <br><strong>STATUS:</strong> [1 sentence summarizing the core event]<br><br><strong>INTEL:</strong> [1 short paragraph providing the crucial context, strategic implications, or technical details]
+        
+        Article Text:
+        {article_text}
+        """
+        
+        response = model.generate_content(prompt)
+        return response.text.strip()
+    except Exception as e:
+        print(f"AI_DECRYPT_FAILED: {e}")
         return None
 
 def dispatch_daily_brief(recent_articles):
@@ -118,7 +143,7 @@ def dispatch_daily_brief(recent_articles):
         <div style="margin-bottom: 25px; border-left: 3px solid #FF5500; padding-left: 15px;">
             <div style="font-size: 12px; color: #FF5500; font-weight: bold;">NODE: {art['feed_name']}</div>
             <div style="font-size: 16px; font-weight: bold; margin: 5px 0;">{art['title']}</div>
-            <div style="font-size: 14px; color: #aaa; margin-bottom: 10px;">{art['description']}</div>
+            <div style="font-size: 14px; color: #aaa; margin-bottom: 10px; line-height: 1.5;">{art['description']}</div>
             <a href="{art['source_url']}" style="color: #FF5500; text-decoration: none; font-size: 12px; border: 1px solid #FF5500; padding: 5px 10px; display: inline-block;">ACCESS RAW DATA</a>
         </div>
         """
@@ -156,8 +181,8 @@ def fetch_all_signals(send_email=False):
                     parsed = feedparser.parse(response.content)
                     feed_node = {"name": feed_info['name'], "articles": []}
                     
-                    # Capped at 10 to keep the deep scrape fast and efficient
-                    for entry in parsed.entries[:10]:
+                    # Capped at 5 articles per feed to respect AI rate limits and execution time
+                    for entry in parsed.entries[:5]:
                         date_val = datetime.now().strftime("%Y.%m.%d")
                         is_recent = False
                         
@@ -167,13 +192,21 @@ def fetch_all_signals(send_email=False):
                             if entry_dt >= time_limit:
                                 is_recent = True
                         
-                        # --- THE DEEP SCRAPE INITIATION ---
-                        # First try to extract the real article text
+                        # Step 1: Deep Scrape
                         deep_text = deep_scrape_article(entry.link)
                         
-                        # If the site blocks us, fallback to the standard RSS summary
-                        if deep_text:
-                            final_desc = deep_text
+                        # Step 2: AI Decryption
+                        final_desc = "NO_DESCRIPTION_AVAILABLE"
+                        if deep_text and len(deep_text) > 200:
+                            print(f" > INITIATING_AI_DECRYPT for: {entry.title[:30]}...")
+                            ai_summary = summarize_with_ai(deep_text)
+                            
+                            if ai_summary:
+                                final_desc = ai_summary
+                                # CRITICAL: Throttle to respect the 15 RPM Free Tier Limit
+                                time.sleep(4.2) 
+                            else:
+                                final_desc = clean_summary(deep_text)
                         else:
                             fallback_desc = entry.get('summary', entry.get('description', 'NO_DESCRIPTION_AVAILABLE'))
                             final_desc = clean_summary(fallback_desc)
@@ -191,8 +224,6 @@ def fetch_all_signals(send_email=False):
                         if is_recent:
                             recent_articles.append(article_data)
                             
-                        time.sleep(0.5) # Slight pause to respect server rate limits
-                    
                     category_node["feeds"].append(feed_node)
                 except Exception as e:
                     print(f"UPLINK_FAILED for {feed_info['name']}: {e}")
