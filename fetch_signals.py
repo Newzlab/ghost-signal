@@ -5,12 +5,14 @@ import re
 import os
 import smtplib
 import argparse
+import time
+from bs4 import BeautifulSoup
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 from time import mktime
 
-# --- CONFIGURATION: THE SOURCE TREE (FORTIFIED) ---
+# --- CONFIGURATION: THE SOURCE TREE ---
 MASTER_CONFIG = {
     "DEFENSE_SYSTEMS": {
         "UNMANNED_AUTONOMY": [
@@ -48,15 +50,43 @@ MASTER_CONFIG = {
     }
 }
 
-# The "Disguise": Makes the script look like a standard Google Chrome browser
 HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    'Accept': 'application/rss+xml, application/xml, text/xml, */*'
+    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
 }
 
 def clean_summary(text):
+    """Fallback cleaner if deep scrape fails."""
     clean = re.sub(r'<[^>]+>', '', text)
     return clean[:400] + "..." if len(clean) > 400 else clean
+
+def deep_scrape_article(url):
+    """Visits the actual article URL and extracts paragraph text."""
+    try:
+        response = requests.get(url, headers=HEADERS, timeout=10)
+        response.raise_for_status()
+        
+        soup = BeautifulSoup(response.content, 'html.parser')
+        
+        # Destroy scripts, styles, and headers so they don't pollute the text
+        for element in soup(["script", "style", "header", "footer", "nav", "aside"]):
+            element.extract()
+            
+        # Find all paragraph tags
+        paragraphs = soup.find_all('p')
+        
+        # Join paragraphs that actually contain sentences (length > 40)
+        article_text = " ".join([p.get_text().strip() for p in paragraphs if len(p.get_text().strip()) > 40])
+        
+        if len(article_text) > 100:
+            # Clean up extra spaces and truncate to 800 characters for the UI
+            clean = re.sub(r'\s+', ' ', article_text)
+            return clean[:800] + " [DATA_TRUNCATED]..." if len(clean) > 800 else clean
+            
+        return None
+    except Exception as e:
+        print(f"DEEP_SCRAPE_FAILED for {url}: {e}")
+        return None
 
 def dispatch_daily_brief(recent_articles):
     sender = os.environ.get("SMTP_USER")
@@ -64,7 +94,7 @@ def dispatch_daily_brief(recent_articles):
     receiver = os.environ.get("SMTP_TO")
 
     if not all([sender, password, receiver]):
-        print("SYSTEM_WARNING: Missing SMTP credentials in GitHub Secrets. Email aborted.")
+        print("SYSTEM_WARNING: Missing SMTP credentials. Email aborted.")
         return
 
     if not recent_articles:
@@ -120,15 +150,14 @@ def fetch_all_signals(send_email=False):
             for feed_info in feeds:
                 print(f"POLLING_SOURCE: {feed_info['name']}...")
                 try:
-                    # Request the feed using our fake browser identity
                     response = requests.get(feed_info['url'], headers=HEADERS, timeout=15)
-                    response.raise_for_status() # Check for HTTP errors
+                    response.raise_for_status()
                     
-                    # Parse the raw text content rather than relying on feedparser to do the network request
                     parsed = feedparser.parse(response.content)
                     feed_node = {"name": feed_info['name'], "articles": []}
                     
-                    for entry in parsed.entries[:15]:
+                    # Capped at 10 to keep the deep scrape fast and efficient
+                    for entry in parsed.entries[:10]:
                         date_val = datetime.now().strftime("%Y.%m.%d")
                         is_recent = False
                         
@@ -138,13 +167,21 @@ def fetch_all_signals(send_email=False):
                             if entry_dt >= time_limit:
                                 is_recent = True
                         
-                        desc = entry.get('summary', entry.get('description', 'NO_DESCRIPTION_AVAILABLE'))
-                        clean_desc = clean_summary(desc)
+                        # --- THE DEEP SCRAPE INITIATION ---
+                        # First try to extract the real article text
+                        deep_text = deep_scrape_article(entry.link)
+                        
+                        # If the site blocks us, fallback to the standard RSS summary
+                        if deep_text:
+                            final_desc = deep_text
+                        else:
+                            fallback_desc = entry.get('summary', entry.get('description', 'NO_DESCRIPTION_AVAILABLE'))
+                            final_desc = clean_summary(fallback_desc)
                         
                         article_data = {
                             "id": f"GS-{hash(entry.link) % 100000}",
                             "title": entry.title.upper(),
-                            "description": clean_desc,
+                            "description": final_desc,
                             "source_url": entry.link,
                             "timestamp": date_val,
                             "feed_name": feed_info['name']
@@ -153,6 +190,8 @@ def fetch_all_signals(send_email=False):
                         feed_node["articles"].append(article_data)
                         if is_recent:
                             recent_articles.append(article_data)
+                            
+                        time.sleep(0.5) # Slight pause to respect server rate limits
                     
                     category_node["feeds"].append(feed_node)
                 except Exception as e:
