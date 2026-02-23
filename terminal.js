@@ -1,4 +1,4 @@
-/* --- GHOST SIGNAL | NAVIGATION ENGINE v4.7 --- */
+/* --- GHOST SIGNAL | NAVIGATION ENGINE v4.8 (DUAL-SORT PATCH) --- */
 
 let navStack = []; 
 let currentFeedData = null; 
@@ -8,7 +8,7 @@ function markAsRead(url) {
     let readArticles = JSON.parse(localStorage.getItem('ghostSignalRead')) || [];
     if (!readArticles.includes(url)) {
         readArticles.push(url);
-        // Cap the memory to the last 1000 articles so it doesn't bloat the browser
+        // Cap the memory to the last 1000 articles
         if (readArticles.length > 1000) readArticles.shift(); 
         localStorage.setItem('ghostSignalRead', JSON.stringify(readArticles));
     }
@@ -38,15 +38,12 @@ window.addEventListener('popstate', (event) => {
     }
 });
 
-// --- NEW FULL RESET ENGINE ---
 function resetUplink() {
-    navStack = []; // Clear history stack
-    history.pushState({ level: "ROOT" }, ""); // Reset browser back button state
+    navStack = []; 
+    history.pushState({ level: "ROOT" }, ""); 
     
-    // Re-render root menu
     renderLevel("INDUSTRY", signalTree.industries);
     
-    // Restore the Center Stage to default visualizer state
     document.getElementById('label-type').innerText = "AWAITING_COORDINATES";
     document.getElementById('active-title').innerText = "INITIALIZING...";
     document.getElementById('active-description').innerHTML = `
@@ -59,7 +56,6 @@ function resetUplink() {
     `;
     document.getElementById('player-zone').innerHTML = '';
 }
-// -----------------------------
 
 function renderLevel(type, items) {
     const container = document.getElementById('vault-content');
@@ -128,11 +124,24 @@ function renderArticleList(feed) {
     document.getElementById('label-type').innerText = fullPath;
     document.getElementById('active-title').innerText = feed.name;
     
+    // --- THE NEW DUAL-SORT ENGINE ---
+    let sortedArticles = [...feed.articles].sort((a, b) => {
+        const aRead = isRead(a.source_url) ? 1 : 0;
+        const bRead = isRead(b.source_url) ? 1 : 0;
+
+        // Priority 1: Unread (0) comes before Read (1)
+        if (aRead !== bRead) {
+            return aRead - bRead; 
+        }
+
+        // Priority 2: Newest date first (Descending order)
+        return b.timestamp.localeCompare(a.timestamp);
+    });
+    // ---------------------------------
+
     let html = `<div class="article-list" style="text-align:left; margin-top:20px;">`;
-    feed.articles.forEach(art => {
+    sortedArticles.forEach(art => {
         const blob = btoa(encodeURIComponent(JSON.stringify(art)));
-        
-        // CHECK MEMORY STATE: Add read class if the URL is found in local storage
         const readClass = isRead(art.source_url) ? ' read-article' : '';
         
         html += `
@@ -150,7 +159,6 @@ function renderArticleList(feed) {
 function viewArticle(blob) {
     const art = JSON.parse(decodeURIComponent(atob(blob)));
     
-    // RECORD TO MEMORY
     markAsRead(art.source_url);
 
     document.getElementById('active-title').innerText = art.title;
@@ -170,7 +178,6 @@ function viewArticle(blob) {
     `;
 }
 
-// --- UTILS ---
 function toggleNav(side) {
     const body = document.body;
     if (side === 'left') {
