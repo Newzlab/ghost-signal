@@ -95,6 +95,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-89750",
+                                    "title": "F-22 RAPTOR, MQ-20 DRONE COMPLETE MANNED-UNMANNED FLIGHT EXERCISE",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Air Force and General Atomics successfully demonstrated manned-unmanned teaming between an F-22 Raptor and an MQ-20 Avenger unmanned aircraft.<br><br><strong>INTEL:</strong> This live-flight exercise showcased an F-22 issuing real-time commands to the MQ-20, which independently executed mission tasks like navigation and simulated engagements, utilizing advanced autonomy software and a tactical data link. This demonstration directly supports the Collaborative Combat Aircraft program, aims to boost lethality and survivability by extending sensor reach, and enables pilots to delegate tactical tasks to drones while retaining command authority.",
+                                    "source_url": "https://www.c4isrnet.com/industry/techwatch/2026/02/23/f-22-raptor-mq-20-drone-complete-manned-unmanned-flight-exercise/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-54414",
                                     "title": "RAPID SCALING, SOLDIER-LED MARKET KEY TO US DRONE AMBITIONS, ARMY SECRETARY SAYS",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Army concluded its first Best Drone Warfighter Competition, coinciding with announcements for significant drone scaling and a new marketplace.\n\n<br><strong>INTEL:</strong> Army Secretary Dan Driscoll revealed an urgent goal to acquire one million drones within 18-24 months, fundamentally reclassifying them from sign-out equipment to expendable 'ammunition' to counter adversaries producing millions of drones annually. The Army also plans to launch a drone marketplace to drive innovation, reduce costs through competition, and allow soldiers to rate new technologies, emphasizing a qualitative shift in procurement and training.",
@@ -361,6 +369,14 @@ const signalTree = {
                         {
                             "name": "DEFENSE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-46644",
+                                    "title": "F-22 RAPTOR, MQ-20 DRONE COMPLETE MANNED-UNMANNED FLIGHT EXERCISE",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Air Force and General Atomics successfully completed a manned-unmanned teaming demonstration between an F-22 Raptor and an MQ-20 Avenger drone, advancing autonomous system integration in tactical fighter operations.\n\n<br><strong>INTEL:</strong> The exercise featured an F-22 issuing real-time commands to the MQ-20 via advanced autonomy software and a tactical data link, enabling the drone to independently execute tasks like combat air patrol and simulated engagements as a direct force extender. This initiative is a key step in the Collaborative Combat Aircraft (CCA) program, validating the Autonomy Government Reference Architecture (A-GRA) and aiming to significantly boost combat lethality, sensor reach, and survivability by delegating tactical responsibilities to autonomous drones.",
+                                    "source_url": "https://www.defensenews.com/industry/techwatch/2026/02/23/f-22-raptor-mq-20-drone-complete-manned-unmanned-flight-exercise/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
                                 {
                                     "id": "GS-33688",
                                     "title": "RAPID SCALING, SOLDIER-LED MARKET KEY TO US DRONE AMBITIONS, ARMY SECRETARY SAYS",
@@ -780,6 +796,22 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-53099",
+                                    "title": "YOUNG \u2018SUN\u2019 CAUGHT BLOWING BUBBLES BY NASA\u2019S CHANDRA",
+                                    "description": "<br><strong>STATUS:</strong> Astronomers using NASA's Chandra X-ray Observatory have, for the first time, imaged an astrosphere surrounding a young, Sun-like star known as HD 61005.\n\n<br><strong>INTEL:</strong> This groundbreaking observation of HD 61005's astrosphere, a bubble of hot gas similar to our Sun's heliosphere, offers crucial insights into the early evolution of Sun-like stars. Being much younger and possessing a significantly stronger stellar wind than our Sun, HD 61005 serves as a natural laboratory to understand what the Sun's heliosphere may have been like billions of years ago and how it protects planets from cosmic radiation as it evolves through different galactic environments. The detection was made possible by the star's proximity, strong X-ray emitting stellar wind, and its dense surrounding interstellar medium.",
+                                    "source_url": "https://www.nasa.gov/missions/chandra/young-sun-caught-blowing-bubbles-by-nasas-chandra/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-63401",
+                                    "title": "ASTRONOMY ACTIVATION AMBASSADORS: EMBRACING MULTIPLE PERSPECTIVES",
+                                    "description": "<br><strong>STATUS:</strong> The Astronomy Activation Ambassadors (AAA) project conducted STEM immersion workshops for teachers, including observatory visits in Hawaii and Arizona, integrating indigenous cultural perspectives.<br><br><strong>INTEL:</strong> These workshops, held in April and September 2025, involved visits to working observatories on Maunakea and Kitt Peak, where teachers engaged with scientific experts and native Hawaiian and Tohono O'odham cultural practitioners who shared the spiritual and historical significance of these locations, with one experience being recorded for a virtual tour on the Infiniscope platform.",
+                                    "source_url": "https://science.nasa.gov/learning-resources/science-activation/astronomy-activation-ambassadors-embracing-multiple-perspectives/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-23884",
                                     "title": "NASA TO COVER 33RD SPACEX RESUPPLY MISSION STATION DEPARTURE",
                                     "description": "NASA and its international partners will receive scientific research samples and hardware when a SpaceX Dragon spacecraft departs the International Space Station on Thursday, Feb. 26, and returns to Earth. Watch NASA\u2019s live coverage of the undocking and departure of the agency\u2019s 33rd SpaceX Commercial Resupply Services mission starting at 11:45 a.m. EST on NASA+, Amazon Prime, and the agency\u2019s You...",
@@ -911,6 +943,62 @@ const signalTree = {
                         {
                             "name": "HACKER_NEWS_RAW",
                             "articles": [
+                                {
+                                    "id": "GS-75041",
+                                    "title": "FLOCK CAMERAS GIFTED BY HOROWITZ FOUNDATION, AVOIDING PUBLIC OVERSIGHT",
+                                    "description": "The Las Vegas Metropolitan Police Department (LVMPD) quietly entered an agreement in 2023 with Flock Security, an automated license plate reader company that uses cameras to collect vehicle information and cross-reference it with police databases. But unlike many of the other police departments around the country that use the cameras in their police work, Metro funds the project with donor money f...",
+                                    "source_url": "https://thenevadaindependent.com/article/vegas-police-are-big-users-of-license-plate-readers-public-has-little-input-because-its-a-gift",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-35595",
+                                    "title": "UNIX99, A UNIX-LIKE OS FOR THE TI-99/4A",
+                                    "description": "Comments",
+                                    "source_url": "https://forums.atariage.com/topic/380883-unix99-a-unix-like-os-for-the-ti-994a/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-42832",
+                                    "title": "AMERICANS ARE DESTROYING FLOCK SURVEILLANCE CAMERAS",
+                                    "description": "Save up to $680 on your pass with Super Early Bird rates. REGISTER NOW. Save up to $680 on your Disrupt 2026 pass. Ends February 27. REGISTER NOW. Brian Merchant, writing for Blood in the Machine, reports that people across the United States are dismantling and destroying Flock surveillance cameras, amid rising public anger that the license plate readers aid U.S. immigration authorities and deport...",
+                                    "source_url": "https://techcrunch.com/2026/02/23/americans-are-destroying-flock-surveillance-cameras/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-3564",
+                                    "title": "THE CHALLENGES OF PORTING SHUFFLEPUCK CAFE TO THE 8 BITS APPLE II",
+                                    "description": "This post originally appeared in the June 2025 issue of Juiced.GS, and has been expanded with more details. I am very proud to have succeeded in porting Shufflepuck Cafe to the 8 bits Apple II, bringing a very dynamic 1989 game to an 1979 platform without losing in playability or details. In this article, I will share the challenges that made me pause, and how I solved them. If you are interested ...",
+                                    "source_url": "https://www.colino.net/wordpress/archives/2026/02/23/the-challenges-of-porting-shufflepuck-cafe-to-the-8-bits-apple-ii/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-55469",
+                                    "title": "SIM (YC X25) IS HIRING THE BEST ENGINEERS IN SAN FRANCISCO",
+                                    "description": "Open source platform to build AI agent workflows Sim is the open-source platform to build, deploy, and orchestrate AI agents. Over 70,000 developers \u2014 from early-stage startups to the U.S. Department of Defense \u2014 use Sim to turn ideas into production-grade agentic workflows on a visual, Figma-like canvas. We connect to 1,000+ apps and LLMs, and our Copilot is the state of the art for building work...",
+                                    "source_url": "https://www.ycombinator.com/companies/sim/jobs/Rj8TVRM-software-engineer-platform",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-87646",
+                                    "title": "BINANCE FIRED EMPLOYEES WHO FOUND $1.7B IN CRYPTO WAS SENT TO IRAN",
+                                    "description": "Comments",
+                                    "source_url": "https://www.nytimes.com/2026/02/23/technology/binance-employees-iran-firings.html",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-89653",
+                                    "title": "SHOW HN: BABYSHARK \u2013 WIRESHARK MADE EASY (TERMINAL UI FOR PCAPS)",
+                                    "description": "Flows-first PCAP TUI (case files, gorgeous UX) Babyshark is a PCAP TUI that helps you answer: Permissions note: live capture may require elevated permissions (sudo, dumpcap caps, or being in the wireshark group). If babyshark prints a permission error, follow the guidance it outputs. These are text-only examples of what you\u2019ll see in the TUI. IPs/domains are anonymized. When you bookmark/export, b...",
+                                    "source_url": "https://github.com/vignesh07/babyshark",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
                                 {
                                     "id": "GS-58300",
                                     "title": "ANTHROPIC EDUCATION THE AI FLUENCY INDEX",
@@ -1073,6 +1161,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-50972",
+                                    "title": "MICROSOFT SAYS BUG IN CLASSIC OUTLOOK HIDES THE MOUSE POINTER",
+                                    "description": "Microsoft is investigating a known issue that causes the mouse pointer to disappear in the classic Outlook desktop email client for some users. This bug has been acknowledged almost two months after the first reports started surfacing online, with users saying that Outlook became unusable after the mouse pointer vanished while using the app. \"My mouse just stopped being visible while I am using Ou...",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-bug-in-classic-outlook-hides-the-mouse-pointer/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-38316",
                                     "title": "AD TECH FIRM OPTIMIZELY CONFIRMS DATA BREACH AFTER VISHING ATTACK",
