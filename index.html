@@ -39,12 +39,22 @@
                 <h1 id="active-title" style="font-size: 2.5rem; margin: 15px 0; text-transform: uppercase; text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);">INITIALIZING...</h1>
                 
                 <div id="active-description" style="opacity: 0.8; font-weight: 300; line-height: 1.8; margin-bottom: 30px;">
-                    <div class="visualizer">
+                    <div class="visualizer" style="margin-bottom: 25px;">
                         <div class="v-bar"></div>
                         <div class="v-bar" style="animation-delay: 0.2s"></div>
                         <div class="v-bar" style="animation-delay: 0.4s"></div>
                     </div>
-                    Select an industry node from the directory to begin decryption sequence.
+                    
+                    <div style="text-align: left; background: rgba(0,0,0,0.4); padding: 20px; border: 1px solid var(--border); border-radius: 4px;">
+                        <p style="margin-top: 0;"><strong>GHOST SIGNAL</strong> is an automated Open Source Intelligence (OSINT) aggregator. It autonomously monitors high-priority defense, aerospace, and cyber nodes, utilizes deep-scraping to bypass publisher truncation, and leverages an AI analyst to synthesize raw data into actionable intelligence briefs.</p>
+                        
+                        <h3 style="color: var(--orange); font-family: 'Orbitron'; font-size: 0.85rem; margin-top: 25px; border-bottom: 1px dashed var(--border); padding-bottom: 5px; letter-spacing: 1px;">// OPERATION MANUAL</h3>
+                        <ul style="list-style-type: square; padding-left: 20px; font-size: 0.85rem; margin-bottom: 0;">
+                            <li style="margin-bottom: 12px;"><strong>NAVIGATE:</strong> Select an industry node from the left directory to begin the decryption sequence. Drill down through categories to access specific intelligence feeds.</li>
+                            <li style="margin-bottom: 12px;"><strong>CONSUME:</strong> Unread signals are automatically prioritized at the top of your feed. Viewed intelligence is greyed out and drops to the bottom of the ledger.</li>
+                            <li><strong>RESET:</strong> Click <span style="color: var(--orange); font-weight: bold;">[RESET_UPLINK]</span> or the root directory breadcrumb at any time to clear the terminal and return to this screen.</li>
+                        </ul>
+                    </div>
                 </div>
                 
                 <div id="player-zone"></div>
@@ -63,6 +73,7 @@
 
             <div class="hub-section" style="margin-top: 30px;">
                 <div class="section-label">SYSTEM_LINKS</div>
+                <div class="action-btn" onclick="document.getElementById('subscribe-overlay').style.display = 'flex'" style="border-style: solid; background: rgba(255, 85, 0, 0.1);">[+] SUBSCRIBE_TO_BRIEF</div>
                 <div class="action-btn" onclick="document.getElementById('manifesto-overlay').style.display = 'flex'">PROTOCOL_MANIFESTO</div>
                 <div class="action-btn" onclick="window.location.href='mailto:support@ghostsignal.net'">CONTACT_UPLINK</div>
             </div>
@@ -76,6 +87,24 @@
             </div>
         </aside>
 
+    </div>
+
+    <div id="subscribe-overlay" class="overlay" onclick="this.style.display='none'">
+        <div class="overlay-content" onclick="event.stopPropagation()">
+            <div class="overlay-header" style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--orange); padding-bottom: 10px; margin-bottom: 20px;">
+                <span style="color: var(--orange); font-size: 0.8rem; font-weight: 700; letter-spacing: 2px;">[ADD_NODE_TO_NETWORK]</span>
+                <button class="action-btn" onclick="document.getElementById('subscribe-overlay').style.display='none'" style="margin: 0; padding: 5px 10px; border: none;">[X] CLOSE</button>
+            </div>
+            <div class="overlay-text" style="line-height: 1.6; text-align: center;">
+                <h2 style="color: var(--orange); font-family: 'Orbitron'; margin-top: 0;">DAILY_INTEL_BRIEFING</h2>
+                <p style="font-size: 0.85rem; margin-bottom: 30px;">Enter your coordinates to receive the automated 24-hour Ghost Signal AI decrypt directly to your inbox.</p>
+                <form action="YOUR_FORMSPREE_ENDPOINT" method="POST">
+                    <input type="email" name="email" class="terminal-input" placeholder="ENTER_EMAIL_ADDRESS..." required>
+                    <button type="submit" class="action-btn" style="width: 100%; font-size: 1rem; padding: 15px;">[SUBSCRIBE_NODE]</button>
+                </form>
+                <p style="opacity: 0.5; font-size: 0.6rem; margin-top: 20px;">// SECURE_CONNECTION. NO_SPAM.</p>
+            </div>
+        </div>
     </div>
 
     <div id="manifesto-overlay" class="overlay" onclick="this.style.display='none'">
