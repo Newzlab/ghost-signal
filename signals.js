@@ -95,6 +95,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-54414",
+                                    "title": "RAPID SCALING, SOLDIER-LED MARKET KEY TO US DRONE AMBITIONS, ARMY SECRETARY SAYS",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Army concluded its first Best Drone Warfighter Competition, coinciding with announcements for significant drone scaling and a new marketplace.\n\n<br><strong>INTEL:</strong> Army Secretary Dan Driscoll revealed an urgent goal to acquire one million drones within 18-24 months, fundamentally reclassifying them from sign-out equipment to expendable 'ammunition' to counter adversaries producing millions of drones annually. The Army also plans to launch a drone marketplace to drive innovation, reduce costs through competition, and allow soldiers to rate new technologies, emphasizing a qualitative shift in procurement and training.",
+                                    "source_url": "https://www.c4isrnet.com/news/your-military/2026/02/23/rapid-scaling-soldier-led-market-key-to-us-drone-ambitions-army-secretary-says/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-99288",
                                     "title": "COULD MQ-9B DRONES DRAW CANADA AND DENMARK CLOSER IN ARCTIC SURVEILLANCE?",
                                     "description": "MILAN \u2014 Armed with a fresh defense-cooperation agreement, Denmark and Canada stand to exploit their shared use of MQ-9B drones as a practical touchpoint for Arctic surveillance, according to issue experts. The Danish Air Force officially established Squadron 729 on Feb. 16, which will operate the four MQ-9B long-range unmanned aircraft out of Aalborg Air Base, located in northern Denmark, starting...",
@@ -353,6 +361,14 @@ const signalTree = {
                         {
                             "name": "DEFENSE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-33688",
+                                    "title": "RAPID SCALING, SOLDIER-LED MARKET KEY TO US DRONE AMBITIONS, ARMY SECRETARY SAYS",
+                                    "description": "HUNTSVILLE, Ala. \u2014 The conclusion of the Army\u2019s inaugural Best Drone Warfighter Competition saw soldiers awarded in Best Operator, Best Innovation and Best Tactical Squad categories. On hand to present awards to the winners, who were selected from more than 200 competitors during the Feb. 17-19 event, were Army Secretary Dan Driscoll and Maj. Gen. Clair A. Gill, commanding general of the U.S. Army...",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/02/23/rapid-scaling-soldier-led-market-key-to-us-drone-ambitions-army-secretary-says/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
                                 {
                                     "id": "GS-26912",
                                     "title": "COULD MQ-9B DRONES DRAW CANADA AND DENMARK CLOSER IN ARCTIC SURVEILLANCE?",
@@ -623,6 +639,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-58880",
+                                    "title": "SPACE FORCE SEEKS MARKET ANSWERS ON IN-ORBIT REFUELING",
+                                    "description": "WASHINGTON \u2014 As it plans for a future in which satellites can be refueled in orbit, the U.S. Space Force has taken a step that signals intent without yet committing to a full logistics network. Earlier this month, the service sought industry input through a request for information issued by the Servicing, Mobility and Logistics program office within Space Systems Command. The RFI asks for \u201ctechnic...",
+                                    "source_url": "https://spacenews.com/space-force-seeks-market-answers-on-in-orbit-refueling/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-35167",
+                                    "title": "AST SPACEMOBILE WINS $30 MILLION CONTRACT FOR MILITARY\u00a0 BROADBAND DEMO",
+                                    "description": "WASHINGTON \u2014 The Space Development Agency on Feb. 23 announced a $30 million contract award to AST SpaceMobile to demonstrate its space-based broadband technology for military use. The firm-fixed-price award was issued under SDA\u2019s Hybrid Acquisition for Proliferated Low Earth Orbit, or HALO, an Other Transaction agreement designed to fund rapid on-orbit experiments. AST SpaceMobile, based in Midla...",
+                                    "source_url": "https://spacenews.com/ast-spacemobile-wins-30-million-contract-for-military-broadband-demo/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-60742",
                                     "title": "AALYRIA HITS $1.3 BILLION VALUATION AFTER RAISING FUNDS FOR SATELLITE MESH NETWORK",
                                     "description": "TAMPA, Fla. \u2014 Aalyria announced a $100 million funding round Feb. 23 that values the Californian venture at $1.3 billion, supporting deployment of laser terminals and software for dynamically routing data across space, air and ground networks. The funding follows growing demand for narrow, high-throughput directional links that can improve speed and security but also add operational complexity as ...",
@@ -748,6 +780,30 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-23884",
+                                    "title": "NASA TO COVER 33RD SPACEX RESUPPLY MISSION STATION DEPARTURE",
+                                    "description": "NASA and its international partners will receive scientific research samples and hardware when a SpaceX Dragon spacecraft departs the International Space Station on Thursday, Feb. 26, and returns to Earth. Watch NASA\u2019s live coverage of the undocking and departure of the agency\u2019s 33rd SpaceX Commercial Resupply Services mission starting at 11:45 a.m. EST on NASA+, Amazon Prime, and the agency\u2019s You...",
+                                    "source_url": "https://www.nasa.gov/news-release/nasa-to-cover-33rd-spacex-resupply-mission-station-departure/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-57415",
+                                    "title": "CURIOSITY STUDIES NODULES ON BOXWORK FORMATIONS",
+                                    "description": "NASA\u2019s Curiosity Mars rover discovered these bumpy, pea-sized nodules while exploring a region filled with boxwork formations \u2014 low ridges standing roughly 3 to 6 feet (1 to 2 meters) tall with sandy hollows in-between. This mosaic is made up of 50 individual images taken by Curiosity\u2019s Mars Hand Lens Imager (MAHLI), a camera on the end of the rover\u2019s robotic arm, on Aug. 21, 2025, the 4,636th Mar...",
+                                    "source_url": "https://science.nasa.gov/photojournal/curiosity-studies-nodules-on-boxwork-formations/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-34348",
+                                    "title": "CURIOSITY SURVEYS THE BOXWORK REGION",
+                                    "description": "NASA\u2019s Curiosity Mars rover captured this panorama of boxwork formations \u2014 the low ridges seen here with hollows in between them \u2014 using its Mastcam on Sept. 26, 2025, the 4,671st Martian day, or sol, of the mission. These boxwork formations were created billions of years ago when water leaked through rock cracks. Minerals carried into the cracks later hardened; after eons of windblown sand erodin...",
+                                    "source_url": "https://science.nasa.gov/photojournal/curiosity-surveys-the-boxwork-region/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-50379",
                                     "title": "NASA\u2019S CURIOSITY ROVER SEES MARTIAN \u2018SPIDERWEBS\u2019 UP CLOSE",
                                     "description": "For about six months, NASA\u2019s Curiosity Mars rover has been exploring a region full of geologic formations called boxwork, low ridges standing roughly 3 to 6 feet (1 to 2 meters) tall with sandy hollows in between. Crisscrossing the surface for miles, the formations suggest ancient groundwater flowed on this part of the Red Planet later than scientists expected. This possibility raises new question...",
@@ -855,6 +911,38 @@ const signalTree = {
                         {
                             "name": "HACKER_NEWS_RAW",
                             "articles": [
+                                {
+                                    "id": "GS-58300",
+                                    "title": "ANTHROPIC EDUCATION THE AI FLUENCY INDEX",
+                                    "description": "People are integrating AI tools into their daily routines at a pace that would have been difficult to predict even a year ago. But adoption alone doesn\u2019t tell us much about the impact of these tools. A further, equally important question is: as AI becomes part of everyday life, are individuals developing the skills to use it well? Previous Anthropic Education Reports have studied how university st...",
+                                    "source_url": "https://www.anthropic.com/research/AI-fluency-index",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-6969",
+                                    "title": "ANTHROPIC ANNOUNCES PROOF OF DISTILLATION AT SCALE BY MINIMAX, DEEPSEEK,MOONSHOT",
+                                    "description": "We\u2019ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center. Terms of Service Privacy Policy Cookie Policy Imprint Ads info \u00a9 2026 X Corp.",
+                                    "source_url": "https://twitter.com/anthropicai/status/2025997928242811253",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-17632",
+                                    "title": "THE LIGHTHOUSE: HOW EXTREME ISOLATION TRANSFORMS THE BODY AND MIND",
+                                    "description": "Willem Dafoe and Robert Pattinson star in The LighthouseUniversal Willem Dafoe and Robert Pattinson star in The Lighthouse What happens to the mind when you\u2019re confined to a life of solitude? Robert Eggers offers his interpretation in his latest film, The Lighthouse, a psychological horror shot in haunting black and white. Set in the late 19th century, it follows elderly lighthouse keeper Thomas W...",
+                                    "source_url": "https://www.newscientist.com/article/2231732-the-lighthouse-how-extreme-isolation-transforms-the-body-and-mind/",
+                                    "timestamp": "2026.02.20",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-85519",
+                                    "title": "US GOV DEPLOYS GROK AS NUTRITION BOT, IT ADVISES FOR RECTAL USE OF VEGETABLES",
+                                    "description": "\u201cUse Grok to get real answers about real food.\u201d Until very recently, that was the message on the Trump administration\u2019s just-launched website for its new protein-centric dietary guidelines, RealFood.gov, which was announced in a Super Bowl commercial starring Mike Tyson. And what better harbinger to spread the good word than xAI\u2019s Grok, Elon Musk\u2019s AI chatbot best known for glazing its creator, st...",
+                                    "source_url": "https://futurism.com/artificial-intelligence/us-government-grok-nutrition",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
                                 {
                                     "id": "GS-57256",
                                     "title": "THE AGE VERIFICATION TRAP: VERIFYING AGE UNDERMINES EVERYONE'S DATA PROTECTION",
