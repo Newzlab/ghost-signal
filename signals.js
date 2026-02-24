@@ -968,6 +968,46 @@ const signalTree = {
                             "name": "HACKER_NEWS_RAW",
                             "articles": [
                                 {
+                                    "id": "GS-51001",
+                                    "title": "BLOOD TEST BOOSTS ALZHEIMER'S DIAGNOSIS ACCURACY TO 94.5%, CLINICAL STUDY SHOWS",
+                                    "description": "Comments",
+                                    "source_url": "https://medicalxpress.com/news/2026-02-blood-boosts-alzheimer-diagnosis-accuracy.html",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-92313",
+                                    "title": "TERENCE TAO, AT 8 YEARS OLD [PDF]",
+                                    "description": "Comments",
+                                    "source_url": "https://gwern.net/doc/iq/high/smpy/1984-clements.pdf",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-11033",
+                                    "title": "SHOW HN: X86CSS \u2013 AN X86 CPU EMULATOR WRITTEN IN CSS",
+                                    "description": "<br><strong>STATUS:</strong> A groundbreaking project called x86CSS demonstrates a fully functional 16-bit x86 CPU/emulator built entirely with Cascading Style Sheets (CSS).<br><br><strong>INTEL:</strong> This remarkable feat allows native 8086 machine code, compiled from C programs, to execute within a web browser without requiring JavaScript, primarily utilizing CSS animations and container queries for its \"clock\" mechanism. While currently limited to Chromium-based browsers and focusing on the original 16-bit x86 architecture, the creator provides tools and instructions for users to compile and run their own assembly or C programs, showcasing a unique and technically impressive application of web styling languages.",
+                                    "source_url": "https://lyra.horse/x86css/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-37928",
+                                    "title": "SHOW HN: STEERLING-8B, A LANGUAGE MODEL THAT CAN EXPLAIN ANY TOKEN IT GENERATES",
+                                    "description": "<br><strong>STATUS:</strong> A new 8-billion-parameter language model, Steerling-8B, has been released, distinguishing itself as the first truly interpretable model capable of tracing any generated token back to its input context, human-understandable concepts, and training data.\n\n<br><strong>INTEL:</strong> Steerling-8B achieves competitive performance on benchmarks despite being trained on significantly less data and compute than comparable models, such as LLaMA2-7B. Its core innovation lies in decomposing embeddings into supervised and discovered concepts, enabling unprecedented inference-time control, including the ability to suppress or amplify specific concepts and provide training data provenance, which effectively replaces extensive safety training with explicit concept-level steering.",
+                                    "source_url": "https://www.guidelabs.ai/post/steerling-8b-base-model-release/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-40004",
+                                    "title": "BABY CHICKS PASS THE BOUBA-KIKI TEST, CHALLENGING A THEORY OF LANGUAGE EVOLUTION",
+                                    "description": "<br><strong>STATUS:</strong> A new study reveals that baby chicks demonstrate the \"bouba-kiki\" effect, associating specific sounds with corresponding shapes.\n\n<br><strong>INTEL:</strong> This discovery challenges the long-standing theory that the bouba-kiki effect is unique to humans and crucial for language evolution, suggesting an innate perceptual bias with evolutionary roots predating the bird-human split by 300 million years. The research indicates that the ability to link sound and meaning may be far more ancient and widespread than previously believed, prompting a re-evaluation of theories on human language origins and prior studies involving great apes.",
+                                    "source_url": "https://www.scientificamerican.com/article/baby-chicks-pass-the-bouba-kiki-test-challenging-a-theory-of-language/",
+                                    "timestamp": "2026.02.19",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
                                     "id": "GS-14935",
                                     "title": "SHATNER IS MAKING AN ALBUM WITH 35 METAL ICONS",
                                     "description": "All the latest guitar news, interviews, lessons, reviews, deals and more, direct to your inbox! You might know him as Captain James T. Kirk, the cavalier captain of the Starship Enterprise from Star Trek, but believe it or not, William Shatner is a true heavy metal warrior \u2013 and he has just announced an all-star metal album to prove it. Given all that he has been through \u2013 all those times Montgome...",
