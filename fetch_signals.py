@@ -14,9 +14,7 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 from time import mktime
 
-# --- CONFIGURATION ---
-MAX_HISTORY_PER_FEED = 50  # How many historical articles to keep in the Terminal per publication
-
+# --- CONFIGURATION: THE SOURCE TREE ---
 MASTER_CONFIG = {
     "DEFENSE_SYSTEMS": {
         "UNMANNED_AUTONOMY": [
@@ -25,11 +23,9 @@ MASTER_CONFIG = {
         ],
         "GOVERNMENT_DECKS": [
             {"name": "DEFENSE_ONE_TECH", "url": "https://www.defenseone.com/rss/technology/"},
-            {"name": "AF_TOP_STORIES", "url": "https://www.af.mil/DesktopModules/ArticleCS/RSS.ashx?PortalId=1&ModuleId=730&max=20"},
             {"name": "DEFENSE_NEWS", "url": "https://www.defensenews.com/arc/outboundfeeds/rss/"}
         ],
         "RESEARCH_LABS": [
-            {"name": "MIT_LINCOLN_LAB", "url": "https://www.ll.mit.edu/news/rss.xml"},
             {"name": "ARXIV_AI_PAPERS", "url": "https://arxiv.org/rss/cs.AI"}
         ]
     },
@@ -37,14 +33,10 @@ MASTER_CONFIG = {
         "ORBITAL_LOGISTICS": [
             {"name": "SPACE_NEWS", "url": "https://spacenews.com/feed/"},
             {"name": "NASA_BREAKING", "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss"}
-        ],
-        "DEFENSE_SPACE": [
-            {"name": "BREAKING_DEFENSE_SPACE", "url": "https://breakingdefense.com/category/space/feed/"}
         ]
     },
     "CYBER_INTELLIGENCE": {
         "THREAT_ADVISORIES": [
-            {"name": "CISA_ALERTS", "url": "https://www.cisa.gov/cybersecurity-advisories/all.xml"},
             {"name": "HACKER_NEWS_RAW", "url": "https://news.ycombinator.com/rss"}
         ],
         "EXPLOIT_TRACKERS": [
