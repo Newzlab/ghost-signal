@@ -14,7 +14,10 @@ from email.mime.multipart import MIMEMultipart
 from datetime import datetime, timedelta
 from time import mktime
 
-# --- CONFIGURATION: THE SOURCE TREE ---
+# --- CONFIGURATION ---
+MAX_HISTORY_PER_FEED = 50  
+
+# Pruned for maximum signal quality
 MASTER_CONFIG = {
     "DEFENSE_SYSTEMS": {
         "UNMANNED_AUTONOMY": [
@@ -36,9 +39,6 @@ MASTER_CONFIG = {
         ]
     },
     "CYBER_INTELLIGENCE": {
-        "THREAT_ADVISORIES": [
-            {"name": "HACKER_NEWS_RAW", "url": "https://news.ycombinator.com/rss"}
-        ],
         "EXPLOIT_TRACKERS": [
             {"name": "BLEEPING_COMPUTER", "url": "https://www.bleepingcomputer.com/feed/"},
             {"name": "KREBS_ON_SECURITY", "url": "https://krebsonsecurity.com/feed/"}
@@ -51,19 +51,15 @@ HEADERS = {
     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8'
 }
 
-# --- NEW: MEMORY RETRIEVAL ---
 def load_existing_history(filepath="signals.js"):
-    """Reads the existing signals.js file to extract historical articles."""
     historical_data = {}
     if os.path.exists(filepath):
         try:
             with open(filepath, "r", encoding="utf-8") as f:
                 content = f.read()
-                # Strip the JS variable syntax to get pure JSON
                 json_str = content.replace("const signalTree = ", "").strip().rstrip(";")
                 old_tree = json.loads(json_str)
                 
-                # Map old articles by feed name for easy lookup
                 for ind in old_tree.get("industries", []):
                     for cat in ind.get("categories", []):
                         for feed in cat.get("feeds", []):
@@ -185,7 +181,6 @@ def fetch_all_signals(send_email=False):
     recent_articles = []
     time_limit = datetime.now() - timedelta(days=1)
     
-    # LOAD HISTORICAL DATA
     historical_feeds = load_existing_history()
 
     for ind_name, categories in MASTER_CONFIG.items():
@@ -198,7 +193,6 @@ def fetch_all_signals(send_email=False):
                 print(f"POLLING_SOURCE: {feed_info['name']}...")
                 feed_name = feed_info['name']
                 
-                # Fetch old articles for this specific feed
                 old_articles = historical_feeds.get(feed_name, [])
                 old_urls = {art["source_url"] for art in old_articles}
                 new_articles_for_feed = []
@@ -209,8 +203,7 @@ def fetch_all_signals(send_email=False):
                     
                     parsed = feedparser.parse(response.content)
                     
-                    for entry in parsed.entries[:15]:  # Look at the latest 15 on the RSS
-                        # IF WE ALREADY HAVE IT, SKIP THE AI AND SCRAPE!
+                    for entry in parsed.entries[:15]: 
                         if entry.link in old_urls:
                             continue
                             
@@ -233,7 +226,7 @@ def fetch_all_signals(send_email=False):
                             if ai_summary:
                                 print("      [+] AI_DECRYPT_SUCCESS")
                                 final_desc = ai_summary
-                                time.sleep(4.2) # Throttle only on new successful AI requests
+                                time.sleep(4.2) 
                             else:
                                 final_desc = clean_summary(deep_text)
                         else:
@@ -251,11 +244,9 @@ def fetch_all_signals(send_email=False):
                         
                         new_articles_for_feed.append(article_data)
                         
-                        # Only email the newly fetched ones from the last 24h
                         if is_recent:
                             recent_articles.append(article_data)
                             
-                    # COMBINE NEW + OLD, AND CAP IT
                     combined_articles = new_articles_for_feed + old_articles
                     capped_articles = combined_articles[:MAX_HISTORY_PER_FEED]
                     
@@ -264,7 +255,6 @@ def fetch_all_signals(send_email=False):
                     
                 except Exception as e:
                     print(f"UPLINK_FAILED for {feed_info['name']}: {e}")
-                    # If fetching fails, just keep the old history so the feed doesn't disappear!
                     category_node["feeds"].append({"name": feed_name, "articles": old_articles[:MAX_HISTORY_PER_FEED]})
                     
             industry_node["categories"].append(category_node)
