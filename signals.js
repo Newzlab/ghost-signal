@@ -370,6 +370,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-23311",
+                                    "title": "CHINA\u2019S NEW NUCLEAR SUBMARINE BREAKS COVER AMID SHIPBUILDING SPREE",
+                                    "description": "<br><strong>STATUS:</strong> Satellite imagery has revealed a new Type 09V/095 nuclear-powered attack submarine moving to a launch bay at China's Bohai Shipyard, indicating its imminent launch and China's accelerating naval development.<br><br><strong>INTEL:</strong> The Type 09V, estimated at 9,000-10,000 tons, incorporates advanced features like a wider hull, X-shaped rudders, a pumpjet propulsor, and 8 universal vertical launch system (VLS) cells, aiming to close the technological gap with the U.S. China's robust production capacity at Bohai Shipyard supports a launch rate of three new SSNs annually, and this new class is expected to carry cutting-edge weaponry such as the YJ-19 hypersonic missile, which China has already successfully deployed on conventional submarines.",
+                                    "source_url": "https://www.defensenews.com/global/asia-pacific/2026/02/24/chinas-new-nuclear-submarine-breaks-cover-amid-shipbuilding-spree/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-5048",
                                     "title": "THE US AIR FORCE NEEDS MORE AIRPOWER \u2014 BUT NOT THE KIND IT\u2019S BUYING",
                                     "description": "<br><strong>STATUS:</strong> The United States has amassed its largest concentration of airpower in the Middle East since 2003, positioning assets for potential military strikes on Iran while diplomacy continues.<br><br><strong>INTEL:</strong> This significant military buildup, which commenced in late January and will be fully in place by mid-March, underscores the time required for strategic force projection due to the reliance on naval transport for mass. The article critically analyzes that \"airpower\" is increasingly a joint effort, with the Army and Navy taking leading roles in air denial (Patriot/THAAD) and electronic warfare (EA-18G Growler), suggesting the Air Force's singular focus on \"exquisite\" platforms has made it less relevant for these crucial, persistent missions required for strategic deterrence.",
@@ -791,6 +799,38 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-76993",
+                                    "title": "THE COMMERCIAL SPACE FEDERATION RELEASES NEW WHITE PAPER \u201cPERFECTING PUBLIC-PRIVATE PARTNERSHIPS\u201d",
+                                    "description": "<br><strong>STATUS:</strong> The Commercial Space Federation (CSF) has released a new paper advocating for enhanced public-private partnerships in government space contracts. <br><br><strong>INTEL:</strong> The report, \"Perfecting Public-Private Partnerships: The Future of Government Space Contracts,\" authored by Rational Futures, offers a playbook for government buyers to maximize outcomes by focusing on results over effort. It provides recommendations for improving these partnerships, including robust market assessments, clear demand signals, fostering competition, and maintaining stable requirements throughout the program lifecycle, ultimately benefiting taxpayers and promoting growth in the space economy.",
+                                    "source_url": "https://spacenews.com/the-commercial-space-federation-releases-new-white-paper-perfecting-public-private-partnerships/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-37004",
+                                    "title": "AT COLORADO SPACE FIRMS, HEGSETH CASTS PENTAGON BUREAUCRACY AS THE ENEMY",
+                                    "description": "<br><strong>STATUS:</strong> Secretary of Defense Pete Hegseth is publicly criticizing the traditional defense acquisition system and large prime contractors, instead promoting commercially-oriented space companies as crucial for innovation and national security during his \"Arsenal of Freedom\" tour.<br><br><strong>INTEL:</strong> Hegseth's \"swamp\" rhetoric targets the perceived inefficiencies, delays, and cost overruns of Washington bureaucracy and established defense primes, accusing them of prioritizing profit over performance. He argues that partnering with agile, commercially funded space firms like True Anomaly and Sierra Space is essential for rapid technological advancement, securing deterrence in space, and building the \"Golden Dome\" missile defense initiative, explicitly stating that control of space is paramount and a fair fight cannot be afforded. This strategy represents a significant push for procurement reform, aiming to diversify the defense industrial base and accelerate the fielding of critical capabilities by embracing Silicon Valley-style iteration.",
+                                    "source_url": "https://spacenews.com/at-colorado-space-firms-hegseth-casts-pentagon-bureaucracy-as-the-enemy/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-98195",
+                                    "title": "LAMBDAVISION BOOKS SPACE ON STARLAB COMMERCIAL SPACE STATION",
+                                    "description": "<br><strong>STATUS:</strong> LambdaVision, a company developing artificial retinas using microgravity, has reserved payload space on the upcoming commercial Starlab space station to continue its research and manufacturing.\n\n<br><strong>INTEL:</strong> This agreement secures a future platform for LambdaVision's crucial microgravity experiments, which produce protein thin films for its artificial retina intended for patients with advanced retinitis pigmentosa, enabling a transition from demonstration to scalable production as the International Space Station approaches retirement. The booking also validates Starlab's technically mature design, recently confirmed through a critical design review, and underscores the increasing commercial viability and strategic importance of Low Earth Orbit for advanced scientific research and manufacturing, supported by NASA's Commercial Low Earth Orbit Destinations program.",
+                                    "source_url": "https://spacenews.com/lambdavision-books-space-on-starlab-commercial-space-station/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-98791",
+                                    "title": "SOPHIA SPACE CLAIMS $10 MILLION IN SEED ROUND",
+                                    "description": "<br><strong>STATUS:</strong> Sophia Space has successfully raised $10 million in seed funding to accelerate the development of its space-based edge computers and orbital data centers.<br><br><strong>INTEL:</strong> This significant investment, led by Alpha Funds, KDDI Green Partners Fund, and Unlock Venture Partners, validates the company's progress from conceptual designs to hardware development and signals a shift in capital towards orbital-compute infrastructure. The funds will be utilized to advance Sophia Space's orbital computing systems, proprietary thermal technology, and expand engineering for \"Tile\" compute modules, which are 1m x 1m x 1cm units containing four enterprise servers designed for efficient power and passive cooling, essential for future AI inference and real-time data processing in orbit to support national defense and Earth observation.",
+                                    "source_url": "https://spacenews.com/sophia-space-claims-10-million-in-seed-round/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-51729",
                                     "title": "BOEING DEMONSTRATES LARGE LANGUAGE MODEL FOR SPACE-GRADE HARDWARE",
                                     "description": "<br><strong>STATUS:</strong> Boeing engineers successfully demonstrated running a large language model on commercial off-the-shelf space hardware to analyze satellite telemetry and report its health in natural language.<br><br><strong>INTEL:</strong> This achievement enables faster, natural language communication with satellites by performing AI-driven data analysis directly in space, overcoming initial manufacturer skepticism and traditional hardware limitations. Boeing modified an LLM to run on existing space-qualified devices, allowing current constellations to gain advanced processing capabilities via a software upgrade, a strategic shift towards edge computing for enhanced satellite autonomy and simplified operations.",
@@ -1103,6 +1143,30 @@ const signalTree = {
                         {
                             "name": "HACKER_NEWS_RAW",
                             "articles": [
+                                {
+                                    "id": "GS-4960",
+                                    "title": "I PITCHED A ROLLER COASTER TO DISNEYLAND AT AGE 10 IN 1978",
+                                    "description": "<br><strong>STATUS:</strong> A 10-year-old Kevin Glikmann designed and built a detailed model roller coaster named \"The Quadrupuler\" with four loops, subsequently submitting his innovative concept to Disneyland in 1978.<br><br><strong>INTEL:</strong> Inspired by the 1978 opening of Space Mountain, Glikmann's \"Quadrupuler\" featured four inverted loops, a significant technical ambition for the era, with blueprints using non-standard \"story's\" for height measurements. He independently engineered a solution for creating track loops by heating and bending plastic strips, showcasing early ingenuity and problem-solving, which culminated in an unsolicited design proposal sent to Disneyland.",
+                                    "source_url": "https://wordglyph.xyz/one-piece-at-a-time",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-23547",
+                                    "title": "IRS TACTICS AGAINST META OPEN A NEW FRONT IN THE CORPORATE TAX FIGHT",
+                                    "description": "Comments",
+                                    "source_url": "https://www.nytimes.com/2026/02/24/business/irs-meta-corporate-taxes.html",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-32605",
+                                    "title": "XAI AND PENTAGON REACH DEAL TO USE GROK IN CLASSIFIED SYSTEMS",
+                                    "description": "Comments",
+                                    "source_url": "https://www.axios.com/2026/02/23/ai-defense-department-deal-musk-xai-grok",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
                                 {
                                     "id": "GS-16600",
                                     "title": "SHOW HN: SNKV \u2013 SQLITE'S B-TREE AS A KEY-VALUE STORE (C/C++ AND PYTHON BINDINGS)",
@@ -1477,22 +1541,6 @@ const signalTree = {
                                     "description": "Why are 21st century products still protected with 1950s materials like expanded polystyrene EPS that persist in landfill for centuries? EPS now carries commercial risk through plastic taxes and reputational risk through environmental impact. There is a better way. Mushroom\u00ae Packaging is grown from mycelium and agricultural by products to form a high performance protective material. It matches EPS...",
                                     "source_url": "https://magicalmushroom.com/index",
                                     "timestamp": "2026.02.23",
-                                    "feed_name": "HACKER_NEWS_RAW"
-                                },
-                                {
-                                    "id": "GS-88909",
-                                    "title": "WRITING CODE IS CHEAP NOW",
-                                    "description": "The biggest challenge in adopting agentic engineering practices is getting comfortable with the consequences of the fact that writing code is cheap now. Code has always been expensive. Producing a few hundred lines of clean, tested code takes most software developers a full day or more. Many of our engineering habits, at both the macro and micro level, are built around this core constraint. At the...",
-                                    "source_url": "https://simonwillison.net/guides/agentic-engineering-patterns/code-is-cheap/",
-                                    "timestamp": "2026.02.23",
-                                    "feed_name": "HACKER_NEWS_RAW"
-                                },
-                                {
-                                    "id": "GS-58022",
-                                    "title": "EMULATING GOTO IN SCHEME WITH CONTINUATIONS",
-                                    "description": "In his 1968 letter, A case against the GO TO statement (known only by that name), Dijkstra said \u201c[t]he go to statement as it stands is just too primitive, it is too much an invitation to make a mess of one\u2019s program.\u201d Unfortunately, scheme programmers aren\u2019t given that invitation. That\u2019s no fair! Fortunately, scheme has a procedure, call/cc, that we can use to emulate the style of control flow tha...",
-                                    "source_url": "https://terezi.pyrope.net/ccgoto/",
-                                    "timestamp": "2026.02.19",
                                     "feed_name": "HACKER_NEWS_RAW"
                                 }
                             ]
