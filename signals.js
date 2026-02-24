@@ -370,6 +370,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-41166",
+                                    "title": "US AIR FORCE ACCELERATES B-21 RAIDER PRODUCTION, PROJECTS 2027 FIELDING",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Air Force has accelerated the production of the B-21 Raider stealth bomber by 25% to speed up deliveries.\n\n<br><strong>INTEL:</strong> This production increase is funded by $4.5 billion from previously authorized FY25 legislation and aims to accelerate the delivery of the B-21, a top acquisition priority for nuclear modernization and conventional long-range strike. The move reflects confidence in the program's performance and industrial base, aligning with broader DoD efforts to rapidly field next-generation capabilities for enhanced deterrence and response to evolving threats, with initial operational aircraft still projected for 2027.",
+                                    "source_url": "https://www.defensenews.com/industry/techwatch/2026/02/24/us-air-force-accelerates-b-21-raider-production-projects-2027-fielding/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-23311",
                                     "title": "CHINA\u2019S NEW NUCLEAR SUBMARINE BREAKS COVER AMID SHIPBUILDING SPREE",
                                     "description": "<br><strong>STATUS:</strong> Satellite imagery has revealed a new Type 09V/095 nuclear-powered attack submarine moving to a launch bay at China's Bohai Shipyard, indicating its imminent launch and China's accelerating naval development.<br><br><strong>INTEL:</strong> The Type 09V, estimated at 9,000-10,000 tons, incorporates advanced features like a wider hull, X-shaped rudders, a pumpjet propulsor, and 8 universal vertical launch system (VLS) cells, aiming to close the technological gap with the U.S. China's robust production capacity at Bohai Shipyard supports a launch rate of three new SSNs annually, and this new class is expected to carry cutting-edge weaponry such as the YJ-19 hypersonic missile, which China has already successfully deployed on conventional submarines.",
@@ -799,6 +807,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-512",
+                                    "title": "LOCKHEED MARTIN PRESSES CASE THAT GPS UPGRADE WILL COUNTER JAMMING THREATS",
+                                    "description": "<br><strong>STATUS:</strong> Lockheed Martin is asserting that the next-generation GPS IIIF satellites will significantly enhance the constellation's resilience against rising jamming and spoofing threats.\n\n<br><strong>INTEL:</strong> The GPS IIIF satellites, contracted by the U.S. Space Force from Lockheed Martin, feature a critical new capability called Regional Military Protection (RMP). This allows satellites to focus their encrypted M-code signals into high-gain spot beams over specific regions, dramatically increasing effective signal strength for military users and forcing adversaries to employ more powerful and closer jammers to disrupt service, thus altering the tactical dynamics of electronic warfare. The new satellites also include search-and-rescue payloads and are exploring optical communications for future enhancements.",
+                                    "source_url": "https://spacenews.com/lockheed-martin-presses-case-that-gps-upgrade-will-counter-jamming-threats/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-76993",
                                     "title": "THE COMMERCIAL SPACE FEDERATION RELEASES NEW WHITE PAPER \u201cPERFECTING PUBLIC-PRIVATE PARTNERSHIPS\u201d",
                                     "description": "<br><strong>STATUS:</strong> The Commercial Space Federation (CSF) has released a new paper advocating for enhanced public-private partnerships in government space contracts. <br><br><strong>INTEL:</strong> The report, \"Perfecting Public-Private Partnerships: The Future of Government Space Contracts,\" authored by Rational Futures, offers a playbook for government buyers to maximize outcomes by focusing on results over effort. It provides recommendations for improving these partnerships, including robust market assessments, clear demand signals, fostering competition, and maintaining stable requirements throughout the program lifecycle, ultimately benefiting taxpayers and promoting growth in the space economy.",
@@ -988,6 +1004,22 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-81178",
+                                    "title": "WEBB MAPS URANUS\u2019 UPPER ATMOSPHERE",
+                                    "description": "<br><strong>STATUS:</strong> NASA's James Webb Space Telescope has provided the first vertical view of Uranus's ionosphere, revealing auroras influenced by its unique, tilted magnetic field.<br><br><strong>INTEL:</strong> This observation offers unprecedented detail into the formation of Uranus's auroras and how its extremely tilted and offset magnetosphere, combined with the planet rolling on its side, causes complex aurora movements. The data also provides insights into atmospheric cooling since the 1990s, enhancing our understanding of ice-giant planets and aiding in the characterization of giant exoplanets.",
+                                    "source_url": "https://www.nasa.gov/image-article/webb-maps-uranus-upper-atmosphere/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-58749",
+                                    "title": "TECHNOLOGY ORIGINALLY DEVELOPED FOR SPACE MISSIONS NOW INTEGRAL TO EVERYDAY LIFE",
+                                    "description": "<br><strong>STATUS:</strong> Dr. Eric Fossum developed the first CMOS active pixel image sensor at JPL, revolutionizing imaging technology from specialized scientific use to widespread global adoption across billions of consumer and industrial devices.\n\n<br><strong>INTEL:</strong> Fossum's critical advancement involved applying a noise-reduction technique, \"intra-pixel charge transfer with correlated double sampling,\" to CMOS sensors, which overcame their previous signal-to-noise limitations and made them viable for high-quality imaging. This innovation allowed CMOS sensors to leverage their inherent advantages over CCDs\u2014lower power consumption, in-pixel amplification, and reduced radiation susceptibility\u2014leading to their rapid commercialization and integration into virtually all digital cameras, including those in smartphones, webcams, automotive electronics, and medical devices, with current production reaching approximately seven billion units per year.",
+                                    "source_url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/technology-originally-developed-for-space-missions-now-integral-to-everyday-life/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-14223",
                                     "title": "SHOWY SWIRLS AROUND JEJU ISLAND",
                                     "description": "Winds blowing past the volcanic landmass near the Korean Peninsula created a trail of spiraling clouds, while murky water churned nearby. The tallest point in South Korea is not located in the Taebaek Mountains that run along the country\u2019s eastern coast. Rather, it is found atop a volcanic peak on Jeju Island, about 100 kilometers (60 miles) south of the Korean Peninsula. In winter 2026, winds ble...",
@@ -1143,6 +1175,38 @@ const signalTree = {
                         {
                             "name": "HACKER_NEWS_RAW",
                             "articles": [
+                                {
+                                    "id": "GS-83913",
+                                    "title": "SAMSUNG UPCYCLE PROMISE",
+                                    "description": "<br><strong>STATUS:</strong> Samsung announced an ambitious \"Galaxy Upcycling\" program in 2017 to repurpose old phones, which was largely abandoned and replaced by a significantly limited version years later.<br><br><strong>INTEL:</strong> The original 2017 vision promised open-source bootloader unlocking, a developer marketplace, and an iFixit partnership to transform old Galaxy phones into smart home devices or computers, with working prototypes demonstrated. However, the initiative was reportedly shelved by Samsung executives due to a lack of clear revenue generation, potential PR issues from enabling device modification, and a fundamental conflict with the company's core business model of selling new phones and encouraging trade-ins, resulting in a much-simplified app-based \"Upcycling at Home\" program in 2021 that failed to deliver on the initial promises.",
+                                    "source_url": "https://www.xda-developers.com/samsung-promised-make-old-phones-useful-galaxy-upcycle/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-69132",
+                                    "title": "TINY QR CODE ACHIEVED USING ELECTRON MICROSCOPE TECHNOLOGY",
+                                    "description": "<br><strong>STATUS:</strong> Austrian researchers from TU Wien have set a new Guinness World Record by creating the smallest reliably readable QR code, requiring an electron microscope to view.\n\n<br><strong>INTEL:</strong> This microscopic QR code, measuring 1.98 square micrometers and milled onto a durable ceramic film using focused ion beams, features individual pixels just 49 nanometers, rendering it invisible to optical microscopes. The innovation significantly advances durable, high-density data storage technology, potentially allowing an A4-sized ceramic film to hold over 2 terabytes of data, and aims to compete with other next-gen archival methods.",
+                                    "source_url": "https://newatlas.com/technology/smallest-qr-code-bacteria-tu-wien/",
+                                    "timestamp": "2026.02.21",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-48426",
+                                    "title": "WE INSTALLED A SINGLE TURNSTILE TO FEEL SECURE",
+                                    "description": "After the acquisition by a much larger company, security became a top priority. Our company occupied three tall buildings, each at least 13 stories high. Key card readers were installed next to every entrance, every elevator car, and even at the parking lot entrance, which itself was eight stories tall. The parking lot system was activated first. If you wanted to park your car, you needed to scan ...",
+                                    "source_url": "https://idiallo.com/blog/installed-single-turnstile-for-security-theater",
+                                    "timestamp": "2026.02.22",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-47220",
+                                    "title": "DISCORD CUTS TIES WITH PETER THIEL-BACKED VERIFICATION SOFTWARE",
+                                    "description": "Communication platform Discord is under fire after its identity verification software, Persona Identities, was found to have front-end code accessible on the open internet and on government servers. Nearly 2,500 accessible files were found sitting on a U.S. government-authorized endpoint, researchers pointed out on X. The files showed Persona conducted facial recognition checks against watchlists ...",
+                                    "source_url": "https://fortune.com/2026/02/24/discord-peter-thiel-backed-persona-identity-verification-breach/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
                                 {
                                     "id": "GS-4960",
                                     "title": "I PITCHED A ROLLER COASTER TO DISNEYLAND AT AGE 10 IN 1978",
@@ -1510,38 +1574,6 @@ const signalTree = {
                                     "source_url": "https://smallcultfollowing.com/babysteps/blog/2026/02/23/ubuntu-rustnation/",
                                     "timestamp": "2026.02.23",
                                     "feed_name": "HACKER_NEWS_RAW"
-                                },
-                                {
-                                    "id": "GS-51739",
-                                    "title": "THE PECULIAR CASE OF JAPANESE WEB DESIGN (2022)",
-                                    "description": "in this 2013 Randomwire blog post, the author (David) highlighted an intriguing discrepancy in Japanese design. While the nation is known abroad for minimalist lifestyles, their websites are oddly maximalist. The pages feature a variety of bright colours (breaking the 3 colour design principle), small images, and a lot of text. Just see for yourself with these screenshots taken in November 2022. t...",
-                                    "source_url": "https://sabrinas.space",
-                                    "timestamp": "2026.02.23",
-                                    "feed_name": "HACKER_NEWS_RAW"
-                                },
-                                {
-                                    "id": "GS-84931",
-                                    "title": "SHOW HN: SOWBOT \u2013 OPEN-HARDWARE AGRICULTURAL ROBOT (ROS2, RTK GPS)",
-                                    "description": "Cultivating the Future: Scaling Regenerative Agriculture through Open Robotics. Our mission is to bridge the gap between sustainability and scale by providing researchers and farmers with reproducible, lightweight robotics that reduce labour and environmental impact without proprietary dependencies. The Sowbot Open AgBot ecosystem is designed to bridge the \u201cprototype gap\u201d in agricultural robotics....",
-                                    "source_url": "https://sowbot.co.uk/",
-                                    "timestamp": "2026.02.23",
-                                    "feed_name": "HACKER_NEWS_RAW"
-                                },
-                                {
-                                    "id": "GS-28817",
-                                    "title": "SUB-$200 LIDAR COULD RESHUFFLE AUTO SENSOR ECONOMICS",
-                                    "description": "MicroVision says its sensor could one day break the $100 barrier Willie Jones covers transportation for IEEE Spectrum and the history of technology for The Institute. MicroVision hopes to produce a lidar unit costing under US $200\u2014half of typical prices today. MicroVision, a solid-state sensor technology company located in Redmond, Wash., says it has designed a solid-state automotive lidar sensor ...",
-                                    "source_url": "https://spectrum.ieee.org/solid-state-lidar-microvision-adas",
-                                    "timestamp": "2026.02.19",
-                                    "feed_name": "HACKER_NEWS_RAW"
-                                },
-                                {
-                                    "id": "GS-17355",
-                                    "title": "MAGICAL MUSHROOM \u2013 EUROPE'S FIRST INDUSTRIAL-SCALE MYCELIUM PACKAGING PRODUCER",
-                                    "description": "Why are 21st century products still protected with 1950s materials like expanded polystyrene EPS that persist in landfill for centuries? EPS now carries commercial risk through plastic taxes and reputational risk through environmental impact. There is a better way. Mushroom\u00ae Packaging is grown from mycelium and agricultural by products to form a high performance protective material. It matches EPS...",
-                                    "source_url": "https://magicalmushroom.com/index",
-                                    "timestamp": "2026.02.23",
-                                    "feed_name": "HACKER_NEWS_RAW"
                                 }
                             ]
                         }
@@ -1553,6 +1585,22 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-73234",
+                                    "title": "IDENTITY-FIRST AI SECURITY: WHY CISOS MUST ADD INTENT TO THE EQUATION",
+                                    "description": "Author: Itamar Apelblat, CEO and Co-Founder, Token Security Not long ago, AI deployments inside the enterprise meant copilots drafting emails or summarizing documents. Today, AI agents are provisioning infrastructure, answering customer support tickets, triaging alerts, approving transactions, writing production code, and so much more. They are no longer passive assistants. They are operators with...",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/identity-first-ai-security-why-cisos-must-add-intent-to-the-equation/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-89576",
+                                    "title": "UK FINES REDDIT $19 MILLION FOR USING CHILDREN\u2019S DATA UNLAWFULLY",
+                                    "description": "The UK Information Commissioner's Office (ICO) has fined Reddit \u00a314.47 million (over $19.5 million) for collecting and using the personal information of children under 13 without adequate safeguards. As the ICO explained in a Tuesday press release, Reddit failed to implement a meaningful age-verification system on its platform until July 2025, even though its own terms of service prohibited users ...",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/uk-fines-reddit-19-million-for-using-childrens-data-unlawfully/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-23444",
                                     "title": "CRITICAL SOLARWINDS SERV-U FLAWS OFFER ROOT ACCESS TO SERVERS",
