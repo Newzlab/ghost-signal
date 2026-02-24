@@ -17,7 +17,6 @@ from time import mktime
 # --- CONFIGURATION ---
 MAX_HISTORY_PER_FEED = 50  
 
-# Pruned for maximum signal quality
 MASTER_CONFIG = {
     "DEFENSE_SYSTEMS": {
         "UNMANNED_AUTONOMY": [
@@ -70,9 +69,13 @@ def load_existing_history(filepath="signals.js"):
 
 def clean_summary(text):
     clean = re.sub(r'<[^>]+>', '', text)
-    return clean[:400] + "..." if len(clean) > 400 else clean
+    return clean[:4000] # Give the AI enough text to read
 
 def deep_scrape_article(url):
+    # THE ARXIV BYPASS: Their RSS feed has the full abstract. Scraping grabs the footer.
+    if "arxiv.org" in url:
+        return None
+
     try:
         response = requests.get(url, headers=HEADERS, timeout=10)
         response.raise_for_status()
@@ -216,22 +219,27 @@ def fetch_all_signals(send_email=False):
                             if entry_dt >= time_limit:
                                 is_recent = True
                         
-                        deep_text = deep_scrape_article(entry.link)
+                        # STEP 1: Get the text (either via deep scrape, or fallback to RSS summary)
+                        text_to_analyze = deep_scrape_article(entry.link)
                         
+                        if not text_to_analyze or len(text_to_analyze) < 150:
+                            fallback_desc = entry.get('summary', entry.get('description', 'NO_DESCRIPTION_AVAILABLE'))
+                            text_to_analyze = clean_summary(fallback_desc)
+
+                        # STEP 2: Universal AI Decrypt
                         final_desc = "NO_DESCRIPTION_AVAILABLE"
-                        if deep_text and len(deep_text) > 200:
+                        if text_to_analyze and len(text_to_analyze) > 50:
                             print(f"    > INITIATING_AI_DECRYPT for NEW ARTICLE: {entry.title[:40]}...")
-                            ai_summary = summarize_with_ai(deep_text)
+                            ai_summary = summarize_with_ai(text_to_analyze)
                             
                             if ai_summary:
                                 print("      [+] AI_DECRYPT_SUCCESS")
                                 final_desc = ai_summary
                                 time.sleep(4.2) 
                             else:
-                                final_desc = clean_summary(deep_text)
+                                final_desc = text_to_analyze
                         else:
-                            fallback_desc = entry.get('summary', entry.get('description', 'NO_DESCRIPTION_AVAILABLE'))
-                            final_desc = clean_summary(fallback_desc)
+                            final_desc = text_to_analyze
                         
                         article_data = {
                             "id": f"GS-{hash(entry.link) % 100000}",
