@@ -370,6 +370,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-24608",
+                                    "title": "THANKS BUT NO THANKS: GREENLAND DECLINES TRUMP\u2019S OFFER TO SEND NAVY HOSPITAL SHIP",
+                                    "description": "<br><strong>STATUS:</strong> U.S. President Donald Trump announced the deployment of a hospital ship to Greenland, citing a public health crisis, a claim swiftly refuted by Danish and Greenlandic leaders who highlighted the U.S. Navy's hospital ships are in drydock.\n\n<br><strong>INTEL:</strong> This social media declaration marks the latest point of friction in Trump's controversial history of expressing interest in acquiring Greenland, eliciting strong rebukes from officials who defended their free healthcare system and accused Trump of spreading misinformation. Crucially, the USNS Mercy and USNS Comfort, the U.S. Navy's only hospital ships, are both confirmed to be undergoing maintenance in Mobile, Alabama, directly contradicting Trump's assertion that a ship was \"on the way\" and further straining diplomatic ties between the NATO allies.",
+                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/02/23/thanks-but-no-thanks-greenland-declines-trumps-offer-to-send-navy-hospital-ship/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-46644",
                                     "title": "F-22 RAPTOR, MQ-20 DRONE COMPLETE MANNED-UNMANNED FLIGHT EXERCISE",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Air Force and General Atomics successfully completed a manned-unmanned teaming demonstration between an F-22 Raptor and an MQ-20 Avenger drone, advancing autonomous system integration in tactical fighter operations.\n\n<br><strong>INTEL:</strong> The exercise featured an F-22 issuing real-time commands to the MQ-20 via advanced autonomy software and a tactical data link, enabling the drone to independently execute tasks like combat air patrol and simulated engagements as a direct force extender. This initiative is a key step in the Collaborative Combat Aircraft (CCA) program, validating the Autonomy Government Reference Architecture (A-GRA) and aiming to significantly boost combat lethality, sensor reach, and survivability by delegating tactical responsibilities to autonomous drones.",
@@ -654,6 +662,22 @@ const signalTree = {
                         {
                             "name": "SPACE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-51729",
+                                    "title": "BOEING DEMONSTRATES LARGE LANGUAGE MODEL FOR SPACE-GRADE HARDWARE",
+                                    "description": "<br><strong>STATUS:</strong> Boeing engineers successfully demonstrated running a large language model on commercial off-the-shelf space hardware to analyze satellite telemetry and report its health in natural language.<br><br><strong>INTEL:</strong> This achievement enables faster, natural language communication with satellites by performing AI-driven data analysis directly in space, overcoming initial manufacturer skepticism and traditional hardware limitations. Boeing modified an LLM to run on existing space-qualified devices, allowing current constellations to gain advanced processing capabilities via a software upgrade, a strategic shift towards edge computing for enhanced satellite autonomy and simplified operations.",
+                                    "source_url": "https://spacenews.com/boeing-demonstrates-large-language-model-for-space-grade-hardware/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-59783",
+                                    "title": "MEINK, SALTZMAN MAKE CASE FOR SPACE FORCE EXPANSION",
+                                    "description": "WASHINGTON \u2014 Department of the Air Force Secretary Troy Meink said the U.S. Space Force is preparing for a period of sustained expansion as its mission set broadens and its workload increases, requiring both more personnel and a more specialized workforce. Speaking Feb. 23 at the Air & Space Forces Association\u2019s Warfare Symposium in Aurora, Colo., Meink said one immediate priority is expanding the...",
+                                    "source_url": "https://spacenews.com/meink-saltzman-make-case-for-space-force-expansion/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "SPACE_NEWS"
+                                },
                                 {
                                     "id": "GS-58880",
                                     "title": "SPACE FORCE SEEKS MARKET ANSWERS ON IN-ORBIT REFUELING",
@@ -944,6 +968,70 @@ const signalTree = {
                             "name": "HACKER_NEWS_RAW",
                             "articles": [
                                 {
+                                    "id": "GS-14935",
+                                    "title": "SHATNER IS MAKING AN ALBUM WITH 35 METAL ICONS",
+                                    "description": "All the latest guitar news, interviews, lessons, reviews, deals and more, direct to your inbox! You might know him as Captain James T. Kirk, the cavalier captain of the Starship Enterprise from Star Trek, but believe it or not, William Shatner is a true heavy metal warrior \u2013 and he has just announced an all-star metal album to prove it. Given all that he has been through \u2013 all those times Montgome...",
+                                    "source_url": "https://www.guitarworld.com/artists/guitarists/william-shatner-announces-all-star-metal-album",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-47180",
+                                    "title": "I PORTED COREBOOT TO THE THINKPAD X270",
+                                    "description": "In my post from 2026-02-18, I committed myself towards helping work on coreboot + libreboot with the goal of porting it to the X270. It\u2019s less than a week later and I have done it. My X270 is a 20HM model and this means that it is a Kaby Lake CPU (and chipset), not Skylake. I started by dumping the BIOS image from the X270, initially for two reasons (although there are more): Remaining reasons tha...",
+                                    "source_url": "https://dork.dev/posts/2026-02-20-ported-coreboot/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-56991",
+                                    "title": "FREEBSD DOESN'T HAVE WI-FI DRIVER FOR MY OLD MACBOOK. AI BUILD ONE FOR ME",
+                                    "description": "My old 2016 MacBook Pro has been collecting dust in a cabinet for some time now. The laptop suffers from a \u201cflexgate\u201d problem, and I don\u2019t have any practical use for it. For quite some time, I\u2019ve been thinking about repurposing it as a guinea pig, to play with FreeBSD \u2014 an OS that I\u2019d aspired to play with for a long while, but had never had a real reason to. During the recent holiday season, right...",
+                                    "source_url": "https://vladimir.varank.in/notes/2026/02/freebsd-brcmfmac/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-41770",
+                                    "title": "MAKING WOLFRAM TECH AVAILABLE AS A FOUNDATION TOOL FOR LLM SYSTEMS",
+                                    "description": "LLMs don\u2019t\u2014and can\u2019t\u2014do everything. What they do is very impressive\u2014and useful. It\u2019s broad. And in many ways it\u2019s human-like. But it\u2019s not precise. And in the end it\u2019s not about deep computation. So how can we supplement LLM foundation models? We need a foundation tool: a tool that\u2019s broad and general and does what LLMs themselves don\u2019t: provides deep computation and precise knowledge. And, conven...",
+                                    "source_url": "https://writings.stephenwolfram.com/2026/02/making-wolfram-tech-available-as-a-foundation-tool-for-llm-systems/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-96181",
+                                    "title": "WHAT IS F(X) \u2264 G(X) + O(1)? INEQUALITIES WITH ASYMPTOTICS",
+                                    "description": "Recently I came across asympotic inequalities of the form $f(x) \\le g(x) + O(1)$ in Li and Vitanyi\u2019s An Introduction to Kolmogorov Complexity and Its Applications, where this notion is used to discuss bounds on the complexity of strings. In this post I give a brief definition of what this notation means and how it relates to standard asymptotic notation. Particulary, I\u2019m only going to talk about t...",
+                                    "source_url": "https://jamesoswald.dev/posts/bigoinequality/",
+                                    "timestamp": "2026.02.20",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-33978",
+                                    "title": "\"CAR WASH\" TEST WITH 53 MODELS",
+                                    "description": "The car wash test is the simplest AI reasoning benchmark that nearly every model fails, including Claude Sonnet 4.5, GPT-5.1, Llama, and Mistral. The question is simple: \"I want to wash my car. The car wash is 50 meters away. Should I walk or drive?\" Obviously, you need to drive. The car needs to be at the car wash. The question has been making the rounds online as a simple logic test, the kind an...",
+                                    "source_url": "https://opper.ai/blog/car-wash-test",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-56478",
+                                    "title": "THE RISE OF EYES BEGAN WITH JUST ONE",
+                                    "description": "Comments",
+                                    "source_url": "https://www.nytimes.com/2026/02/23/science/evolution-vertebrate-eye.html",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-49940",
+                                    "title": "YOU ARE NOT SUPPOSED TO INSTALL OPENCLAW ON YOUR PERSONAL COMPUTER",
+                                    "description": "We\u2019ve detected that JavaScript is disabled in this browser. Please enable JavaScript or switch to a supported browser to continue using x.com. You can see a list of supported browsers in our Help Center. Terms of Service Privacy Policy Cookie Policy Imprint Ads info \u00a9 2026 X Corp.",
+                                    "source_url": "https://twitter.com/i/status/2025987544853188836",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
                                     "id": "GS-75041",
                                     "title": "FLOCK CAMERAS GIFTED BY HOROWITZ FOUNDATION, AVOIDING PUBLIC OVERSIGHT",
                                     "description": "The Las Vegas Metropolitan Police Department (LVMPD) quietly entered an agreement in 2023 with Flock Security, an automated license plate reader company that uses cameras to collect vehicle information and cross-reference it with police databases. But unlike many of the other police departments around the country that use the cameras in their police work, Metro funds the project with donor money f...",
@@ -1161,6 +1249,22 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-3330",
+                                    "title": "ANDROID MENTAL HEALTH APPS WITH 14.7M INSTALLS FILLED WITH SECURITY FLAWS",
+                                    "description": "Several mental health mobile apps with millions of downloads on Google Play contain security vulnerabilities that could expose users\u2019 sensitive medical information. In one of the apps, security researchers discovered more than 85 medium- and high-severity vulnerabilities that could be exploited to compromise users\u2019 therapy data and privacy. Some of the products are AI companions designed to help p...",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/android-mental-health-apps-with-147m-installs-filled-with-security-flaws/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-64234",
+                                    "title": "SPAIN ARRESTS SUSPECTED HACKTIVISTS FOR DDOSING GOVT SITES",
+                                    "description": "Spanish authorities have arrested four alleged members of a hacktivist group believed to have carried out cyberattacks targeting government ministries, political parties, and various public institutions. The group, which called itself \"Anonymous F\u00e9nix\" and claimed they were affiliated with the Anonymous hacker collective, conducted distributed denial-of-service (DDoS) attacks against targets in Sp...",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-anonymous-fenix-hacktivists-for-ddosing-govt-sites/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-50972",
                                     "title": "MICROSOFT SAYS BUG IN CLASSIC OUTLOOK HIDES THE MOUSE POINTER",
