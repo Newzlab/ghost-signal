@@ -370,6 +370,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-5048",
+                                    "title": "THE US AIR FORCE NEEDS MORE AIRPOWER \u2014 BUT NOT THE KIND IT\u2019S BUYING",
+                                    "description": "<br><strong>STATUS:</strong> The United States has amassed its largest concentration of airpower in the Middle East since 2003, positioning assets for potential military strikes on Iran while diplomacy continues.<br><br><strong>INTEL:</strong> This significant military buildup, which commenced in late January and will be fully in place by mid-March, underscores the time required for strategic force projection due to the reliance on naval transport for mass. The article critically analyzes that \"airpower\" is increasingly a joint effort, with the Army and Navy taking leading roles in air denial (Patriot/THAAD) and electronic warfare (EA-18G Growler), suggesting the Air Force's singular focus on \"exquisite\" platforms has made it less relevant for these crucial, persistent missions required for strategic deterrence.",
+                                    "source_url": "https://www.defensenews.com/opinion/2026/02/24/the-us-air-force-needs-more-airpower-but-not-the-kind-its-buying/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-24608",
                                     "title": "THANKS BUT NO THANKS: GREENLAND DECLINES TRUMP\u2019S OFFER TO SEND NAVY HOSPITAL SHIP",
                                     "description": "<br><strong>STATUS:</strong> U.S. President Donald Trump announced the deployment of a hospital ship to Greenland, citing a public health crisis, a claim swiftly refuted by Danish and Greenlandic leaders who highlighted the U.S. Navy's hospital ships are in drydock.\n\n<br><strong>INTEL:</strong> This social media declaration marks the latest point of friction in Trump's controversial history of expressing interest in acquiring Greenland, eliciting strong rebukes from officials who defended their free healthcare system and accused Trump of spreading misinformation. Crucially, the USNS Mercy and USNS Comfort, the U.S. Navy's only hospital ships, are both confirmed to be undergoing maintenance in Mobile, Alabama, directly contradicting Trump's assertion that a ship was \"on the way\" and further straining diplomatic ties between the NATO allies.",
@@ -1096,6 +1104,46 @@ const signalTree = {
                             "name": "HACKER_NEWS_RAW",
                             "articles": [
                                 {
+                                    "id": "GS-16600",
+                                    "title": "SHOW HN: SNKV \u2013 SQLITE'S B-TREE AS A KEY-VALUE STORE (C/C++ AND PYTHON BINDINGS)",
+                                    "description": "<br><strong>STATUS:</strong> SNKV is an ACID-compliant embedded key-value store built directly on SQLite's B-Tree engine, designed to bypass the SQL layer for superior performance in key-value workloads.\n\n<br><strong>INTEL:</strong> SNKV achieves significant performance gains (e.g., +60% random reads, +100% sequential scans) over optimized SQLite configurations by eliminating the SQL parser, query planner, and virtual machine overhead, and by employing per-column-family cached read cursors. It offers SQLite-grade reliability, ACID transactions, WAL mode, column families, and Python bindings, passing rigorous kill-9 tests to ensure data integrity, and is compatible with SQLite's low-level file format for backups while intentionally bypassing the schema layer, making it incompatible with `sqlite3` CLI tools.",
+                                    "source_url": "https://github.com/hash-anu/snkv",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-89147",
+                                    "title": "\u039bPROLOG: LOGIC PROGRAMMING IN HIGHER-ORDER LOGIC",
+                                    "description": "<br><strong>STATUS:</strong> \u03bbProlog is a pioneering higher-order logic programming language that continues to be developed and applied in meta-programming and interactive theorem proving.\n\n<br><strong>INTEL:</strong> \u03bbProlog is unique for its foundation in higher-order intuitionistic logic, which allowed it to be the first language to directly support higher-order abstract syntax (HOAS) for treating bound variables. This robust logical foundation enables advanced features like modularity and abstract datatypes, and underpins sophisticated applications such as the Abella interactive theorem prover, which employs a subset of \u03bbProlog as its specification logic, and modern web-based execution through implementations like ELPI.",
+                                    "source_url": "https://www.lix.polytechnique.fr/Labo/Dale.Miller/lProlog/",
+                                    "timestamp": "2026.02.20",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-26346",
+                                    "title": "A DISTRIBUTED QUEUE IN A SINGLE JSON FILE ON OBJECT STORAGE",
+                                    "description": "<br><strong>STATUS:</strong> An internal indexing job queue has been replaced with a new, more efficient design leveraging object storage and a stateless broker.<br><br><strong>INTEL:</strong> The new system significantly improves tail latency by 10x through a single queue file on object storage, ensuring FIFO execution and at-least-once guarantees. It overcomes object storage write latency via \"group commit\" for batching writes and resolves client contention over the single queue object by introducing a stateless broker that centralizes all interactions with object storage, making asynchronous indexing more scalable and predictable.",
+                                    "source_url": "https://turbopuffer.com/blog/object-storage-queue",
+                                    "timestamp": "2026.02.21",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-37880",
+                                    "title": "THE MISSING SEMESTER OF YOUR CS EDUCATION \u2013 REVISED FOR 2026",
+                                    "description": "<br><strong>STATUS:</strong> A class addressing the \"missing semester\" in computer science education, focusing on developer tool proficiency and integrated AI techniques, is being offered and shared beyond MIT.<br><br><strong>INTEL:</strong> This initiative aims to bridge a critical skill gap in CS curricula by teaching mastery of tools like the command-line, text editors, and version control, with AI-enabled workflows seamlessly integrated into lectures rather than as a standalone topic. The course, taught by Anish, Jon, and Jose, is supported by MIT and is explicitly designed for broad dissemination, encouraging community contributions and translations.",
+                                    "source_url": "https://missing.csail.mit.edu/",
+                                    "timestamp": "2026.02.23",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-14324",
+                                    "title": "GOODBYE INNERHTML, HELLO SETHTML: STRONGER XSS PROTECTION IN FIREFOX 148",
+                                    "description": "<br><strong>STATUS:</strong> Firefox 148 is the first browser to implement the new standardized Sanitizer API, significantly enhancing web security against pervasive Cross-site Scripting (XSS) vulnerabilities.<br><br><strong>INTEL:</strong> The Sanitizer API addresses the persistent challenge of XSS (CWE-79) by offering a standardized, simpler method to clean untrusted HTML before it's inserted into the DOM, unlike previous complex solutions like Content-Security-Policy (CSP) that hindered adoption. Through its `setHTML()` method, it integrates sanitization directly into HTML insertion, providing safety by default with minimal code changes and allowing for custom configurations or combination with Trusted Types for stronger protection. This aims to democratize robust XSS prevention, making it accessible for developers without requiring specialized security teams.",
+                                    "source_url": "https://hacks.mozilla.org/2026/02/goodbye-innerhtml-hello-sethtml-stronger-xss-protection-in-firefox-148/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
                                     "id": "GS-67571",
                                     "title": "DIODE \u2013 BUILD, PROGRAM, AND SIMULATE HARDWARE",
                                     "description": "Comments",
@@ -1457,6 +1505,30 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-23444",
+                                    "title": "CRITICAL SOLARWINDS SERV-U FLAWS OFFER ROOT ACCESS TO SERVERS",
+                                    "description": "<br><strong>STATUS:</strong> SolarWinds has released critical security updates for four Serv-U remote code execution vulnerabilities, including CVE-2025-40538, that could lead to root access on unpatched servers.<br><br><strong>INTEL:</strong> These newly patched flaws in SolarWinds' file transfer software require attackers to already possess high privileges, which limits direct exploitation but makes them dangerous in chained attacks or via stolen credentials. Serv-U is a high-value target for threat actors, including cybercrime groups like Clop and state-sponsored hackers, due to its access to sensitive corporate data, with previous Serv-U vulnerabilities (e.g., CVE-2021-35211, CVE-2024-28995) having been actively exploited in the wild.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/critical-solarwinds-serv-u-flaws-offer-root-access-to-servers/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-36637",
+                                    "title": "SHINYHUNTERS EXTORTION GANG CLAIMS ODIDO BREACH AFFECTING MILLIONS",
+                                    "description": "<br><strong>STATUS:</strong> The ShinyHunters extortion gang has claimed responsibility for breaching Dutch telecommunications provider Odido, stealing millions of user records that the company had previously disclosed affected 6.2 million customers.\n\n<br><strong>INTEL:</strong> ShinyHunters alleges they stole nearly 21 million records, including internal corporate data and plaintext passwords, contradicting Odido's denial of password exposure, and has issued a \"final warning\" threatening further leaks if negotiations fail. The group is notorious for sophisticated vishing attacks, including device code vishing abusing OAuth 2.0, to compromise single sign-on (SSO) accounts and subsequently breach connected enterprise services.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/shinyhunters-extortion-gang-claims-odido-breach-affecting-millions/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-18005",
+                                    "title": "NORTH KOREAN LAZARUS GROUP LINKED TO MEDUSA RANSOMWARE ATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> North Korean state-backed hackers, specifically the Lazarus group, are now actively employing Medusa ransomware in extortion attacks targeting U.S. healthcare organizations.<br><br><strong>INTEL:</strong> This marks the first documented association of the Lazarus group with Medusa ransomware, signifying an expansion of their financially-motivated cybercrime operations, potentially linked to a subgroup like Andariel/Stonefly. The attacks aim to secure funds, averaging around $260,000 but potentially up to $15 million per incident, which Symantec researchers indicate are then used to support espionage activities against defense, technology, and government entities in the U.S., Taiwan, and South Korea.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/north-korean-lazarus-group-linked-to-medusa-ransomware-attacks/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-3330",
                                     "title": "ANDROID MENTAL HEALTH APPS WITH 14.7M INSTALLS FILLED WITH SECURITY FLAWS",
