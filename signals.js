@@ -528,6 +528,126 @@ const signalTree = {
                             "name": "ARXIV_AI_PAPERS",
                             "articles": [
                                 {
+                                    "id": "GS-3494",
+                                    "title": "ON THE DYNAMICS OF OBSERVATION AND SEMANTICS",
+                                    "description": "<br><strong>STATUS:</strong> arXivLabs has launched as a new framework enabling collaborators to develop and share features directly on the arXiv website.<br><br><strong>INTEL:</strong> The platform is founded on principles of openness, community, excellence, and user data privacy, committing to only partner with organizations and individuals that share and uphold these critical values while actively inviting proposals for projects that enhance the arXiv community.",
+                                    "source_url": "https://arxiv.org/abs/2602.18494",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-29014",
+                                    "title": "HIERARCHICAL REWARD DESIGN FROM LANGUAGE: ENHANCING ALIGNMENT OF AGENT BEHAVIOR WITH HUMAN SPECIFICATIONS",
+                                    "description": "<br><strong>STATUS:</strong> arXivLabs is a new framework enabling collaborators to develop and integrate features directly onto the arXiv website.<br><br><strong>INTEL:</strong> The arXivLabs initiative operates under strict core values of openness, community, excellence, and user data privacy, requiring all partners to fully adhere to these principles. This strategic framework allows arXiv to leverage external innovation and community contributions to enhance its platform while ensuring all integrated features align with its fundamental values and maintain robust user data protection.",
+                                    "source_url": "https://arxiv.org/abs/2602.18582",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-25803",
+                                    "title": "FEEDBACK-BASED AUTOMATED VERIFICATION IN VIBE CODING OF CAS ADAPTATION BUILT ON CONSTRAINT LOGIC",
+                                    "description": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v...",
+                                    "source_url": "https://arxiv.org/abs/2602.18607",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-17163",
+                                    "title": "DECODING ML DECISION: AN AGENTIC REASONING FRAMEWORK FOR LARGE-SCALE RANKING SYSTEM",
+                                    "description": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v...",
+                                    "source_url": "https://arxiv.org/abs/2602.18640",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-64068",
+                                    "title": "SPILLED ENERGY IN LARGE LANGUAGE MODELS",
+                                    "description": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v...",
+                                    "source_url": "https://arxiv.org/abs/2602.18671",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-52534",
+                                    "title": "MANY AI ANALYSTS, ONE DATASET: NAVIGATING THE AGENTIC DATA SCIENCE MULTIVERSE",
+                                    "description": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v...",
+                                    "source_url": "https://arxiv.org/abs/2602.18710",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-93536",
+                                    "title": "TASK-AWARE EXPLORATION VIA A PREDICTIVE BISIMULATION METRIC",
+                                    "description": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v...",
+                                    "source_url": "https://arxiv.org/abs/2602.18724",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-61787",
+                                    "title": "BEYOND DESCRIPTION: A MULTIMODAL AGENT FRAMEWORK FOR INSIGHTFUL CHART SUMMARIZATION",
+                                    "description": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v...",
+                                    "source_url": "https://arxiv.org/abs/2602.18731",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-32300",
+                                    "title": "FEDERATED REASONING DISTILLATION FRAMEWORK WITH MODEL LEARNABILITY-AWARE DATA ALLOCATION",
+                                    "description": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v...",
+                                    "source_url": "https://arxiv.org/abs/2602.18749",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-43076",
+                                    "title": "THE CONVERGENCE OF SCHEMA-GUIDED DIALOGUE SYSTEMS AND THE MODEL CONTEXT PROTOCOL",
+                                    "description": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v...",
+                                    "source_url": "https://arxiv.org/abs/2602.18764",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-19148",
+                                    "title": "LAMMI-PATHOLOGY: A TOOL-CENTRIC BOTTOM-UP LVLM-AGENT FRAMEWORK FOR MOLECULARLY INFORMED MEDICAL INTELLIGENCE IN PATHOLOGY",
+                                    "description": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v...",
+                                    "source_url": "https://arxiv.org/abs/2602.18773",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-89381",
+                                    "title": "GENPLANNER: FROM NOISE TO PLANS -- EMERGENT REASONING IN FLOW MATCHING AND DIFFUSION MODELS",
+                                    "description": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v...",
+                                    "source_url": "https://arxiv.org/abs/2602.18812",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-69842",
+                                    "title": "ABD: DEFAULT EXCEPTION ABDUCTION IN FINITE FIRST ORDER WORLDS",
+                                    "description": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v...",
+                                    "source_url": "https://arxiv.org/abs/2602.18843",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-69593",
+                                    "title": "TPRU: ADVANCING TEMPORAL AND PROCEDURAL UNDERSTANDING IN LARGE MULTIMODAL MODELS",
+                                    "description": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v...",
+                                    "source_url": "https://arxiv.org/abs/2602.18884",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-27403",
+                                    "title": "EARLY EVIDENCE OF VIBE-PROVING WITH CONSUMER LLMS: A CASE STUDY ON SPECTRAL REGION CHARACTERIZATION WITH CHATGPT-5.2 (THINKING)",
+                                    "description": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v...",
+                                    "source_url": "https://arxiv.org/abs/2602.18918",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
                                     "id": "GS-11180",
                                     "title": "EPISTEMIC TRAPS: RATIONAL MISALIGNMENT DRIVEN BY MODEL MISSPECIFICATION",
                                     "description": "arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website. Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them. Have an idea for a project that will add v...",
@@ -820,6 +940,14 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-14223",
+                                    "title": "SHOWY SWIRLS AROUND JEJU ISLAND",
+                                    "description": "Winds blowing past the volcanic landmass near the Korean Peninsula created a trail of spiraling clouds, while murky water churned nearby. The tallest point in South Korea is not located in the Taebaek Mountains that run along the country\u2019s eastern coast. Rather, it is found atop a volcanic peak on Jeju Island, about 100 kilometers (60 miles) south of the Korean Peninsula. In winter 2026, winds ble...",
+                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/showy-swirls-around-jeju-island/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-53099",
                                     "title": "YOUNG \u2018SUN\u2019 CAUGHT BLOWING BUBBLES BY NASA\u2019S CHANDRA",
                                     "description": "<br><strong>STATUS:</strong> Astronomers using NASA's Chandra X-ray Observatory have, for the first time, imaged an astrosphere surrounding a young, Sun-like star known as HD 61005.\n\n<br><strong>INTEL:</strong> This groundbreaking observation of HD 61005's astrosphere, a bubble of hot gas similar to our Sun's heliosphere, offers crucial insights into the early evolution of Sun-like stars. Being much younger and possessing a significantly stronger stellar wind than our Sun, HD 61005 serves as a natural laboratory to understand what the Sun's heliosphere may have been like billions of years ago and how it protects planets from cosmic radiation as it evolves through different galactic environments. The detection was made possible by the star's proximity, strong X-ray emitting stellar wind, and its dense surrounding interstellar medium.",
@@ -967,6 +1095,30 @@ const signalTree = {
                         {
                             "name": "HACKER_NEWS_RAW",
                             "articles": [
+                                {
+                                    "id": "GS-49512",
+                                    "title": "FIREFOX 148 LAUNCHES WITH AI KILL SWITCH FEATURE AND MORE ENHANCEMENTS",
+                                    "description": "The latest update of Firefox, version 148, introduces a much-anticipated \"AI kill switch\" feature, allowing users to disable AI functionalities such as chatbot prompts and AI-generated link summaries. Mozilla emphasizes that once AI features are turned off, future updates will not override this choice. This decision reflects the company\u2019s new revenue-focused strategy regarding AI integrations. To ...",
+                                    "source_url": "https://serverhost.com/blog/firefox-148-launches-with-exciting-ai-kill-switch-feature-and-more-enhancements/",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-50027",
+                                    "title": "SHOW HN: ENVEIL \u2013 HIDE YOUR .ENV SECRETS FROM PRAING EYES",
+                                    "description": "ENVeil: Hide .env secrets from prAIng eyes: secrets live in local encrypted stores (per project) and are injected directly into apps at runtime, never touching disk as plaintext. AI coding tools like Claude Code, Copilot, Cursor, and others can read files in your project directory, which means a plaintext .env file is an accidental secret dump waiting to happen. This isn\u2019t theoretical. It is a kno...",
+                                    "source_url": "https://github.com/GreatScott/enveil",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-10685",
+                                    "title": "INTEL XESS 3: EXPANDED SUPPORT FOR CORE ULTRA/CORE ULTRA 2 AND ARC A, B SERIES",
+                                    "description": "Comments",
+                                    "source_url": "https://www.intel.com/content/www/us/en/download/785597/intel-arc-graphics-windows.html",
+                                    "timestamp": "2026.02.24",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
                                 {
                                     "id": "GS-51001",
                                     "title": "BLOOD TEST BOOSTS ALZHEIMER'S DIAGNOSIS ACCURACY TO 94.5%, CLINICAL STUDY SHOWS",
