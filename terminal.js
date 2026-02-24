@@ -1,4 +1,4 @@
-/* --- GHOST SIGNAL | NAVIGATION ENGINE v4.9 (HOME SCREEN PATCH) --- */
+/* --- GHOST SIGNAL | NAVIGATION ENGINE v5.0 (STABLE) --- */
 
 let navStack = []; 
 let currentFeedData = null; 
@@ -46,7 +46,6 @@ function resetUplink() {
     document.getElementById('label-type').innerText = "AWAITING_COORDINATES";
     document.getElementById('active-title').innerText = "INITIALIZING...";
     
-    // THE UPDATED OPERATIONS MANUAL FOR THE RESET BUTTON
     document.getElementById('active-description').innerHTML = `
         <div class="visualizer" style="margin-bottom: 25px;">
             <div class="v-bar"></div>
