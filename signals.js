@@ -1096,6 +1096,22 @@ const signalTree = {
                             "name": "HACKER_NEWS_RAW",
                             "articles": [
                                 {
+                                    "id": "GS-67571",
+                                    "title": "DIODE \u2013 BUILD, PROGRAM, AND SIMULATE HARDWARE",
+                                    "description": "Comments",
+                                    "source_url": "https://www.withdiode.com/",
+                                    "timestamp": "2026.02.20",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
+                                    "id": "GS-37886",
+                                    "title": "UNSUNG HEROES: FLICKR'S URLS SCHEME",
+                                    "description": "<br><strong>STATUS:</strong> The article praises Flickr's pioneering URL structure from the late 2000s as an exemplary user interface design that influenced web development and improved user experience.\n\n<br><strong>INTEL:</strong> Flickr's innovative URL scheme was lauded for its simplicity, readability, and editability, eschewing common problematic elements like `www.`, `.php`, or complex query parameters. This design enabled users to easily share, mentally navigate, and manually modify URLs for efficient browsing, setting a high standard for intuitive web addresses that remain relevant for user interaction and integration across various digital platforms.",
+                                    "source_url": "https://unsung.aresluna.org/unsung-heroes-flickrs-urls-scheme/",
+                                    "timestamp": "2026.02.21",
+                                    "feed_name": "HACKER_NEWS_RAW"
+                                },
+                                {
                                     "id": "GS-49512",
                                     "title": "FIREFOX 148 LAUNCHES WITH AI KILL SWITCH FEATURE AND MORE ENHANCEMENTS",
                                     "description": "The latest update of Firefox, version 148, introduces a much-anticipated \"AI kill switch\" feature, allowing users to disable AI functionalities such as chatbot prompts and AI-generated link summaries. Mozilla emphasizes that once AI features are turned off, future updates will not override this choice. This decision reflects the company\u2019s new revenue-focused strategy regarding AI integrations. To ...",
