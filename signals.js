@@ -358,6 +358,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-77311",
+                                    "title": "US ARMY REVAMPING ITS ELECTRONIC WARFARE ACQUISITION SYSTEM",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Army is reorganizing its acquisition processes for electronic warfare and signals intelligence systems to overcome fragmentation and enhance its capabilities across the electromagnetic spectrum.\n\n<br><br><strong>INTEL:</strong> The Army admits it currently \"lacks the ability to sense, locate, attack, and protect\" across the electromagnetic spectrum due to a fragmented acquisition system for Electromagnetic Spectrum Operations (EMSO). To address this, it is soliciting industry feedback on a new EMSO concept of operations and a potential Indefinite Delivery/Indefinite Quantity (IDIQ) contract, aiming for commercially sourced, modular, scalable, adaptable, open-architecture systems tailored for various users. The goal is to rapidly develop and field capabilities, leverage AI/ML for decision-making, and enable continuous integration in austere environments, with the Army specifically asking if vendors are willing to invest in faster production for multi-year procurement contracts.",
+                                    "source_url": "https://www.defensenews.com/land/2026/02/25/us-army-revamping-its-electronic-warfare-acquisition-system/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-85528",
+                                    "title": "UKRAINE IS RESHAPING THE ARMORED BATTLEFIELD. THE US ARMY IS TRYING TO KEEP UP.",
+                                    "description": "<br><strong>STATUS:</strong> Junior soldiers at Fort Stewart are directly experimenting with new drone capabilities through the \"Transformation in Contact\" (TIC) initiative, shaping future Army doctrine and equipment use.\n\n<br><strong>INTEL:</strong> This initiative, particularly focused on Armor Brigade Combat Teams, directly applies lessons from the war in Ukraine, where drones have profoundly impacted battlefield survival and reconnaissance. Soldiers are leveraging commercially available gaming simulators like \"Liftoff\" for initial first-person view (FPV) flight training before piloting real drones, marking a significant departure from traditional top-down acquisition and training models by allowing operator feedback to drive technology integration.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/02/25/ukraine-is-reshaping-the-armored-battlefield-the-us-army-is-trying-to-keep-up/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-61501",
                                     "title": "UKRAINIAN OFFICIALS TO MEET TRUMP ENVOYS IN GENEVA OVER MORE RUSSIA TALKS",
                                     "description": "<br><strong>STATUS:</strong> A Ukrainian delegation will meet U.S. envoys in Geneva to prepare for upcoming trilateral peace talks with Russia, focusing on postwar recovery and prisoner exchanges.\n\n<br><strong>INTEL:</strong> The U.S.-brokered discussions, occurring as Russia's invasion enters its fifth year, aim to make progress after previous talks yielded no breakthroughs, with the U.S. asserting it is not pressuring Ukraine for concessions despite some Russian moderation. Simultaneously, Ukraine reports recent significant territorial gains against Russian forces and continues long-range drone strikes deep within Russia, which have drawn U.S. diplomatic displeasure due to their impact on American oil interests in Kazakhstan, even as both sides engage in ongoing peace efforts amidst continued hostilities.",
@@ -783,6 +799,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-84945",
+                                    "title": "VALVE MALFUNCTION BLAMED FOR FAILURE OF INDIAN SATELLITE TO RAISE ITS ORBIT",
+                                    "description": "<br><strong>STATUS:</strong> India's space agency, ISRO, confirmed a pyrotechnic valve failure caused the NVS-02 navigation satellite to be stranded in a transfer orbit, preventing it from fulfilling its mission.<br><br><strong>INTEL:</strong> An Apex Committee investigation revealed the valve failed to open due to disengaged connector contacts, preventing oxidizer from reaching the engine. This NVS-02 incident marks one of three ISRO failures within a year, including two PSLV launch malfunctions, prompting a national expert committee to probe potential organizational issues, although ISRO has already implemented and tested system redundancy improvements.",
+                                    "source_url": "https://spacenews.com/valve-malfunction-blamed-for-failure-of-indian-satellite-to-raise-its-orbit/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-28968",
                                     "title": "THE FUTURE OF ASTRONOMY IS BOTH ON EARTH AND IN SPACE",
                                     "description": "<br><strong>STATUS:</strong> Leading astronomers reject the idea of moving all astronomy to space as a solution to satellite interference, arguing it misunderstands the field and avoids the core problem.\n\n<br><strong>INTEL:</strong> While acknowledging the value of space telescopes, astronomers emphasize that ground-based observatories offer unique, evolving capabilities critical for current and future research, which cannot be replicated in orbit due to cost, technical limitations, and scale. They assert that satellite interference is a result of policy and engineering choices, not inevitability, highlighting the need for responsible space stewardship and mischaracterizing current legislative efforts to protect dark and quiet skies.",
@@ -940,6 +964,22 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-65796",
+                                    "title": "LISTEN TO THIS MONTH\u2019S \u2018PLANETARY PARADE\u2019 WITH NASA\u2019S CHANDRA",
+                                    "description": "<br><strong>STATUS:</strong> A \"planetary parade\" of six visible planets in the Northern Hemisphere in late February is being commemorated by new sonifications from NASA\u2019s Chandra X-ray Observatory.<br><br><strong>INTEL:</strong> These sonifications translate X-ray data from Chandra (combined with data from Hubble, Cassini, and Keck observatories) into sound, making astronomical observations of Jupiter, Saturn, and Uranus accessible through hearing. This process leverages reflected solar X-rays to provide unique insights into planetary physics, aiming to expand public engagement with NASA's scientific discoveries by converting complex data into an audible format.",
+                                    "source_url": "https://www.nasa.gov/missions/chandra/listen-to-this-months-planetary-parade-with-nasas-chandra/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-43264",
+                                    "title": "NASA STUDY TO ANALYZE FERMENTED FOOD SAMPLES FROM SPACE",
+                                    "description": "<br><strong>STATUS:</strong> Samples from NASA's BioNutrients-3 experiment are returning to Earth from the International Space Station aboard a SpaceX Dragon spacecraft.\n\n<br><strong>INTEL:</strong> This experiment tests using microorganisms to produce specific, short-shelf-life nutrients on demand in space, a critical capability for sustaining human health during multi-year deep space exploration missions to the Moon, Mars, and beyond, supporting NASA's Artemis campaign.",
+                                    "source_url": "https://www.nasa.gov/general/nasa-study-to-analyze-fermented-food-samples-from-space/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-85618",
                                     "title": "NASA\u2019S WEBB EXAMINES CRANIUM NEBULA",
                                     "description": "<br><strong>STATUS:</strong> The James Webb Space Telescope has revealed new details of the mysterious \"Exposed Cranium\" nebula (PMR 1), which surrounds a dying star.\n\n<br><strong>INTEL:</strong> Webb's NIRCam and MIRI instruments captured the nebula's brain-like appearance, including a distinctive dark lane suggesting an outburst or outflow from the central star, enhancing understanding of the dynamic and rapid processes involved in stellar death and the expulsion of outer layers.",
@@ -1066,6 +1106,22 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-62305",
+                                    "title": "CRITICAL CISCO SD-WAN BUG EXPLOITED IN ZERO-DAY ATTACKS SINCE 2023",
+                                    "description": "<br><strong>STATUS:</strong> Cisco is warning of active zero-day exploitation of a critical authentication bypass vulnerability (CVE-2026-20127) in Catalyst SD-WAN that allows remote attackers to compromise controllers and introduce rogue peers.<br><br><strong>INTEL:</strong> This maximum severity (10.0) flaw, reported by ASD's ACSC and tracked by Talos as UAT-8616, enables attackers to gain high-privileged access by sending crafted requests, potentially leading to root access via a combined exploit with CVE-2022-20775 for persistent control over SD-WAN networks, prompting an urgent CISA directive for federal agencies to patch by February 27, 2026, due to an imminent threat.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/critical-cisco-sd-wan-bug-exploited-in-zero-day-attacks-since-2023/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-75512",
+                                    "title": "CHINESE CYBERSPIES BREACHED DOZENS OF TELECOM FIRMS, GOVT AGENCIES",
+                                    "description": "<br><strong>STATUS:</strong> Google, Mandiant, and partners disrupted a global espionage campaign attributed to a suspected Chinese threat actor (UNC2814) that used a new 'GRIDTIDE' backdoor to hide malicious C2 traffic via Google Sheets API calls.\n\n<br><strong>INTEL:</strong> The campaign, active since at least 2023, impacted 53 organizations in 42 countries, primarily targeting telecom and government networks. The GRIDTIDE backdoor uses a hardcoded private key to authenticate to a Google Service Account, performs host reconnaissance, and abuses the Google Sheets API for evasive command-and-control, polling cell A1 for instructions and using other cells for output and exfiltration. Its URL-safe base64 encoding scheme helps evade detection, and it was found on systems containing sensitive PII. Despite comprehensive disruption actions, Google expects UNC2814 to resume activity using new infrastructure.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-92997",
                                     "title": "MARQUIS SUES SONICWALL OVER BACKUP BREACH THAT LED TO RANSOMWARE ATTACK",
