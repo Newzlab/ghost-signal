@@ -775,6 +775,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-27443",
+                                    "title": "IN SPACE TRAFFIC COORDINATION, THE BIGGEST CHALLENGE MAY BE COORDINATION",
+                                    "description": "<br><strong>STATUS:</strong> The increasing number of satellites in orbit is creating significant challenges in coordinating collision avoidance, requiring United Nations intervention on multiple occasions.<br><br><strong>INTEL:</strong> The primary issue is the lack of readily available contact information for many satellite operators, particularly smaller entities or those in countries like China and North Korea, making inter-operator communication difficult and raising global space safety concerns; this underscores the urgent need for a trusted, international coordination mechanism, despite resource limitations at the UN and the partial efficacy of existing systems like TraCSS which depend on operator participation.",
+                                    "source_url": "https://spacenews.com/in-space-traffic-coordination-the-biggest-challenge-may-be-coordination/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-78156",
+                                    "title": "OQ TECHNOLOGY SECURES $30 MILLION FROM EUROPE FOR SATELLITE-TO-SMARTPHONE EXPANSION",
+                                    "description": "<br><strong>STATUS:</strong> Europe\u2019s investment arm is lending OQ Technology 25 million euros to expand its direct-to-device satellite constellation, bolstering the continent's competitive stance against U.S.-led efforts.\n\n<br><strong>INTEL:</strong> The European Investment Bank (EIB) debt will fund over 20 new satellites, including OQ Technology's first C-band dedicated smartphone connectivity satellite, aimed at improving coverage and bandwidth for both IoT and direct-to-device services. This strategic financing, backed by the European Commission's InvestEU program, is intended to enhance Europe's competitiveness, resilience, and autonomy in the rapidly growing space sector, where U.S. operators like SpaceX and AST SpaceMobile currently hold an early lead in the D2D market.",
+                                    "source_url": "https://spacenews.com/oq-technology-secures-30-million-from-europe-for-satellite-to-smartphone-expansion/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-99213",
                                     "title": "A BANNER YEAR FOR MILITARY SPACE FUNDING\u2014 WITH AN UNCLEAR PATH BEYOND",
                                     "description": "<br><strong>STATUS:</strong> A new analysis estimates U.S. Space Force funding will approach $42 billion and total Pentagon space spending will reach $57.7 billion in fiscal 2026, largely driven by a recent reconciliation package.\n\n<br><strong>INTEL:</strong> This significant increase includes $13.8 billion from the \"One Big Beautiful Bill Act\" primarily directed to the Space Force to support the \"Golden Dome\" layered missile defense architecture, a multi-orbit network of space-based sensors and potential interceptors against ballistic and hypersonic threats. The Missile Defense Agency's full $12 billion budget is now included in the broader space portfolio due to its alignment with Golden Dome, while the Space Force's dedicated \"space sensing\" portfolio accounts for $11.6 billion. Notably, Congress did not fund Tranche 3 of the Space Development Agency's crucial data transport layer, creating uncertainty for the future of resilient space data networks.",
@@ -1026,6 +1042,22 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-56408",
+                                    "title": "ZYXEL WARNS OF CRITICAL RCE FLAW AFFECTING OVER A DOZEN ROUTERS",
+                                    "description": "<br><strong>STATUS:</strong> Zyxel has released security updates to patch a critical vulnerability affecting over a dozen router models, allowing unauthenticated remote command execution. <br><br><strong>INTEL:</strong> This command injection flaw (CVE-2025-13942) found in the UPnP function of various Zyxel networking devices can be exploited via maliciously crafted UPnP SOAP requests; however, successful exploitation is limited as it requires both UPnP and WAN access to be enabled, with WAN access being disabled by default. Zyxel also addressed other high-severity vulnerabilities and strongly advises users to install patches or replace legacy, unpatched end-of-life devices, as Zyxel products are frequently targeted by attackers and CISA tracks multiple actively exploited Zyxel vulnerabilities.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/zyxel-warns-of-critical-rce-flaw-affecting-over-a-dozen-routers/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-6385",
+                                    "title": "US SANCTIONS RUSSIAN BROKER FOR BUYING STOLEN ZERO-DAY EXPLOITS",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Treasury Department has sanctioned Russian exploit broker Operation Zero and its owner for acquiring stolen U.S. government hacking tools from a former defense contractor executive.\n\n<br><strong>INTEL:</strong> These sanctions mark the first use of the Protecting American Intellectual Property Act (PAIPA) and coincide with the sentencing of Peter Williams, a former general manager at L3Harris's Trenchant unit, to 87 months in prison for stealing eight zero-day exploits\u2014intended exclusively for the U.S. government\u2014and selling them to Operation Zero for $1.3 million in cryptocurrency. Operation Zero, which counts the Russian government among its clients and actively solicits exploits for U.S.-built software, had its U.S.-held assets frozen, with further sanctions applied to associated individuals and front companies.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/us-sanctions-russian-exploit-broker-for-buying-stolen-zero-days/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-61350",
                                     "title": "EX-L3HARRIS EXEC JAILED FOR SELLING ZERO-DAYS TO RUSSIAN EXPLOIT BROKER",
