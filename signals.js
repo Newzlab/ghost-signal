@@ -775,6 +775,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-28968",
+                                    "title": "THE FUTURE OF ASTRONOMY IS BOTH ON EARTH AND IN SPACE",
+                                    "description": "<br><strong>STATUS:</strong> Leading astronomers reject the idea of moving all astronomy to space as a solution to satellite interference, arguing it misunderstands the field and avoids the core problem.\n\n<br><strong>INTEL:</strong> While acknowledging the value of space telescopes, astronomers emphasize that ground-based observatories offer unique, evolving capabilities critical for current and future research, which cannot be replicated in orbit due to cost, technical limitations, and scale. They assert that satellite interference is a result of policy and engineering choices, not inevitability, highlighting the need for responsible space stewardship and mischaracterizing current legislative efforts to protect dark and quiet skies.",
+                                    "source_url": "https://spacenews.com/the-future-of-astronomy-is-both-on-earth-and-in-space/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-27443",
                                     "title": "IN SPACE TRAFFIC COORDINATION, THE BIGGEST CHALLENGE MAY BE COORDINATION",
                                     "description": "<br><strong>STATUS:</strong> The increasing number of satellites in orbit is creating significant challenges in coordinating collision avoidance, requiring United Nations intervention on multiple occasions.<br><br><strong>INTEL:</strong> The primary issue is the lack of readily available contact information for many satellite operators, particularly smaller entities or those in countries like China and North Korea, making inter-operator communication difficult and raising global space safety concerns; this underscores the urgent need for a trusted, international coordination mechanism, despite resource limitations at the UN and the partial efficacy of existing systems like TraCSS which depend on operator participation.",
