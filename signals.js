@@ -358,6 +358,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-49411",
+                                    "title": "NEW HYPERSONIC MISSILES UNVEILED FOR FIGHTER PLANES, GROUND SYSTEMS",
+                                    "description": "<br><strong>STATUS:</strong> Ursa Major has unveiled the HAVOC missile system, a new multi-platform hypersonic weapon that the U.S. will soon be able to deploy.\n\n<br><br><strong>INTEL:</strong> The HAVOC system is a medium-range, liquid rocket-powered hypersonic missile adaptable to various launchers, including space, designed for rapid production and capable of striking hypersonic targets. This development is part of a broader U.S. effort to counter Russian and Chinese advantages in hypersonic technology, but notably, U.S. systems like HAVOC are designed for conventional warheads, requiring greater accuracy and posing different strategic implications compared to the nuclear-armed hypersonic missiles pursued by adversaries.",
+                                    "source_url": "https://www.defensenews.com/air-warfare/2026/02/25/new-hypersonic-missiles-unveiled-for-fighter-planes-ground-systems/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-77311",
                                     "title": "US ARMY REVAMPING ITS ELECTRONIC WARFARE ACQUISITION SYSTEM",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Army is reorganizing its acquisition processes for electronic warfare and signals intelligence systems to overcome fragmentation and enhance its capabilities across the electromagnetic spectrum.\n\n<br><br><strong>INTEL:</strong> The Army admits it currently \"lacks the ability to sense, locate, attack, and protect\" across the electromagnetic spectrum due to a fragmented acquisition system for Electromagnetic Spectrum Operations (EMSO). To address this, it is soliciting industry feedback on a new EMSO concept of operations and a potential Indefinite Delivery/Indefinite Quantity (IDIQ) contract, aiming for commercially sourced, modular, scalable, adaptable, open-architecture systems tailored for various users. The goal is to rapidly develop and field capabilities, leverage AI/ML for decision-making, and enable continuous integration in austere environments, with the Army specifically asking if vendors are willing to invest in faster production for multi-year procurement contracts.",
@@ -799,6 +807,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-68127",
+                                    "title": "GOLDEN DOME TO REQUIRE UNPRECEDENTED COORDINATION BETWEEN U.S. COMBATANT COMMANDS",
+                                    "description": "<br><strong>STATUS:</strong> Three major U.S. combatant commands are deeply collaborating to shape the requirements for the Pentagon\u2019s Golden Dome layered missile defense initiative.\n\n<br><strong>INTEL:</strong> The Golden Dome initiative aims to establish a unified, multi-layered U.S. missile defense architecture against ballistic, hypersonic, and cruise missile threats, featuring significant space-based assets. The close involvement of Space Command, Northern Command, and Strategic Command emphasizes the critical need for interoperability and cross-domain coordination, especially given the complex maneuverability of hypersonic missiles that blur traditional command boundaries and necessitate seamless integration of ground, air, and space assets for homeland defense.",
+                                    "source_url": "https://spacenews.com/golden-dome-to-require-unprecedented-coordination-between-u-s-combatant-commands/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-84945",
                                     "title": "VALVE MALFUNCTION BLAMED FOR FAILURE OF INDIAN SATELLITE TO RAISE ITS ORBIT",
                                     "description": "<br><strong>STATUS:</strong> India's space agency, ISRO, confirmed a pyrotechnic valve failure caused the NVS-02 navigation satellite to be stranded in a transfer orbit, preventing it from fulfilling its mission.<br><br><strong>INTEL:</strong> An Apex Committee investigation revealed the valve failed to open due to disengaged connector contacts, preventing oxidizer from reaching the engine. This NVS-02 incident marks one of three ISRO failures within a year, including two PSLV launch malfunctions, prompting a national expert committee to probe potential organizational issues, although ISRO has already implemented and tested system redundancy improvements.",
@@ -963,6 +979,14 @@ const signalTree = {
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-27825",
+                                    "title": "MAKING AN ENTRANCE",
+                                    "description": "<br><strong>STATUS:</strong> NASA astronaut Jack Hathaway and Crew-12 docked with the International Space Station on February 14, 2026, beginning their scientific mission.\n\n<br><strong>INTEL:</strong> The international Crew-12, comprising astronauts from NASA, ESA, and Roscosmos, is actively engaged in diverse scientific investigations on the ISS, including medical monitoring for blood clots and spatial orientation studies using virtual reality, with their ongoing experiments directly contributing to future deep-space exploration efforts toward the Moon and Mars.",
+                                    "source_url": "https://www.nasa.gov/image-article/making-an-entrance/",
+                                    "timestamp": "2026.02.25",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-65796",
                                     "title": "LISTEN TO THIS MONTH\u2019S \u2018PLANETARY PARADE\u2019 WITH NASA\u2019S CHANDRA",
