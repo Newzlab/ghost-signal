@@ -10,6 +10,14 @@ const signalTree = {
                             "name": "SHIELD_AI",
                             "articles": [
                                 {
+                                    "id": "GS-84235",
+                                    "title": "HIVEMIND SUCCESSFULLY COMPLETES FIRST CCA FLIGHT TEST ABOARD ANDURIL\u2019S YFQ-44A AIRCRAFT",
+                                    "description": "<br><strong>STATUS:</strong> Shield AI's Hivemind mission autonomy software successfully completed its first flight test integrated with Anduril\u2019s YFQ-44A aircraft, demonstrating full functionality and integration.\n\n<br><strong>INTEL:</strong> This successful flight test supports the U.S. Air Force's Collaborative Combat Aircraft (CCA) program, for which Shield AI was recently selected as a mission autonomy provider. The Air Force's independent selection of mission autonomy software like Hivemind and aircraft marks a strategic shift towards software-led defense acquisition, aiming to establish a universal, open-systems autonomy standard through the Autonomy Government Reference Architecture (A-GRA) for future airpower capabilities.",
+                                    "source_url": "https://shield.ai/hivemind-successfully-completes-first-cca-flight-test-aboard-andurils-yfq-44a-aircraft/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "SHIELD_AI"
+                                },
+                                {
                                     "id": "GS-75085",
                                     "title": "BUILDING MISSION AUTONOMY FOR THE FUTURE OF SINGAPORE\u2019S AIRPOWER",
                                     "description": "RSAF is one of the most technologically advanced and forward-looking air forces in Southeast Asia. To stay strategically relevant in an era defined by autonomous systems, RSAF, working closely with DSTA, set out to build the foundation for mission autonomy. The goal was to create the ability to develop, test, and control autonomous systems in- house, aligned with RSAF\u2019s Concepts of Operations (CONOPs). To accelerate this effort, RSAF and DSTA partnered with Shield AI to use Hivemind Enterprise, an AI-powered suite of software tools for unmanned systems to operate autonomously. Together, the teams aimed to develop, test, and scale intelligent mission software that could operate across both single and teams of unmanned systems. RSAF and DSTA faced several key challenges in reaching their mission autonomy goals. They needed autonomous systems that could perform safely and reliably while adapting to changing mission conditions. Integrating this technology across different aircraft, flight zones, and mission types added complexity, especially when missions involved restricted airspace or rapid route changes. Beyond the technical hurdles, RSAF and DSTA wanted to build what it calls sovereign capability \u2014 the ability to design, test, and manage its own autonomous systems without depending on foreign technology or outside expertise. This was as much about national security and self-reliance as it was about innovation. Shield AI\u2019s Hivemind Enterprise provided the framework for RSAF and DSTA\u2019s autonomy development program. Built for speed, flexibility, and compatibility across multiple aircraft types, Hivemind allowed RSAF and DSTA engineers to quickly design, test, and refine mission behaviors using easy-to-use, production-ready tools. In 2025, RSAF and DSTA engineers began hands-on training through Hivemind\u2019s integrated autonomy environment. During one demonstration, an Ascent SPIRIT aircraft carried out a search and rescue exercise across two flight zones separated by restricted airspace. When the system failed to locate the object of interest, in the first zone, it automatically rerouted around the restricted area, searched the second zone, located the object of interest, and returned safely to base. The test highlighted Hivemind\u2019s ability to plan, adapt, and complete missions independently in dynamic environments. Looking ahead, RSAF and DSTA plan to expand these capabilities by developing manned and unmanned teaming in 2026 and introduce cooperative multi-aircraft operations by 2027. Hivemind\u2019s flexible design ensures these advancements can be deployed seamlessly across RSAF\u2019s fleet. faster toward pilotless flight and coordinated multi aircraft The collaboration has reshaped how RSAF and DSTA develop and deploy mission autonomy. By adopting Hivemind Enterprise, RSAF and DSTA established a fully self-reliant development process that allows its engineers to design, test, and deploy autonomous mission software in Singapore. The partnership also proved Hivemind\u2019s ability to handle real world challenges, from adapting flight paths to operating safely in complex airspace. RSAF and DSTA are now moving faster toward pilotless flight and coordinated multi aircraft operations, reinforcing Singapore\u2019s position as a leader in defense technology and self-sustained innovation. Through its partnership with Shield AI, RSAF and DSTA are building the foundation for the next era of intelligent airpower, where human expertise and autonomous systems work together to achieve mission success and strengthen national resilience. Learn more about how we\u2019re revolutionizing autonomy.",
@@ -951,6 +959,54 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-96147",
+                                    "title": "NORDSPACE FOUNDER BACKS WYVERN WITH NEW CANADA-FOCUSED VENTURE ARM",
+                                    "description": "<br><strong>STATUS:</strong> Rahul Goel, founder of Canadian launch startup NordSpace, has invested in Earth observation company Wyvern through a new venture arm focused on advancing Canada's sovereign space capabilities.<br><br><strong>INTEL:</strong> This strategic investment, part of a CA$2 million annual initiative, specifically supports Wyvern's hardware development for its hyperspectral imagery constellation, which provides global coverage for applications like vegetative monitoring and nitrogen optimization. Goel's broader strategy is to integrate NordSpace's developing domestic launch capabilities (including suborbital Taiga and orbital Tundra rockets) and satellite platform (Terra Nova) with downstream space applications, aiming to complete Canada's space value chain and offer portfolio companies access to manufacturing, testing, and future launch services.",
+                                    "source_url": "https://spacenews.com/nordspace-founder-backs-wyvern-with-new-canada-focused-venture-arm/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-60553",
+                                    "title": "SIERRA SPACE NAMES DAN JABLONSKY CEO",
+                                    "description": "<br><strong>STATUS:</strong> Dan Jablonsky, a veteran defense executive with experience at Ursa Major and Maxar Technologies, has been appointed Chief Executive Officer of Sierra Space, effective March 2.<br><br><strong>INTEL:</strong> This leadership change is strategic as Sierra Space continues its significant pivot from commercial space infrastructure, like its Dream Chaser spaceplane, towards the defense market, securing contracts for military satellites and expanding production capacity. Jablonsky's extensive background in leading large-scale aerospace and defense organizations is intended to bolster this transition, scale operations, and support increasing demand, aligning with the Pentagon's growing engagement with commercial space manufacturers.",
+                                    "source_url": "https://spacenews.com/sierra-space-names-dan-jablonsky-ceo/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-25328",
+                                    "title": "CESIUMASTRO ACQUIRES VIDROVR TO EMBED AI IN COMMUNICATIONS SYSTEMS",
+                                    "description": "<br><strong>STATUS:</strong> CesiumAstro announced the acquisition of Vidrovr to accelerate the integration of AI into its space telecommunications and intelligence, surveillance, and reconnaissance (ISR) infrastructure.<br><br><strong>INTEL:</strong> The acquisition, which closed in late 2025, incorporates Vidrovr's expertise in AI for multimodal signals analysis, enabling CesiumAstro to embed AI directly into its space systems for adaptive radio-frequency optimization, autonomous payload operations, reconfigurable edge computing, and intelligent data routing, thereby establishing a real-time planetary intelligence layer to reduce latency and improve spectrum efficiency in congested and contested environments.",
+                                    "source_url": "https://spacenews.com/cesiumastro-acquires-vidrovr-to-embed-ai-in-communications-systems/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-68971",
+                                    "title": "PHANTOM SPACE RECLAIMS FORMER VECTOR LAUNCH TECHNOLOGY",
+                                    "description": "<br><strong>STATUS:</strong> Phantom Space has acquired launch assets from the bankrupt Vector Launch, bringing them back to one of Vector's original architects, Phantom co-founder Jim Cantrell.\n\n<br><strong>INTEL:</strong> This acquisition is strategic for Phantom Space, as it includes flight-proven design elements and engineering data that will be immediately integrated into their Daytona rocket architecture to reduce development risk and accelerate the company's path to orbital capability, complementing Phantom's broader vertical integration strategy that includes satellite development and an in-orbit data-backhaul service.",
+                                    "source_url": "https://spacenews.com/phantom-space-reclaims-former-vector-launch-technology/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-66162",
+                                    "title": "NASA ASTRONAUT SAYS HIS MEDICAL ISSUE LED TO EARLY RETURN FROM THE ISS",
+                                    "description": "<br><strong>STATUS:</strong> NASA astronaut Mike Fincke confirmed he experienced a medical event on the International Space Station, necessitating the early return of the Crew-11 mission for advanced terrestrial imaging.\n\n<br><strong>INTEL:</strong> The medical event Fincke suffered on January 7 required diagnostic capabilities unavailable on the ISS, leading to the early return of the entire four-person Crew-11 mission. While the specific condition remains undisclosed due to privacy, Fincke has since completed terrestrial imaging and diagnostics, reporting a reassuring recovery path and underscoring both the unpredictable nature of microgravity and the essential requirement for sophisticated medical evaluation facilities beyond orbital platforms.",
+                                    "source_url": "https://spacenews.com/nasa-astronaut-says-his-medical-issue-led-to-early-return-from-the-iss/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-29790",
+                                    "title": "CHINA\u2019S TIANWEN-2 PROBE OPERATING NORMALLY ON APPROACH TO ASTEROID",
+                                    "description": "<br><strong>STATUS:</strong> China\u2019s Tianwen-2 spacecraft is operating normally on its heliocentric transfer trajectory toward the near-Earth asteroid 469219 Kamo\u02bboalewa for sampling and sample return, as confirmed by a rare official update.\n\n<br><strong>INTEL:</strong> Launched May 28, 2025, Tianwen-2 is tasked with studying and collecting samples from Kamo\u02bboalewa, with delivery to Earth by late November 2027, before proceeding to main-belt comet 311P. The mission is technically challenging due to Kamo\u02bboalewa's microgravity environment, unknown shape, and rapid rotation, necessitating the use of three redundant sampling techniques and a suite of 11 science payloads. Crucially, the collected samples could resolve whether the asteroid originated from the Moon or the main asteroid belt.",
+                                    "source_url": "https://spacenews.com/chinas-tianwen-2-probe-operating-normally-on-approach-to-asteroid/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-46515",
                                     "title": "BOWERSOX TO RETIRE FROM NASA",
                                     "description": "<br><strong>STATUS:</strong> Ken Bowersox, NASA\u2019s associate administrator for space operations, is retiring immediately following a critical report on the agency's handling of the Starliner crewed test flight.\n\n<br><strong>INTEL:</strong> Bowersox's departure, coming days after a report slammed NASA's \"unprofessional conduct\" and \"insufficient senior leadership engagement\" regarding the problematic Starliner mission, strongly indicates accountability for the \"culture of mistrust\" within the Commercial Crew Program, which he oversaw.",
@@ -1314,6 +1370,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-78848",
+                                    "title": "RANSOMWARE PAYMENT RATE DROPS TO RECORD LOW AS ATTACKS SURGE",
+                                    "description": "<br><strong>STATUS:</strong> Ransomware victim payment rates reached an all-time low of 28% in 2025, despite a significant increase in the number of claimed attacks.\n\n<br><strong>INTEL:</strong> This four-year downward trend is attributed to improved incident response, regulatory scrutiny, and law enforcement actions, yet the median ransom payment surged by 368% to $59,556 as victims increasingly pay higher amounts to prevent data exfiltration. While the ransomware economy is adapting with more active extortion groups (85) and lower initial access broker prices due to automation, the overall scale, sophistication, and real-world impact of attacks continue to grow, with total on-chain payments projected to exceed $900 million in 2025, primarily targeting developed economies.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-despite-attack-surge/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-59622",
                                     "title": "MICROSOFT EXPANDS WINDOWS RESTORE TO MORE ENTERPRISE DEVICES",
