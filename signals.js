@@ -927,6 +927,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-46515",
+                                    "title": "BOWERSOX TO RETIRE FROM NASA",
+                                    "description": "<br><strong>STATUS:</strong> Ken Bowersox, NASA\u2019s associate administrator for space operations, is retiring immediately following a critical report on the agency's handling of the Starliner crewed test flight.\n\n<br><strong>INTEL:</strong> Bowersox's departure, coming days after a report slammed NASA's \"unprofessional conduct\" and \"insufficient senior leadership engagement\" regarding the problematic Starliner mission, strongly indicates accountability for the \"culture of mistrust\" within the Commercial Crew Program, which he oversaw.",
+                                    "source_url": "https://spacenews.com/bowersox-to-retire-from-nasa/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-25284",
+                                    "title": "SPACE FORCE HALTS VULCAN MISSIONS PENDING INVESTIGATION INTO SOLID ROCKET ISSUE",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Space Force has paused all national security missions on United Launch Alliance\u2019s (ULA) Vulcan rocket pending an investigation into a performance anomaly during its February 12 launch.<br><br><strong>INTEL:</strong> This pause follows an observed irregular plume from a solid rocket booster on the recent USSF-87 mission, reminiscent of a previous booster nozzle separation issue in October 2024 caused by a manufacturing defect. This delay is a significant setback for ULA's efforts to increase its flight rate and replace the Atlas 5, placing the Space Force in a position of temporary sole reliance on SpaceX for national security space missions.",
+                                    "source_url": "https://spacenews.com/space-force-halts-vulcan-missions-pending-investigation-into-solid-rocket-issue/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-29700",
                                     "title": "SERAPHIM CLOSES SECOND EARLY-STAGE SPACE FUND ABOVE $100 MILLION TARGET",
                                     "description": "<br><strong>STATUS:</strong> Seraphim Space has successfully completed fundraising for its second early-stage venture fund, exceeding its $100 million target to back young space technology startups.\n\n<br><strong>INTEL:</strong> The SSV II fund has attracted new strategic investors including Saudi Arabsat and UK government-backed entities, and has already invested in 17 companies, including those in small geostationary satellites and IoT constellations. This reflects a strategic shift towards dual-use technologies for defense, security, and national resilience, as well as software-driven, data-intensive companies leveraging AI and machine learning, with space technology increasingly seen as foundational infrastructure for AI and digital systems.",
