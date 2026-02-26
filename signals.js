@@ -95,6 +95,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-57133",
+                                    "title": "ISRAEL DELIVERS FIRST AUTONOMOUS SUBMARINE TO GERMANY",
+                                    "description": "<br><strong>STATUS:</strong> Israel Aerospace Industries (IAI) has delivered the \"BlueWhale\" autonomous submarine, the first Israeli-developed unmanned submersible, to the German Navy.\n\n<br><strong>INTEL:</strong> The BlueWhale, developed in a joint venture with Germany's Atlas, is part of the German Navy's \"Navy 2035+\" program and is designed for missions including anti-submarine warfare, covert operations, reconnaissance, and mine detection, significantly deepening defense cooperation between Israel and Germany.",
+                                    "source_url": "https://www.c4isrnet.com/global/europe/2026/02/26/israel-delivers-first-autonomous-submarine-to-germany/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-61984",
                                     "title": "F-22 RAPTOR, MQ-20 DRONE COMPLETE MANNED-UNMANNED FLIGHT EXERCISE",
                                     "description": "The U.S. Air Force and General Atomics Aeronautical Systems Inc. recently completed a successful manned-unmanned teamed demonstration between an F-22 Raptor and an MQ-20 Avenger unmanned aircraft, advancing the integration of autonomous systems into tactical fighter operations, according to a Feb. 23 company release. The live-flight exercise, conducted at Edwards Air Force Base in California, featured a human-piloted F-22 issuing real-time commands to the MQ-20 via advanced autonomy software and a tactical data link. The Avenger drone responded by executing a range of mission tasks, including waypoint navigation, combat air patrol patterns and simulated engagement of airborne threats, functioning as a direct force extender for the manned platform, according to the release. The demonstration leveraged government-provided reference autonomy software on the F-22 and GA-ASI\u2019s Autonodyne Bashi Pilot Vehicle Interface aboard the MQ-20. Onboard sensors enabled the unmanned aircraft to process information independently, coordinate maneuvers and exchange tactical messages with the Raptor in a continuous command loop between the two aircraft. \u201cWe appreciate the flawless execution of this mission using the government\u2019s advanced autonomous systems,\u201d said General Atomics President David R. Alexander. \u201cThis demo featured the integration of mission elements and the ability of autonomy to utilize onboard sensors to make independent decisions and execute commands from the F-22.\u201d The demo, meanwhile, builds on General Atomics\u2019 accelerating timeline for the Collaborative Combat Aircraft program. On Feb. 12, the Air Force announced validation of the Autonomy Government Reference Architecture, or A-GRA, across multiple vendors. This included successful integration of Collins Aerospace\u2019s Sidekick software on the General Atomics YFQ-42A CCA for its first semi-autonomous airborne mission. The YFQ-42A, officially nicknamed \u201cDark Merlin\u201d in a separate press release on Feb. 23, executed precise commands for more than four hours under ground operator control, validating reliable data exchange and autonomy execution that support advanced manned-unmanned teaming, such as the recent MQ-20/F-22 demo. The Edwards demonstration is the latest in a series of tests underscoring the Air Force\u2019s priority on pairing fifth-generation fighters with autonomous unmanned aircraft. Such teaming concepts aim to boost lethality, extend sensor reach and enhance survivability in contested environments by enabling pilots to delegate tactical tasks to drones while retaining command authority for complex decisions.",
@@ -357,6 +365,22 @@ const signalTree = {
                         {
                             "name": "DEFENSE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-66548",
+                                    "title": "ISRAEL DELIVERS FIRST AUTONOMOUS SUBMARINE TO GERMANY",
+                                    "description": "<br><strong>STATUS:</strong> Israel Aerospace Industries (IAI) has delivered its first \"BlueWhale\" autonomous submarine, developed in a joint venture, to the German Navy.\n\n<br><strong>INTEL:</strong> The \"BlueWhale\" is the first unmanned submarine developed by an Israeli company, a product of collaboration between IAI and Germany's Atlas, a TKMS subsidiary. Tested by the German Navy under the \"Navy 2035+\" program, the vessel offers 2-3 weeks of continuous operation, travels at 7 knots, and is equipped with various sensors for missions including anti-submarine warfare, covert operations, reconnaissance, and mine location, acting as an \"extended sensor arm.\" This delivery further strengthens defense cooperation between Israel and Germany, following prior deals like the Arrow 3 air defense system and Germany's supply of manned submarines to Israel.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/02/26/israel-delivers-first-autonomous-submarine-to-germany/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-30362",
+                                    "title": "LEONARDO TO SET UP AEROSTRUCTURES JOINT VENTURE BY MID-YEAR",
+                                    "description": "<br><strong>STATUS:</strong> Italian defense giant Leonardo aims to finalize its aerostructures joint venture with an unnamed partner by June, anticipating it will become one of the world\u2019s top three in the sector.\n\n<br><strong>INTEL:</strong> The strategic joint venture, rumored to involve Saudi Arabia's sovereign wealth fund, seeks to revitalize Leonardo's previously loss-making civilian aerostructures unit by leveraging a financially and industrially capable partner with strong demand across civil, military, rotorcraft, and future space components. This 50-50 partnership, involving technology transfer and market expansion, is projected to triple Leonardo's aerostructures market and positively impact its 2026 financial results, occurring alongside other significant moves like the potential sale of Iveco Defence Vehicles' military truck unit to Rheinmetall, with whom Leonardo already collaborates on major Italian army vehicle programs.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/02/26/leonardo-to-set-up-aerostructures-joint-venture-by-mid-year/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
                                 {
                                     "id": "GS-49411",
                                     "title": "NEW HYPERSONIC MISSILES UNVEILED FOR FIGHTER PLANES, GROUND SYSTEMS",
@@ -1290,6 +1314,22 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-59622",
+                                    "title": "MICROSOFT EXPANDS WINDOWS RESTORE TO MORE ENTERPRISE DEVICES",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft has expanded its Windows Backup for Organizations' \"first sign-in restore experience\" to support more enterprise environments, allowing users to restore settings and apps on new Windows 11 devices.\n\n<br><strong>INTEL:</strong> This update significantly broadens the utility of Windows Backup for Organizations by extending support beyond Microsoft Entra-joined devices to include hybrid-managed environments, multi-user setups, and Windows 365 Cloud PCs, thereby simplifying Windows 11 migration and hardware refreshes for a wider range of enterprise scenarios; IT administrators will retain full control via existing Intune or Group Policy, with general availability beginning February 24, 2026.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-79660",
+                                    "title": "NEW YORK SUES VALVE FOR PROMOTING ILLEGAL GAMBLING VIA GAME LOOT BOXES",
+                                    "description": "<br><strong>STATUS:</strong> The New York Attorney General has sued Valve Corporation, alleging its game loot boxes facilitate illegal gambling among children and teenagers.\n\n<br><strong>INTEL:</strong> The lawsuit claims Valve's loot box features in games like Counter-Strike 2, Team Fortress 2, and Dota 2 violate state gambling laws by offering random virtual prizes exchangeable for real money, similar to slot machines. Attorney General Letitia James argues Valve deliberately skews odds for rare items, contributing to a $4.3 billion market value for these items, and seeks to permanently ban these features in New York, compel Valve to return profits, and impose fines due to the significant risk of gambling addiction and harm to minors.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/gaming/new-york-sues-valve-for-promoting-illegal-gambling-via-game-loot-boxes/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-86239",
                                     "title": "MEDICAL DEVICE MAKER UFP TECHNOLOGIES WARNS OF DATA STOLEN IN CYBERATTACK",
