@@ -103,6 +103,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-33358",
+                                    "title": "ARMY ORDERS $186 MILLION IN SWITCHBLADE KAMIKAZE DRONES, TANK KILLERS",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Army is acquiring an substantial number of AeroVironment Switchblade 600 Block 2 and 300 Block 20 loitering munitions through a new $186 million delivery order.<br><br><strong>INTEL:</strong> This acquisition significantly enhances the Army's capabilities with advanced \"kamikaze\" and \"tank killer\" drones, featuring AI-enabled target detection, extended-range beyond-line-of-sight engagement, and a new Explosively Formed Penetrator payload for the Switchblade 300 Block 20 variant, designed for small unit deployment in diverse and contested battlefields.",
+                                    "source_url": "https://www.c4isrnet.com/news/your-military/2026/02/26/army-orders-186-million-in-switchblade-kamikaze-drones-tank-killers/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-37749",
                                     "title": "ONCE-RELUCTANT GERMANY GOES BIG ON ONE-WAY ATTACK DRONES",
                                     "description": "<br><strong>STATUS:</strong> Germany is moving forward with a multi-billion euro plan to equip its military with advanced one-way attack drones (loitering munitions) from three domestic manufacturers, signaling a significant shift in its defense strategy.<br><br><strong>INTEL:</strong> This multi-billion euro procurement, including initial contracts for Stark Defence and Helsing, represents a significant shift in Germany's post-Ukraine invasion military posture, embracing AI-supported loitering munitions after previous hesitancy. These advanced drones are slated for deployment with Germany's armored brigade in Lithuania by 2027, with an expedited acquisition process and safeguards, despite initial political concerns regarding investor Peter Thiel's limited involvement in one of the manufacturing firms.",
@@ -249,6 +257,14 @@ const signalTree = {
                             "name": "DEFENSE_ONE_TECH",
                             "articles": [
                                 {
+                                    "id": "GS-35587",
+                                    "title": "25TH ID HELPING THE ARMY SMOOTH OUT THE WRINKLES IN ITS NEXT-GENERATION C2",
+                                    "description": "<br><strong>STATUS:</strong> The 25th Infantry Division is leveraging its \"Transformation-in-Contact\" model through Lightning Surge exercises to rapidly develop and refine a unified command-and-control platform (NGC2) for integrated battlefield data management.\n\n<br><strong>INTEL:</strong> The NGC2 platform aims to synchronize and display diverse battlefield data, from intelligence to munitions, in a single interface, with ongoing refinements driven by soldier feedback. Key developments include implementing a Lockheed Martin and Palantir application for selective data display, a planned update to separate classified and unclassified data to eliminate manual \"swivel chair\" operations, and future automation for optimal satellite transport path selection to enhance connectivity. These iterative enhancements are critical for achieving the strategic objective of accelerating the decision-making cycle, aiming for less than four minutes from adversary electronic warfare sensing to weapon impact against an unknown target.",
+                                    "source_url": "https://www.defenseone.com/technology/2026/02/25th-id-helping-army-smooth-out-wrinkles-its-next-generation-c2/411727/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "DEFENSE_ONE_TECH"
+                                },
+                                {
                                     "id": "GS-84088",
                                     "title": "AIR FORCE TEST PILOTS USED TACTICAL AI TO EVADE A MISSILE",
                                     "description": "<br><strong>STATUS:</strong> An experimental fighter jet successfully used onboard artificial intelligence to autonomously evade a simulated incoming missile, demonstrating a future reliance on AI for pilot safety.\n\n<br><strong>INTEL:</strong> Lockheed's Skunk Works conducted the \"Have Remy\" experiment with the X-62A Vista, where AI detected an incoming surface-to-air missile and executed an evasive maneuver without pilot control. This test highlights AI's potential to autonomously perform critical tactical actions to preserve both aircraft and aviators, while also serving to build trust in AI technology among military personnel and the public for its use in high-stress combat environments.",
@@ -381,6 +397,46 @@ const signalTree = {
                         {
                             "name": "DEFENSE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-26318",
+                                    "title": "LAST-DITCH EFFORT IN GENEVA TO AVERT WAR BETWEEN US, IRAN WRAPS WITH \u2018SIGNIFICANT PROGRESS,\u2019 OMANI OFFICIAL SAYS",
+                                    "description": "<br><strong>STATUS:</strong> U.S. and Iranian officials held talks in Geneva, amidst a significant American military buildup, to avert war, with mediators reporting \"significant progress\" towards future discussions despite no immediate breakthrough.<br><br><strong>INTEL:</strong> The talks occurred against the backdrop of the largest U.S. military buildup in the region since the Iraq War, yet the U.S. delegation's demand for Iran to destroy all three nuclear sites directly contradicts President Trump's prior emphatic declaration that these facilities were \"completely and totally obliterated\" months ago; this discrepancy, coupled with current intelligence suggesting Iran is weeks away from industrial-grade bomb-making material and its refusal to discuss ballistic missiles, underscores the volatile and complex nature of the standoff.",
+                                    "source_url": "https://www.defensenews.com/global/mideast-africa/2026/02/26/last-ditch-effort-in-geneva-to-avert-war-between-us-iran-wraps-with-significant-progress-omani-official-says/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-75700",
+                                    "title": "SOCOM ON THE HUNT FOR \u2018ACOUSTIC RAINBOW\u2019 TECH FOR SILENCING DRONES",
+                                    "description": "<br><strong>STATUS:</strong> U.S. Special Operations Command (SOCOM) is pursuing \"acoustic rainbow emitters\" (ARE) for its tactical drones to achieve acoustic stealth by redirecting and filtering sound.\n\n<br><strong>INTEL:</strong> This initiative aims to neutralize the tactical disadvantage of noisy drones, which currently alert targets and are vulnerable to acoustic sensors, enabling the deployment of truly silent attack drones. The ARE technology works by spatially decomposing and redirecting sound waves, much like light in a visual rainbow, and filtering frequencies to be inaudible, with a goal of over 50% acoustic signature reduction using lightweight, passive devices.",
+                                    "source_url": "https://www.defensenews.com/unmanned/2026/02/26/socom-on-the-hunt-for-acoustic-rainbow-tech-for-silencing-drones/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-53159",
+                                    "title": "US MILITARY ASSEMBLES LARGEST FORCE OF WARSHIPS, AIRCRAFT IN MIDDLE EAST IN DECADES",
+                                    "description": "<br><strong>STATUS:</strong> The Pentagon is deploying its largest military force to the Middle East in decades, including two aircraft carrier strike groups, as President Trump warns of potential action against Iran's nuclear program.<br><br><strong>INTEL:</strong> This substantial buildup includes the USS Abraham Lincoln and USS Gerald R. Ford carrier groups, bringing the Navy's regional presence to at least 16 ships, bolstered by over 100 fighter jets (F-35s, F-22s, F-15s, F-16s), numerous support aircraft, and cargo planes spread across Middle Eastern and European bases, with F-22s also repositioned to Israel. Experts warn that any U.S. military action, potentially targeting air defenses or Iran's Supreme Leader, faces a high risk of significant Iranian retaliation, possibly escalating into an all-out regional conflict, mirroring previous deployments anticipating Iranian responses.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/02/26/us-military-assembles-largest-force-of-warships-aircraft-in-middle-east-in-decades/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-32786",
+                                    "title": "ARMY ORDERS $186 MILLION IN SWITCHBLADE KAMIKAZE DRONES, TANK KILLERS",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Army has placed a $186 million order with AeroVironment for bulk delivery of advanced Switchblade 600 Block 2 and 300 Block 2 loitering munitions.<br><br><strong>INTEL:</strong> This order equips the Army with next-generation \"kamikaze\" and \"tank killer\" drones, featuring AI capabilities for faster target detection, beyond-line-of-sight engagement, and, for the Switchblade 300 Block 2, an Explosively Formed Penetrator payload for enhanced armor penetration. The deployment of these adaptable systems, including backpack-portable variants for small units, reflects a strategic move to strengthen capabilities for modern, contested battlefields.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/02/26/army-orders-186-million-in-switchblade-kamikaze-drones-tank-killers/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-47043",
+                                    "title": "WHAT TO KNOW ABOUT DEFENSE PROTECTION ACT AND THE PENTAGON\u2019S ANTHROPIC ULTIMATUM",
+                                    "description": "<br><strong>STATUS:</strong> Defense Secretary Pete Hegseth issued an ultimatum to Anthropic, demanding unrestricted military access to its AI technology or face contract termination and potential invocation of the Defense Production Act (DPA).<br><br><strong>INTEL:</strong> The potential invocation of the DPA against Anthropic, a move experts deem unprecedented for compelling a company to alter its product or terms of service, highlights a deep conflict between AI developers' ethical concerns regarding autonomous weapons and mass surveillance, and the military's demand for unrestricted access to advanced AI for national security, with Anthropic being the last major AI peer to resist.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/02/26/what-to-know-about-defense-protection-act-and-the-pentagons-anthropic-ultimatum/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
                                 {
                                     "id": "GS-83112",
                                     "title": "UKRAINE SAYS RUSSIA LAUNCHED A MAJOR AERIAL ATTACK BEFORE KYIV\u2019S TALKS WITH US",
@@ -991,6 +1047,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-94290",
+                                    "title": "VIRGIN MEDIA O2 LAUNCHES EUROPE\u2019S FIRST STARLINK DIRECT-TO-SMARTPHONE SERVICE",
+                                    "description": "<br><strong>STATUS:</strong> Virgin Media O2 launched SpaceX Starlink Direct-to-Cell in the UK on Feb 26, marking Europe's first commercial deployment of the satellite-to-smartphone service.<br><br><strong>INTEL:</strong> This service, initially for select Samsung Galaxy devices and expanding landmass coverage from 89% to 95% in the UK, supports messaging, voice, and limited apps, enabled by recent regulatory approvals allowing satellite operators to use terrestrial mobile spectrum to extend coverage.",
+                                    "source_url": "https://spacenews.com/virgin-media-o2-launches-europes-first-starlink-direct-to-smartphone-service/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-38768",
                                     "title": "AIRBUS AND LEONARDO REPORT INCREASED SPACE REVENUES FOR 2025",
                                     "description": "<br><strong>STATUS:</strong> Airbus and Leonardo reported significant revenue growth in their space businesses for 2025, driven by program volumes and cost-cutting measures.\n\n<br><strong>INTEL:</strong> Both companies experienced approximately 11% revenue increases in their space divisions, with Airbus undergoing a major restructuring and workforce adaptation plan to address high costs and technical challenges in its Space Systems division. These positive financial results occur while Airbus and Leonardo are engaged in undisclosed discussions with Thales regarding a new joint venture, \"Project Bromo,\" indicating potential strategic consolidation within the European space sector.",
@@ -1244,6 +1308,14 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-82212",
+                                    "title": "JPL 3D-PRINTED PART SPRINGS FORWARD",
+                                    "description": "<br><strong>STATUS:</strong> A 3D-printed spring developed by NASA's Jet Propulsion Laboratory (JPL) successfully deployed in low Earth orbit, demonstrating the potential of additive manufacturing for future space antennas.<br><br><strong>INTEL:</strong> The JPL Additive Compliant Canister (JACC), a titanium 3D-printed mechanism that integrates a hinge, panel, and multiple springs into a single part, significantly reduces the complexity, cost, and build time for space hardware. Its successful deployment, alongside the SUM Deployable Antenna as part of the PANDORASBox mission on Proteus Space\u2019s Mercury One spacecraft, validates additive manufacturing as a key technology for creating compact, precisely deployable antennas crucial for future orbiters and Earth science missions.",
+                                    "source_url": "https://science.nasa.gov/photojournal/jpl-3d-printed-part-springs-forward/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-83559",
                                     "title": "LANDSAT 9: MORE THAN JUST A PICTURE",
                                     "description": "<br><strong>STATUS:</strong> Landsat 9 continues the long-standing Earth observation legacy with advanced capabilities, providing sharper and more frequent global monitoring.\n\n<br><strong>INTEL:</strong> Landsat 9, operating in tandem with Landsat 8 and fusing data with ESA Sentinel-2, provides near-daily global land surface observations with significant technical upgrades. These include enhanced 14-bit radiometric resolution (four times more sensitive than Landsat 8) for capturing subtle details over bright and dark surfaces, improved signal-to-noise performance for clearer imagery, and a thermal sensor (TIRS) enabling polar night imaging for year-round monitoring in extreme conditions.",
@@ -1450,6 +1522,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-45079",
+                                    "title": "PREVIOUSLY HARMLESS GOOGLE API KEYS NOW EXPOSE GEMINI AI DATA",
+                                    "description": "<br><strong>STATUS:</strong> Google API keys previously considered non-sensitive can now be exploited to authenticate to the Gemini AI assistant and access private data due to an unforeseen privilege escalation.\n\n<br><strong>INTEL:</strong> Researchers found nearly 3,000 Google Cloud API keys, historically exposed in public client-side code for services like Maps, gained new authentication capabilities for Gemini, making them vulnerable to attackers who could access private data, incur significant API charges for victims, and exploit a flaw Google classified as \"single-service privilege escalation.\" Google has since implemented proactive detection and blocking measures, and advises developers to audit and rotate their API keys.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/previously-harmless-google-api-keys-now-expose-gemini-ai-data/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-6420",
                                     "title": "TREND MICRO WARNS OF CRITICAL APEX ONE CODE EXECUTION FLAWS",
