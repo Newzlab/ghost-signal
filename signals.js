@@ -103,6 +103,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-37749",
+                                    "title": "ONCE-RELUCTANT GERMANY GOES BIG ON ONE-WAY ATTACK DRONES",
+                                    "description": "<br><strong>STATUS:</strong> Germany is moving forward with a multi-billion euro plan to equip its military with advanced one-way attack drones (loitering munitions) from three domestic manufacturers, signaling a significant shift in its defense strategy.<br><br><strong>INTEL:</strong> This multi-billion euro procurement, including initial contracts for Stark Defence and Helsing, represents a significant shift in Germany's post-Ukraine invasion military posture, embracing AI-supported loitering munitions after previous hesitancy. These advanced drones are slated for deployment with Germany's armored brigade in Lithuania by 2027, with an expedited acquisition process and safeguards, despite initial political concerns regarding investor Peter Thiel's limited involvement in one of the manufacturing firms.",
+                                    "source_url": "https://www.c4isrnet.com/global/europe/2026/02/26/once-reluctant-germany-goes-big-on-one-way-attack-drones/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-57133",
                                     "title": "ISRAEL DELIVERS FIRST AUTONOMOUS SUBMARINE TO GERMANY",
                                     "description": "<br><strong>STATUS:</strong> Israel Aerospace Industries (IAI) has delivered the \"BlueWhale\" autonomous submarine, the first Israeli-developed unmanned submersible, to the German Navy.\n\n<br><strong>INTEL:</strong> The BlueWhale, developed in a joint venture with Germany's Atlas, is part of the German Navy's \"Navy 2035+\" program and is designed for missions including anti-submarine warfare, covert operations, reconnaissance, and mine detection, significantly deepening defense cooperation between Israel and Germany.",
@@ -373,6 +381,30 @@ const signalTree = {
                         {
                             "name": "DEFENSE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-83112",
+                                    "title": "UKRAINE SAYS RUSSIA LAUNCHED A MAJOR AERIAL ATTACK BEFORE KYIV\u2019S TALKS WITH US",
+                                    "description": "<br><strong>STATUS:</strong> Russia launched a massive overnight barrage of 420 drones and 39 missiles at Ukraine, targeting critical infrastructure and residential areas across eight regions.\n\n<br><strong>INTEL:</strong> This significant attack occurred just hours before US and Ukrainian envoys met in Geneva for peace talks, which remain deadlocked over Russian territorial claims, with Ukrainian President Zelenskyy pushing for a direct summit that Russia has rebuffed. US representatives Steve Witkoff and Jared Kushner are engaged in discussions regarding economic support, investment, long-term cooperation, and preparing for future trilateral negotiations and prisoner exchanges, amid Ukrainian public skepticism about the peace process and US motives.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/02/26/ukraine-says-russia-launched-a-major-aerial-attack-before-kyivs-talks-with-us/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-51585",
+                                    "title": "US SOLDIERS EARN FRENCH MEDAL FOR 2023 IRAQ RESCUE",
+                                    "description": "<br><strong>STATUS:</strong> In August 2023, French special operations forces under attack from ISIS in Iraq were rescued by New York Army National Guard helicopter crews, who were recently honored by France for their bravery.<br><br><strong>INTEL:</strong> Six American Guardsmen from the New York Army National Guard, operating CH-47 Chinooks, conducted a vital rescue mission in August 2023 near Hawija, Iraq, inserting a French quick reaction force to save approximately 35 trapped French special operators from an ISIS assault. Despite limited on-ground intelligence, their swift action contributed to the mission's success, though one French paratrooper, Sgt. Nicolas Mazier, was killed; France subsequently awarded these American aviators the National Defense Gold Medal with a Bronze star for their critical role in the multinational operation.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/02/26/us-soldiers-earn-french-medal-for-2023-iraq-rescue/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-80093",
+                                    "title": "ONCE-RELUCTANT GERMANY GOES BIG ON ONE-WAY ATTACK DRONES",
+                                    "description": "<br><strong>STATUS:</strong> Germany has approved initial contracts worth \u20ac268 million each for Stark Defence and Helsing, with Rheinmetall pending, to equip its military with one-way attack drones, marking a significant shift in its defense strategy.<br><br><strong>INTEL:</strong> The acquisition of these AI-supported loitering munitions, proven highly effective in the Ukraine war by rendering frontline areas impassable, signifies a remarkable turnaround in Germany's military posture, adapting to global realities post-Russia's invasion. While accelerating deployment to its Lithuanian brigade by 2027 through parallel testing and training, lawmakers have incorporated strict oversight, cancellation clauses, and diversified manufacturing across three companies to mitigate risks associated with novel technology and address initial concerns regarding investor Peter Thiel's limited influence in Stark Defence.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/02/26/once-reluctant-germany-goes-big-on-one-way-attack-drones/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
                                 {
                                     "id": "GS-66548",
                                     "title": "ISRAEL DELIVERS FIRST AUTONOMOUS SUBMARINE TO GERMANY",
@@ -959,6 +991,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-38768",
+                                    "title": "AIRBUS AND LEONARDO REPORT INCREASED SPACE REVENUES FOR 2025",
+                                    "description": "<br><strong>STATUS:</strong> Airbus and Leonardo reported significant revenue growth in their space businesses for 2025, driven by program volumes and cost-cutting measures.\n\n<br><strong>INTEL:</strong> Both companies experienced approximately 11% revenue increases in their space divisions, with Airbus undergoing a major restructuring and workforce adaptation plan to address high costs and technical challenges in its Space Systems division. These positive financial results occur while Airbus and Leonardo are engaged in undisclosed discussions with Thales regarding a new joint venture, \"Project Bromo,\" indicating potential strategic consolidation within the European space sector.",
+                                    "source_url": "https://spacenews.com/airbus-and-leonardo-report-increased-space-revenues-for-2025/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-96147",
                                     "title": "NORDSPACE FOUNDER BACKS WYVERN WITH NEW CANADA-FOCUSED VENTURE ARM",
                                     "description": "<br><strong>STATUS:</strong> Rahul Goel, founder of Canadian launch startup NordSpace, has invested in Earth observation company Wyvern through a new venture arm focused on advancing Canada's sovereign space capabilities.<br><br><strong>INTEL:</strong> This strategic investment, part of a CA$2 million annual initiative, specifically supports Wyvern's hardware development for its hyperspectral imagery constellation, which provides global coverage for applications like vegetative monitoring and nitrogen optimization. Goel's broader strategy is to integrate NordSpace's developing domestic launch capabilities (including suborbital Taiga and orbital Tundra rockets) and satellite platform (Terra Nova) with downstream space applications, aiming to complete Canada's space value chain and offer portfolio companies access to manufacturing, testing, and future launch services.",
@@ -1204,6 +1244,38 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-83559",
+                                    "title": "LANDSAT 9: MORE THAN JUST A PICTURE",
+                                    "description": "<br><strong>STATUS:</strong> Landsat 9 continues the long-standing Earth observation legacy with advanced capabilities, providing sharper and more frequent global monitoring.\n\n<br><strong>INTEL:</strong> Landsat 9, operating in tandem with Landsat 8 and fusing data with ESA Sentinel-2, provides near-daily global land surface observations with significant technical upgrades. These include enhanced 14-bit radiometric resolution (four times more sensitive than Landsat 8) for capturing subtle details over bright and dark surfaces, improved signal-to-noise performance for clearer imagery, and a thermal sensor (TIRS) enabling polar night imaging for year-round monitoring in extreme conditions.",
+                                    "source_url": "https://science.nasa.gov/missions/landsat/landsat-9-more-than-just-a-picture/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-35081",
+                                    "title": "INSIDE PROJECT HAIL MARY",
+                                    "description": "<br><strong>STATUS:</strong> NASA astronaut Kjell Lindgren hosted a discussion at JPL on February 25, 2026, with the creative team behind the \"Project Hail Mary\" movie, including actors Ryan Gosling and Sandra Huller, discussing their collaboration with NASA.\n\n<br><strong>INTEL:</strong> NASA actively supported the production of the \"Project Hail Mary\" movie by providing subject matter experts to the creative team, with astronaut Kjell Lindgren specifically consulting actor Ryan Gosling during filming to share insights on human spaceflight and astronaut experience, demonstrating a strategic engagement between NASA and major media productions to ensure accuracy and promote space exploration.",
+                                    "source_url": "https://www.nasa.gov/image-article/inside-project-hail-mary/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-62471",
+                                    "title": "NASA INVITES MEDIA TO DISCUSS NEXT STEPS FOR ARTEMIS CAMPAIGN",
+                                    "description": "<br><strong>STATUS:</strong> NASA is holding a news conference on February 27th to discuss the future of the Artemis II test flight and the overall Artemis campaign, following the rollback of its rocket and spacecraft.\n\n<br><strong>INTEL:</strong> This conference, featuring NASA leadership, will provide updates on the work ahead for the Artemis II mission and the broader Artemis campaign, suggesting potential strategic adjustments or detailed planning discussions are underway after the SLS rocket and Orion spacecraft were moved back to the Vehicle Assembly Building.",
+                                    "source_url": "https://www.nasa.gov/news-release/nasa-invites-media-to-discuss-next-steps-for-artemis-campaign/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-79951",
+                                    "title": "NASA\u2019S ESCAPADE READY TO STUDY SPACE WEATHER FROM EARTH TO MARS",
+                                    "description": "<br><strong>STATUS:</strong> NASA's ESCAPADE mission has activated its science instruments to investigate how the solar wind stripped Mars' atmosphere and its ongoing influence on the Red Planet.<br><br><strong>INTEL:</strong> The ESCAPADE mission utilizes a pioneering twin-spacecraft approach, the first of its kind at Mars, to provide a \"stereo perspective\" and simultaneously measure the short-term changes in the Martian magnetosphere and the upstream solar wind. This allows scientists to observe the real-time cause-and-effect processes driving atmospheric escape, offering unprecedented data crucial for understanding Mars' transformation and developing critical space weather protocols to protect future human missions on the weakly protected planet.",
+                                    "source_url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-ready-to-study-space-weather-from-earth-to-mars/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-71416",
                                     "title": "NASA NAMES\u00a0ACTING LEADERS FOR TWO KEY HUMAN SPACEFLIGHT ROLES",
                                     "description": "<br><strong>STATUS:</strong> NASA announced the appointment of Joel Montalbano as acting associate administrator for the Space Operations Mission Directorate and Dana Hutcherson as acting program manager for the Commercial Crew Program. <br><br><strong>INTEL:</strong> These acting appointments are critical for NASA's strategic objectives, with Montalbano's key priorities including establishing a low Earth orbit economy ahead of the International Space Station's retirement and maintaining American superiority in space. Hutcherson will continue working with the aerospace industry to develop safe, reliable, and cost-effective crew transportation systems, both roles being essential for the continued evolution of U.S. human spaceflight capabilities and commercial space endeavors.",
@@ -1378,6 +1450,46 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-6420",
+                                    "title": "TREND MICRO WARNS OF CRITICAL APEX ONE CODE EXECUTION FLAWS",
+                                    "description": "<br><strong>STATUS:</strong> Trend Micro has patched two critical Apex One vulnerabilities (CVE-2025-71210 and CVE-2025-71211) that allow remote code execution (RCE) on Windows systems.<br><br><strong>INTEL:</strong> These path traversal flaws in the Apex One management console could be exploited by attackers with console access, prompting Trend Micro to release Critical Patch Build 14136 and urge immediate updates, despite not being actively exploited, given a history of other Apex One RCEs being abused by threat actors.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-critical-apex-one-rce-vulnerabilities/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-26802",
+                                    "title": "EUROPEAN DYI CHAIN MANOMANO DATA BREACH IMPACTS 38 MILLION CUSTOMERS",
+                                    "description": "<br><strong>STATUS:</strong> DIY store chain ManoMano is notifying 38 million customers of a data breach discovered in January 2026, stemming from a compromised third-party customer service provider.\n<br><br><strong>INTEL:</strong> The breach originated from a subcontractor, likely a Tunis-based customer support service provider impacted by a Zendesk compromise, with a hacker alias \"Indra\" claiming responsibility for 37.8 million user accounts on a forum. While exposed data varies per individual and no account passwords or system modifications occurred, ManoMano has secured its environment, revoked the subcontractor's access, and notified relevant authorities and customers to be vigilant against phishing.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/european-dyi-chain-manomano-data-breach-impacts-38-million-customers/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-35144",
+                                    "title": "CRITICAL JUNIPER NETWORKS PTX FLAW ALLOWS FULL ROUTER TAKEOVER",
+                                    "description": "<br><strong>STATUS:</strong> A critical unauthenticated remote code execution vulnerability (CVE-2026-21902) has been discovered in Juniper Junos OS Evolved on PTX Series routers, allowing full device control.\n\n<br><strong>INTEL:</strong> This high-severity flaw affects PTX Series routers, commonly used by internet service providers, telecommunication services, and cloud network applications, allowing root-level compromise without authentication due to an incorrectly exposed 'On-Box Anomaly Detection' framework. While Juniper Networks has released patches for versions 25.4R1-S1-EVO, 25.4R2-EVO, and 26.2R1-EVO, and is not aware of active exploitation, the strategic importance of these devices necessitates immediate patching or the implementation of recommended mitigations like firewall restrictions or service disabling.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/critical-juniper-networks-ptx-flaw-allows-full-router-takeover/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-7196",
+                                    "title": "OLYMPIQUE MARSEILLE CONFIRMS 'ATTEMPTED' CYBERATTACK AFTER DATA LEAK",
+                                    "description": "<br><strong>STATUS:</strong> French football club Olympique de Marseille has confirmed a cyberattack following a threat actor's claims of breaching its systems and leaking sample data.\n\n<br><br><strong>INTEL:</strong> While Olympique de Marseille states the attack was quickly contained with no banking details or passwords compromised, the threat actor claims to have stolen a database containing personal information for 400,000 individuals and details for over 2,050 Drupal CMS accounts, including staff. The club has reported the incident to the French data protection authority (CNIL) and advised supporters to be vigilant against phishing attempts, contextualizing the attack within a broader resurgence of cyberattacks targeting large organizations and the football sector.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/olympique-marseille-football-club-confirms-cyberattack-after-data-leak/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-70552",
+                                    "title": "RANSOMWARE PAYMENT RATE DROPS TO RECORD LOW AS ATTACKS SURGE",
+                                    "description": "<br><strong>STATUS:</strong> Ransomware victim payment rates have plummeted to an all-time low of 28% in 2025, despite a 50% year-over-year increase in claimed attacks.<br><br><strong>INTEL:</strong> Although fewer victims are paying, total on-chain ransomware payments for 2025 are projected to approach or exceed $900 million, largely due to a 368% surge in median ransom payments, indicating victims are willing to pay more for data deletion. This trend is attributed to improved incident response, regulatory scrutiny, international law enforcement actions, and increased market fragmentation with 85 active extortion groups. While Initial Access Broker (IAB) activity remains a key enabler and a potential leading indicator for future attacks, the average price for network access has dropped significantly, suggesting automation, AI tooling, and an oversupply from info-stealer logs are impacting the industry. Experts believe ransomware is adapting its tactics to extract more value from a decreasing pool of paying victims, indicating a phase of evolution rather than decline.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-as-attacks-surge/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-78848",
                                     "title": "RANSOMWARE PAYMENT RATE DROPS TO RECORD LOW AS ATTACKS SURGE",
