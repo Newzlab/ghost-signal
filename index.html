@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GHOST SIGNAL | OSINT TERMINAL</title>
+    <title>GHOST SIGNAL | OSINT & COMMS TERMINAL</title>
     
-    <meta name="description" content="GHOST SIGNAL is an automated Open Source Intelligence (OSINT) terminal. It autonomously monitors defense, aerospace, and cyber nodes, utilizing AI to synthesize raw data into actionable intelligence briefs.">
+    <meta name="description" content="GHOST SIGNAL is an automated Open Source Intelligence (OSINT) terminal and communications node. It autonomously monitors defense nodes and broadcasts Dead Hand Radio intercepts.">
     <meta name="robots" content="index, follow">
     
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
@@ -25,13 +25,13 @@
     <div class="console-wrapper" id="console-node">
         
         <aside class="hud-panel nav-computer" id="left-sidebar">
-            <div id="vault-title">SIGNAL_DIRECTORY</div>
+            <div id="vault-title">MASTER_DIRECTORY</div>
             <div id="vault-content" class="vault-container"></div>
             
             <div class="action-btn" onclick="resetUplink()" style="margin-top: 15px; border-style: dashed;">[RESET_UPLINK]</div>
             
             <div class="system-logs">
-                MODE: DEEP_PACKET_INSPECTION<br>
+                MODE: OMNI_CHANNEL_MONITOR<br>
                 AUTH: NEWZLAB_ARCHITECT<br>
                 STATUS: UPLINK_STABLE
             </div>
@@ -39,24 +39,26 @@
 
         <main class="hud-panel content-terminal" id="center-stage-anchor">
             <div id="terminal-view-area">
-                <span id="label-type" style="font-size: 0.7rem; letter-spacing: 6px; text-transform: uppercase; color: var(--orange);">AWAITING_COORDINATES</span>
-                <h1 id="active-title" style="font-size: 2.5rem; margin: 15px 0; text-transform: uppercase; text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);">INITIALIZING...</h1>
+                <span id="label-type" style="font-size: 0.7rem; letter-spacing: 6px; text-transform: uppercase; color: var(--orange); font-weight: 700;">AWAITING_COORDINATES</span>
+                <h1 id="active-title" style="font-family: 'Orbitron'; font-size: 2.5rem; margin: 15px 0; text-transform: uppercase; text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);">INITIALIZING...</h1>
                 
                 <div id="active-description" style="opacity: 0.8; font-weight: 300; line-height: 1.8; margin-bottom: 30px;">
                     <div class="visualizer" style="margin-bottom: 25px;">
                         <div class="v-bar"></div>
                         <div class="v-bar" style="animation-delay: 0.2s"></div>
                         <div class="v-bar" style="animation-delay: 0.4s"></div>
+                        <div class="v-bar" style="animation-delay: 0.1s"></div>
+                        <div class="v-bar" style="animation-delay: 0.3s"></div>
                     </div>
                     
                     <div style="text-align: left; background: rgba(0,0,0,0.4); padding: 20px; border: 1px solid var(--border); border-radius: 4px;">
-                        <p style="margin-top: 0;"><strong>GHOST SIGNAL</strong> is an automated Open Source Intelligence (OSINT) aggregator. It autonomously monitors high-priority defense, aerospace, and cyber nodes, utilizes deep-scraping to bypass publisher truncation, and leverages an AI analyst to synthesize raw data into actionable intelligence briefs.</p>
+                        <p style="margin-top: 0;"><strong>GHOST SIGNAL</strong> is a unified Intelligence Terminal. It aggregates automated OSINT decrypts from global defense nodes and intercepts classified audio transmissions via Dead Hand Radio.</p>
                         
                         <h3 style="color: var(--orange); font-family: 'Orbitron'; font-size: 0.85rem; margin-top: 25px; border-bottom: 1px dashed var(--border); padding-bottom: 5px; letter-spacing: 1px;">// OPERATION MANUAL</h3>
                         <ul style="list-style-type: square; padding-left: 20px; font-size: 0.85rem; margin-bottom: 0;">
-                            <li style="margin-bottom: 12px;"><strong>NAVIGATE:</strong> Select an industry node from the left directory to begin the decryption sequence. Drill down through categories to access specific intelligence feeds.</li>
-                            <li style="margin-bottom: 12px;"><strong>CONSUME:</strong> Unread signals are automatically prioritized at the top of your feed. Viewed intelligence is greyed out and drops to the bottom of the ledger.</li>
-                            <li><strong>RESET:</strong> Click <span style="color: var(--orange); font-weight: bold;">[RESET_UPLINK]</span> or the root directory breadcrumb at any time to clear the terminal and return to this screen.</li>
+                            <li style="margin-bottom: 12px;"><strong>TEXT_INTERCEPTS:</strong> Drill down through the OSINT directory to read AI-summarized defense and cyber briefs.</li>
+                            <li style="margin-bottom: 12px;"><strong>AUDIO_INTERCEPTS:</strong> Access the complete Dead Hand Radio database. Play podcasts or view video transmissions directly in the console.</li>
+                            <li><strong>BACKGROUND_MONITOR:</strong> Initialize random atmospheric audio in the right-hand panel to listen to archived transmissions while you read.</li>
                         </ul>
                     </div>
                 </div>
@@ -67,24 +69,22 @@
 
         <aside class="hud-panel system-hub" id="right-sidebar">
             <div class="hub-section">
-                <div class="section-label">ATMOSPHERIC_UPLINK</div>
-                <audio id="bg-audio" loop>
-                   <source src="https://somafm.com/groovesalad256.pls" type="audio/x-scpls">
-                   <source src="https://ice6.somafm.com/groovesalad-256-mp3" type="audio/mpeg">
-                </audio>
-                <div class="action-btn" id="play-trigger" onclick="toggleAudio()">INITIALIZE_AUDIO</div>
+                <div class="section-label">ATMOSPHERIC_AUDIO</div>
+                <div id="audio-status-label" style="font-size: 0.6rem; opacity: 0.6; margin-bottom: 10px; line-height: 1.4; word-wrap: break-word;">AWAITING_INITIALIZATION...</div>
+                <div class="action-btn" id="play-trigger" onclick="toggleRandomAudio()">INITIALIZE_RANDOM_AUDIO</div>
             </div>
 
             <div class="hub-section" style="margin-top: 30px;">
                 <div class="section-label">SYSTEM_LINKS</div>
-                <div class="action-btn" onclick="document.getElementById('subscribe-overlay').style.display = 'flex'" style="border-style: solid; background: rgba(255, 85, 0, 0.1);">[+] SUBSCRIBE_TO_BRIEF</div>
+                <div class="action-btn" onclick="toggleTheme()" style="border-style: solid; color: #fff;">[ TOGGLE_UI_THEME ]</div>
+                <div class="action-btn" onclick="document.getElementById('subscribe-overlay').style.display = 'flex'" style="border-style: solid; background: rgba(255, 255, 255, 0.05);">[+] SUBSCRIBE_TO_BRIEF</div>
                 <div class="action-btn" onclick="document.getElementById('manifesto-overlay').style.display = 'flex'">PROTOCOL_MANIFESTO</div>
                 <div class="action-btn" onclick="window.location.href='mailto:support@ghostsignal.net'">CONTACT_UPLINK</div>
             </div>
 
             <div class="footer-module">
                 <div class="copyright">
-                    &copy; 2026 GHOST SIGNAL<br>
+                    &copy; 2026 GHOST SIGNAL / DEAD HAND RADIO<br>
                     INFRASTRUCTURE: GITHUB_NODE<br>
                     LOGIC: NEWZLAB_CONSTRUCT
                 </div>
@@ -129,6 +129,7 @@
     </div>
 
     <script src="signals.js"></script>
+    <script src="episodes.js"></script>
     <script src="terminal.js"></script>
 </body>
 </html>
