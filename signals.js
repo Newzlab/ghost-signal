@@ -1204,6 +1204,14 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-71416",
+                                    "title": "NASA NAMES\u00a0ACTING LEADERS FOR TWO KEY HUMAN SPACEFLIGHT ROLES",
+                                    "description": "<br><strong>STATUS:</strong> NASA announced the appointment of Joel Montalbano as acting associate administrator for the Space Operations Mission Directorate and Dana Hutcherson as acting program manager for the Commercial Crew Program. <br><br><strong>INTEL:</strong> These acting appointments are critical for NASA's strategic objectives, with Montalbano's key priorities including establishing a low Earth orbit economy ahead of the International Space Station's retirement and maintaining American superiority in space. Hutcherson will continue working with the aerospace industry to develop safe, reliable, and cost-effective crew transportation systems, both roles being essential for the continued evolution of U.S. human spaceflight capabilities and commercial space endeavors.",
+                                    "source_url": "https://www.nasa.gov/news-release/nasa-names-acting-leaders-for-two-key-human-spaceflight-roles/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-47360",
                                     "title": "DRY-SEASON FLOODS DRENCH NORTHERN COLOMBIA",
                                     "description": "<br><strong>STATUS:</strong> Unusually heavy early-February rains in 2026 caused widespread and destructive flooding along the Sin\u00fa River in Colombia's C\u00f3rdoba department, submerging over 80% of the region.\n\n<br><strong>INTEL:</strong> This catastrophic flooding, occurring during a typically dry month, was triggered by an anomalous Caribbean cold front on February 1-2, which funneled moisture-laden air into northern Colombia, leading to several days of intense downpours. The humanitarian impact is severe, with preliminary estimates indicating thousands of homes destroyed, over 11,000 families displaced, and more than 150,000 hectares of crucial farmland inundated, severely disrupting agricultural operations in this vital cattle and farming region.",
