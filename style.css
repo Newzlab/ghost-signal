@@ -1,14 +1,24 @@
-/* --- GHOST SIGNAL | CORE UI v5.0 (STABLE) --- */
+/* --- GHOST SIGNAL | CORE UI v6.0 (MATRIX STABLE) --- */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&family=Orbitron:wght@400;700&display=swap');
 
 * { box-sizing: border-box; }
 
 :root {
+    /* DEFAULT ORANGE THEME */
     --orange: #FF5500;
     --orange-glow: rgba(255, 85, 0, 0.3);
     --border: rgba(255, 85, 0, 0.25);
     --bg: #111111;
     --panel-bg: #1A1A1A;
+}
+
+/* THE CYAN THEME OVERRIDE */
+body.theme-cyan {
+    --orange: #00F2FF;
+    --orange-glow: rgba(0, 242, 255, 0.3);
+    --border: rgba(0, 242, 255, 0.25);
+    --bg: #010204;
+    --panel-bg: rgba(6, 11, 18, 0.9);
 }
 
 html, body {
@@ -23,6 +33,7 @@ html, body {
     font-family: 'Montserrat', sans-serif;
     overflow: hidden;
     display: flex; flex-direction: column;
+    transition: background-color 0.5s ease;
 }
 
 /* --- HEADER --- */
@@ -58,9 +69,9 @@ html, body {
 }
 
 .hud-panel {
-    background: rgba(26, 26, 26, 0.85); backdrop-filter: blur(15px);
+    background: var(--panel-bg); backdrop-filter: blur(15px);
     padding: 25px; display: flex; flex-direction: column; 
-    position: relative; overflow-y: auto;
+    position: relative; overflow-y: auto; transition: background-color 0.5s ease;
 }
 
 #left-sidebar { border-right: 1px solid var(--border); }
@@ -81,16 +92,24 @@ html, body {
 
 .vault-container { flex: 1; overflow-y: auto; scrollbar-width: thin; scrollbar-color: var(--orange) transparent; }
 .vault-item { 
-    padding: 15px 10px; font-size: 0.8rem; border-bottom: 1px solid rgba(255,85,0,0.1); 
+    padding: 15px 10px; font-size: 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.05); 
     cursor: pointer; transition: 0.2s; line-height: 1.4;
 }
-.vault-item:hover { background: rgba(255,85,0,0.1); color: var(--orange); padding-left: 15px; }
+.vault-item:hover { background: var(--orange-glow); color: var(--orange); padding-left: 15px; }
+
+/* DHR FOLDERS */
+.accordion-folder {
+    border: 1px solid var(--border); margin-bottom: 8px;
+    background: rgba(255,255,255,0.02); font-size: 0.8rem;
+    padding: 12px; cursor: pointer; color: var(--orange);
+    font-family: 'Orbitron'; transition: 0.3s;
+}
+.accordion-folder:hover { background: var(--orange-glow); }
+.episode-list { display: none; flex-direction: column; padding-left: 10px; margin-bottom: 10px; border-left: 1px solid var(--border); }
 
 /* --- READ ARTICLE STATE --- */
 .read-article {
-    opacity: 0.45;
-    border-color: rgba(255, 255, 255, 0.05) !important;
-    filter: grayscale(100%);
+    opacity: 0.45; border-color: rgba(255, 255, 255, 0.05) !important; filter: grayscale(100%);
 }
 .read-article:hover { opacity: 0.8; filter: grayscale(0%); }
 
@@ -109,7 +128,7 @@ html, body {
     margin-bottom: 15px; outline: none; transition: 0.3s;
 }
 .terminal-input:focus { box-shadow: 0 0 15px var(--orange-glow); }
-.terminal-input::placeholder { color: rgba(255, 85, 0, 0.4); }
+.terminal-input::placeholder { color: var(--orange); opacity: 0.4; }
 
 /* --- ESCAPE HATCH BUTTON --- */
 .sticky-back-btn {
