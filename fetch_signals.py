@@ -235,7 +235,6 @@ def fetch_all_signals(send_email=False):
                             if ai_summary:
                                 print("      [+] AI_DECRYPT_SUCCESS")
                                 final_desc = ai_summary
-                                time.sleep(4.2) 
                             else:
                                 final_desc = text_to_analyze
                         else:
