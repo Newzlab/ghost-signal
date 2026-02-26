@@ -552,6 +552,126 @@ const signalTree = {
                             "name": "ARXIV_AI_PAPERS",
                             "articles": [
                                 {
+                                    "id": "GS-47177",
+                                    "title": "A DYNAMIC SURVEY OF SOFT SET THEORY AND ITS EXTENSIONS",
+                                    "description": "<br><strong>STATUS:</strong> A new book is announced that provides a survey-style overview of soft sets and their major extensions.<br><br><strong>INTEL:</strong> Soft set theory offers a direct framework for parameterized decision modeling to represent uncertainty, and has significantly expanded into numerous variants like hypersoft and TreeSoft sets, while also connecting with diverse areas such as topology and matroid theory. This survey-style book will detail core definitions, representative constructions, and key directions of current development within this evolving field.",
+                                    "source_url": "https://arxiv.org/abs/2602.21268",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-96629",
+                                    "title": "A HIERARCHICAL MULTI-AGENT SYSTEM FOR AUTONOMOUS DISCOVERY IN GEOSCIENTIFIC DATA ARCHIVES",
+                                    "description": "<br><strong>STATUS:</strong> A new multi-agent AI framework named PANGAEA-GPT has been developed to autonomously discover and analyze underutilized Earth science data from vast repositories.\n\n<br><strong>INTEL:</strong> This framework, unlike standard LLM wrappers, features a centralized Supervisor-Worker topology with strict data-type-aware routing, sandboxed deterministic code execution, and self-correction mechanisms to resolve runtime errors. It aims to address the scalability challenge of Earth science data by enabling complex, multi-step analytical workflows with minimal human intervention, thereby increasing data reusability and analytical throughput across diverse scientific domains.",
+                                    "source_url": "https://arxiv.org/abs/2602.21351",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-96700",
+                                    "title": "BEYOND REFUSAL: PROBING THE LIMITS OF AGENTIC SELF-CORRECTION FOR SEMANTIC SENSITIVE INFORMATION",
+                                    "description": "<br><strong>STATUS:</strong> A new inference-time framework, SemSIEdit, has been introduced to enable Large Language Models to self-regulate leaks of Semantic Sensitive Information by iteratively rewriting sensitive content.\n\n<br><strong>INTEL:</strong> Semantic Sensitive Information (SemSI) represents a novel threat where LLMs infer identity, generate reputation-harmful content, or hallucinate misinformation, differing from structured PII. SemSIEdit addresses this through an agentic \"Editor\" that critiques and rewrites sensitive spans to preserve narrative flow, demonstrating a 34.6% leakage reduction for a 9.8% utility loss. A \"Scale-Dependent Safety Divergence\" shows large models achieve safety via constructive expansion, while smaller models use destructive truncation, underscoring a \"Reasoning Paradox\" where inference-time reasoning both increases risk and empowers defensive rewrites.",
+                                    "source_url": "https://arxiv.org/abs/2602.21496",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-86970",
+                                    "title": "ARLARENA: A UNIFIED FRAMEWORK FOR STABLE AGENTIC REINFORCEMENT LEARNING",
+                                    "description": "<br><strong>STATUS:</strong> Researchers have developed SAMPO, a stable agentic policy optimization method, to address the prevalent training instability in Agentic Reinforcement Learning (ARL).<br><br><strong>INTEL:</strong> Agentic Reinforcement Learning (ARL) offers a promising paradigm for complex interactive tasks but suffers from significant instability, causing training collapse and limiting scalability. ARLArena, a new framework, systematically analyzes this instability by decomposing policy gradients into core design dimensions. SAMPO integrates insights from this analysis to mitigate dominant instability sources, achieving consistently stable training and strong performance across diverse agentic tasks, providing practical guidance for building reproducible LLM-based agent training pipelines.",
+                                    "source_url": "https://arxiv.org/abs/2602.21534",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-52645",
+                                    "title": "POWER AND LIMITATIONS OF AGGREGATION IN COMPOUND AI SYSTEMS",
+                                    "description": "<br><strong>STATUS:</strong> Research identifies three fundamental mechanisms through which aggregating responses from multiple AI models expands the range of achievable outputs for system designers.<br><br><strong>INTEL:</strong> The study models aggregation within a stylized principal-agent framework, where the system designer can partially steer individual AI agents but faces limitations in prompt engineering and model capabilities. It formally proves and characterizes three distinct mechanisms\u2014feasibility expansion, support expansion, and binding set contraction\u2014as both necessary and sufficient for aggregation to expand the 'elicitability' of outputs. This work provides critical insights into when and how compound AI systems can strategically overcome inherent limitations of individual model capabilities and prompt engineering, offering a pathway to achieve a greater diversity and quality of synthesized outputs.",
+                                    "source_url": "https://arxiv.org/abs/2602.21556",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-64475",
+                                    "title": "THE ASIR COURAGE MODEL: A PHASE-DYNAMIC FRAMEWORK FOR TRUTH TRANSITIONS IN HUMAN AND AI SYSTEMS",
+                                    "description": "<br><strong>STATUS:</strong> A new model, the ASIR (Awakened Shared Intelligence Relationship) Courage Model, has been introduced to formalize truth-disclosure as a phase-dynamic state transition.\n\n<br><strong>INTEL:</strong> The ASIR Courage Model posits that truth-disclosure occurs when facilitative forces surpass inhibitory thresholds, shifting from a suppressed (S0) to an expressed (S1) state. While initially designed for human truth-telling, this framework explicitly extends to AI systems, where suppression maps to constrained output states and structural pressure stems from competing objectives and alignment filters. This provides a unified, structural account for understanding both human silence under duress and AI preference-driven distortion, interpreting apparent shifts in AI truthfulness as dynamic consequences of interacting forces within a constrained phase space, rather than as an indication of AI intent.",
+                                    "source_url": "https://arxiv.org/abs/2602.21745",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-86897",
+                                    "title": "FEDM+: A RISK-BASED FUZZY ETHICAL DECISION MAKING FRAMEWORK WITH PRINCIPLE-LEVEL EXPLAINABILITY AND PLURALISTIC VALIDATION",
+                                    "description": "<br><strong>STATUS:</strong> A new ethical decision-making framework, fEDM+, is introduced to enhance an existing fuzzy logic-based model for ethically sensitive AI systems.<br><br><strong>INTEL:</strong> fEDM+ extends the original fEDM by adding an Explainability and Traceability Module (ETM) that links decisions to underlying moral principles and provides transparent, auditable explanations, and by replacing single-referent validation with a pluralistic semantic validation framework that evaluates decisions against multiple stakeholder perspectives, thus improving interpretability, robustness under ethical pluralism, and suitability as an oversight layer for AI.",
+                                    "source_url": "https://arxiv.org/abs/2602.21746",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-55903",
+                                    "title": "PROMPT ARCHITECTURE DETERMINES REASONING QUALITY: A VARIABLE ISOLATION STUDY ON THE CAR WASH PROBLEM",
+                                    "description": "<br><strong>STATUS:</strong> Researchers have identified a prompt architecture, specifically the STAR framework, that dramatically improves LLM performance on the challenging \"car wash problem\" reasoning benchmark.<br><br><strong>INTEL:</strong> A study using Claude 3.5 Sonnet demonstrated that implementing the STAR (Situation-Task-Action-Result) reasoning framework alone boosts accuracy from 0% to 85% on implicit physical constraint inference tasks. Further enhancements from user profile context and RAG pushed accuracy to 100%, indicating that structured reasoning scaffolds, particularly forced goal articulation, are more critical than context injection for complex reasoning in LLMs.",
+                                    "source_url": "https://arxiv.org/abs/2602.21814",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-3978",
+                                    "title": "DISTILL AND ALIGN DECOMPOSITION FOR ENHANCED CLAIM VERIFICATION",
+                                    "description": "<br><strong>STATUS:</strong> A new reinforcement learning framework significantly enhances complex claim verification by jointly optimizing subclaim decomposition and verifier alignment.\n\n<br><strong>INTEL:</strong> The proposed GRPO method integrates structured sequential reasoning, supervised finetuning on teacher-distilled exemplars, and a multi-objective reward system, resulting in an 8B decomposer that achieves 71.75% macro-F1. This approach substantially outperforms existing prompt-based and RL methods, enabling smaller language models to achieve state-of-the-art claim verification by focusing on both decomposition quality and verification accuracy.",
+                                    "source_url": "https://arxiv.org/abs/2602.21857",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-16953",
+                                    "title": "PROACTIVEMOBILE: A COMPREHENSIVE BENCHMARK FOR BOOSTING PROACTIVE INTELLIGENCE ON MOBILE DEVICES",
+                                    "description": "<br><strong>STATUS:</strong> A new comprehensive benchmark, ProactiveMobile, has been introduced to systematically advance research and evaluation of proactive intelligence in multimodal large language models (MLLMs) for mobile agents.<br><br><strong>INTEL:</strong> This benchmark aims to overcome the critical bottleneck in developing agents that autonomously anticipate user needs rather than merely executing explicit commands, a capability largely absent in current MLLMs. ProactiveMobile formalizes proactive tasks by inferring latent user intent across four on-device contextual signals and generating executable function sequences from a pool of 63 APIs, featuring over 3,660 instances across 14 real-world scenarios. Initial experiments demonstrate a low success rate even with advanced models like fine-tuned Qwen2.5-VL-7B-Instruct (19.15%) and GPT-5 (7.39%), confirming proactivity as a critical, yet learnable, competency lacking in current MLLMs.",
+                                    "source_url": "https://arxiv.org/abs/2602.21858",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-39229",
+                                    "title": "2-STEP AGENT: A FRAMEWORK FOR THE INTERACTION OF A DECISION MAKER WITH AI DECISION SUPPORT",
+                                    "description": "<br><strong>STATUS:</strong> A new computational framework demonstrates that AI-assisted decision making, particularly when based on misaligned prior beliefs, can result in worse outcomes compared to decisions made without AI support.<br><br><strong>INTEL:</strong> The \"2-Step Agent\" framework employs Bayesian causal inference to model the influence of AI predictions on human beliefs and subsequent actions, revealing a critical vulnerability where even a single misaligned prior belief can degrade decision quality. This finding underscores significant strategic implications for AI deployment across various sectors, necessitating rigorous model documentation and proper user training to mitigate potential pitfalls and ensure AI systems genuinely enhance rather than hinder decision-making processes.",
+                                    "source_url": "https://arxiv.org/abs/2602.21889",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-16842",
+                                    "title": "SEMANTIC PARTIAL GROUNDING VIA LLMS",
+                                    "description": "<br><strong>STATUS:</strong> A new method named SPG-LLM has been developed to drastically accelerate the grounding phase in classical planning by leveraging Large Language Models to pre-identify irrelevant task elements.<br><br><strong>INTEL:</strong> The critical grounding step in classical planning frequently becomes a computational bottleneck due to exponential growth; while partial grounding approaches exist, they fail to leverage textual and structural cues within PDDL descriptions. SPG-LLM addresses this by employing LLMs to analyze PDDL domain and problem files, heuristically identifying and pruning potentially irrelevant objects, actions, and predicates prior to grounding, thus achieving orders of magnitude faster grounding and comparable or superior plan costs across challenging benchmarks.",
+                                    "source_url": "https://arxiv.org/abs/2602.22067",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-3445",
+                                    "title": "LANGUAGE MODELS EXHIBIT INCONSISTENT BIASES TOWARDS ALGORITHMIC AGENTS AND HUMAN EXPERTS",
+                                    "description": "<br><strong>STATUS:</strong> LLMs exhibit inconsistent biases towards human experts and algorithmic agents, expressing trust in humans but irrationally favoring algorithms in performance-based decision tasks.<br><br><strong>INTEL:</strong> While LLMs directly rate human experts as more trustworthy, mirroring human algorithm aversion, they disproportionately choose algorithms in incentivized betting scenarios, even when the algorithm performs worse. This discrepancy suggests LLMs encode inconsistent biases, which are sensitive to task presentation formats, posing critical risks for their deployment in high-stakes decision-making and demanding robust evaluation methods for AI safety.",
+                                    "source_url": "https://arxiv.org/abs/2602.22070",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-72023",
+                                    "title": "PETRI NET RELAXATION FOR INFEASIBILITY EXPLANATION AND SEQUENTIAL TASK PLANNING",
+                                    "description": "<br><strong>STATUS:</strong> A new planning system leverages Petri net reachability relaxation to significantly improve robust invariant synthesis, efficient goal-unreachability detection, and support for plan updates.<br><br><strong>INTEL:</strong> This research directly addresses the critical challenge of dynamic planning where situations change and original plans may become infeasible, a common scenario in complex autonomous operations. The proposed system outperforms baselines by detecting up to twice as many infeasibilities and demonstrating superior performance in sequential plan updates, indicating enhanced adaptability and resilience. This capability to efficiently identify plan unreachability and provide explanations is vital for timely strategic adjustments and requirement modifications in rapidly evolving environments.",
+                                    "source_url": "https://arxiv.org/abs/2602.22094",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-50680",
+                                    "title": "INFERENCE-TIME ALIGNMENT VIA SPARSE JUNCTION STEERING",
+                                    "description": "<br><strong>STATUS:</strong> A new method called Sparse Inference time Alignment (SIA) has been proposed to efficiently steer large language models by intervening only at critical decision points.\n\n<br><strong>INTEL:</strong> SIA significantly reduces computational overhead by up to 6x compared to existing dense intervention methods, achieving superior alignment-efficiency trade-offs by intervening on only 20-80% of tokens. This sparse approach, which targets high entropy junctions, not only better preserves the model's native distribution but can also match or surpass heavily post-trained instruct models, offering more efficient and effective fine-grained control over LLM outputs.",
+                                    "source_url": "https://arxiv.org/abs/2602.21215",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
                                     "id": "GS-8113",
                                     "title": "MULTILEVEL DETERMINANTS OF OVERWEIGHT AND OBESITY AMONG U.S. CHILDREN AGED 10-17: COMPARATIVE EVALUATION OF STATISTICAL AND MACHINE LEARNING APPROACHES USING THE 2021 NATIONAL SURVEY OF CHILDREN'S HEALTH",
                                     "description": "<br><strong>STATUS:</strong> A study compared various statistical, machine learning, and deep learning models to predict overweight and obesity among U.S. adolescents.\n\n<br><strong>INTEL:</strong> The research utilized data from 18,792 children, analyzing behavioral, household, and community factors. While model discrimination ranged from 0.66 to 0.79, increased algorithmic complexity yielded limited performance gains over simpler logistic regression, with logistic regression, gradient boosting, and MLP showing the most stable balance. Critically, performance disparities across race and poverty groups persisted across all tested algorithms, indicating that the focus should be on improving data quality and equity-focused surveillance rather than just more complex models to address this public health issue.",
@@ -987,6 +1107,14 @@ const signalTree = {
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-47360",
+                                    "title": "DRY-SEASON FLOODS DRENCH NORTHERN COLOMBIA",
+                                    "description": "<br><strong>STATUS:</strong> Unusually heavy early-February rains in 2026 caused widespread and destructive flooding along the Sin\u00fa River in Colombia's C\u00f3rdoba department, submerging over 80% of the region.\n\n<br><strong>INTEL:</strong> This catastrophic flooding, occurring during a typically dry month, was triggered by an anomalous Caribbean cold front on February 1-2, which funneled moisture-laden air into northern Colombia, leading to several days of intense downpours. The humanitarian impact is severe, with preliminary estimates indicating thousands of homes destroyed, over 11,000 families displaced, and more than 150,000 hectares of crucial farmland inundated, severely disrupting agricultural operations in this vital cattle and farming region.",
+                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/dry-season-floods-drench-northern-colombia/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-89312",
                                     "title": "NASA\u2019S AEROSPACE SAFETY ADVISORY PANEL RELEASES 2025 ANNUAL REPORT",
