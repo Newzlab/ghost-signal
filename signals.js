@@ -398,6 +398,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-1568",
+                                    "title": "ANTHROPIC \u2018CANNOT IN GOOD CONSCIENCE ACCEDE\u2019 TO PENTAGON\u2019S DEMANDS, CEO SAYS",
+                                    "description": "<br><strong>STATUS:</strong> Anthropic is refusing the Pentagon's demands for wider use of its AI technology, Claude, citing concerns over mass surveillance and autonomous weapons, leading to a standoff with a looming deadline and potential contract termination.\n\n<br><br><strong>INTEL:</strong> Anthropic's refusal is based on its policies preventing its AI models from being used for mass surveillance or fully autonomous weapons, a position the Pentagon rejects, insisting on unfettered use while threatening contract termination, designation as a supply chain risk, or invoking the Defense Production Act. This standoff, where Anthropic remains the sole major AI company to resist supplying its tech to a new U.S. military network, highlights critical debates over AI governance in national security contexts and has drawn congressional criticism regarding the Pentagon's aggressive tactics.",
+                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/02/26/anthropic-cannot-in-good-conscience-accede-to-pentagons-demands-ceo-says/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-26318",
                                     "title": "LAST-DITCH EFFORT IN GENEVA TO AVERT WAR BETWEEN US, IRAN WRAPS WITH \u2018SIGNIFICANT PROGRESS,\u2019 OMANI OFFICIAL SAYS",
                                     "description": "<br><strong>STATUS:</strong> U.S. and Iranian officials held talks in Geneva, amidst a significant American military buildup, to avert war, with mediators reporting \"significant progress\" towards future discussions despite no immediate breakthrough.<br><br><strong>INTEL:</strong> The talks occurred against the backdrop of the largest U.S. military buildup in the region since the Iraq War, yet the U.S. delegation's demand for Iran to destroy all three nuclear sites directly contradicts President Trump's prior emphatic declaration that these facilities were \"completely and totally obliterated\" months ago; this discrepancy, coupled with current intelligence suggesting Iran is weeks away from industrial-grade bomb-making material and its refusal to discuss ballistic missiles, underscores the volatile and complex nature of the standoff.",
@@ -1046,6 +1054,14 @@ const signalTree = {
                         {
                             "name": "SPACE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-86362",
+                                    "title": "SPACE FORCE KEEPS DOOR OPEN TO FUTURE HUMAN PRESENCE IN ORBIT",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Space Force and commercial executives are openly discussing the long-term possibility of deploying armed personnel to space, despite no current plans to do so.\n\n<br><strong>INTEL:</strong> This emerging discussion is fueled by the rapid maturation of the space domain, the impending availability of commercial space stations capable of supporting military operations, and strategic competition with adversaries like China, necessitating future options for asset protection and presence in low Earth orbit and the cislunar region.",
+                                    "source_url": "https://spacenews.com/space-force-keeps-door-open-to-future-human-presence-in-orbit/",
+                                    "timestamp": "2026.02.26",
+                                    "feed_name": "SPACE_NEWS"
+                                },
                                 {
                                     "id": "GS-94290",
                                     "title": "VIRGIN MEDIA O2 LAUNCHES EUROPE\u2019S FIRST STARLINK DIRECT-TO-SMARTPHONE SERVICE",
