@@ -398,6 +398,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-90880",
+                                    "title": "GERMANY, AUSTRIA COMPLETE \u2018ALPINE TRIANGLE\u2019 FOR AIRSPACE SURVEILLANCE",
+                                    "description": "<br><strong>STATUS:</strong> Germany and Austria have ratified a mutual aerial security treaty, completing a series of similar agreements among the three German-speaking Alpine nations.<br><br><strong>INTEL:</strong> This treaty allows both countries to pursue non-military airspace violations, such as illegal manned or unmanned aircraft, across their shared border without prior approval, while explicitly prohibiting the use of weapons in partner airspace. The agreement, mirroring existing pacts with Switzerland, addresses risks from unidentified aircraft in complicated border regions and reflects the military neutrality of Austria and Switzerland, both non-NATO members who have nonetheless joined the European Sky Shield initiative.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/02/27/germany-austria-complete-alpine-triangle-for-airspace-surveillance/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-74260",
                                     "title": "THE GOOD, THE BAD AND THE UGLY \u2014 INSIDE EUROPE\u2019S RACE TO SUPPLANT US DEFENSE ENABLERS",
                                     "description": "<br><strong>STATUS:</strong> Europe is projected to require until the early 2030s to acquire sufficient independent defense capabilities to deter or defeat Russia without relying on U.S. support.\n\n<br><br><strong>INTEL:</strong> This extended timeline is largely due to European deficiencies in critical high-end capabilities like command and control, satellite intelligence, and deep strike, with most current systems unable to reach significant Russian targets. While air and missile defenses are a 5-10 year endeavor, deep strike capabilities are deemed crucial for deterrence, especially given Russia's potential for near-term limited aggression, and several European nations are actively pursuing collaborative and individual projects to bridge this gap within five years.",
@@ -1610,6 +1618,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-18951",
+                                    "title": "THIRD-PARTY PATCHING AND THE BUSINESS FOOTPRINT WE ALL SHARE",
+                                    "description": "<br><strong>STATUS:</strong> Common, ubiquitous software tools like PDF readers and word processors constitute a critical yet often overlooked part of the enterprise attack surface, making them highly attractive and predictable targets for cyber adversaries.\n\n<br><strong>INTEL:</strong> While security teams focus on servers and cloud infrastructure, everyday applications essential for business operations are installed by default across virtually all endpoints due to compatibility needs. This standardization means threat actors can reliably target vulnerabilities in these widely adopted tools, leveraging the high probability of success and users' routine interactions (muscle memory) rather than requiring complex or custom exploits, thereby shifting the exploitation probability curve in their favor.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/third-party-patching-and-the-business-footprint-we-all-share/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-66398",
                                     "title": "UKRAINIAN MAN PLEADS GUILTY TO RUNNING AI-POWERED FAKE ID SITE",
