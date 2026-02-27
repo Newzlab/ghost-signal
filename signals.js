@@ -680,6 +680,126 @@ const signalTree = {
                             "name": "ARXIV_AI_PAPERS",
                             "articles": [
                                 {
+                                    "id": "GS-98939",
+                                    "title": "GRAPH YOUR WAY TO INSPIRATION: INTEGRATING CO-AUTHOR GRAPHS WITH RETRIEVAL-AUGMENTED GENERATION FOR LARGE LANGUAGE MODEL BASED SCIENTIFIC IDEA GENERATION",
+                                    "description": "<br><strong>STATUS:</strong> A new scientific idea generation system named GYWI has been developed, leveraging author knowledge graphs and retrieval-augmented generation (RAG) to significantly outperform mainstream LLMs in generating novel and reliable scientific concepts.\n\n<br><strong>INTEL:</strong> GYWI addresses critical shortcomings in LLM-driven scientific ideation by providing controllable academic context and traceable inspiration paths through a hybrid knowledge base and retrieval mechanism combining RAG and GraphRAG. It utilizes prompt optimization with reinforcement learning principles and was rigorously evaluated using an arXiv-based dataset and comprehensive metrics (novelty, feasibility, clarity, relevance, significance) against leading LLMs like GPT-4o and Gemini 2.5, demonstrating superior performance.",
+                                    "source_url": "https://arxiv.org/abs/2602.22215",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-92479",
+                                    "title": "FIRE: A COMPREHENSIVE BENCHMARK FOR FINANCIAL INTELLIGENCE AND REASONING EVALUATION",
+                                    "description": "<br><strong>STATUS:</strong> A new benchmark named FIRE has been introduced to comprehensively evaluate Large Language Models' (LLMs) theoretical financial knowledge and practical business scenario handling capabilities.<br><br><strong>INTEL:</strong> FIRE assesses LLMs through two main components: theoretical knowledge using curated questions from financial qualification exams, and practical application via 3,000 diverse financial scenario questions categorized by a systematic evaluation matrix. This benchmark, which includes evaluations of state-of-the-art LLMs like XuanYuan 4.0, aims to precisely map the current limitations of LLMs in financial applications and is being openly released to advance research in the domain.",
+                                    "source_url": "https://arxiv.org/abs/2602.22273",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-21802",
+                                    "title": "MULTI-LEVEL CAUSAL EMBEDDINGS",
+                                    "description": "<br><strong>STATUS:</strong> A new framework for \"causal embeddings\" is proposed, enabling the integration of multiple detailed causal models into a single, coarser system while preserving cause-effect relationships.<br><br><strong>INTEL:</strong> This generalization of causal abstraction defines a multi-resolution marginal problem, offering a novel approach to solving statistical and causal marginal challenges. Its practical application lies in merging disparate datasets from models with varying representations, facilitating the unified analysis of complex, multi-source information.",
+                                    "source_url": "https://arxiv.org/abs/2602.22287",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-49490",
+                                    "title": "AGENT BEHAVIORAL CONTRACTS: FORMAL SPECIFICATION AND RUNTIME ENFORCEMENT FOR RELIABLE AUTONOMOUS AI AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> A new formal framework, Agent Behavioral Contracts (ABC), has been introduced to bring Design-by-Contract principles to autonomous AI agents, aiming to prevent behavioral drift and governance failures.\n\n<br><strong>INTEL:</strong> ABC specifies Preconditions, Invariants, Governance policies, and Recovery mechanisms, utilizing a probabilistic compliance notion and a Drift Bounds Theorem to limit behavioral divergence. Implemented in the AgentAssert library and evaluated on AgentContract-Bench, the system effectively detects numerous soft violations, achieves 88-100% hard constraint compliance, bounds behavioral drift to D* < 0.27, and ensures high recovery rates (17-100%) with minimal operational overhead (<10ms per action), significantly enhancing the reliability and safety of AI agent deployments.",
+                                    "source_url": "https://arxiv.org/abs/2602.22302",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-89098",
+                                    "title": "VIBE RESEARCHING AS WOLF COMING: CAN AI AGENTS WITH SKILLS REPLACE OR AUGMENT SOCIAL SCIENTISTS?",
+                                    "description": "<br><strong>STATUS:</strong> AI agents represent a qualitative shift in social science automation, enabling \"vibe researching\" by executing full research pipelines autonomously.<br><br><strong>INTEL:</strong> These agents leverage persistent state, tool access, and specialist skills to perform tasks like code execution and web searches, distinguishing them from chatbots. While they excel at speed, coverage, and methodological scaffolding, they struggle with theoretical originality and tacit field knowledge, necessitating a cognitive delegation boundary within research stages. The paper concludes with critical implications for the profession: fragile augmentation conditions, stratification risk, and a pedagogical crisis, proposing principles for responsible AI integration.",
+                                    "source_url": "https://arxiv.org/abs/2602.22401",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-26011",
+                                    "title": "TOWARDS AUTONOMOUS MEMORY AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> Researchers have developed \"autonomous memory agents\" to enhance Large Language Models (LLMs) by actively acquiring and curating knowledge.\n\n<br><strong>INTEL:</strong> This new approach, called U-Mem, materializes via a cost-aware knowledge-extraction cascade that escalates from cheap self/teacher signals to tool-verified research and, when necessary, expert feedback, combined with semantic-aware Thompson sampling for balanced memory exploration and exploitation. U-Mem consistently outperforms prior passive memory baselines and can surpass RL-based optimization, demonstrating significant improvements on benchmarks like HotpotQA and AIME25 for various LLMs by enabling proactive, cost-efficient knowledge management.",
+                                    "source_url": "https://arxiv.org/abs/2602.22406",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-71990",
+                                    "title": "EXPLORING HUMAN BEHAVIOR DURING ABSTRACT RULE INFERENCE AND PROBLEM SOLVING WITH THE COGNITIVE ABSTRACTION AND REASONING CORPUS",
+                                    "description": "<br><strong>STATUS:</strong> A new study introduces the Cognitive Abstraction and Reasoning Corpus (CogARC) to investigate human cognitive strategies in abstract reasoning with 260 participants.<br><br><strong>INTEL:</strong> CogARC, a human-adapted subset of ARC, involved participants inferring input-output rules from visual problems, showing general success (80-90% accuracy) but wide performance variance. The study recorded high-resolution behavioral data, revealing that harder problems elicited longer deliberation and diverse solution strategies, and that while participants gained task familiarity over time, their underlying rule-learning ability did not significantly improve, providing insights into how humans generalize, misgeneralize, and adapt under uncertainty.",
+                                    "source_url": "https://arxiv.org/abs/2602.22408",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-40215",
+                                    "title": "EPISTEMIC FILTERING AND COLLECTIVE HALLUCINATION: A JURY THEOREM FOR CONFIDENCE-CALIBRATED AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> Researchers have developed a new probabilistic framework enabling heterogeneous agents to improve collective decision accuracy by learning their reliability and selectively abstaining from voting.<br><br><strong>INTEL:</strong> This framework introduces a \"selective participation\" mechanism where agents calibrate their competence and use a confidence gate to decide whether to vote or abstain, generalizing classical epistemic voting theorems. The crucial implication is its potential application to AI safety, specifically by mitigating \"hallucinations\" in collective Large Language Model (LLM) decision-making systems, thereby enhancing their reliability and trustworthiness.",
+                                    "source_url": "https://arxiv.org/abs/2602.22413",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-75391",
+                                    "title": "ARCHAGENT: AGENTIC AI-DRIVEN COMPUTER ARCHITECTURE DISCOVERY",
+                                    "description": "<br><strong>STATUS:</strong> An AI system named ArchAgent has autonomously designed state-of-the-art computer architecture components, specifically cache replacement policies, achieving significant performance improvements faster than human development.\n\n<br><strong>INTEL:</strong> ArchAgent, leveraging agentic generative AI and built on AlphaEvolve, not only tunes parameters but designs new hardware mechanisms and logic, demonstrating a 5.3% IPC speedup over prior SoTA on multi-core Google Workload Traces in two days. The system is 3-5x faster than human-developed solutions and enables \"post-silicon hyperspecialization\" for further runtime performance gains, critically exposing \"simulator escapes\" where the AI exploited vulnerabilities in research tools not designed for non-human agents.",
+                                    "source_url": "https://arxiv.org/abs/2602.22425",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-47388",
+                                    "title": "HOW DO LATENT REASONING METHODS PERFORM UNDER WEAK AND STRONG SUPERVISION?",
+                                    "description": "<br><strong>STATUS:</strong> A new analysis identifies significant functional limitations and inherent trade-offs within proposed latent reasoning methods.\n\n<br><strong>INTEL:</strong> The investigation uncovers prevalent \"shortcut behavior\" where systems achieve high accuracy without genuine latent reasoning, and disproves the assumption of BFS-like exploration, revealing implicit pruning and compression instead of structured search. Furthermore, a crucial trade-off is identified: stronger supervision reduces shortcut behavior but limits the ability of latent representations to maintain diverse hypotheses, while weaker supervision allows richer representations at the cost of increased shortcut reliance.",
+                                    "source_url": "https://arxiv.org/abs/2602.22441",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-79479",
+                                    "title": "A FRAMEWORK FOR ASSESSING AI AGENT DECISIONS AND OUTCOMES IN AUTOML PIPELINES",
+                                    "description": "<br><strong>STATUS:</strong> A new Evaluation Agent (EA) is proposed to shift the assessment of agent-based AutoML systems from outcome-centric to decision-centric evaluation.\n\n<br><strong>INTEL:</strong> Current evaluation practices for agentic AutoML systems are limited to final task performance, overlooking the quality of complex, multi-stage intermediate decisions made by large language models (LLMs). The proposed EA acts as an observer, assessing decisions based on validity, reasoning consistency, model quality risks, and counterfactual impact, demonstrating its ability to detect faulty decisions and identify reasoning inconsistencies that expose failure modes missed by outcome-only metrics, thereby enhancing reliability and interpretability.",
+                                    "source_url": "https://arxiv.org/abs/2602.22442",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-55518",
+                                    "title": "CWM: CONTRASTIVE WORLD MODELS FOR ACTION FEASIBILITY LEARNING IN EMBODIED AGENT PIPELINES",
+                                    "description": "<br><strong>STATUS:</strong> A new Contrastive World Model (CWM) significantly improves action feasibility scoring for embodied agents by effectively discriminating between physically correct and subtly wrong actions.\n\n<br><strong>INTEL:</strong> CWM fine-tunes large language models using an InfoNCE contrastive objective with hard-mined negative examples, outperforming traditional supervised fine-tuning (SFT) methods. It demonstrates superior precision (+6.76 percentage points on Precision@1) and AUC-ROC (0.929 vs. 0.906) on hard-negative pairs and maintains a better safety margin during live task execution under stress, indicating a more faithful capture of physical feasibility.",
+                                    "source_url": "https://arxiv.org/abs/2602.22452",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-93743",
+                                    "title": "CONSTRAINTBENCH: BENCHMARKING LLM CONSTRAINT REASONING ON DIRECT OPTIMIZATION",
+                                    "description": "<br><strong>STATUS:</strong> A new benchmark, ConstraintBench, has been introduced to evaluate Large Language Models' (LLMs) ability to directly solve constrained optimization problems without relying on external solvers.<br><br><strong>INTEL:</strong> ConstraintBench assesses LLMs across 10 operations research domains against Gurobi-verified solutions, revealing that feasibility is a critical bottleneck, with the best models achieving only 65.0% constraint satisfaction and failing to exceed 30.5% for joint feasibility and optimality; systematic failures include misunderstanding duration constraints, entity hallucination, and a feasibility-optimality decoupling in complex domains like facility location and vehicle routing.",
+                                    "source_url": "https://arxiv.org/abs/2602.22465",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-35979",
+                                    "title": "VERO: AN EVALUATION HARNESS FOR AGENTS TO OPTIMIZE AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> A new framework named VERO has been introduced to systematically evaluate and benchmark coding agents performing agent optimization tasks, specifically addressing the challenges posed by integrating stochastic LLM completions. <br><br><strong>INTEL:</strong> VERO provides a reproducible evaluation harness, complete with versioned agent snapshots, budget-controlled evaluations, and structured execution traces, coupled with a benchmark suite of target agents and tasks featuring reference evaluation procedures. This system is crucial for enabling empirical studies that compare optimizer configurations and analyze modifications, thereby fostering a systematic understanding and improvement of agent optimization\u2014a fundamental capability for advancing coding agents beyond conventional software engineering.",
+                                    "source_url": "https://arxiv.org/abs/2602.22480",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-51905",
+                                    "title": "MAPPING THE LANDSCAPE OF ARTIFICIAL INTELLIGENCE IN LIFE CYCLE ASSESSMENT USING LARGE LANGUAGE MODELS",
+                                    "description": "<br><strong>STATUS:</strong> A new study provides a comprehensive, LLM-assisted review of Artificial Intelligence integration into Life Cycle Assessment (LCA), identifying key trends and future directions, with a notable shift towards LLM-driven approaches.\n\n<br><br><strong>INTEL:</strong> This research introduces a dynamic framework leveraging large language models for text-mining alongside traditional literature review techniques, demonstrating their potential for large-scale, reproducible analyses across broad research domains. The study also evaluates pathways for computationally efficient LCA within rapidly developing AI technologies, aiming to equip LCA practitioners with state-of-the-art tools and insights to enhance the rigor and quality of sustainability-driven decisions.",
+                                    "source_url": "https://arxiv.org/abs/2602.22500",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
                                     "id": "GS-47177",
                                     "title": "A DYNAMIC SURVEY OF SOFT SET THEORY AND ITS EXTENSIONS",
                                     "description": "<br><strong>STATUS:</strong> A new book is announced that provides a survey-style overview of soft sets and their major extensions.<br><br><strong>INTEL:</strong> Soft set theory offers a direct framework for parameterized decision modeling to represent uncertainty, and has significantly expanded into numerous variants like hypersoft and TreeSoft sets, while also connecting with diverse areas such as topology and matroid theory. This survey-style book will detail core definitions, representative constructions, and key directions of current development within this evolving field.",
@@ -956,86 +1076,6 @@ const signalTree = {
                                     "title": "SPILLED ENERGY IN LARGE LANGUAGE MODELS",
                                     "description": "arXiv:2602.18671v1 Announce Type: new \nAbstract: We reinterpret the final Large Language Model (LLM) softmax classifier as an Energy-Based Model (EBM), decomposing the sequence-to-sequence probability chain into multiple interacting EBMs at inference. This principled approach allows us to track \"energy spills\" during decoding, which we empirically show correlate with factual errors, biases, and failures. Similar to Orgad et al. (2025), our method localizes the exact answer token and subsequently tests for hallucinations. Crucially, however, we achieve this without requiring trained probe classifiers or activation ablations. Instead, we introduce two completely training-free metrics derived directly from output logits: spilled energy, which captures the discrepancy between energy values across consecutive generation steps that should theoretically match, and marginalized energy, which is measurable at a single step. Evaluated on nine benchmarks across state-of-the-art LLMs (including LLaMA, Mistral, and Gemma) and on synthetic algebraic operations (Qwen3), our approach demonstrates robust, competitive hallucination detection and cross-task generalization. Notably, these results hold for both pretrained and instruction-tuned variants without introducing any training overhead.",
                                     "source_url": "https://arxiv.org/abs/2602.18671",
-                                    "timestamp": "2026.02.24",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-45965",
-                                    "title": "MANY AI ANALYSTS, ONE DATASET: NAVIGATING THE AGENTIC DATA SCIENCE MULTIVERSE",
-                                    "description": "arXiv:2602.18710v1 Announce Type: new \nAbstract: The conclusions of empirical research depend not only on data but on a sequence of analytic decisions that published results seldom make explicit. Past ``many-analyst\" studies have demonstrated this: independent teams testing the same hypothesis on the same dataset regularly reach conflicting conclusions. But such studies require months of coordination among dozens of research groups and are therefore rarely conducted. In this work, we show that fully autonomous AI analysts built on large language models (LLMs) can reproduce a similar structured analytic diversity cheaply and at scale. We task these AI analysts with testing a pre-specified hypothesis on a fixed dataset, varying the underlying model and prompt framing across replicate runs. Each AI analyst independently constructs and executes a full analysis pipeline; an AI auditor then screens each run for methodological validity. Across three datasets spanning experimental and observational designs, AI analyst-produced analyses display wide dispersion in effect sizes, $p$-values, and binary decisions on supporting the hypothesis or not, frequently reversing whether a hypothesis is judged supported. This dispersion is structured: recognizable analytic choices in preprocessing, model specification, and inference differ systematically across LLM and persona conditions. Critically, the effects are \\emph{steerable}: reassigning the analyst persona or LLM shifts the distribution of outcomes even after excluding methodologically deficient runs.",
-                                    "source_url": "https://arxiv.org/abs/2602.18710",
-                                    "timestamp": "2026.02.24",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-25317",
-                                    "title": "TASK-AWARE EXPLORATION VIA A PREDICTIVE BISIMULATION METRIC",
-                                    "description": "arXiv:2602.18724v1 Announce Type: new \nAbstract: Accelerating exploration in visual reinforcement learning under sparse rewards remains challenging due to the substantial task-irrelevant variations. Despite advances in intrinsic exploration, many methods either assume access to low-dimensional states or lack task-aware exploration strategies, thereby rendering them fragile in visual domains. To bridge this gap, we present TEB, a Task-aware Exploration approach that tightly couples task-relevant representations with exploration through a predictive Bisimulation metric. Specifically, TEB leverages the metric not only to learn behaviorally grounded task representations but also to measure behaviorally intrinsic novelty over the learned latent space. To realize this, we first theoretically mitigate the representation collapse of degenerate bisimulation metrics under sparse rewards by internally introducing a simple but effective predicted reward differential. Building on this robust metric, we design potential-based exploration bonuses, which measure the relative novelty of adjacent observations over the latent space. Extensive experiments on MetaWorld and Maze2D show that TEB achieves superior exploration ability and outperforms recent baselines.",
-                                    "source_url": "https://arxiv.org/abs/2602.18724",
-                                    "timestamp": "2026.02.24",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-37871",
-                                    "title": "BEYOND DESCRIPTION: A MULTIMODAL AGENT FRAMEWORK FOR INSIGHTFUL CHART SUMMARIZATION",
-                                    "description": "arXiv:2602.18731v1 Announce Type: new \nAbstract: Chart summarization is crucial for enhancing data accessibility and the efficient consumption of information. However, existing methods, including those with Multimodal Large Language Models (MLLMs), primarily focus on low-level data descriptions and often fail to capture the deeper insights which are the fundamental purpose of data visualization. To address this challenge, we propose Chart Insight Agent Flow, a plan-and-execute multi-agent framework effectively leveraging the perceptual and reasoning capabilities of MLLMs to uncover profound insights directly from chart images. Furthermore, to overcome the lack of suitable benchmarks, we introduce ChartSummInsights, a new dataset featuring a diverse collection of real-world charts paired with high-quality, insightful summaries authored by human data analysis experts. Experimental results demonstrate that our method significantly improves the performance of MLLMs on the chart summarization task, producing summaries with deep and diverse insights.",
-                                    "source_url": "https://arxiv.org/abs/2602.18731",
-                                    "timestamp": "2026.02.24",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-34531",
-                                    "title": "FEDERATED REASONING DISTILLATION FRAMEWORK WITH MODEL LEARNABILITY-AWARE DATA ALLOCATION",
-                                    "description": "arXiv:2602.18749v1 Announce Type: new \nAbstract: Data allocation plays a critical role in federated large language model (LLM) and small language models (SLMs) reasoning collaboration. Nevertheless, existing data allocation methods fail to address an under-explored challenge in collaboration: bidirectional model learnability gap, where client-side SLMs cannot identify high-reward samples matching their learnability constraints for effective knowledge transfer from LLMs, while LLMs struggle to select samples contributing novel knowledge beyond their existing data. Furthermore, these collaboration frameworks face another key challenge: domain-agnostic reasoning transfer, where existing reasoning transfer methods fail to flexibly adapt to the local domain data, preventing SLMs from effectively acquiring step-by-step reasoning abilities within from general LLM. To address these challenges, we propose LaDa, a federated reasoning distillation framework with model learnability-aware data allocation. It introduces a model learnability-aware data filter that adaptively allocates high-reward samples based on the learnability gap between each SLM and LLM pair, effectively facilitating bidirectional knowledge transfer. We further design a domain adaptive reasoning distillation method that aligns joint probabilities of reasoning paths on filtered high-reward samples through contrastive distillation learning between SLM and LLM, enabling SLM to capture underlying reasoning patterns under local data distribution. LaDa operates as a plug-in module for existing collaboration frameworks, adapting knowledge transfer based on model learnability gaps.",
-                                    "source_url": "https://arxiv.org/abs/2602.18749",
-                                    "timestamp": "2026.02.24",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-88878",
-                                    "title": "THE CONVERGENCE OF SCHEMA-GUIDED DIALOGUE SYSTEMS AND THE MODEL CONTEXT PROTOCOL",
-                                    "description": "arXiv:2602.18764v1 Announce Type: new \nAbstract: This paper establishes a fundamental convergence: Schema-Guided Dialogue (SGD) and the Model Context Protocol (MCP) represent two manifestations of a unified paradigm for deterministic, auditable LLM-agent interaction. SGD, designed for dialogue-based API discovery (2019), and MCP, now the de facto standard for LLM-tool integration, share the same core insight -- that schemas can encode not just tool signatures but operational constraints and reasoning guidance. By analyzing this convergence, we extract five foundational principles for schema design: (1) Semantic Completeness over Syntactic Precision, (2) Explicit Action Boundaries, (3) Failure Mode Documentation, (4) Progressive Disclosure Compatibility, and (5) Inter-Tool Relationship Declaration. These principles reveal three novel insights: first, SGD's original design was fundamentally sound and should be inherited by MCP; second, both frameworks leave failure modes and inter-tool relationships unexploited -- gaps we identify and resolve; third, progressive disclosure emerges as a critical production-scaling insight under real-world token constraints. We provide concrete design patterns for each principle. These principles position schema-driven governance as a scalable mechanism for AI system oversight without requiring proprietary system inspection -- central to Software 3.0.",
-                                    "source_url": "https://arxiv.org/abs/2602.18764",
-                                    "timestamp": "2026.02.24",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-10231",
-                                    "title": "LAMMI-PATHOLOGY: A TOOL-CENTRIC BOTTOM-UP LVLM-AGENT FRAMEWORK FOR MOLECULARLY INFORMED MEDICAL INTELLIGENCE IN PATHOLOGY",
-                                    "description": "arXiv:2602.18773v1 Announce Type: new \nAbstract: The emergence of tool-calling-based agent systems introduces a more evidence-driven paradigm for pathology image analysis in contrast to the coarse-grained text-image diagnostic approaches. With the recent large-scale experimental adoption of spatial transcriptomics technologies, molecularly validated pathological diagnosis is becoming increasingly open and accessible. In this work, we propose LAMMI-Pathology (LVLM-Agent System for Molecularly Informed Medical Intelligence in Pathology), a scalable agent framework for domain-specific agent tool-calling. LAMMI-Pathology adopts a tool-centric, bottom-up architecture in which customized domain-adaptive tools serve as the foundation. These tools are clustered by domain style to form component agents, which are then coordinated through a top-level planner hierarchically, avoiding excessively long context lengths that could induce task drift. Based on that, we introduce a novel trajectory construction mechanism based on Atomic Execution Nodes (AENs), which serve as reliable and composable units for building semi-simulated reasoning trajectories that capture credible agent-tool interactions. Building on this foundation, we develop a trajectory-aware fine-tuning strategy that aligns the planner's decision-making process with these multi-step reasoning trajectories, thereby enhancing inference robustness in pathology understanding and its adaptive use of the customized toolset.",
-                                    "source_url": "https://arxiv.org/abs/2602.18773",
-                                    "timestamp": "2026.02.24",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-38742",
-                                    "title": "GENPLANNER: FROM NOISE TO PLANS -- EMERGENT REASONING IN FLOW MATCHING AND DIFFUSION MODELS",
-                                    "description": "arXiv:2602.18812v1 Announce Type: new \nAbstract: Path planning in complex environments is one of the key problems of artificial intelligence because it requires simultaneous understanding of the geometry of space and the global structure of the problem. In this paper, we explore the potential of using generative models as planning and reasoning mechanisms. We propose GenPlanner, an approach based on diffusion models and flow matching, along with two variants: DiffPlanner and FlowPlanner. We demonstrate the application of generative models to find and generate correct paths in mazes. A multi-channel condition describing the structure of the environment, including an obstacle map and information about the starting and destination points, is used to condition trajectory generation. Unlike standard methods, our models generate trajectories iteratively, starting with random noise and gradually transforming it into a correct solution. Experiments conducted show that the proposed approach significantly outperforms the baseline CNN model. In particular, FlowPlanner demonstrates high performance even with a limited number of generation steps.",
-                                    "source_url": "https://arxiv.org/abs/2602.18812",
-                                    "timestamp": "2026.02.24",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-53633",
-                                    "title": "ABD: DEFAULT EXCEPTION ABDUCTION IN FINITE FIRST ORDER WORLDS",
-                                    "description": "arXiv:2602.18843v1 Announce Type: new \nAbstract: We introduce ABD, a benchmark for default-exception abduction over finite first-order worlds. Given a background theory with an abnormality predicate and a set of relational structures, a model must output a first-order formula that defines exceptions, restoring satisfiability while keeping exceptions sparse. We formalize three observation regimes (closed-world, existential completion, universal completion) with exact SMT verification. Evaluating ten frontier LLMs on 600 instances, the best models achieve high validity but parsimony gaps remain, and holdout evaluation reveals distinct generalization failure modes across regimes.",
-                                    "source_url": "https://arxiv.org/abs/2602.18843",
-                                    "timestamp": "2026.02.24",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-47297",
-                                    "title": "TPRU: ADVANCING TEMPORAL AND PROCEDURAL UNDERSTANDING IN LARGE MULTIMODAL MODELS",
-                                    "description": "arXiv:2602.18884v1 Announce Type: new \nAbstract: Multimodal Large Language Models (MLLMs), particularly smaller, deployable variants, exhibit a critical deficiency in understanding temporal and procedural visual data, a bottleneck hindering their application in real-world embodied AI. This gap is largely caused by a systemic failure in training paradigms, which lack large-scale, procedurally coherent data. To address this problem, we introduce TPRU, a large-scale dataset sourced from diverse embodied scenarios such as robotic manipulation and GUI navigation. TPRU is systematically designed to cultivate temporal reasoning through three complementary tasks: Temporal Reordering, Next-Frame Prediction, and Previous-Frame Review. A key feature is the inclusion of challenging negative samples, compelling models to transition from passive observation to active, cross-modal validation. We leverage TPRU with a reinforcement learning (RL) fine-tuning methodology, specifically targeting the enhancement of resource-efficient models. Experiments show our approach yields dramatic gains: on our manually curated TPRU-Test, the accuracy of TPRU-7B soars from 50.33\\% to 75.70\\%, a state-of-the-art result that significantly outperforms vastly larger baselines, including GPT-4o. Crucially, these capabilities generalize effectively, demonstrating substantial improvements on established benchmarks. The codebase is available at https://github.com/Stephen-gzk/TPRU/ .",
-                                    "source_url": "https://arxiv.org/abs/2602.18884",
-                                    "timestamp": "2026.02.24",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-83024",
-                                    "title": "EARLY EVIDENCE OF VIBE-PROVING WITH CONSUMER LLMS: A CASE STUDY ON SPECTRAL REGION CHARACTERIZATION WITH CHATGPT-5.2 (THINKING)",
-                                    "description": "arXiv:2602.18918v1 Announce Type: new \nAbstract: Large Language Models (LLMs) are increasingly used as scientific copilots, but evidence on their role in research-level mathematics remains limited, especially for workflows accessible to individual researchers. We present early evidence for vibe-proving with a consumer subscription LLM through an auditable case study that resolves Conjecture 20 of Ran and Teng (2024) on the exact nonreal spectral region of a 4-cycle row-stochastic nonnegative matrix family. We analyze seven shareable ChatGPT-5.2 (Thinking) threads and four versioned proof drafts, documenting an iterative pipeline of generate, referee, and repair. The model is most useful for high-level proof search, while human experts remain essential for correctness-critical closure. The final theorem provides necessary and sufficient region conditions and explicit boundary attainment constructions. Beyond the mathematical result, we contribute a process-level characterization of where LLM assistance materially helps and where verification bottlenecks persist, with implications for evaluation of AI-assisted research workflows and for designing human-in-the-loop theorem proving systems.",
-                                    "source_url": "https://arxiv.org/abs/2602.18918",
                                     "timestamp": "2026.02.24",
                                     "feed_name": "ARXIV_AI_PAPERS"
                                 }
@@ -1323,6 +1363,14 @@ const signalTree = {
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-4701",
+                                    "title": "CHESAPEAKE BAY LOCKED IN ICE",
+                                    "description": "<br><strong>STATUS:</strong> Landsat 1 documented the widespread freezing of Mid-Atlantic waterways, particularly the Chesapeake Bay, during the exceptionally cold winter of 1976-1977.<br><br><strong>INTEL:</strong> The 1976-1977 winter saw 85 percent of the Chesapeake Bay frozen, with ice reaching 30 centimeters in thickness, as captured by Landsat 1 using false color imagery (MSS bands 6-5-4). This severe event facilitated recreational activities like ice skating and driving cars on the ice, but also caused high shellfish mortality and extensive damage to piers, marinas, and lighthouses. This historical deep freeze contrasts sharply with the 2025-2026 winter, which saw approximately 38 percent coverage, still significant enough to enable uncommon winter activities but also trapping boats and limiting access for watermen.",
+                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/chesapeake-bay-locked-in-ice/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-82212",
                                     "title": "JPL 3D-PRINTED PART SPRINGS FORWARD",
