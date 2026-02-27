@@ -1436,6 +1436,14 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-87033",
+                                    "title": "HARNESSING THE SUN TO EXTRACT OXYGEN ON THE MOON",
+                                    "description": "<br><strong>STATUS:</strong> A solar concentrator for NASA's Carbothermal Reduction Demonstration (CaRD) project successfully produced carbon monoxide from simulated lunar regolith during a recent test. <br><br><strong>INTEL:</strong> This technology aims to enable the production of oxygen and propellant on the Moon using only local materials and sunlight, which would significantly reduce the cost and complexity of sustaining a long-term human lunar presence. The system also has the potential to be adapted for converting carbon dioxide into oxygen and methane on Mars, showcasing its broad strategic implications for future space missions, and is supported by NASA\u2019s Game Changing Development Program.",
+                                    "source_url": "https://www.nasa.gov/image-article/harnessing-the-sun-to-extract-oxygen-on-the-moon/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-35267",
                                     "title": "NASA\u2019S HOME FOR EXPERIMENTAL FLIGHT ADVANCES AERONAUTICS MISSION",
                                     "description": "<br><strong>STATUS:</strong> NASA's Armstrong Flight Research Center at Edwards Air Force Base is a pivotal site for historical and ongoing cutting-edge flight research, from breaking the sound barrier to pioneering future aviation technologies.\n\n<br><strong>INTEL:</strong> The Center's unique location in the Mojave Desert, featuring the extensive Rogers Dry Lake, the largest secure flight test range, and dedicated restricted airspace (like the Bell X-1 Supersonic Corridor), provides an unparalleled environment for safe, complex, and high-risk experimental flight testing. This strategic positioning, combined with its rich X-plane legacy, enables rapid prototyping and advancement of critical aeronautics programs, including hypersonic research, advanced air mobility, electrified propulsion, and autonomous flight systems, which would be difficult or impossible elsewhere.",
@@ -1674,6 +1682,22 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-2295",
+                                    "title": "MICROSOFT TESTING WINDOWS 11 BATCH FILE SECURITY IMPROVEMENTS",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft is rolling out Windows 11 Insider Preview builds that enhance batch file security and improve the Shared audio feature.<br><br><strong>INTEL:</strong> The new builds introduce a secure processing mode for batch files, preventing modification during execution, which improves performance and security in enterprise environments by reducing the frequency of signature validation. This mode can be enabled by IT administrators via a registry value or application manifest control. Furthermore, the Shared audio feature has been upgraded with individual volume sliders for each listener, a taskbar indicator for active sessions, and expanded compatibility for Bluetooth LE Audio accessories, improving its functionality and user experience.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-windows-11-batch-file-security-improvements/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-37609",
+                                    "title": "APT37 HACKERS USE NEW MALWARE TO BREACH AIR-GAPPED NETWORKS",
+                                    "description": "<br><strong>STATUS:</strong> North Korean state-backed hackers (APT37) are deploying a new toolkit named \"Ruby Jumper\" to exfiltrate data from and conduct surveillance on air-gapped systems by weaponizing removable storage drives.<br><br><strong>INTEL:</strong> The APT37 group, also known as ScarCruft, uses a multi-stage infection chain starting with a malicious LNK file, deploying a PowerShell script to load RESTLEAF for C2 communication via Zoho WorkDrive, followed by the Ruby-based SNAKEDROPPER loader. Crucially, the campaign leverages THUMBSBD and VIRUSTASK malware to transform USB drives into bidirectional covert command-and-control relays, enabling data extraction from and command delivery to physically isolated networks. FOOTWINE, a comprehensive Windows spyware, and the known BLUELIGHT backdoor are also part of this campaign, which exhibits high confidence attribution to APT37 based on consistent TTPs and C2 infrastructure.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/apt37-hackers-use-new-malware-to-breach-air-gapped-networks/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-20758",
                                     "title": "EUROPOL-LED CRACKDOWN ON THE COM HACKERS LEADS TO 30 ARRESTS",
