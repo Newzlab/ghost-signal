@@ -414,6 +414,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-46916",
+                                    "title": "PAKISTAN IN \u2018OPEN WAR\u2019 WITH AFGHANISTAN, DEFENSE MINISTER SAYS",
+                                    "description": "<br><strong>STATUS:</strong> Pakistan and Afghanistan have escalated tensions into what Pakistan's defense minister calls an \"open war\" following a rapid exchange of cross-border airstrikes and ground attacks.\n\n<br><strong>INTEL:</strong> This immediate escalation stems from a cycle of retaliation, where Afghanistan responded to earlier Pakistani airstrikes, and Pakistan subsequently targeted Afghan military installations, fueled by Islamabad's long-standing accusations that Kabul harbors militant groups like the TTP and is increasingly aligning with rival India, further destabilizing the region despite prior failed peace negotiations.",
+                                    "source_url": "https://www.defensenews.com/global/mideast-africa/2026/02/27/pakistan-in-open-war-with-afghanistan-defense-minister-says/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-26514",
                                     "title": "SWEDISH NAVY INTERCEPTS SUSPECTED RUSSIAN DRONE NEARING FRENCH AIRCRAFT CARRIER",
                                     "description": "<br><strong>STATUS:</strong> The Swedish Navy intercepted a suspected Russian drone operating near France's nuclear-powered aircraft carrier, Charles de Gaulle, anchored in the port of Malm\u00f6.\n\n<br><strong>INTEL:</strong> This probable violation of Swedish airspace occurred while a Russian military ship, potentially the U.S.-sanctioned Sparta IV cargo vessel, was in the vicinity, and the French carrier was present for ongoing NATO exercises, including Orion 2026; Swedish countermeasures successfully disrupted the drone without affecting the flagship's activities.",
@@ -1428,6 +1436,22 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-35267",
+                                    "title": "NASA\u2019S HOME FOR EXPERIMENTAL FLIGHT ADVANCES AERONAUTICS MISSION",
+                                    "description": "<br><strong>STATUS:</strong> NASA's Armstrong Flight Research Center at Edwards Air Force Base is a pivotal site for historical and ongoing cutting-edge flight research, from breaking the sound barrier to pioneering future aviation technologies.\n\n<br><strong>INTEL:</strong> The Center's unique location in the Mojave Desert, featuring the extensive Rogers Dry Lake, the largest secure flight test range, and dedicated restricted airspace (like the Bell X-1 Supersonic Corridor), provides an unparalleled environment for safe, complex, and high-risk experimental flight testing. This strategic positioning, combined with its rich X-plane legacy, enables rapid prototyping and advancement of critical aeronautics programs, including hypersonic research, advanced air mobility, electrified propulsion, and autonomous flight systems, which would be difficult or impossible elsewhere.",
+                                    "source_url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasas-home-for-experimental-flight-advances-aeronautics-mission/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-52983",
+                                    "title": "NASA ADDS\u00a0MISSION TO ARTEMIS LUNAR PROGRAM, UPDATES ARCHITECTURE",
+                                    "description": "<br><strong>STATUS:</strong> NASA is accelerating its Artemis program, adding a new test flight (Artemis III) in 2027 to precede the first crewed lunar landing (Artemis IV) in 2028, with annual surface landings planned thereafter.<br><br><strong>INTEL:</strong> This strategic shift is driven by geopolitical competition and a renewed focus on Apollo-era reliability and a step-by-step capability build-up. The updated Artemis III mission will conduct critical in-orbit tests, including docking with commercial landers from SpaceX and Blue Origin, and evaluating life support, communications, propulsion, and new xEVA suits, all while NASA emphasizes standardizing the SLS Block 1 configuration and rebuilding civil servant core competencies, which may require partners to align their development efforts.",
+                                    "source_url": "https://www.nasa.gov/news-release/nasa-adds-mission-to-artemis-lunar-program-updates-architecture/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-4701",
                                     "title": "CHESAPEAKE BAY LOCKED IN ICE",
                                     "description": "<br><strong>STATUS:</strong> Landsat 1 documented the widespread freezing of Mid-Atlantic waterways, particularly the Chesapeake Bay, during the exceptionally cold winter of 1976-1977.<br><br><strong>INTEL:</strong> The 1976-1977 winter saw 85 percent of the Chesapeake Bay frozen, with ice reaching 30 centimeters in thickness, as captured by Landsat 1 using false color imagery (MSS bands 6-5-4). This severe event facilitated recreational activities like ice skating and driving cars on the ice, but also caused high shellfish mortality and extensive damage to piers, marinas, and lighthouses. This historical deep freeze contrasts sharply with the 2025-2026 winter, which saw approximately 38 percent coverage, still significant enough to enable uncommon winter activities but also trapping boats and limiting access for watermen.",
@@ -1650,6 +1674,22 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-20758",
+                                    "title": "EUROPOL-LED CRACKDOWN ON THE COM HACKERS LEADS TO 30 ARRESTS",
+                                    "description": "<br><strong>STATUS:</strong> Europol's yearlong \"Project Compass\" operation has resulted in 30 arrests and identified 179 suspects tied to \"The Com,\" a cybercrime collective targeting children and teenagers.\n\n<br><strong>INTEL:</strong> \"The Com,\" described as a decentralized nihilistic extremist network, operates openly across various digital platforms to target, victimize, and recruit young people for extortion, violence, and child sexual exploitation material, with a subgroup \"764\" specifically grooming youth for blackmail. This collective's operational methods, including its prior links to high-profile ransomware attacks, highlight the sophisticated and multifaceted threat posed by online groups that exploit digital vulnerabilities for both cybercrime and extremist purposes, necessitating extensive international law enforcement collaboration to disrupt their activities.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/police-crackdown-on-the-com-cybercrime-gang-leads-to-30-arrests/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-14963",
+                                    "title": "CISA WARNS THAT RESURGE MALWARE CAN BE DORMANT ON IVANTI DEVICES",
+                                    "description": "<br><strong>STATUS:</strong> CISA has released updated details on the RESURGE implant, which exploits CVE-2025-0282 to covertly breach Ivanti Connect Secure devices using sophisticated evasion and authentication techniques.<br><br><strong>INTEL:</strong> The RESURGE implant is a passive command-and-control mechanism that evades detection by waiting indefinitely for a specific, fingerprinted inbound TLS connection, authenticated via a fake Ivanti certificate sent unencrypted. This sophisticated malware, which includes log tampering and boot-level persistence capabilities, remains dormant until activated, posing a significant, persistent threat to Ivanti Connect Secure devices, making its unencrypted certificate a crucial detection indicator for defenders.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/cisa-warns-that-resurge-malware-can-be-dormant-on-ivanti-devices/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-18951",
                                     "title": "THIRD-PARTY PATCHING AND THE BUSINESS FOOTPRINT WE ALL SHARE",
