@@ -398,6 +398,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-74260",
+                                    "title": "THE GOOD, THE BAD AND THE UGLY \u2014 INSIDE EUROPE\u2019S RACE TO SUPPLANT US DEFENSE ENABLERS",
+                                    "description": "<br><strong>STATUS:</strong> Europe is projected to require until the early 2030s to acquire sufficient independent defense capabilities to deter or defeat Russia without relying on U.S. support.\n\n<br><br><strong>INTEL:</strong> This extended timeline is largely due to European deficiencies in critical high-end capabilities like command and control, satellite intelligence, and deep strike, with most current systems unable to reach significant Russian targets. While air and missile defenses are a 5-10 year endeavor, deep strike capabilities are deemed crucial for deterrence, especially given Russia's potential for near-term limited aggression, and several European nations are actively pursuing collaborative and individual projects to bridge this gap within five years.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/02/27/the-good-the-bad-and-the-ugly-inside-europes-race-to-supplant-us-defense-enablers/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-1568",
                                     "title": "ANTHROPIC \u2018CANNOT IN GOOD CONSCIENCE ACCEDE\u2019 TO PENTAGON\u2019S DEMANDS, CEO SAYS",
                                     "description": "<br><strong>STATUS:</strong> Anthropic is refusing the Pentagon's demands for wider use of its AI technology, Claude, citing concerns over mass surveillance and autonomous weapons, leading to a standoff with a looming deadline and potential contract termination.\n\n<br><br><strong>INTEL:</strong> Anthropic's refusal is based on its policies preventing its AI models from being used for mass surveillance or fully autonomous weapons, a position the Pentagon rejects, insisting on unfettered use while threatening contract termination, designation as a supply chain risk, or invoking the Defense Production Act. This standoff, where Anthropic remains the sole major AI company to resist supplying its tech to a new U.S. military network, highlights critical debates over AI governance in national security contexts and has drawn congressional criticism regarding the Pentagon's aggressive tactics.",
@@ -1095,6 +1103,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-59463",
+                                    "title": "ROCKET LAB DELAYS NEUTRON DEBUT TO LATE 2026",
+                                    "description": "<br><strong>STATUS:</strong> Rocket Lab's Neutron rocket first launch is delayed until at least the fourth quarter of 2026 following a manufacturing defect discovered during a propellant tank test in January.\n\n<br><strong>INTEL:</strong> The delay stems from a first-stage propellant tank rupture during a hydrostatic pressure test on January 21, traced to a manufacturing defect in a critical joint caused by a contractor's hand-laying process. Rocket Lab plans to implement automated fiber placement for future tanks, introduce minor design changes to increase margins, and conduct extensive re-qualification, which, while delaying Neutron's debut, allows for more thorough testing of other subsystems, potentially leading to a lower-risk maiden flight. Meanwhile, Rocket Lab's existing Electron vehicle is experiencing strong demand, cementing its market leadership in small satellite launches.",
+                                    "source_url": "https://spacenews.com/rocket-lab-delays-neutron-debut-to-late-2026/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-59977",
+                                    "title": "CHINA SET FOR ITS FIRST ONE-YEAR HUMAN SPACEFLIGHT MISSION, CONFIRMS PAKISTANI ASTRONAUT FLIGHT",
+                                    "description": "<br><strong>STATUS:</strong> China will initiate its first one-year astronaut mission and host its first international astronaut aboard the Tiangong space station this year, with the Shenzhou-23 launch accelerated due to a prior spacecraft incident.<br><br><strong>INTEL:</strong> The expedited Shenzhou-23 mission, launching April/May due to a cracked Shenzhou-20 viewport window, will send an astronaut for a year-long residency, yielding vital data for future deep space missions and affirming confidence in Tiangong's long-duration support systems. Concurrently, a Pakistani astronaut is slated for a short-duration mission (likely Shenzhou-24 in late 2026), marking a significant step in international cooperation, while Hong Kong and Macau payload specialists could also fly by 2026. China also reiterates its ambition for a crewed lunar landing by 2030, reporting steady progress on Mengzhou spacecraft, Long March 10 rocket development, and ground infrastructure at Wenchang Space Launch Site.",
+                                    "source_url": "https://spacenews.com/china-set-for-its-first-one-year-human-spaceflight-mission-confirms-pakistani-astronaut-flight/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-86362",
                                     "title": "SPACE FORCE KEEPS DOOR OPEN TO FUTURE HUMAN PRESENCE IN ORBIT",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Space Force and commercial executives are openly discussing the long-term possibility of deploying armed personnel to space, despite no current plans to do so.\n\n<br><strong>INTEL:</strong> This emerging discussion is fueled by the rapid maturation of the space domain, the impending availability of commercial space stations capable of supporting military operations, and strategic competition with adversaries like China, necessitating future options for asset protection and presence in low Earth orbit and the cislunar region.",
@@ -1586,6 +1610,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-66398",
+                                    "title": "UKRAINIAN MAN PLEADS GUILTY TO RUNNING AI-POWERED FAKE ID SITE",
+                                    "description": "<br><strong>STATUS:</strong> A Ukrainian man pleaded guilty to operating OnlyFake, an AI-powered website that generated and sold over 10,000 fake identification documents worldwide.<br><br><strong>INTEL:</strong> Yurii Nazarenko's OnlyFake platform leveraged artificial intelligence to create realistic, customizable counterfeit passports, driver's licenses, and Social Security cards for 50 U.S. states and 56 other countries, primarily enabling customers to bypass Know Your Customer (KYC) verification at banks and cryptocurrency exchanges. This sophisticated operation, which exclusively accepted cryptocurrency payments, significantly facilitated money laundering and posed a substantial risk to national and international security by undermining critical anti-fraud and anti-terrorism safeguards.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/ukrainian-man-pleads-guilty-to-running-ai-powered-fake-id-site/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-45079",
                                     "title": "PREVIOUSLY HARMLESS GOOGLE API KEYS NOW EXPOSE GEMINI AI DATA",
