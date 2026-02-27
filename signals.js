@@ -103,6 +103,22 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-71973",
+                                    "title": "US MILITARY USES LASER TO TAKE DOWN CBP DRONE, LAWMAKERS SAY",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. military mistakenly shot down a Customs and Border Protection drone near the U.S.-Mexico border using a laser, prompting an airspace closure and strong criticism from lawmakers regarding inter-agency coordination.\n\n<br><strong>INTEL:</strong> This incident, the second laser counter-drone action in two weeks, underscores critical failures in communication and coordination between the military, CBP, FAA, and DHS, exacerbating concerns about the Trump administration's competence in managing drone threats from cartels and potentially impacting aviation safety despite efforts to strengthen border protections.",
+                                    "source_url": "https://www.c4isrnet.com/news/your-military/2026/02/27/us-military-uses-laser-to-take-down-cbp-drone-lawmakers-say/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
+                                    "id": "GS-96572",
+                                    "title": "SWEDISH NAVY INTERCEPTS SUSPECTED RUSSIAN DRONE NEARING FRENCH AIRCRAFT CARRIER",
+                                    "description": "<br><strong>STATUS:</strong> A suspected Russian drone was intercepted by the Swedish Navy near a French nuclear-powered aircraft carrier during NATO exercises in Swedish waters.\n\n<br><strong>INTEL:</strong> The drone, likely from a nearby Russian military vessel such as the sanctioned Sparta IV cargo ship, approached the French Charles de Gaulle carrier which is involved in ongoing NATO Orion 2026 exercises. Swedish countermeasures successfully disrupted the drone, prompting an investigation into a probable airspace violation, and showcasing Sweden's new drone detection and electronic warfare capabilities amidst heightened Russian surveillance during significant NATO military activities.",
+                                    "source_url": "https://www.c4isrnet.com/global/europe/2026/02/27/swedish-navy-intercepts-suspected-russian-drone-nearing-french-aircraft-carrier/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-33358",
                                     "title": "ARMY ORDERS $186 MILLION IN SWITCHBLADE KAMIKAZE DRONES, TANK KILLERS",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Army is acquiring an substantial number of AeroVironment Switchblade 600 Block 2 and 300 Block 20 loitering munitions through a new $186 million delivery order.<br><br><strong>INTEL:</strong> This acquisition significantly enhances the Army's capabilities with advanced \"kamikaze\" and \"tank killer\" drones, featuring AI-enabled target detection, extended-range beyond-line-of-sight engagement, and a new Explosively Formed Penetrator payload for the Switchblade 300 Block 20 variant, designed for small unit deployment in diverse and contested battlefields.",
@@ -397,6 +413,14 @@ const signalTree = {
                         {
                             "name": "DEFENSE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-26514",
+                                    "title": "SWEDISH NAVY INTERCEPTS SUSPECTED RUSSIAN DRONE NEARING FRENCH AIRCRAFT CARRIER",
+                                    "description": "<br><strong>STATUS:</strong> The Swedish Navy intercepted a suspected Russian drone operating near France's nuclear-powered aircraft carrier, Charles de Gaulle, anchored in the port of Malm\u00f6.\n\n<br><strong>INTEL:</strong> This probable violation of Swedish airspace occurred while a Russian military ship, potentially the U.S.-sanctioned Sparta IV cargo vessel, was in the vicinity, and the French carrier was present for ongoing NATO exercises, including Orion 2026; Swedish countermeasures successfully disrupted the drone without affecting the flagship's activities.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/02/27/swedish-navy-intercepts-suspected-russian-drone-nearing-french-aircraft-carrier/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
                                 {
                                     "id": "GS-90880",
                                     "title": "GERMANY, AUSTRIA COMPLETE \u2018ALPINE TRIANGLE\u2019 FOR AIRSPACE SURVEILLANCE",
@@ -1110,6 +1134,14 @@ const signalTree = {
                         {
                             "name": "SPACE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-39420",
+                                    "title": "NASA REVISES PLANS FOR FUTURE ARTEMIS MISSIONS, CANCELS UPGRADES TO SLS",
+                                    "description": "<br><strong>STATUS:</strong> NASA has significantly revised its Artemis lunar program, adding a new low Earth orbit test mission for landers and spacesuits while abandoning planned upgrades for the Space Launch System.\n\n<br><strong>INTEL:</strong> These strategic changes, driven by competition from China, aim to accelerate the flight rate and reduce mission risk by conducting a crucial test flight (Artemis 3) in 2027 before the first crewed lunar landing (Artemis 4) in 2028, and by maintaining a \"near Block 1\" SLS configuration to overcome previous launch rate challenges.",
+                                    "source_url": "https://spacenews.com/nasa-revises-plans-for-future-artemis-missions-cancels-upgrades-to-sls/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "SPACE_NEWS"
+                                },
                                 {
                                     "id": "GS-59463",
                                     "title": "ROCKET LAB DELAYS NEUTRON DEBUT TO LATE 2026",
