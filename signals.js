@@ -1167,6 +1167,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-52626",
+                                    "title": "NASA ON \u2018AGGRESSIVE\u2019 SCHEDULE TO COMPLETE SLS REPAIRS FOR APRIL LAUNCH",
+                                    "description": "<br><strong>STATUS:</strong> NASA is aggressively repairing a helium flow issue in the Space Launch System's upper stage, requiring a rollback to the Vehicle Assembly Building, to meet an early April launch window for the Artemis 2 mission.<br><br><strong>INTEL:</strong> The helium flow interruption in the Interim Cryogenic Propulsion Stage (ICPS) forced the SLS and Orion to roll back from the pad because the upper stage's interior cannot be accessed there. Repairs focus on a suspected seal in a quick-disconnect or a check valve, with additional maintenance including replacing flight termination system batteries and a liquid oxygen umbilical seal, all on an aggressive three-week timeline to preserve the April 1-6 launch window, with the next opportunity opening April 30.",
+                                    "source_url": "https://spacenews.com/nasa-on-aggressive-schedule-to-complete-sls-repairs-for-april-launch/",
+                                    "timestamp": "2026.02.28",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-39420",
                                     "title": "NASA REVISES PLANS FOR FUTURE ARTEMIS MISSIONS, CANCELS UPGRADES TO SLS",
                                     "description": "<br><strong>STATUS:</strong> NASA has significantly revised its Artemis lunar program, adding a new low Earth orbit test mission for landers and spacesuits while abandoning planned upgrades for the Space Launch System.\n\n<br><strong>INTEL:</strong> These strategic changes, driven by competition from China, aim to accelerate the flight rate and reduce mission risk by conducting a crucial test flight (Artemis 3) in 2027 before the first crewed lunar landing (Artemis 4) in 2028, and by maintaining a \"near Block 1\" SLS configuration to overcome previous launch rate challenges.",
