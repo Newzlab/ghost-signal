@@ -414,6 +414,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-23684",
+                                    "title": "US, ISRAEL LAUNCH \u2018MAJOR COMBAT OPERATIONS\u2019 IN IRAN",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. and Israel launched a major joint military attack on Iran, explicitly calling for regime change, which prompted immediate retaliatory strikes by Iran against U.S. and Israeli targets across the region.\n\n<br><strong>INTEL:</strong> This aggressive intervention, justified by claims of Iran's nuclear program and missile development, followed weeks of military buildup and collapsed diplomatic efforts, leading to widespread strikes targeting Iranian infrastructure, including areas near the Supreme Leader's offices, and causing civilian casualties. Iran's swift retaliation against U.S. military installations in Bahrain, Kuwait, Qatar, and against Israel signifies a severe regional escalation, despite ongoing mediation attempts, and marks a significant expansion of U.S. military engagement in the Middle East.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
+                                    "timestamp": "2026.02.28",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-53818",
                                     "title": "TRUMP ORDERS FEDERAL AGENCIES TO STOP USING ANTHROPIC TECHNOLOGY IN DISPUTE OVER AI SAFETY",
                                     "description": "<br><strong>STATUS:</strong> The Trump administration ordered all U.S. agencies to halt use of Anthropic\u2019s AI technology and designated it a supply chain risk after the company refused unrestricted military application of its AI due to safety concerns.<br><br><strong>INTEL:</strong> This action, culminating a public clash over AI safeguards, prevents U.S. military vendors from working with Anthropic and could lead to severe penalties, while also dividing the AI industry and potentially benefiting competitors like Elon Musk\u2019s Grok. The dispute centered on Anthropic's insistence on safeguards against mass surveillance and and fully autonomous weapons, which the Pentagon deemed unacceptable for national security, raising concerns about political influence on national security decisions within the AI sector.",
@@ -2047,6 +2055,14 @@ const signalTree = {
                         {
                             "name": "KREBS_ON_SECURITY",
                             "articles": [
+                                {
+                                    "id": "GS-42222",
+                                    "title": "WHO IS THE KIMWOLF BOTMASTER \u201cDORT\u201d?",
+                                    "description": "<br><strong>STATUS:</strong> The article presents an OSINT investigation into \"Dort,\" the operator behind the Kimwolf botnet, who has been engaging in retaliatory attacks, including SWATting, against a security researcher and author.\n\n<br><strong>INTEL:</strong> Public information suggests \"Dort\" is Jacob Butler, born August 2003, from Ottawa, Canada, who used aliases such as CPacket and M1ce. He created cybercrime forum accounts (e.g., Nulled, Cracked) and a GitHub account using jay.miner232@gmail.com, and was linked to the LAPSUS$ cybercrime group. Butler developed disposable email and CAPTCHA bypass services, partnered with \"Qoft\" to steal over $250,000 in Xbox Game Pass accounts, and used jacobbutler803@gmail.com for Minecraft-themed domain registrations and hacker forum accounts.",
+                                    "source_url": "https://krebsonsecurity.com/2026/02/who-is-the-kimwolf-botmaster-dort/",
+                                    "timestamp": "2026.02.28",
+                                    "feed_name": "KREBS_ON_SECURITY"
+                                },
                                 {
                                     "id": "GS-67917",
                                     "title": "\u2018STARKILLER\u2019 PHISHING SERVICE PROXIES REAL LOGIN PAGES, MFA",
