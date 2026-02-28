@@ -103,6 +103,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-26236",
+                                    "title": "US CONFIRMS FIRST COMBAT USE OF LUCAS ONE-WAY ATTACK DRONE IN IRAN STRIKES",
+                                    "description": "<br><strong>STATUS:</strong> U.S. Central Command confirmed the first combat deployment of the new autonomous LUCAS kamikaze drone during airstrikes against Iran.<br><br><strong>INTEL:</strong> The LUCAS drone, a cost-effective, reverse-engineered variant of Iran's Shahed-136 capable of carrying a payload twice that of a Hellfire missile for 500 miles, was deployed in Operation Epic Fury against Iranian military targets. This inaugural combat use follows a directive to accelerate affordable autonomous systems acquisition, supported by the recently formed Task Force Scorpion Strike, highlighting a strategic shift towards leveraging scalable drone technology for deterrence and innovation.",
+                                    "source_url": "https://www.c4isrnet.com/news/your-military/2026/02/28/us-confirms-first-combat-use-of-lucas-one-way-attack-drone-in-iran-strikes/",
+                                    "timestamp": "2026.02.28",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-71973",
                                     "title": "US MILITARY USES LASER TO TAKE DOWN CBP DRONE, LAWMAKERS SAY",
                                     "description": "<br><strong>STATUS:</strong> The U.S. military mistakenly shot down a Customs and Border Protection drone near the U.S.-Mexico border using a laser, prompting an airspace closure and strong criticism from lawmakers regarding inter-agency coordination.\n\n<br><strong>INTEL:</strong> This incident, the second laser counter-drone action in two weeks, underscores critical failures in communication and coordination between the military, CBP, FAA, and DHS, exacerbating concerns about the Trump administration's competence in managing drone threats from cartels and potentially impacting aviation safety despite efforts to strengthen border protections.",
@@ -413,6 +421,30 @@ const signalTree = {
                         {
                             "name": "DEFENSE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-92014",
+                                    "title": "NO US CASUALTIES REPORTED FOLLOWING IRAN\u2019S RETALIATORY STRIKES, OFFICIALS SAY",
+                                    "description": "<br><strong>STATUS:</strong> Iranian retaliatory strikes on U.S. military installations across the Middle East resulted in no American casualties or significant damage, following a major U.S. and Israeli operation against Iran.<br><br><strong>INTEL:</strong> The \"Epic Fury\" operation by U.S. and Israeli forces represented the largest regional concentration of American military firepower in a generation, targeting critical Iranian infrastructure, including the Supreme Leader's compound, and causing over 900 Iranian casualties. This large-scale assault notably marked the first combat deployment of the U.S. military's new LUCAS autonomous kamikaze drone, reverse-engineered from the Iranian Shahed-136, utilized by a newly formed USSOCOM-Central squadron.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/02/28/no-us-casualties-reported-following-irans-retaliatory-strikes-officials-say/",
+                                    "timestamp": "2026.02.28",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-9227",
+                                    "title": "WAR POWERS DEBATE INTENSIFIES AFTER TRUMP ORDERS ATTACK ON IRAN WITHOUT APPROVAL BY CONGRESS",
+                                    "description": "<br><strong>STATUS:</strong> Key members of Congress are demanding an immediate vote on a war powers resolution to restrain President Trump's unauthorized military attack on Iran.\n\n<br><strong>INTEL:</strong> President Trump initiated military action against Iran, potentially aiming for a government change, without formal congressional authorization, sparking a constitutional debate over presidential war powers. While Republicans largely support the strikes, citing Iran's nuclear and missile programs, a bipartisan group of lawmakers warns the move is potentially illegal and risks deeper Middle East conflict; however, any congressional resolution to halt the operation would likely be symbolic, as the President could veto it and Congress would lack the votes to override.",
+                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/02/28/war-powers-debate-intensifies-after-trump-orders-attack-on-iran-without-approval-by-congress/",
+                                    "timestamp": "2026.02.28",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-71980",
+                                    "title": "US CONFIRMS FIRST COMBAT USE OF LUCAS ONE-WAY ATTACK DRONE IN IRAN STRIKES",
+                                    "description": "<br><strong>STATUS:</strong> U.S. Central Command confirmed the first combat deployment of the new autonomous kamikaze LUCAS drone during airstrikes against Iranian military targets on Saturday.<br><br><strong>INTEL:</strong> The Low-cost Unmanned Combat Attack System (LUCAS) drone, reverse-engineered from Iran's Shahed-136 and built by SpektreWorks, represents a strategic shift towards scalable, affordable autonomous weapons. Deployed in Operation Epic Fury against IRGC command, air defense, and launch sites, each LUCAS unit costs around $35,000 and can deliver a payload with twice the explosive yield of a Hellfire missile, demonstrating the U.S. military's accelerated acquisition of cutting-edge drone capabilities for deterrence, as mandated by Defense Secretary Pete Hegseth's \"Unleashing U.S. Military Drone Dominance\" directive.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/02/28/us-confirms-first-combat-use-of-lucas-one-way-attack-drone-in-iran-strikes/",
+                                    "timestamp": "2026.02.28",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
                                 {
                                     "id": "GS-37309",
                                     "title": "WORLD LEADERS FEAR BROADER ESCALATION AFTER MAJOR US AND ISRAELI ATTACK ON IRAN",
@@ -1714,6 +1746,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-3043",
+                                    "title": "QUICKLENS CHROME EXTENSION STEALS CRYPTO, SHOWS CLICKFIX ATTACK",
+                                    "description": "<br><strong>STATUS:</strong> The \"QuickLens - Search Screen with Google Lens\" Chrome extension was removed from the Web Store after being compromised to deploy malware and steal cryptocurrency from thousands of users.<br><br><strong>INTEL:</strong> The compromise occurred after the extension changed ownership on February 1, 2026, leading to a malicious update (v5.8) on February 17, 2026. This version stripped vital browser security headers (CSP, X-Frame-Options) and requested new permissions, allowing it to execute JavaScript payloads from a command-and-control server (api.extensionanalyticspro[.]top) on every page load. These payloads included fake Google Update prompts that led to the download of a malicious \"googleupdate.exe\" for Windows users, and a dedicated \"agent\" designed to steal credentials from various cryptocurrency wallets.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/quicklens-chrome-extension-steals-crypto-shows-clickfix-attack/",
+                                    "timestamp": "2026.02.28",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-52936",
                                     "title": "$4.8M IN CRYPTO STOLEN AFTER KOREAN TAX AGENCY EXPOSES WALLET SEED",
