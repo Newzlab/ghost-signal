@@ -1707,6 +1707,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-52936",
+                                    "title": "$4.8M IN CRYPTO STOLEN AFTER KOREAN TAX AGENCY EXPOSES WALLET SEED",
+                                    "description": "<br><strong>STATUS:</strong> South Korea\u2019s National Tax Service inadvertently exposed the mnemonic recovery phrase of a seized cryptocurrency wallet, leading to the theft of $4.4 million in crypto assets.\n\n<br><strong>INTEL:</strong> The NTS released photos of a confiscated Ledger cold wallet from tax evaders as part of a press announcement, failing to redact a handwritten note containing the wallet's recovery phrase. An attacker exploited this blunder by depositing Ethereum for gas fees and subsequently transferring 4 million Pre-Retogeum (PRTG) tokens, then valued at approximately $4.8 million, in three transactions. Experts attribute the mistake to the tax authorities' \"lack of basic understanding of virtual assets,\" underscoring the severe security implications of exposing hardware wallet seed phrases.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/48m-in-crypto-stolen-after-korean-tax-agency-exposes-wallet-seed/",
+                                    "timestamp": "2026.02.28",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-2295",
                                     "title": "MICROSOFT TESTING WINDOWS 11 BATCH FILE SECURITY IMPROVEMENTS",
                                     "description": "<br><strong>STATUS:</strong> Microsoft is rolling out Windows 11 Insider Preview builds that enhance batch file security and improve the Shared audio feature.<br><br><strong>INTEL:</strong> The new builds introduce a secure processing mode for batch files, preventing modification during execution, which improves performance and security in enterprise environments by reducing the frequency of signature validation. This mode can be enabled by IT administrators via a registry value or application manifest control. Furthermore, the Shared audio feature has been upgraded with individual volume sliders for each listener, a taskbar indicator for active sessions, and expanded compatibility for Bluetooth LE Audio accessories, improving its functionality and user experience.",
