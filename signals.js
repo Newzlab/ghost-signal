@@ -414,6 +414,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-37309",
+                                    "title": "WORLD LEADERS FEAR BROADER ESCALATION AFTER MAJOR US AND ISRAELI ATTACK ON IRAN",
+                                    "description": "<br><strong>STATUS:</strong> U.S. and Israeli strikes on Iran have prompted emergency security meetings among European leaders and calls for de-escalation amidst fears of a broader Middle East conflict.<br><br><strong>INTEL:</strong> The unilateral strikes have placed European allies in a quandary, as they condemn Iran's actions but fear U.S. military action risks breaching international law and igniting a broader regional conflict. European leaders, largely blindsided by the attacks, are now holding emergency meetings, evacuating staff, and jointly calling for de-escalation, maximum restraint, and diplomatic solutions to ensure peace and stability in the Middle East.",
+                                    "source_url": "https://www.defensenews.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
+                                    "timestamp": "2026.02.28",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-23684",
                                     "title": "US, ISRAEL LAUNCH \u2018MAJOR COMBAT OPERATIONS\u2019 IN IRAN",
                                     "description": "<br><strong>STATUS:</strong> The U.S. and Israel launched a major joint military attack on Iran, explicitly calling for regime change, which prompted immediate retaliatory strikes by Iran against U.S. and Israeli targets across the region.\n\n<br><strong>INTEL:</strong> This aggressive intervention, justified by claims of Iran's nuclear program and missile development, followed weeks of military buildup and collapsed diplomatic efforts, leading to widespread strikes targeting Iranian infrastructure, including areas near the Supreme Leader's offices, and causing civilian casualties. Iran's swift retaliation against U.S. military installations in Bahrain, Kuwait, Qatar, and against Israel signifies a severe regional escalation, despite ongoing mediation attempts, and marks a significant expansion of U.S. military engagement in the Middle East.",
