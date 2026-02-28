@@ -414,6 +414,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-53818",
+                                    "title": "TRUMP ORDERS FEDERAL AGENCIES TO STOP USING ANTHROPIC TECHNOLOGY IN DISPUTE OVER AI SAFETY",
+                                    "description": "<br><strong>STATUS:</strong> The Trump administration ordered all U.S. agencies to halt use of Anthropic\u2019s AI technology and designated it a supply chain risk after the company refused unrestricted military application of its AI due to safety concerns.<br><br><strong>INTEL:</strong> This action, culminating a public clash over AI safeguards, prevents U.S. military vendors from working with Anthropic and could lead to severe penalties, while also dividing the AI industry and potentially benefiting competitors like Elon Musk\u2019s Grok. The dispute centered on Anthropic's insistence on safeguards against mass surveillance and and fully autonomous weapons, which the Pentagon deemed unacceptable for national security, raising concerns about political influence on national security decisions within the AI sector.",
+                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/02/27/trump-orders-federal-agencies-to-stop-using-anthropic-technology-in-dispute-over-ai-safety/",
+                                    "timestamp": "2026.02.27",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-46916",
                                     "title": "PAKISTAN IN \u2018OPEN WAR\u2019 WITH AFGHANISTAN, DEFENSE MINISTER SAYS",
                                     "description": "<br><strong>STATUS:</strong> Pakistan and Afghanistan have escalated tensions into what Pakistan's defense minister calls an \"open war\" following a rapid exchange of cross-border airstrikes and ground attacks.\n\n<br><strong>INTEL:</strong> This immediate escalation stems from a cycle of retaliation, where Afghanistan responded to earlier Pakistani airstrikes, and Pakistan subsequently targeted Afghan military installations, fueled by Islamabad's long-standing accusations that Kabul harbors militant groups like the TTP and is increasingly aligning with rival India, further destabilizing the region despite prior failed peace negotiations.",
