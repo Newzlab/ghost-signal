@@ -422,6 +422,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-54812",
+                                    "title": "3 US TROOPS KILLED, 5 SERIOUSLY WOUNDED IN ACTIONS AGAINST IRAN",
+                                    "description": "<br><strong>STATUS:</strong> Three U.S. service members have been killed and five seriously wounded during combat operations against Iran.<br><br><strong>INTEL:</strong> The casualties occurred amidst Iranian retaliatory strikes following \"Operation Epic Fury,\" a multi-domain U.S. and Israeli bombardment across Iran that targeted military installations and reportedly killed Supreme Leader Ayatollah Ali Khamenei. This represents a significant escalation in the conflict, with U.S. forces continuing major combat operations despite initial reports of no casualties, and CENTCOM dismissing claims of the USS Abraham Lincoln being hit.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/01/3-us-troops-killed-5-seriously-wounded-in-actions-against-iran/",
+                                    "timestamp": "2026.03.01",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-52241",
                                     "title": "TRUMP WAS ONCE WARY OF ORDERING REGIME CHANGE IN IRAN. HERE\u2019S WHAT MADE HIM CHANGE HIS MIND",
                                     "description": "<br><strong>STATUS:</strong> President Donald Trump ordered a military operation against Iran, resulting in the confirmed death of 86-year-old Supreme Leader Ayatollah Ali Khamenei.\n\n<br><strong>INTEL:</strong> This operation marks a dramatic escalation in President Trump's risk tolerance, a significant departure from his previous caution regarding targeting Khamenei just eight months prior, and follows a series of failed diplomatic talks and past provocations including the 2018 nuclear deal withdrawal, the 2020 Soleimani strike, and June strikes on nuclear facilities. Experts anticipate the strike will lead to far-reaching and uncertain consequences for the Iranian regime, its populace, and regional stability, potentially prompting a desperate response from Iran.",
@@ -1786,6 +1794,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-42860",
+                                    "title": "SAMSUNG TVS TO STOP COLLECTING TEXANS\u2019 DATA WITHOUT EXPRESS CONSENT",
+                                    "description": "<br><strong>STATUS:</strong> Samsung has reached a settlement with the State of Texas regarding the alleged unlawful collection of content-viewing data from its smart TVs.\n\n<br><strong>INTEL:</strong> Texas Attorney General Ken Paxton had sued Samsung for using Automated Content Recognition (ACR) technology and \"dark patterns\" to collect consumer viewing habits for targeted advertising without express, informed consent, violating the Texas Deceptive Trade Practices Act. As part of the agreement, Samsung will now implement clear privacy disclosures and require explicit consumer consent before collecting or processing any ACR viewing data, setting a precedent while similar lawsuits against other manufacturers continue.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/",
+                                    "timestamp": "2026.03.01",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-3043",
                                     "title": "QUICKLENS CHROME EXTENSION STEALS CRYPTO, SHOWS CLICKFIX ATTACK",
