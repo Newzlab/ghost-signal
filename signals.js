@@ -1223,6 +1223,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-59307",
+                                    "title": "CAS SPACE TO LAUNCH KINETICA-2 IN LATE MARCH CARRYING PROTOTYPE CARGO SPACECRAFT",
+                                    "description": "<br><strong>STATUS:</strong> Chinese launch firm CAS Space is preparing for the inaugural late March launch of its reusable Kinetica-2 liquid rocket, carrying a prototype cargo spacecraft.\n\n<br><strong>INTEL:</strong> This 53-meter reusable launch vehicle, developed by a commercial spinoff of the Chinese Academy of Sciences, aims to deliver up to 12,000 kg to LEO and will carry a prototype of the Qingzhou-1 cargo spacecraft for the Tiangong space station. The Kinetica-2's debut signals increasing Chinese launch capabilities and cadence, with plans for several more launches in 2026, including for internet megaconstellations and other national missions.",
+                                    "source_url": "https://spacenews.com/cas-space-to-launch-kinetica-2-in-late-march-carrying-prototype-cargo-spacecraft/",
+                                    "timestamp": "2026.03.01",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-10954",
                                     "title": "INTUITIVE MACHINES RAISES $175 MILLION IN STOCK SALE",
                                     "description": "<br><strong>STATUS:</strong> Intuitive Machines successfully raised $175 million in a stock sale to fund the expansion of its deep space communications and data processing networks, particularly for lunar services.<br><br><strong>INTEL:</strong> This new capital will primarily support the development of a lunar satellite network, crucial for its $4.8 billion NASA contract, by integrating capabilities from the recently acquired Lanteris Space Systems. The company plans to leverage this investment to pursue higher-margin programs such as TDRSS and potentially the Mars Telecommunications Orbiter, though specific eligibility for the latter may necessitate new partnerships. Investor reaction was initially negative due to the stock sale's pricing at $15.12, below its previous closing value.",
