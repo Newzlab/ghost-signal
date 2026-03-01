@@ -1239,6 +1239,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-33061",
+                                    "title": "SPACE FORCE OPENS SECRETIVE SPACE TRACKING TO COMMERCIAL FIRMS",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Space Force is increasingly integrating commercial data and artificial intelligence to enhance its space domain awareness and threat tracking missions.\n\n<br><strong>INTEL:</strong> This initiative, primarily driven by the SDA TAP Lab and the Kronos program, streamlines the acquisition of unclassified commercial technologies into sensitive intelligence workflows by creating an intentional pathway from experimentation to operational use. By fusing diverse industry solutions and real-time data, the Space Force aims to rapidly improve its ability to monitor orbital activity, assess threats, and disrupt adversary \"kill chains\" in space before they can target U.S. assets or warfighters.",
+                                    "source_url": "https://spacenews.com/space-force-opens-secretive-space-tracking-to-commercial-firms/",
+                                    "timestamp": "2026.03.01",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-59307",
                                     "title": "CAS SPACE TO LAUNCH KINETICA-2 IN LATE MARCH CARRYING PROTOTYPE CARGO SPACECRAFT",
                                     "description": "<br><strong>STATUS:</strong> Chinese launch firm CAS Space is preparing for the inaugural late March launch of its reusable Kinetica-2 liquid rocket, carrying a prototype cargo spacecraft.\n\n<br><strong>INTEL:</strong> This 53-meter reusable launch vehicle, developed by a commercial spinoff of the Chinese Academy of Sciences, aims to deliver up to 12,000 kg to LEO and will carry a prototype of the Qingzhou-1 cargo spacecraft for the Tiangong space station. The Kinetica-2's debut signals increasing Chinese launch capabilities and cadence, with plans for several more launches in 2026, including for internet megaconstellations and other national missions.",
