@@ -422,6 +422,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-90816",
+                                    "title": "IRAN\u2019S SUPREME LEADER AYATOLLAH ALI KHAMENEI, WHO LED THE ISLAMIC REPUBLIC SINCE 1989, IS DEAD AT 86",
+                                    "description": "<br><strong>STATUS:</strong> Ayatollah Ali Khamenei, Iran's 86-year-old Supreme Leader, has died after being killed in a major joint attack launched by Israel and the United States. <br><br><strong>INTEL:</strong> Khamenei's death, occurring amidst escalating direct confrontations between Iran, Israel, and the U.S. over Iran's nuclear program and regional \"Axis of Resistance,\" plunges the Islamic Republic into immediate uncertainty regarding succession. While the Assembly of Experts will choose his replacement, the powerful Revolutionary Guard is positioned to decisively influence the transition, potentially suppressing widespread public discontent and calls from the U.S. President for Iranians to seize control of their government.",
+                                    "source_url": "https://www.defensenews.com/flashpoints/middle-east/2026/03/01/irans-supreme-leader-ayatollah-ali-khamenei-who-led-the-islamic-republic-since-1989-is-dead-at-86/",
+                                    "timestamp": "2026.03.01",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-69745",
+                                    "title": "IRAN SUPREME LEADER AYATOLLAH ALI KHAMENEI IS DEAD, WHITE HOUSE CONFIRMS",
+                                    "description": "<br><strong>STATUS:</strong> Israel and the United States launched a major aerial bombardment on Iran, reportedly killing Supreme Leader Ayatollah Ali Khamenei and other key leaders, prompting immediate Iranian missile and drone retaliation.\n\n<br><strong>INTEL:</strong> The reported assassination of Supreme Leader Khamenei, who had no designated successor, introduces profound uncertainty regarding Iran's future and raises the specter of protracted conflict, with President Trump publicly urging the Iranian populace to seize this opportunity for regime change. While U.S. and Israeli strikes targeted critical Iranian military and governmental infrastructure, U.S. bases reported minimal damage despite hundreds of Iranian retaliatory attacks, which Iran claimed caused hundreds of casualties within its borders.",
+                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/02/28/iran-supreme-leader-ayatollah-ali-khamenei-is-dead-white-house-confirms/",
+                                    "timestamp": "2026.02.28",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-92014",
                                     "title": "NO US CASUALTIES REPORTED FOLLOWING IRAN\u2019S RETALIATORY STRIKES, OFFICIALS SAY",
                                     "description": "<br><strong>STATUS:</strong> Iranian retaliatory strikes on U.S. military installations across the Middle East resulted in no American casualties or significant damage, following a major U.S. and Israeli operation against Iran.<br><br><strong>INTEL:</strong> The \"Epic Fury\" operation by U.S. and Israeli forces represented the largest regional concentration of American military firepower in a generation, targeting critical Iranian infrastructure, including the Supreme Leader's compound, and causing over 900 Iranian casualties. This large-scale assault notably marked the first combat deployment of the U.S. military's new LUCAS autonomous kamikaze drone, reverse-engineered from the Iranian Shahed-136, utilized by a newly formed USSOCOM-Central squadron.",
@@ -1198,6 +1214,14 @@ const signalTree = {
                         {
                             "name": "SPACE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-10954",
+                                    "title": "INTUITIVE MACHINES RAISES $175 MILLION IN STOCK SALE",
+                                    "description": "<br><strong>STATUS:</strong> Intuitive Machines successfully raised $175 million in a stock sale to fund the expansion of its deep space communications and data processing networks, particularly for lunar services.<br><br><strong>INTEL:</strong> This new capital will primarily support the development of a lunar satellite network, crucial for its $4.8 billion NASA contract, by integrating capabilities from the recently acquired Lanteris Space Systems. The company plans to leverage this investment to pursue higher-margin programs such as TDRSS and potentially the Mars Telecommunications Orbiter, though specific eligibility for the latter may necessitate new partnerships. Investor reaction was initially negative due to the stock sale's pricing at $15.12, below its previous closing value.",
+                                    "source_url": "https://spacenews.com/intuitive-machines-raises-175-million-in-stock-sale/",
+                                    "timestamp": "2026.03.01",
+                                    "feed_name": "SPACE_NEWS"
+                                },
                                 {
                                     "id": "GS-52626",
                                     "title": "NASA ON \u2018AGGRESSIVE\u2019 SCHEDULE TO COMPLETE SLS REPAIRS FOR APRIL LAUNCH",
