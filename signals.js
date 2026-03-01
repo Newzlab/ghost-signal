@@ -422,6 +422,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-33581",
+                                    "title": "9 IRANIAN NAVAL SHIPS HAVE BEEN DESTROYED AND SUNK, TRUMP SAYS",
+                                    "description": "<br><strong>STATUS:</strong> U.S. and partner forces launched a major military operation against Iran, sinking naval vessels, destroying strategic infrastructure, and killing Supreme Leader Ayatollah Ali Khamenei.\n\n<br><strong>INTEL:</strong> Designated \"Operation Epic Fury,\" the assault targeted Iran's security apparatus, including command and control facilities, air defense, missile sites, military airfields, and naval headquarters, resulting in 9 reported ship sinkings and extensive damage, and marking the largest U.S. firepower buildup in the Middle East in a generation, with U.S. forces incurring casualties.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/01/9-iranian-naval-ships-have-been-destroyed-and-sunk-trump-says/",
+                                    "timestamp": "2026.03.01",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-54812",
                                     "title": "3 US TROOPS KILLED, 5 SERIOUSLY WOUNDED IN ACTIONS AGAINST IRAN",
                                     "description": "<br><strong>STATUS:</strong> Three U.S. service members have been killed and five seriously wounded during combat operations against Iran.<br><br><strong>INTEL:</strong> The casualties occurred amidst Iranian retaliatory strikes following \"Operation Epic Fury,\" a multi-domain U.S. and Israeli bombardment across Iran that targeted military installations and reportedly killed Supreme Leader Ayatollah Ali Khamenei. This represents a significant escalation in the conflict, with U.S. forces continuing major combat operations despite initial reports of no casualties, and CENTCOM dismissing claims of the USS Abraham Lincoln being hit.",
