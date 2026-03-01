@@ -422,6 +422,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-52241",
+                                    "title": "TRUMP WAS ONCE WARY OF ORDERING REGIME CHANGE IN IRAN. HERE\u2019S WHAT MADE HIM CHANGE HIS MIND",
+                                    "description": "<br><strong>STATUS:</strong> President Donald Trump ordered a military operation against Iran, resulting in the confirmed death of 86-year-old Supreme Leader Ayatollah Ali Khamenei.\n\n<br><strong>INTEL:</strong> This operation marks a dramatic escalation in President Trump's risk tolerance, a significant departure from his previous caution regarding targeting Khamenei just eight months prior, and follows a series of failed diplomatic talks and past provocations including the 2018 nuclear deal withdrawal, the 2020 Soleimani strike, and June strikes on nuclear facilities. Experts anticipate the strike will lead to far-reaching and uncertain consequences for the Iranian regime, its populace, and regional stability, potentially prompting a desperate response from Iran.",
+                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/01/trump-was-once-wary-of-ordering-regime-change-in-iran-heres-what-made-him-change-his-mind/",
+                                    "timestamp": "2026.03.01",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-90816",
                                     "title": "IRAN\u2019S SUPREME LEADER AYATOLLAH ALI KHAMENEI, WHO LED THE ISLAMIC REPUBLIC SINCE 1989, IS DEAD AT 86",
                                     "description": "<br><strong>STATUS:</strong> Ayatollah Ali Khamenei, Iran's 86-year-old Supreme Leader, has died after being killed in a major joint attack launched by Israel and the United States. <br><br><strong>INTEL:</strong> Khamenei's death, occurring amidst escalating direct confrontations between Iran, Israel, and the U.S. over Iran's nuclear program and regional \"Axis of Resistance,\" plunges the Islamic Republic into immediate uncertainty regarding succession. While the Assembly of Experts will choose his replacement, the powerful Revolutionary Guard is positioned to decisively influence the transition, potentially suppressing widespread public discontent and calls from the U.S. President for Iranians to seize control of their government.",
