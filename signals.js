@@ -1247,6 +1247,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-4856",
+                                    "title": "WORLD SPACE WEEK 2025 SET RECORD WITH 50,000 EVENTS IN 102 COUNTRIES",
+                                    "description": "<br><strong>STATUS:</strong> World Space Week 2025 achieved record global participation with nearly 50,000 activities across 102 nations, demonstrating space's growing global relevance.<br><br><strong>INTEL:</strong> This unprecedented scale signifies space's transition from a specialized sector to a global priority, reflecting a concerted effort by educators, institutions, and governments to prepare the next generation for an expanding space economy. The synchronized, worldwide celebration, supported by organizations like Lockheed Martin and United Launch Alliance, effectively amplifies global attention and student engagement in space-related fields.",
+                                    "source_url": "https://spacenews.com/world-space-week-2025-set-record-with-50000-events-in-102-countries/",
+                                    "timestamp": "2026.03.02",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-16863",
+                                    "title": "SPACE FORCE RETHINKS SATELLITE GROUND STATION STRATEGY",
+                                    "description": "<br><strong>STATUS:</strong> The Space Force is reopening its $1.4 billion Satellite Communications Augmentation Resource (SCAR) program, previously awarded solely to BlueHalo, to introduce multiple vendors and leverage commercial technology for mobile ground stations.\n\n<br><br><strong>INTEL:</strong> This strategic shift by the Pentagon aims to diversify suppliers, move away from costly bespoke systems like BlueHalo's undelivered BADGER units, and adopt commercial phased-array antennas to modernize the military's aging Satellite Control Network. The SCAR program is critical for alleviating throughput limitations in satellite command and control by boosting geosynchronous orbit communication capacity, which has become a pacing constraint amid a proliferation of on-orbit assets.",
+                                    "source_url": "https://spacenews.com/space-force-rethinks-satellite-ground-station-strategy/",
+                                    "timestamp": "2026.03.02",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-11919",
                                     "title": "OPEN COSMOS UNVEILS VISION FOR IMAGERY-LINKED SOVEREIGN SATELLITE CONNECTIVITY",
                                     "description": "<br><strong>STATUS:</strong> Open Cosmos has announced ConnectedCosmos, a new sovereign Ka-band constellation for Europe, which aims to merge broadband, IoT, and Earth observation services but faces imminent and demanding satellite deployment deadlines.\n\n<br><strong>INTEL:</strong> The project inherits spectrum filings requiring Open Cosmos to deploy 144 satellites by June and another 144 by September to retain priority rights, a significant hurdle given its current small operational fleet. ConnectedCosmos is strategically designed to provide secure, real-time integrated data streams by uniquely fusing broadband and direct-to-device IoT connectivity with Earth observation, utilizing optical inter-satellite links to bypass terrestrial gateways and offer sovereign capabilities distinct from competitors like Starlink.",
@@ -1842,6 +1858,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-27130",
+                                    "title": "ANTHROPIC CONFIRMS CLAUDE IS DOWN IN A WORLDWIDE OUTAGE",
+                                    "description": "<br><strong>STATUS:</strong> Claude is currently experiencing a major, widespread outage across all platforms with elevated errors reported, impacting users globally.<br><br><strong>INTEL:</strong> The incident was flagged on March 2, 2026, with an ongoing investigation reported as of 12:06 UTC, following an initial notice at 11:49 UTC. Users are encountering failed requests, timeouts, and inconsistent responses across Claude's web, mobile, and API services, with no estimated time of resolution but active work underway by the team.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-a-worldwide-outage/",
+                                    "timestamp": "2026.03.02",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-51131",
                                     "title": "CLAWJACKED ATTACK LET MALICIOUS WEBSITES HIJACK OPENCLAW TO STEAL DATA",
