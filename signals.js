@@ -1628,6 +1628,14 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-10624",
+                                    "title": "SCORIA CONES ON EARTH AND MARS",
+                                    "description": "<br><strong>STATUS:</strong> Planetary geologists have identified rare scoria cones in Mars' Ulysses Colles region, providing evidence of explosive volcanic activity previously thought uncommon on the Red Planet.<br><br><strong>INTEL:</strong> This discovery challenges the prevailing view that most Martian volcanism is effusive, despite conditions like lower gravity and atmospheric pressure that should theoretically make explosive eruptions more prevalent. The Martian scoria cones are analogous to terrestrial formations but are notably larger due to these environmental factors, offering crucial insights into the planet's geological history and the diversity of volcanic processes that have shaped its surface.",
+                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/scoria-cones-on-earth-and-mars/",
+                                    "timestamp": "2026.03.02",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-87033",
                                     "title": "HARNESSING THE SUN TO EXTRACT OXYGEN ON THE MOON",
                                     "description": "<br><strong>STATUS:</strong> A solar concentrator for NASA's Carbothermal Reduction Demonstration (CaRD) project successfully produced carbon monoxide from simulated lunar regolith during a recent test. <br><br><strong>INTEL:</strong> This technology aims to enable the production of oxygen and propellant on the Moon using only local materials and sunlight, which would significantly reduce the cost and complexity of sustaining a long-term human lunar presence. The system also has the potential to be adapted for converting carbon dioxide into oxygen and methane on Mars, showcasing its broad strategic implications for future space missions, and is supported by NASA\u2019s Game Changing Development Program.",
