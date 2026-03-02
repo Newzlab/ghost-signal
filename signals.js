@@ -422,6 +422,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-41414",
+                                    "title": "CIA TRACKED IRANIAN LEADERS FOR MONTHS AHEAD OF ATTACKS THAT BEGAN WITH 3 STRIKES IN 60 SECONDS",
+                                    "description": "<br><strong>STATUS:</strong> US-Israeli forces executed surprise, simultaneous daylight strikes in Iran, eliminating Supreme Leader Ali Khamenei and over 40 senior figures.\n\n<br><strong>INTEL:</strong> These precision strikes were enabled by weeks of joint US-Israeli intelligence tracking, real-time data on target consolidation, and rapid execution to prevent escape, hitting hundreds of additional military targets; the operation has left Iran's future uncertain, escalated regional risks, and resulted in three American fatalities, though Iran's potential new leadership has reportedly signaled openness to talks.",
+                                    "source_url": "https://www.defensenews.com/flashpoints/middle-east/2026/03/02/cia-tracked-iranian-leaders-for-months-ahead-of-attacks-that-began-with-3-strikes-in-60-seconds/",
+                                    "timestamp": "2026.03.02",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-33581",
                                     "title": "9 IRANIAN NAVAL SHIPS HAVE BEEN DESTROYED AND SUNK, TRUMP SAYS",
                                     "description": "<br><strong>STATUS:</strong> U.S. and partner forces launched a major military operation against Iran, sinking naval vessels, destroying strategic infrastructure, and killing Supreme Leader Ayatollah Ali Khamenei.\n\n<br><strong>INTEL:</strong> Designated \"Operation Epic Fury,\" the assault targeted Iran's security apparatus, including command and control facilities, air defense, missile sites, military airfields, and naval headquarters, resulting in 9 reported ship sinkings and extensive damage, and marking the largest U.S. firepower buildup in the Middle East in a generation, with U.S. forces incurring casualties.",
@@ -1239,6 +1247,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-85103",
+                                    "title": "NASA OUTLINES OBJECTIVES FOR MARS COMMUNICATIONS ORBITER",
+                                    "description": "<br><strong>STATUS:</strong> NASA has released draft objectives and requirements for a new Mars Telecommunications Network orbiter, funded by a 2025 budget bill, as companies prepare to bid for the project.<br><br><strong>INTEL:</strong> This $700 million project is mandated to provide continuous communications and PNT services for Mars assets through 2035, with spacecraft delivery to NASA required by the end of 2028. Eligibility for the contract is limited to eight specific companies, including Blue Origin and Rocket Lab, that had previously received NASA funding for Mars Sample Return design studies and proposed an independent telecommunications orbiter.",
+                                    "source_url": "https://spacenews.com/nasa-outlines-objectives-for-mars-communications-orbiter/",
+                                    "timestamp": "2026.03.02",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-33061",
                                     "title": "SPACE FORCE OPENS SECRETIVE SPACE TRACKING TO COMMERCIAL FIRMS",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Space Force is increasingly integrating commercial data and artificial intelligence to enhance its space domain awareness and threat tracking missions.\n\n<br><strong>INTEL:</strong> This initiative, primarily driven by the SDA TAP Lab and the Kronos program, streamlines the acquisition of unclassified commercial technologies into sensitive intelligence workflows by creating an intentional pathway from experimentation to operational use. By fusing diverse industry solutions and real-time data, the Space Force aims to rapidly improve its ability to monitor orbital activity, assess threats, and disrupt adversary \"kill chains\" in space before they can target U.S. assets or warfighters.",
@@ -1810,6 +1826,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-51131",
+                                    "title": "CLAWJACKED ATTACK LET MALICIOUS WEBSITES HIJACK OPENCLAW TO STEAL DATA",
+                                    "description": "<br><strong>STATUS:</strong> Security researchers have disclosed a high-severity \"ClawJacked\" vulnerability in the popular OpenClaw AI agent that allows malicious websites to silently brute-force and take full control of locally running instances.\n\n<br><strong>INTEL:</strong> The flaw, discovered by Oasis Security and fixed in version 2026.2.26, stems from OpenClaw's gateway service binding to localhost with an exposed WebSocket interface, which browser cross-origin policies do not block. Crucially, OpenClaw exempts the loopback address from rate limiting by default, enabling malicious JavaScript to brute-force management passwords at hundreds of attempts per second and then silently register as a trusted device with admin permissions, leading to full workstation compromise via credential dumping, file exfiltration, or arbitrary command execution from a simple browser tab.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/clawjacked-attack-let-malicious-websites-hijack-openclaw-to-steal-data/",
+                                    "timestamp": "2026.03.01",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-42860",
                                     "title": "SAMSUNG TVS TO STOP COLLECTING TEXANS\u2019 DATA WITHOUT EXPRESS CONSENT",
