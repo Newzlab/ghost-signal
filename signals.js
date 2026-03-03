@@ -832,6 +832,126 @@ const signalTree = {
                             "name": "ARXIV_AI_PAPERS",
                             "articles": [
                                 {
+                                    "id": "GS-91336",
+                                    "title": "MULTI-SOURCED, MULTI-AGENT EVIDENCE RETRIEVAL FOR FACT-CHECKING",
+                                    "description": "<br><strong>STATUS:</strong> A novel fact-checking method, WKGFC, is introduced to enhance the accuracy and robustness of misinformation detection.\n\n<br><strong>INTEL:</strong> WKGFC addresses the limitations of current Retrieval Augmented Generation (RAG) systems, which struggle with multi-hop semantic relations, by leveraging authorized open knowledge graphs and LLM-enabled retrieval to form structured evidence. This approach, augmented by web content and implemented as an agentic LLM operating within a Markov Decision Process, aims to provide more reliable veracity predictions by capturing complex factual correlations beyond mere textual similarity.",
+                                    "source_url": "https://arxiv.org/abs/2603.00267",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-52952",
+                                    "title": "TRADERBENCH: HOW ROBUST ARE AI AGENTS IN ADVERSARIAL CAPITAL MARKETS?",
+                                    "description": "<br><strong>STATUS:</strong> A new benchmark called TraderBench has been introduced to effectively evaluate AI agents in dynamic financial trading environments, addressing limitations of existing evaluation methods.<br><br><strong>INTEL:</strong> TraderBench uniquely combines expert-verified static tasks with adversarial trading simulations, scoring agents solely on realized performance metrics like Sharpe ratio and returns, thereby eliminating subjective judge variance. Initial evaluations on 13 models reveal that most current AI agents exhibit fixed, non-adaptive strategies in trading scenarios, even under market manipulation, and that 'extended thinking' offers no significant benefit in actual trading performance, underscoring a critical gap in market adaptability for existing AI in finance.",
+                                    "source_url": "https://arxiv.org/abs/2603.00285",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-1805",
+                                    "title": "DIG TO HEAL: SCALING GENERAL-PURPOSE AGENT COLLABORATION VIA EXPLAINABLE DYNAMIC DECISION PATHS",
+                                    "description": "<br><strong>STATUS:</strong> A new method called the Dynamic Interaction Graph (DIG) has been introduced to make emergent collaboration observable and explainable in multi-agent LLM systems.\n<br><br><strong>INTEL:</strong> DIG allows for the study and improvement of truly autonomous agentic AI systems where general-purpose LLM agents operate without predefined roles or control flow, by capturing their interactions as a time-evolving causal network, enabling real-time identification and correction of collaboration-induced error patterns.",
+                                    "source_url": "https://arxiv.org/abs/2603.00309",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-99918",
+                                    "title": "HOW WELL DO MULTIMODAL MODELS REASON ON ECG SIGNALS?",
+                                    "description": "<br><strong>STATUS:</strong> A new reproducible framework has been introduced to evaluate the reasoning capabilities of multimodal large language models in ECG signal analysis.<br><br><strong>INTEL:</strong> This framework addresses the critical challenge of verifying interpretable reasoning traces from health AI, which previously lacked scalable and semantically correct evaluation methods. It decomposes reasoning into \"Perception\" for accurate signal pattern identification, verified by an agentic framework generating code, and \"Deduction\" for logical application of domain knowledge, measured by alignment with a structured database of clinical criteria, thereby enabling scalable and true assessment of clinical logic.",
+                                    "source_url": "https://arxiv.org/abs/2603.00312",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-55954",
+                                    "title": "EMCOOP: A FRAMEWORK AND BENCHMARK FOR EMBODIED COOPERATION AMONG LLM AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> A new benchmark framework, EmCoop, has been introduced to analyze cooperation in LLM-based embodied multi-agent systems.<br><br><strong>INTEL:</strong> EmCoop addresses the challenge of fine-grained analysis of how Large Language Model (LLM)-based agents collaborate in complex embodied environments. It provides a framework that separates high-level cognitive coordination from low-level physical interaction, offering process-level metrics to diagnose collaboration quality and identify failure modes beyond mere task completion. This allows for systematic study of cooperation dynamics across varying team sizes and task settings, critical for advancing robust multi-agent AI systems.",
+                                    "source_url": "https://arxiv.org/abs/2603.00349",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-98505",
+                                    "title": "MONOTROPIC ARTIFICIAL INTELLIGENCE: TOWARD A COGNITIVE TAXONOMY OF DOMAIN-SPECIALIZED LANGUAGE MODELS",
+                                    "description": "<br><strong>STATUS:</strong> Researchers introduce Monotropic Artificial Intelligence, a new paradigm for language models designed for extreme precision within narrowly circumscribed domains by deliberately sacrificing generality.<br><br><strong>INTEL:</strong> This framework challenges the prevailing belief that AI progress solely equates to scale and generality, advocating instead for intensely specialized systems that achieve extraordinary depth. Inspired by the cognitive theory of monotropism, these models, exemplified by Mini-Enedina's near-perfect performance in Timoshenko beam analysis, offer distinct advantages for safety-critical applications by prioritizing precision, suggesting a future AI ecology where specialized and generalist systems complement each other.",
+                                    "source_url": "https://arxiv.org/abs/2603.00350",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-69423",
+                                    "title": "CONSERVATIVE EQUILIBRIUM DISCOVERY IN OFFLINE GAME-THEORETIC MULTIAGENT REINFORCEMENT LEARNING",
+                                    "description": "<br><strong>STATUS:</strong> A new method called COffeE-PSRO is introduced for solving mixed-motive multi-agent games under the constraint of offline learning from fixed, limited datasets. <br><br><strong>INTEL:</strong> COffeE-PSRO extends the online game-solving approach Policy Space Response Oracles (PSRO) by quantifying game dynamics uncertainty and modifying the reinforcement learning objective to favor solutions with a higher probability of low regret, even when a true equilibrium cannot be fully verified due to data limitations; it demonstrates improved performance over existing offline methods.",
+                                    "source_url": "https://arxiv.org/abs/2603.00374",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-82069",
+                                    "title": "NEUROHEX: HIGHLY-EFFICIENT HEX COORDINATE SYSTEM FOR CREATING WORLD MODELS TO ENABLE ADAPTIVE AI",
+                                    "description": "<br><strong>STATUS:</strong> A novel hexagonal coordinate system, NeuroHex, has been developed to enable highly efficient world models and adaptive spatial reasoning for AI systems.<br><br><strong>INTEL:</strong> NeuroHex employs a cubic isometric hexagonal coordinate formulation, inspired by brain grid cells, offering full 60-degree rotational symmetry and low-cost computations for translation, rotation, and distance, alongside hierarchical geometric primitives for efficient spatial matching operations. The system includes an OSM2Hex tool that can reduce OpenStreetMap data complexity by 90-99% while preserving spatial structure, making it a highly efficient substrate for dynamic world models in autonomous AI with continuous online learning.",
+                                    "source_url": "https://arxiv.org/abs/2603.00376",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-25801",
+                                    "title": "CONFUSION-AWARE RUBRIC OPTIMIZATION FOR LLM-BASED AUTOMATED GRADING",
+                                    "description": "<br><strong>STATUS:</strong> A novel framework named Confusion-Aware Rubric Optimization (CARO) has been introduced to significantly enhance the accuracy and efficiency of LLM-based grading systems.\n\n<br><strong>INTEL:</strong> CARO overcomes the \"rule dilution\" issue prevalent in current automated prompt optimization by structurally separating error signals using a confusion matrix, allowing for the targeted diagnosis and repair of individual misclassification patterns. This method synthesizes specific \"fixing patches\" to prevent guidance conflicts, eliminates resource-heavy nested refinement, and has demonstrated superior performance on educational datasets, suggesting a robust path for scalable and precise automated assessment.",
+                                    "source_url": "https://arxiv.org/abs/2603.00451",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-78031",
+                                    "title": "MED-COPILOT: A MEDICAL ASSISTANT POWERED BY GRAPHRAG AND SIMILAR PATIENT CASE RETRIEVAL",
+                                    "description": "<br><strong>STATUS:</strong> A new interactive clinical decision-support system called MED-COPILOT has been developed to enhance clinical reasoning by integrating structured guidelines and patient-level evidence for Large Language Models.\n\n<br><strong>INTEL:</strong> MED-COPILOT employs a sophisticated approach combining guideline-grounded GraphRAG retrieval from a knowledge graph built using WHO and NICE guidelines, with hybrid semantic-keyword similar-patient retrieval from a 36,000-case database derived from MIMIC-IV and Synthea records. This system is designed to provide transparent, evidence-aware support, mitigating LLM hallucinations and improving the integration of complex medical documents, ultimately outperforming parametric LLM baselines and standard RAG in critical clinical tasks, and is publicly accessible.",
+                                    "source_url": "https://arxiv.org/abs/2603.00460",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-47426",
+                                    "title": "OPTIMIZING IN-CONTEXT DEMONSTRATIONS FOR LLM-BASED AUTOMATED GRADING",
+                                    "description": "<br><strong>STATUS:</strong> A new framework, GUIDE, has been developed to significantly improve the reliability and rubric adherence of large language models in automated student response grading.\n\n<br><strong>INTEL:</strong> GUIDE addresses current LLM limitations in grading by reframing exemplar selection as a boundary-focused optimization problem, using novel contrastive operators to identify \"boundary pairs\" and generating discriminative rationales. This approach enables the model to focus on subtle decision boundaries and rubric adherence, resulting in robust gains on borderline cases and paving the way for more trusted and scalable assessment systems.",
+                                    "source_url": "https://arxiv.org/abs/2603.00465",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-98920",
+                                    "title": "WHY NOT? SOLVER-GROUNDED CERTIFICATES FOR EXPLAINABLE MISSION PLANNING",
+                                    "description": "<br><strong>STATUS:</strong> A new method has been developed to provide faithful, model-derived justifications for Earth observation satellite scheduling decisions, addressing the shortcomings of existing post-hoc approaches.\n\n<br><br><strong>INTEL:</strong> This \"faithfulness-first\" approach generates causal explanations directly from the optimization model itself, using certificates like minimal infeasible subsets for rejections, tight constraints for selections, and inverse solves for what-if scenarios. This method ensures perfect soundness, counterfactual validity, and stability, unlike previous methods that risked non-causal attributions and incomplete constraint understanding, making it a robust solution for critical satellite operations with confirmed scalability for practical batch processing.",
+                                    "source_url": "https://arxiv.org/abs/2603.00469",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-28300",
+                                    "title": "FROM GOALS TO ASPECTS, REVISITED: AN NFR PATTERN LANGUAGE FOR AGENTIC AI SYSTEMS",
+                                    "description": "<br><strong>STATUS:</strong> A new pattern language has been developed to systematically identify and modularize crosscutting concerns in agentic AI systems, aiming to improve their reliability and production readiness.<br><br><strong>INTEL:</strong> This paper extends the \"goals-to-aspects\" methodology for agentic AI, proposing 12 reusable patterns implemented via Aspect-Oriented Programming (AOP) in Rust to address issues like security, observability, reliability, and cost management. Crucially, it introduces four novel patterns directly relevant to agent-specific challenges: prompt injection detection, tool-scope sandboxing, token budget management, and action audit trails, offering a principled approach to mitigate the high failure rate of AI projects reaching production by ensuring early modularization of non-functional requirements.",
+                                    "source_url": "https://arxiv.org/abs/2603.00472",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-92206",
+                                    "title": "LIFEEVAL: A MULTIMODAL BENCHMARK FOR ASSISTIVE AI IN EGOCENTRIC DAILY LIFE TASKS",
+                                    "description": "<br><strong>STATUS:</strong> A new multimodal benchmark named LifeEval has been introduced to evaluate Multimodal Large Language Models (MLLMs) in real-time, task-oriented human-AI collaboration for daily life scenarios.<br><br><strong>INTEL:</strong> LifeEval addresses a critical gap by shifting from passive understanding to assessing interactive and adaptive real-time assistance from an egocentric, first-person perspective using continuous streams and natural dialogues. Comprising 4,075 high-quality Q&A pairs across six capability dimensions, it revealed substantial challenges for 26 state-of-the-art MLLMs in achieving timely, effective, and adaptive interaction, underscoring significant limitations in current MLLM capabilities for dynamic, human-centered real-world assistance.",
+                                    "source_url": "https://arxiv.org/abs/2603.00490",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-35460",
+                                    "title": "AI RUNTIME INFRASTRUCTURE",
+                                    "description": "<br><strong>STATUS:</strong> A new \"AI Runtime Infrastructure\" has been introduced, acting as an execution-time layer to actively observe, reason over, and intervene in AI agent behavior.<br><br><strong>INTEL:</strong> This infrastructure operates above the model and below the application, treating execution itself as an optimization surface to enhance task success, efficiency, reliability, and safety. It provides dynamic capabilities like adaptive memory management, failure detection and recovery, and policy enforcement for long-horizon agent workflows, distinguishing it from traditional model-level optimizations or passive logging systems.",
+                                    "source_url": "https://arxiv.org/abs/2603.00495",
+                                    "timestamp": "2026.03.03",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
                                     "id": "GS-29451",
                                     "title": "HUMANMCP: A HUMAN-LIKE QUERY DATASET FOR EVALUATING MCP TOOL RETRIEVAL PERFORMANCE",
                                     "description": "<br><strong>STATUS:</strong> A new large-scale dataset has been developed to address the critical gap in realistic user queries for evaluating LLM tool usage on Model Context Protocol (MCP) servers.<br><br><strong>INTEL:</strong> This dataset is crucial because current benchmarks for MCP servers, which link LLMs to thousands of open-source tools, suffer from poor generalization due to a lack of diverse, human-like user queries. The newly introduced dataset features high-quality queries generated for 2800 tools across 308 MCP servers, incorporating multiple user personas to capture varied intent, thus promising more accurate and reliable evaluation of real-world LLM-tool interaction complexity.",
@@ -1109,126 +1229,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Research identifies three fundamental mechanisms through which aggregating responses from multiple AI models expands the range of achievable outputs for system designers.<br><br><strong>INTEL:</strong> The study models aggregation within a stylized principal-agent framework, where the system designer can partially steer individual AI agents but faces limitations in prompt engineering and model capabilities. It formally proves and characterizes three distinct mechanisms\u2014feasibility expansion, support expansion, and binding set contraction\u2014as both necessary and sufficient for aggregation to expand the 'elicitability' of outputs. This work provides critical insights into when and how compound AI systems can strategically overcome inherent limitations of individual model capabilities and prompt engineering, offering a pathway to achieve a greater diversity and quality of synthesized outputs.",
                                     "source_url": "https://arxiv.org/abs/2602.21556",
                                     "timestamp": "2026.02.26",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-64475",
-                                    "title": "THE ASIR COURAGE MODEL: A PHASE-DYNAMIC FRAMEWORK FOR TRUTH TRANSITIONS IN HUMAN AND AI SYSTEMS",
-                                    "description": "<br><strong>STATUS:</strong> A new model, the ASIR (Awakened Shared Intelligence Relationship) Courage Model, has been introduced to formalize truth-disclosure as a phase-dynamic state transition.\n\n<br><strong>INTEL:</strong> The ASIR Courage Model posits that truth-disclosure occurs when facilitative forces surpass inhibitory thresholds, shifting from a suppressed (S0) to an expressed (S1) state. While initially designed for human truth-telling, this framework explicitly extends to AI systems, where suppression maps to constrained output states and structural pressure stems from competing objectives and alignment filters. This provides a unified, structural account for understanding both human silence under duress and AI preference-driven distortion, interpreting apparent shifts in AI truthfulness as dynamic consequences of interacting forces within a constrained phase space, rather than as an indication of AI intent.",
-                                    "source_url": "https://arxiv.org/abs/2602.21745",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-86897",
-                                    "title": "FEDM+: A RISK-BASED FUZZY ETHICAL DECISION MAKING FRAMEWORK WITH PRINCIPLE-LEVEL EXPLAINABILITY AND PLURALISTIC VALIDATION",
-                                    "description": "<br><strong>STATUS:</strong> A new ethical decision-making framework, fEDM+, is introduced to enhance an existing fuzzy logic-based model for ethically sensitive AI systems.<br><br><strong>INTEL:</strong> fEDM+ extends the original fEDM by adding an Explainability and Traceability Module (ETM) that links decisions to underlying moral principles and provides transparent, auditable explanations, and by replacing single-referent validation with a pluralistic semantic validation framework that evaluates decisions against multiple stakeholder perspectives, thus improving interpretability, robustness under ethical pluralism, and suitability as an oversight layer for AI.",
-                                    "source_url": "https://arxiv.org/abs/2602.21746",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-55903",
-                                    "title": "PROMPT ARCHITECTURE DETERMINES REASONING QUALITY: A VARIABLE ISOLATION STUDY ON THE CAR WASH PROBLEM",
-                                    "description": "<br><strong>STATUS:</strong> Researchers have identified a prompt architecture, specifically the STAR framework, that dramatically improves LLM performance on the challenging \"car wash problem\" reasoning benchmark.<br><br><strong>INTEL:</strong> A study using Claude 3.5 Sonnet demonstrated that implementing the STAR (Situation-Task-Action-Result) reasoning framework alone boosts accuracy from 0% to 85% on implicit physical constraint inference tasks. Further enhancements from user profile context and RAG pushed accuracy to 100%, indicating that structured reasoning scaffolds, particularly forced goal articulation, are more critical than context injection for complex reasoning in LLMs.",
-                                    "source_url": "https://arxiv.org/abs/2602.21814",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-3978",
-                                    "title": "DISTILL AND ALIGN DECOMPOSITION FOR ENHANCED CLAIM VERIFICATION",
-                                    "description": "<br><strong>STATUS:</strong> A new reinforcement learning framework significantly enhances complex claim verification by jointly optimizing subclaim decomposition and verifier alignment.\n\n<br><strong>INTEL:</strong> The proposed GRPO method integrates structured sequential reasoning, supervised finetuning on teacher-distilled exemplars, and a multi-objective reward system, resulting in an 8B decomposer that achieves 71.75% macro-F1. This approach substantially outperforms existing prompt-based and RL methods, enabling smaller language models to achieve state-of-the-art claim verification by focusing on both decomposition quality and verification accuracy.",
-                                    "source_url": "https://arxiv.org/abs/2602.21857",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-16953",
-                                    "title": "PROACTIVEMOBILE: A COMPREHENSIVE BENCHMARK FOR BOOSTING PROACTIVE INTELLIGENCE ON MOBILE DEVICES",
-                                    "description": "<br><strong>STATUS:</strong> A new comprehensive benchmark, ProactiveMobile, has been introduced to systematically advance research and evaluation of proactive intelligence in multimodal large language models (MLLMs) for mobile agents.<br><br><strong>INTEL:</strong> This benchmark aims to overcome the critical bottleneck in developing agents that autonomously anticipate user needs rather than merely executing explicit commands, a capability largely absent in current MLLMs. ProactiveMobile formalizes proactive tasks by inferring latent user intent across four on-device contextual signals and generating executable function sequences from a pool of 63 APIs, featuring over 3,660 instances across 14 real-world scenarios. Initial experiments demonstrate a low success rate even with advanced models like fine-tuned Qwen2.5-VL-7B-Instruct (19.15%) and GPT-5 (7.39%), confirming proactivity as a critical, yet learnable, competency lacking in current MLLMs.",
-                                    "source_url": "https://arxiv.org/abs/2602.21858",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-39229",
-                                    "title": "2-STEP AGENT: A FRAMEWORK FOR THE INTERACTION OF A DECISION MAKER WITH AI DECISION SUPPORT",
-                                    "description": "<br><strong>STATUS:</strong> A new computational framework demonstrates that AI-assisted decision making, particularly when based on misaligned prior beliefs, can result in worse outcomes compared to decisions made without AI support.<br><br><strong>INTEL:</strong> The \"2-Step Agent\" framework employs Bayesian causal inference to model the influence of AI predictions on human beliefs and subsequent actions, revealing a critical vulnerability where even a single misaligned prior belief can degrade decision quality. This finding underscores significant strategic implications for AI deployment across various sectors, necessitating rigorous model documentation and proper user training to mitigate potential pitfalls and ensure AI systems genuinely enhance rather than hinder decision-making processes.",
-                                    "source_url": "https://arxiv.org/abs/2602.21889",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-16842",
-                                    "title": "SEMANTIC PARTIAL GROUNDING VIA LLMS",
-                                    "description": "<br><strong>STATUS:</strong> A new method named SPG-LLM has been developed to drastically accelerate the grounding phase in classical planning by leveraging Large Language Models to pre-identify irrelevant task elements.<br><br><strong>INTEL:</strong> The critical grounding step in classical planning frequently becomes a computational bottleneck due to exponential growth; while partial grounding approaches exist, they fail to leverage textual and structural cues within PDDL descriptions. SPG-LLM addresses this by employing LLMs to analyze PDDL domain and problem files, heuristically identifying and pruning potentially irrelevant objects, actions, and predicates prior to grounding, thus achieving orders of magnitude faster grounding and comparable or superior plan costs across challenging benchmarks.",
-                                    "source_url": "https://arxiv.org/abs/2602.22067",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-3445",
-                                    "title": "LANGUAGE MODELS EXHIBIT INCONSISTENT BIASES TOWARDS ALGORITHMIC AGENTS AND HUMAN EXPERTS",
-                                    "description": "<br><strong>STATUS:</strong> LLMs exhibit inconsistent biases towards human experts and algorithmic agents, expressing trust in humans but irrationally favoring algorithms in performance-based decision tasks.<br><br><strong>INTEL:</strong> While LLMs directly rate human experts as more trustworthy, mirroring human algorithm aversion, they disproportionately choose algorithms in incentivized betting scenarios, even when the algorithm performs worse. This discrepancy suggests LLMs encode inconsistent biases, which are sensitive to task presentation formats, posing critical risks for their deployment in high-stakes decision-making and demanding robust evaluation methods for AI safety.",
-                                    "source_url": "https://arxiv.org/abs/2602.22070",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-72023",
-                                    "title": "PETRI NET RELAXATION FOR INFEASIBILITY EXPLANATION AND SEQUENTIAL TASK PLANNING",
-                                    "description": "<br><strong>STATUS:</strong> A new planning system leverages Petri net reachability relaxation to significantly improve robust invariant synthesis, efficient goal-unreachability detection, and support for plan updates.<br><br><strong>INTEL:</strong> This research directly addresses the critical challenge of dynamic planning where situations change and original plans may become infeasible, a common scenario in complex autonomous operations. The proposed system outperforms baselines by detecting up to twice as many infeasibilities and demonstrating superior performance in sequential plan updates, indicating enhanced adaptability and resilience. This capability to efficiently identify plan unreachability and provide explanations is vital for timely strategic adjustments and requirement modifications in rapidly evolving environments.",
-                                    "source_url": "https://arxiv.org/abs/2602.22094",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-50680",
-                                    "title": "INFERENCE-TIME ALIGNMENT VIA SPARSE JUNCTION STEERING",
-                                    "description": "<br><strong>STATUS:</strong> A new method called Sparse Inference time Alignment (SIA) has been proposed to efficiently steer large language models by intervening only at critical decision points.\n\n<br><strong>INTEL:</strong> SIA significantly reduces computational overhead by up to 6x compared to existing dense intervention methods, achieving superior alignment-efficiency trade-offs by intervening on only 20-80% of tokens. This sparse approach, which targets high entropy junctions, not only better preserves the model's native distribution but can also match or surpass heavily post-trained instruct models, offering more efficient and effective fine-grained control over LLM outputs.",
-                                    "source_url": "https://arxiv.org/abs/2602.21215",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-8113",
-                                    "title": "MULTILEVEL DETERMINANTS OF OVERWEIGHT AND OBESITY AMONG U.S. CHILDREN AGED 10-17: COMPARATIVE EVALUATION OF STATISTICAL AND MACHINE LEARNING APPROACHES USING THE 2021 NATIONAL SURVEY OF CHILDREN'S HEALTH",
-                                    "description": "<br><strong>STATUS:</strong> A study compared various statistical, machine learning, and deep learning models to predict overweight and obesity among U.S. adolescents.\n\n<br><strong>INTEL:</strong> The research utilized data from 18,792 children, analyzing behavioral, household, and community factors. While model discrimination ranged from 0.66 to 0.79, increased algorithmic complexity yielded limited performance gains over simpler logistic regression, with logistic regression, gradient boosting, and MLP showing the most stable balance. Critically, performance disparities across race and poverty groups persisted across all tested algorithms, indicating that the focus should be on improving data quality and equity-focused surveillance rather than just more complex models to address this public health issue.",
-                                    "source_url": "https://arxiv.org/abs/2602.20303",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-68704",
-                                    "title": "AN ARTIFICIAL INTELLIGENCE FRAMEWORK FOR END-TO-END RARE DISEASE PHENOTYPING FROM CLINICAL NOTES USING LARGE LANGUAGE MODELS",
-                                    "description": "arXiv:2602.20324v1 Announce Type: new \nAbstract: Phenotyping is fundamental to rare disease diagnosis, but manual curation of structured phenotypes from clinical notes is labor-intensive and difficult to scale. Existing artificial intelligence approaches typically optimize individual components of phenotyping but do not operationalize the full clinical workflow of extracting features from clinical text, standardizing them to Human Phenotype Ontology (HPO) terms, and prioritizing diagnostically informative HPO terms. We developed RARE-PHENIX, an end-to-end AI framework for rare disease phenotyping that integrates large language model-based phenotype extraction, ontology-grounded standardization to HPO terms, and supervised ranking of diagnostically informative phenotypes. We trained RARE-PHENIX using data from 2,671 patients across 11 Undiagnosed Diseases Network clinical sites, and externally validated it on 16,357 real-world clinical notes from Vanderbilt University Medical Center. Using clinician-curated HPO terms as the gold standard, RARE-PHENIX consistently outperformed a state-of-the-art deep learning baseline (PhenoBERT) across ontology-based similarity and precision-recall-F1 metrics in end-to-end evaluation (i.e., ontology-based similarity of 0.70 vs. 0.58). Ablation analyses demonstrated performance improvements with the addition of each module in RARE-PHENIX (extraction, standardization, and prioritization), supporting the value of modeling the full clinical phenotyping workflow. By modeling phenotyping as a clinically aligned workflow rather than a single extraction task, RARE-PHENIX provides structured, ranked phenotypes that are more concordant with clinician curation and has the potential to support human-in-the-loop rare disease diagnosis in real-world settings.",
-                                    "source_url": "https://arxiv.org/abs/2602.20324",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-47719",
-                                    "title": "DMCD: SEMANTIC-STATISTICAL FRAMEWORK FOR CAUSAL DISCOVERY",
-                                    "description": "arXiv:2602.20333v1 Announce Type: new \nAbstract: We present DMCD (DataMap Causal Discovery), a two-phase causal discovery framework that integrates LLM-based semantic drafting from variable metadata with statistical validation on observational data. In Phase I, a large language model proposes a sparse draft DAG, serving as a semantically informed prior over the space of possible causal structures. In Phase II, this draft is audited and refined via conditional independence testing, with detected discrepancies guiding targeted edge revisions.\n  We evaluate our approach on three metadata-rich real-world benchmarks spanning industrial engineering, environmental monitoring, and IT systems analysis. Across these datasets, DMCD achieves competitive or leading performance against diverse causal discovery baselines, with particularly large gains in recall and F1 score. Probing and ablation experiments suggest that these improvements arise from semantic reasoning over metadata rather than memorization of benchmark graphs. Overall, our results demonstrate that combining semantic priors with principled statistical verification yields a high-performing and practically effective approach to causal structure learning.",
-                                    "source_url": "https://arxiv.org/abs/2602.20333",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-86750",
-                                    "title": "DIFFUSION MODULATION VIA ENVIRONMENT MECHANISM MODELING FOR PLANNING",
-                                    "description": "arXiv:2602.20422v1 Announce Type: new \nAbstract: Diffusion models have shown promising capabilities in trajectory generation for planning in offline reinforcement learning (RL). However, conventional diffusion-based planning methods often fail to account for the fact that generating trajectories in RL requires unique consistency between transitions to ensure coherence in real environments. This oversight can result in considerable discrepancies between the generated trajectories and the underlying mechanisms of a real environment. To address this problem, we propose a novel diffusion-based planning method, termed as Diffusion Modulation via Environment Mechanism Modeling (DMEMM). DMEMM modulates diffusion model training by incorporating key RL environment mechanisms, particularly transition dynamics and reward functions. Experimental results demonstrate that DMEMM achieves state-of-the-art performance for planning with offline reinforcement learning.",
-                                    "source_url": "https://arxiv.org/abs/2602.20422",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-72128",
-                                    "title": "IMPLICIT INTELLIGENCE -- EVALUATING AGENTS ON WHAT USERS DON'T SAY",
-                                    "description": "<br><strong>STATUS:</strong> A new evaluation framework called \"Implicit Intelligence\" has been introduced to assess AI agents' ability to reason about implicit requirements in underspecified real-world requests.<br><br><strong>INTEL:</strong> Current AI benchmarks fail to test implicit constraints like accessibility, privacy, and contextual needs, leading to agents that are good at explicit instruction-following but poor at genuine goal-fulfillment. The \"Implicit Intelligence\" framework, using the \"Agent-as-a-World (AaW)\" simulation harness, reveals that even frontier models only achieve a 48.3% pass rate across scenarios, highlighting a substantial deficiency in bridging the gap between literal prompt-following and human-like contextual reasoning required for complex, real-world tasks.",
-                                    "source_url": "https://arxiv.org/abs/2602.20424",
-                                    "timestamp": "2026.02.25",
                                     "feed_name": "ARXIV_AI_PAPERS"
                                 }
                             ]
