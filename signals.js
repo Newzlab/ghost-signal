@@ -111,6 +111,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-85253",
+                                    "title": "US LAUNCHES PRECISION STRIKE MISSILES IN IRAN WAR IN FIRST COMBAT USE",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. military has for the first time deployed Lockheed Martin's Precision Strike Missile (PrSM) in combat against Iranian targets during Operation Epic Fury.<br><br><strong>INTEL:</strong> The PrSM, launched from HIMARS, features GPS navigation, a 250-mile range, and a fragmentation warhead, representing a new generation of long-range precision strike capability for the U.S. This combat debut is part of Operation Epic Fury against Iran, which has seen over 2,000 military targets destroyed using a wide array of advanced weapon systems, including Patriot, THAAD, and LUCAS drones, highlighting a significant escalation in technological warfare.",
+                                    "source_url": "https://www.c4isrnet.com/news/your-military/2026/03/04/us-launches-precision-strike-missiles-in-iran-war-in-first-combat-use/",
+                                    "timestamp": "2026.03.04",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-16430",
                                     "title": "NATIONAL GUARD MEMBER\u2019S INVENTION ALLOWS CYBER WARFARE TRAINING ON THE GO",
                                     "description": "<br><strong>STATUS:</strong> A portable cyber training system, ACTE, developed by Sr. Master Sgt. Taylor Gow, is being used for training by the Massachusetts Air National Guard and accepted into Spark Tank 2026.<br><br><strong>INTEL:</strong> The ACTE is a backpack-portable, affordable system designed to enable on-the-go cyber warfare training, including offensive/defensive tactics and drone image processing, thus overcoming the significant infrastructure and approval limitations of traditional cyber ranges to increase accessibility and innovation for airmen at the squadron level.",
@@ -437,6 +445,30 @@ const signalTree = {
                         {
                             "name": "DEFENSE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-9380",
+                                    "title": "DESPITE AIR DOMINANCE, US \u2018CAN\u2019T STOP EVERYTHING\u2019 IRAN FIRES, HEGSETH SAYS",
+                                    "description": "<br><strong>STATUS:</strong> Defense Secretary Pete Hegseth acknowledged that some Iranian air attacks may still hit targets despite the U.S. asserting control of Iranian airspace in the widening war.\n\n<br><strong>INTEL:</strong> The escalating conflict, which has already seen six U.S. soldiers killed in an Iranian drone strike in Kuwait and a U.S. submarine sink an Iranian warship, is now projected to last up to eight weeks or more. While the U.S. claims air superiority has allowed it to shift to gravity bombs for deeper inland strikes, the risk of further casualties is high, and the Trump administration has not ruled out deploying ground troops in Iran.",
+                                    "source_url": "https://www.defensenews.com/flashpoints/2026/03/04/despite-air-dominance-us-cant-stop-everything-iran-fires-hegseth-says/",
+                                    "timestamp": "2026.03.04",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-47138",
+                                    "title": "BOMBS HEADED FOR IRAN IN OPERATION EPIC FURY DON NAMES OF US SAILORS",
+                                    "description": "<br><strong>STATUS:</strong> U.S. sailors aboard the USS Abraham Lincoln wrote names and messages on GBU-31 bombs on February 28, prior to their use in Operation Epic Fury, as shown in recent CENTCOM photos.<br><br><strong>INTEL:</strong> This practice of personalizing munitions is a long-standing historical tradition across various militaries, dating back to ancient Greece and continuing through World War II with the \"Fat Man\" atomic bomb, up to modern conflicts in Ukraine and Jordan, serving as a psychological outlet for bravado, anger, or a primitive sense of control over weapons.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/04/bombs-headed-for-iran-in-operation-epic-fury-don-names-of-us-sailors/",
+                                    "timestamp": "2026.03.04",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-40853",
+                                    "title": "US LAUNCHES PRECISION STRIKE MISSILES IN IRAN WAR IN FIRST COMBAT USE",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. military has for the first time deployed Lockheed Martin's Precision Strike Missile (PrSM) in combat against Iranian targets during Operation Epic Fury.\n\n<br><strong>INTEL:</strong> The PrSM, launched from HIMARS, is a GPS-guided missile with a 250-mile range and a fragmentation warhead, marking a new phase in long-range precision strike capabilities. Its combat debut, alongside other advanced systems like Patriot, THAAD, and LUCAS drones, indicates a strategic focus on leveraging cutting-edge weaponry in the conflict with Iran, where over 2,000 military targets have already been destroyed.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/04/us-launches-precision-strike-missiles-in-iran-war-in-first-combat-use/",
+                                    "timestamp": "2026.03.04",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
                                 {
                                     "id": "GS-54844",
                                     "title": "FRENCH-GERMAN FIGHTER PROGRAM ON LIFE SUPPORT AS DASSAULT BLAMES AIRBUS",
@@ -810,30 +842,6 @@ const signalTree = {
                                     "title": "ARMY ORDERS $186 MILLION IN SWITCHBLADE KAMIKAZE DRONES, TANK KILLERS",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Army has placed a $186 million order with AeroVironment for bulk delivery of advanced Switchblade 600 Block 2 and 300 Block 2 loitering munitions.<br><br><strong>INTEL:</strong> This order equips the Army with next-generation \"kamikaze\" and \"tank killer\" drones, featuring AI capabilities for faster target detection, beyond-line-of-sight engagement, and, for the Switchblade 300 Block 2, an Explosively Formed Penetrator payload for enhanced armor penetration. The deployment of these adaptable systems, including backpack-portable variants for small units, reflects a strategic move to strengthen capabilities for modern, contested battlefields.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/02/26/army-orders-186-million-in-switchblade-kamikaze-drones-tank-killers/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-47043",
-                                    "title": "WHAT TO KNOW ABOUT DEFENSE PROTECTION ACT AND THE PENTAGON\u2019S ANTHROPIC ULTIMATUM",
-                                    "description": "<br><strong>STATUS:</strong> Defense Secretary Pete Hegseth issued an ultimatum to Anthropic, demanding unrestricted military access to its AI technology or face contract termination and potential invocation of the Defense Production Act (DPA).<br><br><strong>INTEL:</strong> The potential invocation of the DPA against Anthropic, a move experts deem unprecedented for compelling a company to alter its product or terms of service, highlights a deep conflict between AI developers' ethical concerns regarding autonomous weapons and mass surveillance, and the military's demand for unrestricted access to advanced AI for national security, with Anthropic being the last major AI peer to resist.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/02/26/what-to-know-about-defense-protection-act-and-the-pentagons-anthropic-ultimatum/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-83112",
-                                    "title": "UKRAINE SAYS RUSSIA LAUNCHED A MAJOR AERIAL ATTACK BEFORE KYIV\u2019S TALKS WITH US",
-                                    "description": "<br><strong>STATUS:</strong> Russia launched a massive overnight barrage of 420 drones and 39 missiles at Ukraine, targeting critical infrastructure and residential areas across eight regions.\n\n<br><strong>INTEL:</strong> This significant attack occurred just hours before US and Ukrainian envoys met in Geneva for peace talks, which remain deadlocked over Russian territorial claims, with Ukrainian President Zelenskyy pushing for a direct summit that Russia has rebuffed. US representatives Steve Witkoff and Jared Kushner are engaged in discussions regarding economic support, investment, long-term cooperation, and preparing for future trilateral negotiations and prisoner exchanges, amid Ukrainian public skepticism about the peace process and US motives.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/02/26/ukraine-says-russia-launched-a-major-aerial-attack-before-kyivs-talks-with-us/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-51585",
-                                    "title": "US SOLDIERS EARN FRENCH MEDAL FOR 2023 IRAQ RESCUE",
-                                    "description": "<br><strong>STATUS:</strong> In August 2023, French special operations forces under attack from ISIS in Iraq were rescued by New York Army National Guard helicopter crews, who were recently honored by France for their bravery.<br><br><strong>INTEL:</strong> Six American Guardsmen from the New York Army National Guard, operating CH-47 Chinooks, conducted a vital rescue mission in August 2023 near Hawija, Iraq, inserting a French quick reaction force to save approximately 35 trapped French special operators from an ISIS assault. Despite limited on-ground intelligence, their swift action contributed to the mission's success, though one French paratrooper, Sgt. Nicolas Mazier, was killed; France subsequently awarded these American aviators the National Defense Gold Medal with a Bronze star for their critical role in the multinational operation.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/02/26/us-soldiers-earn-french-medal-for-2023-iraq-rescue/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -2043,6 +2051,38 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-70201",
+                                    "title": "WINDOWS 10 KB5075039 UPDATE FIXES BROKEN RECOVERY ENVIRONMENT",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft has released an update (KB5075039) for Windows 10 to fix a critical issue preventing the Windows Recovery Environment (WinRE) from starting successfully.\n\n<br><strong>INTEL:</strong> This update addresses a flaw introduced by the October 2025 KB5068164 update, which broke WinRE functionality; affected users may need to ensure their WinRE partition is at least 256MB and potentially resize it to install the fix, highlighting a recurring challenge with post-update system recovery.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5075039-update-fixes-broken-recovery-environment/",
+                                    "timestamp": "2026.03.04",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-19817",
+                                    "title": "FAKE LASTPASS SUPPORT EMAIL THREADS TRY TO STEAL VAULT PASSWORDS",
+                                    "description": "<br><strong>STATUS:</strong> LastPass is warning its users about an active phishing campaign impersonating unauthorized account access alerts to steal credentials via fake login pages.\n\n<br><strong>INTEL:</strong> The sophisticated phishing campaign uses spoofed sender names and subject lines crafted to mimic internal LastPass support conversations regarding email address change requests, directing targets to malicious URLs like \"verify-lastpass[.]com\" to harvest credentials. While multiple unrelated sender addresses are used, the display name \"LastPass Support\" attempts to legitimize the attack; LastPass confirms its infrastructure has not been compromised and is actively working to take down the fraudulent sites.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/fake-lastpass-support-email-threads-try-to-steal-vault-passwords/",
+                                    "timestamp": "2026.03.04",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-8830",
+                                    "title": "CISCO WARNS OF MAX SEVERITY SECURE FMC FLAWS GIVING ROOT ACCESS",
+                                    "description": "<br><strong>STATUS:</strong> Cisco has released urgent security updates to patch two maximum-severity vulnerabilities in its Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management software.\n\n<br><strong>INTEL:</strong> These critical vulnerabilities, CVE-2026-20079 (authentication bypass leading to root access) and CVE-2026-20131 (remote code execution), can be exploited remotely by unauthenticated attackers, allowing them to gain complete control over affected devices. While there is currently no evidence of active exploitation, the severity of these flaws and Cisco's history of maximum-severity issues being leveraged as zero-days in the past underscore the imperative for immediate patching to prevent potential widespread compromise of critical network management infrastructure.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-max-severity-secure-fmc-flaws-giving-root-access/",
+                                    "timestamp": "2026.03.04",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-36950",
+                                    "title": "SPYWARE-GRADE CORUNA IOS EXPLOIT KIT NOW USED IN CRYPTO THEFT ATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> A newly discovered iOS exploit kit named \u201cCoruna,\u201d comprising 23 exploits and five full chains, has been actively deployed by various threat actors, including surveillance vendors, state-sponsored groups, and financially motivated cybercriminals, to target iOS devices up to version 17.2.1 for both espionage and cryptocurrency theft.\n\n<br><strong>INTEL:</strong> Google Threat Intelligence Group (GTIG) first observed Coruna in February 2025, initially linked to a surveillance vendor customer, later utilized by suspected Russian cyberspies (UNC6353) in watering hole attacks against Ukrainian users, and subsequently by financially motivated Chinese actor UNC6691 on fake gambling and crypto sites. This sophisticated kit bypasses mitigations, fingerprints devices to select appropriate exploit chains, and delivers a stager loader (PlasmaLoader) that targets cryptocurrency wallet apps like MetaMask and Exodus to steal recovery phrases and sensitive data, employing AES encryption and a DGA for C2 resilience; its broad proliferation suggests an active \"second-hand\" market for advanced zero-day exploits.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/spyware-grade-coruna-ios-exploit-kit-now-used-in-crypto-theft-attacks/",
+                                    "timestamp": "2026.03.04",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-37020",
                                     "title": "HACKER MASS-MAILS HUNGERRUSH EXTORTION EMAILS TO RESTAURANT PATRONS",
                                     "description": "<br><strong>STATUS:</strong> Threat actors are extorting HungerRush, a restaurant technology provider, by directly emailing its customers with claims of compromised data to pressure the company into responding.\n\n<br><strong>INTEL:</strong> The attackers leveraged HungerRush's legitimate email infrastructure, authenticated via SPF/DKIM/DMARC, to send extortion emails from the company's domain, claiming access to millions of sensitive customer and restaurant data records. Although HungerRush has not confirmed a breach, an alleged infostealer infection on an employee's device in 2025 (likely a typo) may have compromised corporate credentials, potentially providing an entry point for the claimed data theft and necessitating customer vigilance against phishing attempts.",
@@ -2407,38 +2447,6 @@ const signalTree = {
                                     "title": "CHINESE CYBERSPIES BREACHED DOZENS OF TELECOM FIRMS, GOVT AGENCIES",
                                     "description": "<br><strong>STATUS:</strong> Google, Mandiant, and partners disrupted a global espionage campaign attributed to a suspected Chinese threat actor (UNC2814) that used a new 'GRIDTIDE' backdoor to hide malicious C2 traffic via Google Sheets API calls.\n\n<br><strong>INTEL:</strong> The campaign, active since at least 2023, impacted 53 organizations in 42 countries, primarily targeting telecom and government networks. The GRIDTIDE backdoor uses a hardcoded private key to authenticate to a Google Service Account, performs host reconnaissance, and abuses the Google Sheets API for evasive command-and-control, polling cell A1 for instructions and using other cells for output and exfiltration. Its URL-safe base64 encoding scheme helps evade detection, and it was found on systems containing sensitive PII. Despite comprehensive disruption actions, Google expects UNC2814 to resume activity using new infrastructure.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/chinese-cyberspies-breached-dozens-of-telecom-firms-govt-agencies/",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-92997",
-                                    "title": "MARQUIS SUES SONICWALL OVER BACKUP BREACH THAT LED TO RANSOMWARE ATTACK",
-                                    "description": "<br><strong>STATUS:</strong> Marquis Software Solutions has filed a lawsuit against SonicWall, alleging gross negligence and misrepresentation led to a ransomware attack on Marquis, disrupting operations at 74 U.S. banks.\n\n<br><strong>INTEL:</strong> The ransomware attack on Marquis's network was facilitated by a SonicWall cloud backup service vulnerability, introduced via an API code change, which exposed firewall configuration data, encrypted credentials, and MFA scratch codes. This security flaw allowed state-sponsored hackers to bypass Marquis's security controls, leading to the theft of sensitive personal and financial information and subsequently prompting Marquis to seek substantial monetary damages from SonicWall.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/marquis-sues-sonicwall-over-backup-breach-that-led-to-ransomware-attack/",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-23733",
-                                    "title": "THE OPENCLAW HYPE: ANALYSIS OF CHATTER FROM OPEN-SOURCE DEEP AND DARK WEB",
-                                    "description": "<br><strong>STATUS:</strong> OpenClaw, an AI automation framework, has rapidly drawn attention for its significant supply-chain security risks and identified critical vulnerabilities, though widespread mass exploitation is not yet confirmed.<br><br><strong>INTEL:</strong> The framework's modular \"skills\" architecture, allowing user-installable plugins to execute commands, presents a substantial attack surface, with critical vulnerabilities including one-click RCE (CVE-2026-25253), malicious skills on ClawHub delivering malware, lack of sandboxing, and prompt injection susceptibility. While these threats are widely discussed among security researchers and fringe groups, telemetry indicates the risk primarily involves early-stage experimentation rather than fully weaponized, mass exploitation.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/the-openclaw-hype-analysis-of-chatter-from-open-source-deep-and-dark-web/",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-56408",
-                                    "title": "ZYXEL WARNS OF CRITICAL RCE FLAW AFFECTING OVER A DOZEN ROUTERS",
-                                    "description": "<br><strong>STATUS:</strong> Zyxel has released security updates to patch a critical vulnerability affecting over a dozen router models, allowing unauthenticated remote command execution. <br><br><strong>INTEL:</strong> This command injection flaw (CVE-2025-13942) found in the UPnP function of various Zyxel networking devices can be exploited via maliciously crafted UPnP SOAP requests; however, successful exploitation is limited as it requires both UPnP and WAN access to be enabled, with WAN access being disabled by default. Zyxel also addressed other high-severity vulnerabilities and strongly advises users to install patches or replace legacy, unpatched end-of-life devices, as Zyxel products are frequently targeted by attackers and CISA tracks multiple actively exploited Zyxel vulnerabilities.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/zyxel-warns-of-critical-rce-flaw-affecting-over-a-dozen-routers/",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-6385",
-                                    "title": "US SANCTIONS RUSSIAN BROKER FOR BUYING STOLEN ZERO-DAY EXPLOITS",
-                                    "description": "<br><strong>STATUS:</strong> The U.S. Treasury Department has sanctioned Russian exploit broker Operation Zero and its owner for acquiring stolen U.S. government hacking tools from a former defense contractor executive.\n\n<br><strong>INTEL:</strong> These sanctions mark the first use of the Protecting American Intellectual Property Act (PAIPA) and coincide with the sentencing of Peter Williams, a former general manager at L3Harris's Trenchant unit, to 87 months in prison for stealing eight zero-day exploits\u2014intended exclusively for the U.S. government\u2014and selling them to Operation Zero for $1.3 million in cryptocurrency. Operation Zero, which counts the Russian government among its clients and actively solicits exploits for U.S.-built software, had its U.S.-held assets frozen, with further sanctions applied to associated individuals and front companies.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/us-sanctions-russian-exploit-broker-for-buying-stolen-zero-days/",
                                     "timestamp": "2026.02.25",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
