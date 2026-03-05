@@ -454,6 +454,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-90312",
+                                    "title": "ITALY, ALLIES SEND WARSHIPS TO PROTECT EUROPE\u2019S SOUTHEASTERN EDGE FROM IRAN STRIKES",
+                                    "description": "<br><strong>STATUS:</strong> Multiple European nations are deploying naval assets to Cyprus to protect the island from escalating Iranian attacks, with Greece having already sent vessels.\n\n<br><strong>INTEL:</strong> The deployments involve a range of naval vessels from Italy, France, Spain, the UK, and the Netherlands, including a French carrier strike group and advanced frigates, though some ships face readiness or logistical delays. These forces aim to provide protection and air defense for Cyprus, which has been targeted by Iranian drones, operating under a cooperative command structure as the Iran war threatens to expand regionally. Concurrently, Italy, the UK, France, and Germany are also planning to send air defense systems to protect Gulf states.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/05/italy-allies-send-warships-to-protect-europes-southeastern-edge-from-iran-strikes/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-20429",
                                     "title": "FRANCE, GERMANY CREATE PANEL TO ADVANCE SHARED NUCLEAR DETERRENCE PLANS",
                                     "description": "<br><strong>STATUS:</strong> France and Germany have established a high-level nuclear steering group to advance European nuclear deterrence, driven by concerns over long-term U.S. security reliability.<br><br><strong>INTEL:</strong> This new bilateral framework will facilitate doctrinal dialogue and strategic cooperation on conventional, missile defense, and French nuclear capabilities. France, through President Macron, announced significant shifts to its nuclear doctrine, an increased stockpile, and the option to extend its nuclear deterrence across Europe, with Germany agreeing to participate in French nuclear exercises. While explicitly stating it adds to, not replaces, NATO's deterrence, the initiative carries tacit U.S. backing, aligning with a strategic shift where the U.S. encourages Europe to take primary responsibility for its conventional defense to focus on China. The group will also address European shortfalls in non-nuclear capabilities like early warning, air defense, and deep precision strike.",
@@ -842,14 +850,6 @@ const signalTree = {
                                     "title": "ANTHROPIC \u2018CANNOT IN GOOD CONSCIENCE ACCEDE\u2019 TO PENTAGON\u2019S DEMANDS, CEO SAYS",
                                     "description": "<br><strong>STATUS:</strong> Anthropic is refusing the Pentagon's demands for wider use of its AI technology, Claude, citing concerns over mass surveillance and autonomous weapons, leading to a standoff with a looming deadline and potential contract termination.\n\n<br><br><strong>INTEL:</strong> Anthropic's refusal is based on its policies preventing its AI models from being used for mass surveillance or fully autonomous weapons, a position the Pentagon rejects, insisting on unfettered use while threatening contract termination, designation as a supply chain risk, or invoking the Defense Production Act. This standoff, where Anthropic remains the sole major AI company to resist supplying its tech to a new U.S. military network, highlights critical debates over AI governance in national security contexts and has drawn congressional criticism regarding the Pentagon's aggressive tactics.",
                                     "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/02/26/anthropic-cannot-in-good-conscience-accede-to-pentagons-demands-ceo-says/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-26318",
-                                    "title": "LAST-DITCH EFFORT IN GENEVA TO AVERT WAR BETWEEN US, IRAN WRAPS WITH \u2018SIGNIFICANT PROGRESS,\u2019 OMANI OFFICIAL SAYS",
-                                    "description": "<br><strong>STATUS:</strong> U.S. and Iranian officials held talks in Geneva, amidst a significant American military buildup, to avert war, with mediators reporting \"significant progress\" towards future discussions despite no immediate breakthrough.<br><br><strong>INTEL:</strong> The talks occurred against the backdrop of the largest U.S. military buildup in the region since the Iraq War, yet the U.S. delegation's demand for Iran to destroy all three nuclear sites directly contradicts President Trump's prior emphatic declaration that these facilities were \"completely and totally obliterated\" months ago; this discrepancy, coupled with current intelligence suggesting Iran is weeks away from industrial-grade bomb-making material and its refusal to discuss ballistic missiles, underscores the volatile and complex nature of the standoff.",
-                                    "source_url": "https://www.defensenews.com/global/mideast-africa/2026/02/26/last-ditch-effort-in-geneva-to-avert-war-between-us-iran-wraps-with-significant-progress-omani-official-says/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1279,6 +1279,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-2550",
+                                    "title": "UNLOCKING AI IN SPACE: THE CASE FOR GREATER INDUSTRY AND SPACE AGENCY COLLABORATION",
+                                    "description": "<br><strong>STATUS:</strong> AI is poised to transform space exploration, but significant engineering hurdles require intense collaboration between hardware developers and space agencies to create resilient, space-rated solutions.\n\n<br><strong>INTEL:</strong> Making AI-powered space exploration a reality demands hardware engineered for extreme longevity, fault tolerance, and radiation hardening, vastly different from commercial AI chips. This necessitates deep public-private partnerships, where AI innovators co-design and validate specialized silicon with space agencies like ESA, leveraging their expertise to ensure robust, autonomous operations critical for national strategic interests in space.",
+                                    "source_url": "https://spacenews.com/unlocking-ai-in-space-the-case-for-greater-industry-and-space-agency-collaboration/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-87271",
+                                    "title": "UK ANNOUNCES \u00a3500 MILLION PACKAGE FOR INDUSTRIAL GROWTH AND NATIONAL SECURITY",
+                                    "description": "<br><strong>STATUS:</strong> The United Kingdom has announced a new \u00a3500 million space funding package, reprioritizing its investment towards areas of economic growth and national security within the space sector, alongside a departmental restructuring.\n\n<br><strong>INTEL:</strong> This strategic shift, driven by a need for sustainable spending, will concentrate efforts on satellite communications, assured access to space, in-orbit servicing, assembly and manufacturing, and space domain awareness. It follows previous policy signals like reduced ESA commitments and the cancellation of pure science projects, while also addressing setbacks in the domestic launch sector by focusing on Scottish spaceports, all coinciding with the UK Space Agency's integration into the Department for Science, Innovation and Technology.",
+                                    "source_url": "https://spacenews.com/uk-announces-500-million-package-for-industrial-growth-and-national-security/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-41675",
                                     "title": "VAST RAISES $500 MILLION FOR COMMERCIAL SPACE STATION DEVELOPMENT",
                                     "description": "<br><strong>STATUS:</strong> Commercial space station developer Vast has secured $500 million in its initial significant external investment round.<br><br><strong>INTEL:</strong> This substantial funding, comprising $300 million in Series A equity and $200 million in debt, will accelerate Vast's development of its Haven-1 and Haven-2 commercial space stations, targeting NASA's Commercial Low Earth Orbit Destinations (CLD) program. The company's strategic focus is on securing initial revenue from government and established space agency contracts, rather than nascent LEO economy markets, underscoring a pragmatic, stepping-stone approach to profitability amidst delays in NASA's CLD program and a competitive commercial space station landscape.",
@@ -1659,22 +1675,6 @@ const signalTree = {
                                     "title": "GOLDEN DOME TO REQUIRE UNPRECEDENTED COORDINATION BETWEEN U.S. COMBATANT COMMANDS",
                                     "description": "<br><strong>STATUS:</strong> Three major U.S. combatant commands are deeply collaborating to shape the requirements for the Pentagon\u2019s Golden Dome layered missile defense initiative.\n\n<br><strong>INTEL:</strong> The Golden Dome initiative aims to establish a unified, multi-layered U.S. missile defense architecture against ballistic, hypersonic, and cruise missile threats, featuring significant space-based assets. The close involvement of Space Command, Northern Command, and Strategic Command emphasizes the critical need for interoperability and cross-domain coordination, especially given the complex maneuverability of hypersonic missiles that blur traditional command boundaries and necessitate seamless integration of ground, air, and space assets for homeland defense.",
                                     "source_url": "https://spacenews.com/golden-dome-to-require-unprecedented-coordination-between-u-s-combatant-commands/",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-84945",
-                                    "title": "VALVE MALFUNCTION BLAMED FOR FAILURE OF INDIAN SATELLITE TO RAISE ITS ORBIT",
-                                    "description": "<br><strong>STATUS:</strong> India's space agency, ISRO, confirmed a pyrotechnic valve failure caused the NVS-02 navigation satellite to be stranded in a transfer orbit, preventing it from fulfilling its mission.<br><br><strong>INTEL:</strong> An Apex Committee investigation revealed the valve failed to open due to disengaged connector contacts, preventing oxidizer from reaching the engine. This NVS-02 incident marks one of three ISRO failures within a year, including two PSLV launch malfunctions, prompting a national expert committee to probe potential organizational issues, although ISRO has already implemented and tested system redundancy improvements.",
-                                    "source_url": "https://spacenews.com/valve-malfunction-blamed-for-failure-of-indian-satellite-to-raise-its-orbit/",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-28968",
-                                    "title": "THE FUTURE OF ASTRONOMY IS BOTH ON EARTH AND IN SPACE",
-                                    "description": "<br><strong>STATUS:</strong> Leading astronomers reject the idea of moving all astronomy to space as a solution to satellite interference, arguing it misunderstands the field and avoids the core problem.\n\n<br><strong>INTEL:</strong> While acknowledging the value of space telescopes, astronomers emphasize that ground-based observatories offer unique, evolving capabilities critical for current and future research, which cannot be replicated in orbit due to cost, technical limitations, and scale. They assert that satellite interference is a result of policy and engineering choices, not inevitability, highlighting the need for responsible space stewardship and mischaracterizing current legislative efforts to protect dark and quiet skies.",
-                                    "source_url": "https://spacenews.com/the-future-of-astronomy-is-both-on-earth-and-in-space/",
                                     "timestamp": "2026.02.25",
                                     "feed_name": "SPACE_NEWS"
                                 }
@@ -2083,6 +2083,22 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-54965",
+                                    "title": "GOOGLE SAYS 90 ZERO-DAYS WERE EXPLOITED IN ATTACKS LAST YEAR",
+                                    "description": "<br><strong>STATUS:</strong> Google Threat Intelligence Group (GTIG) reported 90 zero-day vulnerabilities were actively exploited in 2025, marking a 15% increase from the previous year.\n\n<br><strong>INTEL:</strong> Nearly half of the exploited zero-days targeted enterprise software and appliances, with operating systems, security appliances, and networking infrastructure being the most vulnerable. Notably, commercial spyware vendors emerged as the largest users of zero-day exploits for the first time, surpassing state-sponsored groups, while financially motivated actors also significantly increased their zero-day activity. GTIG anticipates that the advent of AI tools will likely automate vulnerability discovery and accelerate exploit development, suggesting that the high rate of zero-day exploitation is expected to continue into 2026.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/google-says-90-zero-days-were-exploited-in-attacks-last-year/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-53782",
+                                    "title": "2026 BROWSER DATA REVEALS MAJOR ENTERPRISE SECURITY BLIND SPOTS",
+                                    "description": "<br><strong>STATUS:</strong> The browser has rapidly become the most critical and least protected control point in the enterprise due to the mainstream adoption of AI-native tools and embedded copilots.\n\n<br><strong>INTEL:</strong> 2025 marked a tipping point where AI-native browsers transitioned into mainstream business platforms, fundamentally changing the browser's role from a simple gateway to a complex execution layer for AI-driven work, including reading data, generating content, and automating tasks. This shift has created a significant security blind spot, as traditional enterprise security architectures, including DLP solutions, have not evolved to inspect typed inputs, pasted data, or file uploads occurring directly within browser sessions, leading to widespread, unmonitored exposure of sensitive data as employees integrate various AI tools, often via personal accounts, into their daily workflows.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/2026-browser-data-reveals-major-enterprise-security-blind-spots/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-60170",
                                     "title": "POLICE DISMANTLES ONLINE GAMBLING RING EXPLOITING UKRAINIAN WOMEN",
                                     "description": "<br><strong>STATUS:</strong> Spanish and Ukrainian law enforcement dismantled a criminal ring that exploited war-displaced Ukrainian women to run an online gambling scheme, laundering nearly \u20ac4.75 million.\n\n<br><strong>INTEL:</strong> The criminal network targeted highly vulnerable women from war-torn Ukrainian areas, financing their travel to Spain to open bank accounts under temporary protection status, which were then immediately controlled by the criminals. These accounts were used in a sophisticated, automated fraud operation employing bots and over 5,000 stolen identities from 17 nationalities to place thousands of low-odds bets on online gambling platforms, generating seemingly legitimate profits. A joint investigation, starting in October 2023, led to 12 arrests in Spain, the seizure of numerous digital devices, vehicles, and SIM cards, and the freezing of over \u20ac2 million in properties and \u20ac470,000 in bank accounts across 11 countries.",
@@ -2463,22 +2479,6 @@ const signalTree = {
                                     "title": "RANSOMWARE PAYMENT RATE DROPS TO RECORD LOW AS ATTACKS SURGE",
                                     "description": "<br><strong>STATUS:</strong> Ransomware victim payment rates have plummeted to an all-time low of 28% in 2025, despite a 50% year-over-year increase in claimed attacks.<br><br><strong>INTEL:</strong> Although fewer victims are paying, total on-chain ransomware payments for 2025 are projected to approach or exceed $900 million, largely due to a 368% surge in median ransom payments, indicating victims are willing to pay more for data deletion. This trend is attributed to improved incident response, regulatory scrutiny, international law enforcement actions, and increased market fragmentation with 85 active extortion groups. While Initial Access Broker (IAB) activity remains a key enabler and a potential leading indicator for future attacks, the average price for network access has dropped significantly, suggesting automation, AI tooling, and an oversupply from info-stealer logs are impacting the industry. Experts believe ransomware is adapting its tactics to extract more value from a decreasing pool of paying victims, indicating a phase of evolution rather than decline.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-as-attacks-surge/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-78848",
-                                    "title": "RANSOMWARE PAYMENT RATE DROPS TO RECORD LOW AS ATTACKS SURGE",
-                                    "description": "<br><strong>STATUS:</strong> Ransomware victim payment rates reached an all-time low of 28% in 2025, despite a significant increase in the number of claimed attacks.\n\n<br><strong>INTEL:</strong> This four-year downward trend is attributed to improved incident response, regulatory scrutiny, and law enforcement actions, yet the median ransom payment surged by 368% to $59,556 as victims increasingly pay higher amounts to prevent data exfiltration. While the ransomware economy is adapting with more active extortion groups (85) and lower initial access broker prices due to automation, the overall scale, sophistication, and real-world impact of attacks continue to grow, with total on-chain payments projected to exceed $900 million in 2025, primarily targeting developed economies.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-despite-attack-surge/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-59622",
-                                    "title": "MICROSOFT EXPANDS WINDOWS RESTORE TO MORE ENTERPRISE DEVICES",
-                                    "description": "<br><strong>STATUS:</strong> Microsoft has expanded its Windows Backup for Organizations' \"first sign-in restore experience\" to support more enterprise environments, allowing users to restore settings and apps on new Windows 11 devices.\n\n<br><strong>INTEL:</strong> This update significantly broadens the utility of Windows Backup for Organizations by extending support beyond Microsoft Entra-joined devices to include hybrid-managed environments, multi-user setups, and Windows 365 Cloud PCs, thereby simplifying Windows 11 migration and hardware refreshes for a wider range of enterprise scenarios; IT administrators will retain full control via existing Intune or Group Policy, with general availability beginning February 24, 2026.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
