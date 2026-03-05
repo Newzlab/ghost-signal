@@ -1287,6 +1287,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-94140",
+                                    "title": "INFINITE ORBITS ACQUIRES UK STARTUP LUNASA TO EXPAND SATELLITE SERVICING CAPABILITIES",
+                                    "description": "<br><strong>STATUS:</strong> In-orbit services provider Infinite Orbits has acquired London-based Lunasa, marking a strategic expansion into the United Kingdom and strengthening its spacecraft rendezvous and life extension capabilities.<br><br><strong>INTEL:</strong> This acquisition strengthens Infinite Orbits' technological foundation by combining its GEO-focused satellite life extension (Endurance service) with Lunasa's LEO rendezvous expertise, laboratories, and simulation capabilities, positioning the company as a leading non-US provider in the sector. Strategically, it expands Infinite Orbits' commercial footprint across Europe, enhances its ability to enter national defense markets by localizing expertise in the UK, and capitalizes on the UK government's increasing support for in-orbit servicing technologies.",
+                                    "source_url": "https://spacenews.com/infinite-orbits-acquires-uk-startup-lunasa-to-expand-satellite-servicing-capabilities/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-56950",
                                     "title": "TEXAS AS A STRATEGIC SPACE HUB",
                                     "description": "<br><strong>STATUS:</strong> The latest episode of Space Minds features a panel moderated by Jeff Foust at AIAA AscendxTexas, discussing Texas's role and competitive strategies within the global space economy.<br><br><strong>INTEL:</strong> Space Minds is a new weekly audio and video podcast from SpaceNews, released every Thursday, that focuses on inspiring leaders, technologies, and opportunities in the space sector through interviews with scientists, founders, and experts. This episode's specific focus on regional economic contributions and strategic discussions among industry leaders highlights SpaceNews's effort to provide timely insights into the accelerating demand and global competition shaping the space industry.",
@@ -1677,20 +1685,28 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/space-force-halts-vulcan-missions-pending-investigation-into-solid-rocket-issue/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-29700",
-                                    "title": "SERAPHIM CLOSES SECOND EARLY-STAGE SPACE FUND ABOVE $100 MILLION TARGET",
-                                    "description": "<br><strong>STATUS:</strong> Seraphim Space has successfully completed fundraising for its second early-stage venture fund, exceeding its $100 million target to back young space technology startups.\n\n<br><strong>INTEL:</strong> The SSV II fund has attracted new strategic investors including Saudi Arabsat and UK government-backed entities, and has already invested in 17 companies, including those in small geostationary satellites and IoT constellations. This reflects a strategic shift towards dual-use technologies for defense, security, and national resilience, as well as software-driven, data-intensive companies leveraging AI and machine learning, with space technology increasingly seen as foundational infrastructure for AI and digital systems.",
-                                    "source_url": "https://spacenews.com/seraphim-closes-second-early-stage-space-fund-above-100-million-target/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-37869",
+                                    "title": "NASA WALLOPS SUPPORTS FIRST ROCKET LAB HASTE LAUNCH OF 2026",
+                                    "description": "<br><strong>STATUS:</strong> A Rocket Lab HASTE suborbital launch, named Cassowary Vex, was successfully conducted on February 27, 2026, from Virginia, in support of a hypersonic test platform.<br><br><strong>INTEL:</strong> The mission facilitated a hypersonic test platform for the Department of War\u2019s Defense Innovation Unit, indicating ongoing advancements in critical national security technologies. NASA\u2019s Wallops Flight Facility provided crucial support services, including tracking, telemetry, and range safety, demonstrating its integral role in enabling and securing high-priority defense initiatives for both commercial and governmental entities.",
+                                    "source_url": "https://www.nasa.gov/image-article/nasa-wallops-supports-first-rocket-lab-haste-launch-of-2026/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-22359",
+                                    "title": "TOTAL LUNAR ECLIPSE",
+                                    "description": "<br><strong>STATUS:</strong> A total lunar eclipse, known as a \"blood moon,\" is set to occur over New Orleans on March 3, 2026.<br><br><strong>INTEL:</strong> This astronomical phenomenon arises when Earth aligns between the Moon and Sun, causing sunlight to filter through Earth\u2019s atmosphere, where air molecules scatter blue light, allowing only the remaining red-spectrum light to reflect onto the lunar surface, creating its distinctive red glow.",
+                                    "source_url": "https://www.nasa.gov/image-article/total-lunar-eclipse/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-61995",
                                     "title": "A LITTLE TOWN WITH A LONG NAME",
@@ -2091,6 +2107,22 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-40599",
+                                    "title": "WORDPRESS MEMBERSHIP PLUGIN BUG EXPLOITED TO CREATE ADMIN ACCOUNTS",
+                                    "description": "<br><strong>STATUS:</strong> Hackers are actively exploiting a critical vulnerability in the User Registration & Membership WordPress plugin to create administrator accounts without authentication.<br><br><strong>INTEL:</strong> Tracked as CVE-2026-1492 with a critical severity rating of 9.8, this flaw allows unauthenticated users to gain full administrative access on over 60,000 affected WordPress sites running plugin versions through 5.1.2, enabling data theft and malware distribution; immediate updates to version 5.1.3 or higher, or temporary disabling of the plugin, are strongly advised.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/wordpress-membership-plugin-bug-exploited-to-create-admin-accounts/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-24511",
+                                    "title": "FBI ARRESTS SUSPECT LINKED TO $46M CRYPTO THEFT FROM US MARSHALS",
+                                    "description": "<br><strong>STATUS:</strong> John Daghita, a U.S. government contractor's son, was arrested in Saint Martin for allegedly stealing over $46 million in cryptocurrency from the U.S. Marshals Service.\n\n<br><strong>INTEL:</strong> Daghita, son of the CEO of CMDSS which manages seized digital assets for the USMS (including Bitfinex hack funds), exploited his access to steal the funds. The theft was uncovered by blockchain investigator ZachXBT, who traced wallet movements after Daghita inadvertently exposed himself during a Telegram dispute and subsequently taunted ZachXBT. The arrest was a joint operation between the FBI and France's GIGN, with physical assets like cash, hard drives, and security keys also seized.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/fbi-arrests-suspect-linked-to-46m-crypto-theft-from-us-marshals/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-54965",
                                     "title": "GOOGLE SAYS 90 ZERO-DAYS WERE EXPLOITED IN ATTACKS LAST YEAR",
                                     "description": "<br><strong>STATUS:</strong> Google Threat Intelligence Group (GTIG) reported 90 zero-day vulnerabilities were actively exploited in 2025, marking a 15% increase from the previous year.\n\n<br><strong>INTEL:</strong> Nearly half of the exploited zero-days targeted enterprise software and appliances, with operating systems, security appliances, and networking infrastructure being the most vulnerable. Notably, commercial spyware vendors emerged as the largest users of zero-day exploits for the first time, surpassing state-sponsored groups, while financially motivated actors also significantly increased their zero-day activity. GTIG anticipates that the advent of AI tools will likely automate vulnerability discovery and accelerate exploit development, suggesting that the high rate of zero-day exploitation is expected to continue into 2026.",
@@ -2471,22 +2503,6 @@ const signalTree = {
                                     "title": "CRITICAL JUNIPER NETWORKS PTX FLAW ALLOWS FULL ROUTER TAKEOVER",
                                     "description": "<br><strong>STATUS:</strong> A critical unauthenticated remote code execution vulnerability (CVE-2026-21902) has been discovered in Juniper Junos OS Evolved on PTX Series routers, allowing full device control.\n\n<br><strong>INTEL:</strong> This high-severity flaw affects PTX Series routers, commonly used by internet service providers, telecommunication services, and cloud network applications, allowing root-level compromise without authentication due to an incorrectly exposed 'On-Box Anomaly Detection' framework. While Juniper Networks has released patches for versions 25.4R1-S1-EVO, 25.4R2-EVO, and 26.2R1-EVO, and is not aware of active exploitation, the strategic importance of these devices necessitates immediate patching or the implementation of recommended mitigations like firewall restrictions or service disabling.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/critical-juniper-networks-ptx-flaw-allows-full-router-takeover/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-7196",
-                                    "title": "OLYMPIQUE MARSEILLE CONFIRMS 'ATTEMPTED' CYBERATTACK AFTER DATA LEAK",
-                                    "description": "<br><strong>STATUS:</strong> French football club Olympique de Marseille has confirmed a cyberattack following a threat actor's claims of breaching its systems and leaking sample data.\n\n<br><br><strong>INTEL:</strong> While Olympique de Marseille states the attack was quickly contained with no banking details or passwords compromised, the threat actor claims to have stolen a database containing personal information for 400,000 individuals and details for over 2,050 Drupal CMS accounts, including staff. The club has reported the incident to the French data protection authority (CNIL) and advised supporters to be vigilant against phishing attempts, contextualizing the attack within a broader resurgence of cyberattacks targeting large organizations and the football sector.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/olympique-marseille-football-club-confirms-cyberattack-after-data-leak/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-70552",
-                                    "title": "RANSOMWARE PAYMENT RATE DROPS TO RECORD LOW AS ATTACKS SURGE",
-                                    "description": "<br><strong>STATUS:</strong> Ransomware victim payment rates have plummeted to an all-time low of 28% in 2025, despite a 50% year-over-year increase in claimed attacks.<br><br><strong>INTEL:</strong> Although fewer victims are paying, total on-chain ransomware payments for 2025 are projected to approach or exceed $900 million, largely due to a 368% surge in median ransom payments, indicating victims are willing to pay more for data deletion. This trend is attributed to improved incident response, regulatory scrutiny, international law enforcement actions, and increased market fragmentation with 85 active extortion groups. While Initial Access Broker (IAB) activity remains a key enabler and a potential leading indicator for future attacks, the average price for network access has dropped significantly, suggesting automation, AI tooling, and an oversupply from info-stealer logs are impacting the industry. Experts believe ransomware is adapting its tactics to extract more value from a decreasing pool of paying victims, indicating a phase of evolution rather than decline.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/ransomware-payment-rate-drops-to-record-low-as-attacks-surge/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
