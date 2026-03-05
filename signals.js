@@ -454,6 +454,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-20429",
+                                    "title": "FRANCE, GERMANY CREATE PANEL TO ADVANCE SHARED NUCLEAR DETERRENCE PLANS",
+                                    "description": "<br><strong>STATUS:</strong> France and Germany have established a high-level nuclear steering group to advance European nuclear deterrence, driven by concerns over long-term U.S. security reliability.<br><br><strong>INTEL:</strong> This new bilateral framework will facilitate doctrinal dialogue and strategic cooperation on conventional, missile defense, and French nuclear capabilities. France, through President Macron, announced significant shifts to its nuclear doctrine, an increased stockpile, and the option to extend its nuclear deterrence across Europe, with Germany agreeing to participate in French nuclear exercises. While explicitly stating it adds to, not replaces, NATO's deterrence, the initiative carries tacit U.S. backing, aligning with a strategic shift where the U.S. encourages Europe to take primary responsibility for its conventional defense to focus on China. The group will also address European shortfalls in non-nuclear capabilities like early warning, air defense, and deep precision strike.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/05/france-germany-create-panel-to-advance-shared-nuclear-deterrence-plans/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-54556",
                                     "title": "NOVEL INTERCEPTOR DRONES BEND AIR-DEFENSE ECONOMICS IN UKRAINE\u2019S FAVOR",
                                     "description": "<br><strong>STATUS:</strong> Ukraine is increasingly utilizing cost-effective interceptor drones to destroy Russian aerial targets, with this method now accounting for one in three downed assets nationwide and over 70% of Shahed downings over Kyiv in February.<br><br><strong>INTEL:</strong> This strategic shift is driven by the prohibitively high cost of traditional missile defenses against inexpensive Russian Shahed drones, with interceptor drones providing a significantly more economical solution (approx. $3k-$5k per interceptor vs. $3M for a Patriot missile). Ukraine has rapidly scaled production and deployment, destroying over 1,500 Russian UAVs last month, though Russia is actively countering these efforts with tactics like decoy drones and armed or IR-equipped attack drones.",
@@ -842,14 +850,6 @@ const signalTree = {
                                     "title": "LAST-DITCH EFFORT IN GENEVA TO AVERT WAR BETWEEN US, IRAN WRAPS WITH \u2018SIGNIFICANT PROGRESS,\u2019 OMANI OFFICIAL SAYS",
                                     "description": "<br><strong>STATUS:</strong> U.S. and Iranian officials held talks in Geneva, amidst a significant American military buildup, to avert war, with mediators reporting \"significant progress\" towards future discussions despite no immediate breakthrough.<br><br><strong>INTEL:</strong> The talks occurred against the backdrop of the largest U.S. military buildup in the region since the Iraq War, yet the U.S. delegation's demand for Iran to destroy all three nuclear sites directly contradicts President Trump's prior emphatic declaration that these facilities were \"completely and totally obliterated\" months ago; this discrepancy, coupled with current intelligence suggesting Iran is weeks away from industrial-grade bomb-making material and its refusal to discuss ballistic missiles, underscores the volatile and complex nature of the standoff.",
                                     "source_url": "https://www.defensenews.com/global/mideast-africa/2026/02/26/last-ditch-effort-in-geneva-to-avert-war-between-us-iran-wraps-with-significant-progress-omani-official-says/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-75700",
-                                    "title": "SOCOM ON THE HUNT FOR \u2018ACOUSTIC RAINBOW\u2019 TECH FOR SILENCING DRONES",
-                                    "description": "<br><strong>STATUS:</strong> U.S. Special Operations Command (SOCOM) is pursuing \"acoustic rainbow emitters\" (ARE) for its tactical drones to achieve acoustic stealth by redirecting and filtering sound.\n\n<br><strong>INTEL:</strong> This initiative aims to neutralize the tactical disadvantage of noisy drones, which currently alert targets and are vulnerable to acoustic sensors, enabling the deployment of truly silent attack drones. The ARE technology works by spatially decomposing and redirecting sound waves, much like light in a visual rainbow, and filtering frequencies to be inaudible, with a goal of over 50% acoustic signature reduction using lightweight, passive devices.",
-                                    "source_url": "https://www.defensenews.com/unmanned/2026/02/26/socom-on-the-hunt-for-acoustic-rainbow-tech-for-silencing-drones/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1279,6 +1279,30 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-41675",
+                                    "title": "VAST RAISES $500 MILLION FOR COMMERCIAL SPACE STATION DEVELOPMENT",
+                                    "description": "<br><strong>STATUS:</strong> Commercial space station developer Vast has secured $500 million in its initial significant external investment round.<br><br><strong>INTEL:</strong> This substantial funding, comprising $300 million in Series A equity and $200 million in debt, will accelerate Vast's development of its Haven-1 and Haven-2 commercial space stations, targeting NASA's Commercial Low Earth Orbit Destinations (CLD) program. The company's strategic focus is on securing initial revenue from government and established space agency contracts, rather than nascent LEO economy markets, underscoring a pragmatic, stepping-stone approach to profitability amidst delays in NASA's CLD program and a competitive commercial space station landscape.",
+                                    "source_url": "https://spacenews.com/vast-raises-500-million-for-commercial-space-station-development/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-26375",
+                                    "title": "SIERRA SPACE RAISES $550 MILLION IN SERIES C FUNDING",
+                                    "description": "<br><strong>STATUS:</strong> Sierra Space secured $550 million in Series C funding, valuing the company at $8 billion, to bolster its national security space initiatives.<br><br><strong>INTEL:</strong> This funding, led by LuminArx Capital Management, and recent appointment of defense executive Dan Jablonsky as CEO, signals Sierra Space's strategic pivot towards military space programs. The company, initially known for its Dream Chaser spacecraft, is now actively pursuing defense contracts like missile-tracking satellites for the Space Development Agency, aligning with the Pentagon's \"commercial-first\" approach to defense procurement and leveraging increased government reliance on private sector space solutions.",
+                                    "source_url": "https://spacenews.com/sierra-space-raises-550-million-in-series-c-funding/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-77119",
+                                    "title": "JARED ISAACMAN ON REBUILDING, ARTEMIS AND WHAT HE\u2019S LEARNED DURING HIS FIRST MONTHS AS NASA ADMINISTRATOR",
+                                    "description": "<br><strong>STATUS:</strong> New NASA Administrator Jared Isaacman has identified a critical loss and outsourcing of the agency's core competencies, prompting a directive to rebuild internal expertise while aiming for accelerated lunar missions.<br><br><strong>INTEL:</strong> Upon taking office, Administrator Isaacman rapidly assessed NASA, discovering that approximately 75% of its workforce comprises contractors, leading to a significant degradation or outsourcing of vital capabilities in areas like rocket launching and mission control. Driven by a presidential executive order mandating a human return to the moon by 2028 and a lunar outpost by 2030, Isaacman is actively implementing a workforce directive to internalize key functions and rebuild essential expertise, strengthening NASA's independence and mission execution.",
+                                    "source_url": "https://spacenews.com/jared-isaacman-on-rebuilding-artemis-and-what-hes-learned-during-his-first-months-as-nasa-administrator/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-80370",
                                     "title": "THIRD KAIROS LAUNCH FAILS",
                                     "description": "<br><strong>STATUS:</strong> A Japanese Kairos rocket failed its third launch attempt shortly after liftoff, leading to the activation of its flight termination system.\n\n<br><strong>INTEL:</strong> This marks the third consecutive failure for the Kairos rocket, raising significant concerns about its future and the viability of its operator, Space One, despite investor backing and a recent defense contract. The incident further exacerbates a challenging period for Japan's domestic launch industry, which has recently experienced failures with its flagship H3 and smaller Epsilon rockets, prompting the acquisition of foreign launch services.",
@@ -1652,30 +1676,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Leading astronomers reject the idea of moving all astronomy to space as a solution to satellite interference, arguing it misunderstands the field and avoids the core problem.\n\n<br><strong>INTEL:</strong> While acknowledging the value of space telescopes, astronomers emphasize that ground-based observatories offer unique, evolving capabilities critical for current and future research, which cannot be replicated in orbit due to cost, technical limitations, and scale. They assert that satellite interference is a result of policy and engineering choices, not inevitability, highlighting the need for responsible space stewardship and mischaracterizing current legislative efforts to protect dark and quiet skies.",
                                     "source_url": "https://spacenews.com/the-future-of-astronomy-is-both-on-earth-and-in-space/",
                                     "timestamp": "2026.02.25",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-27443",
-                                    "title": "IN SPACE TRAFFIC COORDINATION, THE BIGGEST CHALLENGE MAY BE COORDINATION",
-                                    "description": "<br><strong>STATUS:</strong> The increasing number of satellites in orbit is creating significant challenges in coordinating collision avoidance, requiring United Nations intervention on multiple occasions.<br><br><strong>INTEL:</strong> The primary issue is the lack of readily available contact information for many satellite operators, particularly smaller entities or those in countries like China and North Korea, making inter-operator communication difficult and raising global space safety concerns; this underscores the urgent need for a trusted, international coordination mechanism, despite resource limitations at the UN and the partial efficacy of existing systems like TraCSS which depend on operator participation.",
-                                    "source_url": "https://spacenews.com/in-space-traffic-coordination-the-biggest-challenge-may-be-coordination/",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-78156",
-                                    "title": "OQ TECHNOLOGY SECURES $30 MILLION FROM EUROPE FOR SATELLITE-TO-SMARTPHONE EXPANSION",
-                                    "description": "<br><strong>STATUS:</strong> Europe\u2019s investment arm is lending OQ Technology 25 million euros to expand its direct-to-device satellite constellation, bolstering the continent's competitive stance against U.S.-led efforts.\n\n<br><strong>INTEL:</strong> The European Investment Bank (EIB) debt will fund over 20 new satellites, including OQ Technology's first C-band dedicated smartphone connectivity satellite, aimed at improving coverage and bandwidth for both IoT and direct-to-device services. This strategic financing, backed by the European Commission's InvestEU program, is intended to enhance Europe's competitiveness, resilience, and autonomy in the rapidly growing space sector, where U.S. operators like SpaceX and AST SpaceMobile currently hold an early lead in the D2D market.",
-                                    "source_url": "https://spacenews.com/oq-technology-secures-30-million-from-europe-for-satellite-to-smartphone-expansion/",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-99213",
-                                    "title": "A BANNER YEAR FOR MILITARY SPACE FUNDING\u2014 WITH AN UNCLEAR PATH BEYOND",
-                                    "description": "<br><strong>STATUS:</strong> A new analysis estimates U.S. Space Force funding will approach $42 billion and total Pentagon space spending will reach $57.7 billion in fiscal 2026, largely driven by a recent reconciliation package.\n\n<br><strong>INTEL:</strong> This significant increase includes $13.8 billion from the \"One Big Beautiful Bill Act\" primarily directed to the Space Force to support the \"Golden Dome\" layered missile defense architecture, a multi-orbit network of space-based sensors and potential interceptors against ballistic and hypersonic threats. The Missile Defense Agency's full $12 billion budget is now included in the broader space portfolio due to its alignment with Golden Dome, while the Space Force's dedicated \"space sensing\" portfolio accounts for $11.6 billion. Notably, Congress did not fund Tranche 3 of the Space Development Agency's crucial data transport layer, creating uncertainty for the future of resilient space data networks.",
-                                    "source_url": "https://spacenews.com/a-banner-year-for-military-space-funding-with-an-unclear-path-beyond/",
-                                    "timestamp": "2026.02.24",
                                     "feed_name": "SPACE_NEWS"
                                 }
                             ]
@@ -2083,6 +2083,22 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-60170",
+                                    "title": "POLICE DISMANTLES ONLINE GAMBLING RING EXPLOITING UKRAINIAN WOMEN",
+                                    "description": "<br><strong>STATUS:</strong> Spanish and Ukrainian law enforcement dismantled a criminal ring that exploited war-displaced Ukrainian women to run an online gambling scheme, laundering nearly \u20ac4.75 million.\n\n<br><strong>INTEL:</strong> The criminal network targeted highly vulnerable women from war-torn Ukrainian areas, financing their travel to Spain to open bank accounts under temporary protection status, which were then immediately controlled by the criminals. These accounts were used in a sophisticated, automated fraud operation employing bots and over 5,000 stolen identities from 17 nationalities to place thousands of low-odds bets on online gambling platforms, generating seemingly legitimate profits. A joint investigation, starting in October 2023, led to 12 arrests in Spain, the seizure of numerous digital devices, vehicles, and SIM cards, and the freezing of over \u20ac2 million in properties and \u20ac470,000 in bank accounts across 11 countries.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/police-dismantles-online-gambling-ring-exploiting-ukrainian-women/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-98206",
+                                    "title": "CISCO FLAGS MORE SD-WAN FLAWS AS ACTIVELY EXPLOITED IN ATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> Cisco has warned administrators about two actively exploited high-severity security flaws in Catalyst SD-WAN Manager, urging immediate upgrades.\n\n<br><strong>INTEL:</strong> Beyond the flagged Catalyst SD-WAN Manager flaws (CVE-2026-20128, CVE-2026-20122), Cisco is grappling with a critical SD-WAN zero-day (CVE-2026-20127) exploited since 2023, which allowed attackers to add rogue network peers and led to CISA Emergency Directive 26-03. Furthermore, recent patches address maximum-severity authentication bypass and RCE flaws in Secure Firewall Management Center (FMC), allowing unauthenticated remote root access. The overall pattern suggests persistent and sophisticated targeting of core Cisco network infrastructure.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/cisco-flags-more-sd-wan-flaws-as-actively-exploited-in-attacks/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-43477",
                                     "title": "PHOBOS RANSOMWARE ADMIN PLEADS GUILTY TO WIRE FRAUD CONSPIRACY",
                                     "description": "<br><strong>STATUS:</strong> A Russian national pleaded guilty to wire fraud conspiracy for administering the Phobos ransomware-as-a-service operation, which extorted over $39 million from hundreds of global victims.<br><br><strong>INTEL:</strong> Evgenii Ptitsyn oversaw the Phobos RaaS operation, linked to the Crysis family, by selling access to criminal affiliates on darknet forums since November 2020 under aliases \"derxan\" and \"zimmermanx.\" These affiliates breached over 1,000 public and private entities, encrypting data and exfiltrating files, while paying Ptitsyn a per-deployment fee for decryption keys and a share of the ransom payments, often through his cryptocurrency wallet. His extradition and guilty plea are a key result of \"Operation Aether,\" a Europol-coordinated international effort that has also led to infrastructure disruptions, server seizures, and the arrest of multiple affiliates across 14 countries.",
@@ -2464,22 +2480,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Microsoft has expanded its Windows Backup for Organizations' \"first sign-in restore experience\" to support more enterprise environments, allowing users to restore settings and apps on new Windows 11 devices.\n\n<br><strong>INTEL:</strong> This update significantly broadens the utility of Windows Backup for Organizations by extending support beyond Microsoft Entra-joined devices to include hybrid-managed environments, multi-user setups, and Windows 365 Cloud PCs, thereby simplifying Windows 11 migration and hardware refreshes for a wider range of enterprise scenarios; IT administrators will retain full control via existing Intune or Group Policy, with general availability beginning February 24, 2026.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/microsoft-expands-windows-restore-to-more-enterprise-devices/",
                                     "timestamp": "2026.02.26",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-79660",
-                                    "title": "NEW YORK SUES VALVE FOR PROMOTING ILLEGAL GAMBLING VIA GAME LOOT BOXES",
-                                    "description": "<br><strong>STATUS:</strong> The New York Attorney General has sued Valve Corporation, alleging its game loot boxes facilitate illegal gambling among children and teenagers.\n\n<br><strong>INTEL:</strong> The lawsuit claims Valve's loot box features in games like Counter-Strike 2, Team Fortress 2, and Dota 2 violate state gambling laws by offering random virtual prizes exchangeable for real money, similar to slot machines. Attorney General Letitia James argues Valve deliberately skews odds for rare items, contributing to a $4.3 billion market value for these items, and seeks to permanently ban these features in New York, compel Valve to return profits, and impose fines due to the significant risk of gambling addiction and harm to minors.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/gaming/new-york-sues-valve-for-promoting-illegal-gambling-via-game-loot-boxes/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-86239",
-                                    "title": "MEDICAL DEVICE MAKER UFP TECHNOLOGIES WARNS OF DATA STOLEN IN CYBERATTACK",
-                                    "description": "<br><strong>STATUS:</strong> UFP Technologies, a U.S. medical device manufacturer, disclosed a cybersecurity incident involving data theft and potential destruction from its IT systems, though primary operations remain intact.\n\n<br><strong>INTEL:</strong> The incident, detected on February 14, impacted many IT systems including billing and label making, with preliminary investigation suggesting data was stolen or destroyed, hinting at a ransomware or wiper attack. While the company believes the threat actor has been removed and does not foresee a material impact on operations, the potential exfiltration of personal information is still under investigation.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/medical-device-maker-ufp-technologies-warns-of-data-stolen-in-cyberattack/",
-                                    "timestamp": "2026.02.25",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
