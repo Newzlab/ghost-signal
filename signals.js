@@ -462,6 +462,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-39126",
+                                    "title": "NORAD INTERCEPTS 2 RUSSIAN MARITIME PATROL AIRCRAFT NEAR ALASKA, CANADA",
+                                    "description": "<br><strong>STATUS:</strong> NORAD detected and intercepted two Russian Tu-142 maritime patrol aircraft operating within the Alaskan and Canadian Air Defense Identification Zones, which remained in international airspace and were not considered a threat.<br><br><strong>INTEL:</strong> This event represents routine Russian military activity in international airspace adjacent to North America, consistent with a similar interception last month. NORAD's rapid deployment of U.S. and Canadian fighter jets, supported by tankers and AWACS, demonstrates its continuous capability to identify and monitor aircraft in the ADIZ, which extends into international airspace for national security.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/05/norad-intercepts-2-russian-maritime-patrol-aircraft-near-alaska-canada/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-81808",
                                     "title": "US AND MIDEAST COUNTRIES SEEK KYIV\u2019S DRONE EXPERTISE AS RUSSIA-UKRAINE TALKS PUT ON ICE",
                                     "description": "<br><strong>STATUS:</strong> The United States and its Middle Eastern allies are actively seeking Ukraine's proven expertise and low-cost drone defense technology to counter Iran's Shahed drones.\n\n<br><strong>INTEL:</strong> Ukraine has developed inexpensive, battle-tested drone interceptors and countermeasures against the Shahed drones, honed during extensive use by Russia, which it is willing to export to bolster its diplomatic efforts against the Russian invasion. This effort highlights the interconnectedness of global conflicts, with Ukraine linking Russia and Iran as allies where Iran supplies weaponry while Russia assists its defense industry, underscoring a strategic shift in international air defense.",
@@ -850,14 +858,6 @@ const signalTree = {
                                     "title": "GERMANY, AUSTRIA COMPLETE \u2018ALPINE TRIANGLE\u2019 FOR AIRSPACE SURVEILLANCE",
                                     "description": "<br><strong>STATUS:</strong> Germany and Austria have ratified a mutual aerial security treaty, completing a series of similar agreements among the three German-speaking Alpine nations.<br><br><strong>INTEL:</strong> This treaty allows both countries to pursue non-military airspace violations, such as illegal manned or unmanned aircraft, across their shared border without prior approval, while explicitly prohibiting the use of weapons in partner airspace. The agreement, mirroring existing pacts with Switzerland, addresses risks from unidentified aircraft in complicated border regions and reflects the military neutrality of Austria and Switzerland, both non-NATO members who have nonetheless joined the European Sky Shield initiative.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/02/27/germany-austria-complete-alpine-triangle-for-airspace-surveillance/",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-74260",
-                                    "title": "THE GOOD, THE BAD AND THE UGLY \u2014 INSIDE EUROPE\u2019S RACE TO SUPPLANT US DEFENSE ENABLERS",
-                                    "description": "<br><strong>STATUS:</strong> Europe is projected to require until the early 2030s to acquire sufficient independent defense capabilities to deter or defeat Russia without relying on U.S. support.\n\n<br><br><strong>INTEL:</strong> This extended timeline is largely due to European deficiencies in critical high-end capabilities like command and control, satellite intelligence, and deep strike, with most current systems unable to reach significant Russian targets. While air and missile defenses are a 5-10 year endeavor, deep strike capabilities are deemed crucial for deterrence, especially given Russia's potential for near-term limited aggression, and several European nations are actively pursuing collaborative and individual projects to bridge this gap within five years.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/02/27/the-good-the-bad-and-the-ugly-inside-europes-race-to-supplant-us-defense-enablers/",
                                     "timestamp": "2026.02.27",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1287,6 +1287,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-5297",
+                                    "title": "TERRAN ORBITAL APPOINTS KWON PARK AS SENIOR DIRECTOR OF MANUFACTURING OPERATIONS",
+                                    "description": "<br><strong>STATUS:</strong> Terran Orbital, a Lockheed Martin Company, has appointed Kwon Park as its new senior director of manufacturing operations.<br><br><strong>INTEL:</strong> Park brings over two decades of experience in high-precision aerospace and defense manufacturing, with a proven track record of scaling production from prototypes to full-rate, managing large-scale operations, and implementing Lean manufacturing and AS9100 quality systems. His appointment is crucial for Terran Orbital's strategic goal of accelerating higher-rate satellite production, improving manufacturing throughput, and increasing overall capacity to meet demand from its commercial, civil, and government clientele, including those involved in national security and deep-space exploration.",
+                                    "source_url": "https://spacenews.com/terran-orbital-appoints-kwon-park-as-senior-director-of-manufacturing-operations/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-62448",
+                                    "title": "GENERAL GALACTIC AIMS TO BECOME \u201cTHE GALAXY\u2019S ENERGY AND LOGISTICS COMPANY\u201d",
+                                    "description": "<br><strong>STATUS:</strong> Southern California startup General Galactic will launch a 500-kilogram satellite in October on SpaceX Transporter-18 to demonstrate its novel multimode chemical and electric water-based propulsion system.\n\n<br><br><strong>INTEL:</strong> The Genesis platform, which uses water electrolysis to power both quick-maneuver chemical engines and long-duration Hall thrusters, aims to provide unparalleled satellite agility for commercial, civil, and military applications, including capabilities like \"sustained maneuver\" and \"rapid maneuverability\" sought by the Space Force. This initial demonstration is a foundational step towards General Galactic's broader vision of becoming a major space logistics and energy provider by eventually deploying propellant factories on the moon and Mars, utilizing the same scalable water electrolysis technology to enable extensive refueling operations beyond Earth.",
+                                    "source_url": "https://spacenews.com/general-galactic-aims-to-become-the-galaxys-energy-logistics-company/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-94140",
                                     "title": "INFINITE ORBITS ACQUIRES UK STARTUP LUNASA TO EXPAND SATELLITE SERVICING CAPABILITIES",
                                     "description": "<br><strong>STATUS:</strong> In-orbit services provider Infinite Orbits has acquired London-based Lunasa, marking a strategic expansion into the United Kingdom and strengthening its spacecraft rendezvous and life extension capabilities.<br><br><strong>INTEL:</strong> This acquisition strengthens Infinite Orbits' technological foundation by combining its GEO-focused satellite life extension (Endurance service) with Lunasa's LEO rendezvous expertise, laboratories, and simulation capabilities, positioning the company as a leading non-US provider in the sector. Strategically, it expands Infinite Orbits' commercial footprint across Europe, enhances its ability to enter national defense markets by localizing expertise in the UK, and capitalizes on the UK government's increasing support for in-orbit servicing technologies.",
@@ -1667,22 +1683,6 @@ const signalTree = {
                                     "title": "CHINA\u2019S TIANWEN-2 PROBE OPERATING NORMALLY ON APPROACH TO ASTEROID",
                                     "description": "<br><strong>STATUS:</strong> China\u2019s Tianwen-2 spacecraft is operating normally on its heliocentric transfer trajectory toward the near-Earth asteroid 469219 Kamo\u02bboalewa for sampling and sample return, as confirmed by a rare official update.\n\n<br><strong>INTEL:</strong> Launched May 28, 2025, Tianwen-2 is tasked with studying and collecting samples from Kamo\u02bboalewa, with delivery to Earth by late November 2027, before proceeding to main-belt comet 311P. The mission is technically challenging due to Kamo\u02bboalewa's microgravity environment, unknown shape, and rapid rotation, necessitating the use of three redundant sampling techniques and a suite of 11 science payloads. Crucially, the collected samples could resolve whether the asteroid originated from the Moon or the main asteroid belt.",
                                     "source_url": "https://spacenews.com/chinas-tianwen-2-probe-operating-normally-on-approach-to-asteroid/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-46515",
-                                    "title": "BOWERSOX TO RETIRE FROM NASA",
-                                    "description": "<br><strong>STATUS:</strong> Ken Bowersox, NASA\u2019s associate administrator for space operations, is retiring immediately following a critical report on the agency's handling of the Starliner crewed test flight.\n\n<br><strong>INTEL:</strong> Bowersox's departure, coming days after a report slammed NASA's \"unprofessional conduct\" and \"insufficient senior leadership engagement\" regarding the problematic Starliner mission, strongly indicates accountability for the \"culture of mistrust\" within the Commercial Crew Program, which he oversaw.",
-                                    "source_url": "https://spacenews.com/bowersox-to-retire-from-nasa/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-25284",
-                                    "title": "SPACE FORCE HALTS VULCAN MISSIONS PENDING INVESTIGATION INTO SOLID ROCKET ISSUE",
-                                    "description": "<br><strong>STATUS:</strong> The U.S. Space Force has paused all national security missions on United Launch Alliance\u2019s (ULA) Vulcan rocket pending an investigation into a performance anomaly during its February 12 launch.<br><br><strong>INTEL:</strong> This pause follows an observed irregular plume from a solid rocket booster on the recent USSF-87 mission, reminiscent of a previous booster nozzle separation issue in October 2024 caused by a manufacturing defect. This delay is a significant setback for ULA's efforts to increase its flight rate and replace the Atlas 5, placing the Space Force in a position of temporary sole reliance on SpaceX for national security space missions.",
-                                    "source_url": "https://spacenews.com/space-force-halts-vulcan-missions-pending-investigation-into-solid-rocket-issue/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "SPACE_NEWS"
                                 }
@@ -2107,6 +2107,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-38988",
+                                    "title": "WIKIPEDIA HIT BY SELF-PROPAGATING JAVASCRIPT WORM THAT VANDALIZED PAGES",
+                                    "description": "<br><strong>STATUS:</strong> The Wikimedia Foundation suffered a security incident involving a self-propagating JavaScript worm that vandalized pages and modified user scripts across multiple wikis.<br><br><strong>INTEL:</strong> The incident originated from a malicious JavaScript script hosted on Russian Wikipedia, `User:Ololoshka562/test.js`, which was apparently executed by a Wikimedia employee account during testing, though intent is unknown. This worm self-propagated by injecting malicious JavaScript loaders into logged-in users' `common.js` files and the global `MediaWiki:Common.js`, leveraging editor session privileges to spread. The attack resulted in approximately 3,996 page modifications and 85 user `common.js` files being replaced, prompting temporary editing restrictions and a cleanup operation by Wikimedia engineers to revert changes and suppress malicious content.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/wikipedia-hit-by-self-propagating-javascript-worm-that-vandalized-pages/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-40599",
                                     "title": "WORDPRESS MEMBERSHIP PLUGIN BUG EXPLOITED TO CREATE ADMIN ACCOUNTS",
                                     "description": "<br><strong>STATUS:</strong> Hackers are actively exploiting a critical vulnerability in the User Registration & Membership WordPress plugin to create administrator accounts without authentication.<br><br><strong>INTEL:</strong> Tracked as CVE-2026-1492 with a critical severity rating of 9.8, this flaw allows unauthenticated users to gain full administrative access on over 60,000 affected WordPress sites running plugin versions through 5.1.2, enabling data theft and malware distribution; immediate updates to version 5.1.3 or higher, or temporary disabling of the plugin, are strongly advised.",
@@ -2495,14 +2503,6 @@ const signalTree = {
                                     "title": "EUROPEAN DYI CHAIN MANOMANO DATA BREACH IMPACTS 38 MILLION CUSTOMERS",
                                     "description": "<br><strong>STATUS:</strong> DIY store chain ManoMano is notifying 38 million customers of a data breach discovered in January 2026, stemming from a compromised third-party customer service provider.\n<br><br><strong>INTEL:</strong> The breach originated from a subcontractor, likely a Tunis-based customer support service provider impacted by a Zendesk compromise, with a hacker alias \"Indra\" claiming responsibility for 37.8 million user accounts on a forum. While exposed data varies per individual and no account passwords or system modifications occurred, ManoMano has secured its environment, revoked the subcontractor's access, and notified relevant authorities and customers to be vigilant against phishing.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/european-dyi-chain-manomano-data-breach-impacts-38-million-customers/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-35144",
-                                    "title": "CRITICAL JUNIPER NETWORKS PTX FLAW ALLOWS FULL ROUTER TAKEOVER",
-                                    "description": "<br><strong>STATUS:</strong> A critical unauthenticated remote code execution vulnerability (CVE-2026-21902) has been discovered in Juniper Junos OS Evolved on PTX Series routers, allowing full device control.\n\n<br><strong>INTEL:</strong> This high-severity flaw affects PTX Series routers, commonly used by internet service providers, telecommunication services, and cloud network applications, allowing root-level compromise without authentication due to an incorrectly exposed 'On-Box Anomaly Detection' framework. While Juniper Networks has released patches for versions 25.4R1-S1-EVO, 25.4R2-EVO, and 26.2R1-EVO, and is not aware of active exploitation, the strategic importance of these devices necessitates immediate patching or the implementation of recommended mitigations like firewall restrictions or service disabling.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/critical-juniper-networks-ptx-flaw-allows-full-router-takeover/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
