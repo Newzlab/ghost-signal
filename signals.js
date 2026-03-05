@@ -111,6 +111,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-29841",
+                                    "title": "US AND MIDEAST COUNTRIES SEEK KYIV\u2019S DRONE EXPERTISE AS RUSSIA-UKRAINE TALKS PUT ON ICE",
+                                    "description": "<br><strong>STATUS:</strong> The United States and its Middle Eastern allies are seeking Ukraine's proven expertise in countering Iran's Shahed drones.\n\n<br><strong>INTEL:</strong> Ukraine has developed cost-effective interceptor drones and strategies to combat Iranian Shahed drones, having faced tens of thousands in its conflict with Russia. This assistance is conditional on not weakening Ukraine's own defenses and enhancing its diplomatic leverage against Russia, with Ukrainian officials viewing the conflicts involving Russia and Iran as interconnected, highlighting the evolving nature of air defense and global instability.",
+                                    "source_url": "https://www.c4isrnet.com/industry/techwatch/2026/03/05/us-and-mideast-countries-seek-kyivs-drone-expertise-as-russia-ukraine-talks-put-on-ice/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-66366",
                                     "title": "NOVEL INTERCEPTOR DRONES BEND AIR-DEFENSE ECONOMICS IN UKRAINE\u2019S FAVOR",
                                     "description": "<br><strong>STATUS:</strong> Ukraine is increasingly relying on low-cost interceptor drones to successfully destroy a significant portion of Russian aerial targets, especially Shahed drones, fundamentally altering the cost-exchange dynamics of air defense.<br><br><strong>INTEL:</strong> Faced with a massive cost disparity using expensive missiles against cheap Russian drones, Ukraine innovated a \"drone-on-drone\" defense system, with interceptors costing $3,000-$5,000 now credited with downing over 70% of Shaheds in February over Kyiv. This strategy allows Ukraine to outthink rather than outspend, rapidly producing these drones as a crucial air defense layer, though Russia is already adapting with countermeasures like rear-facing infrared spotlights, air-to-air missiles, and decoy drones to exhaust interceptors.",
@@ -453,6 +461,14 @@ const signalTree = {
                         {
                             "name": "DEFENSE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-81808",
+                                    "title": "US AND MIDEAST COUNTRIES SEEK KYIV\u2019S DRONE EXPERTISE AS RUSSIA-UKRAINE TALKS PUT ON ICE",
+                                    "description": "<br><strong>STATUS:</strong> The United States and its Middle Eastern allies are actively seeking Ukraine's proven expertise and low-cost drone defense technology to counter Iran's Shahed drones.\n\n<br><strong>INTEL:</strong> Ukraine has developed inexpensive, battle-tested drone interceptors and countermeasures against the Shahed drones, honed during extensive use by Russia, which it is willing to export to bolster its diplomatic efforts against the Russian invasion. This effort highlights the interconnectedness of global conflicts, with Ukraine linking Russia and Iran as allies where Iran supplies weaponry while Russia assists its defense industry, underscoring a strategic shift in international air defense.",
+                                    "source_url": "https://www.defensenews.com/industry/techwatch/2026/03/05/us-and-mideast-countries-seek-kyivs-drone-expertise-as-russia-ukraine-talks-put-on-ice/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
                                 {
                                     "id": "GS-90312",
                                     "title": "ITALY, ALLIES SEND WARSHIPS TO PROTECT EUROPE\u2019S SOUTHEASTERN EDGE FROM IRAN STRIKES",
@@ -843,14 +859,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Europe is projected to require until the early 2030s to acquire sufficient independent defense capabilities to deter or defeat Russia without relying on U.S. support.\n\n<br><br><strong>INTEL:</strong> This extended timeline is largely due to European deficiencies in critical high-end capabilities like command and control, satellite intelligence, and deep strike, with most current systems unable to reach significant Russian targets. While air and missile defenses are a 5-10 year endeavor, deep strike capabilities are deemed crucial for deterrence, especially given Russia's potential for near-term limited aggression, and several European nations are actively pursuing collaborative and individual projects to bridge this gap within five years.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/02/27/the-good-the-bad-and-the-ugly-inside-europes-race-to-supplant-us-defense-enablers/",
                                     "timestamp": "2026.02.27",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-1568",
-                                    "title": "ANTHROPIC \u2018CANNOT IN GOOD CONSCIENCE ACCEDE\u2019 TO PENTAGON\u2019S DEMANDS, CEO SAYS",
-                                    "description": "<br><strong>STATUS:</strong> Anthropic is refusing the Pentagon's demands for wider use of its AI technology, Claude, citing concerns over mass surveillance and autonomous weapons, leading to a standoff with a looming deadline and potential contract termination.\n\n<br><br><strong>INTEL:</strong> Anthropic's refusal is based on its policies preventing its AI models from being used for mass surveillance or fully autonomous weapons, a position the Pentagon rejects, insisting on unfettered use while threatening contract termination, designation as a supply chain risk, or invoking the Defense Production Act. This standoff, where Anthropic remains the sole major AI company to resist supplying its tech to a new U.S. military network, highlights critical debates over AI governance in national security contexts and has drawn congressional criticism regarding the Pentagon's aggressive tactics.",
-                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/02/26/anthropic-cannot-in-good-conscience-accede-to-pentagons-demands-ceo-says/",
-                                    "timestamp": "2026.02.26",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
                             ]
@@ -1279,6 +1287,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-56950",
+                                    "title": "TEXAS AS A STRATEGIC SPACE HUB",
+                                    "description": "<br><strong>STATUS:</strong> The latest episode of Space Minds features a panel moderated by Jeff Foust at AIAA AscendxTexas, discussing Texas's role and competitive strategies within the global space economy.<br><br><strong>INTEL:</strong> Space Minds is a new weekly audio and video podcast from SpaceNews, released every Thursday, that focuses on inspiring leaders, technologies, and opportunities in the space sector through interviews with scientists, founders, and experts. This episode's specific focus on regional economic contributions and strategic discussions among industry leaders highlights SpaceNews's effort to provide timely insights into the accelerating demand and global competition shaping the space industry.",
+                                    "source_url": "https://spacenews.com/texas-as-a-strategic-space-hub/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-2550",
                                     "title": "UNLOCKING AI IN SPACE: THE CASE FOR GREATER INDUSTRY AND SPACE AGENCY COLLABORATION",
                                     "description": "<br><strong>STATUS:</strong> AI is poised to transform space exploration, but significant engineering hurdles require intense collaboration between hardware developers and space agencies to create resilient, space-rated solutions.\n\n<br><strong>INTEL:</strong> Making AI-powered space exploration a reality demands hardware engineered for extreme longevity, fault tolerance, and radiation hardening, vastly different from commercial AI chips. This necessitates deep public-private partnerships, where AI innovators co-design and validate specialized silicon with space agencies like ESA, leveraging their expertise to ensure robust, autonomous operations critical for national strategic interests in space.",
@@ -1668,14 +1684,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Seraphim Space has successfully completed fundraising for its second early-stage venture fund, exceeding its $100 million target to back young space technology startups.\n\n<br><strong>INTEL:</strong> The SSV II fund has attracted new strategic investors including Saudi Arabsat and UK government-backed entities, and has already invested in 17 companies, including those in small geostationary satellites and IoT constellations. This reflects a strategic shift towards dual-use technologies for defense, security, and national resilience, as well as software-driven, data-intensive companies leveraging AI and machine learning, with space technology increasingly seen as foundational infrastructure for AI and digital systems.",
                                     "source_url": "https://spacenews.com/seraphim-closes-second-early-stage-space-fund-above-100-million-target/",
                                     "timestamp": "2026.02.26",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-68127",
-                                    "title": "GOLDEN DOME TO REQUIRE UNPRECEDENTED COORDINATION BETWEEN U.S. COMBATANT COMMANDS",
-                                    "description": "<br><strong>STATUS:</strong> Three major U.S. combatant commands are deeply collaborating to shape the requirements for the Pentagon\u2019s Golden Dome layered missile defense initiative.\n\n<br><strong>INTEL:</strong> The Golden Dome initiative aims to establish a unified, multi-layered U.S. missile defense architecture against ballistic, hypersonic, and cruise missile threats, featuring significant space-based assets. The close involvement of Space Command, Northern Command, and Strategic Command emphasizes the critical need for interoperability and cross-domain coordination, especially given the complex maneuverability of hypersonic missiles that blur traditional command boundaries and necessitate seamless integration of ground, air, and space assets for homeland defense.",
-                                    "source_url": "https://spacenews.com/golden-dome-to-require-unprecedented-coordination-between-u-s-combatant-commands/",
-                                    "timestamp": "2026.02.25",
                                     "feed_name": "SPACE_NEWS"
                                 }
                             ]
