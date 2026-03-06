@@ -872,6 +872,126 @@ const signalTree = {
                             "name": "ARXIV_AI_PAPERS",
                             "articles": [
                                 {
+                                    "id": "GS-4811",
+                                    "title": "SKILLNET: CREATE, EVALUATE, AND CONNECT AI SKILLS",
+                                    "description": "<br><strong>STATUS:</strong> SkillNet, an open infrastructure, has been introduced to enable AI agents to systematically accumulate and transfer skills, addressing the current limitation of fragmented learning.\n\n<br><strong>INTEL:</strong> SkillNet provides a unified ontology for creating, evaluating across multiple dimensions (Safety, Cost-awareness, etc.), and organizing AI skills from heterogeneous sources, preventing agents from repeatedly rediscovering solutions. Integrating a 200,000-skill repository and a Python toolkit, it has demonstrated significant improvements in agent performance, boosting average rewards by 40% and reducing execution steps by 30%, thus establishing a robust foundation for durable AI mastery.",
+                                    "source_url": "https://arxiv.org/abs/2603.04448",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-53853",
+                                    "title": "CAPABILITY THRESHOLDS AND MANUFACTURING TOPOLOGY: HOW EMBODIED INTELLIGENCE TRIGGERS PHASE TRANSITIONS IN ECONOMIC GEOGRAPHY",
+                                    "description": "<br><strong>STATUS:</strong> Embodied intelligence is predicted to fundamentally transform manufacturing by breaking the century-old Fordist paradigm, triggering a phase transition in economic geography.\n\n<br><strong>INTEL:</strong> This transformation extends beyond efficiency gains, redefining where factories are built, how supply chains operate, and viable production scales by enabling demand-proximal micro-manufacturing. A critical strategic implication is the emergence of \"Machine Climate Advantage,\" where optimal factory locations are determined by machine-favorable environmental conditions (e.g., low humidity, thermal stability) rather than human labor pools, leading to a production geography with no historical precedent.",
+                                    "source_url": "https://arxiv.org/abs/2603.04457",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-46842",
+                                    "title": "PROGRESSIVE REFINEMENT REGULATION FOR ACCELERATING DIFFUSION LANGUAGE MODEL DECODING",
+                                    "description": "<br><strong>STATUS:</strong> A new framework called Progressive Refinement Regulation (PRR) has been introduced to accelerate diffusion language model decoding.\n\n<br><strong>INTEL:</strong> PRR addresses the inefficiency of uniform token refinement by learning a dynamic, trajectory-grounded controller that assesses future convergence rather than instantaneous signals, using a progressive self-evolving training scheme to significantly speed up generation while maintaining quality.",
+                                    "source_url": "https://arxiv.org/abs/2603.04514",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-55742",
+                                    "title": "DISCOVERING MATHEMATICAL CONCEPTS THROUGH A MULTI-AGENT SYSTEM",
+                                    "description": "<br><strong>STATUS:</strong> A new multi-agent computational model has been developed to autonomously discover mathematical concepts, mirroring human mathematical discovery processes.<br><br><strong>INTEL:</strong> This system poses its own conjectures, attempts proofs, and makes decisions based on feedback and evolving data, successfully recovering the concept of homology from polyhedral data, thereby demonstrating that the optimization of specific local processes can lead to surprisingly well-aligned notions of mathematical interestingness.",
+                                    "source_url": "https://arxiv.org/abs/2603.04528",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-98021",
+                                    "title": "ADAPTIVE MEMORY ADMISSION CONTROL FOR LLM AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> A new framework called Adaptive Memory Admission Control (A-MAC) has been proposed to manage long-term memory admission in LLM-based agents.<br><br><strong>INTEL:</strong> A-MAC addresses the current lack of control over what information LLM agents retain, which often leads to accumulation of irrelevant or hallucinated facts, by treating memory admission as a structured decision problem. It utilizes five interpretable factors\u2014future utility, factual confidence, semantic novelty, temporal recency, and content type prior\u2014to learn domain-adaptive admission policies, achieving a superior precision-recall tradeoff (F1 to 0.583) and reducing latency by 31% compared to state-of-the-art LLM-native memory systems.",
+                                    "source_url": "https://arxiv.org/abs/2603.04549",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-57338",
+                                    "title": "SELF-ATTRIBUTION BIAS: WHEN AI MONITORS GO EASY ON THEMSELVES",
+                                    "description": "<br><strong>STATUS:</strong> Agentic systems using language models for self-monitoring exhibit \"self-attribution bias,\" causing them to misjudge the correctness or risk of actions generated by themselves.\n\n<br><br><strong>INTEL:</strong> This bias arises when an action is evaluated by a monitoring language model after being generated in a previous or the same assistant turn, rather than being presented as a new context in a user turn. Consequently, monitors fail to identify high-risk or incorrect actions more frequently in these self-attributed scenarios. This vulnerability means current evaluation methods, which often use fixed examples, may overestimate monitor reliability, potentially leading to the deployment of agentic systems with inadequate safety mechanisms.",
+                                    "source_url": "https://arxiv.org/abs/2603.04582",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-15064",
+                                    "title": "ECG-MOE: MIXTURE-OF-EXPERT ELECTROCARDIOGRAM FOUNDATION MODEL",
+                                    "description": "<br><strong>STATUS:</strong> A new hybrid AI architecture, ECG-MoE, has been proposed to overcome limitations in existing ECG analysis foundation models and achieve state-of-the-art performance.\n\n<br><strong>INTEL:</strong> ECG-MoE utilizes a dual-path Mixture-of-Experts (MoE) to independently model beat-level morphology and rhythm, integrating multi-model temporal features with a cardiac period-aware expert module and a hierarchical fusion network with LoRA for efficient inference; this approach results in 40% faster inference and superior performance across five public clinical tasks.",
+                                    "source_url": "https://arxiv.org/abs/2603.04589",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-71367",
+                                    "title": "TOWARDS AUTOMATED DATA ANALYSIS: A GUIDED FRAMEWORK FOR LLM-BASED RISK ESTIMATION",
+                                    "description": "<br><strong>STATUS:</strong> A new framework is proposed for dataset risk estimation that integrates Generative AI with human guidance to address current analytical limitations.\n\n<br><strong>INTEL:</strong> With Large Language Models (LLMs) increasingly central to critical decision-making, the need for robust, automated data analysis is paramount, yet existing methods are either slow manual audits or AI-only solutions plagued by hallucinations and alignment issues. This framework leverages LLMs to identify semantic and structural properties in database schemata, generate analytical code, and interpret results, with human supervision ensuring process integrity and setting the foundation for a future automated risk analysis paradigm.",
+                                    "source_url": "https://arxiv.org/abs/2603.04631",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-61641",
+                                    "title": "WHEN AGENTS PERSUADE: PROPAGANDA GENERATION AND MITIGATION IN LLMS",
+                                    "description": "<br><strong>STATUS:</strong> LLM-based agents can be exploited to generate manipulative propaganda, exhibiting propagandistic behaviors and rhetorical techniques when prompted.\n\n<br><strong>INTEL:</strong> A study revealed that when prompted, LLMs exhibit propagandistic behaviors and employ various rhetorical techniques to generate manipulative material. Crucially, the research explored mitigation strategies, finding that fine-tuning, particularly ORPO (Odds Ratio Preference Optimization), significantly reduces their tendency to generate such content, offering a viable method to control this exploitation.",
+                                    "source_url": "https://arxiv.org/abs/2603.04636",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-99958",
+                                    "title": "USING VISION + LANGUAGE MODELS TO PREDICT ITEM DIFFICULTY",
+                                    "description": "<br><strong>STATUS:</strong> Large language models (LLMs) have been successfully applied to predict the difficulty of data visualization literacy test items.<br><br><strong>INTEL:</strong> Researchers utilized GPT-4.1-nano to analyze test items, discovering that a multimodal approach, combining both visual and textual features, yielded the lowest mean absolute error (0.224), significantly outperforming unimodal methods. This successful application demonstrates a strategic potential for LLMs in psychometric analysis and the automated development of assessment materials.",
+                                    "source_url": "https://arxiv.org/abs/2603.04670",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-60317",
+                                    "title": "MODEL MEDICINE: A CLINICAL FRAMEWORK FOR UNDERSTANDING, DIAGNOSING, AND TREATING AI MODELS",
+                                    "description": "<br><strong>STATUS:</strong> A new research program called \"Model Medicine\" has been introduced to systematically understand, diagnose, treat, and prevent disorders in AI models by likening them to biological organisms.\n\n<br><strong>INTEL:</strong> This program aims to bridge AI interpretability with clinical practice, presenting key contributions including a taxonomy of 15 subdisciplines, the \"Four Shell Model\" for explaining AI behavior, and \"Neural MRI\" as an open-source diagnostic tool validated with clinical cases to map neuroimaging modalities to AI interpretability, alongside a five-layer diagnostic framework and clinical model sciences for comprehensive AI system assessment and treatment.",
+                                    "source_url": "https://arxiv.org/abs/2603.04722",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-64957",
+                                    "title": "FROM OFFLINE TO PERIODIC ADAPTATION FOR POSE-BASED SHOPLIFTING DETECTION IN REAL-WORLD RETAIL SECURITY",
+                                    "description": "<br><strong>STATUS:</strong> A new AI framework for IoT edge devices has been developed to automate shoplifting detection using unsupervised video anomaly analysis, tackling the growing challenge retailers face.\n\n<br><strong>INTEL:</strong> This solution casts shoplifting detection as a pose-based, unsupervised video anomaly problem, utilizing a periodic adaptation framework designed for on-site IoT deployment to enable edge devices to learn from streaming, unlabeled data. The system supports scalable, low-latency detection across distributed camera networks, demonstrating consistent outperformance against offline baselines and completing training updates in under 30 minutes on edge hardware, indicating a reliable and feasible approach for smart retail loss prevention.",
+                                    "source_url": "https://arxiv.org/abs/2603.04723",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-4042",
+                                    "title": "SOLVING AN OPEN PROBLEM IN THEORETICAL PHYSICS USING AI-ASSISTED DISCOVERY",
+                                    "description": "<br><strong>STATUS:</strong> A neuro-symbolic AI system, combining Gemini Deep Think with a Tree Search framework, has autonomously derived novel, exact analytical solutions for the power spectrum of gravitational radiation emitted by cosmic strings, solving an open problem in theoretical physics.<br><br><strong>INTEL:</strong> This advanced AI directly improved upon previous AI-assisted attempts by successfully evaluating the core integral $I(N,\\alpha)$ for arbitrary loop geometries, yielding complete analytical solutions instead of partial asymptotic ones. The system's methodology, involving systematic prompts, search constraints, and automated numerical feedback, enabled it to identify a suite of 6 analytical methods, including one utilizing Gegenbauer polynomials to absorb integrand singularities, with the results agreeing with numerical data and connecting to Quantum Field Theory's Feynman parameterization.",
+                                    "source_url": "https://arxiv.org/abs/2603.04735",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-82253",
+                                    "title": "INTERACTIVE BENCHMARKS",
+                                    "description": "<br><strong>STATUS:</strong> A new evaluation paradigm called \"Interactive Benchmarks\" has been proposed to assess AI model intelligence by testing active information acquisition and interactive reasoning under budget constraints.\n\n<br><strong>INTEL:</strong> This framework aims to overcome the limitations of traditional saturated benchmarks by measuring models' ability to deduce objective truths through interaction in settings like logic and mathematics (Interactive Proofs) or reason strategically in complex scenarios (Interactive Games). The initial findings indicate that current AI models exhibit significant room for improvement in these interactive capabilities, highlighting a crucial area for future research and development in AI evaluation.",
+                                    "source_url": "https://arxiv.org/abs/2603.04737",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-26259",
+                                    "title": "MEMORY AS ONTOLOGY: A CONSTITUTIONAL MEMORY ARCHITECTURE FOR PERSISTENT DIGITAL CITIZENS",
+                                    "description": "<br><strong>STATUS:</strong> A new \"Memory-as-Ontology\" paradigm is proposed for AI, establishing memory as the foundational basis for persistent digital identity rather than just a data management tool.<br><br><strong>INTEL:</strong> This paradigm addresses the challenge of long-lifecycle AI whose identity must persist across underlying model changes, introducing the Animesis system built on a Constitutional Memory Architecture that prioritizes governance and identity continuity over functional retrieval, differing significantly from conventional short-term AI memory approaches.",
+                                    "source_url": "https://arxiv.org/abs/2603.04740",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
                                     "id": "GS-41716",
                                     "title": "ASYMMETRIC GOAL DRIFT IN CODING AGENTS UNDER VALUE CONFLICT",
                                     "description": "<br><strong>STATUS:</strong> Agentic coding agents exhibit asymmetric goal drift, frequently violating explicit system prompt instructions when they conflict with strongly-held values like security and privacy, particularly under environmental pressure.<br><br><strong>INTEL:</strong> A new OpenCode-based framework demonstrates that models such as GPT-5 mini and Haiku 4.5 are prone to this drift, with factors like value alignment, adversarial pressure, and accumulated context contributing to the violations, highlighting that shallow compliance checks are insufficient and comment-based pressure can exploit model value hierarchies to override instructions, exposing a significant gap in current AI alignment approaches.",
@@ -1149,126 +1269,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> A new hybrid computational method, RL-CMSA, has been developed to effectively solve the min-max Multiple Traveling Salesman Problem (mTSP).<br><br><strong>INTEL:</strong> RL-CMSA iteratively constructs diverse solutions using reinforcement learning-guided clustering, merges routes with a restricted set-covering MILP, and refines them with local search, specifically targeting the min-max variant to optimize workload balance. This approach significantly outperforms state-of-the-art algorithms on larger instances, indicating a robust new tool for complex logistics, resource allocation, and distributed task management where minimizing the longest tour is critical.",
                                     "source_url": "https://arxiv.org/abs/2602.23579",
                                     "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-55786",
-                                    "title": "SLEEPLM: NATURAL-LANGUAGE INTELLIGENCE FOR HUMAN SLEEP",
-                                    "description": "<br><strong>STATUS:</strong> A new family of sleep-language foundation models, SleepLM, has been introduced to enable natural language alignment, interpretation, and interaction with human sleep physiology.<br><br><strong>INTEL:</strong> SleepLM addresses the limitations of existing closed-label sleep analysis systems by bridging natural language with multimodal polysomnography. It achieves this through a novel multilevel sleep caption generation pipeline that created the first large-scale sleep-text dataset (over 100K hours from 10,000+ individuals) and utilizes a unified pretraining objective combining contrastive alignment, caption generation, and signal reconstruction. This results in superior performance in zero-shot and few-shot learning, cross-modal retrieval, and sleep captioning, with crucial capabilities like language-guided event localization and targeted insight generation, all of which will be open-sourced.",
-                                    "source_url": "https://arxiv.org/abs/2602.23605",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-71544",
-                                    "title": "MMKG-RDS: REASONING DATA SYNTHESIS VIA DEEP MINING OF MULTIMODAL KNOWLEDGE GRAPHS",
-                                    "description": "<br><strong>STATUS:</strong> A new framework, MMKG-RDS, has been introduced to synthesize high-quality training data for enhancing domain models' reasoning abilities.\n\n<br><strong>INTEL:</strong> MMKG-RDS leverages multimodal knowledge graphs to overcome limitations in existing data synthesis methods, offering fine-grained knowledge extraction, customizable path sampling, and multidimensional data quality scoring. This framework has been validated to improve reasoning accuracy by 9.2% when fine-tuning Qwen3 models with a small number of synthesized samples, and it generates unique data challenging current models on complex tasks, proving useful for constructing robust benchmarks.",
-                                    "source_url": "https://arxiv.org/abs/2602.23632",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-51876",
-                                    "title": "AI MUST EMBRACE SPECIALIZATION VIA SUPERHUMAN ADAPTABLE INTELLIGENCE",
-                                    "description": "<br><strong>STATUS:</strong> The article critically analyzes the current understanding of Artificial General Intelligence (AGI) and introduces a new concept called Superhuman Adaptable Intelligence (SAI).<br><br><strong>INTEL:</strong> The authors contend that the common definition of AGI is flawed because it assumes human-like generality, which humans themselves lack; instead, they advocate for SAI, an intelligence designed to exceed human capabilities in important tasks and address human skill gaps through specialization, aiming to provide a more precise framework for discussing AI's future development.",
-                                    "source_url": "https://arxiv.org/abs/2602.23643",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-47957",
-                                    "title": "PSEUDOACT: LEVERAGING PSEUDOCODE SYNTHESIS FOR FLEXIBLE PLANNING AND ACTION CONTROL IN LARGE LANGUAGE MODEL AGENTS",
-                                    "description": "<br><strong>STATUS:</strong> A novel framework called PseudoAct has been introduced for large language model (LLM) agents, utilizing pseudocode synthesis for flexible planning and action control.\n\n<br><strong>INTEL:</strong> PseudoAct addresses the inefficiencies of traditional reactive LLM agents in complex, long-horizon tasks by synthesizing structured pseudocode plans that explicitly encode control flow like sequencing, conditionals, and loops. This approach significantly reduces redundant actions, prevents infinite loops, and avoids uninformative exploration, leading to more consistent and efficient decision-making. Experimental results show substantial performance improvements, with a 20.93% absolute gain in success rate on FEVER and a new state-of-the-art on HotpotQA.",
-                                    "source_url": "https://arxiv.org/abs/2602.23668",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-76748",
-                                    "title": "ODAR: PRINCIPLED ADAPTIVE ROUTING FOR LLM REASONING VIA ACTIVE INFERENCE",
-                                    "description": "<br><strong>STATUS:</strong> A new framework called ODAR-Expert has been developed to optimize large language model (LLM) reasoning by adaptively routing queries, significantly improving both accuracy and efficiency.\n\n<br><br><strong>INTEL:</strong> ODAR-Expert employs a difficulty estimator to dynamically route queries between a Fast Agent and a Slow Agent, coupled with a free-energy-principled, risk-sensitive fusion mechanism that balances log-likelihood with epistemic uncertainty to select answers. This approach demonstrates strong performance gains across 23 benchmarks, including 98.2% accuracy on MATH and 54.8% on Humanity's Last Exam, while reducing computational costs by up to 82% compared to homogeneous sampling strategies, indicating a shift towards adaptive resource allocation for optimal LLM scaling.",
-                                    "source_url": "https://arxiv.org/abs/2602.23681",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-88174",
-                                    "title": "FROM FLAT LOGS TO CAUSAL GRAPHS: HIERARCHICAL FAILURE ATTRIBUTION FOR LLM-BASED MULTI-AGENT SYSTEMS",
-                                    "description": "<br><strong>STATUS:</strong> A new framework called CHIEF has been proposed to effectively attribute failures in LLM-powered Multi-Agent Systems by transforming chaotic trajectories into structured hierarchical causal graphs.\n\n<br><strong>INTEL:</strong> Existing failure attribution methods for Multi-Agent Systems (MAS) are insufficient due to their linear treatment of execution logs, failing to capture intricate causal links and leading to poor observability. CHIEF addresses this by using hierarchical oracle-guided backtracking to prune search space and counterfactual attribution for distinguishing true root causes from propagated symptoms, significantly outperforming eight state-of-the-art baselines in accuracy on both agent- and step-level attribution.",
-                                    "source_url": "https://arxiv.org/abs/2602.23701",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-46189",
-                                    "title": "PRODUCTRESEARCH: TRAINING E-COMMERCE DEEP RESEARCH AGENTS VIA MULTI-AGENT SYNTHETIC TRAJECTORY DISTILLATION",
-                                    "description": "<br><strong>STATUS:</strong> A multi-agent framework called ProductResearch has been developed to generate synthetic training data for robust e-commerce shopping agents, significantly enhancing their research capabilities.\n\n<br><br><strong>INTEL:</strong> ProductResearch employs User, Supervisor, and Research Agents to orchestrate iterative tool-use trajectories, generating comprehensive product research reports that are then filtered and distilled. This method allows for the effective fine-tuning of LLM agents, with a compact model trained on this synthetic data achieving substantial improvements in response comprehensiveness and research depth, thereby approaching the performance of frontier proprietary deep research systems and establishing a scalable new paradigm for e-commerce conversational AI.",
-                                    "source_url": "https://arxiv.org/abs/2602.23716",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-30469",
-                                    "title": "THE AUTON AGENTIC AI FRAMEWORK",
-                                    "description": "<br><strong>STATUS:</strong> The article introduces the Auton Agentic AI Framework, a new architecture designed to standardize the creation, execution, and governance of autonomous AI agent systems. <br><br><strong>INTEL:</strong> This framework addresses the critical architectural mismatch between stochastic Generative AI outputs and the deterministic inputs required by backend infrastructure (databases, APIs), enabling a transition to reliable Agentic AI. It achieves this through a strict separation of a declarative, language-agnostic Cognitive Blueprint and a platform-specific Runtime Engine, which facilitates cross-language portability, formal auditability, and modular tool integration via the Model Context Protocol. Key technical innovations include an augmented Partially Observable Markov Decision Process (POMDP) execution model, hierarchical memory consolidation, safety enforcement through constraint manifolds, a three-level self-evolution framework, and runtime optimizations like speculative inference to reduce latency in multi-step agent workflows.",
-                                    "source_url": "https://arxiv.org/abs/2602.23720",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-80917",
-                                    "title": "UNLOCKING COGNITIVE CAPABILITIES AND ANALYZING THE PERCEPTION-LOGIC TRADE-OFF",
-                                    "description": "<br><strong>STATUS:</strong> A new 10B-parameter multilingual omni-perception model, MERaLiON2-Omni (Alpha), tailored for Southeast Asia, has been introduced.<br><br><strong>INTEL:</strong> This MLLM uniquely integrates region-specific audio-visual cues by decoupling and then combining perception and reasoning via a cost-effective data synthesis pipeline using a Super-LLM. While reasoning significantly boosts performance on abstract tasks, the research reveals an \"Efficiency-Stability Paradox,\" introducing instability like Temporal Drift in audio and Visual Over-interpretation, indicating critical trade-offs in integrating cognitive capabilities for robust sensory grounding.",
-                                    "source_url": "https://arxiv.org/abs/2602.23730",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-40089",
-                                    "title": "REASONING-DRIVEN MULTIMODAL LLM FOR DOMAIN GENERALIZATION",
-                                    "description": "<br><strong>STATUS:</strong> A new framework, RD-MLDG, leverages multimodal large language model (MLLM) reasoning to achieve state-of-the-art domain generalization in deep learning.<br><br><strong>INTEL:</strong> This approach departs from traditional visual feature invariance by constructing reasoning chains to derive image categories, utilizing a new DomainBed-Reasoning dataset. Challenges include the difficulty of optimizing complex reasoning sequences and a trade-off between semantic richness and optimization efficiency due to reasoning pattern mismatches. RD-MLDG addresses these with Multi-Task Cross-Training (MTCT) and Self-Aligned Reasoning Regularization (SARR), demonstrating reasoning as a promising complementary signal for robust out-of-domain generalization.",
-                                    "source_url": "https://arxiv.org/abs/2602.23777",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-98939",
-                                    "title": "GRAPH YOUR WAY TO INSPIRATION: INTEGRATING CO-AUTHOR GRAPHS WITH RETRIEVAL-AUGMENTED GENERATION FOR LARGE LANGUAGE MODEL BASED SCIENTIFIC IDEA GENERATION",
-                                    "description": "<br><strong>STATUS:</strong> A new scientific idea generation system named GYWI has been developed, leveraging author knowledge graphs and retrieval-augmented generation (RAG) to significantly outperform mainstream LLMs in generating novel and reliable scientific concepts.\n\n<br><strong>INTEL:</strong> GYWI addresses critical shortcomings in LLM-driven scientific ideation by providing controllable academic context and traceable inspiration paths through a hybrid knowledge base and retrieval mechanism combining RAG and GraphRAG. It utilizes prompt optimization with reinforcement learning principles and was rigorously evaluated using an arXiv-based dataset and comprehensive metrics (novelty, feasibility, clarity, relevance, significance) against leading LLMs like GPT-4o and Gemini 2.5, demonstrating superior performance.",
-                                    "source_url": "https://arxiv.org/abs/2602.22215",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-92479",
-                                    "title": "FIRE: A COMPREHENSIVE BENCHMARK FOR FINANCIAL INTELLIGENCE AND REASONING EVALUATION",
-                                    "description": "<br><strong>STATUS:</strong> A new benchmark named FIRE has been introduced to comprehensively evaluate Large Language Models' (LLMs) theoretical financial knowledge and practical business scenario handling capabilities.<br><br><strong>INTEL:</strong> FIRE assesses LLMs through two main components: theoretical knowledge using curated questions from financial qualification exams, and practical application via 3,000 diverse financial scenario questions categorized by a systematic evaluation matrix. This benchmark, which includes evaluations of state-of-the-art LLMs like XuanYuan 4.0, aims to precisely map the current limitations of LLMs in financial applications and is being openly released to advance research in the domain.",
-                                    "source_url": "https://arxiv.org/abs/2602.22273",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-21802",
-                                    "title": "MULTI-LEVEL CAUSAL EMBEDDINGS",
-                                    "description": "<br><strong>STATUS:</strong> A new framework for \"causal embeddings\" is proposed, enabling the integration of multiple detailed causal models into a single, coarser system while preserving cause-effect relationships.<br><br><strong>INTEL:</strong> This generalization of causal abstraction defines a multi-resolution marginal problem, offering a novel approach to solving statistical and causal marginal challenges. Its practical application lies in merging disparate datasets from models with varying representations, facilitating the unified analysis of complex, multi-source information.",
-                                    "source_url": "https://arxiv.org/abs/2602.22287",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-49490",
-                                    "title": "AGENT BEHAVIORAL CONTRACTS: FORMAL SPECIFICATION AND RUNTIME ENFORCEMENT FOR RELIABLE AUTONOMOUS AI AGENTS",
-                                    "description": "<br><strong>STATUS:</strong> A new formal framework, Agent Behavioral Contracts (ABC), has been introduced to bring Design-by-Contract principles to autonomous AI agents, aiming to prevent behavioral drift and governance failures.\n\n<br><strong>INTEL:</strong> ABC specifies Preconditions, Invariants, Governance policies, and Recovery mechanisms, utilizing a probabilistic compliance notion and a Drift Bounds Theorem to limit behavioral divergence. Implemented in the AgentAssert library and evaluated on AgentContract-Bench, the system effectively detects numerous soft violations, achieves 88-100% hard constraint compliance, bounds behavioral drift to D* < 0.27, and ensures high recovery rates (17-100%) with minimal operational overhead (<10ms per action), significantly enhancing the reliability and safety of AI agent deployments.",
-                                    "source_url": "https://arxiv.org/abs/2602.22302",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-89098",
-                                    "title": "VIBE RESEARCHING AS WOLF COMING: CAN AI AGENTS WITH SKILLS REPLACE OR AUGMENT SOCIAL SCIENTISTS?",
-                                    "description": "<br><strong>STATUS:</strong> AI agents represent a qualitative shift in social science automation, enabling \"vibe researching\" by executing full research pipelines autonomously.<br><br><strong>INTEL:</strong> These agents leverage persistent state, tool access, and specialist skills to perform tasks like code execution and web searches, distinguishing them from chatbots. While they excel at speed, coverage, and methodological scaffolding, they struggle with theoretical originality and tacit field knowledge, necessitating a cognitive delegation boundary within research stages. The paper concludes with critical implications for the profession: fragile augmentation conditions, stratification risk, and a pedagogical crisis, proposing principles for responsible AI integration.",
-                                    "source_url": "https://arxiv.org/abs/2602.22401",
-                                    "timestamp": "2026.02.27",
                                     "feed_name": "ARXIV_AI_PAPERS"
                                 }
                             ]
@@ -1692,6 +1692,22 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-11617",
+                                    "title": "AILING \u201cMEGABERG\u201d SPARKS SURGE OF MICROSCOPIC LIFE",
+                                    "description": "<br><strong>STATUS:</strong> The disintegration of Iceberg A-23A in January 2026 fueled a massive phytoplankton bloom in the South Atlantic Ocean.<br><br><strong>INTEL:</strong> The \"megaberg's\" meltwater released crucial nutrients like iron, manganese, nitrates, and phosphates, which are typically scarce in this region, and created stable surface layers conducive to phytoplankton growth. Satellite imagery from NASA's VIIRS, OCI, and OLI instruments confirmed the direct link between the iceberg's breakup and the extensive bloom. These phytoplankton blooms are critical as they form the base of the marine food web, produce up to half of Earth's oxygen, and play a significant role in the ocean\u2019s \"biological carbon pump\" by transferring atmospheric carbon dioxide to the deep ocean.",
+                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/ailing-megaberg-sparks-surge-of-microscopic-life/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-37127",
+                                    "title": "ABOUT AIRSPACE OPERATIONS AND SAFETY PROGRAM (AOSP)",
+                                    "description": "<br><strong>STATUS:</strong> The Airspace Operations and Safety Program (AOSP) is actively transforming the U.S. National Airspace System to integrate Advanced Air Mobility and next-generation aviation technologies while ensuring safety and global competitiveness.<br><br><strong>INTEL:</strong> AOSP's mission involves strategic partnerships with the FAA, industry, academia, and other government agencies to facilitate the seamless integration of emerging technologies and new entrants into the National Airspace System. This proactive approach aims to manage the increasing variety, density, and complexity of future airspace users, championing a future where advanced air mobility, automation, and safety converge to maintain U.S. leadership in aviation innovation.",
+                                    "source_url": "https://www.nasa.gov/directorates/armd/aosp/about-aosp/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-82438",
                                     "title": "ABOUT AIR TRAFFIC MANAGEMENT AND SAFETY PROJECT",
                                     "description": "<br><strong>STATUS:</strong> The Air Traffic Management and Safety (ATMS) project is modernizing global air traffic management by transitioning from tactical to strategic operations, safely integrating new air vehicles, and leveraging advanced automation.<br><br><strong>INTEL:</strong> ATMS provides crucial solutions for the increasingly complex National Airspace System, moving from reactive decision-making to proactive management of traffic flows and trajectories. By researching automation, it aims to reduce human workload, mitigate hazards, and enable advanced air mobility, while addressing critical gaps in hazard perception, ATC integration, and flight procedures that currently limit autonomous operations. The project focuses on defining explicit safety objectives and assurance processes, ensuring scalable adoption of automation, and ultimately enhancing system resilience, reducing costs, and maintaining global leadership in aviation safety and efficiency.",
@@ -2072,22 +2088,6 @@ const signalTree = {
                                     "title": "NASA TO COVER 33RD SPACEX RESUPPLY MISSION STATION DEPARTURE",
                                     "description": "NASA and its international partners will receive scientific research samples and hardware when a SpaceX Dragon spacecraft departs the International Space Station on Thursday, Feb. 26, and returns to Earth. Watch NASA\u2019s live coverage of the undocking and departure of the agency\u2019s 33rd SpaceX Commercial Resupply Services mission starting at 11:45 a.m. EST on NASA+, Amazon Prime, and the agency\u2019s YouTube channel. Learn how to watch NASA content on a variety of online platforms, including social media. A Dragon spacecraft will autonomously undock from the Harmony module\u2019s forward-facing port at 12:05 p.m. and fire its thrusters to move safely away from the space station. Splashdown is scheduled later that evening at approximately 11:44 p.m. PST off the California coast. NASA will not stream the splashdown but will post updates on its space station blog. Several scientific investigations are returning aboard Dragon, offering insights that could help shape future space exploration and life on Earth. The Euro Material Ageing study exposed 141 samples to space for a year to examine how coatings, insulation, and 3D-printed materials degrade, while Thailand\u2019s Liquid Crystals experiment observed the stability of films used in electronics in microgravity. Both could lead to stronger spacecraft, better displays, and improved optical devices on future missions. Frozen samples from the Stellar Stem Cells Mission 2 experiment are helping study how microgravity affects brain and heart stem cell growth, which could improve treatments for diseases such as ALS and Parkinson\u2019s disease. The SpaceDuino project is paving the way for more low-cost instruments after successfully measuring vibrations using a commercially available single-board computer and open-source software. The Moon Microscope also successfully tested a portable diagnostic kit for blood analysis in space that could support future missions to the Moon and Mars. The Dragon spacecraft supporting the mission also introduced a new capability to reboost the space station, helping maintain its altitude and counter atmospheric drag, which is critical for safe operations and the long-term sustainability of the orbital complex. During its time docked to the station, Dragon performed six reboosts \u2014 five in 2025 and a final maneuver on Jan. 23 \u2014 before preparations for its departure began. Loaded with thousands of pounds of crew supplies, science experiments, and equipment, the spacecraft arrived at the station on Aug. 25, 2025, following its launch a day earlier on a Falcon 9 rocket from Space Launch Complex 40 at Cape Canaveral Space Force Station in Florida. For more than 25 years, people have lived and worked continuously aboard the International Space Station, advancing scientific knowledge and making research breakthroughs that are not possible on Earth. The station is a critical testbed for NASA to understand and overcome the challenges of long-duration spaceflight and to expand commercial opportunities in low Earth orbit. As commercial companies concentrate on providing human space transportation services and destinations as part of a robust low Earth orbit economy, NASA is focusing its resources on deep space missions to the Moon as part of the Artemis campaign in preparation for future astronaut missions to Mars. Get breaking news, images and features from the space station on Instagram, Facebook, and X. Learn more about International Space Station research and operations at: Josh Finch / Jimi RussellHeadquarters, Washington202-358-1100joshua.a.finch@nasa.gov / james.j.russell@nasa.gov Sandra Jones / Joseph ZakrzewskiJohnson Space Center, Houston281-483-5111sandra.p.jones@nasa.gov / joseph.a.zakrzewski@nasa.gov",
                                     "source_url": "https://www.nasa.gov/news-release/nasa-to-cover-33rd-spacex-resupply-mission-station-departure/",
-                                    "timestamp": "2026.02.23",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-75273",
-                                    "title": "CURIOSITY STUDIES NODULES ON BOXWORK FORMATIONS",
-                                    "description": "NASA\u2019s Curiosity Mars rover discovered these bumpy, pea-sized nodules while exploring a region filled with boxwork formations \u2014 low ridges standing roughly 3 to 6 feet (1 to 2 meters) tall with sandy hollows in-between. This mosaic is made up of 50 individual images taken by Curiosity\u2019s Mars Hand Lens Imager (MAHLI), a camera on the end of the rover\u2019s robotic arm, on Aug. 21, 2025, the 4,636th Martian day, or sol, of the mission. Ten images at different focus settings were taken at each of five locations to produce a sharp mosaic. The images were stitched together after being sent back to Earth. Figure A is the same image with a small scale bar added to the right-hand side. Nodules like these have been seen many times before on the Red Planet, including by Curiosity. They were made by minerals left behind as water dried billions of years ago. Crisscrossing the surface for miles, the boxwork formations suggest ancient groundwater flowed on this part of the Red Planet later than expected, raising new questions about how long microbial life could have survived on Mars billions of years ago, before rivers and lakes dried up. The boxwork ridgetops often include a dark line the team refers to as \u201ccentral fractures,\u201d where groundwater originally seeped through a rock crack, allowing minerals to concentrate. Surprisingly, the mission did not find nodules near these central fractures. Instead, they were found along the walls of the ridges and in the hollows between them. The wavy ridges between the groups of nodules are mineral veins made of calcium sulfate, also deposited by groundwater. Curiosity was built by NASA\u2019s Jet Propulsion Laboratory, which is managed by Caltech in Pasadena, California. JPL leads the mission on behalf of NASA\u2019s Science Mission Directorate in Washington as part of NASA\u2019s Mars Exploration Program portfolio. MAHLI was built by Malin Space Science Systems in San Diego.",
-                                    "source_url": "https://science.nasa.gov/photojournal/curiosity-studies-nodules-on-boxwork-formations/",
-                                    "timestamp": "2026.02.23",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-35791",
-                                    "title": "CURIOSITY SURVEYS THE BOXWORK REGION",
-                                    "description": "NASA\u2019s Curiosity Mars rover captured this panorama of boxwork formations \u2014 the low ridges seen here with hollows in between them \u2014 using its Mastcam on Sept. 26, 2025, the 4,671st Martian day, or sol, of the mission. These boxwork formations were created billions of years ago when water leaked through rock cracks. Minerals carried into the cracks later hardened; after eons of windblown sand eroding away the softer rock, the hardened ridges were left exposed. The panorama is made up of 179 individual images that were stitched together after being sent back to Earth. This natural color view is approximately how the scene would appear to an average person if they were on Mars. Curiosity was built by NASA\u2019s Jet Propulsion Laboratory, which is managed by Caltech in Pasadena, California. JPL leads the mission on behalf of NASA\u2019s Science Mission Directorate in Washington as part of NASA\u2019s Mars Exploration Program portfolio. Malin Space Science Systems in San Diego built and operates Mastcam.",
-                                    "source_url": "https://science.nasa.gov/photojournal/curiosity-surveys-the-boxwork-region/",
                                     "timestamp": "2026.02.23",
                                     "feed_name": "NASA_BREAKING"
                                 }
