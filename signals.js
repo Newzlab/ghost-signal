@@ -111,6 +111,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-83250",
+                                    "title": "IRAN CAN STILL FIRE DRONES AND MISSILES \u2014 EXPERTS WEIGH THE IMPLICATIONS ON THE WAR",
+                                    "description": "<br><strong>STATUS:</strong> Iran's extensive use of drone swarm tactics against Gulf states is leading to calls for more cost-effective regional defense strategies amidst warnings of a prolonged conflict.\n\n<br><strong>INTEL:</strong> Iran's sustained drone and missile campaign, with over 1,450 drone strikes, is designed to saturate and overwhelm Gulf and U.S.-aligned air defenses across multiple targets, distinct from Ukraine's harassment strategy. Despite high interception rates, the financial asymmetry is unsustainable, with Gulf states reportedly spending $20-$28 for every dollar Iran invests in drones, compelling urgent development of cheaper counter-drone layers like electronic warfare, jammers, and directed energy. Experts warn of potential escalation if Iran shifts to true saturation attacks or expands targets to critical infrastructure, rather than just military bases and embassies.",
+                                    "source_url": "https://www.c4isrnet.com/global/mideast-africa/2026/03/06/iran-can-still-fire-drones-and-missiles-experts-weigh-the-implications-on-the-war/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-29841",
                                     "title": "US AND MIDEAST COUNTRIES SEEK KYIV\u2019S DRONE EXPERTISE AS RUSSIA-UKRAINE TALKS PUT ON ICE",
                                     "description": "<br><strong>STATUS:</strong> The United States and its Middle Eastern allies are seeking Ukraine's proven expertise in countering Iran's Shahed drones.\n\n<br><strong>INTEL:</strong> Ukraine has developed cost-effective interceptor drones and strategies to combat Iranian Shahed drones, having faced tens of thousands in its conflict with Russia. This assistance is conditional on not weakening Ukraine's own defenses and enhancing its diplomatic leverage against Russia, with Ukrainian officials viewing the conflicts involving Russia and Iran as interconnected, highlighting the evolving nature of air defense and global instability.",
@@ -461,6 +469,14 @@ const signalTree = {
                         {
                             "name": "DEFENSE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-54853",
+                                    "title": "IRAN CAN STILL FIRE DRONES AND MISSILES \u2014 EXPERTS WEIGH THE IMPLICATIONS ON THE WAR",
+                                    "description": "<br><strong>STATUS:</strong> Iran's extensive drone swarm tactics against Gulf states are prompting urgent calls for more cost-effective regional defense strategies to counter the financial strain of current interceptor systems and the threat of a prolonged conflict.\n\n<br><strong>INTEL:</strong> Iran has executed over 1,450 drone strikes, comprising three-quarters of its attacks, designed to saturate and overwhelm U.S. and Gulf-aligned air defenses across multiple states. While current high-cost interceptors like Patriot and THAAD achieve high kill rates, they are financially unsustainable, with defensive fire costing $20-28 for every dollar Iran spends on drones. Experts advocate for integrated, cheaper counter-drone layers, including electronic warfare, jammers, and directed energy, to reduce costs and maintain endurance, warning that a shift in Iranian targeting from military bases to critical infrastructure would signify a significant escalation.",
+                                    "source_url": "https://www.defensenews.com/global/mideast-africa/2026/03/06/iran-can-still-fire-drones-and-missiles-experts-weigh-the-implications-on-the-war/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
                                 {
                                     "id": "GS-11127",
                                     "title": "PENTAGON SAYS IT IS LABELING ANTHROPIC A SUPPLY CHAIN RISK \u2018EFFECTIVE IMMEDIATELY\u2019",
@@ -850,14 +866,6 @@ const signalTree = {
                                     "title": "TRUMP ORDERS FEDERAL AGENCIES TO STOP USING ANTHROPIC TECHNOLOGY IN DISPUTE OVER AI SAFETY",
                                     "description": "<br><strong>STATUS:</strong> The Trump administration ordered all U.S. agencies to halt use of Anthropic\u2019s AI technology and designated it a supply chain risk after the company refused unrestricted military application of its AI due to safety concerns.<br><br><strong>INTEL:</strong> This action, culminating a public clash over AI safeguards, prevents U.S. military vendors from working with Anthropic and could lead to severe penalties, while also dividing the AI industry and potentially benefiting competitors like Elon Musk\u2019s Grok. The dispute centered on Anthropic's insistence on safeguards against mass surveillance and and fully autonomous weapons, which the Pentagon deemed unacceptable for national security, raising concerns about political influence on national security decisions within the AI sector.",
                                     "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/02/27/trump-orders-federal-agencies-to-stop-using-anthropic-technology-in-dispute-over-ai-safety/",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-46916",
-                                    "title": "PAKISTAN IN \u2018OPEN WAR\u2019 WITH AFGHANISTAN, DEFENSE MINISTER SAYS",
-                                    "description": "<br><strong>STATUS:</strong> Pakistan and Afghanistan have escalated tensions into what Pakistan's defense minister calls an \"open war\" following a rapid exchange of cross-border airstrikes and ground attacks.\n\n<br><strong>INTEL:</strong> This immediate escalation stems from a cycle of retaliation, where Afghanistan responded to earlier Pakistani airstrikes, and Pakistan subsequently targeted Afghan military installations, fueled by Islamabad's long-standing accusations that Kabul harbors militant groups like the TTP and is increasingly aligning with rival India, further destabilizing the region despite prior failed peace negotiations.",
-                                    "source_url": "https://www.defensenews.com/global/mideast-africa/2026/02/27/pakistan-in-open-war-with-afghanistan-defense-minister-says/",
                                     "timestamp": "2026.02.27",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1287,6 +1295,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-9808",
+                                    "title": "ROCKET LAB LAUNCHES SATELLITE FOR UNDISCLOSED CUSTOMER",
+                                    "description": "<br><strong>STATUS:</strong> Rocket Lab successfully launched a single satellite on March 5 for a confidential customer, strongly suspected to be Earth observation company BlackSky, into a 470-kilometer mid-inclination orbit.<br><br><strong>INTEL:</strong> The mission's rapid announcement and specific characteristics closely resemble a November 2025 Rocket Lab launch later confirmed to be for a BlackSky Gen-3 satellite, aligning with BlackSky CEO Brian O\u2019Toole\u2019s recent statement that their next Gen-3 spacecraft was awaiting launch. This potential deployment, the fourth Gen-3 satellite if confirmed, underscores the ongoing expansion of BlackSky's Earth observation constellation and Rocket Lab's capability in rapidly deploying sensitive payloads for undisclosed clients.",
+                                    "source_url": "https://spacenews.com/rocket-lab-launches-satellite-for-undisclosed-customer/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-76064",
+                                    "title": "CHINA DESIGNATES SPACE SECTOR AN \u201cEMERGING PILLAR INDUSTRY,\u201d SETS DEEP SPACE AMBITIONS IN NEW ECONOMIC BLUEPRINT",
+                                    "description": "<br><strong>STATUS:</strong> China has officially elevated aerospace to an \"emerging pillar industry\" in its draft 15th Five-year national economic plan, signaling significant state support and expansion for the sector.\n\n<br><strong>INTEL:</strong> This designation, announced at the National People\u2019s Congress, means Beijing will provide robust policy support, funding, and industrial development programs to integrate aerospace as foundational infrastructure across economic and strategic domains. The draft plan for 2026-2030 further outlines ambitious objectives including expanded deep space exploration, planetary defense, solar system edge missions, the development of reusable heavy-lift launch vehicles, establishment of an international lunar research station, and comprehensive advancement of satellite internet capabilities.",
+                                    "source_url": "https://spacenews.com/china-designates-space-sector-an-emerging-pillar-industry-sets-deep-space-ambitions-in-new-economic-blueprint/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-50902",
                                     "title": "POLAND-BASED LIFTERO WILL PROVIDE CHEMICAL PROPULSION FOR INDIAN FIRM ORBITAID\u2019S IN-ORBIT SERVICING MISSION",
                                     "description": "<br><strong>STATUS:</strong> Polish startup Liftero will supply green chemical propulsion systems to India's OrbitAID for an in-orbit servicing mission in late 2026, marking the first use of an N2O-based system for six degrees of freedom maneuvering in this application.<br><br><strong>INTEL:</strong> The BOOSTER system, utilizing nitrous oxide-based propulsion, will provide critical 6-DOF maneuverability for both chaser and target spacecraft, enabling controlled proximity operations essential for OrbitAID's mission to extend satellite lifespans and eventually establish in-orbit fuel stations. This collaboration signifies a major advancement for green chemical propulsion, demonstrating its market readiness and strategic importance for sustainable space operations by reducing space debris and prolonging orbital asset viability.",
@@ -1667,22 +1691,6 @@ const signalTree = {
                                     "title": "SIERRA SPACE NAMES DAN JABLONSKY CEO",
                                     "description": "<br><strong>STATUS:</strong> Dan Jablonsky, a veteran defense executive with experience at Ursa Major and Maxar Technologies, has been appointed Chief Executive Officer of Sierra Space, effective March 2.<br><br><strong>INTEL:</strong> This leadership change is strategic as Sierra Space continues its significant pivot from commercial space infrastructure, like its Dream Chaser spaceplane, towards the defense market, securing contracts for military satellites and expanding production capacity. Jablonsky's extensive background in leading large-scale aerospace and defense organizations is intended to bolster this transition, scale operations, and support increasing demand, aligning with the Pentagon's growing engagement with commercial space manufacturers.",
                                     "source_url": "https://spacenews.com/sierra-space-names-dan-jablonsky-ceo/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-25328",
-                                    "title": "CESIUMASTRO ACQUIRES VIDROVR TO EMBED AI IN COMMUNICATIONS SYSTEMS",
-                                    "description": "<br><strong>STATUS:</strong> CesiumAstro announced the acquisition of Vidrovr to accelerate the integration of AI into its space telecommunications and intelligence, surveillance, and reconnaissance (ISR) infrastructure.<br><br><strong>INTEL:</strong> The acquisition, which closed in late 2025, incorporates Vidrovr's expertise in AI for multimodal signals analysis, enabling CesiumAstro to embed AI directly into its space systems for adaptive radio-frequency optimization, autonomous payload operations, reconfigurable edge computing, and intelligent data routing, thereby establishing a real-time planetary intelligence layer to reduce latency and improve spectrum efficiency in congested and contested environments.",
-                                    "source_url": "https://spacenews.com/cesiumastro-acquires-vidrovr-to-embed-ai-in-communications-systems/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-68971",
-                                    "title": "PHANTOM SPACE RECLAIMS FORMER VECTOR LAUNCH TECHNOLOGY",
-                                    "description": "<br><strong>STATUS:</strong> Phantom Space has acquired launch assets from the bankrupt Vector Launch, bringing them back to one of Vector's original architects, Phantom co-founder Jim Cantrell.\n\n<br><strong>INTEL:</strong> This acquisition is strategic for Phantom Space, as it includes flight-proven design elements and engineering data that will be immediately integrated into their Daytona rocket architecture to reduce development risk and accelerate the company's path to orbital capability, complementing Phantom's broader vertical integration strategy that includes satellite development and an in-orbit data-backhaul service.",
-                                    "source_url": "https://spacenews.com/phantom-space-reclaims-former-vector-launch-technology/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "SPACE_NEWS"
                                 }
@@ -2107,6 +2115,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-72419",
+                                    "title": "GHANAIN MAN PLEADS GUILTY TO ROLE IN $100 MILLION FRAUD RING",
+                                    "description": "<br><strong>STATUS:</strong> A Ghanaian national has pleaded guilty to his role in a massive international fraud ring that stole over $100 million from U.S. victims through sophisticated romance scams and business email compromise attacks.<br><br><strong>INTEL:</strong> Derrick Van Yeboah, a high-ranking member of the Ghana-based operation, admitted to personally conducting many romance scams that exploited vulnerable Americans, resulting in over $10 million in direct losses linked to him. The scheme involved U.S. accomplices who laundered funds, forwarding proceeds to \"chairmen\" in West Africa, demonstrating a multi-national criminal network that leveraged both social engineering and BEC tactics to defraud individuals and businesses.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/ghanain-man-pleads-guilty-to-role-in-100-million-fraud-ring/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-50655",
                                     "title": "FBI INVESTIGATES BREACH OF SURVEILLANCE AND WIRETAP SYSTEMS",
                                     "description": "<br><strong>STATUS:</strong> The FBI confirmed it is investigating and has addressed a breach impacting systems used to manage surveillance and wiretap warrants.<br><br><strong>INTEL:</strong> The incident compromised highly sensitive FBI systems related to wiretapping and foreign intelligence surveillance warrants, raising concerns about the potential exposure of operational data. While the FBI stated the breach was addressed, it remains unclear if it's linked to a 2024 compromise by the Chinese state-backed group Salt Typhoon, which previously targeted U.S. federal wiretapping request systems and accessed private communications of government officials via telecom network breaches.",
@@ -2495,14 +2511,6 @@ const signalTree = {
                                     "title": "THIRD-PARTY PATCHING AND THE BUSINESS FOOTPRINT WE ALL SHARE",
                                     "description": "<br><strong>STATUS:</strong> Common, ubiquitous software tools like PDF readers and word processors constitute a critical yet often overlooked part of the enterprise attack surface, making them highly attractive and predictable targets for cyber adversaries.\n\n<br><strong>INTEL:</strong> While security teams focus on servers and cloud infrastructure, everyday applications essential for business operations are installed by default across virtually all endpoints due to compatibility needs. This standardization means threat actors can reliably target vulnerabilities in these widely adopted tools, leveraging the high probability of success and users' routine interactions (muscle memory) rather than requiring complex or custom exploits, thereby shifting the exploitation probability curve in their favor.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/third-party-patching-and-the-business-footprint-we-all-share/",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-66398",
-                                    "title": "UKRAINIAN MAN PLEADS GUILTY TO RUNNING AI-POWERED FAKE ID SITE",
-                                    "description": "<br><strong>STATUS:</strong> A Ukrainian man pleaded guilty to operating OnlyFake, an AI-powered website that generated and sold over 10,000 fake identification documents worldwide.<br><br><strong>INTEL:</strong> Yurii Nazarenko's OnlyFake platform leveraged artificial intelligence to create realistic, customizable counterfeit passports, driver's licenses, and Social Security cards for 50 U.S. states and 56 other countries, primarily enabling customers to bypass Know Your Customer (KYC) verification at banks and cryptocurrency exchanges. This sophisticated operation, which exclusively accepted cryptocurrency payments, significantly facilitated money laundering and posed a substantial risk to national and international security by undermining critical anti-fraud and anti-terrorism safeguards.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/ukrainian-man-pleads-guilty-to-running-ai-powered-fake-id-site/",
                                     "timestamp": "2026.02.27",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
