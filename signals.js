@@ -2107,6 +2107,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-50655",
+                                    "title": "FBI INVESTIGATES BREACH OF SURVEILLANCE AND WIRETAP SYSTEMS",
+                                    "description": "<br><strong>STATUS:</strong> The FBI confirmed it is investigating and has addressed a breach impacting systems used to manage surveillance and wiretap warrants.<br><br><strong>INTEL:</strong> The incident compromised highly sensitive FBI systems related to wiretapping and foreign intelligence surveillance warrants, raising concerns about the potential exposure of operational data. While the FBI stated the breach was addressed, it remains unclear if it's linked to a 2024 compromise by the Chinese state-backed group Salt Typhoon, which previously targeted U.S. federal wiretapping request systems and accessed private communications of government officials via telecom network breaches.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/fbi-investigates-breach-of-surveillance-and-wiretap-systems/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-97682",
                                     "title": "CHINESE STATE HACKERS TARGET TELCOS WITH NEW MALWARE TOOLKIT",
                                     "description": "<br><strong>STATUS:</strong> A China-linked APT group, UAT-9244, has been actively targeting telecommunication service providers in South America since 2024, compromising Windows, Linux, and network-edge devices. <br><br><strong>INTEL:</strong> UAT-9244 is associated with FamousSparrow and Tropic Trooper and utilizes three previously undocumented malware families: TernDoor, a Windows backdoor employing DLL side-loading and an embedded driver; PeerTime, a multi-architecture Linux backdoor that leverages the BitTorrent protocol for peer-to-peer command and control; and BruteEntry, a Go-based brute-force scanner used to build proxy infrastructure (ORBs) and scan for new targets.",
@@ -2496,14 +2504,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> A Ukrainian man pleaded guilty to operating OnlyFake, an AI-powered website that generated and sold over 10,000 fake identification documents worldwide.<br><br><strong>INTEL:</strong> Yurii Nazarenko's OnlyFake platform leveraged artificial intelligence to create realistic, customizable counterfeit passports, driver's licenses, and Social Security cards for 50 U.S. states and 56 other countries, primarily enabling customers to bypass Know Your Customer (KYC) verification at banks and cryptocurrency exchanges. This sophisticated operation, which exclusively accepted cryptocurrency payments, significantly facilitated money laundering and posed a substantial risk to national and international security by undermining critical anti-fraud and anti-terrorism safeguards.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/ukrainian-man-pleads-guilty-to-running-ai-powered-fake-id-site/",
                                     "timestamp": "2026.02.27",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-45079",
-                                    "title": "PREVIOUSLY HARMLESS GOOGLE API KEYS NOW EXPOSE GEMINI AI DATA",
-                                    "description": "<br><strong>STATUS:</strong> Google API keys previously considered non-sensitive can now be exploited to authenticate to the Gemini AI assistant and access private data due to an unforeseen privilege escalation.\n\n<br><strong>INTEL:</strong> Researchers found nearly 3,000 Google Cloud API keys, historically exposed in public client-side code for services like Maps, gained new authentication capabilities for Gemini, making them vulnerable to attackers who could access private data, incur significant API charges for victims, and exploit a flaw Google classified as \"single-service privilege escalation.\" Google has since implemented proactive detection and blocking measures, and advises developers to audit and rotate their API keys.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/previously-harmless-google-api-keys-now-expose-gemini-ai-data/",
-                                    "timestamp": "2026.02.26",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
