@@ -470,6 +470,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-73626",
+                                    "title": "RUSSIA PROVIDED IRAN WITH INFORMATION THAT CAN HELP TEHRAN STRIKE US MILITARY, SOURCES SAY",
+                                    "description": "<br><strong>STATUS:</strong> Russia has reportedly provided Iran with intelligence information that could aid Tehran in striking American military assets in the region, marking its initial involvement in the U.S.-Israel war against Iran.\n\n<br><br><strong>INTEL:</strong> This intelligence sharing signifies a strategic escalation, linking the U.S.-Iran conflict with broader geopolitical alliances where Russia and Iran maintain a reciprocal relationship, with Iran supplying drones and missiles for Russia's war in Ukraine. While the White House downplayed the immediate impact on current U.S. military operations, the development highlights deepening ties between Moscow and Tehran amidst Iran's international isolation, though U.S. intelligence has not indicated Russia is directly commanding Iran's use of the information.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/06/russia-provided-iran-with-information-that-can-help-tehran-strike-us-military-sources-say/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-86330",
+                                    "title": "AIR FORCE TEST LAUNCHES MINUTEMAN III WITH MULTIPLE REENTRY VEHICLES",
+                                    "description": "<br><strong>STATUS:</strong> Air Force Global Strike Command successfully conducted an operational test launch of an unarmed Minuteman III intercontinental ballistic missile equipped with two test reentry vehicles from Vandenberg Space Force Base.<br><br><strong>INTEL:</strong> The pre-scheduled test, designated GT 255, validated the Minuteman III's reliability and its capability to deliver multiple, independently targeted payloads with precision to a predetermined target thousands of miles away. This data is crucial for enhancing the performance of the ICBM fleet and ensuring the readiness of the land-based leg of the nuclear triad, particularly as the Minuteman III may need to remain operational beyond 2050 due to delays in the LGM-35A Sentinel modernization program.",
+                                    "source_url": "https://www.defensenews.com/news/your-air-force/2026/03/06/air-force-test-launches-minuteman-iii-with-multiple-reentry-vehicles/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-17419",
                                     "title": "NO DEAL WITH IRAN EXCEPT \u2018UNCONDITIONAL SURRENDER,\u2019 TRUMP SAYS",
                                     "description": "<br><strong>STATUS:</strong> U.S. President Trump has publicly demanded Iran's unconditional surrender to end the ongoing conflict, rejecting any negotiated deal. <br><br><strong>INTEL:</strong> U.S. forces are conducting \"Operation Epic Fury,\" having struck approximately 2,000 targets, including Iran's navy, missile capabilities, and \"space command,\" leading to a 90% reduction in ballistic missile attacks and an 83% decrease in drone attacks. Despite significant tactical successes and assurances of surging U.S. munitions, there are strategic concerns regarding the high cost of U.S. interceptor missiles versus inexpensive Iranian drones, leading the U.S. to seek Ukrainian expertise and plan to increase domestic missile system production.",
@@ -850,22 +866,6 @@ const signalTree = {
                                     "title": "NO US CASUALTIES REPORTED FOLLOWING IRAN\u2019S RETALIATORY STRIKES, OFFICIALS SAY",
                                     "description": "<br><strong>STATUS:</strong> Iranian retaliatory strikes on U.S. military installations across the Middle East resulted in no American casualties or significant damage, following a major U.S. and Israeli operation against Iran.<br><br><strong>INTEL:</strong> The \"Epic Fury\" operation by U.S. and Israeli forces represented the largest regional concentration of American military firepower in a generation, targeting critical Iranian infrastructure, including the Supreme Leader's compound, and causing over 900 Iranian casualties. This large-scale assault notably marked the first combat deployment of the U.S. military's new LUCAS autonomous kamikaze drone, reverse-engineered from the Iranian Shahed-136, utilized by a newly formed USSOCOM-Central squadron.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/02/28/no-us-casualties-reported-following-irans-retaliatory-strikes-officials-say/",
-                                    "timestamp": "2026.02.28",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-9227",
-                                    "title": "WAR POWERS DEBATE INTENSIFIES AFTER TRUMP ORDERS ATTACK ON IRAN WITHOUT APPROVAL BY CONGRESS",
-                                    "description": "<br><strong>STATUS:</strong> Key members of Congress are demanding an immediate vote on a war powers resolution to restrain President Trump's unauthorized military attack on Iran.\n\n<br><strong>INTEL:</strong> President Trump initiated military action against Iran, potentially aiming for a government change, without formal congressional authorization, sparking a constitutional debate over presidential war powers. While Republicans largely support the strikes, citing Iran's nuclear and missile programs, a bipartisan group of lawmakers warns the move is potentially illegal and risks deeper Middle East conflict; however, any congressional resolution to halt the operation would likely be symbolic, as the President could veto it and Congress would lack the votes to override.",
-                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/02/28/war-powers-debate-intensifies-after-trump-orders-attack-on-iran-without-approval-by-congress/",
-                                    "timestamp": "2026.02.28",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-71980",
-                                    "title": "US CONFIRMS FIRST COMBAT USE OF LUCAS ONE-WAY ATTACK DRONE IN IRAN STRIKES",
-                                    "description": "<br><strong>STATUS:</strong> U.S. Central Command confirmed the first combat deployment of the new autonomous kamikaze LUCAS drone during airstrikes against Iranian military targets on Saturday.<br><br><strong>INTEL:</strong> The Low-cost Unmanned Combat Attack System (LUCAS) drone, reverse-engineered from Iran's Shahed-136 and built by SpektreWorks, represents a strategic shift towards scalable, affordable autonomous weapons. Deployed in Operation Epic Fury against IRGC command, air defense, and launch sites, each LUCAS unit costs around $35,000 and can deliver a payload with twice the explosive yield of a Hellfire missile, demonstrating the U.S. military's accelerated acquisition of cutting-edge drone capabilities for deterrence, as mandated by Defense Secretary Pete Hegseth's \"Unleashing U.S. Military Drone Dominance\" directive.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/02/28/us-confirms-first-combat-use-of-lucas-one-way-attack-drone-in-iran-strikes/",
                                     "timestamp": "2026.02.28",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1700,6 +1700,14 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-36087",
+                                    "title": "NASA\u2019S DART MISSION CHANGED ORBIT OF ASTEROID DIDYMOS AROUND SUN",
+                                    "description": "<br><strong>STATUS:</strong> NASA's DART mission measurably altered the combined orbit of the Didymos-Dimorphos binary asteroid system around the Sun, marking the first time a human-made object has achieved such a feat.\n\n<br><strong>INTEL:</strong> This unprecedented orbital shift, caused by the impact's ejected debris creating a momentum enhancement factor of two, validated kinetic impact as a viable planetary defense technique. The minute change of 0.15 seconds in the 770-day solar orbital period underscores the potential for spacecraft to deflect hazardous asteroids if detected far enough in advance, prompting NASA's development of the NEO Surveyor mission to identify such threats.",
+                                    "source_url": "https://www.nasa.gov/missions/dart/nasas-dart-mission-changed-orbit-of-asteroid-didymos-around-sun/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-46272",
                                     "title": "TRACK NASA\u2019S ARTEMIS II MISSION IN REAL TIME",
                                     "description": "<br><strong>STATUS:</strong> NASA is offering the public real-time tracking of the Artemis II crewed mission around the Moon via the Artemis Real-time Orbit Website (AROW) and a mobile application.<br><br><strong>INTEL:</strong> AROW will provide continuous data from Orion's sensors, including its position relative to Earth and the Moon, mission duration, and key milestones, starting one minute after liftoff until atmospheric reentry. The mobile app adds an augmented reality tracker, while advanced users can access state vectors and downloadable ephemeris data to create custom tracking applications or visualizations, highlighting Artemis II's critical role in establishing a long-term lunar presence and paving the way for future Mars missions.",
@@ -2090,14 +2098,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/image-article/webb-maps-uranus-upper-atmosphere/",
                                     "timestamp": "2026.02.24",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-45411",
-                                    "title": "TECHNOLOGY ORIGINALLY DEVELOPED FOR SPACE MISSIONS NOW INTEGRAL TO EVERYDAY LIFE",
-                                    "description": "In the 1980s, sensors used to produce high-quality images for space science (including the amazing images from NASA's Hubble Space Telescope) and other applications employed charge coupled device (CCD) technology. Dr. Eric Fossum was originally hired at JPL in 1990 to advance CCD technology for use in interplanetary space missions, but he ended up advancing another technology called complementary metal-oxide semiconductor (CMOS) technology for that purpose and much more. While at JPL, Fossum took advantage of a technique commonly used for CCDs and applied it to CMOS sensors to develop the first CMOS active pixel image sensor. This development began a chain of events that led to the present use of CMOS technology not only in space science missions, but also in billions of cameras in smartphones, webcams, automobiles, and medical devices used worldwide. In 1990, CCDs were the primary technology used to generate high-quality images. CCD sensors consist of arrays of pixels that convert light into electric charges. The charge from each pixel is transferred step-by-step to an output amplifier at the corner of the sensor and converted to a voltage that represents the brightness of the light received at the corresponding pixel. The data from all the pixels is then aggregated to generate an image. While CCD cameras can produce very high-quality images that are suitable for scientific use, they require a lot of power and an efficient charge transfer process to be effective. CMOS sensors, on the other hand, have signal amplifiers within each pixel and signals can be read directly from each pixel instead of being transferred long distances to an amplifier for conversion. CMOS sensors therefore require less voltage to operate than CCDs and issues with the charge transfer process such as radiation susceptibility are greatly reduced. Although CMOS sensors existed in the 1990s, they produced too much noise to produce high-quality images required for science applications. To reduce the signal noise typical of CMOS sensors at that time, Fossum applied a technique that was often used in CCD devices. This technique\u2014called \u201cintra-pixel charge transfer with correlated double sampling\u201d\u2014enables a double measurement of a pixel\u2019s voltage without and with the light-generated charge. Subtracting the values of these two samples enables noise to be suppressed, improving the signal-to-noise ratio. Soon several companies signed Technology Cooperation Agreements with JPL and partnered with Fossum and his colleagues to develop the promising new technology. In 1995, Fossum and co-worker Dr. Sabrina Kemeny licensed the technology from CalTech and founded a company called Photobit to develop CMOS sensors. In 1996, Fossum left JPL to work at Photobit full time. The Photobit, team further refined the CMOS technology to get it closer to CCD capabilities, reduce power requirements, and make manufacturing cheaper. Shortly thereafter, CMOS cameras started to be used in webcams, \u201cpill cams\u201d (small, swallowable devices that incorporate a tiny camera to take thousands of high-resolution images of the digestive tract), and other applications. In 2001 Photobit was acquired by Micron Technology, a larger company that devoted even more resources to development of CMOS technology. With the subsequent explosion of the cell phone industry, by 2013 more than a billion CMOS sensors were manufactured each year, and today that number has grown to about seven billion per year. The CMOS technology Dr. Fossum originally developed has not only enabled space science, it has been infused into devices we depend on every day, dramatically and positively transforming many aspects of our lives. Virtually all digital still and video cameras, including those on cell phones, employ them. In addition, CMOS technology is used in automotive electronics, webcams, sports cameras, industrial equipment, security cameras including doorbells, and cinematography cameras, and for medical and dental imaging",
-                                    "source_url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/technology-originally-developed-for-space-missions-now-integral-to-everyday-life/",
-                                    "timestamp": "2026.02.24",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2114,6 +2114,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-7255",
+                                    "title": "COGNIZANT TRIZETTO BREACH EXPOSES HEALTH DATA OF 3.4 MILLION PATIENTS",
+                                    "description": "<br><strong>STATUS:</strong> TriZetto Provider Solutions, a Cognizant subsidiary, suffered a data breach exposing the sensitive information of over 3.4 million individuals from November 2024 to October 2025.<br><br><strong>INTEL:</strong> The breach involved unauthorized access to insurance eligibility verification transactions, which went undetected for nearly a year, leading to delayed customer notifications starting in February 2026. Although payment card or bank account information was not compromised, the incident underscores ongoing security vulnerabilities within critical healthcare IT infrastructure and raises concerns about Cognizant's repeated involvement in significant security incidents.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/cognizant-trizetto-breach-exposes-health-data-of-34-million-patients/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-82237",
                                     "title": "CISA WARNS FEDS TO PATCH IOS FLAWS EXPLOITED IN CRYPTO-THEFT ATTACKS",
@@ -2504,14 +2512,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> South Korea\u2019s National Tax Service inadvertently exposed the mnemonic recovery phrase of a seized cryptocurrency wallet, leading to the theft of $4.4 million in crypto assets.\n\n<br><strong>INTEL:</strong> The NTS released photos of a confiscated Ledger cold wallet from tax evaders as part of a press announcement, failing to redact a handwritten note containing the wallet's recovery phrase. An attacker exploited this blunder by depositing Ethereum for gas fees and subsequently transferring 4 million Pre-Retogeum (PRTG) tokens, then valued at approximately $4.8 million, in three transactions. Experts attribute the mistake to the tax authorities' \"lack of basic understanding of virtual assets,\" underscoring the severe security implications of exposing hardware wallet seed phrases.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/48m-in-crypto-stolen-after-korean-tax-agency-exposes-wallet-seed/",
                                     "timestamp": "2026.02.28",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-2295",
-                                    "title": "MICROSOFT TESTING WINDOWS 11 BATCH FILE SECURITY IMPROVEMENTS",
-                                    "description": "<br><strong>STATUS:</strong> Microsoft is rolling out Windows 11 Insider Preview builds that enhance batch file security and improve the Shared audio feature.<br><br><strong>INTEL:</strong> The new builds introduce a secure processing mode for batch files, preventing modification during execution, which improves performance and security in enterprise environments by reducing the frequency of signature validation. This mode can be enabled by IT administrators via a registry value or application manifest control. Furthermore, the Shared audio feature has been upgraded with individual volume sliders for each listener, a taskbar indicator for active sessions, and expanded compatibility for Bluetooth LE Audio accessories, improving its functionality and user experience.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-windows-11-batch-file-security-improvements/",
-                                    "timestamp": "2026.02.27",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
