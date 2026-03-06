@@ -462,6 +462,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-11127",
+                                    "title": "PENTAGON SAYS IT IS LABELING ANTHROPIC A SUPPLY CHAIN RISK \u2018EFFECTIVE IMMEDIATELY\u2019",
+                                    "description": "<br><strong>STATUS:</strong> The Trump administration has officially designated U.S. AI company Anthropic as a supply chain risk, an unprecedented move that could restrict government contractors from using its Claude AI.\n\n<br><strong>INTEL:</strong> This decision, made on the eve of the Iran war, follows Anthropic's refusal to allow its products to be used for mass surveillance or autonomous weapons, prompting the Pentagon to state the military will not tolerate vendors restricting lawful use of critical capabilities; the action is widely criticized as a misuse of authority typically applied to foreign adversaries, setting a dangerous precedent and potentially harming both the U.S. AI sector and the military's access to advanced technology.",
+                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/06/pentagon-says-it-is-labeling-anthropic-a-supply-chain-risk-effective-immediately/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-12005",
+                                    "title": "\u2018RACE OF ATTRITION\u2019: US MILITARY\u2019S FINITE INTERCEPTOR STOCKPILE IS BEING TESTED",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. military's increased use of missile interceptors during the war with Iran poses a significant long-term strategic risk to its finite defense capabilities.\n\n<br><br><strong>INTEL:</strong> Experts warn that the current rate of interceptor depletion, particularly for critical SM-3 and THAAD systems, could exhaust half the U.S. stockpile in four to five weeks if the conflict with Iran continues at a similar pace to previous engagements. This depletion risk could necessitate moving interceptors from other theaters, creating vulnerabilities, and potentially taking years to replenish, as evidenced by a recent drone strike in Kuwait attributed to stressed interceptor resources.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/06/race-of-attrition-us-militarys-finite-interceptor-stockpile-is-being-tested/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-39126",
                                     "title": "NORAD INTERCEPTS 2 RUSSIAN MARITIME PATROL AIRCRAFT NEAR ALASKA, CANADA",
                                     "description": "<br><strong>STATUS:</strong> NORAD detected and intercepted two Russian Tu-142 maritime patrol aircraft operating within the Alaskan and Canadian Air Defense Identification Zones, which remained in international airspace and were not considered a threat.<br><br><strong>INTEL:</strong> This event represents routine Russian military activity in international airspace adjacent to North America, consistent with a similar interception last month. NORAD's rapid deployment of U.S. and Canadian fighter jets, supported by tankers and AWACS, demonstrates its continuous capability to identify and monitor aircraft in the ADIZ, which extends into international airspace for national security.",
@@ -842,22 +858,6 @@ const signalTree = {
                                     "title": "PAKISTAN IN \u2018OPEN WAR\u2019 WITH AFGHANISTAN, DEFENSE MINISTER SAYS",
                                     "description": "<br><strong>STATUS:</strong> Pakistan and Afghanistan have escalated tensions into what Pakistan's defense minister calls an \"open war\" following a rapid exchange of cross-border airstrikes and ground attacks.\n\n<br><strong>INTEL:</strong> This immediate escalation stems from a cycle of retaliation, where Afghanistan responded to earlier Pakistani airstrikes, and Pakistan subsequently targeted Afghan military installations, fueled by Islamabad's long-standing accusations that Kabul harbors militant groups like the TTP and is increasingly aligning with rival India, further destabilizing the region despite prior failed peace negotiations.",
                                     "source_url": "https://www.defensenews.com/global/mideast-africa/2026/02/27/pakistan-in-open-war-with-afghanistan-defense-minister-says/",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-26514",
-                                    "title": "SWEDISH NAVY INTERCEPTS SUSPECTED RUSSIAN DRONE NEARING FRENCH AIRCRAFT CARRIER",
-                                    "description": "<br><strong>STATUS:</strong> The Swedish Navy intercepted a suspected Russian drone operating near France's nuclear-powered aircraft carrier, Charles de Gaulle, anchored in the port of Malm\u00f6.\n\n<br><strong>INTEL:</strong> This probable violation of Swedish airspace occurred while a Russian military ship, potentially the U.S.-sanctioned Sparta IV cargo vessel, was in the vicinity, and the French carrier was present for ongoing NATO exercises, including Orion 2026; Swedish countermeasures successfully disrupted the drone without affecting the flagship's activities.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/02/27/swedish-navy-intercepts-suspected-russian-drone-nearing-french-aircraft-carrier/",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-90880",
-                                    "title": "GERMANY, AUSTRIA COMPLETE \u2018ALPINE TRIANGLE\u2019 FOR AIRSPACE SURVEILLANCE",
-                                    "description": "<br><strong>STATUS:</strong> Germany and Austria have ratified a mutual aerial security treaty, completing a series of similar agreements among the three German-speaking Alpine nations.<br><br><strong>INTEL:</strong> This treaty allows both countries to pursue non-military airspace violations, such as illegal manned or unmanned aircraft, across their shared border without prior approval, while explicitly prohibiting the use of weapons in partner airspace. The agreement, mirroring existing pacts with Switzerland, addresses risks from unidentified aircraft in complicated border regions and reflects the military neutrality of Austria and Switzerland, both non-NATO members who have nonetheless joined the European Sky Shield initiative.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/02/27/germany-austria-complete-alpine-triangle-for-airspace-surveillance/",
                                     "timestamp": "2026.02.27",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1287,6 +1287,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-50902",
+                                    "title": "POLAND-BASED LIFTERO WILL PROVIDE CHEMICAL PROPULSION FOR INDIAN FIRM ORBITAID\u2019S IN-ORBIT SERVICING MISSION",
+                                    "description": "<br><strong>STATUS:</strong> Polish startup Liftero will supply green chemical propulsion systems to India's OrbitAID for an in-orbit servicing mission in late 2026, marking the first use of an N2O-based system for six degrees of freedom maneuvering in this application.<br><br><strong>INTEL:</strong> The BOOSTER system, utilizing nitrous oxide-based propulsion, will provide critical 6-DOF maneuverability for both chaser and target spacecraft, enabling controlled proximity operations essential for OrbitAID's mission to extend satellite lifespans and eventually establish in-orbit fuel stations. This collaboration signifies a major advancement for green chemical propulsion, demonstrating its market readiness and strategic importance for sustainable space operations by reducing space debris and prolonging orbital asset viability.",
+                                    "source_url": "https://spacenews.com/poland-based-liftero-will-provide-chemical-propulsion-for-indian-firm-orbitaids-in-orbit-servicing-mission/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-12151",
+                                    "title": "NASA DEPUTY ADMINISTRATOR NOMINEE SAILS THROUGH CONFIRMATION HEARING",
+                                    "description": "<br><strong>STATUS:</strong> Matt Anderson, the White House nominee for NASA deputy administrator, received strong bipartisan support at his Senate confirmation hearing on March 5.\n\n<br><strong>INTEL:</strong> Anderson's confirmation hearing revealed a clear bipartisan consensus and strategic alignment between the administration and the Senate Commerce Committee to accelerate NASA's Artemis lunar return program, specifically to land humans on the moon by 2028 ahead of China. Despite his military background, Anderson emphasized prioritizing this geopolitical objective and supporting Administrator Isaacman's initiatives, with the committee signaling an expedited vote on his nomination.",
+                                    "source_url": "https://spacenews.com/nasa-deputy-administrator-nominee-sails-through-confirmation-hearing/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-5297",
                                     "title": "TERRAN ORBITAL APPOINTS KWON PARK AS SENIOR DIRECTOR OF MANUFACTURING OPERATIONS",
                                     "description": "<br><strong>STATUS:</strong> Terran Orbital, a Lockheed Martin Company, has appointed Kwon Park as its new senior director of manufacturing operations.<br><br><strong>INTEL:</strong> Park brings over two decades of experience in high-precision aerospace and defense manufacturing, with a proven track record of scaling production from prototypes to full-rate, managing large-scale operations, and implementing Lean manufacturing and AS9100 quality systems. His appointment is crucial for Terran Orbital's strategic goal of accelerating higher-rate satellite production, improving manufacturing throughput, and increasing overall capacity to meet demand from its commercial, civil, and government clientele, including those involved in national security and deep-space exploration.",
@@ -1667,22 +1683,6 @@ const signalTree = {
                                     "title": "PHANTOM SPACE RECLAIMS FORMER VECTOR LAUNCH TECHNOLOGY",
                                     "description": "<br><strong>STATUS:</strong> Phantom Space has acquired launch assets from the bankrupt Vector Launch, bringing them back to one of Vector's original architects, Phantom co-founder Jim Cantrell.\n\n<br><strong>INTEL:</strong> This acquisition is strategic for Phantom Space, as it includes flight-proven design elements and engineering data that will be immediately integrated into their Daytona rocket architecture to reduce development risk and accelerate the company's path to orbital capability, complementing Phantom's broader vertical integration strategy that includes satellite development and an in-orbit data-backhaul service.",
                                     "source_url": "https://spacenews.com/phantom-space-reclaims-former-vector-launch-technology/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-66162",
-                                    "title": "NASA ASTRONAUT SAYS HIS MEDICAL ISSUE LED TO EARLY RETURN FROM THE ISS",
-                                    "description": "<br><strong>STATUS:</strong> NASA astronaut Mike Fincke confirmed he experienced a medical event on the International Space Station, necessitating the early return of the Crew-11 mission for advanced terrestrial imaging.\n\n<br><strong>INTEL:</strong> The medical event Fincke suffered on January 7 required diagnostic capabilities unavailable on the ISS, leading to the early return of the entire four-person Crew-11 mission. While the specific condition remains undisclosed due to privacy, Fincke has since completed terrestrial imaging and diagnostics, reporting a reassuring recovery path and underscoring both the unpredictable nature of microgravity and the essential requirement for sophisticated medical evaluation facilities beyond orbital platforms.",
-                                    "source_url": "https://spacenews.com/nasa-astronaut-says-his-medical-issue-led-to-early-return-from-the-iss/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-29790",
-                                    "title": "CHINA\u2019S TIANWEN-2 PROBE OPERATING NORMALLY ON APPROACH TO ASTEROID",
-                                    "description": "<br><strong>STATUS:</strong> China\u2019s Tianwen-2 spacecraft is operating normally on its heliocentric transfer trajectory toward the near-Earth asteroid 469219 Kamo\u02bboalewa for sampling and sample return, as confirmed by a rare official update.\n\n<br><strong>INTEL:</strong> Launched May 28, 2025, Tianwen-2 is tasked with studying and collecting samples from Kamo\u02bboalewa, with delivery to Earth by late November 2027, before proceeding to main-belt comet 311P. The mission is technically challenging due to Kamo\u02bboalewa's microgravity environment, unknown shape, and rapid rotation, necessitating the use of three redundant sampling techniques and a suite of 11 science payloads. Crucially, the collected samples could resolve whether the asteroid originated from the Moon or the main asteroid belt.",
-                                    "source_url": "https://spacenews.com/chinas-tianwen-2-probe-operating-normally-on-approach-to-asteroid/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "SPACE_NEWS"
                                 }
@@ -2107,6 +2107,22 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-97682",
+                                    "title": "CHINESE STATE HACKERS TARGET TELCOS WITH NEW MALWARE TOOLKIT",
+                                    "description": "<br><strong>STATUS:</strong> A China-linked APT group, UAT-9244, has been actively targeting telecommunication service providers in South America since 2024, compromising Windows, Linux, and network-edge devices. <br><br><strong>INTEL:</strong> UAT-9244 is associated with FamousSparrow and Tropic Trooper and utilizes three previously undocumented malware families: TernDoor, a Windows backdoor employing DLL side-loading and an embedded driver; PeerTime, a multi-architecture Linux backdoor that leverages the BitTorrent protocol for peer-to-peer command and control; and BruteEntry, a Go-based brute-force scanner used to build proxy infrastructure (ORBs) and scan for new targets.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/chinese-state-hackers-target-telcos-with-new-malware-toolkit/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-24961",
+                                    "title": "BING AI PROMOTED FAKE OPENCLAW GITHUB REPO PUSHING INFO-STEALING MALWARE",
+                                    "description": "<br><strong>STATUS:</strong> Fake OpenClaw installers promoted by Microsoft Bing's AI search deployed info-stealers and proxy malware to users.\n\n<br><strong>INTEL:</strong> Threat actors created malicious GitHub repositories, leveraging deceptive organization names and copied code, which Bing's AI-powered search then recommended to users seeking the popular OpenClaw AI agent. These fake installers delivered potent malware, including Atomic Stealer for macOS and Rust-based loaders for Vidar stealer and GhostSocks proxy malware for Windows, demonstrating how easily AI search results can be poisoned to distribute sophisticated threats.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/bing-ai-promoted-fake-openclaw-github-repo-pushing-info-stealing-malware/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-38988",
                                     "title": "WIKIPEDIA HIT BY SELF-PROPAGATING JAVASCRIPT WORM THAT VANDALIZED PAGES",
                                     "description": "<br><strong>STATUS:</strong> The Wikimedia Foundation suffered a security incident involving a self-propagating JavaScript worm that vandalized pages and modified user scripts across multiple wikis.<br><br><strong>INTEL:</strong> The incident originated from a malicious JavaScript script hosted on Russian Wikipedia, `User:Ololoshka562/test.js`, which was apparently executed by a Wikimedia employee account during testing, though intent is unknown. This worm self-propagated by injecting malicious JavaScript loaders into logged-in users' `common.js` files and the global `MediaWiki:Common.js`, leveraging editor session privileges to spread. The attack resulted in approximately 3,996 page modifications and 85 user `common.js` files being replaced, prompting temporary editing restrictions and a cleanup operation by Wikimedia engineers to revert changes and suppress malicious content.",
@@ -2487,22 +2503,6 @@ const signalTree = {
                                     "title": "PREVIOUSLY HARMLESS GOOGLE API KEYS NOW EXPOSE GEMINI AI DATA",
                                     "description": "<br><strong>STATUS:</strong> Google API keys previously considered non-sensitive can now be exploited to authenticate to the Gemini AI assistant and access private data due to an unforeseen privilege escalation.\n\n<br><strong>INTEL:</strong> Researchers found nearly 3,000 Google Cloud API keys, historically exposed in public client-side code for services like Maps, gained new authentication capabilities for Gemini, making them vulnerable to attackers who could access private data, incur significant API charges for victims, and exploit a flaw Google classified as \"single-service privilege escalation.\" Google has since implemented proactive detection and blocking measures, and advises developers to audit and rotate their API keys.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/previously-harmless-google-api-keys-now-expose-gemini-ai-data/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-6420",
-                                    "title": "TREND MICRO WARNS OF CRITICAL APEX ONE CODE EXECUTION FLAWS",
-                                    "description": "<br><strong>STATUS:</strong> Trend Micro has patched two critical Apex One vulnerabilities (CVE-2025-71210 and CVE-2025-71211) that allow remote code execution (RCE) on Windows systems.<br><br><strong>INTEL:</strong> These path traversal flaws in the Apex One management console could be exploited by attackers with console access, prompting Trend Micro to release Critical Patch Build 14136 and urge immediate updates, despite not being actively exploited, given a history of other Apex One RCEs being abused by threat actors.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/trend-micro-warns-of-critical-apex-one-rce-vulnerabilities/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-26802",
-                                    "title": "EUROPEAN DYI CHAIN MANOMANO DATA BREACH IMPACTS 38 MILLION CUSTOMERS",
-                                    "description": "<br><strong>STATUS:</strong> DIY store chain ManoMano is notifying 38 million customers of a data breach discovered in January 2026, stemming from a compromised third-party customer service provider.\n<br><br><strong>INTEL:</strong> The breach originated from a subcontractor, likely a Tunis-based customer support service provider impacted by a Zendesk compromise, with a hacker alias \"Indra\" claiming responsibility for 37.8 million user accounts on a forum. While exposed data varies per individual and no account passwords or system modifications occurred, ManoMano has secured its environment, revoked the subcontractor's access, and notified relevant authorities and customers to be vigilant against phishing.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/european-dyi-chain-manomano-data-breach-impacts-38-million-customers/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
