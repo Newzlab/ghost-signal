@@ -470,6 +470,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-17419",
+                                    "title": "NO DEAL WITH IRAN EXCEPT \u2018UNCONDITIONAL SURRENDER,\u2019 TRUMP SAYS",
+                                    "description": "<br><strong>STATUS:</strong> U.S. President Trump has publicly demanded Iran's unconditional surrender to end the ongoing conflict, rejecting any negotiated deal. <br><br><strong>INTEL:</strong> U.S. forces are conducting \"Operation Epic Fury,\" having struck approximately 2,000 targets, including Iran's navy, missile capabilities, and \"space command,\" leading to a 90% reduction in ballistic missile attacks and an 83% decrease in drone attacks. Despite significant tactical successes and assurances of surging U.S. munitions, there are strategic concerns regarding the high cost of U.S. interceptor missiles versus inexpensive Iranian drones, leading the U.S. to seek Ukrainian expertise and plan to increase domestic missile system production.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/06/no-deal-with-iran-except-unconditional-surrender-trump-says/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-22999",
+                                    "title": "PATRIOT PRODUCTION DELAYS PROMPT SWITZERLAND TO SEEK EUROPEAN AIR-DEFENSE FALLBACK",
+                                    "description": "<br><strong>STATUS:</strong> Switzerland will acquire fewer F-35 jets and is considering a second European long-range air-defense system due to significant delays in US Patriot deliveries and increased fighter jet costs.\n\n<br><strong>INTEL:</strong> The US reprioritized Patriot deliveries to support Ukraine, causing a 4-5 year delay for Switzerland and a potential 50% cost increase, prompting them to seek a European alternative like SAMP/T to mitigate capability gaps and diversify their supply chain dependence. Simultaneously, increased unit costs for the F-35 mean Switzerland will reduce its order from 36 aircraft due to budget constraints, further complicated by a narrow voter approval of the original defense budget.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/06/patriot-production-delays-prompt-switzerland-to-seek-european-air-defense-fallback/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-84528",
                                     "title": "GULF ALLIES COMPLAIN US DID NOT PROVIDE NOTICE OF IRAN ATTACKS AND IGNORED WARNINGS, SOURCES SAY",
                                     "description": "<br><strong>STATUS:</strong> Gulf allies are expressing significant discontent with the Trump administration's handling of the war with Iran, citing a lack of warning and inadequate defense against retaliatory attacks.\n\n<br><strong>INTEL:</strong> Gulf nations were not given advance notice of the initial U.S.-Israeli strike on Iran, leading to accusations that the U.S. has prioritized defending Israel and American troops while leaving Gulf countries vulnerable to overwhelming barrages of Iranian drones and missiles, rapidly depleting their air defense stocks; Pentagon officials admit they are struggling to intercept these drone waves, leaving U.S. targets and personnel in the region exposed.",
@@ -850,22 +866,6 @@ const signalTree = {
                                     "title": "US CONFIRMS FIRST COMBAT USE OF LUCAS ONE-WAY ATTACK DRONE IN IRAN STRIKES",
                                     "description": "<br><strong>STATUS:</strong> U.S. Central Command confirmed the first combat deployment of the new autonomous kamikaze LUCAS drone during airstrikes against Iranian military targets on Saturday.<br><br><strong>INTEL:</strong> The Low-cost Unmanned Combat Attack System (LUCAS) drone, reverse-engineered from Iran's Shahed-136 and built by SpektreWorks, represents a strategic shift towards scalable, affordable autonomous weapons. Deployed in Operation Epic Fury against IRGC command, air defense, and launch sites, each LUCAS unit costs around $35,000 and can deliver a payload with twice the explosive yield of a Hellfire missile, demonstrating the U.S. military's accelerated acquisition of cutting-edge drone capabilities for deterrence, as mandated by Defense Secretary Pete Hegseth's \"Unleashing U.S. Military Drone Dominance\" directive.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/02/28/us-confirms-first-combat-use-of-lucas-one-way-attack-drone-in-iran-strikes/",
-                                    "timestamp": "2026.02.28",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-37309",
-                                    "title": "WORLD LEADERS FEAR BROADER ESCALATION AFTER MAJOR US AND ISRAELI ATTACK ON IRAN",
-                                    "description": "<br><strong>STATUS:</strong> U.S. and Israeli strikes on Iran have prompted emergency security meetings among European leaders and calls for de-escalation amidst fears of a broader Middle East conflict.<br><br><strong>INTEL:</strong> The unilateral strikes have placed European allies in a quandary, as they condemn Iran's actions but fear U.S. military action risks breaching international law and igniting a broader regional conflict. European leaders, largely blindsided by the attacks, are now holding emergency meetings, evacuating staff, and jointly calling for de-escalation, maximum restraint, and diplomatic solutions to ensure peace and stability in the Middle East.",
-                                    "source_url": "https://www.defensenews.com/global/mideast-africa/2026/02/28/world-leaders-fear-broader-escalation-after-major-us-and-israeli-attack-on-iran/",
-                                    "timestamp": "2026.02.28",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-23684",
-                                    "title": "US, ISRAEL LAUNCH \u2018MAJOR COMBAT OPERATIONS\u2019 IN IRAN",
-                                    "description": "<br><strong>STATUS:</strong> The U.S. and Israel launched a major joint military attack on Iran, explicitly calling for regime change, which prompted immediate retaliatory strikes by Iran against U.S. and Israeli targets across the region.\n\n<br><strong>INTEL:</strong> This aggressive intervention, justified by claims of Iran's nuclear program and missile development, followed weeks of military buildup and collapsed diplomatic efforts, leading to widespread strikes targeting Iranian infrastructure, including areas near the Supreme Leader's offices, and causing civilian casualties. Iran's swift retaliation against U.S. military installations in Bahrain, Kuwait, Qatar, and against Israel signifies a severe regional escalation, despite ongoing mediation attempts, and marks a significant expansion of U.S. military engagement in the Middle East.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/02/28/us-israel-launch-major-combat-operations-in-iran/",
                                     "timestamp": "2026.02.28",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1295,6 +1295,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-40761",
+                                    "title": "EUTELSAT COMPLETES $5.8 BILLION REFINANCING PLAN",
+                                    "description": "<br><strong>STATUS:</strong> Eutelsat successfully completed a 5 billion euro refinancing plan to fund its OneWeb LEO broadband constellation refresh and support the European IRIS\u00b2 sovereign connectivity program.\n\n<br><strong>INTEL:</strong> This comprehensive financing, which includes a recent 1.5 billion euro bond and an equity infusion, is critical for Eutelsat's transformation into a multi-orbit provider, allocating 2.2 billion euros for OneWeb's next-generation satellites by 2029 and 2 billion euros for its stake in the strategic IRIS\u00b2 constellation. Despite a recent setback from a failed asset sale, the funding strengthens Eutelsat's competitive position against rivals like Starlink, as its LEO revenues rapidly grow while its legacy geostationary TV business declines.",
+                                    "source_url": "https://spacenews.com/eutelsat-completes-5-8-billion-refinancing-plan/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-40515",
+                                    "title": "COMMERCIAL SPACE FEDERATION (CSF) WELCOMES NEW MEMBERS",
+                                    "description": "<br><strong>STATUS:</strong> The Commercial Space Federation (CSF) has expanded its membership by welcoming LeoLabs, the American Society for Gravitational and Space Research (ASGSR), and SurgeStreams.\n\n<br><strong>INTEL:</strong> These new members enhance CSF\u2019s collective expertise across critical domains: LeoLabs brings orbital intelligence for space safety and security, ASGSR contributes biological and physical sciences research crucial for exploration and commercial platforms, and SurgeStreams provides digital infrastructure modernization for supply chain resilience. This expansion reflects the commercial space industry's accelerating growth and its increasing focus on sustainable operations, scientific advancement, and robust digital foundations.",
+                                    "source_url": "https://spacenews.com/commercial-space-federation-csf-welcomes-new-members/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-39602",
                                     "title": "HYPERSCALERS ARE COMING TO AN ORBIT NEAR YOU. POWER WILL DECIDE THE WINNERS.",
                                     "description": "<br><strong>STATUS:</strong> The rapidly expanding space ecosystem, characterized by enormous satellite constellations, is confronting power generation and distribution as its primary limiting factor.\n\n<br><strong>INTEL:</strong> Power systems are emerging as the critical bottleneck and strategic lever in the new orbital economy, with vertically integrated players like SpaceX achieving significant advantages through innovations such as large-scale, efficient solar arrays (reaching 10-20 kW average power for Starlink). This dynamic, coupled with existing supply chain constraints in electrical power components, threatens to create an orbital hyperscaler landscape dominated by a few players unless deliberate investment in shared power infrastructure is undertaken to ensure competition and long-term sustainability.",
@@ -1677,28 +1693,28 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/virgin-media-o2-launches-europes-first-starlink-direct-to-smartphone-service/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-38768",
-                                    "title": "AIRBUS AND LEONARDO REPORT INCREASED SPACE REVENUES FOR 2025",
-                                    "description": "<br><strong>STATUS:</strong> Airbus and Leonardo reported significant revenue growth in their space businesses for 2025, driven by program volumes and cost-cutting measures.\n\n<br><strong>INTEL:</strong> Both companies experienced approximately 11% revenue increases in their space divisions, with Airbus undergoing a major restructuring and workforce adaptation plan to address high costs and technical challenges in its Space Systems division. These positive financial results occur while Airbus and Leonardo are engaged in undisclosed discussions with Thales regarding a new joint venture, \"Project Bromo,\" indicating potential strategic consolidation within the European space sector.",
-                                    "source_url": "https://spacenews.com/airbus-and-leonardo-report-increased-space-revenues-for-2025/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-96147",
-                                    "title": "NORDSPACE FOUNDER BACKS WYVERN WITH NEW CANADA-FOCUSED VENTURE ARM",
-                                    "description": "<br><strong>STATUS:</strong> Rahul Goel, founder of Canadian launch startup NordSpace, has invested in Earth observation company Wyvern through a new venture arm focused on advancing Canada's sovereign space capabilities.<br><br><strong>INTEL:</strong> This strategic investment, part of a CA$2 million annual initiative, specifically supports Wyvern's hardware development for its hyperspectral imagery constellation, which provides global coverage for applications like vegetative monitoring and nitrogen optimization. Goel's broader strategy is to integrate NordSpace's developing domestic launch capabilities (including suborbital Taiga and orbital Tundra rockets) and satellite platform (Terra Nova) with downstream space applications, aiming to complete Canada's space value chain and offer portfolio companies access to manufacturing, testing, and future launch services.",
-                                    "source_url": "https://spacenews.com/nordspace-founder-backs-wyvern-with-new-canada-focused-venture-arm/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-46272",
+                                    "title": "TRACK NASA\u2019S ARTEMIS II MISSION IN REAL TIME",
+                                    "description": "<br><strong>STATUS:</strong> NASA is offering the public real-time tracking of the Artemis II crewed mission around the Moon via the Artemis Real-time Orbit Website (AROW) and a mobile application.<br><br><strong>INTEL:</strong> AROW will provide continuous data from Orion's sensors, including its position relative to Earth and the Moon, mission duration, and key milestones, starting one minute after liftoff until atmospheric reentry. The mobile app adds an augmented reality tracker, while advanced users can access state vectors and downloadable ephemeris data to create custom tracking applications or visualizations, highlighting Artemis II's critical role in establishing a long-term lunar presence and paving the way for future Mars missions.",
+                                    "source_url": "https://www.nasa.gov/missions/artemis/artemis-2/track-nasas-artemis-ii-mission-in-real-time/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-15082",
+                                    "title": "ABOUT TRANSFORMATIVE AERONAUTICS CONCEPTS PROGRAM (TACP)",
+                                    "description": "<br><strong>STATUS:</strong> The intercepted text outlines a strategic initiative focused on accelerating revolutionary advancements and maintaining U.S. global leadership in aviation.<br><br><strong>INTEL:</strong> This initiative, which involves elements like Transformational Tools and Technologies (TTT) and a collaborative ecosystem fostered by TACP, prioritizes next-generation engineering, digital tools, partnerships among NASA, academia, industry, and government, and robust workforce development to drive breakthroughs and secure future aeronautics expertise.",
+                                    "source_url": "https://www.nasa.gov/directorates/armd/tacp/about-tacp/",
+                                    "timestamp": "2026.03.05",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-3307",
                                     "title": "WEEKENDS ON THE SPACE STATION",
@@ -2082,22 +2098,6 @@ const signalTree = {
                                     "source_url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/technology-originally-developed-for-space-missions-now-integral-to-everyday-life/",
                                     "timestamp": "2026.02.24",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-37214",
-                                    "title": "SHOWY SWIRLS AROUND JEJU ISLAND",
-                                    "description": "Winds blowing past the volcanic landmass near the Korean Peninsula created a trail of spiraling clouds, while murky water churned nearby. The tallest point in South Korea is not located in the Taebaek Mountains that run along the country\u2019s eastern coast. Rather, it is found atop a volcanic peak on Jeju Island, about 100 kilometers (60 miles) south of the Korean Peninsula. In winter 2026, winds blew past the island in just the right way to send clouds spinning in its wake. The MODIS (Moderate Resolution Imaging Spectroradiometer) on NASA\u2019s Terra satellite captured this image of swirling clouds\u2014and colorful, turbulent water\u2014near Jeju Island on February 19, 2026. The island rises about 1,950 meters (6,400 feet) above the sea surface. At its center is Hallasan, a shield volcano that last erupted in the 11th century and contains a notable network of lava tubes. The trailing, staggered spirals, called von K\u00e1rm\u00e1n vortex streets, form when a fluid passes a tall, isolated, stationary object. If winds are too weak, clouds simply flow smoothly past, and if winds are too strong, vortices cannot maintain their shape. In the sweet spot, with winds between 18 and 54 kilometers (11 and 34 miles) per hour, clouds trace the airflow in patterns of counterrotating vortices. Though the underlying physics is the same, the appearance of the vortices can vary: sometimes they look wispy, as they do here, and other times they form more sharply defined, parallel rows, as they did at the same location the previous day. The seas, as well as the atmosphere, were turbulent near Jeju Island in mid-February. To the west, a large plume of sediment coming off the coast of China\u2019s Jiangsu province turned waters murky. While brown, sediment-laden water is present in the shallow nearshore area year-round, expansive plumes like this one are common during winter. Research suggests that seasonal changes in currents and vertical mixing of the water column may account for the large winter plumes. NASA Earth Observatory image by Michala Garrison, using MODIS data from NASA EOSDIS LANCE and GIBS/Worldview. Story by Lindsey Doermann. Stay up-to-date with the latest content from NASA as we explore the universe and discover more about our home planet. Puffs of low-level clouds mingle with the volcanic terrain of Candlemas and Vindication islands in the remote South Atlantic. The category 5 hurricane stirred up carbonate sediment near Jamaica in what scientists believe is the largest such event in\u2026 An astronaut photographed the island\u2019s striking mix of mountains, forests, and expanding urban areas. Subscribe to the Earth Observatory and get the Earth in your inbox. NASA's Earth Observatory brings you the Earth, every day, with in-depth stories and stunning imagery.",
-                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/showy-swirls-around-jeju-island/",
-                                    "timestamp": "2026.02.24",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-66621",
-                                    "title": "YOUNG \u2018SUN\u2019 CAUGHT BLOWING BUBBLES BY NASA\u2019S CHANDRA",
-                                    "description": "For the first time, a much younger version of the Sun has been caught red-handed blowing bubbles in the galaxy, by astronomers using NASA\u2019s Chandra X-ray Observatory. The bubble \u2013 called an \u201castrosphere\u201d \u2013 completely surrounds the juvenile star. Winds from the star\u2019s surface are blowing up the bubble and filling it with hot gas as it expands into much cooler galactic gas and dust surrounding the star. The Sun has a similar bubble around it, which scientists call the heliosphere, created by the solar wind. It extends far beyond the planets in our solar system and protects Earth from cosmic radiation. This is the first image of an astrosphere astronomers have obtained around a star similar to the Sun. It shows slightly extended emission, rather than a single point of light as seen for other such stars. \u201cWe have been studying our Sun\u2019s astrosphere for decades, but we can\u2019t see it from the outside,\u201d said Carey Lisse of Johns Hopkins University in Baltimore, who led the study, which published [day of week] in the Astrophysical Journal. \u201cThis new Chandra result about a similar star\u2019s astrosphere teaches us about the shape of the Sun\u2019s, and how it has changed over billions of years as the Sun evolves and moves through the galaxy.\u201d The star is called HD 61005 and is located about 120 light-years from Earth, making it relatively close. HD 61005 has roughly the same mass and temperature as the Sun, but it is much younger with an age of about 100 million years, compared to the Sun\u2019s age of about 5 billion years. Because it is so young, HD 61005 has a much stronger wind of particles blowing from its surface that travels about 3 times faster and is about 25 times denser than the wind from the Sun. This amplifies the process of astrosphere bubble-blowing and mimics how our Sun was behaving several billion years ago. \u201cWe are impacted by the Sun every day, not only through the light it gives off, but also by the wind it sends out into space that can affect our satellites and potentially astronauts traveling to the Moon or Mars,\u201d said co-author Scott Wolk of the Center for Astrophysics | Harvard & Smithsonian (CfA). \u201cThis image of the astrosphere around HD 61005 gives us important information about what the Sun\u2019s wind may have been like early in its evolution.\u201d Astronomers have nicknamed the HD 61005 star system the \u201cMoth\u201d because it is surrounded by large amounts of dust patterned similarly to the shape of a moth\u2019s wings when viewed through infrared telescopes. The wings are formed from material left behind after the formation of the star, similar to the Kuiper Belt in our own solar system. Observations of these wings with NASA\u2019s Hubble Space Telescope showed that the interstellar matter surrounding HD 61005 is about a thousand times denser than that around the Sun. Since the 1990s, astronomers have been trying to capture an image of an astrosphere around a Sun-like star. Chandra was able to detect the astrosphere around HD 61005 because it is producing X-rays as the stellar wind runs into cooler local interstellar medium dust and gas that surrounds the star. The dense local galactic environment, combined with Chandra\u2019s high-resolution X-ray vision, the strong stellar wind, and the star\u2019s proximity, all helped create a strong X-ray signal, allowing discovery of an astrosphere around HD 61005. It has a diameter about 200 times the distance from Earth to the Sun. \u201cThere\u2019s a saying about a moth being drawn to a flame,\u201d said co-author Brad Snios, formerly of CfA and now at MITRE, a non-profit that participates in federally funded research. \u201cIn the case of HD 61005, the \u2018Moth\u2019 can\u2019t easily escape from the flame because it was born around it and might be sustained by a disk around it.\u201d The Sun not only likely passed through a phase of development similar to HD 61005 when it was younger, it also likely traveled through a denser region of dust and gas than where the Sun is currently located, strengthening the connection with HD 61005. \u201cIt is amazing ",
-                                    "source_url": "https://www.nasa.gov/missions/chandra/young-sun-caught-blowing-bubbles-by-nasas-chandra/",
-                                    "timestamp": "2026.02.23",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2114,6 +2114,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-82237",
+                                    "title": "CISA WARNS FEDS TO PATCH IOS FLAWS EXPLOITED IN CRYPTO-THEFT ATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> CISA has mandated federal agencies to patch three iOS vulnerabilities actively exploited by the Coruna exploit kit in cyberespionage and crypto-theft attacks.<br><br><strong>INTEL:</strong> The Coruna exploit kit leverages multiple iOS vulnerabilities, many of them zero-days, to achieve WebKit remote code execution and kernel privileges through PAC, sandbox, and PPL bypasses. Google Threat Intelligence Group observed its use by surveillance vendors, suspected Russian state-backed actors, and financially motivated Chinese groups (UNC6691) for cryptocurrency theft, indicating the spread of sophisticated spyware-grade capabilities. CISA's directive (BOD 22-01) requires federal agencies to apply mitigations by March 26, and all organizations are urged to patch these critical flaws immediately to secure their devices.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-apple-flaws-exploited-in-spyware-crypto-theft-attacks/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-9876",
                                     "title": "EC-COUNCIL EXPANDS AI CERTIFICATION PORTFOLIO TO STRENGTHEN U.S. AI WORKFORCE READINESS AND SECURITY",
@@ -2503,14 +2511,6 @@ const signalTree = {
                                     "title": "MICROSOFT TESTING WINDOWS 11 BATCH FILE SECURITY IMPROVEMENTS",
                                     "description": "<br><strong>STATUS:</strong> Microsoft is rolling out Windows 11 Insider Preview builds that enhance batch file security and improve the Shared audio feature.<br><br><strong>INTEL:</strong> The new builds introduce a secure processing mode for batch files, preventing modification during execution, which improves performance and security in enterprise environments by reducing the frequency of signature validation. This mode can be enabled by IT administrators via a registry value or application manifest control. Furthermore, the Shared audio feature has been upgraded with individual volume sliders for each listener, a taskbar indicator for active sessions, and expanded compatibility for Bluetooth LE Audio accessories, improving its functionality and user experience.",
                                     "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-windows-11-batch-file-security-improvements/",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-37609",
-                                    "title": "APT37 HACKERS USE NEW MALWARE TO BREACH AIR-GAPPED NETWORKS",
-                                    "description": "<br><strong>STATUS:</strong> North Korean state-backed hackers (APT37) are deploying a new toolkit named \"Ruby Jumper\" to exfiltrate data from and conduct surveillance on air-gapped systems by weaponizing removable storage drives.<br><br><strong>INTEL:</strong> The APT37 group, also known as ScarCruft, uses a multi-stage infection chain starting with a malicious LNK file, deploying a PowerShell script to load RESTLEAF for C2 communication via Zoho WorkDrive, followed by the Ruby-based SNAKEDROPPER loader. Crucially, the campaign leverages THUMBSBD and VIRUSTASK malware to transform USB drives into bidirectional covert command-and-control relays, enabling data extraction from and command delivery to physically isolated networks. FOOTWINE, a comprehensive Windows spyware, and the known BLUELIGHT backdoor are also part of this campaign, which exhibits high confidence attribution to APT37 based on consistent TTPs and C2 infrastructure.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/apt37-hackers-use-new-malware-to-breach-air-gapped-networks/",
                                     "timestamp": "2026.02.27",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
