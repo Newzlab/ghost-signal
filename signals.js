@@ -1295,6 +1295,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-39602",
+                                    "title": "HYPERSCALERS ARE COMING TO AN ORBIT NEAR YOU. POWER WILL DECIDE THE WINNERS.",
+                                    "description": "<br><strong>STATUS:</strong> The rapidly expanding space ecosystem, characterized by enormous satellite constellations, is confronting power generation and distribution as its primary limiting factor.\n\n<br><strong>INTEL:</strong> Power systems are emerging as the critical bottleneck and strategic lever in the new orbital economy, with vertically integrated players like SpaceX achieving significant advantages through innovations such as large-scale, efficient solar arrays (reaching 10-20 kW average power for Starlink). This dynamic, coupled with existing supply chain constraints in electrical power components, threatens to create an orbital hyperscaler landscape dominated by a few players unless deliberate investment in shared power infrastructure is undertaken to ensure competition and long-term sustainability.",
+                                    "source_url": "https://spacenews.com/hyperscalers-are-coming-to-an-orbit-near-you-power-will-decide-the-winners/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-9808",
                                     "title": "ROCKET LAB LAUNCHES SATELLITE FOR UNDISCLOSED CUSTOMER",
                                     "description": "<br><strong>STATUS:</strong> Rocket Lab successfully launched a single satellite on March 5 for a confidential customer, strongly suspected to be Earth observation company BlackSky, into a 470-kilometer mid-inclination orbit.<br><br><strong>INTEL:</strong> The mission's rapid announcement and specific characteristics closely resemble a November 2025 Rocket Lab launch later confirmed to be for a BlackSky Gen-3 satellite, aligning with BlackSky CEO Brian O\u2019Toole\u2019s recent statement that their next Gen-3 spacecraft was awaiting launch. This potential deployment, the fourth Gen-3 satellite if confirmed, underscores the ongoing expansion of BlackSky's Earth observation constellation and Rocket Lab's capability in rapidly deploying sensitive payloads for undisclosed clients.",
@@ -1683,14 +1691,6 @@ const signalTree = {
                                     "title": "NORDSPACE FOUNDER BACKS WYVERN WITH NEW CANADA-FOCUSED VENTURE ARM",
                                     "description": "<br><strong>STATUS:</strong> Rahul Goel, founder of Canadian launch startup NordSpace, has invested in Earth observation company Wyvern through a new venture arm focused on advancing Canada's sovereign space capabilities.<br><br><strong>INTEL:</strong> This strategic investment, part of a CA$2 million annual initiative, specifically supports Wyvern's hardware development for its hyperspectral imagery constellation, which provides global coverage for applications like vegetative monitoring and nitrogen optimization. Goel's broader strategy is to integrate NordSpace's developing domestic launch capabilities (including suborbital Taiga and orbital Tundra rockets) and satellite platform (Terra Nova) with downstream space applications, aiming to complete Canada's space value chain and offer portfolio companies access to manufacturing, testing, and future launch services.",
                                     "source_url": "https://spacenews.com/nordspace-founder-backs-wyvern-with-new-canada-focused-venture-arm/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-60553",
-                                    "title": "SIERRA SPACE NAMES DAN JABLONSKY CEO",
-                                    "description": "<br><strong>STATUS:</strong> Dan Jablonsky, a veteran defense executive with experience at Ursa Major and Maxar Technologies, has been appointed Chief Executive Officer of Sierra Space, effective March 2.<br><br><strong>INTEL:</strong> This leadership change is strategic as Sierra Space continues its significant pivot from commercial space infrastructure, like its Dream Chaser spaceplane, towards the defense market, securing contracts for military satellites and expanding production capacity. Jablonsky's extensive background in leading large-scale aerospace and defense organizations is intended to bolster this transition, scale operations, and support increasing demand, aligning with the Pentagon's growing engagement with commercial space manufacturers.",
-                                    "source_url": "https://spacenews.com/sierra-space-names-dan-jablonsky-ceo/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "SPACE_NEWS"
                                 }
@@ -2115,6 +2115,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-4060",
+                                    "title": "MICROSOFT 365 BACKUP TO ADD FILE-LEVEL RESTORE FOR FASTER RECOVERY",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft is rolling out a significant upgrade to Microsoft 365 Backup, enabling granular file and folder restoration to speed up recovery times.\n\n<br><strong>INTEL:</strong> This new capability allows SharePoint Backup Administrators to selectively restore individual files or folders from existing restore points for SharePoint sites and OneDrive accounts, moving beyond the previous site- or drive-level recovery which often required time-consuming full restores. The feature, entering public preview in early March 2026 and expected for general availability by late April/early May 2026, significantly enhances data loss protection against threats like ransomware or accidental deletion without impacting end-users or changing backup data storage methods.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-backup-to-add-file-level-restore-for-faster-recovery/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-72419",
                                     "title": "GHANAIN MAN PLEADS GUILTY TO ROLE IN $100 MILLION FRAUD RING",
                                     "description": "<br><strong>STATUS:</strong> A Ghanaian national has pleaded guilty to his role in a massive international fraud ring that stole over $100 million from U.S. victims through sophisticated romance scams and business email compromise attacks.<br><br><strong>INTEL:</strong> Derrick Van Yeboah, a high-ranking member of the Ghana-based operation, admitted to personally conducting many romance scams that exploited vulnerable Americans, resulting in over $10 million in direct losses linked to him. The scheme involved U.S. accomplices who laundered funds, forwarding proceeds to \"chairmen\" in West Africa, demonstrating a multi-national criminal network that leveraged both social engineering and BEC tactics to defraud individuals and businesses.",
@@ -2503,14 +2511,6 @@ const signalTree = {
                                     "title": "CISA WARNS THAT RESURGE MALWARE CAN BE DORMANT ON IVANTI DEVICES",
                                     "description": "<br><strong>STATUS:</strong> CISA has released updated details on the RESURGE implant, which exploits CVE-2025-0282 to covertly breach Ivanti Connect Secure devices using sophisticated evasion and authentication techniques.<br><br><strong>INTEL:</strong> The RESURGE implant is a passive command-and-control mechanism that evades detection by waiting indefinitely for a specific, fingerprinted inbound TLS connection, authenticated via a fake Ivanti certificate sent unencrypted. This sophisticated malware, which includes log tampering and boot-level persistence capabilities, remains dormant until activated, posing a significant, persistent threat to Ivanti Connect Secure devices, making its unencrypted certificate a crucial detection indicator for defenders.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/cisa-warns-that-resurge-malware-can-be-dormant-on-ivanti-devices/",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-18951",
-                                    "title": "THIRD-PARTY PATCHING AND THE BUSINESS FOOTPRINT WE ALL SHARE",
-                                    "description": "<br><strong>STATUS:</strong> Common, ubiquitous software tools like PDF readers and word processors constitute a critical yet often overlooked part of the enterprise attack surface, making them highly attractive and predictable targets for cyber adversaries.\n\n<br><strong>INTEL:</strong> While security teams focus on servers and cloud infrastructure, everyday applications essential for business operations are installed by default across virtually all endpoints due to compatibility needs. This standardization means threat actors can reliably target vulnerabilities in these widely adopted tools, leveraging the high probability of success and users' routine interactions (muscle memory) rather than requiring complex or custom exploits, thereby shifting the exploitation probability curve in their favor.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/third-party-patching-and-the-business-footprint-we-all-share/",
                                     "timestamp": "2026.02.27",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
