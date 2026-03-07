@@ -2123,6 +2123,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-10845",
+                                    "title": "TERMITE RANSOMWARE BREACHES LINKED TO CLICKFIX CASTLERAT ATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> Ransomware threat actor Velvet Tempest used the ClickFix technique and legitimate Windows utilities to deploy DonutLoader malware and the CastleRAT backdoor in a recent observed attack.\n\n<br><strong>INTEL:</strong> Velvet Tempest, a notorious ransomware affiliate (DEV-0504) active for over five years and linked to strains like BlackCat and Conti, leveraged malvertising to trick victims into pasting obfuscated commands that initiated a multi-stage infection using legitimate tools like `finger.exe`, PowerShell, and `csc.exe` for payload delivery and persistence, ultimately staging DonutLoader and retrieving the CastleRAT backdoor, though their typical Termite ransomware was not deployed in this specific observed intrusion.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linked-to-clickfix-castlerat-attacks/",
+                                    "timestamp": "2026.03.07",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-35058",
                                     "title": "MICROSOFT: HACKERS ABUSING AI AT EVERY STAGE OF CYBERATTACKS",
                                     "description": "<br><strong>STATUS:</strong> Microsoft reports an increase in threat actors leveraging AI to accelerate, scale, and lower technical barriers in cyberattacks.<br><br><strong>INTEL:</strong> Threat actors, including North Korean groups Jasper Sleet and Coral Sleet, are utilizing generative AI for tasks such as drafting phishing emails, creating fake identities and resumes for remote IT worker schemes, generating malware code, summarizing stolen data, and developing malicious infrastructure. They employ jailbreaking techniques to bypass AI safeguards, and while current AI use primarily supports human decision-making, experimentation with autonomous agentic AI is also being observed. Microsoft advises treating AI-powered IT worker schemes as insider risks and recommends focusing on abnormal credential use and securing AI systems.",
@@ -2512,14 +2520,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Samsung has reached a settlement with the State of Texas regarding the alleged unlawful collection of content-viewing data from its smart TVs.\n\n<br><strong>INTEL:</strong> Texas Attorney General Ken Paxton had sued Samsung for using Automated Content Recognition (ACR) technology and \"dark patterns\" to collect consumer viewing habits for targeted advertising without express, informed consent, violating the Texas Deceptive Trade Practices Act. As part of the agreement, Samsung will now implement clear privacy disclosures and require explicit consumer consent before collecting or processing any ACR viewing data, setting a precedent while similar lawsuits against other manufacturers continue.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/",
                                     "timestamp": "2026.03.01",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-3043",
-                                    "title": "QUICKLENS CHROME EXTENSION STEALS CRYPTO, SHOWS CLICKFIX ATTACK",
-                                    "description": "<br><strong>STATUS:</strong> The \"QuickLens - Search Screen with Google Lens\" Chrome extension was removed from the Web Store after being compromised to deploy malware and steal cryptocurrency from thousands of users.<br><br><strong>INTEL:</strong> The compromise occurred after the extension changed ownership on February 1, 2026, leading to a malicious update (v5.8) on February 17, 2026. This version stripped vital browser security headers (CSP, X-Frame-Options) and requested new permissions, allowing it to execute JavaScript payloads from a command-and-control server (api.extensionanalyticspro[.]top) on every page load. These payloads included fake Google Update prompts that led to the download of a malicious \"googleupdate.exe\" for Windows users, and a dedicated \"agent\" designed to steal credentials from various cryptocurrency wallets.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/quicklens-chrome-extension-steals-crypto-shows-clickfix-attack/",
-                                    "timestamp": "2026.02.28",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
