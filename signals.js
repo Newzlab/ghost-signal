@@ -2123,6 +2123,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-35058",
+                                    "title": "MICROSOFT: HACKERS ABUSING AI AT EVERY STAGE OF CYBERATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft reports an increase in threat actors leveraging AI to accelerate, scale, and lower technical barriers in cyberattacks.<br><br><strong>INTEL:</strong> Threat actors, including North Korean groups Jasper Sleet and Coral Sleet, are utilizing generative AI for tasks such as drafting phishing emails, creating fake identities and resumes for remote IT worker schemes, generating malware code, summarizing stolen data, and developing malicious infrastructure. They employ jailbreaking techniques to bypass AI safeguards, and while current AI use primarily supports human decision-making, experimentation with autonomous agentic AI is also being observed. Microsoft advises treating AI-powered IT worker schemes as insider risks and recommends focusing on abnormal credential use and securing AI systems.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/microsoft-hackers-abusing-ai-at-every-stage-of-cyberattacks/",
+                                    "timestamp": "2026.03.07",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-7255",
                                     "title": "COGNIZANT TRIZETTO BREACH EXPOSES HEALTH DATA OF 3.4 MILLION PATIENTS",
                                     "description": "<br><strong>STATUS:</strong> TriZetto Provider Solutions, a Cognizant subsidiary, suffered a data breach exposing the sensitive information of over 3.4 million individuals from November 2024 to October 2025.<br><br><strong>INTEL:</strong> The breach involved unauthorized access to insurance eligibility verification transactions, which went undetected for nearly a year, leading to delayed customer notifications starting in February 2026. Although payment card or bank account information was not compromised, the incident underscores ongoing security vulnerabilities within critical healthcare IT infrastructure and raises concerns about Cognizant's repeated involvement in significant security incidents.",
@@ -2511,14 +2519,6 @@ const signalTree = {
                                     "title": "QUICKLENS CHROME EXTENSION STEALS CRYPTO, SHOWS CLICKFIX ATTACK",
                                     "description": "<br><strong>STATUS:</strong> The \"QuickLens - Search Screen with Google Lens\" Chrome extension was removed from the Web Store after being compromised to deploy malware and steal cryptocurrency from thousands of users.<br><br><strong>INTEL:</strong> The compromise occurred after the extension changed ownership on February 1, 2026, leading to a malicious update (v5.8) on February 17, 2026. This version stripped vital browser security headers (CSP, X-Frame-Options) and requested new permissions, allowing it to execute JavaScript payloads from a command-and-control server (api.extensionanalyticspro[.]top) on every page load. These payloads included fake Google Update prompts that led to the download of a malicious \"googleupdate.exe\" for Windows users, and a dedicated \"agent\" designed to steal credentials from various cryptocurrency wallets.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/quicklens-chrome-extension-steals-crypto-shows-clickfix-attack/",
-                                    "timestamp": "2026.02.28",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-52936",
-                                    "title": "$4.8M IN CRYPTO STOLEN AFTER KOREAN TAX AGENCY EXPOSES WALLET SEED",
-                                    "description": "<br><strong>STATUS:</strong> South Korea\u2019s National Tax Service inadvertently exposed the mnemonic recovery phrase of a seized cryptocurrency wallet, leading to the theft of $4.4 million in crypto assets.\n\n<br><strong>INTEL:</strong> The NTS released photos of a confiscated Ledger cold wallet from tax evaders as part of a press announcement, failing to redact a handwritten note containing the wallet's recovery phrase. An attacker exploited this blunder by depositing Ethereum for gas fees and subsequently transferring 4 million Pre-Retogeum (PRTG) tokens, then valued at approximately $4.8 million, in three transactions. Experts attribute the mistake to the tax authorities' \"lack of basic understanding of virtual assets,\" underscoring the severe security implications of exposing hardware wallet seed phrases.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/48m-in-crypto-stolen-after-korean-tax-agency-exposes-wallet-seed/",
                                     "timestamp": "2026.02.28",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
