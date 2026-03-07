@@ -111,6 +111,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-65220",
+                                    "title": "PENTAGON TASK FORCE TO CONDUCT LASER TEST AGAINST DRONES",
+                                    "description": "<br><strong>STATUS:</strong> The Pentagon\u2019s counter-drone task force is testing a high-energy laser system against drones at White Sands Missile Range.\n\n<br><strong>INTEL:</strong> This test, conducted in partnership with the FAA, prioritizes demonstrating the laser system's built-in safety features, training protocols, and gathering crucial data for the FAA regarding eye safety for aircrews and potential effects on aircraft surrogate models. The objective is to rapidly provide warfighters with state-of-the-art Counter-Unmanned Aircraft Systems (C-UAS) capabilities using \"soft kill\" high-energy lasers, marking a significant step in the increasing integration of laser weapons into U.S. military services to counter emerging drone threats.",
+                                    "source_url": "https://www.c4isrnet.com/industry/techwatch/2026/03/06/pentagon-task-force-to-conduct-laser-test-against-drones/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-83250",
                                     "title": "IRAN CAN STILL FIRE DRONES AND MISSILES \u2014 EXPERTS WEIGH THE IMPLICATIONS ON THE WAR",
                                     "description": "<br><strong>STATUS:</strong> Iran's extensive use of drone swarm tactics against Gulf states is leading to calls for more cost-effective regional defense strategies amidst warnings of a prolonged conflict.\n\n<br><strong>INTEL:</strong> Iran's sustained drone and missile campaign, with over 1,450 drone strikes, is designed to saturate and overwhelm Gulf and U.S.-aligned air defenses across multiple targets, distinct from Ukraine's harassment strategy. Despite high interception rates, the financial asymmetry is unsustainable, with Gulf states reportedly spending $20-$28 for every dollar Iran invests in drones, compelling urgent development of cheaper counter-drone layers like electronic warfare, jammers, and directed energy. Experts warn of potential escalation if Iran shifts to true saturation attacks or expands targets to critical infrastructure, rather than just military bases and embassies.",
@@ -469,6 +477,30 @@ const signalTree = {
                         {
                             "name": "DEFENSE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-53380",
+                                    "title": "US TO SEND ANTI-DRONE SYSTEM TO MIDEAST AFTER SUCCESSFUL USE IN UKRAINE, OFFICIALS SAY",
+                                    "description": "<br><strong>STATUS:</strong> An American anti-drone system, Merops, proven effective against Russian drones in Ukraine, will be deployed to the Middle East to strengthen U.S. defenses against Iranian drones.\n\n<br><strong>INTEL:</strong> The Merops system, which flies counter-drones and uses AI for navigation, is being sent to address the U.S.'s \"disappointing\" struggle with Iran's numerous and inexpensive Shahed drones, which current missile defenses are not cost-effective or optimally designed to counter. This deployment aims to solve the \"math problem\" of using expensive interceptors against cheap drones and bolster regional security against potential Iranian retaliatory strikes, with systems being sent to various locations, including where U.S. forces are not present.",
+                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/07/us-to-send-anti-drone-system-to-mideast-after-successful-use-in-ukraine-officials-say/",
+                                    "timestamp": "2026.03.07",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-79019",
+                                    "title": "PENTAGON TASK FORCE TO CONDUCT LASER TEST AGAINST DRONES",
+                                    "description": "<br><strong>STATUS:</strong> The Pentagon\u2019s Joint Interagency Task Force 401 is testing a high-energy laser system against drones at White Sands Missile Range this weekend to validate its safety and effectiveness.\n\n<br><strong>INTEL:</strong> The test is conducted in partnership with the FAA to gather critical data on eye safety for aircrews, potential effects on aircraft surrogate models, and to demonstrate automatic safety shut-off functions and training protocols. These high-energy laser systems represent a \"soft kill\" capability against small drones by using concentrated light to bring them down without expending munitions, aligning with a broader trend of integrating laser weapons across U.S. military services, including recent Army acquisition requests and Navy deployments.",
+                                    "source_url": "https://www.defensenews.com/industry/techwatch/2026/03/06/pentagon-task-force-to-conduct-laser-test-against-drones/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-27446",
+                                    "title": "PENTAGON ACKNOWLEDGES TOUGH QUEST TO COUNTER IRANIAN DRONES",
+                                    "description": "<br><strong>STATUS:</strong> U.S. officials concede that Iran\u2019s low-cost Shahed-136 drones are proving more disruptive than anticipated in the Middle East, causing casualties and exposing significant gaps in U.S. counter-drone technology.\n\n<br><strong>INTEL:</strong> The Shahed-136 drones, costing $20,000-$50,000 each, present an asymmetric threat by being cheap to deploy but expensive to intercept with traditional missile systems, rapidly draining U.S. stockpiles and allowing Iran to project power effectively, as demonstrated by a recent strike in Kuwait that killed six U.S. service members. Acknowledging this challenge, the U.S. has now requested assistance from Ukraine, which has developed low-cost anti-drone laser systems and expertise from its ongoing conflict with Russia, where similar Iranian-designed drones are heavily used.",
+                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/06/pentagon-acknowledges-tough-quest-to-counter-iranian-drones/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
                                 {
                                     "id": "GS-73626",
                                     "title": "RUSSIA PROVIDED IRAN WITH INFORMATION THAT CAN HELP TEHRAN STRIKE US MILITARY, SOURCES SAY",
@@ -843,30 +875,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> President Donald Trump ordered a military operation against Iran, resulting in the confirmed death of 86-year-old Supreme Leader Ayatollah Ali Khamenei.\n\n<br><strong>INTEL:</strong> This operation marks a dramatic escalation in President Trump's risk tolerance, a significant departure from his previous caution regarding targeting Khamenei just eight months prior, and follows a series of failed diplomatic talks and past provocations including the 2018 nuclear deal withdrawal, the 2020 Soleimani strike, and June strikes on nuclear facilities. Experts anticipate the strike will lead to far-reaching and uncertain consequences for the Iranian regime, its populace, and regional stability, potentially prompting a desperate response from Iran.",
                                     "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/01/trump-was-once-wary-of-ordering-regime-change-in-iran-heres-what-made-him-change-his-mind/",
                                     "timestamp": "2026.03.01",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-90816",
-                                    "title": "IRAN\u2019S SUPREME LEADER AYATOLLAH ALI KHAMENEI, WHO LED THE ISLAMIC REPUBLIC SINCE 1989, IS DEAD AT 86",
-                                    "description": "<br><strong>STATUS:</strong> Ayatollah Ali Khamenei, Iran's 86-year-old Supreme Leader, has died after being killed in a major joint attack launched by Israel and the United States. <br><br><strong>INTEL:</strong> Khamenei's death, occurring amidst escalating direct confrontations between Iran, Israel, and the U.S. over Iran's nuclear program and regional \"Axis of Resistance,\" plunges the Islamic Republic into immediate uncertainty regarding succession. While the Assembly of Experts will choose his replacement, the powerful Revolutionary Guard is positioned to decisively influence the transition, potentially suppressing widespread public discontent and calls from the U.S. President for Iranians to seize control of their government.",
-                                    "source_url": "https://www.defensenews.com/flashpoints/middle-east/2026/03/01/irans-supreme-leader-ayatollah-ali-khamenei-who-led-the-islamic-republic-since-1989-is-dead-at-86/",
-                                    "timestamp": "2026.03.01",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-69745",
-                                    "title": "IRAN SUPREME LEADER AYATOLLAH ALI KHAMENEI IS DEAD, WHITE HOUSE CONFIRMS",
-                                    "description": "<br><strong>STATUS:</strong> Israel and the United States launched a major aerial bombardment on Iran, reportedly killing Supreme Leader Ayatollah Ali Khamenei and other key leaders, prompting immediate Iranian missile and drone retaliation.\n\n<br><strong>INTEL:</strong> The reported assassination of Supreme Leader Khamenei, who had no designated successor, introduces profound uncertainty regarding Iran's future and raises the specter of protracted conflict, with President Trump publicly urging the Iranian populace to seize this opportunity for regime change. While U.S. and Israeli strikes targeted critical Iranian military and governmental infrastructure, U.S. bases reported minimal damage despite hundreds of Iranian retaliatory attacks, which Iran claimed caused hundreds of casualties within its borders.",
-                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/02/28/iran-supreme-leader-ayatollah-ali-khamenei-is-dead-white-house-confirms/",
-                                    "timestamp": "2026.02.28",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-92014",
-                                    "title": "NO US CASUALTIES REPORTED FOLLOWING IRAN\u2019S RETALIATORY STRIKES, OFFICIALS SAY",
-                                    "description": "<br><strong>STATUS:</strong> Iranian retaliatory strikes on U.S. military installations across the Middle East resulted in no American casualties or significant damage, following a major U.S. and Israeli operation against Iran.<br><br><strong>INTEL:</strong> The \"Epic Fury\" operation by U.S. and Israeli forces represented the largest regional concentration of American military firepower in a generation, targeting critical Iranian infrastructure, including the Supreme Leader's compound, and causing over 900 Iranian casualties. This large-scale assault notably marked the first combat deployment of the U.S. military's new LUCAS autonomous kamikaze drone, reverse-engineered from the Iranian Shahed-136, utilized by a newly formed USSOCOM-Central squadron.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/02/28/no-us-casualties-reported-following-irans-retaliatory-strikes-officials-say/",
-                                    "timestamp": "2026.02.28",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
                             ]
@@ -1295,6 +1303,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-23219",
+                                    "title": "NASA SELECTS CENTAUR FOR NEW SLS UPPER STAGE",
+                                    "description": "<br><strong>STATUS:</strong> NASA has selected United Launch Alliance's Centaur upper stage for future Space Launch System missions, specifically Artemis 4, 5, and a flight spare, following the agency's decision to halt development of the Block 1B version and its Exploration Upper Stage (EUS).<br><br><strong>INTEL:</strong> The procurement of the Centaur, currently used on Vulcan, was justified as a sole-source contract due to its unique ability to meet SLS performance requirements with minimal modifications, leveraging commonalities with the existing Interim Cryogenic Propulsion Stage (ICPS) such as RL10 engines and liquid hydrogen/oxygen propellants. NASA deemed Centaur the only viable option after assessing alternatives, including Blue Origin\u2019s New Glenn upper stage, which would have required significant design changes, extensive testing, and introduced unacceptable schedule and cost risks due to its early development stage and structural incompatibilities. This decision ensures continuity for Artemis missions beyond Artemis 3 by adapting proven technology and ULA's established infrastructure.",
+                                    "source_url": "https://spacenews.com/nasa-selects-centaur-for-new-sls-upper-stage/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-40761",
                                     "title": "EUTELSAT COMPLETES $5.8 BILLION REFINANCING PLAN",
                                     "description": "<br><strong>STATUS:</strong> Eutelsat successfully completed a 5 billion euro refinancing plan to fund its OneWeb LEO broadband constellation refresh and support the European IRIS\u00b2 sovereign connectivity program.\n\n<br><strong>INTEL:</strong> This comprehensive financing, which includes a recent 1.5 billion euro bond and an equity infusion, is critical for Eutelsat's transformation into a multi-orbit provider, allocating 2.2 billion euros for OneWeb's next-generation satellites by 2029 and 2 billion euros for its stake in the strategic IRIS\u00b2 constellation. Despite a recent setback from a failed asset sale, the funding strengthens Eutelsat's competitive position against rivals like Starlink, as its LEO revenues rapidly grow while its legacy geostationary TV business declines.",
@@ -1685,20 +1701,28 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/space-force-keeps-door-open-to-future-human-presence-in-orbit/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-94290",
-                                    "title": "VIRGIN MEDIA O2 LAUNCHES EUROPE\u2019S FIRST STARLINK DIRECT-TO-SMARTPHONE SERVICE",
-                                    "description": "<br><strong>STATUS:</strong> Virgin Media O2 launched SpaceX Starlink Direct-to-Cell in the UK on Feb 26, marking Europe's first commercial deployment of the satellite-to-smartphone service.<br><br><strong>INTEL:</strong> This service, initially for select Samsung Galaxy devices and expanding landmass coverage from 89% to 95% in the UK, supports messaging, voice, and limited apps, enabled by recent regulatory approvals allowing satellite operators to use terrestrial mobile spectrum to extend coverage.",
-                                    "source_url": "https://spacenews.com/virgin-media-o2-launches-europes-first-starlink-direct-to-smartphone-service/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-97524",
+                                    "title": "ARMD RESEARCH SOLICITATIONS (UPDATED MARCH 6)",
+                                    "description": "<br><strong>STATUS:</strong> NASA is launching an initiative to establish Aerospace Skilled Technical Workforce Hubs (NAS_Hubs) and is currently seeking both proposals and peer reviewers for this program. <br><br><strong>INTEL:</strong> The NAS_Hub initiative, driven by NASA's Office of STEM Engagement, aims to address a critical national shortage of skilled technical workers\u2014those in science- and engineering-based roles not requiring a bachelor\u2019s degree\u2014vital for the rapidly expanding space economy and aerospace industry. These state or regionally focused hubs will align education, workforce, industry, and government partners to accelerate workforce readiness over a three-year period, with proposals due March 23, 2026, and peer reviewer responses due March 12, 2026, both managed via the NSPIRES system.",
+                                    "source_url": "https://www.nasa.gov/aeronautics/armd-solicitations/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-53469",
+                                    "title": "NASA INVITES MEDIA TO NORTHROP GRUMMAN CRS-24 STATION RESUPPLY LAUNCH",
+                                    "description": "<br><strong>STATUS:</strong> A Northrop Grumman Cygnus XL spacecraft will launch in April on a SpaceX Falcon 9 rocket to deliver NASA science investigations, supplies, and equipment to the International Space Station.<br><br><strong>INTEL:</strong> Targeted for April 8 from Cape Canaveral, the NASA\u2019s Northrop Grumman CRS-24 mission will carry advanced research payloads, including a new module for quantum science to improve computing and dark matter search, hardware for therapeutic stem cell production, and a receiver to enhance space weather models, significantly contributing to scientific breakthroughs and the ISS's role as a testbed for future deep space exploration.",
+                                    "source_url": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-24-station-resupply-launch/",
+                                    "timestamp": "2026.03.06",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-36087",
                                     "title": "NASA\u2019S DART MISSION CHANGED ORBIT OF ASTEROID DIDYMOS AROUND SUN",
@@ -2080,22 +2104,6 @@ const signalTree = {
                                     "title": "CURIOSITY BLOG, SOLS 4812-4819: BACK INTO THE HOLLOWS",
                                     "description": "Mars Science Laboratory Mission Team Members Written by Diana Hayes, Graduate student at York University, Toronto Earth planning date: Friday, Feb. 20, 2026 This has been a pretty routine week for Curiosity. As was mentioned last week, we're now in the final phase of the boxwork exploration campaign. We're currently making our way toward the eastern contact of the boxwork formation with the surrounding geology, which we plan to drive along before turning our attention to the southern contact. That will likely be our last opportunity to directly interrogate the boxwork area before we continue our adventure up the slopes of Mount Sharp. Along the way, we've been performing our usual investigations of the geology that we encounter at our parking locations. As always, this includes contact science on bedrock targets close to the rover, ChemCam LIBS observations of targets slightly further afield, and a number of ChemCam RMI and Mastcam mosaics. These mosaics include observations deeper into the \u201cTapiche\u201d hollow where we're parked and the \u201cLos Flamencos\u201d ridge to its south, which we plan on investigating closer in the coming week. Mars continues to move deeper into its dusty season, so the environmental science group filled this week's plan with a typical assortment of atmospheric monitoring activities to track dust devils and the amount of dust in the atmosphere, as well as several Navcam cloud movies. So far this dusty season the atmosphere over Gale Crater appears to be behaving much like it does most years, with no signs of imminent dust storms. It's now been almost eight years (four Mars years) since the last time that a global dust storm swept across the planet, so we're keeping a close eye on the possibility of another one occurring this year. Mars is the fourth planet from the Sun, and the seventh largest. It\u2019s the only planet we know of inhabited\u2026 Explore this collection of Mars images, videos, resources, PDFs, and toolkits. Discover valuable content designed to inform, educate, and inspire,\u2026 Each robotic explorer sent to the Red Planet has its own unique capabilities driven by science. Many attributes of a\u2026 The key to understanding the past, present or future potential for life on Mars can be found in NASA\u2019s four\u2026",
                                     "source_url": "https://science.nasa.gov/blog/curiosity-blog-sols-4812-4819-back-into-the-hollows/",
-                                    "timestamp": "2026.02.24",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-47320",
-                                    "title": "NEW VOLUNTEER DATA FROM 143 OBSERVATORIES UNVEILS THE 2024 TOTAL SOLAR ECLIPSE",
-                                    "description": "On April 8, 2024, volunteers participating in NASA\u2019s Eclipse Megamovie citizen science project all around the United States hurried to photograph the solar eclipse with the latest, greatest equipment, capturing groundbreaking images of the Sun\u2019s corona. Now, the Eclipse Megamovie team has released the remarkable new dataset that resulted from this effort \u2014 the first-ever, white-light eclipse dataset with calibration frames, spanning more than a cumulative hour and a half of observations of the solar corona. This data, which includes 52,469 total photographs uploaded by project volunteers, is now live: https://eclipsemegamovie.org/database. The data include contributions from 143 unique, mobile, volunteer-led \u201cobservatories\u201d \u2013 people with cameras charged with taking precise images of the eclipse, taking extra steps to allow the painstaking calibration required to reveal how the corona evolves from one person's view to the next. Researchers around the world can now use these observations to identify solar jets leaving the Sun's surface and study how solar plumes grow and develop. The public can also peruse and download all of this data, which is highly accessible and searchable by observatory name and location. \"Thank you for all you do and have done for us,\u201d said Eclipse Megamovie volunteer Jessi McKenna. \u201cEveryone in the group has been amazingly supportive of each other. And those who are running things are always so obviously appreciative of everyone who has contributed to the project.\" The files include data at three different levels of processing, from raw (level 1) data to calibrated (level 3) data, in a format called FITS, or Flexible Image Transport System. It is the standard astronomical data format used by NASA and the International Astronomical Union. Of the 143 unique observatories involved, 28 observatories had clear skies, sufficient calibration frames, and enough unique exposure times to create calibrated level 3 images. The Eclipse Megamovie team at Sonoma State University and the University of California, Berkeley and collaborators at NASA\u2019s Goddard Space Flight Center began working together long before the eclipse to construct this database, together with EdEon STEM (Science, Technology, Engineering, & Mathematics) Learning programmer Troy Wilson. But crucially, Eclipse Megamovie 2024 was made possible because of hundreds of volunteers who journeyed into the path of the April 8, 2024 total solar eclipse with their cameras, patience, and curiosity. Measuring the motion of these plumes could help scientists understand the nature of the corona: what makes it so hot, and how it creates space weather. But these plumes can only be directly observed during an eclipse. Use data from NASA\u2019s Magnetosphere Multiscale Mission to shed light on solar storms. For anyone\u2026 Volunteers participating in the Lake Observations by Citizen Scientists and Satellites (LOCSS) project have been\u2026 Eighty-two volunteer teams with the Dynamic Eclipse Broadcast (DEB) Initiative spent the day spread across\u2026",
-                                    "source_url": "https://science.nasa.gov/get-involved/citizen-science/new-volunteer-data-from-143-observatories-unveils-the-2024-total-solar-eclipse/",
-                                    "timestamp": "2026.02.24",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-65569",
-                                    "title": "WEBB MAPS URANUS\u2019 UPPER ATMOSPHERE",
-                                    "description": "NASA\u2019s James Webb Space Telescope provided the first vertical view of Uranus\u2019s ionosphere in this image released on Feb. 19, 2026, revealing auroras shaped by its tilted magnetic field. Getting a look at the structure of the region where the atmosphere interacts strongly with the planet\u2019s magnetic field is giving us the most detailed portrait yet of where its auroras form, how the magnetic field influences them, and also data on how Uranus\u2019s atmosphere has continued to cool since the 1990s. Uranus has the strangest magnetosphere in the Solar System. It is tilted and offset from the planet\u2019s rotation axis (and this planet already rolls around the Sun nearly on its side), which means auroras move across the surface in complex ways. Better understanding Uranus will give us insight into ice-giant planets and help us better characterize giant planets outside our Solar System. Image credit: ESA/Webb, NASA, CSA, STScI, P. Tiranti, H. Melin, M. Zamani (ESA/Webb)",
-                                    "source_url": "https://www.nasa.gov/image-article/webb-maps-uranus-upper-atmosphere/",
                                     "timestamp": "2026.02.24",
                                     "feed_name": "NASA_BREAKING"
                                 }
