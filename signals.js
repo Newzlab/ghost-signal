@@ -1303,6 +1303,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-62411",
+                                    "title": "AIR FORCE LAB AWARDS BLACKSKY CONTRACT WORTH UP TO $99 MILLION FOR LARGE OPTICAL SATELLITE PAYLOAD",
+                                    "description": "<br><strong>STATUS:</strong> The Air Force Research Laboratory has awarded BlackSky a contract worth up to $99 million to develop a large optical imaging payload for future space-based intelligence systems.<br><br><strong>INTEL:</strong> This indefinite-delivery, indefinite-quantity Small Business Innovation Research Phase 3 agreement, running through 2032, focuses on developing a large-aperture optical imaging system using a segmented mirror architecture. This technology will enable wide-area surveillance, allowing satellites to scan vast geographic regions to identify small objects like vehicles, ships, and aircraft, thereby supporting critical missions such as missile detection and tracking by cueing higher-resolution satellites, a capability BlackSky is also advancing with its Aros satellite.",
+                                    "source_url": "https://spacenews.com/air-force-lab-awards-blacksky-contract-worth-up-to-99-million-for-large-optical-satellite-payload/",
+                                    "timestamp": "2026.03.07",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-23219",
                                     "title": "NASA SELECTS CENTAUR FOR NEW SLS UPPER STAGE",
                                     "description": "<br><strong>STATUS:</strong> NASA has selected United Launch Alliance's Centaur upper stage for future Space Launch System missions, specifically Artemis 4, 5, and a flight spare, following the agency's decision to halt development of the Block 1B version and its Exploration Upper Stage (EUS).<br><br><strong>INTEL:</strong> The procurement of the Centaur, currently used on Vulcan, was justified as a sole-source contract due to its unique ability to meet SLS performance requirements with minimal modifications, leveraging commonalities with the existing Interim Cryogenic Propulsion Stage (ICPS) such as RL10 engines and liquid hydrogen/oxygen propellants. NASA deemed Centaur the only viable option after assessing alternatives, including Blue Origin\u2019s New Glenn upper stage, which would have required significant design changes, extensive testing, and introduced unacceptable schedule and cost risks due to its early development stage and structural incompatibilities. This decision ensures continuity for Artemis missions beyond Artemis 3 by adapting proven technology and ULA's established infrastructure.",
@@ -1692,14 +1700,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> China will initiate its first one-year astronaut mission and host its first international astronaut aboard the Tiangong space station this year, with the Shenzhou-23 launch accelerated due to a prior spacecraft incident.<br><br><strong>INTEL:</strong> The expedited Shenzhou-23 mission, launching April/May due to a cracked Shenzhou-20 viewport window, will send an astronaut for a year-long residency, yielding vital data for future deep space missions and affirming confidence in Tiangong's long-duration support systems. Concurrently, a Pakistani astronaut is slated for a short-duration mission (likely Shenzhou-24 in late 2026), marking a significant step in international cooperation, while Hong Kong and Macau payload specialists could also fly by 2026. China also reiterates its ambition for a crewed lunar landing by 2030, reporting steady progress on Mengzhou spacecraft, Long March 10 rocket development, and ground infrastructure at Wenchang Space Launch Site.",
                                     "source_url": "https://spacenews.com/china-set-for-its-first-one-year-human-spaceflight-mission-confirms-pakistani-astronaut-flight/",
                                     "timestamp": "2026.02.27",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-86362",
-                                    "title": "SPACE FORCE KEEPS DOOR OPEN TO FUTURE HUMAN PRESENCE IN ORBIT",
-                                    "description": "<br><strong>STATUS:</strong> The U.S. Space Force and commercial executives are openly discussing the long-term possibility of deploying armed personnel to space, despite no current plans to do so.\n\n<br><strong>INTEL:</strong> This emerging discussion is fueled by the rapid maturation of the space domain, the impending availability of commercial space stations capable of supporting military operations, and strategic competition with adversaries like China, necessitating future options for asset protection and presence in low Earth orbit and the cislunar region.",
-                                    "source_url": "https://spacenews.com/space-force-keeps-door-open-to-future-human-presence-in-orbit/",
-                                    "timestamp": "2026.02.26",
                                     "feed_name": "SPACE_NEWS"
                                 }
                             ]
