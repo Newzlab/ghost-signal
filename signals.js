@@ -478,6 +478,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-15150",
+                                    "title": "TRUMP ENCOURAGES LATIN AMERICAN LEADERS TO USE MILITARY ACTION TO HELP US FIGHT CARTELS",
+                                    "description": "<br><strong>STATUS:</strong> President Trump hosted a \"Shield of the Americas\" summit with Latin American leaders, urging collective military action against cartels and transnational gangs.<br><br><strong>INTEL:</strong> The summit signals a renewed U.S. focus on the Western Hemisphere despite ongoing crises like the war with Iran, promoting an \"America First\" foreign policy that advocates military force against cartels, citing the ISIS coalition as a precedent. This initiative follows a previous failed regional summit and aims to leverage U.S. military and intelligence assets, with future attention also promised for Cuba.",
+                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/07/trump-encourages-latin-american-leaders-to-use-military-action-to-help-us-fight-cartels/",
+                                    "timestamp": "2026.03.07",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-53380",
                                     "title": "US TO SEND ANTI-DRONE SYSTEM TO MIDEAST AFTER SUCCESSFUL USE IN UKRAINE, OFFICIALS SAY",
                                     "description": "<br><strong>STATUS:</strong> An American anti-drone system, Merops, proven effective against Russian drones in Ukraine, will be deployed to the Middle East to strengthen U.S. defenses against Iranian drones.\n\n<br><strong>INTEL:</strong> The Merops system, which flies counter-drones and uses AI for navigation, is being sent to address the U.S.'s \"disappointing\" struggle with Iran's numerous and inexpensive Shahed drones, which current missile defenses are not cost-effective or optimally designed to counter. This deployment aims to solve the \"math problem\" of using expensive interceptors against cheap drones and bolster regional security against potential Iranian retaliatory strikes, with systems being sent to various locations, including where U.S. forces are not present.",
@@ -866,14 +874,6 @@ const signalTree = {
                                     "title": "3 US TROOPS KILLED, 5 SERIOUSLY WOUNDED IN ACTIONS AGAINST IRAN",
                                     "description": "<br><strong>STATUS:</strong> Three U.S. service members have been killed and five seriously wounded during combat operations against Iran.<br><br><strong>INTEL:</strong> The casualties occurred amidst Iranian retaliatory strikes following \"Operation Epic Fury,\" a multi-domain U.S. and Israeli bombardment across Iran that targeted military installations and reportedly killed Supreme Leader Ayatollah Ali Khamenei. This represents a significant escalation in the conflict, with U.S. forces continuing major combat operations despite initial reports of no casualties, and CENTCOM dismissing claims of the USS Abraham Lincoln being hit.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/01/3-us-troops-killed-5-seriously-wounded-in-actions-against-iran/",
-                                    "timestamp": "2026.03.01",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-52241",
-                                    "title": "TRUMP WAS ONCE WARY OF ORDERING REGIME CHANGE IN IRAN. HERE\u2019S WHAT MADE HIM CHANGE HIS MIND",
-                                    "description": "<br><strong>STATUS:</strong> President Donald Trump ordered a military operation against Iran, resulting in the confirmed death of 86-year-old Supreme Leader Ayatollah Ali Khamenei.\n\n<br><strong>INTEL:</strong> This operation marks a dramatic escalation in President Trump's risk tolerance, a significant departure from his previous caution regarding targeting Khamenei just eight months prior, and follows a series of failed diplomatic talks and past provocations including the 2018 nuclear deal withdrawal, the 2020 Soleimani strike, and June strikes on nuclear facilities. Experts anticipate the strike will lead to far-reaching and uncertain consequences for the Iranian regime, its populace, and regional stability, potentially prompting a desperate response from Iran.",
-                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/01/trump-was-once-wary-of-ordering-regime-change-in-iran-heres-what-made-him-change-his-mind/",
                                     "timestamp": "2026.03.01",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
