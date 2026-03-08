@@ -2131,6 +2131,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-47286",
+                                    "title": "HACKERS ABUSE .ARPA DNS AND IPV6 TO EVADE PHISHING DEFENSES",
+                                    "description": "<br><strong>STATUS:</strong> Threat actors are exploiting the special-use .arpa domain and IPv6 reverse DNS to conduct phishing campaigns that more easily bypass domain reputation checks and email security gateways.<br><br><strong>INTEL:</strong> Attackers acquire IPv6 address blocks, then gain control of the associated reverse DNS zones, configuring A records to point to phishing infrastructure instead of standard PTR records. This method, often leveraging reputable DNS providers, allows phishing links embedded in email images to resolve to attacker-controlled sites via reverse IPv6 DNS records, effectively bypassing security measures; these campaigns often employ traffic distribution systems and short-lived links to evade detection and analysis.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-arpa-dns-and-ipv6-to-evade-phishing-defenses/",
+                                    "timestamp": "2026.03.08",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-10845",
                                     "title": "TERMITE RANSOMWARE BREACHES LINKED TO CLICKFIX CASTLERAT ATTACKS",
                                     "description": "<br><strong>STATUS:</strong> Ransomware threat actor Velvet Tempest used the ClickFix technique and legitimate Windows utilities to deploy DonutLoader malware and the CastleRAT backdoor in a recent observed attack.\n\n<br><strong>INTEL:</strong> Velvet Tempest, a notorious ransomware affiliate (DEV-0504) active for over five years and linked to strains like BlackCat and Conti, leveraged malvertising to trick victims into pasting obfuscated commands that initiated a multi-stage infection using legitimate tools like `finger.exe`, PowerShell, and `csc.exe` for payload delivery and persistence, ultimately staging DonutLoader and retrieving the CastleRAT backdoor, though their typical Termite ransomware was not deployed in this specific observed intrusion.",
@@ -2519,14 +2527,6 @@ const signalTree = {
                                     "title": "CLAWJACKED ATTACK LET MALICIOUS WEBSITES HIJACK OPENCLAW TO STEAL DATA",
                                     "description": "<br><strong>STATUS:</strong> Security researchers have disclosed a high-severity \"ClawJacked\" vulnerability in the popular OpenClaw AI agent that allows malicious websites to silently brute-force and take full control of locally running instances.\n\n<br><strong>INTEL:</strong> The flaw, discovered by Oasis Security and fixed in version 2026.2.26, stems from OpenClaw's gateway service binding to localhost with an exposed WebSocket interface, which browser cross-origin policies do not block. Crucially, OpenClaw exempts the loopback address from rate limiting by default, enabling malicious JavaScript to brute-force management passwords at hundreds of attempts per second and then silently register as a trusted device with admin permissions, leading to full workstation compromise via credential dumping, file exfiltration, or arbitrary command execution from a simple browser tab.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/clawjacked-attack-let-malicious-websites-hijack-openclaw-to-steal-data/",
-                                    "timestamp": "2026.03.01",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-42860",
-                                    "title": "SAMSUNG TVS TO STOP COLLECTING TEXANS\u2019 DATA WITHOUT EXPRESS CONSENT",
-                                    "description": "<br><strong>STATUS:</strong> Samsung has reached a settlement with the State of Texas regarding the alleged unlawful collection of content-viewing data from its smart TVs.\n\n<br><strong>INTEL:</strong> Texas Attorney General Ken Paxton had sued Samsung for using Automated Content Recognition (ACR) technology and \"dark patterns\" to collect consumer viewing habits for targeted advertising without express, informed consent, violating the Texas Deceptive Trade Practices Act. As part of the agreement, Samsung will now implement clear privacy disclosures and require explicit consumer consent before collecting or processing any ACR viewing data, setting a precedent while similar lawsuits against other manufacturers continue.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/samsung-tvs-to-stop-collecting-texans-data-without-express-consent/",
                                     "timestamp": "2026.03.01",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
