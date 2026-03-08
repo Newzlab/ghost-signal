@@ -1303,6 +1303,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-11888",
+                                    "title": "RFA PLANS FIRST LAUNCH THIS SUMMER",
+                                    "description": "<br><strong>STATUS:</strong> German launch startup Rocket Factory Augsburg (RFA) has delivered its RFA ONE rocket stages to SaxaVord Spaceport in Scotland, targeting its first orbital launch this summer.\n\n<br><strong>INTEL:</strong> While the rocket's first and second stages are at SaxaVord, its nine engines are still in Sweden undergoing final acceptance testing, recalling a previous 2024 incident where an RFA ONE first stage was destroyed in a fire during similar pre-launch hot-fire tests. RFA is a key player among several European startups in the competitive small launch vehicle market, having secured significant funding from the European Launcher Challenge to bolster European access to space.",
+                                    "source_url": "https://spacenews.com/rfa-plans-first-launch-this-summer/",
+                                    "timestamp": "2026.03.08",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-62411",
                                     "title": "AIR FORCE LAB AWARDS BLACKSKY CONTRACT WORTH UP TO $99 MILLION FOR LARGE OPTICAL SATELLITE PAYLOAD",
                                     "description": "<br><strong>STATUS:</strong> The Air Force Research Laboratory has awarded BlackSky a contract worth up to $99 million to develop a large optical imaging payload for future space-based intelligence systems.<br><br><strong>INTEL:</strong> This indefinite-delivery, indefinite-quantity Small Business Innovation Research Phase 3 agreement, running through 2032, focuses on developing a large-aperture optical imaging system using a segmented mirror architecture. This technology will enable wide-area surveillance, allowing satellites to scan vast geographic regions to identify small objects like vehicles, ships, and aircraft, thereby supporting critical missions such as missile detection and tracking by cueing higher-resolution satellites, a capability BlackSky is also advancing with its Aros satellite.",
@@ -1691,14 +1699,6 @@ const signalTree = {
                                     "title": "ROCKET LAB DELAYS NEUTRON DEBUT TO LATE 2026",
                                     "description": "<br><strong>STATUS:</strong> Rocket Lab's Neutron rocket first launch is delayed until at least the fourth quarter of 2026 following a manufacturing defect discovered during a propellant tank test in January.\n\n<br><strong>INTEL:</strong> The delay stems from a first-stage propellant tank rupture during a hydrostatic pressure test on January 21, traced to a manufacturing defect in a critical joint caused by a contractor's hand-laying process. Rocket Lab plans to implement automated fiber placement for future tanks, introduce minor design changes to increase margins, and conduct extensive re-qualification, which, while delaying Neutron's debut, allows for more thorough testing of other subsystems, potentially leading to a lower-risk maiden flight. Meanwhile, Rocket Lab's existing Electron vehicle is experiencing strong demand, cementing its market leadership in small satellite launches.",
                                     "source_url": "https://spacenews.com/rocket-lab-delays-neutron-debut-to-late-2026/",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-59977",
-                                    "title": "CHINA SET FOR ITS FIRST ONE-YEAR HUMAN SPACEFLIGHT MISSION, CONFIRMS PAKISTANI ASTRONAUT FLIGHT",
-                                    "description": "<br><strong>STATUS:</strong> China will initiate its first one-year astronaut mission and host its first international astronaut aboard the Tiangong space station this year, with the Shenzhou-23 launch accelerated due to a prior spacecraft incident.<br><br><strong>INTEL:</strong> The expedited Shenzhou-23 mission, launching April/May due to a cracked Shenzhou-20 viewport window, will send an astronaut for a year-long residency, yielding vital data for future deep space missions and affirming confidence in Tiangong's long-duration support systems. Concurrently, a Pakistani astronaut is slated for a short-duration mission (likely Shenzhou-24 in late 2026), marking a significant step in international cooperation, while Hong Kong and Macau payload specialists could also fly by 2026. China also reiterates its ambition for a crewed lunar landing by 2030, reporting steady progress on Mengzhou spacecraft, Long March 10 rocket development, and ground infrastructure at Wenchang Space Launch Site.",
-                                    "source_url": "https://spacenews.com/china-set-for-its-first-one-year-human-spaceflight-mission-confirms-pakistani-astronaut-flight/",
                                     "timestamp": "2026.02.27",
                                     "feed_name": "SPACE_NEWS"
                                 }
