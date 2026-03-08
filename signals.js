@@ -337,6 +337,14 @@ const signalTree = {
                             "name": "DEFENSE_ONE_TECH",
                             "articles": [
                                 {
+                                    "id": "GS-92449",
+                                    "title": "MEET THE STARTUPS TRYING TO BUILD MILITARY-SPECIFIC AI",
+                                    "description": "<br><strong>STATUS:</strong> The Pentagon is expressing significant dissatisfaction and concerns with general-purpose AI models from companies like Anthropic for military applications, citing their unsuitability for combat, cloud dependency, and lack of domain-specific training.\n\n<br><strong>INTEL:</strong> This tension, highlighted by reported use of Anthropic's model in Operation Midnight Hammer and subsequent dependency concerns, underscores a critical gap between commercial AI capabilities and military requirements. The military seeks specialized, robust, and edge-deployable AI trained on combat-relevant data, leading to new initiatives like Project Aria and veteran-led startups focused on developing domain-specific AI for national security.",
+                                    "source_url": "https://www.defenseone.com/technology/2026/03/meet-startups-trying-build-military-specific-ai/411969/",
+                                    "timestamp": "2026.03.08",
+                                    "feed_name": "DEFENSE_ONE_TECH"
+                                },
+                                {
                                     "id": "GS-35587",
                                     "title": "25TH ID HELPING THE ARMY SMOOTH OUT THE WRINKLES IN ITS NEXT-GENERATION C2",
                                     "description": "<br><strong>STATUS:</strong> The 25th Infantry Division is leveraging its \"Transformation-in-Contact\" model through Lightning Surge exercises to rapidly develop and refine a unified command-and-control platform (NGC2) for integrated battlefield data management.\n\n<br><strong>INTEL:</strong> The NGC2 platform aims to synchronize and display diverse battlefield data, from intelligence to munitions, in a single interface, with ongoing refinements driven by soldier feedback. Key developments include implementing a Lockheed Martin and Palantir application for selective data display, a planned update to separate classified and unclassified data to eliminate manual \"swivel chair\" operations, and future automation for optimal satellite transport path selection to enhance connectivity. These iterative enhancements are critical for achieving the strategic objective of accelerating the decision-making cycle, aiming for less than four minutes from adversary electronic warfare sensing to weapon impact against an unknown target.",
