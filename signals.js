@@ -2131,6 +2131,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-1839",
+                                    "title": "EU COURT ADVISER SAYS BANKS MUST IMMEDIATELY REFUND PHISHING VICTIMS",
+                                    "description": "<br><strong>STATUS:</strong> The Advocate General of the CJEU has issued an opinion suggesting banks must immediately refund victims of unauthorized transactions under PSD2, even if the customer was negligent, unless bank fraud is suspected.\n\n<br><strong>INTEL:</strong> This legal opinion, stemming from a phishing case in Poland, clarifies that while banks must provide an immediate refund, they retain the right to pursue recovery from the customer if they can subsequently prove the customer's gross negligence or intentional fault led to the security breach. The recommendation shifts the initial burden of loss to the bank, with the onus on the bank to prove customer culpability to reclaim funds, though this is an opinion and not yet a binding CJEU ruling.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/legal/eu-court-adviser-says-banks-must-immediately-refund-phishing-victims/",
+                                    "timestamp": "2026.03.08",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-47286",
                                     "title": "HACKERS ABUSE .ARPA DNS AND IPV6 TO EVADE PHISHING DEFENSES",
                                     "description": "<br><strong>STATUS:</strong> Threat actors are exploiting the special-use .arpa domain and IPv6 reverse DNS to conduct phishing campaigns that more easily bypass domain reputation checks and email security gateways.<br><br><strong>INTEL:</strong> Attackers acquire IPv6 address blocks, then gain control of the associated reverse DNS zones, configuring A records to point to phishing infrastructure instead of standard PTR records. This method, often leveraging reputable DNS providers, allows phishing links embedded in email images to resolve to attacker-controlled sites via reverse IPv6 DNS records, effectively bypassing security measures; these campaigns often employ traffic distribution systems and short-lived links to evade detection and analysis.",
@@ -2520,14 +2528,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Claude is currently experiencing a major, widespread outage across all platforms with elevated errors reported, impacting users globally.<br><br><strong>INTEL:</strong> The incident was flagged on March 2, 2026, with an ongoing investigation reported as of 12:06 UTC, following an initial notice at 11:49 UTC. Users are encountering failed requests, timeouts, and inconsistent responses across Claude's web, mobile, and API services, with no estimated time of resolution but active work underway by the team.",
                                     "source_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-a-worldwide-outage/",
                                     "timestamp": "2026.03.02",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-51131",
-                                    "title": "CLAWJACKED ATTACK LET MALICIOUS WEBSITES HIJACK OPENCLAW TO STEAL DATA",
-                                    "description": "<br><strong>STATUS:</strong> Security researchers have disclosed a high-severity \"ClawJacked\" vulnerability in the popular OpenClaw AI agent that allows malicious websites to silently brute-force and take full control of locally running instances.\n\n<br><strong>INTEL:</strong> The flaw, discovered by Oasis Security and fixed in version 2026.2.26, stems from OpenClaw's gateway service binding to localhost with an exposed WebSocket interface, which browser cross-origin policies do not block. Crucially, OpenClaw exempts the loopback address from rate limiting by default, enabling malicious JavaScript to brute-force management passwords at hundreds of attempts per second and then silently register as a trusted device with admin permissions, leading to full workstation compromise via credential dumping, file exfiltration, or arbitrary command execution from a simple browser tab.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/clawjacked-attack-let-malicious-websites-hijack-openclaw-to-steal-data/",
-                                    "timestamp": "2026.03.01",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
