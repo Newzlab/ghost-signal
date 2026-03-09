@@ -896,6 +896,126 @@ const signalTree = {
                             "name": "ARXIV_AI_PAPERS",
                             "articles": [
                                 {
+                                    "id": "GS-89836",
+                                    "title": "ROBOLAYOUT: DIFFERENTIABLE 3D SCENE GENERATION FOR EMBODIED AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> RoboLayout, an extension of LayoutVLM, is introduced to generate agent-aware, physically constrained 3D indoor scene layouts from open-ended language instructions.<br><br><strong>INTEL:</strong> RoboLayout enhances existing vision language models by incorporating explicit reachability constraints and agent-aware reasoning into its differentiable optimization, ensuring generated layouts are navigable and actionable by diverse embodied agents. This flexibility in agent abstraction, spanning various robot types, humans, or animals, allows environment design to be precisely tailored to specific physical capabilities, while a new local refinement stage significantly boosts optimization efficiency, making it crucial for creating functional and agent-centric indoor environments.",
+                                    "source_url": "https://arxiv.org/abs/2603.05522",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-88005",
+                                    "title": "REAL-TIME AI SERVICE ECONOMY: A FRAMEWORK FOR AGENTIC COMPUTING ACROSS THE CONTINUUM",
+                                    "description": "<br><strong>STATUS:</strong> A study reveals that the structure of service-dependency graphs is a primary determinant of reliable, scalable decentralized resource allocation for real-time AI services across the device-edge-cloud continuum.<br><br><strong>INTEL:</strong> The research demonstrates that hierarchical service-dependency graphs enable stable, efficient decentralized resource allocation for AI, whereas complex graphs cause instability. A proposed hybrid management architecture, which encapsulates and simplifies complex sub-graphs, significantly reduces price volatility by up to 70-75% without sacrificing throughput. This approach validates that decentralized coordination, under truthful bidding, can achieve centralized allocation quality, though governance constraints introduce quantifiable efficiency-compliance trade-offs.",
+                                    "source_url": "https://arxiv.org/abs/2603.05614",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-7224",
+                                    "title": "REASONING MODELS STRUGGLE TO CONTROL THEIR CHAINS OF THOUGHT",
+                                    "description": "<br><strong>STATUS:</strong> Current AI models exhibit low Chain-of-Thought (CoT) controllability, suggesting CoT monitoring remains a robust tool for understanding and detecting misbehavior.\n\n<br><strong>INTEL:</strong> The research introduces \"CoT-Control\" to measure models' ability to solve problems while adhering to specific CoT instructions, finding that reasoning models possess significantly lower CoT controllability (e.g., Claude Sonnet 4.5 at 2.7%) compared to their final output controllability (61.9%). While larger models show slightly higher CoT controllability, it decreases with more RL training, test-time compute, and increased problem difficulty, even when incentivized or adversarially prompted to evade monitors, leading to cautious optimism about CoT monitorability. The mechanism behind this low controllability is not well understood, prompting a recommendation for frontier labs to track this critical metric in future models.",
+                                    "source_url": "https://arxiv.org/abs/2603.05706",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-90921",
+                                    "title": "EVOLVING MEDICAL IMAGING AGENTS VIA EXPERIENCE-DRIVEN SELF-SKILL DISCOVERY",
+                                    "description": "<br><strong>STATUS:</strong> A new AI agent, MACRO, has been developed to autonomously discover and synthesize new composite tools for adaptive clinical image interpretation, overcoming limitations of static tool sets.\n\n<br><strong>INTEL:</strong> MACRO addresses the critical issue of static and brittle tool usage in LLM-based medical agents by enabling experience-driven tool discovery and synthesis. It autonomously identifies recurring effective multi-step tool sequences from verified execution trajectories, combining them into reusable composite tools that expand its operational repertoire. This self-evolving capability, grounded by visual-clinical context memory and reinforced through a GRPO-like training loop, significantly improves multi-step orchestration accuracy and cross-domain generalization in medical imaging, pushing clinical AI towards more adaptive and context-aware assistance.",
+                                    "source_url": "https://arxiv.org/abs/2603.05860",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-51137",
+                                    "title": "THE WORLD WON'T STAY STILL: PROGRAMMABLE EVOLUTION FOR AGENT BENCHMARKS",
+                                    "description": "<br><strong>STATUS:</strong> A new graph-based framework called ProEvolve has been developed to programmatically evolve AI agent environments for better adaptability evaluation.<br><br><strong>INTEL:</strong> ProEvolve tackles the limitation of static AI agent benchmarks by representing the environment\u2014including data, tools, and schema\u2014as a typed relational graph. This allows for scalable and controllable evolution through graph transformations, generating diverse task sandboxes (demonstrated with 200 environments and 3,000 sandboxes) to robustly evaluate agents' adaptability to real-world, dynamic operational changes, which is critical for their deployment in non-static scenarios.",
+                                    "source_url": "https://arxiv.org/abs/2603.05910",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-26518",
+                                    "title": "DEEPFACT: CO-EVOLVING BENCHMARKS AND AGENTS FOR DEEP RESEARCH FACTUALITY",
+                                    "description": "<br><strong>STATUS:</strong> A new evolving benchmarking method called Audit-then-Score (AtS) has been developed to improve the factuality verification of Deep Research Reports (DRRs) generated by search-augmented LLM agents.<br><br><strong>INTEL:</strong> Verifying the claim-level factuality of complex DRRs produced by LLMs is challenging for existing fact-checkers, which are designed for simpler claims. The AtS method, implemented as DeepFact-Bench, proposes an iterative system where benchmark labels are revisable, disputes are adjudicated by an auditor, and accepted revisions update the benchmark, significantly improving expert accuracy from 60.8% to 90.9%. This framework enables the creation of more reliable benchmarks and verification agents like DeepFact-Eval, which outperforms existing verifiers, addressing a critical need for ensuring accuracy in AI-generated deep research.",
+                                    "source_url": "https://arxiv.org/abs/2603.05912",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-19781",
+                                    "title": "AN INTERACTIVE MULTI-AGENT SYSTEM FOR EVALUATION OF NEW PRODUCT CONCEPTS",
+                                    "description": "<br><strong>STATUS:</strong> A new automated approach using an LLM-based multi-agent system has been developed and validated for evaluating product concepts.\n\n<br><br><strong>INTEL:</strong> This system employs eight specialized virtual agents representing domains like R&amp;D and marketing, equipped with retrieval-augmented generation (RAG) and real-time search tools, to objectively assess product concepts across technical and market feasibility. Fine-tuned with professional review data, the agents engage in structured deliberations, with a case study on display monitors confirming its evaluations are consistent with senior industry experts, potentially offering a more scalable, less biased alternative to traditional expert-led processes for strategic resource allocation.",
+                                    "source_url": "https://arxiv.org/abs/2603.05980",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-50159",
+                                    "title": "AGENTIC LLM PLANNING VIA STEP-WISE PDDL SIMULATION: AN EMPIRICAL CHARACTERISATION",
+                                    "description": "<br><strong>STATUS:</strong> A study evaluated direct and agentic Large Language Model (LLM) planning against classical methods for autonomous robot task planning, utilizing a new PDDL simulation engine.\n\n<br><strong>INTEL:</strong> The research found that classical planning achieved 85.3% success, significantly outperforming both direct (63.7%) and agentic (66.7%) LLM approaches, with the agentic method showing only a modest 3% improvement despite a 5.7x higher token cost. The shorter plans generated by LLMs are attributed to training-data recall rather than genuine planning capability, and the limited agentic gains underscore that LLM effectiveness relies heavily on the quality and external verifiability of environmental feedback, which is lacking in self-assessed PDDL step feedback compared to external signals like compiler errors.",
+                                    "source_url": "https://arxiv.org/abs/2603.06064",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-8423",
+                                    "title": "AGGREGATIVE SEMANTICS FOR QUANTITATIVE BIPOLAR ARGUMENTATION FRAMEWORKS",
+                                    "description": "<br><strong>STATUS:</strong> A new family of gradual semantics, termed aggregative semantics, has been introduced for Quantitative Bipolar Argumentation Frameworks (QBAF) in artificial intelligence.<br><br><strong>INTEL:</strong> This novel approach computes argument weights through a three-stage process, independently aggregating the influence of attackers and supporters before combining these with the argument's intrinsic weight. This method provides a more parametrisable and interpretable way to model situations where attackers and supporters have asymmetric roles, enhancing the understanding and preservation of bipolarity in AI reasoning systems that handle conflicting information.",
+                                    "source_url": "https://arxiv.org/abs/2603.06067",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-45680",
+                                    "title": "OFFLINE MATERIALS OPTIMIZATION WITH CLIQUEFLOWMER",
+                                    "description": "<br><strong>STATUS:</strong> A new computational materials discovery technique, CliqueFlowmer, has been developed to optimize material properties.<br><br><strong>INTEL:</strong> This new approach addresses the limitations of current generative models by integrating direct optimization of a target material property into the generation process, utilizing offline model-based optimization and outperforming existing baselines, with its code open-sourced to support specialized research.",
+                                    "source_url": "https://arxiv.org/abs/2603.06082",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-3417",
+                                    "title": "CONVERSATIONAL DEMAND RESPONSE: BIDIRECTIONAL AGGREGATOR-PROSUMER COORDINATION THROUGH AGENTIC AI",
+                                    "description": "<br><strong>STATUS:</strong> A new AI-enabled conversational demand response mechanism (CDR) is introduced to improve prosumer participation in energy management.\n\n<br><strong>INTEL:</strong> CDR utilizes agentic AI in a two-tier multi-agent architecture (aggregator and prosumer Home Energy Management System) to facilitate bidirectional natural language interaction, aiming to bridge the coordination gap in residential demand response. This mechanism offers the scalability of automation while preserving transparency, explainability, and user agency, allowing for informed decision-making, prosumer-initiated preference changes, and rapid interaction completion, with all system components released as open source.",
+                                    "source_url": "https://arxiv.org/abs/2603.06217",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-71622",
+                                    "title": "ARTIFICIAL INTELLIGENCE FOR CLIMATE ADAPTATION: REINFORCEMENT LEARNING FOR CLIMATE CHANGE-RESILIENT TRANSPORT",
+                                    "description": "<br><strong>STATUS:</strong> A novel reinforcement learning framework has been developed and evaluated for long-term urban flood adaptation planning under climate uncertainty.\n\n<br><strong>INTEL:</strong> This advanced decision-support framework, formulated as an integrated assessment model, combines rainfall projections, flood modeling, and transport simulations to learn optimal adaptive strategies for infrastructure investments. Applied to Copenhagen's inner city through 2100, the RL-based approach significantly outperforms traditional optimization methods by discovering more resilient, coordinated spatial and temporal adaptation pathways, thereby enhancing urban planning capabilities against intensified pluvial flooding.",
+                                    "source_url": "https://arxiv.org/abs/2603.06278",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-60474",
+                                    "title": "THE EPISTWIN: A KNOWLEDGE GRAPH-GROUNDED NEURO-SYMBOLIC ARCHITECTURE FOR PERSONAL AI",
+                                    "description": "<br><strong>STATUS:</strong> A new neuro-symbolic framework called EpisTwin has been introduced to create trustworthy Personal AI by integrating fragmented user data into a verifiable Personal Knowledge Graph.<br><br><strong>INTEL:</strong> EpisTwin overcomes the limitations of current Retrieval-Augmented Generation (RAG) by using Multimodal Language Models to convert diverse, cross-application user data into semantic triples. This framework enables complex reasoning over the personal semantic graph via an agentic coordinator that combines Graph Retrieval-Augmented Generation with Online Deep Visual Refinement, dynamically re-grounding symbolic entities in their raw visual context to facilitate holistic sensemaking and is evaluated with a new PersonalQA-71-100 benchmark.",
+                                    "source_url": "https://arxiv.org/abs/2603.06290",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-9062",
+                                    "title": "SAHOO: SAFEGUARDED ALIGNMENT FOR HIGH-ORDER OPTIMIZATION OBJECTIVES IN RECURSIVE SELF-IMPROVEMENT",
+                                    "description": "<br><strong>STATUS:</strong> A new framework, SAHOO, has been developed to effectively monitor and control alignment drift in AI systems undergoing recursive self-improvement, making alignment preservation measurable and deployable at scale.<br><br><strong>INTEL:</strong> SAHOO mitigates the inherent risks of alignment drift during iterative AI self-modification by employing a multi-signal Goal Drift Index (GDI), constraint preservation checks for safety-critical invariants such as syntactic correctness and non-hallucination, and regression-risk quantification. This framework has demonstrated substantial quality gains across diverse tasks, including an 18.3% improvement in code generation and 16.8% in mathematical reasoning, while effectively preserving critical constraints and managing the increasing alignment costs associated with advanced improvement cycles.",
+                                    "source_url": "https://arxiv.org/abs/2603.06333",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-26131",
+                                    "title": "TALK FREELY, EXECUTE STRICTLY: SCHEMA-GATED AGENTIC AI FOR FLEXIBLE AND REPRODUCIBLE SCIENTIFIC WORKFLOWS",
+                                    "description": "<br><strong>STATUS:</strong> A new study identifies a fundamental trade-off between conversational flexibility and execution determinism in LLM-driven scientific workflows and proposes schema-gated orchestration as a resolving principle.<br><br><strong>INTEL:</strong> The research, based on expert interviews and a novel multi-model LLM scoring protocol, reveals that no current system achieves both high flexibility and high determinism. The proposed schema-gated architecture aims to decouple this trade-off by making a machine-checkable specification a mandatory execution boundary, ensuring all actions, including cross-step dependencies, validate before execution. This approach is critical for guaranteeing the determinism, provenance, and governance required in industrial R&D, separating conversational from execution authority.",
+                                    "source_url": "https://arxiv.org/abs/2603.06394",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
                                     "id": "GS-4811",
                                     "title": "SKILLNET: CREATE, EVALUATE, AND CONNECT AI SKILLS",
                                     "description": "<br><strong>STATUS:</strong> SkillNet, an open infrastructure, has been introduced to enable AI agents to systematically accumulate and transfer skills, addressing the current limitation of fragmented learning.\n\n<br><strong>INTEL:</strong> SkillNet provides a unified ontology for creating, evaluating across multiple dimensions (Safety, Cost-awareness, etc.), and organizing AI skills from heterogeneous sources, preventing agents from repeatedly rediscovering solutions. Integrating a 200,000-skill repository and a Python toolkit, it has demonstrated significant improvements in agent performance, boosting average rewards by 40% and reducing execution steps by 30%, thus establishing a robust foundation for durable AI mastery.",
@@ -1173,126 +1293,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> A new benchmark framework, EmCoop, has been introduced to analyze cooperation in LLM-based embodied multi-agent systems.<br><br><strong>INTEL:</strong> EmCoop addresses the challenge of fine-grained analysis of how Large Language Model (LLM)-based agents collaborate in complex embodied environments. It provides a framework that separates high-level cognitive coordination from low-level physical interaction, offering process-level metrics to diagnose collaboration quality and identify failure modes beyond mere task completion. This allows for systematic study of cooperation dynamics across varying team sizes and task settings, critical for advancing robust multi-agent AI systems.",
                                     "source_url": "https://arxiv.org/abs/2603.00349",
                                     "timestamp": "2026.03.03",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-98505",
-                                    "title": "MONOTROPIC ARTIFICIAL INTELLIGENCE: TOWARD A COGNITIVE TAXONOMY OF DOMAIN-SPECIALIZED LANGUAGE MODELS",
-                                    "description": "<br><strong>STATUS:</strong> Researchers introduce Monotropic Artificial Intelligence, a new paradigm for language models designed for extreme precision within narrowly circumscribed domains by deliberately sacrificing generality.<br><br><strong>INTEL:</strong> This framework challenges the prevailing belief that AI progress solely equates to scale and generality, advocating instead for intensely specialized systems that achieve extraordinary depth. Inspired by the cognitive theory of monotropism, these models, exemplified by Mini-Enedina's near-perfect performance in Timoshenko beam analysis, offer distinct advantages for safety-critical applications by prioritizing precision, suggesting a future AI ecology where specialized and generalist systems complement each other.",
-                                    "source_url": "https://arxiv.org/abs/2603.00350",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-69423",
-                                    "title": "CONSERVATIVE EQUILIBRIUM DISCOVERY IN OFFLINE GAME-THEORETIC MULTIAGENT REINFORCEMENT LEARNING",
-                                    "description": "<br><strong>STATUS:</strong> A new method called COffeE-PSRO is introduced for solving mixed-motive multi-agent games under the constraint of offline learning from fixed, limited datasets. <br><br><strong>INTEL:</strong> COffeE-PSRO extends the online game-solving approach Policy Space Response Oracles (PSRO) by quantifying game dynamics uncertainty and modifying the reinforcement learning objective to favor solutions with a higher probability of low regret, even when a true equilibrium cannot be fully verified due to data limitations; it demonstrates improved performance over existing offline methods.",
-                                    "source_url": "https://arxiv.org/abs/2603.00374",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-82069",
-                                    "title": "NEUROHEX: HIGHLY-EFFICIENT HEX COORDINATE SYSTEM FOR CREATING WORLD MODELS TO ENABLE ADAPTIVE AI",
-                                    "description": "<br><strong>STATUS:</strong> A novel hexagonal coordinate system, NeuroHex, has been developed to enable highly efficient world models and adaptive spatial reasoning for AI systems.<br><br><strong>INTEL:</strong> NeuroHex employs a cubic isometric hexagonal coordinate formulation, inspired by brain grid cells, offering full 60-degree rotational symmetry and low-cost computations for translation, rotation, and distance, alongside hierarchical geometric primitives for efficient spatial matching operations. The system includes an OSM2Hex tool that can reduce OpenStreetMap data complexity by 90-99% while preserving spatial structure, making it a highly efficient substrate for dynamic world models in autonomous AI with continuous online learning.",
-                                    "source_url": "https://arxiv.org/abs/2603.00376",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-25801",
-                                    "title": "CONFUSION-AWARE RUBRIC OPTIMIZATION FOR LLM-BASED AUTOMATED GRADING",
-                                    "description": "<br><strong>STATUS:</strong> A novel framework named Confusion-Aware Rubric Optimization (CARO) has been introduced to significantly enhance the accuracy and efficiency of LLM-based grading systems.\n\n<br><strong>INTEL:</strong> CARO overcomes the \"rule dilution\" issue prevalent in current automated prompt optimization by structurally separating error signals using a confusion matrix, allowing for the targeted diagnosis and repair of individual misclassification patterns. This method synthesizes specific \"fixing patches\" to prevent guidance conflicts, eliminates resource-heavy nested refinement, and has demonstrated superior performance on educational datasets, suggesting a robust path for scalable and precise automated assessment.",
-                                    "source_url": "https://arxiv.org/abs/2603.00451",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-78031",
-                                    "title": "MED-COPILOT: A MEDICAL ASSISTANT POWERED BY GRAPHRAG AND SIMILAR PATIENT CASE RETRIEVAL",
-                                    "description": "<br><strong>STATUS:</strong> A new interactive clinical decision-support system called MED-COPILOT has been developed to enhance clinical reasoning by integrating structured guidelines and patient-level evidence for Large Language Models.\n\n<br><strong>INTEL:</strong> MED-COPILOT employs a sophisticated approach combining guideline-grounded GraphRAG retrieval from a knowledge graph built using WHO and NICE guidelines, with hybrid semantic-keyword similar-patient retrieval from a 36,000-case database derived from MIMIC-IV and Synthea records. This system is designed to provide transparent, evidence-aware support, mitigating LLM hallucinations and improving the integration of complex medical documents, ultimately outperforming parametric LLM baselines and standard RAG in critical clinical tasks, and is publicly accessible.",
-                                    "source_url": "https://arxiv.org/abs/2603.00460",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-47426",
-                                    "title": "OPTIMIZING IN-CONTEXT DEMONSTRATIONS FOR LLM-BASED AUTOMATED GRADING",
-                                    "description": "<br><strong>STATUS:</strong> A new framework, GUIDE, has been developed to significantly improve the reliability and rubric adherence of large language models in automated student response grading.\n\n<br><strong>INTEL:</strong> GUIDE addresses current LLM limitations in grading by reframing exemplar selection as a boundary-focused optimization problem, using novel contrastive operators to identify \"boundary pairs\" and generating discriminative rationales. This approach enables the model to focus on subtle decision boundaries and rubric adherence, resulting in robust gains on borderline cases and paving the way for more trusted and scalable assessment systems.",
-                                    "source_url": "https://arxiv.org/abs/2603.00465",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-98920",
-                                    "title": "WHY NOT? SOLVER-GROUNDED CERTIFICATES FOR EXPLAINABLE MISSION PLANNING",
-                                    "description": "<br><strong>STATUS:</strong> A new method has been developed to provide faithful, model-derived justifications for Earth observation satellite scheduling decisions, addressing the shortcomings of existing post-hoc approaches.\n\n<br><br><strong>INTEL:</strong> This \"faithfulness-first\" approach generates causal explanations directly from the optimization model itself, using certificates like minimal infeasible subsets for rejections, tight constraints for selections, and inverse solves for what-if scenarios. This method ensures perfect soundness, counterfactual validity, and stability, unlike previous methods that risked non-causal attributions and incomplete constraint understanding, making it a robust solution for critical satellite operations with confirmed scalability for practical batch processing.",
-                                    "source_url": "https://arxiv.org/abs/2603.00469",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-28300",
-                                    "title": "FROM GOALS TO ASPECTS, REVISITED: AN NFR PATTERN LANGUAGE FOR AGENTIC AI SYSTEMS",
-                                    "description": "<br><strong>STATUS:</strong> A new pattern language has been developed to systematically identify and modularize crosscutting concerns in agentic AI systems, aiming to improve their reliability and production readiness.<br><br><strong>INTEL:</strong> This paper extends the \"goals-to-aspects\" methodology for agentic AI, proposing 12 reusable patterns implemented via Aspect-Oriented Programming (AOP) in Rust to address issues like security, observability, reliability, and cost management. Crucially, it introduces four novel patterns directly relevant to agent-specific challenges: prompt injection detection, tool-scope sandboxing, token budget management, and action audit trails, offering a principled approach to mitigate the high failure rate of AI projects reaching production by ensuring early modularization of non-functional requirements.",
-                                    "source_url": "https://arxiv.org/abs/2603.00472",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-92206",
-                                    "title": "LIFEEVAL: A MULTIMODAL BENCHMARK FOR ASSISTIVE AI IN EGOCENTRIC DAILY LIFE TASKS",
-                                    "description": "<br><strong>STATUS:</strong> A new multimodal benchmark named LifeEval has been introduced to evaluate Multimodal Large Language Models (MLLMs) in real-time, task-oriented human-AI collaboration for daily life scenarios.<br><br><strong>INTEL:</strong> LifeEval addresses a critical gap by shifting from passive understanding to assessing interactive and adaptive real-time assistance from an egocentric, first-person perspective using continuous streams and natural dialogues. Comprising 4,075 high-quality Q&A pairs across six capability dimensions, it revealed substantial challenges for 26 state-of-the-art MLLMs in achieving timely, effective, and adaptive interaction, underscoring significant limitations in current MLLM capabilities for dynamic, human-centered real-world assistance.",
-                                    "source_url": "https://arxiv.org/abs/2603.00490",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-35460",
-                                    "title": "AI RUNTIME INFRASTRUCTURE",
-                                    "description": "<br><strong>STATUS:</strong> A new \"AI Runtime Infrastructure\" has been introduced, acting as an execution-time layer to actively observe, reason over, and intervene in AI agent behavior.<br><br><strong>INTEL:</strong> This infrastructure operates above the model and below the application, treating execution itself as an optimization surface to enhance task success, efficiency, reliability, and safety. It provides dynamic capabilities like adaptive memory management, failure detection and recovery, and policy enforcement for long-horizon agent workflows, distinguishing it from traditional model-level optimizations or passive logging systems.",
-                                    "source_url": "https://arxiv.org/abs/2603.00495",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-29451",
-                                    "title": "HUMANMCP: A HUMAN-LIKE QUERY DATASET FOR EVALUATING MCP TOOL RETRIEVAL PERFORMANCE",
-                                    "description": "<br><strong>STATUS:</strong> A new large-scale dataset has been developed to address the critical gap in realistic user queries for evaluating LLM tool usage on Model Context Protocol (MCP) servers.<br><br><strong>INTEL:</strong> This dataset is crucial because current benchmarks for MCP servers, which link LLMs to thousands of open-source tools, suffer from poor generalization due to a lack of diverse, human-like user queries. The newly introduced dataset features high-quality queries generated for 2800 tools across 308 MCP servers, incorporating multiple user personas to capture varied intent, thus promising more accurate and reliable evaluation of real-world LLM-tool interaction complexity.",
-                                    "source_url": "https://arxiv.org/abs/2602.23367",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-8866",
-                                    "title": "AN AGENTIC LLM FRAMEWORK FOR ADVERSE MEDIA SCREENING IN AML COMPLIANCE",
-                                    "description": "<br><strong>STATUS:</strong> A new agentic system leveraging Large Language Models (LLMs) with Retrieval-Augmented Generation (RAG) has been developed to automate and enhance adverse media screening for anti-money laundering (AML) and know-your-customer (KYC) compliance.\n\n<br><strong>INTEL:</strong> This innovation aims to overcome the high false-positive rates and extensive manual review associated with traditional keyword-based screening by employing a multi-step LLM agent to search the web, process documents, and compute an Adverse Media Index (AMI) score. The system's effectiveness has been demonstrated in distinguishing high-risk individuals, such as Politically Exposed Persons (PEPs) and sanctioned entities, from low-risk individuals, promising more efficient and accurate compliance processes for financial institutions.",
-                                    "source_url": "https://arxiv.org/abs/2602.23373",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-31505",
-                                    "title": "CAUSAL IDENTIFICATION FROM COUNTERFACTUAL DATA: COMPLETENESS AND BOUNDING RESULTS",
-                                    "description": "<br><strong>STATUS:</strong> A new algorithm, CTFIDU+, has been developed to fully identify counterfactual queries from physically realizable counterfactual data, establishing the fundamental limits of exact causal inference in non-parametric settings.\n\n<br><strong>INTEL:</strong> This research leverages the recent discovery of \"counterfactual realizability,\" which permits the direct experimental estimation of certain Layer 3 (counterfactual) distributions previously considered unobtainable. The CTFIDU+ algorithm is proven complete for identifying counterfactuals from these realizable Layer 3 distributions, thus defining the theoretical boundary for exact causal inference. Additionally, for critical counterfactuals that remain non-identifiable, the study provides novel analytic bounds, demonstrating that access to even partial counterfactual data significantly tightens these estimations in practical applications.",
-                                    "source_url": "https://arxiv.org/abs/2602.23541",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-71646",
-                                    "title": "PLANNING UNDER DISTRIBUTION SHIFTS WITH CAUSAL POMDPS",
-                                    "description": "<br><strong>STATUS:</strong> A new theoretical framework is proposed for planning under partial observability using causal Partially Observable Markov Decision Processes (POMDPs) to address real-world distribution shifts.<br><br><strong>INTEL:</strong> This framework models environment shifts as interventions on a causal POMDP, enabling the evaluation of plans under hypothesized changes and the identification of altered environment components. It maintains and updates a belief over both the latent state and the underlying domain, proving that the value function remains piecewise linear and convex (PWLC) in this augmented belief space, which preserves the tractability of planning via $\\alpha$-vector-based POMDP methods despite distribution shifts.",
-                                    "source_url": "https://arxiv.org/abs/2602.23545",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-6235",
-                                    "title": "CONSTRUCT, MERGE, SOLVE & ADAPT WITH REINFORCEMENT LEARNING FOR THE MIN-MAX MULTIPLE TRAVELING SALESMAN PROBLEM",
-                                    "description": "<br><strong>STATUS:</strong> A new hybrid computational method, RL-CMSA, has been developed to effectively solve the min-max Multiple Traveling Salesman Problem (mTSP).<br><br><strong>INTEL:</strong> RL-CMSA iteratively constructs diverse solutions using reinforcement learning-guided clustering, merges routes with a restricted set-covering MILP, and refines them with local search, specifically targeting the min-max variant to optimize workload balance. This approach significantly outperforms state-of-the-art algorithms on larger instances, indicating a robust new tool for complex logistics, resource allocation, and distributed task management where minimizing the longest tour is critical.",
-                                    "source_url": "https://arxiv.org/abs/2602.23579",
-                                    "timestamp": "2026.03.02",
                                     "feed_name": "ARXIV_AI_PAPERS"
                                 }
                             ]
