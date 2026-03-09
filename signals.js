@@ -486,6 +486,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-37572",
+                                    "title": "US, IRAN SPAR OVER STATUS OF IRANIAN WARSHIP SUNK BY SUBMARINE",
+                                    "description": "<br><strong>STATUS:</strong> The sinking of an Iranian warship by a U.S. submarine has led to a dispute between the U.S. and Iran over whether the vessel was armed and operating in a noncombat role.<br><br><strong>INTEL:</strong> The IRIS Dena was sunk by a U.S. submarine's torpedo on March 4 near Sri Lanka while returning from multinational naval exercises in India, leading to conflicting accounts from the U.S. and Iran regarding its armament status. Washington rejected Tehran's claim the vessel was unarmed and ceremonial, a stance complicated by an Indian defense ministry statement confirming \"live firings\" during the exercises, while Iran condemned the act as an atrocity against a guest vessel. This incident, which resulted in 87 deaths and the subsequent docking of two other Iranian ships in Sri Lanka and India, underscores the widening reach of U.S.-Iran tensions beyond the Middle East.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/09/us-iran-spar-over-status-of-iranian-warship-sunk-by-submarine/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-17604",
+                                    "title": "US B-1B LANCERS ARRIVE AT RAF FAIRFORD AS STRIKES ON IRAN INTENSIFY",
+                                    "description": "<br><strong>STATUS:</strong> Multiple U.S. B-1B Lancer bombers have deployed to RAF Fairford in the UK to intensify strike operations against Iran under Operation Epic Fury.<br><br><strong>INTEL:</strong> This forward deployment enables U.S. forces to conduct specific defensive operations against Iranian missile capabilities, significantly shortening turnaround times for bomber missions. B-1B and B-2 bombers have already executed pinpoint strikes on nearly 200 targets deep inside Iran, including missile sites, with Defense Secretary Hegseth warning of a dramatic surge in strikes and a shift to gravity bombs following U.S. control of Iranian airspace. B-52H Stratofortress bombers have also subsequently arrived at RAF Fairford.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/09/us-b-1b-lancers-arrive-at-raf-fairford-as-strikes-on-iran-intensify/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-54101",
                                     "title": "PREWAR US INTEL FOUND INTERVENTION IN IRAN WASN\u2019T LIKELY TO CHANGE LEADERSHIP",
                                     "description": "<br><strong>STATUS:</strong> A pre-war U.S. intelligence assessment concluded that military intervention in Iran would not lead to regime change, a finding immediately underscored by the succession of a more hardline leader following the conflict's outset.<br><br><strong>INTEL:</strong> The National Intelligence Council's assessment, largely dismissed by the administration, determined that neither limited strikes nor a prolonged campaign would dislodge the Iranian regime, even if its leaders were killed, due to the absence of a unified opposition and the establishment's preparedness to ensure continuity of power. This strategic implication was swiftly confirmed when Iran's clerics immediately chose Mojtaba Khamenei, a more hardline successor, demonstrating the regime's resilience and intention to resist rather than collapse, directly undermining the administration's claims of achieving objectives quickly.",
@@ -866,22 +882,6 @@ const signalTree = {
                                     "title": "PENTAGON SEEKS ROBOT SHIPS TO HAUL SUPPLIES TO COMBAT ZONES",
                                     "description": "<br><strong>STATUS:</strong> The U.S. military is soliciting bids for autonomous, expendable freighters capable of transporting supplies into dangerous, contested waters and equipped with a self-scuttling mechanism to prevent capture.\n\n<br><strong>INTEL:</strong> This Defense Innovation Unit initiative aims to address \"littoral contested logistics challenges\" by deploying low-profile, robotic vessels with a minimum 9-ton cargo capacity, capable of operating in GPS-denied/degraded environments and sea state 5. These ships, which must be deliverable within 180 days, will support shore-to-shore and ship-to-shore distribution, emphasizing the strategic shift towards distributed, expendable logistics that are resistant to tampering and can be remotely scuttled to deny enemy acquisition.",
                                     "source_url": "https://www.defensenews.com/industry/techwatch/2026/03/02/pentagon-seeks-robot-ships-to-haul-supplies-to-combat-zones/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-54612",
-                                    "title": "MACRON OPENS DOOR TO DEPLOYING FRENCH NUCLEAR FORCES TO EUROPEAN ALLIES",
-                                    "description": "<br><strong>STATUS:</strong> France will expand its nuclear arsenal and implement an \"advanced deterrence\" policy, potentially deploying nuclear-capable forces to European allies.\n\n<br><strong>INTEL:</strong> This significant shift, spurred by Russian aggression and US security guarantee uncertainties, involves a gradual process starting with partner participation in deterrence exercises and signaling, potentially culminating in the deployment of French airborne nuclear deterrent assets (Rafale jets) to allied territories like Germany, Poland, and Sweden, aiming to increase strategic depth and complicate adversary calculations while France retains sole decision-making authority over nuclear weapon use.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/02/macron-opens-door-to-deploying-french-nuclear-assets-to-european-allies/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-17212",
-                                    "title": "ADDITIONAL TROOPS TO DEPLOY TO MIDDLE EAST AS GEN. CAINE SAYS TO EXPECT \u2018ADDITIONAL LOSSES\u2019",
-                                    "description": "<br><strong>STATUS:</strong> Chairman of the Joint Chiefs of Staff Gen. Dan Caine announced the deployment of additional tactical aviation and military personnel to Iran following the death of a fourth U.S. service member during Operation Epic Fury.<br><br><strong>INTEL:</strong> Operation Epic Fury, launched February 28th, is an ongoing U.S. military campaign aggressively striking Iranian missile and air defense sites to protect U.S. interests and prevent Iran's power projection, having hit over 1,000 targets initially and resulting in 555 Iranian and four U.S. casualties, including a friendly fire incident involving Kuwaiti air defenses. While not declared a \"regime change war,\" the Defense Secretary stated the outcome indicates the regime \"sure did change,\" and more losses are anticipated as additional resources are deployed for sustained operations.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/02/additional-troops-to-deploy-to-middle-east-as-gen-caine-says-to-expect-additional-losses/",
                                     "timestamp": "2026.03.02",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1311,6 +1311,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-25052",
+                                    "title": "MISSILE DETECTION SATELLITE DESIGNED BY BAE SYSTEMS PASSES EARLY REVIEW",
+                                    "description": "<br><strong>STATUS:</strong> A missile-tracking satellite constellation developed by BAE Systems for the U.S. Space Force successfully completed its preliminary design review.\n\n<br><strong>INTEL:</strong> This BAE Systems-built Epoch 2 constellation, comprising 10 medium Earth orbit (MEO) satellites, is designed to detect and track advanced threats like hypersonic weapons using infrared sensors, forming a crucial part of the Space Force\u2019s layered missile warning and tracking architecture that aims to improve tracking of maneuvering targets and complement existing geosynchronous systems.",
+                                    "source_url": "https://spacenews.com/missile-detection-satellite-designed-by-bae-systems-passes-early-review/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-23707",
                                     "title": "GNSS RESILIENCE IS AN ECONOMIC AND SECURITY PRIORITY",
                                     "description": "<br><strong>STATUS:</strong> Malicious interference with Global Navigation Satellite Systems (GNSS) is rapidly escalating, threatening critical infrastructure and international security with significant operational and strategic implications.<br><br><strong>INTEL:</strong> GNSS, vital for navigation and precise timing across essential services, is increasingly vulnerable to deliberate jamming and spoofing, evidenced by a 220% rise in signal-loss events affecting European commercial flights from 2021-2024. This fragility is particularly acute during major international events, where concentrated leadership amplifies the impact of disruption; consequently, a layered resilience approach integrating diverse sensing, independent timing, and cross-sector cooperation is crucial to detect threats early and ensure continuity in increasingly contested electromagnetic environments.",
@@ -1701,20 +1709,36 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/space-force-opens-secretive-space-tracking-to-commercial-firms/",
                                     "timestamp": "2026.03.01",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-59307",
-                                    "title": "CAS SPACE TO LAUNCH KINETICA-2 IN LATE MARCH CARRYING PROTOTYPE CARGO SPACECRAFT",
-                                    "description": "<br><strong>STATUS:</strong> Chinese launch firm CAS Space is preparing for the inaugural late March launch of its reusable Kinetica-2 liquid rocket, carrying a prototype cargo spacecraft.\n\n<br><strong>INTEL:</strong> This 53-meter reusable launch vehicle, developed by a commercial spinoff of the Chinese Academy of Sciences, aims to deliver up to 12,000 kg to LEO and will carry a prototype of the Qingzhou-1 cargo spacecraft for the Tiangong space station. The Kinetica-2's debut signals increasing Chinese launch capabilities and cadence, with plans for several more launches in 2026, including for internet megaconstellations and other national missions.",
-                                    "source_url": "https://spacenews.com/cas-space-to-launch-kinetica-2-in-late-march-carrying-prototype-cargo-spacecraft/",
-                                    "timestamp": "2026.03.01",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-60682",
+                                    "title": "NASA\u2019S\u00a0VAN ALLEN PROBE A\u00a0TO RE-ENTER ATMOSPHERE",
+                                    "description": "<br><strong>STATUS:</strong> NASA's Van Allen Probe A is predicted to re-enter Earth's atmosphere on March 10, 2026, significantly earlier than initially calculated.\n\n<br><strong>INTEL:</strong> The 1,323-pound spacecraft, which operated from 2012-2019 to study Earth's radiation belts, is re-entering sooner than its original 2034 estimate due to increased atmospheric drag caused by an unexpectedly active solar cycle that reached its solar maximum in 2024. While most of the probe is expected to burn up with a low risk of harm (1 in 4,200), the mission's data remains crucial for understanding space weather and its impact on satellites, astronauts, and Earth's communication, navigation, and power grids.",
+                                    "source_url": "https://www.nasa.gov/missions/van-allen-probes/nasa-van-allen-probe-a-to-re-enter-atmosphere/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-58658",
+                                    "title": "ABOUT SUBSONIC FLIGHT DEMONSTRATOR (SFD) PROJECT",
+                                    "description": "<br><strong>STATUS:</strong> NASA is leading the Subsonic Flight Demonstrator (SFD) project to mature critical airframe technologies for next-generation single-aisle airliners.<br><br><strong>INTEL:</strong> The SFD project specifically aims to overcome the significant technical and economic challenges industry faces in transitioning promising research technologies, such as new wing designs, from development to production for future commercial aircraft. This initiative, a partnership between NASA and industry, is crucial for ensuring the successful adoption of advanced airframe innovations in the next generation of single-aisle seat class airliners.",
+                                    "source_url": "https://www.nasa.gov/directorates/armd/iasp/sfd/about-sfd/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-30761",
+                                    "title": "ABOUT FLIGHT DEMONSTRATIONS AND CAPABILITIES (FDC) PROJECT",
+                                    "description": "<br><strong>STATUS:</strong> The FDC project conducts complex flight research to validate new technologies across all phases of maturation for NASA and the aviation industry.<br><br><strong>INTEL:</strong> The project operates national flight research capabilities at NASA's Armstrong Flight Research Center at Edwards, California, including a support aircraft fleet, the Dryden Aeronautical Test Range, and flight simulators. It leverages extensive collaboration with academia, industry, and government to integrate diverse assets and execute aggressive, success-oriented flight campaigns aimed at maturing and validating critical aviation technologies.",
+                                    "source_url": "https://www.nasa.gov/directorates/armd/iasp/fdc/about-fdc/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-77472",
                                     "title": "WHAT IS PI? (GRADES 5-8)",
@@ -2090,30 +2114,6 @@ const signalTree = {
                                     "source_url": "https://science.nasa.gov/missions/landsat/landsat-9-more-than-just-a-picture/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-35081",
-                                    "title": "INSIDE PROJECT HAIL MARY",
-                                    "description": "<br><strong>STATUS:</strong> NASA astronaut Kjell Lindgren hosted a discussion at JPL on February 25, 2026, with the creative team behind the \"Project Hail Mary\" movie, including actors Ryan Gosling and Sandra Huller, discussing their collaboration with NASA.\n\n<br><strong>INTEL:</strong> NASA actively supported the production of the \"Project Hail Mary\" movie by providing subject matter experts to the creative team, with astronaut Kjell Lindgren specifically consulting actor Ryan Gosling during filming to share insights on human spaceflight and astronaut experience, demonstrating a strategic engagement between NASA and major media productions to ensure accuracy and promote space exploration.",
-                                    "source_url": "https://www.nasa.gov/image-article/inside-project-hail-mary/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-62471",
-                                    "title": "NASA INVITES MEDIA TO DISCUSS NEXT STEPS FOR ARTEMIS CAMPAIGN",
-                                    "description": "<br><strong>STATUS:</strong> NASA is holding a news conference on February 27th to discuss the future of the Artemis II test flight and the overall Artemis campaign, following the rollback of its rocket and spacecraft.\n\n<br><strong>INTEL:</strong> This conference, featuring NASA leadership, will provide updates on the work ahead for the Artemis II mission and the broader Artemis campaign, suggesting potential strategic adjustments or detailed planning discussions are underway after the SLS rocket and Orion spacecraft were moved back to the Vehicle Assembly Building.",
-                                    "source_url": "https://www.nasa.gov/news-release/nasa-invites-media-to-discuss-next-steps-for-artemis-campaign/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-79951",
-                                    "title": "NASA\u2019S ESCAPADE READY TO STUDY SPACE WEATHER FROM EARTH TO MARS",
-                                    "description": "<br><strong>STATUS:</strong> NASA's ESCAPADE mission has activated its science instruments to investigate how the solar wind stripped Mars' atmosphere and its ongoing influence on the Red Planet.<br><br><strong>INTEL:</strong> The ESCAPADE mission utilizes a pioneering twin-spacecraft approach, the first of its kind at Mars, to provide a \"stereo perspective\" and simultaneously measure the short-term changes in the Martian magnetosphere and the upstream solar wind. This allows scientists to observe the real-time cause-and-effect processes driving atmospheric escape, offering unprecedented data crucial for understanding Mars' transformation and developing critical space weather protocols to protect future human missions on the weakly protected planet.",
-                                    "source_url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-ready-to-study-space-weather-from-earth-to-mars/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2130,6 +2130,22 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-4119",
+                                    "title": "DUTCH GOVT WARNS OF SIGNAL, WHATSAPP ACCOUNT HIJACKING ATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> Russian state-sponsored hackers are conducting an ongoing phishing campaign targeting government officials, military personnel, and journalists via Signal and WhatsApp.\n\n<br><strong>INTEL:</strong> The operation employs sophisticated phishing and social engineering, abusing legitimate authentication features such as SMS verification codes, Signal PINs, and device linking via malicious QR codes to achieve account takeovers. While Signal's core encryption and infrastructure remain uncompromised, attackers exploit user trust to gain full control, enabling them to monitor incoming messages, access contact lists, change associated phone numbers, and impersonate victims.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/dutch-govt-warns-of-signal-whatsapp-account-hijacking-attacks/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-58619",
+                                    "title": "ERICSSON US DISCLOSES DATA BREACH AFTER SERVICE PROVIDER HACK",
+                                    "description": "<br><strong>STATUS:</strong> Ericsson Inc.'s U.S. subsidiary announced that a data breach at one of its service providers exposed sensitive personal data belonging to an undisclosed number of employees and customers.\n\n<br><strong>INTEL:</strong> The breach, discovered in April 2025 with an investigation concluding in February 2026, involved unauthorized access to files containing names, addresses, Social Security Numbers, driver's licenses, government IDs, financial, medical information, and dates of birth, affecting at least 4,377 individuals in Texas alone. While no evidence of data misuse has been found, and no cybercrime group has claimed responsibility, Ericsson is offering free identity protection services to mitigate potential harm.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/ericsson-us-discloses-data-breach-after-service-provider-hack/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-47041",
                                     "title": "MICROSOFT TEAMS WILL TAG THIRD-PARTY BOTS TRYING TO JOIN MEETINGS",
@@ -2512,22 +2528,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Google has released security updates patching 129 Android vulnerabilities, including an actively exploited zero-day flaw in Qualcomm display components.<br><br><strong>INTEL:</strong> The exploited zero-day, CVE-2026-21385, is an integer overflow in Qualcomm's Graphics subcomponent, affecting 235 chipsets, allowing local attackers to trigger memory corruption. Google also fixed 10 critical vulnerabilities in System, Framework, and Kernel components, with one System flaw enabling remote code execution without user interaction, emphasizing the persistent threat of targeted Android exploits.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/google-patches-android-zero-day-actively-exploited-in-attacks/",
                                     "timestamp": "2026.03.03",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-18319",
-                                    "title": "CYBERSTRIKEAI TOOL ADOPTED BY HACKERS FOR AI-POWERED ATTACKS",
-                                    "description": "<br><strong>STATUS:</strong> A newly identified AI-powered security testing platform, CyberStrikeAI, developed by a threat actor with alleged links to Chinese government-affiliated cyber operations, was used in recent breaches of hundreds of Fortinet FortiGate firewalls.<br><br><strong>INTEL:</strong> CyberStrikeAI is an AI-native orchestration engine built in Go that integrates over 100 security tools, enabling end-to-end automation of complex attack chains from conversational commands, significantly lowering the barrier to entry for even low-skilled operators. Researchers warn that this platform accelerates automated targeting of exposed edge devices, with infrastructure observed primarily in China, Singapore, and Hong Kong, alongside other global locations. The developer, \"Ed1s0nZ,\" has also created other AI-assisted tools like PrivHunterAI and InfiltrateX, and has interactions with organizations previously linked to Chinese government-affiliated cyber operations.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/cyberstrikeai-tool-adopted-by-hackers-for-ai-powered-attacks/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-67786",
-                                    "title": "FAKE GOOGLE SECURITY SITE USES PWA APP TO STEAL CREDENTIALS, MFA CODES",
-                                    "description": "<br><strong>STATUS:</strong> A sophisticated phishing campaign is distributing a malicious Progressive Web App (PWA) and an Android APK, masquerading as a Google security update, to steal one-time passcodes, cryptocurrency wallet addresses, and enable network proxying.<br><br><strong>INTEL:</strong> The campaign leverages the domain `google-prism[.]com` to trick users into installing a PWA that exfiltrates OTPs, crypto wallet addresses, contacts, GPS, and clipboard data, crucially featuring a WebSocket relay that acts as an HTTP proxy, allowing attackers to route requests through the victim's network. For Android users, a companion APK is offered as a \"critical security update\" demanding 33 high-risk permissions, enabling keylogging, notification interception, credential theft, and device administrator persistence for enhanced data compromise and persistence.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/fake-google-security-site-uses-pwa-app-to-steal-credentials-mfa-codes/",
-                                    "timestamp": "2026.03.02",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
