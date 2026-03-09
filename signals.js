@@ -486,6 +486,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-95211",
+                                    "title": "EUROPEAN NATO NATIONS REDUCE RELIANCE ON US ARMS IMPORTS: SIPRI DATA",
+                                    "description": "<br><strong>STATUS:</strong> European NATO countries are diversifying their major arms imports away from the United States, significantly increasing acquisitions from South Korea, France, and Israel.<br><br><strong>INTEL:</strong> This strategic shift reflects heightened European defense spending post-Ukraine invasion and growing doubts about the long-term reliability of the U.S. as an ally, fueled by past threats from President Trump and a U.S. policy focus on homeland defense. While the U.S. remains the largest overall supplier to European NATO and the world's top arms exporter, European nations are proactively reducing their proportional dependency to enhance defense autonomy.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/09/european-nato-nations-reduce-reliance-on-us-arms-imports-sipri-data/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-15150",
                                     "title": "TRUMP ENCOURAGES LATIN AMERICAN LEADERS TO USE MILITARY ACTION TO HELP US FIGHT CARTELS",
                                     "description": "<br><strong>STATUS:</strong> President Trump hosted a \"Shield of the Americas\" summit with Latin American leaders, urging collective military action against cartels and transnational gangs.<br><br><strong>INTEL:</strong> The summit signals a renewed U.S. focus on the Western Hemisphere despite ongoing crises like the war with Iran, promoting an \"America First\" foreign policy that advocates military force against cartels, citing the ISIS coalition as a precedent. This initiative follows a previous failed regional summit and aims to leverage U.S. military and intelligence assets, with future attention also promised for Cuba.",
@@ -874,14 +882,6 @@ const signalTree = {
                                     "title": "9 IRANIAN NAVAL SHIPS HAVE BEEN DESTROYED AND SUNK, TRUMP SAYS",
                                     "description": "<br><strong>STATUS:</strong> U.S. and partner forces launched a major military operation against Iran, sinking naval vessels, destroying strategic infrastructure, and killing Supreme Leader Ayatollah Ali Khamenei.\n\n<br><strong>INTEL:</strong> Designated \"Operation Epic Fury,\" the assault targeted Iran's security apparatus, including command and control facilities, air defense, missile sites, military airfields, and naval headquarters, resulting in 9 reported ship sinkings and extensive damage, and marking the largest U.S. firepower buildup in the Middle East in a generation, with U.S. forces incurring casualties.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/01/9-iranian-naval-ships-have-been-destroyed-and-sunk-trump-says/",
-                                    "timestamp": "2026.03.01",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-54812",
-                                    "title": "3 US TROOPS KILLED, 5 SERIOUSLY WOUNDED IN ACTIONS AGAINST IRAN",
-                                    "description": "<br><strong>STATUS:</strong> Three U.S. service members have been killed and five seriously wounded during combat operations against Iran.<br><br><strong>INTEL:</strong> The casualties occurred amidst Iranian retaliatory strikes following \"Operation Epic Fury,\" a multi-domain U.S. and Israeli bombardment across Iran that targeted military installations and reportedly killed Supreme Leader Ayatollah Ali Khamenei. This represents a significant escalation in the conflict, with U.S. forces continuing major combat operations despite initial reports of no casualties, and CENTCOM dismissing claims of the USS Abraham Lincoln being hit.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/01/3-us-troops-killed-5-seriously-wounded-in-actions-against-iran/",
                                     "timestamp": "2026.03.01",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
