@@ -486,6 +486,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-72160",
+                                    "title": "TURKEY SENDS SIX F-16 FIGHTERS TO NORTHERN CYPRUS AMID IRAN MISSILE THREATS",
+                                    "description": "<br><strong>STATUS:</strong> Turkey has deployed six F-16C fighter jets to the Turkish Republic of Northern Cyprus as part of a phased approach to enhance regional security.\n\n<br><strong>INTEL:</strong> This deployment is a direct response to escalating military activities in the Eastern Mediterranean, including Greece's recent deployment of F-16s and frigates to Cyprus following an Iranian attack on RAF Akrotiri, and France's announced dispatch of an aircraft carrier strike group and advanced anti-drone/missile systems to bolster Cyprus's defenses. The Turkish F-16s, operating from Ercan International Airport, are equipped for combat air patrol and air defense missions, indicating a significant and rapidly increasing military presence in the area.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/09/turkey-sends-six-f-16-fighters-to-northern-cyprus-amid-iran-missile-threats/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-49451",
+                                    "title": "FINLAND READIES ITSELF TO BE ABLE TO HOST NUKES IN LONGTIME POLICY DEPARTURE",
+                                    "description": "<br><strong>STATUS:</strong> Finland's government has proposed scrapping its Cold War-era ban on nuclear weapons to fully integrate into NATO's deterrence architecture.\n\n<br><br><strong>INTEL:</strong> The proposed amendment would allow the import and transport of nuclear weapons for homeland or collective defense, departing from a 1987 law that categorically prohibited them, though manufacturing and detonation would remain illegal. This legislative shift, essential for strengthening Finland's military defense within NATO, aligns its status with most other alliance members, and is likely to pass given the ruling coalition's parliamentary majority and government backing.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/09/finland-readies-itself-to-be-able-to-host-nukes-in-longtime-policy-departure/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-95211",
                                     "title": "EUROPEAN NATO NATIONS REDUCE RELIANCE ON US ARMS IMPORTS: SIPRI DATA",
                                     "description": "<br><strong>STATUS:</strong> European NATO countries are diversifying their major arms imports away from the United States, significantly increasing acquisitions from South Korea, France, and Israel.<br><br><strong>INTEL:</strong> This strategic shift reflects heightened European defense spending post-Ukraine invasion and growing doubts about the long-term reliability of the U.S. as an ally, fueled by past threats from President Trump and a U.S. policy focus on homeland defense. While the U.S. remains the largest overall supplier to European NATO and the world's top arms exporter, European nations are proactively reducing their proportional dependency to enhance defense autonomy.",
@@ -867,22 +883,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Iranian strikes hit military bases hosting European troops in Iraq, Jordan, and a British base in Cyprus, activating air defenses and prompting sheltering actions.<br><br><strong>INTEL:</strong> The attacks, which caused no casualties, directly targeted European military assets in the region following U.S.-Israeli strikes on Iran, despite European nations disavowing participation and urging de-escalation. This signals an increased threat to European interests and personnel, potentially drawing them deeper into the conflict and underscoring the ongoing strategic importance and risks of their regional military presence, such as the recently extended Operation Aspides.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/03/02/european-military-installations-are-targeted-in-iran-retaliation/",
                                     "timestamp": "2026.03.02",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-41414",
-                                    "title": "CIA TRACKED IRANIAN LEADERS FOR MONTHS AHEAD OF ATTACKS THAT BEGAN WITH 3 STRIKES IN 60 SECONDS",
-                                    "description": "<br><strong>STATUS:</strong> US-Israeli forces executed surprise, simultaneous daylight strikes in Iran, eliminating Supreme Leader Ali Khamenei and over 40 senior figures.\n\n<br><strong>INTEL:</strong> These precision strikes were enabled by weeks of joint US-Israeli intelligence tracking, real-time data on target consolidation, and rapid execution to prevent escape, hitting hundreds of additional military targets; the operation has left Iran's future uncertain, escalated regional risks, and resulted in three American fatalities, though Iran's potential new leadership has reportedly signaled openness to talks.",
-                                    "source_url": "https://www.defensenews.com/flashpoints/middle-east/2026/03/02/cia-tracked-iranian-leaders-for-months-ahead-of-attacks-that-began-with-3-strikes-in-60-seconds/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-33581",
-                                    "title": "9 IRANIAN NAVAL SHIPS HAVE BEEN DESTROYED AND SUNK, TRUMP SAYS",
-                                    "description": "<br><strong>STATUS:</strong> U.S. and partner forces launched a major military operation against Iran, sinking naval vessels, destroying strategic infrastructure, and killing Supreme Leader Ayatollah Ali Khamenei.\n\n<br><strong>INTEL:</strong> Designated \"Operation Epic Fury,\" the assault targeted Iran's security apparatus, including command and control facilities, air defense, missile sites, military airfields, and naval headquarters, resulting in 9 reported ship sinkings and extensive damage, and marking the largest U.S. firepower buildup in the Middle East in a generation, with U.S. forces incurring casualties.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/01/9-iranian-naval-ships-have-been-destroyed-and-sunk-trump-says/",
-                                    "timestamp": "2026.03.01",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
                             ]
@@ -1311,6 +1311,38 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-23707",
+                                    "title": "GNSS RESILIENCE IS AN ECONOMIC AND SECURITY PRIORITY",
+                                    "description": "<br><strong>STATUS:</strong> Malicious interference with Global Navigation Satellite Systems (GNSS) is rapidly escalating, threatening critical infrastructure and international security with significant operational and strategic implications.<br><br><strong>INTEL:</strong> GNSS, vital for navigation and precise timing across essential services, is increasingly vulnerable to deliberate jamming and spoofing, evidenced by a 220% rise in signal-loss events affecting European commercial flights from 2021-2024. This fragility is particularly acute during major international events, where concentrated leadership amplifies the impact of disruption; consequently, a layered resilience approach integrating diverse sensing, independent timing, and cross-sector cooperation is crucial to detect threats early and ensure continuity in increasingly contested electromagnetic environments.",
+                                    "source_url": "https://spacenews.com/gnss-resilience-is-an-economic-and-security-priority/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-3890",
+                                    "title": "VOYAGER TECHNOLOGIES INVESTS IN MAX SPACE",
+                                    "description": "<br><strong>STATUS:</strong> Voyager Technologies has made a strategic investment in Max Space to accelerate their partnership in developing expandable lunar habitats.<br><br><strong>INTEL:</strong> The investment, in the \"low eight figures,\" aims to integrate Max Space's expandable module technology with Voyager's power and propulsion systems to quickly deliver hardware for lunar bases, aligning with White House space policy. This funding will enable Max Space to build a new manufacturing facility and conduct module demonstrations, with future collaboration also being explored for commercial space stations despite some competitive overlap.",
+                                    "source_url": "https://spacenews.com/voyager-technologies-invests-in-max-space/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-54616",
+                                    "title": "FIRST STARSHIP V3 LAUNCH SLIPS",
+                                    "description": "<br><strong>STATUS:</strong> SpaceX has delayed the first launch of its Starship V3 by approximately four weeks, now targeting early April.<br><br><strong>INTEL:</strong> This Starship V3 launch delay occurs amidst NASA's urgent push for SpaceX to accelerate its Human Landing System (HLS) development for the revised Artemis lunar missions, which now project docking in low Earth orbit for Artemis 3 in mid-2027 and lunar landings starting in early 2028. While both SpaceX and Blue Origin have submitted accepted acceleration plans for their HLS contracts, NASA emphasizes that Starship's launch rate is paramount for unlocking necessary lunar capabilities, a goal challenged by the current schedule slip and previous V3 booster damage.",
+                                    "source_url": "https://spacenews.com/first-starship-v3-launch-slips/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-23508",
+                                    "title": "CHINESE OFFICIAL CALLS FOR PRIORITIZING NEPTUNE ORBITER MISSION",
+                                    "description": "<br><strong>STATUS:</strong> A senior Chinese space scientist is proposing that China prioritize an unprecedented orbiter mission to the ice giant Neptune.\n\n<br><strong>INTEL:</strong> The proposal, made during China's ongoing political sessions, calls for including a Neptune orbiter as a priority in national science and technology plans, requiring significant technological advancements like space nuclear power (RTGs) for a projected 2033 launch, and aims for a world-first orbital study to explore Neptune's formation, composition, and the potential habitability of its moon Triton, strategically enhancing China's deep space capabilities.",
+                                    "source_url": "https://spacenews.com/chinese-official-calls-for-prioritizing-neptune-orbiter-mission/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-11888",
                                     "title": "RFA PLANS FIRST LAUNCH THIS SUMMER",
                                     "description": "<br><strong>STATUS:</strong> German launch startup Rocket Factory Augsburg (RFA) has delivered its RFA ONE rocket stages to SaxaVord Spaceport in Scotland, targeting its first orbital launch this summer.\n\n<br><strong>INTEL:</strong> While the rocket's first and second stages are at SaxaVord, its nine engines are still in Sweden undergoing final acceptance testing, recalling a previous 2024 incident where an RFA ONE first stage was destroyed in a fire during similar pre-launch hot-fire tests. RFA is a key player among several European startups in the competitive small launch vehicle market, having secured significant funding from the European Launcher Challenge to bolster European access to space.",
@@ -1677,44 +1709,20 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/cas-space-to-launch-kinetica-2-in-late-march-carrying-prototype-cargo-spacecraft/",
                                     "timestamp": "2026.03.01",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-10954",
-                                    "title": "INTUITIVE MACHINES RAISES $175 MILLION IN STOCK SALE",
-                                    "description": "<br><strong>STATUS:</strong> Intuitive Machines successfully raised $175 million in a stock sale to fund the expansion of its deep space communications and data processing networks, particularly for lunar services.<br><br><strong>INTEL:</strong> This new capital will primarily support the development of a lunar satellite network, crucial for its $4.8 billion NASA contract, by integrating capabilities from the recently acquired Lanteris Space Systems. The company plans to leverage this investment to pursue higher-margin programs such as TDRSS and potentially the Mars Telecommunications Orbiter, though specific eligibility for the latter may necessitate new partnerships. Investor reaction was initially negative due to the stock sale's pricing at $15.12, below its previous closing value.",
-                                    "source_url": "https://spacenews.com/intuitive-machines-raises-175-million-in-stock-sale/",
-                                    "timestamp": "2026.03.01",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-52626",
-                                    "title": "NASA ON \u2018AGGRESSIVE\u2019 SCHEDULE TO COMPLETE SLS REPAIRS FOR APRIL LAUNCH",
-                                    "description": "<br><strong>STATUS:</strong> NASA is aggressively repairing a helium flow issue in the Space Launch System's upper stage, requiring a rollback to the Vehicle Assembly Building, to meet an early April launch window for the Artemis 2 mission.<br><br><strong>INTEL:</strong> The helium flow interruption in the Interim Cryogenic Propulsion Stage (ICPS) forced the SLS and Orion to roll back from the pad because the upper stage's interior cannot be accessed there. Repairs focus on a suspected seal in a quick-disconnect or a check valve, with additional maintenance including replacing flight termination system batteries and a liquid oxygen umbilical seal, all on an aggressive three-week timeline to preserve the April 1-6 launch window, with the next opportunity opening April 30.",
-                                    "source_url": "https://spacenews.com/nasa-on-aggressive-schedule-to-complete-sls-repairs-for-april-launch/",
-                                    "timestamp": "2026.02.28",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-39420",
-                                    "title": "NASA REVISES PLANS FOR FUTURE ARTEMIS MISSIONS, CANCELS UPGRADES TO SLS",
-                                    "description": "<br><strong>STATUS:</strong> NASA has significantly revised its Artemis lunar program, adding a new low Earth orbit test mission for landers and spacesuits while abandoning planned upgrades for the Space Launch System.\n\n<br><strong>INTEL:</strong> These strategic changes, driven by competition from China, aim to accelerate the flight rate and reduce mission risk by conducting a crucial test flight (Artemis 3) in 2027 before the first crewed lunar landing (Artemis 4) in 2028, and by maintaining a \"near Block 1\" SLS configuration to overcome previous launch rate challenges.",
-                                    "source_url": "https://spacenews.com/nasa-revises-plans-for-future-artemis-missions-cancels-upgrades-to-sls/",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-59463",
-                                    "title": "ROCKET LAB DELAYS NEUTRON DEBUT TO LATE 2026",
-                                    "description": "<br><strong>STATUS:</strong> Rocket Lab's Neutron rocket first launch is delayed until at least the fourth quarter of 2026 following a manufacturing defect discovered during a propellant tank test in January.\n\n<br><strong>INTEL:</strong> The delay stems from a first-stage propellant tank rupture during a hydrostatic pressure test on January 21, traced to a manufacturing defect in a critical joint caused by a contractor's hand-laying process. Rocket Lab plans to implement automated fiber placement for future tanks, introduce minor design changes to increase margins, and conduct extensive re-qualification, which, while delaying Neutron's debut, allows for more thorough testing of other subsystems, potentially leading to a lower-risk maiden flight. Meanwhile, Rocket Lab's existing Electron vehicle is experiencing strong demand, cementing its market leadership in small satellite launches.",
-                                    "source_url": "https://spacenews.com/rocket-lab-delays-neutron-debut-to-late-2026/",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-1300",
+                                    "title": "FROM CABBAGES TO COUNTDOWNS: NASA MARKS 100 YEARS OF MODERN ROCKETRY",
+                                    "description": "<br><strong>STATUS:</strong> Dr. Robert Goddard successfully launched the world's first liquid-fueled rocket, \"Nell,\" 100 years ago in Massachusetts, marking a foundational moment in modern rocketry.\n\n<br><strong>INTEL:</strong> On March 16, 1926, Goddard's experimental rocket, fueled by gasoline and liquid oxygen, achieved a flight of 41 feet, demonstrating the viability of liquid propulsion despite initial scientific skepticism and public ridicule. This pioneering achievement proved crucial for future space exploration, establishing the core technology that underpins all subsequent major space launch systems, including NASA's SLS rocket for the upcoming Artemis II mission.",
+                                    "source_url": "https://www.nasa.gov/centers-and-facilities/goddard/from-cabbages-to-craters-nasa-marks-one-century-of-modern-rocketry/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-97524",
                                     "title": "ARMD RESEARCH SOLICITATIONS (UPDATED MARCH 6)",
@@ -2105,14 +2113,6 @@ const signalTree = {
                                     "description": "Satellite-based radar images show where a powerful earthquake in the Yukon, Canada, sent rock, snow, and ice spilling across the frozen landscapes of the St. Elias Mountains. On December 6, 2025, a powerful magnitude 7.0 earthquake struck the remote St. Elias Mountains, a highly glaciated range that spans the Yukon-Alaska border. The quake shook the landscape beneath Hubbard Glacier, sending ice and rock careening down the range\u2019s steep slopes. The NISAR (NASA-ISRO Synthetic Aperture Radar) satellite offered some of the earliest views of the changed landscape. Geophysicist Eric Fielding and colleagues at NASA\u2019s Jet Propulsion Laboratory (JPL) typically use satellite data to map the displacement of the ground after major earthquakes strike land. But in this region, such maps\u2014known as interferograms\u2014are not possible because the ground lies buried beneath a layer of glacial ice that\u2019s at least 700 meters (2,000 feet) thick. \u201cThe cryosphere is covering up the geosphere,\u201d Fielding said. Instead, clues to the earthquake\u2019s destructive power lay strewn atop the ice surface. The shaking on December 6 unleashed landslides and avalanches that swept debris onto lower, flatter stretches of the glacier. The debris is visible in radar imagery acquired by NISAR on December 8, two days after the quake (right). For comparison, the NISAR image on the left shows the same area on November 26, a week and a half before the quake. Where the slides have deposited rock, snow, and other debris, surfaces have become rougher, which scatters more energy back toward the sensor and makes those areas appear bright in the December 8 image (the roughest areas are shown in dark green). Areas with smooth surfaces reflect little of the radar\u2019s energy directly back to the satellite sensor, so these parts of the images appear dark (shown in purple). Note that there are some exceptionally rough, green surfaces beyond the new slide areas that remain relatively unchanged between the two images. The largest slide in the scene appears to be cascading down the flank of Mount King George, but it\u2019s far from the only one. Numerous others scar the surrounding terrain, including areas to the west along the slopes of Mount Logan, Canada\u2019s tallest mountain. Alex Gardner, a glaciologist at JPL and member of the NISAR science team, reviewed the images with Fielding. \u201cThe sheer number and magnitude of avalanches and landslides is astounding,\u201d Gardner said. \u201cI\u2019ve personally never seen anything like this before.\u201d A separate preliminary analysis by the U.S. Geological Survey identified more than 700 potential landslides and snow avalanches, with an especially high concentration northwest of the epicenter along the fault rupture. Follow-up flights by the Yukon Geological Survey on December 12 provided a closer look, showing some slopes remained actively unstable, with dust still hanging in the air, and widespread damage to glacial ice. Much of the debris that settled atop the region\u2019s glacial ice is likely being transported toward the ocean by the glaciers' ongoing seaward flow, which acts as a natural \"conveyor belt.\" For example, a tributary glacier of Hubbard north of Mount King George, which had previously moved at a sluggish pace, entered a surging phase in November before the earthquake. It is now moving downslope at what Gardner described as \u201cbreakneck speeds\u201d of up to 6,000 meters per year (about 50 feet per day). Although the region is uninhabited, the slides and damaged ice could pose new hazards for mountaineers and other expeditions, USGS noted in a December 18 update. The town of Yakutat, Alaska, about 90 kilometers (56 miles) south of the epicenter, is a common staging point for people exploring the area. NISAR observations are expected to provide imagery to support future natural disaster response efforts. Images by Gustavo Shiroma (JPL) of the NISAR Algorithm Development Team using data from the NISAR GSLC product, and prepared for NASA Earth Observatory by Lauren Dauph",
                                     "source_url": "https://science.nasa.gov/earth/earth-observatory/landslide-and-avalanche-debris-litter-hubbard-glacier/",
                                     "timestamp": "2026.02.25",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-11483",
-                                    "title": "CURIOSITY BLOG, SOLS 4812-4819: BACK INTO THE HOLLOWS",
-                                    "description": "Mars Science Laboratory Mission Team Members Written by Diana Hayes, Graduate student at York University, Toronto Earth planning date: Friday, Feb. 20, 2026 This has been a pretty routine week for Curiosity. As was mentioned last week, we're now in the final phase of the boxwork exploration campaign. We're currently making our way toward the eastern contact of the boxwork formation with the surrounding geology, which we plan to drive along before turning our attention to the southern contact. That will likely be our last opportunity to directly interrogate the boxwork area before we continue our adventure up the slopes of Mount Sharp. Along the way, we've been performing our usual investigations of the geology that we encounter at our parking locations. As always, this includes contact science on bedrock targets close to the rover, ChemCam LIBS observations of targets slightly further afield, and a number of ChemCam RMI and Mastcam mosaics. These mosaics include observations deeper into the \u201cTapiche\u201d hollow where we're parked and the \u201cLos Flamencos\u201d ridge to its south, which we plan on investigating closer in the coming week. Mars continues to move deeper into its dusty season, so the environmental science group filled this week's plan with a typical assortment of atmospheric monitoring activities to track dust devils and the amount of dust in the atmosphere, as well as several Navcam cloud movies. So far this dusty season the atmosphere over Gale Crater appears to be behaving much like it does most years, with no signs of imminent dust storms. It's now been almost eight years (four Mars years) since the last time that a global dust storm swept across the planet, so we're keeping a close eye on the possibility of another one occurring this year. Mars is the fourth planet from the Sun, and the seventh largest. It\u2019s the only planet we know of inhabited\u2026 Explore this collection of Mars images, videos, resources, PDFs, and toolkits. Discover valuable content designed to inform, educate, and inspire,\u2026 Each robotic explorer sent to the Red Planet has its own unique capabilities driven by science. Many attributes of a\u2026 The key to understanding the past, present or future potential for life on Mars can be found in NASA\u2019s four\u2026",
-                                    "source_url": "https://science.nasa.gov/blog/curiosity-blog-sols-4812-4819-back-into-the-hollows/",
-                                    "timestamp": "2026.02.24",
                                     "feed_name": "NASA_BREAKING"
                                 }
                             ]
