@@ -486,6 +486,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-41318",
+                                    "title": "NATO DEFENSES SHOOT DOWN BALLISTIC MISSILE IN TURKEY",
+                                    "description": "<br><strong>STATUS:</strong> NATO defenses successfully intercepted an Iranian ballistic missile that violated Turkish airspace, marking the second such incident since recent U.S. and Israeli strikes on Iran.\n\n<br><strong>INTEL:</strong> This interception underscores escalating regional hostilities, with Iran actively retaliating across multiple countries following military actions by the U.S. and Israel on February 28th. The successful downing by NATO units in the eastern Mediterranean demonstrates a robust collective defense posture and reinforces Turkey's resolve to firmly protect its territory and airspace, despite valuing regional stability, issuing a clear warning against future incursions.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/09/nato-defenses-shoot-down-ballistic-missile-in-turkey/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-72160",
                                     "title": "TURKEY SENDS SIX F-16 FIGHTERS TO NORTHERN CYPRUS AMID IRAN MISSILE THREATS",
                                     "description": "<br><strong>STATUS:</strong> Turkey has deployed six F-16C fighter jets to the Turkish Republic of Northern Cyprus as part of a phased approach to enhance regional security.\n\n<br><strong>INTEL:</strong> This deployment is a direct response to escalating military activities in the Eastern Mediterranean, including Greece's recent deployment of F-16s and frigates to Cyprus following an Iranian attack on RAF Akrotiri, and France's announced dispatch of an aircraft carrier strike group and advanced anti-drone/missile systems to bolster Cyprus's defenses. The Turkish F-16s, operating from Ercan International Airport, are equipped for combat air patrol and air defense missions, indicating a significant and rapidly increasing military presence in the area.",
@@ -874,14 +882,6 @@ const signalTree = {
                                     "title": "3 F-15S SHOT DOWN BY KUWAIT IN FRIENDLY FIRE INCIDENT, PILOTS SAFE, US SAYS",
                                     "description": "<br><strong>STATUS:</strong> Three U.S. F-15E fighter jets were shot down by Kuwaiti air defenses in an apparent friendly fire incident during Operation Epic Fury against Iran.<br><br><strong>INTEL:</strong> This incident, in which all six aircrew safely ejected and were recovered, occurred amid escalating Iranian retaliatory strikes and a larger U.S.-led operation targeting Iran's security apparatus. The operation has reportedly resulted in significant Iranian losses, including nine naval ships and the death of Supreme Leader Ayatollah Ali Khamenei, while also incurring U.S. casualties and prompting condemnation from regional allies against Iran's actions.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/02/3-f-15s-shot-down-by-kuwait-in-friendly-fire-incident-pilots-safe-us-says/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-64389",
-                                    "title": "EUROPEAN MILITARY INSTALLATIONS ARE  TARGETED IN IRAN RETALIATION",
-                                    "description": "<br><strong>STATUS:</strong> Iranian strikes hit military bases hosting European troops in Iraq, Jordan, and a British base in Cyprus, activating air defenses and prompting sheltering actions.<br><br><strong>INTEL:</strong> The attacks, which caused no casualties, directly targeted European military assets in the region following U.S.-Israeli strikes on Iran, despite European nations disavowing participation and urging de-escalation. This signals an increased threat to European interests and personnel, potentially drawing them deeper into the conflict and underscoring the ongoing strategic importance and risks of their regional military presence, such as the recently extended Operation Aspides.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/02/european-military-installations-are-targeted-in-iran-retaliation/",
                                     "timestamp": "2026.03.02",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1716,6 +1716,38 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-74559",
+                                    "title": "NASA TO SHARE ARTEMIS II FLIGHT READINESS REVIEW UPDATE",
+                                    "description": "<br><strong>STATUS:</strong> NASA will host a news conference on March 12 to provide updates on the Artemis II crewed mission after a Flight Readiness Review.\n\n<br><strong>INTEL:</strong> This briefing, taking place at Kennedy Space Center, will detail progress on the SLS rocket and Orion spacecraft, which are being prepared for a second rollout and potential April launch, advancing the Artemis program's goal of human lunar and eventual Mars exploration.",
+                                    "source_url": "https://www.nasa.gov/news-release/nasa-to-share-artemis-ii-flight-readiness-review-update/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-34818",
+                                    "title": "FLAMMABILITY TESTING CONFIGURATION AND APPROACH OF BARRIER MATERIALASSEMBLIES DESIGNED FOR SPACE FLIGHT APPLICATIONS",
+                                    "description": "<br><strong>STATUS:</strong> NASA's NESC and partner centers have developed a test to evaluate the effectiveness of material assemblies intended to serve as fire barriers within spacecraft cabins.<br><br><strong>INTEL:</strong> This testing directly addresses a critical safety requirement for human spaceflight by focusing on mitigating fire risks from typical flammable materials inside a spacecraft's habitable volume. The development of reliable barrier materials represents a strategic advancement in passive fire protection, aiming to prevent the spread of fire from an ignition source and significantly enhance crew safety and mission success by improving spacecraft design against potential in-cabin fires.",
+                                    "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/flammability-testing-configuration-and-approach-of-barrier-materialassemblies-designed-for-space-flight-applications/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-40932",
+                                    "title": "WEBB STUDIES CRANIUM NEBULA",
+                                    "description": "<br><strong>STATUS:</strong> The Webb Space Telescope has released new, highly detailed images of the \"Exposed Cranium\" nebula, revealing its intricate brain-like structure in both near- and mid-infrared light.<br><br><strong>INTEL:</strong> Nebula PMR 1, nicknamed the \"Exposed Cranium,\" was recently captured by Webb, enhancing its brain-like features beyond observations by the predecessor Spitzer Space Telescope. Webb's advanced instruments show distinct regions representing different evolutionary phases, including an outer hydrogen shell and an inner mixed-gas cloud, and prominently feature a dark vertical lane defining its left and right hemispheres, which is potentially linked to twin jets from the central star.",
+                                    "source_url": "https://www.nasa.gov/image-article/webb-studies-cranium-nebula/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-31918",
+                                    "title": "NASA ASTRONAUTS TO ANSWER QUESTIONS FROM STUDENTS IN NEW YORK",
+                                    "description": "<br><strong>STATUS:</strong> NASA astronauts Jack Hathaway and Chris Williams will answer prerecorded STEM questions from students in New York live from the International Space Station on March 11.\n\n<br><strong>INTEL:</strong> This Earth-to-space call, streamed live on the \"Learn With NASA\" YouTube channel and hosted by the Queens Borough Public Library, aims to deepen understanding of space exploration and inspire K-12 students towards STEM careers, highlighting the continuous research aboard the ISS and its role in supporting future deep space missions such as the Artemis program.",
+                                    "source_url": "https://www.nasa.gov/news-release/nasa-astronauts-to-answer-questions-from-students-in-new-york-3/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-38255",
                                     "title": "LAKE COATEPEQUE",
                                     "description": "<br><strong>STATUS:</strong> An astronaut aboard the International Space Station captured an image of El Salvador's Lake Coatepeque, detailing its volcanic origins, human development, and unique environmental characteristics as of February 10, 2026.<br><br><strong>INTEL:</strong> Lake Coatepeque fills an ancient caldera within the active Central American Volcanic Arc, located immediately next to the frequently erupting Santa Ana volcano, although Coatepeque itself has been dormant for millennia. Crucially, scientific reports from 2024 determined the lake's intermittent bright turquoise coloration is primarily caused by natural mineralization, offering key insight into its unique geological and chemical processes, observed through a high-resolution photograph taken by the Expedition 74 crew on the ISS.",
@@ -2082,38 +2114,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/news-release/nasas-aerospace-safety-advisory-panel-releases-2025-annual-report/",
                                     "timestamp": "2026.02.25",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-27825",
-                                    "title": "MAKING AN ENTRANCE",
-                                    "description": "<br><strong>STATUS:</strong> NASA astronaut Jack Hathaway and Crew-12 docked with the International Space Station on February 14, 2026, beginning their scientific mission.\n\n<br><strong>INTEL:</strong> The international Crew-12, comprising astronauts from NASA, ESA, and Roscosmos, is actively engaged in diverse scientific investigations on the ISS, including medical monitoring for blood clots and spatial orientation studies using virtual reality, with their ongoing experiments directly contributing to future deep-space exploration efforts toward the Moon and Mars.",
-                                    "source_url": "https://www.nasa.gov/image-article/making-an-entrance/",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-65796",
-                                    "title": "LISTEN TO THIS MONTH\u2019S \u2018PLANETARY PARADE\u2019 WITH NASA\u2019S CHANDRA",
-                                    "description": "<br><strong>STATUS:</strong> A \"planetary parade\" of six visible planets in the Northern Hemisphere in late February is being commemorated by new sonifications from NASA\u2019s Chandra X-ray Observatory.<br><br><strong>INTEL:</strong> These sonifications translate X-ray data from Chandra (combined with data from Hubble, Cassini, and Keck observatories) into sound, making astronomical observations of Jupiter, Saturn, and Uranus accessible through hearing. This process leverages reflected solar X-rays to provide unique insights into planetary physics, aiming to expand public engagement with NASA's scientific discoveries by converting complex data into an audible format.",
-                                    "source_url": "https://www.nasa.gov/missions/chandra/listen-to-this-months-planetary-parade-with-nasas-chandra/",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-43264",
-                                    "title": "NASA STUDY TO ANALYZE FERMENTED FOOD SAMPLES FROM SPACE",
-                                    "description": "<br><strong>STATUS:</strong> Samples from NASA's BioNutrients-3 experiment are returning to Earth from the International Space Station aboard a SpaceX Dragon spacecraft.\n\n<br><strong>INTEL:</strong> This experiment tests using microorganisms to produce specific, short-shelf-life nutrients on demand in space, a critical capability for sustaining human health during multi-year deep space exploration missions to the Moon, Mars, and beyond, supporting NASA's Artemis campaign.",
-                                    "source_url": "https://www.nasa.gov/general/nasa-study-to-analyze-fermented-food-samples-from-space/",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-85618",
-                                    "title": "NASA\u2019S WEBB EXAMINES CRANIUM NEBULA",
-                                    "description": "<br><strong>STATUS:</strong> The James Webb Space Telescope has revealed new details of the mysterious \"Exposed Cranium\" nebula (PMR 1), which surrounds a dying star.\n\n<br><strong>INTEL:</strong> Webb's NIRCam and MIRI instruments captured the nebula's brain-like appearance, including a distinctive dark lane suggesting an outburst or outflow from the central star, enhancing understanding of the dynamic and rapid processes involved in stellar death and the expulsion of outer layers.",
-                                    "source_url": "https://science.nasa.gov/missions/webb/nasas-webb-examines-cranium-nebula/",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2130,6 +2130,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-75745",
+                                    "title": "FBI WARNS OF PHISHING ATTACKS IMPERSONATING US CITY, COUNTY OFFICIALS",
+                                    "description": "<br><strong>STATUS:</strong> The FBI warns of a new phishing campaign where criminals impersonate U.S. officials to defraud businesses and individuals seeking city and county planning and zoning permits.\n\n<br><strong>INTEL:</strong> Scammers use publicly available information about permit applications to create convincing emails, instructing victims to pay fraudulent fees via wire transfer, peer-to-peer payment, or cryptocurrency. Common indicators include non-governmental email domains and tactics to rush payments, with the FBI advising verification of sender details and direct contact with government offices to confirm fee legitimacy, while urging victims to report incidents to the IC3.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-phishing-attacks-impersonating-us-city-county-officials/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-7587",
                                     "title": "WHY PASSWORD AUDITS MISS THE ACCOUNTS ATTACKERS ACTUALLY WANT",
@@ -2519,14 +2527,6 @@ const signalTree = {
                                     "title": "FLORIDA WOMAN IMPRISONED FOR MASSIVE MICROSOFT LICENSE FRAUD SCHEME",
                                     "description": "<br><strong>STATUS:</strong> A Florida woman was sentenced to 22 months in prison for operating a multi-year scheme to traffic thousands of stolen Microsoft Certificate of Authenticity (COA) labels.\n\n<br><br><strong>INTEL:</strong> Heidi Richards, operating Trinity Software Distribution, illegally sold standalone Microsoft COA labels, which authenticate software with unique product keys but carry no independent commercial value and are prohibited from being sold separately from their licensed software and hardware. Her operation involved buying genuine labels below retail, extracting product keys, and selling them in bulk globally for millions, enabling the activation of Microsoft software without legitimate licenses and highlighting a significant vulnerability in software authentication.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/florida-woman-imprisoned-for-massive-microsoft-license-fraud-scheme/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-83672",
-                                    "title": "UK WARNS OF IRANIAN CYBERATTACK RISKS AMID MIDDLE-EAST CONFLICT",
-                                    "description": "<br><strong>STATUS:</strong> The UK's National Cyber Security Centre (NCSC) has alerted British organizations to a heightened risk of Iranian cyberattacks, especially those with Middle East ties.<br><br><strong>INTEL:</strong> This warning, issued amid evolving Middle East conflict and despite an Iranian internet blackout, indicates state-sponsored hacking groups likely maintain cyberattack capabilities. Organizations, particularly those with assets or supply chains in regional tension areas, are advised to prepare for potential cyberattacks by following guidance on DDoS, phishing, and ICS targeting, and to increase monitoring, aligning with prior U.S. warnings about Iran-linked cyber threats.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/uk-warns-of-iranian-cyberattack-risks-amid-middle-east-conflict/",
                                     "timestamp": "2026.03.02",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
