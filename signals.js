@@ -1716,6 +1716,14 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-38255",
+                                    "title": "LAKE COATEPEQUE",
+                                    "description": "<br><strong>STATUS:</strong> An astronaut aboard the International Space Station captured an image of El Salvador's Lake Coatepeque, detailing its volcanic origins, human development, and unique environmental characteristics as of February 10, 2026.<br><br><strong>INTEL:</strong> Lake Coatepeque fills an ancient caldera within the active Central American Volcanic Arc, located immediately next to the frequently erupting Santa Ana volcano, although Coatepeque itself has been dormant for millennia. Crucially, scientific reports from 2024 determined the lake's intermittent bright turquoise coloration is primarily caused by natural mineralization, offering key insight into its unique geological and chemical processes, observed through a high-resolution photograph taken by the Expedition 74 crew on the ISS.",
+                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/lake-coatepeque/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-1300",
                                     "title": "FROM CABBAGES TO COUNTDOWNS: NASA MARKS 100 YEARS OF MODERN ROCKETRY",
                                     "description": "<br><strong>STATUS:</strong> Dr. Robert Goddard successfully launched the world's first liquid-fueled rocket, \"Nell,\" 100 years ago in Massachusetts, marking a foundational moment in modern rocketry.\n\n<br><strong>INTEL:</strong> On March 16, 1926, Goddard's experimental rocket, fueled by gasoline and liquid oxygen, achieved a flight of 41 feet, demonstrating the viability of liquid propulsion despite initial scientific skepticism and public ridicule. This pioneering achievement proved crucial for future space exploration, establishing the core technology that underpins all subsequent major space launch systems, including NASA's SLS rocket for the upcoming Artemis II mission.",
@@ -2106,14 +2114,6 @@ const signalTree = {
                                     "source_url": "https://science.nasa.gov/missions/webb/nasas-webb-examines-cranium-nebula/",
                                     "timestamp": "2026.02.25",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-22835",
-                                    "title": "LANDSLIDE AND AVALANCHE DEBRIS LITTER HUBBARD GLACIER",
-                                    "description": "Satellite-based radar images show where a powerful earthquake in the Yukon, Canada, sent rock, snow, and ice spilling across the frozen landscapes of the St. Elias Mountains. On December 6, 2025, a powerful magnitude 7.0 earthquake struck the remote St. Elias Mountains, a highly glaciated range that spans the Yukon-Alaska border. The quake shook the landscape beneath Hubbard Glacier, sending ice and rock careening down the range\u2019s steep slopes. The NISAR (NASA-ISRO Synthetic Aperture Radar) satellite offered some of the earliest views of the changed landscape. Geophysicist Eric Fielding and colleagues at NASA\u2019s Jet Propulsion Laboratory (JPL) typically use satellite data to map the displacement of the ground after major earthquakes strike land. But in this region, such maps\u2014known as interferograms\u2014are not possible because the ground lies buried beneath a layer of glacial ice that\u2019s at least 700 meters (2,000 feet) thick. \u201cThe cryosphere is covering up the geosphere,\u201d Fielding said. Instead, clues to the earthquake\u2019s destructive power lay strewn atop the ice surface. The shaking on December 6 unleashed landslides and avalanches that swept debris onto lower, flatter stretches of the glacier. The debris is visible in radar imagery acquired by NISAR on December 8, two days after the quake (right). For comparison, the NISAR image on the left shows the same area on November 26, a week and a half before the quake. Where the slides have deposited rock, snow, and other debris, surfaces have become rougher, which scatters more energy back toward the sensor and makes those areas appear bright in the December 8 image (the roughest areas are shown in dark green). Areas with smooth surfaces reflect little of the radar\u2019s energy directly back to the satellite sensor, so these parts of the images appear dark (shown in purple). Note that there are some exceptionally rough, green surfaces beyond the new slide areas that remain relatively unchanged between the two images. The largest slide in the scene appears to be cascading down the flank of Mount King George, but it\u2019s far from the only one. Numerous others scar the surrounding terrain, including areas to the west along the slopes of Mount Logan, Canada\u2019s tallest mountain. Alex Gardner, a glaciologist at JPL and member of the NISAR science team, reviewed the images with Fielding. \u201cThe sheer number and magnitude of avalanches and landslides is astounding,\u201d Gardner said. \u201cI\u2019ve personally never seen anything like this before.\u201d A separate preliminary analysis by the U.S. Geological Survey identified more than 700 potential landslides and snow avalanches, with an especially high concentration northwest of the epicenter along the fault rupture. Follow-up flights by the Yukon Geological Survey on December 12 provided a closer look, showing some slopes remained actively unstable, with dust still hanging in the air, and widespread damage to glacial ice. Much of the debris that settled atop the region\u2019s glacial ice is likely being transported toward the ocean by the glaciers' ongoing seaward flow, which acts as a natural \"conveyor belt.\" For example, a tributary glacier of Hubbard north of Mount King George, which had previously moved at a sluggish pace, entered a surging phase in November before the earthquake. It is now moving downslope at what Gardner described as \u201cbreakneck speeds\u201d of up to 6,000 meters per year (about 50 feet per day). Although the region is uninhabited, the slides and damaged ice could pose new hazards for mountaineers and other expeditions, USGS noted in a December 18 update. The town of Yakutat, Alaska, about 90 kilometers (56 miles) south of the epicenter, is a common staging point for people exploring the area. NISAR observations are expected to provide imagery to support future natural disaster response efforts. Images by Gustavo Shiroma (JPL) of the NISAR Algorithm Development Team using data from the NISAR GSLC product, and prepared for NASA Earth Observatory by Lauren Dauph",
-                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/landslide-and-avalanche-debris-litter-hubbard-glacier/",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2130,6 +2130,22 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-7587",
+                                    "title": "WHY PASSWORD AUDITS MISS THE ACCOUNTS ATTACKERS ACTUALLY WANT",
+                                    "description": "<br><strong>STATUS:</strong> Traditional password audits, while addressing compliance, fail to identify critical security risks by overlooking compromised, easily guessable, and unmonitored accounts.<br><br><strong>INTEL:</strong> Current password audits primarily focus on complexity and expiry, missing vulnerabilities like credentials already exposed in breaches (83% of compromised passwords met regulatory rules), easily guessable context-specific passwords, and high-risk orphaned or service accounts with weak controls. To be effective, audits must incorporate breached-password screening, risk-based prioritization, and extend coverage to all account types, not just active users, to counter attacker tactics and reduce breaches often stemming from stolen credentials.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/why-password-audits-miss-the-accounts-attackers-actually-want/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-83083",
+                                    "title": "MICROSOFT STILL WORKING TO FIX WINDOWS EXPLORER WHITE FLASHES",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft is rolling out a fix to Windows Insiders for the bright white flashes experienced when opening File Explorer on some Windows 11 systems.<br><br><strong>INTEL:</strong> While this specific visual bug, previously linked to KB5070311, is being addressed in preview builds, Microsoft is also still working on a permanent solution for a more critical issue causing File Explorer, the Start Menu, and other core system components to crash on Windows 11 24H2/25H2 devices, for which temporary PowerShell workarounds have been provided.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-still-working-to-fix-windows-explorer-white-flashes/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-1839",
                                     "title": "EU COURT ADVISER SAYS BANKS MUST IMMEDIATELY REFUND PHISHING VICTIMS",
@@ -2511,22 +2527,6 @@ const signalTree = {
                                     "title": "UK WARNS OF IRANIAN CYBERATTACK RISKS AMID MIDDLE-EAST CONFLICT",
                                     "description": "<br><strong>STATUS:</strong> The UK's National Cyber Security Centre (NCSC) has alerted British organizations to a heightened risk of Iranian cyberattacks, especially those with Middle East ties.<br><br><strong>INTEL:</strong> This warning, issued amid evolving Middle East conflict and despite an Iranian internet blackout, indicates state-sponsored hacking groups likely maintain cyberattack capabilities. Organizations, particularly those with assets or supply chains in regional tension areas, are advised to prepare for potential cyberattacks by following guidance on DDoS, phishing, and ICS targeting, and to increase monitoring, aligning with prior U.S. warnings about Iran-linked cyber threats.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/uk-warns-of-iranian-cyberattack-risks-amid-middle-east-conflict/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-20574",
-                                    "title": "HOW DEEPFAKES AND INJECTION ATTACKS ARE BREAKING IDENTITY VERIFICATION",
-                                    "description": "<br><strong>STATUS:</strong> Deepfakes are being operationalized for sophisticated identity fraud in enterprise systems, targeting verification processes to gain persistent unauthorized access.\n\n<br><strong>INTEL:</strong> This new threat vector leverages synthetic media to establish durable access within critical identity moments (e.g., onboarding, account recovery) in enterprise environments, leading to potential privilege escalation and lateral movement. Traditional deepfake detection and liveness checks are inadequate, as attackers improve synthetic media quality and bypass sensors entirely via injection attacks. The shift necessitates \"full-session validation\" that integrates perception, device integrity, and behavioral signals in real-time, as studies show detector performance degrades significantly in real-world, \"in-the-wild\" conditions.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/how-deepfakes-and-injection-attacks-are-breaking-identity-verification/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-27130",
-                                    "title": "ANTHROPIC CONFIRMS CLAUDE IS DOWN IN A WORLDWIDE OUTAGE",
-                                    "description": "<br><strong>STATUS:</strong> Claude is currently experiencing a major, widespread outage across all platforms with elevated errors reported, impacting users globally.<br><br><strong>INTEL:</strong> The incident was flagged on March 2, 2026, with an ongoing investigation reported as of 12:06 UTC, following an initial notice at 11:49 UTC. Users are encountering failed requests, timeouts, and inconsistent responses across Claude's web, mobile, and API services, with no estimated time of resolution but active work underway by the team.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-in-a-worldwide-outage/",
                                     "timestamp": "2026.03.02",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
