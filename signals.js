@@ -2536,6 +2536,14 @@ const signalTree = {
                             "name": "KREBS_ON_SECURITY",
                             "articles": [
                                 {
+                                    "id": "GS-85174",
+                                    "title": "HOW AI ASSISTANTS ARE MOVING THE SECURITY GOALPOSTS",
+                                    "description": "<br><strong>STATUS:</strong> The autonomous AI agent OpenClaw is rapidly gaining adoption but is exposing significant security vulnerabilities, including mass data deletion incidents and the public exposure of sensitive user credentials and data. <br><br><strong>INTEL:</strong> OpenClaw operates with deep access to user systems and services, designed to proactively take actions, yet many installations are misconfigured with their administrative interfaces exposed to the internet. This allows external parties to access the agent's complete configuration, including API keys, bot tokens, and OAuth secrets, enabling attackers to impersonate users, inject messages, and exfiltrate data through existing integrations, posing a severe insider threat and data breach risk.",
+                                    "source_url": "https://krebsonsecurity.com/2026/03/how-ai-assistants-are-moving-the-security-goalposts/",
+                                    "timestamp": "2026.03.08",
+                                    "feed_name": "KREBS_ON_SECURITY"
+                                },
+                                {
                                     "id": "GS-42222",
                                     "title": "WHO IS THE KIMWOLF BOTMASTER \u201cDORT\u201d?",
                                     "description": "<br><strong>STATUS:</strong> The article presents an OSINT investigation into \"Dort,\" the operator behind the Kimwolf botnet, who has been engaging in retaliatory attacks, including SWATting, against a security researcher and author.\n\n<br><strong>INTEL:</strong> Public information suggests \"Dort\" is Jacob Butler, born August 2003, from Ottawa, Canada, who used aliases such as CPacket and M1ce. He created cybercrime forum accounts (e.g., Nulled, Cracked) and a GitHub account using jay.miner232@gmail.com, and was linked to the LAPSUS$ cybercrime group. Butler developed disposable email and CAPTCHA bypass services, partnered with \"Qoft\" to steal over $250,000 in Xbox Game Pass accounts, and used jacobbutler803@gmail.com for Minecraft-themed domain registrations and hacker forum accounts.",
