@@ -486,6 +486,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-54101",
+                                    "title": "PREWAR US INTEL FOUND INTERVENTION IN IRAN WASN\u2019T LIKELY TO CHANGE LEADERSHIP",
+                                    "description": "<br><strong>STATUS:</strong> A pre-war U.S. intelligence assessment concluded that military intervention in Iran would not lead to regime change, a finding immediately underscored by the succession of a more hardline leader following the conflict's outset.<br><br><strong>INTEL:</strong> The National Intelligence Council's assessment, largely dismissed by the administration, determined that neither limited strikes nor a prolonged campaign would dislodge the Iranian regime, even if its leaders were killed, due to the absence of a unified opposition and the establishment's preparedness to ensure continuity of power. This strategic implication was swiftly confirmed when Iran's clerics immediately chose Mojtaba Khamenei, a more hardline successor, demonstrating the regime's resilience and intention to resist rather than collapse, directly undermining the administration's claims of achieving objectives quickly.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/09/prewar-us-intel-found-intervention-in-iran-wasnt-likely-to-change-leadership/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-97758",
+                                    "title": "NATO TO STUDY WHAT-IF SCENARIOS THAT COULD CAUSE ARCTIC CONFLICT WITH RUSSIA",
+                                    "description": "<br><strong>STATUS:</strong> NATO is conducting a major cold-weather military exercise in Norway and launching a multi-year study to analyze and prepare for potential conflict in the rapidly militarizing Arctic region.\n\n<br><strong>INTEL:</strong> This initiative, encompassing the \"Cold Response\" exercise with 25,000 troops and the \"Winter Storm 2030\" research task force, addresses escalating geopolitical tensions in the Arctic, driven by climate change opening new shipping routes and resource access, and the anticipation of potential Russian aggression post-Ukraine. The strategic planning explicitly considers Russian attack scenarios, such as the rapid seizure of the undefended Svalbard archipelago through hybrid activities, necessitating NATO's development of detailed defense and counter-aggression plans for the High North.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/09/nato-to-study-what-if-scenarios-that-could-cause-arctic-conflict-with-russia/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-41318",
                                     "title": "NATO DEFENSES SHOOT DOWN BALLISTIC MISSILE IN TURKEY",
                                     "description": "<br><strong>STATUS:</strong> NATO defenses successfully intercepted an Iranian ballistic missile that violated Turkish airspace, marking the second such incident since recent U.S. and Israeli strikes on Iran.\n\n<br><strong>INTEL:</strong> This interception underscores escalating regional hostilities, with Iran actively retaliating across multiple countries following military actions by the U.S. and Israel on February 28th. The successful downing by NATO units in the eastern Mediterranean demonstrates a robust collective defense posture and reinforces Turkey's resolve to firmly protect its territory and airspace, despite valuing regional stability, issuing a clear warning against future incursions.",
@@ -866,22 +882,6 @@ const signalTree = {
                                     "title": "ADDITIONAL TROOPS TO DEPLOY TO MIDDLE EAST AS GEN. CAINE SAYS TO EXPECT \u2018ADDITIONAL LOSSES\u2019",
                                     "description": "<br><strong>STATUS:</strong> Chairman of the Joint Chiefs of Staff Gen. Dan Caine announced the deployment of additional tactical aviation and military personnel to Iran following the death of a fourth U.S. service member during Operation Epic Fury.<br><br><strong>INTEL:</strong> Operation Epic Fury, launched February 28th, is an ongoing U.S. military campaign aggressively striking Iranian missile and air defense sites to protect U.S. interests and prevent Iran's power projection, having hit over 1,000 targets initially and resulting in 555 Iranian and four U.S. casualties, including a friendly fire incident involving Kuwaiti air defenses. While not declared a \"regime change war,\" the Defense Secretary stated the outcome indicates the regime \"sure did change,\" and more losses are anticipated as additional resources are deployed for sustained operations.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/02/additional-troops-to-deploy-to-middle-east-as-gen-caine-says-to-expect-additional-losses/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-87696",
-                                    "title": "UK TAPS LEONARDO FOR $1.3 BILLION MEDIUM-LIFT HELICOPTER DEAL",
-                                    "description": "<br><strong>STATUS:</strong> The U.K. Ministry of Defense has awarded Leonardo a \u00a31 billion contract to build 23 AW149 helicopters at its Yeovil plant, securing 3,300 jobs and designating the facility as a global center for military helicopter production.\n\n<br><strong>INTEL:</strong> This strategic contract not only preserves the U.K.'s last helicopter manufacturing facility but also positions it as Leonardo's primary hub for military helicopter exports, with projected international orders potentially generating over \u00a315 billion in the next decade. Furthermore, the deal invests in making Yeovil a center of excellence for military helicopter autonomy, supporting the development of the Proteus uncrewed air system and aligning with the government's Defence Industrial Strategy to enable optionally-crewed platforms.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/02/uk-taps-leonardo-for-13-billion-medium-lift-helicopter-deal/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-52326",
-                                    "title": "3 F-15S SHOT DOWN BY KUWAIT IN FRIENDLY FIRE INCIDENT, PILOTS SAFE, US SAYS",
-                                    "description": "<br><strong>STATUS:</strong> Three U.S. F-15E fighter jets were shot down by Kuwaiti air defenses in an apparent friendly fire incident during Operation Epic Fury against Iran.<br><br><strong>INTEL:</strong> This incident, in which all six aircrew safely ejected and were recovered, occurred amid escalating Iranian retaliatory strikes and a larger U.S.-led operation targeting Iran's security apparatus. The operation has reportedly resulted in significant Iranian losses, including nine naval ships and the death of Supreme Leader Ayatollah Ali Khamenei, while also incurring U.S. casualties and prompting condemnation from regional allies against Iran's actions.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/02/3-f-15s-shot-down-by-kuwait-in-friendly-fire-incident-pilots-safe-us-says/",
                                     "timestamp": "2026.03.02",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1716,6 +1716,30 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-77472",
+                                    "title": "WHAT IS PI? (GRADES 5-8)",
+                                    "description": "<br><strong>STATUS:</strong> The article explains how the mathematical constant Pi is extensively utilized by NASA for various space exploration and engineering calculations.<br><br><strong>INTEL:</strong> Pi, an irrational number approximated by NASA as 3.14 for most applications, is fundamental for calculations involving circles, curves, or spheres in geometry, physics, and engineering. Its critical uses by NASA include determining parachute sizes for spacecraft landings, calculating the volume and density of planets or asteroids, and managing fuel capacity and flow within spacecraft systems, highlighting its indispensable role in mission success and understanding the cosmos.",
+                                    "source_url": "https://www.nasa.gov/learning-resources/what-is-pi-grades-5-8/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-31649",
+                                    "title": "NASA ARMSTRONG DIRECTOR BRAD FLICK TO RETIRE AFTER 40 YEARS OF SERVICE",
+                                    "description": "<br><strong>STATUS:</strong> NASA announced the retirement of Bradley Flick, director of its Armstrong Flight Research Center, effective March 19, after a nearly 40-year career.<br><br><strong>INTEL:</strong> Flick's extensive career at NASA significantly advanced aeronautics and flight research, encompassing pivotal projects like the X-29 and the first flight of the X-59 quiet supersonic technology aircraft, and he held numerous leadership positions before becoming center director. His departure marks a transition as Troy Asher will serve as acting center director, highlighting the continued evolution of leadership in critical NASA flight research initiatives.",
+                                    "source_url": "https://www.nasa.gov/news-release/nasa-armstrong-director-brad-flick-to-retire-after-40-years-of-service/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-44726",
+                                    "title": "LA NASA COMPARTIR\u00c1 INFORMACI\u00d3N ACTUALIZADA SOBRE LA EVALUACI\u00d3N DE APTITUD PARA EL VUELO DE ARTEMIS II",
+                                    "description": "<br><strong>STATUS:</strong> NASA will hold a press conference on Thursday, March 12, at 3 p.m. EDT to provide an update on the progress of the crewed Artemis II mission around the Moon.<br><br><strong>INTEL:</strong> The press conference follows the conclusion of the Artemis II flight readiness review and will be held at Kennedy Space Center, covering the mission's status as it prepares for a second transfer to the launch pad later this month for a possible April launch, which is a step towards future crewed lunar landings and eventual Mars missions.",
+                                    "source_url": "https://www.nasa.gov/news-release/la-nasa-compartira-informacion-actualizada-sobre-la-evaluacion-de-aptitud-para-el-vuelo-de-artemis-ii/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-74559",
                                     "title": "NASA TO SHARE ARTEMIS II FLIGHT READINESS REVIEW UPDATE",
                                     "description": "<br><strong>STATUS:</strong> NASA will host a news conference on March 12 to provide updates on the Artemis II crewed mission after a Flight Readiness Review.\n\n<br><strong>INTEL:</strong> This briefing, taking place at Kennedy Space Center, will detail progress on the SLS rocket and Orion spacecraft, which are being prepared for a second rollout and potential April launch, advancing the Artemis program's goal of human lunar and eventual Mars exploration.",
@@ -2090,30 +2114,6 @@ const signalTree = {
                                     "source_url": "https://science.nasa.gov/science-research/heliophysics/nasas-escapade-ready-to-study-space-weather-from-earth-to-mars/",
                                     "timestamp": "2026.02.26",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-71416",
-                                    "title": "NASA NAMES\u00a0ACTING LEADERS FOR TWO KEY HUMAN SPACEFLIGHT ROLES",
-                                    "description": "<br><strong>STATUS:</strong> NASA announced the appointment of Joel Montalbano as acting associate administrator for the Space Operations Mission Directorate and Dana Hutcherson as acting program manager for the Commercial Crew Program. <br><br><strong>INTEL:</strong> These acting appointments are critical for NASA's strategic objectives, with Montalbano's key priorities including establishing a low Earth orbit economy ahead of the International Space Station's retirement and maintaining American superiority in space. Hutcherson will continue working with the aerospace industry to develop safe, reliable, and cost-effective crew transportation systems, both roles being essential for the continued evolution of U.S. human spaceflight capabilities and commercial space endeavors.",
-                                    "source_url": "https://www.nasa.gov/news-release/nasa-names-acting-leaders-for-two-key-human-spaceflight-roles/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-47360",
-                                    "title": "DRY-SEASON FLOODS DRENCH NORTHERN COLOMBIA",
-                                    "description": "<br><strong>STATUS:</strong> Unusually heavy early-February rains in 2026 caused widespread and destructive flooding along the Sin\u00fa River in Colombia's C\u00f3rdoba department, submerging over 80% of the region.\n\n<br><strong>INTEL:</strong> This catastrophic flooding, occurring during a typically dry month, was triggered by an anomalous Caribbean cold front on February 1-2, which funneled moisture-laden air into northern Colombia, leading to several days of intense downpours. The humanitarian impact is severe, with preliminary estimates indicating thousands of homes destroyed, over 11,000 families displaced, and more than 150,000 hectares of crucial farmland inundated, severely disrupting agricultural operations in this vital cattle and farming region.",
-                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/dry-season-floods-drench-northern-colombia/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-89312",
-                                    "title": "NASA\u2019S AEROSPACE SAFETY ADVISORY PANEL RELEASES 2025 ANNUAL REPORT",
-                                    "description": "<br><strong>STATUS:</strong> The Aerospace Safety Advisory Panel (ASAP) has released its 2025 annual report, highlighting both NASA's safety achievements and significant interconnected challenges in its spaceflight programs.<br><br><strong>INTEL:</strong> The report identifies critical issues such as the high-risk posture of Artemis III and lessons from the Boeing Starliner test, urging NASA to address systemic concerns across workforce, acquisition, and technical authority as missions become more complex. NASA Administrator Jared Isaacman acknowledged these findings, committing to increased transparency, recalibrated acquisition strategies, and efforts to accelerate the Artemis campaign, while also strengthening core competencies to ensure safe and sustainable human spaceflight.",
-                                    "source_url": "https://www.nasa.gov/news-release/nasas-aerospace-safety-advisory-panel-releases-2025-annual-report/",
-                                    "timestamp": "2026.02.25",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2130,6 +2130,22 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-47041",
+                                    "title": "MICROSOFT TEAMS WILL TAG THIRD-PARTY BOTS TRYING TO JOIN MEETINGS",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft Teams will introduce a feature by May 2026 to automatically tag external third-party bots in meeting lobbies, requiring explicit organizer approval for them to join.\n\n<br><br><strong>INTEL:</strong> This upcoming security enhancement aims to prevent malicious or unintended automated participants from inadvertently gaining access to Teams meetings, thereby bolstering user control and mitigating risks associated with social engineering and cybercrime. The feature, rolling out across all major platforms and cloud environments, is part of Microsoft's ongoing efforts to strengthen Teams security, following recent additions like call reporting, fraud protection warnings, and options for admins to block external users.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-will-tag-third-party-bots-in-meeting-lobbies/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-95307",
+                                    "title": "SHINYHUNTERS CLAIMS ONGOING SALESFORCE AURA DATA THEFT ATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> Salesforce is warning customers that the ShinyHunters group is actively exploiting misconfigured Experience Cloud guest user settings, allowing data theft from hundreds of companies.\n\n<br><strong>INTEL:</strong> Attackers leverage overly permissive guest user profiles on public Salesforce Experience sites, enabling direct querying of CRM objects via the `/s/sfsites/aura` API endpoint. ShinyHunters, claiming 300-400 compromises since September 2023, is using a modified AuraInspector tool for scanning. Salesforce emphasizes this is a customer misconfiguration, not a platform vulnerability, and recommends auditing guest permissions, applying least privilege, and disabling guest API access.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-ongoing-salesforce-aura-data-theft-attacks/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-75745",
                                     "title": "FBI WARNS OF PHISHING ATTACKS IMPERSONATING US CITY, COUNTY OFFICIALS",
@@ -2511,22 +2527,6 @@ const signalTree = {
                                     "title": "FAKE GOOGLE SECURITY SITE USES PWA APP TO STEAL CREDENTIALS, MFA CODES",
                                     "description": "<br><strong>STATUS:</strong> A sophisticated phishing campaign is distributing a malicious Progressive Web App (PWA) and an Android APK, masquerading as a Google security update, to steal one-time passcodes, cryptocurrency wallet addresses, and enable network proxying.<br><br><strong>INTEL:</strong> The campaign leverages the domain `google-prism[.]com` to trick users into installing a PWA that exfiltrates OTPs, crypto wallet addresses, contacts, GPS, and clipboard data, crucially featuring a WebSocket relay that acts as an HTTP proxy, allowing attackers to route requests through the victim's network. For Android users, a companion APK is offered as a \"critical security update\" demanding 33 high-risk permissions, enabling keylogging, notification interception, credential theft, and device administrator persistence for enhanced data compromise and persistence.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/fake-google-security-site-uses-pwa-app-to-steal-credentials-mfa-codes/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-23542",
-                                    "title": "ALABAMA MAN PLEADS GUILTY TO HACKING, EXTORTING HUNDREDS OF WOMEN",
-                                    "description": "<br><strong>STATUS:</strong> A 22-year-old Alabama man pleaded guilty to extortion, cyberstalking, and computer fraud for hijacking hundreds of young women's social media accounts and extorting them with private images.\n\n<br><strong>INTEL:</strong> Jamarcus Mosley used social engineering tactics from April 2022 to May 2025, impersonating friends and tricking victims into handing over account recovery codes and passwords for platforms like Snapchat and Instagram. He then leveraged access to these accounts to threaten the public release of stolen nude images and videos or account lockout, demanding more explicit content, full access to additional accounts, or monetary payments, illustrating a sophisticated and prolonged scheme of exploitation and digital predation.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/alabama-man-pleads-guilty-to-hacking-extorting-hundreds-of-women/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-98493",
-                                    "title": "FLORIDA WOMAN IMPRISONED FOR MASSIVE MICROSOFT LICENSE FRAUD SCHEME",
-                                    "description": "<br><strong>STATUS:</strong> A Florida woman was sentenced to 22 months in prison for operating a multi-year scheme to traffic thousands of stolen Microsoft Certificate of Authenticity (COA) labels.\n\n<br><br><strong>INTEL:</strong> Heidi Richards, operating Trinity Software Distribution, illegally sold standalone Microsoft COA labels, which authenticate software with unique product keys but carry no independent commercial value and are prohibited from being sold separately from their licensed software and hardware. Her operation involved buying genuine labels below retail, extracting product keys, and selling them in bulk globally for millions, enabling the activation of Microsoft software without legitimate licenses and highlighting a significant vulnerability in software authentication.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/florida-woman-imprisoned-for-massive-microsoft-license-fraud-scheme/",
                                     "timestamp": "2026.03.02",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
