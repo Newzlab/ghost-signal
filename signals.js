@@ -337,6 +337,14 @@ const signalTree = {
                             "name": "DEFENSE_ONE_TECH",
                             "articles": [
                                 {
+                                    "id": "GS-5502",
+                                    "title": "NEW SCIENCE ON HEAT IS CHANGING THE FUTURE OF SOLDIERING",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Army is actively overhauling its human performance strategy, leveraging wearable biometrics and updated science to prevent heat-related soldier injuries and improve training effectiveness.\n\n<br><strong>INTEL:</strong> New wearable technologies provide early detection of overheating, up to 12 minutes before severe symptoms, enabling timely intervention to mitigate heat stroke. This approach challenges traditional military culture that often equates suffering with \"good soldiering,\" as Lt. Col. David deGroot highlights excessive motivation, lack of acclimatization, and other factors as critical risks, not just hydration. The integration of modern science also aims to optimize training, with new research showing more rapid acclimatization protocols can reduce the time needed for soldiers to adjust to new climates.",
+                                    "source_url": "https://www.defenseone.com/technology/2026/03/new-science-heat-changing-future-soldiering/411996/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "DEFENSE_ONE_TECH"
+                                },
+                                {
                                     "id": "GS-92449",
                                     "title": "MEET THE STARTUPS TRYING TO BUILD MILITARY-SPECIFIC AI",
                                     "description": "<br><strong>STATUS:</strong> The Pentagon is expressing significant dissatisfaction and concerns with general-purpose AI models from companies like Anthropic for military applications, citing their unsuitability for combat, cloud dependency, and lack of domain-specific training.\n\n<br><strong>INTEL:</strong> This tension, highlighted by reported use of Anthropic's model in Operation Midnight Hammer and subsequent dependency concerns, underscores a critical gap between commercial AI capabilities and military requirements. The military seeks specialized, robust, and edge-deployable AI trained on combat-relevant data, leading to new initiatives like Project Aria and veteran-led startups focused on developing domain-specific AI for national security.",
@@ -485,6 +493,14 @@ const signalTree = {
                         {
                             "name": "DEFENSE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-96125",
+                                    "title": "US AIR FORCE SEEKS SOURCES FOR STAND-IN ATTACK WEAPON COMPATIBLE WITH F-47, B-21",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Air Force is actively seeking additional industry sources to produce a Stand-in Attack Weapon (SiAW) or equivalent missile, compatible with platforms including the future F-47 fighter and B-21 bomber.\n\n<br><strong>INTEL:</strong> This market research initiative aims to broaden the industrial base for a critical supersonic air-to-ground missile capable of striking mobile targets like integrated air defenses and ballistic missile launchers in contested environments, requiring extended standoff range, advanced anti-radiation seekers, and robust anti-jamming. The outreach, which notably marks the first public mention of the F-47 in relation to a specific weapon, is reportedly driven by heightened concerns over munitions stockpiles and industrial base capacity, potentially influenced by recent geopolitical events like \"Operation Epic Fury against Iran,\" despite Northrop Grumman's existing SiAW development contract.",
+                                    "source_url": "https://www.defensenews.com/air/2026/03/09/us-air-force-seeks-sources-for-stand-in-attack-weapon-compatible-with-f-47-b-21/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
                                 {
                                     "id": "GS-37572",
                                     "title": "US, IRAN SPAR OVER STATUS OF IRANIAN WARSHIP SUNK BY SUBMARINE",
@@ -874,14 +890,6 @@ const signalTree = {
                                     "title": "TRUMP PROJECTS WAR ON IRAN COULD LAST \u2018FOUR TO FIVE WEEKS\u2019",
                                     "description": "<br><strong>STATUS:</strong> President Trump publicly defended the ongoing U.S. military operations against Iran, known as Operation Epic Fury, stating they are necessary to eliminate grave threats.\n\n<br><strong>INTEL:</strong> The strikes by the U.S. and Israel followed failed nuclear negotiations and target Iran's missile capabilities, navy, nuclear ambitions, and support for proxy groups, with Trump estimating operations could last four to five weeks while acknowledging U.S. casualties. Additional U.S. troops and fighter jets are being deployed to the Middle East, despite expert disagreement on Iran's immediate long-range missile threat to the U.S.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/02/trump-projects-war-on-iran-could-last-four-to-five-weeks/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-89690",
-                                    "title": "PENTAGON SEEKS ROBOT SHIPS TO HAUL SUPPLIES TO COMBAT ZONES",
-                                    "description": "<br><strong>STATUS:</strong> The U.S. military is soliciting bids for autonomous, expendable freighters capable of transporting supplies into dangerous, contested waters and equipped with a self-scuttling mechanism to prevent capture.\n\n<br><strong>INTEL:</strong> This Defense Innovation Unit initiative aims to address \"littoral contested logistics challenges\" by deploying low-profile, robotic vessels with a minimum 9-ton cargo capacity, capable of operating in GPS-denied/degraded environments and sea state 5. These ships, which must be deliverable within 180 days, will support shore-to-shore and ship-to-shore distribution, emphasizing the strategic shift towards distributed, expendable logistics that are resistant to tampering and can be remotely scuttled to deny enemy acquisition.",
-                                    "source_url": "https://www.defensenews.com/industry/techwatch/2026/03/02/pentagon-seeks-robot-ships-to-haul-supplies-to-combat-zones/",
                                     "timestamp": "2026.03.02",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1311,6 +1319,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-865",
+                                    "title": "MERIDIAN SPACE DIPLOMACY FORUM & EXECUTIVE SPACE TRAINING \u2013 MARCH 25 & 26",
+                                    "description": "<br><strong>STATUS:</strong> Meridian International Center announced the return of its Space Diplomacy Forum, \"Shared Horizons,\" to foster international cooperation in outer space.\n\n<br><strong>INTEL:</strong> This second forum, bringing together delegates from nearly 50 nations, is crucial given the increasingly commercial, congested, and contested orbital domain, aiming to address governance and market questions for global space exploration and commerce. It explicitly seeks to reassure global partners of continued U.S. commitment to international space cooperation and forge new partnerships, while a subsequent executive training will prepare senior decision-makers for operating in contested space environments.",
+                                    "source_url": "https://spacenews.com/meridian-space-diplomacy-forum-executive-space-training-march-25-26/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-1866",
+                                    "title": "SSTL TO BUILD SPACECRAFT FOR PRIVATE SPACE TELESCOPE",
+                                    "description": "<br><strong>STATUS:</strong> British company SSTL has been selected by Schmidt Sciences to build the spacecraft platform for Lazuli, a privately funded space telescope with a primary mirror larger than Hubble.\n\n<br><strong>INTEL:</strong> This ambitious project, targeting a mid-2028 launch, aims to achieve a cost significantly lower than typical NASA flagship missions by leveraging SSTL's \"small-satellite approach\" of rapid development, pragmatic engineering, and intelligent reuse of commercial components for a large-scale observatory. Schmidt Sciences plans streamlined development and final assembly near its Florida launch site, with indications pointing to a Cape Canaveral pad currently used by Relativity Space, whose CEO is also Eric Schmidt.",
+                                    "source_url": "https://spacenews.com/sstl-to-build-spacecraft-for-private-space-telescope/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-25052",
                                     "title": "MISSILE DETECTION SATELLITE DESIGNED BY BAE SYSTEMS PASSES EARLY REVIEW",
                                     "description": "<br><strong>STATUS:</strong> A missile-tracking satellite constellation developed by BAE Systems for the U.S. Space Force successfully completed its preliminary design review.\n\n<br><strong>INTEL:</strong> This BAE Systems-built Epoch 2 constellation, comprising 10 medium Earth orbit (MEO) satellites, is designed to detect and track advanced threats like hypersonic weapons using infrared sensors, forming a crucial part of the Space Force\u2019s layered missile warning and tracking architecture that aims to improve tracking of maneuvering targets and complement existing geosynchronous systems.",
@@ -1692,22 +1716,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> The European Space Agency (ESA) announced up to 100 million euros in funding to accelerate projects converging satellite and terrestrial communications, in partnership with GSMA Foundry.\n\n<br><strong>INTEL:</strong> This initiative aims to unlock a new era of connectivity by combining the mobile industry's reach with ESA's space expertise, with projects required to align with 3GPP standards. The expanded collaboration is a strategic move for Europe to strengthen its position in the emerging direct-to-device (D2D) market, where U.S.-based competitors like SpaceX are rapidly scaling services. Demonstrations are showcasing D2D connectivity, early 6G capabilities, and AI-enabled non-terrestrial network orchestration.",
                                     "source_url": "https://spacenews.com/esa-announces-100-million-euro-satellite-mobile-convergence-initiative/",
                                     "timestamp": "2026.03.02",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-85103",
-                                    "title": "NASA OUTLINES OBJECTIVES FOR MARS COMMUNICATIONS ORBITER",
-                                    "description": "<br><strong>STATUS:</strong> NASA has released draft objectives and requirements for a new Mars Telecommunications Network orbiter, funded by a 2025 budget bill, as companies prepare to bid for the project.<br><br><strong>INTEL:</strong> This $700 million project is mandated to provide continuous communications and PNT services for Mars assets through 2035, with spacecraft delivery to NASA required by the end of 2028. Eligibility for the contract is limited to eight specific companies, including Blue Origin and Rocket Lab, that had previously received NASA funding for Mars Sample Return design studies and proposed an independent telecommunications orbiter.",
-                                    "source_url": "https://spacenews.com/nasa-outlines-objectives-for-mars-communications-orbiter/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-33061",
-                                    "title": "SPACE FORCE OPENS SECRETIVE SPACE TRACKING TO COMMERCIAL FIRMS",
-                                    "description": "<br><strong>STATUS:</strong> The U.S. Space Force is increasingly integrating commercial data and artificial intelligence to enhance its space domain awareness and threat tracking missions.\n\n<br><strong>INTEL:</strong> This initiative, primarily driven by the SDA TAP Lab and the Kronos program, streamlines the acquisition of unclassified commercial technologies into sensitive intelligence workflows by creating an intentional pathway from experimentation to operational use. By fusing diverse industry solutions and real-time data, the Space Force aims to rapidly improve its ability to monitor orbital activity, assess threats, and disrupt adversary \"kill chains\" in space before they can target U.S. assets or warfighters.",
-                                    "source_url": "https://spacenews.com/space-force-opens-secretive-space-tracking-to-commercial-firms/",
-                                    "timestamp": "2026.03.01",
                                     "feed_name": "SPACE_NEWS"
                                 }
                             ]
@@ -2131,6 +2139,22 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-79023",
+                                    "title": "MICROSOFT TEAMS PHISHING TARGETS EMPLOYEES WITH A0BACKDOOR MALWARE",
+                                    "description": "<br><strong>STATUS:</strong> Hackers are employing social engineering via Microsoft Teams and Quick Assist to deploy the new A0Backdoor malware against financial and healthcare organizations.\n\n<br><strong>INTEL:</strong> The attack begins with spamming inboxes, followed by a fake IT support contact on Teams to convince employees to grant remote access through Quick Assist, deploying digitally signed malicious MSI installers masquerading as legitimate Microsoft components. The A0Backdoor is then introduced via DLL sideloading and uses sophisticated evasion techniques, including sandbox detection and excessive thread creation to deter analysis, with its command-and-control (C2) communication hidden in DNS MX record queries to blend in and evade detection, a new technique linked to an evolution of BlackBasta ransomware gang tactics.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-11098",
+                                    "title": "GOOGLE: CLOUD ATTACKS EXPLOIT FLAWS MORE THAN WEAK CREDENTIALS",
+                                    "description": "<br><strong>STATUS:</strong> Hackers are increasingly exploiting newly disclosed third-party software vulnerabilities for initial cloud access, rapidly weaponizing them within days as traditional credential-based attacks decline.\n\n<br><strong>INTEL:</strong> Bug exploits, primarily Remote Code Execution (RCE) vulnerabilities, are now the leading access vector (44.5% of intrusions), surpassing credential compromise (27%) due to enhanced cloud security. This rapid shift means attackers, including state-sponsored groups from Iran, China, and North Korea, are deploying threats like cryptominers within 48 hours of vulnerability disclosure, focusing on long-term persistence, silent data exfiltration, and digital asset theft through sophisticated tactics such as supply chain attacks via developer deception and lateral movement within Kubernetes environments.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/google-cloud-attacks-exploit-flaws-more-than-weak-credentials/",
+                                    "timestamp": "2026.03.09",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-4119",
                                     "title": "DUTCH GOVT WARNS OF SIGNAL, WHATSAPP ACCOUNT HIJACKING ATTACKS",
                                     "description": "<br><strong>STATUS:</strong> Russian state-sponsored hackers are conducting an ongoing phishing campaign targeting government officials, military personnel, and journalists via Signal and WhatsApp.\n\n<br><strong>INTEL:</strong> The operation employs sophisticated phishing and social engineering, abusing legitimate authentication features such as SMS verification codes, Signal PINs, and device linking via malicious QR codes to achieve account takeovers. While Signal's core encryption and infrastructure remain uncompromised, attackers exploit user trust to gain full control, enabling them to monitor incoming messages, access contact lists, change associated phone numbers, and impersonate victims.",
@@ -2511,22 +2535,6 @@ const signalTree = {
                                     "title": "STAR CITIZEN GAME DEV DISCLOSES BREACH AFFECTING USER DATA",
                                     "description": "<br><strong>STATUS:</strong> Cloud Imperium Games (CIG) confirmed a sophisticated attack in January 2026 resulted in unauthorized access to basic personal information of some users.<br><br><strong>INTEL:</strong> The breach, discovered on January 21, involved read-only access to backup systems containing usernames, contact details, dates of birth, and names, but not financial information or passwords. While CIG downplays the incident and has no evidence of data leakage, the exposed basic account details could still be leveraged by threat actors for phishing attacks against its user base.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/star-citizen-game-dev-discloses-breach-affecting-user-data/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-1749",
-                                    "title": "UH CANCER CENTER DATA BREACH AFFECTS NEARLY 1.2 MILLION PEOPLE",
-                                    "description": "<br><strong>STATUS:</strong> The University of Hawaii's Cancer Center was breached in August 2025 by a ransomware gang, leading to the theft of data belonging to nearly 1.2 million individuals.\n\n<br><strong>INTEL:</strong> The attack specifically targeted the Epidemiology Division, compromising sensitive research data including Social Security Numbers, driver's license numbers, and health information from various studies, some dating back to 1993 and 1998 public records. The University of Hawaii paid the attackers for a decryption tool and \"secure destruction\" of the stolen information, marking a second instance of ransom payment within the UH system following a similar incident at Hawai\u02bbi Community College in July 2023. Clinical operations, patient care, and student records were confirmed as not impacted by this incident.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/university-of-hawaii-cancer-center-ransomware-attack-affects-nearly-12-million-people/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-61578",
-                                    "title": "ANDROID GETS PATCHES FOR QUALCOMM ZERO-DAY EXPLOITED IN ATTACKS",
-                                    "description": "<br><strong>STATUS:</strong> Google has released security updates patching 129 Android vulnerabilities, including an actively exploited zero-day flaw in Qualcomm display components.<br><br><strong>INTEL:</strong> The exploited zero-day, CVE-2026-21385, is an integer overflow in Qualcomm's Graphics subcomponent, affecting 235 chipsets, allowing local attackers to trigger memory corruption. Google also fixed 10 critical vulnerabilities in System, Framework, and Kernel components, with one System flaw enabling remote code execution without user interaction, emphasizing the persistent threat of targeted Android exploits.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/google-patches-android-zero-day-actively-exploited-in-attacks/",
                                     "timestamp": "2026.03.03",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
