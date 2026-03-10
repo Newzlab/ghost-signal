@@ -494,6 +494,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-84032",
+                                    "title": "AUSTRALIAN SUBMARINERS HAVE A BRUSH WITH IRAN WAR",
+                                    "description": "<br><strong>STATUS:</strong> A U.S. Navy submarine sank an Iranian frigate with three Australian submariners aboard, raising questions about Australia's neutrality in the conflict.\n\n<br><strong>INTEL:</strong> Prime Minister Albanese confirmed the Australians' presence but stated they did not participate in offensive actions, citing \"third-country arrangements\" ensuring adherence to Australian law, while opposition parties criticize Australia's alleged complicity, linking it to the AUKUS pact which involves extensive training of Australian sailors on U.S. nuclear submarines.",
+                                    "source_url": "https://www.defensenews.com/global/asia-pacific/2026/03/10/australian-submariners-have-a-brush-with-iran-war/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-85751",
                                     "title": "CHINA AMPS UP ITS 2026 DEFENSE BUDGET BY 7% AMID PURGE OF GENERALS",
                                     "description": "<br><strong>STATUS:</strong> China announced a 7% increase to its 2026 defense budget, reaching $277 billion, amidst a massive purge within the People's Liberation Army's highest echelons.\n\n<br><strong>INTEL:</strong> Although China reports its defense spending as modest, international experts widely contend the official $277 billion figure is understated by 32-63% due to excluded categories like research and development, accounting for nearly 44% of Asia's total military expenditure. Concurrently, President Xi Jinping has aggressively consolidated power through an anti-corruption campaign, purging 101 senior PLA leaders since 2022, including recent Central Military Commission members, while simultaneously escalating pressure on Taiwan with a record 5,709 aircraft sorties last year.",
@@ -883,14 +891,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Russia's war in Ukraine has incurred an estimated total cost of $2.5 trillion for Russia itself, encompassing direct military expenses, personnel casualties, and significant economic repercussions.\n<br><br><strong>INTEL:</strong> This staggering sum includes $845 billion from 325,000 estimated Russian fatalities and $236 billion from 875,000 wounded personnel, calculated using a Value of Statistical Life (VSL) adjusted for Russian income. Further direct military outlays include $125 billion in equipment losses and $149 billion in operational costs over four years, while the broader economic impact is projected at a cumulative $1.124 trillion in GDP losses, compounded by international sanctions, frozen assets, and the exodus of 650,000 Russians.",
                                     "source_url": "https://www.defensenews.com/opinion/2026/03/03/putins-25-trillion-gambit/",
                                     "timestamp": "2026.03.03",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-76164",
-                                    "title": "SIX DEAD, 18 SERVICE MEMBERS INJURED IN IRAN OPERATION",
-                                    "description": "<br><strong>STATUS:</strong> U.S. casualties have risen to six killed and 18 wounded in Operation Epic Fury, an ongoing assault on Iran, after a projectile struck a U.S. tactical operations center in Kuwait.\n\n<br><strong>INTEL:</strong> This surge in casualties follows initial U.S. and Israeli strikes that killed Iran's Supreme Leader and 555 Iranians, with President Trump outlining objectives to destroy Iran's missile capability, annihilate its navy, and prevent nuclear weapons. Defense officials anticipate more losses in these \"major combat operations,\" leading U.S. Northern Command to raise security levels at domestic military installations to Force Protection Level Bravo.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/02/six-dead-18-service-members-injured-in-iran-operation/",
-                                    "timestamp": "2026.03.02",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
                             ]
@@ -1319,6 +1319,30 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-668",
+                                    "title": "STARLINER AND ARTEMIS: COMMERCIAL LABEL VS. COMMERCIAL DISCIPLINE",
+                                    "description": "<br><strong>STATUS:</strong> NASA designated Boeing's 2024 Starliner crewed test flight as a Type A mishap, its most serious category, citing decision-making and leadership failures as the core problem rather than hardware.\n\n<br><br><strong>INTEL:</strong> This incident serves as a case study highlighting the critical difference between \"commercial structure\" (contractual arrangements) and \"commercial discipline\" (behavioral rigor, root-cause resolution, and designing for repeatability). The article argues that a lack of commercial discipline led to the Starliner failures, prompting NASA to revise its Artemis approach to emphasize standardization, higher flight cadence, and smaller technical steps, aiming to de-risk through repetition and learn from successful examples like SpaceX and Axiom Space that embody true market-building discipline.",
+                                    "source_url": "https://spacenews.com/starliner-and-artemis-commercial-label-vs-commercial-discipline/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-8439",
+                                    "title": "LUX AETERNA RAISES $10 MILLION AHEAD OF 2027 REUSABLE SATELLITE DEMO",
+                                    "description": "<br><strong>STATUS:</strong> Lux Aeterna secured $10 million in seed funding to develop a reusable satellite designed for atmospheric reentry and reflight, with a demonstration flight planned for early 2027.<br><br><strong>INTEL:</strong> The startup's Delphi-1 spacecraft, weighing 200 kg with a 30 kg payload capacity, uniquely integrates a rigid heat shield as its primary structural bus, enabling it to function as a conventional satellite before autonomous recovery in South Australia. This innovation aims to transform the space industry by offering lower costs, greater sustainability, and mission flexibility for short-duration missions and hardware return from orbit, attracting both commercial and defense customers, including U.S. government organizations.",
+                                    "source_url": "https://spacenews.com/lux-aeterna-raises-10-million-for-reusable-satellite-ahead-of-2027-demo/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-72168",
+                                    "title": "LANDSPACE TESTS 220-TON METHANE ENGINE FOR FUTURE HEAVY-LIFT LAUNCHERS",
+                                    "description": "<br><strong>STATUS:</strong> Chinese startup Landspace successfully completed a long-duration hot-fire test of its new 220-ton-class BF methane rocket engine for next-generation heavy-lift launch vehicles.<br><br><strong>INTEL:</strong> This advanced full-flow staged combustion (FFSC) engine, similar in ambition to SpaceX's Raptor, is a critical component for Landspace's future large, reusable launchers, differentiating it from their current Zhuque-3, which recently failed its first recovery attempt; its development positions Landspace competitively within a crowded Chinese market where both commercial and state-owned entities are pursuing FFSC technology for future super heavy-lift rockets and reusable spaceflight capabilities.",
+                                    "source_url": "https://spacenews.com/landspace-tests-220-ton-methane-engine-for-future-heavy-lift-launchers/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-865",
                                     "title": "MERIDIAN SPACE DIPLOMACY FORUM & EXECUTIVE SPACE TRAINING \u2013 MARCH 25 & 26",
                                     "description": "<br><strong>STATUS:</strong> Meridian International Center announced the return of its Space Diplomacy Forum, \"Shared Horizons,\" to foster international cooperation in outer space.\n\n<br><strong>INTEL:</strong> This second forum, bringing together delegates from nearly 50 nations, is crucial given the increasingly commercial, congested, and contested orbital domain, aiming to address governance and market questions for global space exploration and commerce. It explicitly seeks to reassure global partners of continued U.S. commitment to international space cooperation and forge new partnerships, while a subsequent executive training will prepare senior decision-makers for operating in contested space environments.",
@@ -1693,36 +1717,20 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/world-space-week-2025-set-record-with-50000-events-in-102-countries/",
                                     "timestamp": "2026.03.02",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-16863",
-                                    "title": "SPACE FORCE RETHINKS SATELLITE GROUND STATION STRATEGY",
-                                    "description": "<br><strong>STATUS:</strong> The Space Force is reopening its $1.4 billion Satellite Communications Augmentation Resource (SCAR) program, previously awarded solely to BlueHalo, to introduce multiple vendors and leverage commercial technology for mobile ground stations.\n\n<br><br><strong>INTEL:</strong> This strategic shift by the Pentagon aims to diversify suppliers, move away from costly bespoke systems like BlueHalo's undelivered BADGER units, and adopt commercial phased-array antennas to modernize the military's aging Satellite Control Network. The SCAR program is critical for alleviating throughput limitations in satellite command and control by boosting geosynchronous orbit communication capacity, which has become a pacing constraint amid a proliferation of on-orbit assets.",
-                                    "source_url": "https://spacenews.com/space-force-rethinks-satellite-ground-station-strategy/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-11919",
-                                    "title": "OPEN COSMOS UNVEILS VISION FOR IMAGERY-LINKED SOVEREIGN SATELLITE CONNECTIVITY",
-                                    "description": "<br><strong>STATUS:</strong> Open Cosmos has announced ConnectedCosmos, a new sovereign Ka-band constellation for Europe, which aims to merge broadband, IoT, and Earth observation services but faces imminent and demanding satellite deployment deadlines.\n\n<br><strong>INTEL:</strong> The project inherits spectrum filings requiring Open Cosmos to deploy 144 satellites by June and another 144 by September to retain priority rights, a significant hurdle given its current small operational fleet. ConnectedCosmos is strategically designed to provide secure, real-time integrated data streams by uniquely fusing broadband and direct-to-device IoT connectivity with Earth observation, utilizing optical inter-satellite links to bypass terrestrial gateways and offer sovereign capabilities distinct from competitors like Starlink.",
-                                    "source_url": "https://spacenews.com/open-cosmos-unveils-vision-for-imagery-linked-sovereign-satellite-connectivity/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-73454",
-                                    "title": "ESA ANNOUNCES 100 MILLION EURO SATELLITE-MOBILE CONVERGENCE INITIATIVE",
-                                    "description": "<br><strong>STATUS:</strong> The European Space Agency (ESA) announced up to 100 million euros in funding to accelerate projects converging satellite and terrestrial communications, in partnership with GSMA Foundry.\n\n<br><strong>INTEL:</strong> This initiative aims to unlock a new era of connectivity by combining the mobile industry's reach with ESA's space expertise, with projects required to align with 3GPP standards. The expanded collaboration is a strategic move for Europe to strengthen its position in the emerging direct-to-device (D2D) market, where U.S.-based competitors like SpaceX are rapidly scaling services. Demonstrations are showcasing D2D connectivity, early 6G capabilities, and AI-enabled non-terrestrial network orchestration.",
-                                    "source_url": "https://spacenews.com/esa-announces-100-million-euro-satellite-mobile-convergence-initiative/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-62044",
+                                    "title": "NASA INVITES MEDIA TO 63RD ANNUAL GODDARD SPACE SCIENCE SYMPOSIUM",
+                                    "description": "<br><strong>STATUS:</strong> The 63rd annual Goddard Space Science Symposium, gathering experts to discuss space science and exploration, is scheduled for March 12-13 at the National Housing Center in Washington.\n\n<br><strong>INTEL:</strong> The symposium's theme, \"Advancing an Integrated Space Enterprise,\" highlights a strategic focus on public-private sector collaboration to accelerate priorities like Moon and Mars exploration. Key discussions will cover next-generation capabilities, joint-use solutions, commercial space, future policy (2026), space weather, and the economic and national security implications of space science, with high-level speakers from NASA and the National Reconnaissance Office underscoring the event's significance in charting the collective path forward for an integrated space enterprise.",
+                                    "source_url": "https://www.nasa.gov/news-release/nasa-invites-media-to-63rd-annual-goddard-space-science-symposium/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-76613",
                                     "title": "SHADES OF A LUNAR ECLIPSE",
@@ -2114,14 +2122,6 @@ const signalTree = {
                                     "source_url": "https://science.nasa.gov/earth/earth-observatory/chesapeake-bay-locked-in-ice/",
                                     "timestamp": "2026.02.27",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-82212",
-                                    "title": "JPL 3D-PRINTED PART SPRINGS FORWARD",
-                                    "description": "<br><strong>STATUS:</strong> A 3D-printed spring developed by NASA's Jet Propulsion Laboratory (JPL) successfully deployed in low Earth orbit, demonstrating the potential of additive manufacturing for future space antennas.<br><br><strong>INTEL:</strong> The JPL Additive Compliant Canister (JACC), a titanium 3D-printed mechanism that integrates a hinge, panel, and multiple springs into a single part, significantly reduces the complexity, cost, and build time for space hardware. Its successful deployment, alongside the SUM Deployable Antenna as part of the PANDORASBox mission on Proteus Space\u2019s Mercury One spacecraft, validates additive manufacturing as a key technology for creating compact, precisely deployable antennas crucial for future orbiters and Earth science missions.",
-                                    "source_url": "https://science.nasa.gov/photojournal/jpl-3d-printed-part-springs-forward/",
-                                    "timestamp": "2026.02.26",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2138,6 +2138,30 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-4812",
+                                    "title": "CISA: RECENTLY PATCHED IVANTI EPM FLAW NOW ACTIVELY EXPLOITED",
+                                    "description": "<br><strong>STATUS:</strong> CISA has flagged a high-severity Ivanti Endpoint Manager (EPM) vulnerability (CVE-2026-1603) as actively exploited and mandated U.S. federal agencies to patch it within three weeks.<br><br><strong>INTEL:</strong> Tracked as CVE-2026-1603, this unauthenticated, low-complexity cross-site scripting flaw allows remote threat actors to bypass authentication and steal credential data without user interaction. Although Ivanti patched it a month ago and claims no awareness of prior exploitation, CISA's addition to the KEV Catalog highlights its critical risk as a \"frequent attack vector,\" reinforcing a pattern of threat actors targeting Ivanti EPM vulnerabilities.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/cisa-recently-patched-ivanti-epm-flaw-now-actively-exploited/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-24601",
+                                    "title": "MICROSOFT TO ENABLE WINDOWS HOTPATCH SECURITY UPDATES BY DEFAULT",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft will enable hotpatch security updates by default for eligible Windows devices managed through Intune and the Microsoft Graph API, starting with the May 2026 Windows security update.\n<br><br><strong>INTEL:</strong> This new default, delivered via Windows Autopatch, significantly reduces the time to reach 90% patch compliance by eliminating the need for device restarts, thereby minimizing exposure to attacks. IT administrators will gain new controls in April 2026 to disable hotpatch updates at the tenant level or enable them for specific devices, with an April 2026 baseline update serving as a prerequisite and providing a review window until May 11, 2026, before hotpatch deployment.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-hotpatch-security-updates-by-default-in-may/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-74984",
+                                    "title": "APT28 HACKERS DEPLOY CUSTOMIZED VARIANT OF COVENANT OPEN-SOURCE TOOL",
+                                    "description": "<br><strong>STATUS:</strong> Russian state-sponsored APT28 is deploying custom Covenant and BeardShell implants for long-term espionage operations against Ukrainian military and government entities.<br><br><strong>INTEL:</strong> The threat group employs a dual-implant strategy, using a heavily modified Covenant framework as the primary tool and BeardShell as a fallback, both leveraging cloud storage services like Filen and Icedrive for command-and-control, indicating a resurgence of their advanced malware development team and sophisticated capabilities for persistent surveillance.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/apt28-hackers-deploy-customized-variant-of-covenant-open-source-tool/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-79023",
                                     "title": "MICROSOFT TEAMS PHISHING TARGETS EMPLOYEES WITH A0BACKDOOR MALWARE",
@@ -2511,30 +2535,6 @@ const signalTree = {
                                     "title": "LEXISNEXIS CONFIRMS DATA BREACH AS HACKERS LEAK STOLEN FILES",
                                     "description": "<br><strong>STATUS:</strong> American data analytics company LexisNexis Legal & Professional has confirmed a data breach, with the threat actor FulcrumSec leaking 2GB of stolen customer and business information from its servers.<br><br><strong>INTEL:</strong> The breach, claimed by FulcrumSec, occurred on February 24 by exploiting a React2Shell vulnerability in an unpatched React frontend app within LexisNexis' AWS infrastructure, leading to the exfiltration of legacy data prior to 2020, including customer names, business contact information, and notably, details for 118 users with .gov email addresses, encompassing U.S. government employees and federal judges; the threat actor also criticized the company's lax security practices regarding AWS access permissions.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/lexisnexis-confirms-data-breach-as-hackers-leak-stolen-files/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-2564",
-                                    "title": "COMPROMISED SITE MANAGEMENT PANELS ARE A HOT ITEM IN CYBERCRIME MARKETS",
-                                    "description": "<br><strong>STATUS:</strong> Threat actors are widely advertising and selling compromised cPanel credentials as a commoditized product for use in phishing and scam campaigns.\n\n<br><strong>INTEL:</strong> cPanel is a highly sought-after asset due to its widespread use and centralized management capabilities, enabling attackers to deploy phishing kits, create spam accounts, exfiltrate data, and compromise entire web presences. Attackers gain access primarily through stolen or brute-forced credentials (often exploiting weak passwords or lack of MFA) and by leveraging vulnerabilities in hosted websites, with these methods amplified by automation to exploit and monetize access.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/compromised-site-management-panels-are-a-hot-item-in-cybercrime-markets/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-52790",
-                                    "title": "AMAZON: DRONE STRIKES DAMAGED AWS DATA CENTERS IN MIDDLE EAST",
-                                    "description": "<br><strong>STATUS:</strong> Amazon has confirmed drone strikes damaged multiple AWS data centers in the UAE and Bahrain, causing extensive and ongoing outages to cloud computing services.<br><br><strong>INTEL:</strong> These attacks are likely retaliatory actions by Iran following recent US and Israeli strikes, affecting AWS ME-CENTRAL-1 and ME-SOUTH-1 regions, with structural damage, power disruption, and water damage confirmed across several availability zones. Amazon is implementing recovery efforts and advising customers to activate disaster recovery plans, recover from remote backups, and migrate workloads to unaffected regions in the US, Europe, or Asia Pacific, while the UK NCSC has also warned of increased Iranian cyberattack risks.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/technology/amazon-drone-strikes-damaged-aws-data-centers-in-middle-east/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-99278",
-                                    "title": "STAR CITIZEN GAME DEV DISCLOSES BREACH AFFECTING USER DATA",
-                                    "description": "<br><strong>STATUS:</strong> Cloud Imperium Games (CIG) confirmed a sophisticated attack in January 2026 resulted in unauthorized access to basic personal information of some users.<br><br><strong>INTEL:</strong> The breach, discovered on January 21, involved read-only access to backup systems containing usernames, contact details, dates of birth, and names, but not financial information or passwords. While CIG downplays the incident and has no evidence of data leakage, the exposed basic account details could still be leveraged by threat actors for phishing attacks against its user base.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/star-citizen-game-dev-discloses-breach-affecting-user-data/",
                                     "timestamp": "2026.03.03",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
