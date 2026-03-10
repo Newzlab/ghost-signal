@@ -494,6 +494,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-5332",
+                                    "title": "IRAN TO FACE \u2018MOST INTENSE DAY OF STRIKES,\u2019 HEGSETH SAYS",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. and Israel are escalating strikes against Iran, targeting military and economic infrastructure, while Iran responds with counter-attacks and defiant rhetoric, rejecting a ceasefire. <br><br><strong>INTEL:</strong> U.S. objectives include the destruction of Iranian ballistic missile and drone capabilities, ensuring free movement through the Strait of Hormuz, and targeting Iran\u2019s military-industrial base. Iran's strategy involves firing missiles and drones, and targeting energy infrastructure and shipping through the Strait of Hormuz to generate global economic pain, aiming to pressure the U.S. and Israel into ending their strikes, despite soaring oil prices and increasing casualties on all sides.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/10/iran-to-face-most-intense-day-of-strikes-hegseth-says/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-7489",
+                                    "title": "DIEGO GARCIA BASE ACCESS: GETTING PAST THE MISINFORMATION",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. has endorsed a U.K.-Mauritius agreement ensuring continued American access to the strategically vital Diego Garcia military base, following international legal pressure on the U.K. regarding Chagos Islands sovereignty.\n\n<br><strong>INTEL:</strong> This agreement secures the U.S.'s sole territorial base in the critical Indian Ocean, essential for military operations westward to the Middle East and eastward to the Pacific. Driven by binding international legal judgments rather than an advisory opinion, the bipartisan U.S. support for this deal highlights the base's importance, while strong U.S.-India ties and India's strategic influence over Mauritius are expected to counter any potential Chinese ambitions.",
+                                    "source_url": "https://www.defensenews.com/opinion/2026/03/10/diego-garcia-base-access-getting-past-the-misinformation/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-84032",
                                     "title": "AUSTRALIAN SUBMARINERS HAVE A BRUSH WITH IRAN WAR",
                                     "description": "<br><strong>STATUS:</strong> A U.S. Navy submarine sank an Iranian frigate with three Australian submariners aboard, raising questions about Australia's neutrality in the conflict.\n\n<br><strong>INTEL:</strong> Prime Minister Albanese confirmed the Australians' presence but stated they did not participate in offensive actions, citing \"third-country arrangements\" ensuring adherence to Australian law, while opposition parties criticize Australia's alleged complicity, linking it to the AUKUS pact which involves extensive training of Australian sailors on U.S. nuclear submarines.",
@@ -874,22 +890,6 @@ const signalTree = {
                                     "title": "\u2018AMERICA FIRST\u2019 WEAPONS-SALES POLICY FAVORS ARMING TAIWAN QUICKLY \u2014 IN THEORY",
                                     "description": "<br><strong>STATUS:</strong> A new U.S. arms transfer strategy prioritizing self-supporting and geopolitically valuable recipients is expected to accelerate advanced weapon deliveries to Taiwan.<br><br><strong>INTEL:</strong> The America First Arms Transfer Strategy, initiated by President Trump, aims to streamline arms sales to allies like Taiwan due to its significant investment in self-defense and critical role in U.S. plans for the Western Pacific, potentially enhancing Taiwan's deterrence by denial against a Chinese invasion, though it does not clarify U.S. intervention policy or strategic ambiguity.",
                                     "source_url": "https://www.defensenews.com/global/asia-pacific/2026/03/03/america-first-weapons-sales-policy-favors-arming-taiwan-quickly-in-theory/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-41545",
-                                    "title": "VANCE INSISTS TRUMP WON\u2019T \u2018ALLOW\u2019 A LONG IRAN WAR",
-                                    "description": "<br><strong>STATUS:</strong> Vice President JD Vance publicly defended the U.S.-Israeli military strikes against Iran, stating the conflict has clear objectives defined by President Trump.<br><br><strong>INTEL:</strong> President Trump outlined four key objectives for Operation Epic Fury against Iran: destroying missile capabilities, annihilating its navy, preventing nuclear weapons, and halting proxy group support. Despite six U.S. service members killed and warnings of further casualties, the U.S. plans to escalate the offensive, urging Americans to depart the Middle East, a significant shift from Vance's previously anti-interventionist stance.",
-                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/03/vance-insists-trump-wont-allow-a-long-iran-war/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-77238",
-                                    "title": "PUTIN\u2019S $2.5 TRILLION GAMBIT",
-                                    "description": "<br><strong>STATUS:</strong> Russia's war in Ukraine has incurred an estimated total cost of $2.5 trillion for Russia itself, encompassing direct military expenses, personnel casualties, and significant economic repercussions.\n<br><br><strong>INTEL:</strong> This staggering sum includes $845 billion from 325,000 estimated Russian fatalities and $236 billion from 875,000 wounded personnel, calculated using a Value of Statistical Life (VSL) adjusted for Russian income. Further direct military outlays include $125 billion in equipment losses and $149 billion in operational costs over four years, while the broader economic impact is projected at a cumulative $1.124 trillion in GDP losses, compounded by international sanctions, frozen assets, and the exodus of 650,000 Russians.",
-                                    "source_url": "https://www.defensenews.com/opinion/2026/03/03/putins-25-trillion-gambit/",
                                     "timestamp": "2026.03.03",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -2139,6 +2139,22 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-77978",
+                                    "title": "NEW KADNAP BOTNET HIJACKS ASUS ROUTERS TO FUEL CYBERCRIME PROXY NETWORK",
+                                    "description": "<br><strong>STATUS:</strong> A newly discovered botnet called KadNap is actively targeting ASUS routers and other edge networking devices to establish a malicious proxy network, with Lumen Technologies taking initial disruption measures.\n\n<br><strong>INTEL:</strong> KadNap has infected 14,000 devices since August 2025, primarily in the United States, and employs a modified Kademlia Distributed Hash Table (DHT) protocol to decentralize and conceal its command-and-control (C2) infrastructure. Researchers at Black Lotus Labs discovered a weakness in this custom DHT implementation that allows for C2 identification, and have linked KadNap to the Doppelganger proxy service, which monetizes access to compromised devices for various cyberattacks including DDoS and credential stuffing.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/new-kadnap-botnet-hijacks-asus-routers-to-fuel-cybercrime-proxy-network/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-11975",
+                                    "title": "THE NEW TURING TEST: HOW THREATS USE GEOMETRY TO PROVE 'HUMANNESS'",
+                                    "description": "<br><strong>STATUS:</strong> Attackers are drastically shifting towards stealthy, long-term infiltration tactics, heavily relying on advanced evasion techniques like virtualization and sandbox detection.\n\n<br><strong>INTEL:</strong> The Picus Red Report 2026 confirms 80% of top observed techniques are for evasion and persistence, with Virtualization/Sandbox Evasion (T1497) skyrocketing to the #4 most-used technique, impacting 1 in 5 modern malware strains. These \"Digital Parasites\" employ mathematically complex checks on system artifacts (e.g., CPU count, screen resolution, specific drivers) and human activity patterns (e.g., \"Trigonometry-Based Turing Test\") to identify and avoid automated analysis environments, ensuring they only execute on real, vulnerable hosts.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/the-new-turing-test-how-threats-use-geometry-to-prove-humanness/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-4812",
                                     "title": "CISA: RECENTLY PATCHED IVANTI EPM FLAW NOW ACTIVELY EXPLOITED",
                                     "description": "<br><strong>STATUS:</strong> CISA has flagged a high-severity Ivanti Endpoint Manager (EPM) vulnerability (CVE-2026-1603) as actively exploited and mandated U.S. federal agencies to patch it within three weeks.<br><br><strong>INTEL:</strong> Tracked as CVE-2026-1603, this unauthenticated, low-complexity cross-site scripting flaw allows remote threat actors to bypass authentication and steal credential data without user interaction. Although Ivanti patched it a month ago and claims no awareness of prior exploitation, CISA's addition to the KEV Catalog highlights its critical risk as a \"frequent attack vector,\" reinforcing a pattern of threat actors targeting Ivanti EPM vulnerabilities.",
@@ -2519,22 +2535,6 @@ const signalTree = {
                                     "title": "MICROSOFT: HACKERS ABUSE OAUTH ERROR FLOWS TO SPREAD MALWARE",
                                     "description": "<br><strong>STATUS:</strong> Hackers are exploiting legitimate OAuth redirection mechanisms, specifically silent authentication error redirects, to bypass phishing protections and lead government and public-sector users to malicious sites for credential theft or malware delivery.<br><br><strong>INTEL:</strong> The attacks leverage attacker-controlled malicious OAuth applications that intentionally trigger authentication errors with invalid parameters against identity providers like Microsoft Entra ID, forcing users to redirect to attacker infrastructure. This enables sophisticated credential harvesting via frameworks like EvilProxy, often bypassing MFA, or leads to the delivery of malware via malicious .LNK files and DLL side-loading, showcasing an abuse of OAuth's intended error handling behavior.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/microsoft-hackers-abuse-oauth-error-flows-to-spread-malware/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-58949",
-                                    "title": "GOOGLE CHROME SHIFTS TO TWO-WEEK RELEASE CYCLE FOR INCREASED STABILITY",
-                                    "description": "<br><strong>STATUS:</strong> Google Chrome is shifting to a two-week release cycle for new features and bug fixes, starting with Chrome 153 on September 8.\n\n<br><strong>INTEL:</strong> This change aims to deliver more frequent updates, simplify debugging, and maintain stability across Desktop, Android, and iOS stable and beta channels. While Dev/Canary and an eight-week Extended Stable branch will remain unchanged, the new cadence, coupled with existing weekly security updates, is designed to significantly reduce the \"patch gap\" and minimize the window of opportunity for attackers to exploit vulnerabilities.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/google-chrome-shifts-to-two-week-release-cycle-for-increased-stability/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-56169",
-                                    "title": "LEXISNEXIS CONFIRMS DATA BREACH AS HACKERS LEAK STOLEN FILES",
-                                    "description": "<br><strong>STATUS:</strong> American data analytics company LexisNexis Legal & Professional has confirmed a data breach, with the threat actor FulcrumSec leaking 2GB of stolen customer and business information from its servers.<br><br><strong>INTEL:</strong> The breach, claimed by FulcrumSec, occurred on February 24 by exploiting a React2Shell vulnerability in an unpatched React frontend app within LexisNexis' AWS infrastructure, leading to the exfiltration of legacy data prior to 2020, including customer names, business contact information, and notably, details for 118 users with .gov email addresses, encompassing U.S. government employees and federal judges; the threat actor also criticized the company's lax security practices regarding AWS access permissions.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/lexisnexis-confirms-data-breach-as-hackers-leak-stolen-files/",
                                     "timestamp": "2026.03.03",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
