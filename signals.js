@@ -1319,6 +1319,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-50476",
+                                    "title": "PRECISION IN ORBIT: HERAEUS CATALYSTS SAFEGUARD SATELLITE CONTROL",
+                                    "description": "<br><strong>STATUS:</strong> Heraeus Precious Metals' H-KC12GA catalyst is critical for reliable satellite propulsion and precise orbital control in the international space industry.<br><br><strong>INTEL:</strong> Hydrazine (N\u2082H\u2084) remains the industry standard monopropellant for satellite propulsion, decomposing exothermically into thrust-generating gases upon contact with a specialized catalyst. Heraeus's benchmark H-KC12GA catalyst, based on iridium supported on aluminum oxide, is crucial for reliable impulse generation, ensuring stable reactions during cold starts and thousands of ignition cycles. Its proven robustness across numerous international space programs, including with ArianeGroup, directly contributes to precise altitude control, orbit maintenance, and overall mission success and safety for satellites.",
+                                    "source_url": "https://spacenews.com/precision-in-orbit-heraeus-catalysts-safeguard-satellite-control/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-26889",
                                     "title": "IMPULSE SPACE EXPANDS COLORADO PRESENCE",
                                     "description": "<br><strong>STATUS:</strong> Impulse Space has opened a new 20,000-square-foot manufacturing facility in Colorado to support the development of hardware and subsystems for its Mira and Helios transfer vehicles.\n\n<br><strong>INTEL:</strong> This facility near Boulder will focus on developing guidance, navigation, and control (GNC) systems for precision maneuvers, as well as manufacturing components like valves and pumps for the Helios transfer vehicle and its Deneb main engine. The expansion aims to scale production to meet strong demand from government and commercial customers for Mira and Helios, including for space defense and control missions, and to advance GNC technologies for a potential lunar lander concept.",
@@ -1709,20 +1717,60 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/pentagon-details-cyber-space-first-mover-role-in-iran-operations/",
                                     "timestamp": "2026.03.02",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-527",
-                                    "title": "HARDWARE IS NO LONGER THE PROBLEM HOLDING BACK SPACE-BASED DATA CENTERS \u2014 THE SUPPLY CHAIN IS",
-                                    "description": "<br><b>STATUS:</b> The primary impediment to scaling orbital and lunar data centers is not engineering or launch costs, but the critical absence of a standardized procurement, logistics, and interoperability architecture.<br><br><b>INTEL:</b> Unlike terrestrial data centers that thrive on standardized, interoperable, and mass-manufactured components, current space hardware is custom-built and non-interchangeable, making scaling prohibitively expensive and logistically impossible. To transition orbital compute from concept to industry, a robust global supply chain is urgently needed, featuring standardized bills of materials, qualified radiation-tolerant electronics, and a multi-tier sourcing strategy capable of feeding continuous production lines for large satellite constellations like SpaceX's proposed million-satellite network, ultimately enabling vendor-agnostic components.",
-                                    "source_url": "https://spacenews.com/hardware-is-no-longer-the-problem-holding-back-space-based-data-centers-the-supply-chain-is/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-81232",
+                                    "title": "EXPANDING THE HUMAN FACTORS TOOLBOX:\u00a0\u00a0AN APPROACH TO BALANCING CREW AND MISSION DESIGN PARAMETERS",
+                                    "description": "<br><strong>STATUS:</strong> NASA's NESC has developed a systematic, quantitative methodology and modeling tools to determine optimal crew size for Mars missions, addressing the critical challenges of communication delays and blackouts.<br><br><strong>INTEL:</strong> Crewed Mars missions face unprecedented human factors challenges due to significant communication delays and blackouts, eliminating the real-time ground control support relied upon for Earth-proximal missions. To address this, NESC extended existing Department of Defense (DoD) methodologies to create a suite of analytical models for evaluating crew workload, training, and expertise. This data-driven approach provides an evidence-based trade space for decision-makers, ensuring mission designs incorporate sufficient onboard crew capabilities and resilient performance to manage time-critical decisions and unforeseen failures, thus preventing potential Loss of Crew or Mission (LOC/LOM) in the absence of Earth-based assistance.",
+                                    "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/expanding-the-human-factors-toolbox-an-approach-to-balancing-crew-and-mission-design-parameters/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-94881",
+                                    "title": "WEBINAR 3/25: NASA CSDA VENDOR FOCUS \u2013 SATELLOGIC",
+                                    "description": "<br><strong>STATUS:</strong> A webinar on March 25th will introduce Satellogic's high-resolution commercial Earth observation data, acquired through NASA's Commercial Satellite Data Acquisition (CSDA) program.<br><br><strong>INTEL:</strong> NASA's CSDA program seeks to cost-effectively integrate commercial satellite data, such as that provided by Satellogic's vertically integrated constellation, to enhance its Earth science research. The session will highlight Satellogic's current and future capabilities, including service-level monitoring at scale and plans for global daily remapping, demonstrating how these commercial data products complement existing NASA Earth science data and outlining available user services and expert assistance.",
+                                    "source_url": "https://science.nasa.gov/science-research/earth-science/webinar-3-25-nasa-csda-vendor-focus-satellogic/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-24209",
+                                    "title": "COPV DAMAGE TOLERANCE LIFE DEMONSTRATION GUIDELINES",
+                                    "description": "<br><strong>STATUS:</strong> The NESC has finalized new guidelines for assessing damage-tolerance data for Composite Overwrapped Pressure Vessels (COPVs) used in spaceflight.<br><br><strong>INTEL:</strong> These guidelines are critical for NASA's ubiquitous COPVs, which store high-pressure propulsion and life-support fluids and can fail catastrophically. By clarifying existing damage-tolerance requirements from AIAA S-081 and NASA-STD-5019, and incorporating best practices derived from NESC assessments of unconservative approaches, they aim to standardize evaluation methods, improve safety, and minimize the risk of failures without introducing new standards, specifically applying a 4x life factor to ensure cracks do not grow to failure over the service life.",
+                                    "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/copv-damage-tolerance-life-demonstration-guidelines/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-45823",
+                                    "title": "A TECHNICAL RESOURCE FOR THE AGENCY",
+                                    "description": "<br><strong>STATUS:</strong> The NESC\u2019s Thermal Control & Protection Technical Discipline Team (TDT) reported on its wide-ranging activities in 2025, covering critical mission support, technical investigations, and community development.\n\n<br><strong>INTEL:</strong> The TDT's strategic importance is highlighted by its direct involvement in ongoing high-profile projects such as the Artemis I heat shield investigation and finding replacements for Per- and Polyfluoroalkyl Substances (PFAS) in thermal control fluids. Beyond direct mission support, the TDT actively fosters the next generation of engineers through rotational programs and leads major knowledge-sharing initiatives like the Thermal and Fluids Analysis Workshop, ensuring the sustained health and expertise of NASA's thermal and fluids engineering community.",
+                                    "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/a-technical-resource-for-the-agency/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-46892",
+                                    "title": "CELEBRATING NASA\u2019S MARS RECONNAISSANCE ORBITER\u2019S 20TH ANNIVERSARY: CRATER NEAR SIRENUM FOSSAE",
+                                    "description": "<br><strong>STATUS:</strong> NASA's Mars Reconnaissance Orbiter (MRO) captured and released an image on June 3, 2015, detailing a relatively fresh Martian crater.<br><br><strong>INTEL:</strong> The crater displays distinct features like a sharp rim, well-preserved ejecta, gullies, and possible recurring slope lineae, and is under monitoring for changes. MRO's two-decade mission focuses on understanding Mars' water history, providing crucial data to inform and support future astronaut landings and exploration.",
+                                    "source_url": "https://www.nasa.gov/image-article/celebrating-nasas-mars-reconnaissance-orbiters-20th-anniversary-crater-near-sirenum-fossae/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-52038",
+                                    "title": "DEVELOPING ROBUST ELECTRONICS THAT CAN WITHSTAND HARSH CONDITIONS ON COLD PLANETARY BODIES",
+                                    "description": "<br><strong>STATUS:</strong> A NASA-sponsored team has developed robust silicon-germanium (SiGe) electronics capable of operating reliably in the extreme radiation and low-temperature conditions found on distant ocean worlds.\n\n<br><br><strong>INTEL:</strong> This new SiGe technology, developed by Georgia Tech, JPL, and the University of Tennessee-Knoxville, can withstand 5 Mrad of radiation and temperatures down to -180\u00b0C, eliminating the need for bulky \"warm boxes\" and offering significant size, weight, power, and cost (SWaP-C) advantages. This breakthrough is critical for enabling autonomous robotic exploration of ocean worlds like Europa, supporting the search for extraterrestrial life, and facilitating human outposts on the Moon and Mars by providing durable electronics for sensing, control, and communications.",
+                                    "source_url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/developing-robust-electronics-that-can-withstand-harsh-conditions-on-cold-planetary-bodies/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-25412",
                                     "title": "NASA DISCOVERS CRASH OF EXTREME STARS IN UNEXPECTED SITE",
@@ -2074,54 +2122,6 @@ const signalTree = {
                                     "source_url": "https://science.nasa.gov/solar-system/whats-up-march-2026-skywatching-tips-from-nasa/",
                                     "timestamp": "2026.03.02",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-32510",
-                                    "title": "SUNGLINT ON ATLANTIC OCEAN",
-                                    "description": "<br><strong>STATUS:</strong> Sunglint, an optical phenomenon of sunlight reflecting off water, can obscure satellite imagery but also uniquely aids in detecting oil spills.<br><br><strong>INTEL:</strong> While sunglint poses a significant challenge for remote sensing scientists by obscuring crucial oceanographic data like phytoplankton and ocean color, it provides a distinct advantage for intelligence gathering. This phenomenon makes it easier to detect oil on water surfaces, whether from natural seeps or human-caused spills, due to oil's water-smoothing effect, offering a valuable tool for environmental monitoring and potential incident response despite its data-masking drawbacks.",
-                                    "source_url": "https://www.nasa.gov/image-article/sunglint-on-atlantic-ocean/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-89024",
-                                    "title": "NASA, JAXA TO COVER HTV-X1 SPACECRAFT DEPARTURE FROM SPACE STATION",
-                                    "description": "<br><strong>STATUS:</strong> JAXA's uncrewed HTV-X1 cargo spacecraft is scheduled to depart the International Space Station on Friday, March 6, after delivering 12,000 pounds of supplies.\n\n<br><strong>INTEL:</strong> The HTV-X1, which arrived at the ISS on Oct. 29, 2025, will be detached by the Canadarm2 on March 5, with its release livestreamed by NASA on March 6. Following its departure, the spacecraft will remain in orbit for over three months to conduct JAXA experiments as a scientific platform before ultimately performing a trash-disposal re-entry. This mission underscores continued international cooperation on the ISS, while NASA strategically shifts focus to deep space missions like Artemis, relying on commercial partners for low Earth orbit logistics.",
-                                    "source_url": "https://www.nasa.gov/news-release/nasa-jaxa-to-cover-htv-x1-spacecraft-departure-from-space-station/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-10624",
-                                    "title": "SCORIA CONES ON EARTH AND MARS",
-                                    "description": "<br><strong>STATUS:</strong> Planetary geologists have identified rare scoria cones in Mars' Ulysses Colles region, providing evidence of explosive volcanic activity previously thought uncommon on the Red Planet.<br><br><strong>INTEL:</strong> This discovery challenges the prevailing view that most Martian volcanism is effusive, despite conditions like lower gravity and atmospheric pressure that should theoretically make explosive eruptions more prevalent. The Martian scoria cones are analogous to terrestrial formations but are notably larger due to these environmental factors, offering crucial insights into the planet's geological history and the diversity of volcanic processes that have shaped its surface.",
-                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/scoria-cones-on-earth-and-mars/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-87033",
-                                    "title": "HARNESSING THE SUN TO EXTRACT OXYGEN ON THE MOON",
-                                    "description": "<br><strong>STATUS:</strong> A solar concentrator for NASA's Carbothermal Reduction Demonstration (CaRD) project successfully produced carbon monoxide from simulated lunar regolith during a recent test. <br><br><strong>INTEL:</strong> This technology aims to enable the production of oxygen and propellant on the Moon using only local materials and sunlight, which would significantly reduce the cost and complexity of sustaining a long-term human lunar presence. The system also has the potential to be adapted for converting carbon dioxide into oxygen and methane on Mars, showcasing its broad strategic implications for future space missions, and is supported by NASA\u2019s Game Changing Development Program.",
-                                    "source_url": "https://www.nasa.gov/image-article/harnessing-the-sun-to-extract-oxygen-on-the-moon/",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-35267",
-                                    "title": "NASA\u2019S HOME FOR EXPERIMENTAL FLIGHT ADVANCES AERONAUTICS MISSION",
-                                    "description": "<br><strong>STATUS:</strong> NASA's Armstrong Flight Research Center at Edwards Air Force Base is a pivotal site for historical and ongoing cutting-edge flight research, from breaking the sound barrier to pioneering future aviation technologies.\n\n<br><strong>INTEL:</strong> The Center's unique location in the Mojave Desert, featuring the extensive Rogers Dry Lake, the largest secure flight test range, and dedicated restricted airspace (like the Bell X-1 Supersonic Corridor), provides an unparalleled environment for safe, complex, and high-risk experimental flight testing. This strategic positioning, combined with its rich X-plane legacy, enables rapid prototyping and advancement of critical aeronautics programs, including hypersonic research, advanced air mobility, electrified propulsion, and autonomous flight systems, which would be difficult or impossible elsewhere.",
-                                    "source_url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasas-home-for-experimental-flight-advances-aeronautics-mission/",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-52983",
-                                    "title": "NASA ADDS\u00a0MISSION TO ARTEMIS LUNAR PROGRAM, UPDATES ARCHITECTURE",
-                                    "description": "<br><strong>STATUS:</strong> NASA is accelerating its Artemis program, adding a new test flight (Artemis III) in 2027 to precede the first crewed lunar landing (Artemis IV) in 2028, with annual surface landings planned thereafter.<br><br><strong>INTEL:</strong> This strategic shift is driven by geopolitical competition and a renewed focus on Apollo-era reliability and a step-by-step capability build-up. The updated Artemis III mission will conduct critical in-orbit tests, including docking with commercial landers from SpaceX and Blue Origin, and evaluating life support, communications, propulsion, and new xEVA suits, all while NASA emphasizes standardizing the SLS Block 1 configuration and rebuilding civil servant core competencies, which may require partners to align their development efforts.",
-                                    "source_url": "https://www.nasa.gov/news-release/nasa-adds-mission-to-artemis-lunar-program-updates-architecture/",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2138,6 +2138,38 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-42294",
+                                    "title": "MICROSOFT RELEASES WINDOWS 10 KB5078885 EXTENDED SECURITY UPDATE",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft has released the Windows 10 KB5078885 extended security update for March 2026, fixing 79 vulnerabilities, including two actively exploited zero-days and critical shutdown issues.\n\n<br><strong>INTEL:</strong> This update is vital for Windows 10 Enterprise LTSC and ESU users, specifically addressing a known issue preventing device shutdown or hibernation on Secure Launch-capable PCs with Virtual Secure Mode (VSM) enabled, and continuing the critical rollout of new Secure Boot certificates to replace older 2011 certificates expiring in June 2026, which, if unaddressed, could allow threat actors to bypass security protections.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-68317",
+                                    "title": "MICROSOFT MARCH 2026 PATCH TUESDAY FIXES 2 ZERO-DAYS, 79 FLAWS",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft released its March 2026 Patch Tuesday updates, addressing 79 flaws, including two publicly disclosed zero-day vulnerabilities and three critical vulnerabilities.\n\n<br><strong>INTEL:</strong> The two publicly disclosed zero-day vulnerabilities are an SQL Server Elevation of Privilege (CVE-2026-21262) and a .NET Denial of Service (CVE-2026-26127), with neither currently known to be exploited in active attacks. Critical patches include remote code execution flaws in Microsoft Office, exploitable via the preview pane, and an Excel information disclosure vulnerability (CVE-2026-26144) specifically highlighted for its potential to exfiltrate data via Microsoft Copilot in a zero-click attack.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-78447",
+                                    "title": "WINDOWS 11 KB5079473 & KB5078883 CUMULATIVE UPDATES RELEASED",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft released mandatory March 2026 Patch Tuesday cumulative updates for Windows 11, addressing security vulnerabilities, bugs, and introducing new features.\n\n<br><strong>INTEL:</strong> These updates (KB5079473 and KB5078883) consolidate security fixes and a wide array of new functionalities across Windows 11 versions 25H2/24H2 and 23H2, including enhanced enterprise backup/recovery capabilities, a native network speed test, improved security via Sysmon and Secure Boot certificate targeting, and various user experience refinements such as Emoji 16.0 and improved File Explorer search reliability.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5079473-and-kb5078883-cumulative-updates-released/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-73544",
+                                    "title": "HPE WARNS OF CRITICAL AOS-CX FLAW ALLOWING ADMIN PASSWORD RESETS",
+                                    "description": "<br><strong>STATUS:</strong> Hewlett Packard Enterprise (HPE) has patched multiple critical security vulnerabilities, including an authentication bypass (CVE-2026-23813), in its Aruba Networking AOS-CX operating system for CX-series switches.<br><br><strong>INTEL:</strong> The most severe flaw, CVE-2026-23813, is a critical authentication bypass in the web-based management interface that allows unauthenticated remote attackers to reset admin passwords with low complexity. While HPE is not yet aware of public exploits or in-the-wild abuse, this vulnerability in a core network operating system poses a significant risk for enterprise and data center environments, necessitating immediate patching or mitigation measures.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/hpe-warns-of-critical-aos-cx-flaw-allowing-admin-password-resets/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-75164",
                                     "title": "MICROSOFT BRINGS PHISHING-RESISTANT WINDOWS SIGN-INS VIA ENTRA PASSKEYS",
@@ -2504,38 +2536,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> The University of Mississippi Medical Center (UMMC) has resumed normal operations nine days after a ransomware attack severely disrupted its IT systems and patient care services.<br><br><strong>INTEL:</strong> The ransomware attack significantly impacted UMMC's electronic medical records and IT systems, forcing clinic closures and appointment cancellations, though critical hospital services continued using downtime procedures. UMMC was in contact with the attackers, despite no group publicly claiming responsibility, and is now investigating the incident with assistance from the FBI and CISA, highlighting the operational vulnerabilities and strategic importance of cybersecurity for critical healthcare infrastructure.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/mississippi-medical-center-reopens-clinics-hit-by-ransomware-attack/",
                                     "timestamp": "2026.03.04",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-45860",
-                                    "title": "HOW A BRUTE FORCE ATTACK UNMASKED A RANSOMWARE INFRASTRUCTURE NETWORK",
-                                    "description": "<br><strong>STATUS:</strong> A routine RDP brute-force alert escalated into the discovery of a sophisticated ransomware-as-a-service ecosystem and its initial access brokers after a single successful login was investigated.\n\n<br><strong>INTEL:</strong> Huntress's investigation of a compromised RDP account revealed unusual credential-hunting behavior, geo-distributed infrastructure, and a shady VPN service, indicating a highly organized cybercrime operation. The threat actor, leveraging infrastructure allowing compromise from various servers, successfully enumerated the domain before the SOC detected the activity and isolated the network, preventing lateral movement and exposing a deeper, non-standard pattern of threat actor behavior.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/how-a-brute-force-attack-unmasked-a-ransomware-infrastructure-network/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-40331",
-                                    "title": "CISA FLAGS VMWARE ARIA OPERATIONS RCE FLAW AS EXPLOITED IN ATTACKS",
-                                    "description": "<br><strong>STATUS:</strong> CISA has added an actively exploited VMware Aria Operations vulnerability (CVE-2026-22719) to its Known Exploited Vulnerabilities catalog, requiring federal agencies to patch by March 24, 2026.<br><br><strong>INTEL:</strong> The flaw, CVE-2026-22719, is an unauthenticated command injection vulnerability allowing arbitrary command execution and remote code execution on vulnerable systems during support-assisted product migration. VMware (now Broadcom) released security patches on February 24, 2026, and also provided a temporary shell script workaround for organizations unable to apply the patches immediately, which disables exploitable components of the migration process.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/cisa-flags-vmware-aria-operations-rce-flaw-as-exploited-in-attacks/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-67098",
-                                    "title": "PAINT MAKER GIANT AKZONOBEL CONFIRMS CYBERATTACK ON U.S. SITE",
-                                    "description": "<br><strong>STATUS:</strong> Multinational paint company AkzoNobel confirmed a network breach at one of its U.S. sites by the Anubis ransomware gang, resulting in a significant data leak.\n\n<br><strong>INTEL:</strong> While AkzoNobel stated the incident was contained with limited impact, the Anubis ransomware group claims to have exfiltrated 170GB of sensitive data, including confidential agreements, personal information, and technical specifications, with partial samples already leaked. Anubis is a relatively new but rapidly evolving ransomware-as-a-service (RaaS) operation that recently added a data wiper to its arsenal, indicating a sophisticated and aggressive threat actor.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/paint-maker-giant-akzonobel-confirms-cyberattack-on-us-site/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-58848",
-                                    "title": "FACEBOOK ACCOUNTS UNAVAILABLE IN WORLDWIDE OUTAGE",
-                                    "description": "<br><strong>STATUS:</strong> Facebook suffered a worldwide outage that prevented users from accessing their accounts, which has since been resolved.\n\n<br><br><strong>INTEL:</strong> The global disruption started around 4:15 PM ET and was resolved by 6:21 PM ET, with Meta's official status page initially only reporting \"High Disruptions\" to specific ad and business tools, and the cause of the outage remains undisclosed.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/technology/facebook-hit-with-worldwide-outage-stating-accounts-are-unavailable/",
-                                    "timestamp": "2026.03.03",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
