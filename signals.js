@@ -494,6 +494,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-19824",
+                                    "title": "TWO IRANIAN WARSHIPS TAKE SANCTUARY IN INDIA AND SRI LANKA",
+                                    "description": "<br><strong>STATUS:</strong> A U.S. submarine torpedoed an Iranian warship, the Iris Dena, in the Indian Ocean, leading to two other Iranian warships docking in India and Sri Lanka under \"humanitarian\" pretexts.<br><br><strong>INTEL:</strong> The sinking of the Iris Dena off Sri Lanka\u2019s coast marks the first military strike outside the Middle East since the war began, escalating concerns about the conflict's potential expansion beyond the Persian Gulf. This incident caused diplomatic embarrassment for India, which had recently hosted the torpedoed vessel, and exposed the asymmetry in its defense partnership with the U.S., casting a shadow over India's regional influence despite its declared neutrality and humanitarian gestures to the other Iranian ships. U.S. officials confirmed the strike, signaling their extensive reach and intent to destroy Iran's military capabilities.",
+                                    "source_url": "https://www.defensenews.com/global/asia-pacific/2026/03/10/two-iranian-warships-take-sanctuary-in-india-and-sri-lanka/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-5332",
                                     "title": "IRAN TO FACE \u2018MOST INTENSE DAY OF STRIKES,\u2019 HEGSETH SAYS",
                                     "description": "<br><strong>STATUS:</strong> The U.S. and Israel are escalating strikes against Iran, targeting military and economic infrastructure, while Iran responds with counter-attacks and defiant rhetoric, rejecting a ceasefire. <br><br><strong>INTEL:</strong> U.S. objectives include the destruction of Iranian ballistic missile and drone capabilities, ensuring free movement through the Strait of Hormuz, and targeting Iran\u2019s military-industrial base. Iran's strategy involves firing missiles and drones, and targeting energy infrastructure and shipping through the Strait of Hormuz to generate global economic pain, aiming to pressure the U.S. and Israel into ending their strikes, despite soaring oil prices and increasing casualties on all sides.",
@@ -882,14 +890,6 @@ const signalTree = {
                                     "title": "GREECE DEPLOYS WARSHIPS, JETS TO CYPRUS AFTER DRONE STRIKES ON UK AIR BASE AKROTIRI",
                                     "description": "<br><strong>STATUS:</strong> Greece dispatched two frigates and four F-16s to Cyprus following a drone strike on RAF Akrotiri, the British military's main Middle East hub, as the Iran conflict threatens to spill into the Eastern Mediterranean.<br><br><strong>INTEL:</strong> The Shahed-type drone strike on RAF Akrotiri, causing minimal damage, is widely seen as Iranian retaliation for U.S. operations from British bases in Cyprus supporting U.S.-Israeli actions against Iran, prompting Greece to deploy an advanced frigate with long-range air defense and another with a counter-drone system, alongside F-16s, while the Islamic Revolutionary Guard Corps has threatened ballistic missile strikes on Cyprus and the U.K. reportedly plans to send a ballistic missile-intercepting warship.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/03/03/greece-deploys-warships-jets-to-cyprus-after-drone-strikes-on-uk-air-base-akrotiri/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-12268",
-                                    "title": "\u2018AMERICA FIRST\u2019 WEAPONS-SALES POLICY FAVORS ARMING TAIWAN QUICKLY \u2014 IN THEORY",
-                                    "description": "<br><strong>STATUS:</strong> A new U.S. arms transfer strategy prioritizing self-supporting and geopolitically valuable recipients is expected to accelerate advanced weapon deliveries to Taiwan.<br><br><strong>INTEL:</strong> The America First Arms Transfer Strategy, initiated by President Trump, aims to streamline arms sales to allies like Taiwan due to its significant investment in self-defense and critical role in U.S. plans for the Western Pacific, potentially enhancing Taiwan's deterrence by denial against a Chinese invasion, though it does not clarify U.S. intervention policy or strategic ambiguity.",
-                                    "source_url": "https://www.defensenews.com/global/asia-pacific/2026/03/03/america-first-weapons-sales-policy-favors-arming-taiwan-quickly-in-theory/",
                                     "timestamp": "2026.03.03",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1319,6 +1319,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-26889",
+                                    "title": "IMPULSE SPACE EXPANDS COLORADO PRESENCE",
+                                    "description": "<br><strong>STATUS:</strong> Impulse Space has opened a new 20,000-square-foot manufacturing facility in Colorado to support the development of hardware and subsystems for its Mira and Helios transfer vehicles.\n\n<br><strong>INTEL:</strong> This facility near Boulder will focus on developing guidance, navigation, and control (GNC) systems for precision maneuvers, as well as manufacturing components like valves and pumps for the Helios transfer vehicle and its Deneb main engine. The expansion aims to scale production to meet strong demand from government and commercial customers for Mira and Helios, including for space defense and control missions, and to advance GNC technologies for a potential lunar lander concept.",
+                                    "source_url": "https://spacenews.com/impulse-space-expands-colorado-presence/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-668",
                                     "title": "STARLINER AND ARTEMIS: COMMERCIAL LABEL VS. COMMERCIAL DISCIPLINE",
                                     "description": "<br><strong>STATUS:</strong> NASA designated Boeing's 2024 Starliner crewed test flight as a Type A mishap, its most serious category, citing decision-making and leadership failures as the core problem rather than hardware.\n\n<br><br><strong>INTEL:</strong> This incident serves as a case study highlighting the critical difference between \"commercial structure\" (contractual arrangements) and \"commercial discipline\" (behavioral rigor, root-cause resolution, and designing for repeatability). The article argues that a lack of commercial discipline led to the Starliner failures, prompting NASA to revise its Artemis approach to emphasize standardization, higher flight cadence, and smaller technical steps, aiming to de-risk through repetition and learn from successful examples like SpaceX and Axiom Space that embody true market-building discipline.",
@@ -1709,20 +1717,20 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/hardware-is-no-longer-the-problem-holding-back-space-based-data-centers-the-supply-chain-is/",
                                     "timestamp": "2026.03.02",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-4856",
-                                    "title": "WORLD SPACE WEEK 2025 SET RECORD WITH 50,000 EVENTS IN 102 COUNTRIES",
-                                    "description": "<br><strong>STATUS:</strong> World Space Week 2025 achieved record global participation with nearly 50,000 activities across 102 nations, demonstrating space's growing global relevance.<br><br><strong>INTEL:</strong> This unprecedented scale signifies space's transition from a specialized sector to a global priority, reflecting a concerted effort by educators, institutions, and governments to prepare the next generation for an expanding space economy. The synchronized, worldwide celebration, supported by organizations like Lockheed Martin and United Launch Alliance, effectively amplifies global attention and student engagement in space-related fields.",
-                                    "source_url": "https://spacenews.com/world-space-week-2025-set-record-with-50000-events-in-102-countries/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-25412",
+                                    "title": "NASA DISCOVERS CRASH OF EXTREME STARS IN UNEXPECTED SITE",
+                                    "description": "<br><strong>STATUS:</strong> NASA missions have likely uncovered an unprecedented collision between two ultradense neutron stars within a tiny galaxy located in a massive intergalactic gas stream.<br><br><strong>INTEL:</strong> This discovery, dubbed GRB 230906A and observed by multiple NASA telescopes, is game-changing as it may explain two cosmic mysteries: why some gamma-ray bursts appear without a clear host galaxy (the host being too small to detect) and how heavy elements like gold and platinum are found in stars far from galactic centers, implying such events can occur in these unusual, distant environments likely triggered by earlier galaxy collisions.",
+                                    "source_url": "https://www.nasa.gov/missions/chandra/nasa-discovers-crash-of-extreme-stars-in-unexpected-site/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-62044",
                                     "title": "NASA INVITES MEDIA TO 63RD ANNUAL GODDARD SPACE SCIENCE SYMPOSIUM",
@@ -2114,14 +2122,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/news-release/nasa-adds-mission-to-artemis-lunar-program-updates-architecture/",
                                     "timestamp": "2026.02.27",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-4701",
-                                    "title": "CHESAPEAKE BAY LOCKED IN ICE",
-                                    "description": "<br><strong>STATUS:</strong> Landsat 1 documented the widespread freezing of Mid-Atlantic waterways, particularly the Chesapeake Bay, during the exceptionally cold winter of 1976-1977.<br><br><strong>INTEL:</strong> The 1976-1977 winter saw 85 percent of the Chesapeake Bay frozen, with ice reaching 30 centimeters in thickness, as captured by Landsat 1 using false color imagery (MSS bands 6-5-4). This severe event facilitated recreational activities like ice skating and driving cars on the ice, but also caused high shellfish mortality and extensive damage to piers, marinas, and lighthouses. This historical deep freeze contrasts sharply with the 2025-2026 winter, which saw approximately 38 percent coverage, still significant enough to enable uncommon winter activities but also trapping boats and limiting access for watermen.",
-                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/chesapeake-bay-locked-in-ice/",
-                                    "timestamp": "2026.02.27",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2138,6 +2138,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-75164",
+                                    "title": "MICROSOFT BRINGS PHISHING-RESISTANT WINDOWS SIGN-INS VIA ENTRA PASSKEYS",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft is rolling out public preview support for Entra passkeys on Windows devices, enabling phishing-resistant passwordless authentication via Windows Hello.\n\n<br><strong>INTEL:</strong> This update extends device-bound passkey authentication to unmanaged Windows devices, which previously relied on passwords, significantly enhancing security by storing cryptographic passkeys locally in the Windows Hello container, making them resistant to network-based phishing and malware attacks. IT administrators must opt-in and configure the feature within Microsoft Entra's authentication policies for a staggered rollout starting in March 2026 for worldwide tenants, with government clouds following later.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-brings-phishing-resistant-sign-in-to-windows/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-77978",
                                     "title": "NEW KADNAP BOTNET HIJACKS ASUS ROUTERS TO FUEL CYBERCRIME PROXY NETWORK",
@@ -2527,14 +2535,6 @@ const signalTree = {
                                     "title": "FACEBOOK ACCOUNTS UNAVAILABLE IN WORLDWIDE OUTAGE",
                                     "description": "<br><strong>STATUS:</strong> Facebook suffered a worldwide outage that prevented users from accessing their accounts, which has since been resolved.\n\n<br><br><strong>INTEL:</strong> The global disruption started around 4:15 PM ET and was resolved by 6:21 PM ET, with Meta's official status page initially only reporting \"High Disruptions\" to specific ad and business tools, and the cause of the outage remains undisclosed.",
                                     "source_url": "https://www.bleepingcomputer.com/news/technology/facebook-hit-with-worldwide-outage-stating-accounts-are-unavailable/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-13316",
-                                    "title": "MICROSOFT: HACKERS ABUSE OAUTH ERROR FLOWS TO SPREAD MALWARE",
-                                    "description": "<br><strong>STATUS:</strong> Hackers are exploiting legitimate OAuth redirection mechanisms, specifically silent authentication error redirects, to bypass phishing protections and lead government and public-sector users to malicious sites for credential theft or malware delivery.<br><br><strong>INTEL:</strong> The attacks leverage attacker-controlled malicious OAuth applications that intentionally trigger authentication errors with invalid parameters against identity providers like Microsoft Entra ID, forcing users to redirect to attacker infrastructure. This enables sophisticated credential harvesting via frameworks like EvilProxy, often bypassing MFA, or leads to the delivery of malware via malicious .LNK files and DLL side-loading, showcasing an abuse of OAuth's intended error handling behavior.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/microsoft-hackers-abuse-oauth-error-flows-to-spread-malware/",
                                     "timestamp": "2026.03.03",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
