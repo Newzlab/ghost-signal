@@ -1319,6 +1319,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-30709",
+                                    "title": "SUSPENDED NOAA SATELLITE CHIEF WARNS OF THREATS TO FEDERAL SCIENCE PROGRAMS",
+                                    "description": "<br><strong>STATUS:</strong> Stephen Volz, a high-ranking NOAA satellite division official on administrative leave, publicly accused the current administration of \"lobotomizing\" federal science agencies through significant workforce reductions and program cuts.\n\n<br><br><strong>INTEL:</strong> Volz, previously associate administrator for NOAA's NESDIS, alleges that his undisclosed administrative leave and broader government policies have led to the separation of 95,000 federal science positions, the cancellation of planned instruments, and the diversion of federal funds to for-profit companies. He warns that these actions severely compromise the government's ability to conduct essential weather and climate research, make informed decisions, and are creating a \"great silencing\" among scientists, despite some proposed budget cuts being rejected by Congress.",
+                                    "source_url": "https://spacenews.com/suspended-noaa-satellite-chief-warns-of-threats-to-federal-science-programs/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-50476",
                                     "title": "PRECISION IN ORBIT: HERAEUS CATALYSTS SAFEGUARD SATELLITE CONTROL",
                                     "description": "<br><strong>STATUS:</strong> Heraeus Precious Metals' H-KC12GA catalyst is critical for reliable satellite propulsion and precise orbital control in the international space industry.<br><br><strong>INTEL:</strong> Hydrazine (N\u2082H\u2084) remains the industry standard monopropellant for satellite propulsion, decomposing exothermically into thrust-generating gases upon contact with a specialized catalyst. Heraeus's benchmark H-KC12GA catalyst, based on iridium supported on aluminum oxide, is crucial for reliable impulse generation, ensuring stable reactions during cold starts and thousands of ignition cycles. Its proven robustness across numerous international space programs, including with ArianeGroup, directly contributes to precise altitude control, orbit maintenance, and overall mission success and safety for satellites.",
@@ -1709,20 +1717,44 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/stargazing-into-the-future-of-ssa/",
                                     "timestamp": "2026.03.02",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-91376",
-                                    "title": "PENTAGON DETAILS CYBER, SPACE \u2018FIRST MOVER\u2019 ROLE IN IRAN OPERATIONS",
-                                    "description": "<br><strong>STATUS:</strong> U.S. and Israeli forces initiated \"major combat operations\" against Iran on February 28, primarily targeting its nuclear and missile programs, with preparatory actions led by space and cyber forces.\n\n<br><strong>INTEL:</strong> This unprecedented, integrated campaign, commanded by U.S. Central Command, highlights how military operations now commence with non-kinetic \"first movers\" in space and cyberspace to shape the battlespace. U.S. Cyber Command and Space Command effectively disrupted and degraded Iran's ability to see, communicate, and respond by attacking sensor networks and communications, thereby reducing risk for subsequent kinetic strikes involving over 100 aircraft and 1,000 targets. The ongoing operation also heavily relies on space-enabled missile warning systems for defense against potential Iranian retaliation.",
-                                    "source_url": "https://spacenews.com/pentagon-details-cyber-space-first-mover-role-in-iran-operations/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-5524",
+                                    "title": "INSIGHTS INTO SPALLATION MECHANISMS OF THERMAL PROTECTION SYSTEM MATERIALS FROM MASS SPECTROMETRY AND\u00a0HYMETS\u00a0TESTING",
+                                    "description": "<br><strong>STATUS:</strong> Research has identified the spallation mechanisms of thermal protection system (TPS) materials under high-enthalpy environments, linking internal pressure buildup to material failure.\n\n<br><strong>INTEL:</strong> Complementary experimental approaches, utilizing in-depth pressure measurements from HyMETS and volatile species characterization via mass spectrometry, established a quantitative link between chemical decomposition and mechanical response in TPS. This revealed a sequence where early-stage water release and subsequent high-temperature pyrolysis gas evolution generate internal pressure, leading to localized crack formation and ultimately spallation if the pressure surpasses the material's local strength.",
+                                    "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/insights-into-spallation-mechanisms-of-thermal-protection-system-materials-from-mass-spectrometry-and-hymets-testing/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-63755",
+                                    "title": "MARCH 2026 SATELLITE PUZZLER",
+                                    "description": "<br><strong>STATUS:</strong> NASA Earth Observatory has released its March 2026 satellite image puzzler, inviting the public to identify the location. <br><br><strong>INTEL:</strong> This is a monthly challenge from NASA Earth Observatory where participants submit answers and clues to identify a geographical location from a satellite image. Participants are encouraged to provide details such as the satellite, instrument, and geological or historical context. The 'prize' for correct or insightful answers is \"puzzler bragging rights\" and a potential shout-out on their blog, with the answer and a detailed explanation posted within a week.",
+                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/march-2026-satellite-puzzler/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-1265",
+                                    "title": "COMPUTATIONAL MODELING OF FAILURE AT THE FABRIC WEAVE\u00a0LEVEL IN REENTRY PARACHUTE ENERGY MODULATORS",
+                                    "description": "<br><strong>STATUS:</strong> A novel computational model was developed to analyze and predict failure mechanisms, specifically 'EM shredding,' in reentry parachute energy modulators due to observed performance variability.<br><br><strong>INTEL:</strong> Energy modulators (EMs) in reentry parachutes, designed to dissipate snatch loads, are exhibiting unpredictable behavior and failures like 'EM shredding'\u2014where Kevlar webbing tears due to nylon stitches skipping. This study implements a novel computational approach using LS-DYNA, modeling individual Kevlar weave and nylon stitching threads as 3D solid elements at the fabric weave level, a departure from global fabric modeling, to gain deeper insight into these complex failure mechanisms and improve predictability.",
+                                    "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/computational-modeling-of-failure-at-the-fabric-weave-level-in-reentry-parachute-energy-modulators/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-55523",
+                                    "title": "ICE TO FUEL: NASA TESTS TECHNOLOGY FOR\u00a0REFUELING\u00a0LANDERS",
+                                    "description": "<br><strong>STATUS:</strong> NASA Glenn is testing CryoFILL technology to liquefy oxygen on other planetary surfaces, aiming to enable in-space refueling and reduce Earth-launched propellant.\n\n<br><strong>INTEL:</strong> The CryoFILL project seeks to transform future space exploration by producing rocket fuel (liquid oxygen) directly on the Moon or Mars from local resources like water ice, significantly reducing the propellant mass needed for launch from Earth. This capability supports NASA\u2019s Artemis program goal for a sustained lunar presence, extends mission durations, and is critical for future crewed Mars missions by enabling cost-effective in-situ resource utilization (ISRU) for refueling landers and spacecraft.",
+                                    "source_url": "https://www.nasa.gov/general/nasa-tests-lander-refueling-tech/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-81232",
                                     "title": "EXPANDING THE HUMAN FACTORS TOOLBOX:\u00a0\u00a0AN APPROACH TO BALANCING CREW AND MISSION DESIGN PARAMETERS",
@@ -2090,38 +2122,6 @@ const signalTree = {
                                     "source_url": "https://science.nasa.gov/blog/curiosity-blog-sols-4818-4824-thinking-out-of-the-boxwork/",
                                     "timestamp": "2026.03.03",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-26655",
-                                    "title": "NASA INVITES PROPOSALS TO LEASE LAND PARCELS AT SANDUSKY FACILITY",
-                                    "description": "<br><strong>STATUS:</strong> NASA\u2019s Glenn Research Center is soliciting proposals to lease approximately 1,736 acres of land at its Neil Armstrong Test Facility in Sandusky, Ohio.\n\n<br><br><strong>INTEL:</strong> Proposals for these five parcels, ranging from 184 to 516 acres each and including existing facilities and infrastructure access, are due by July 2, 2026, offering a 20-year base lease with two 10-year options. This Enhanced Use Lease initiative aims to reduce NASA's maintenance costs, foster strategic partnerships for innovation within space, aeronautics, and related industries, and generate regional economic opportunities by utilizing buffer land at a world-class test facility.",
-                                    "source_url": "https://www.nasa.gov/news-release/nasa-invites-land-lease-proposals/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-92830",
-                                    "title": "TWO OBSERVATORIES, ONE COSMIC EYE: HUBBLE AND EUCLID VIEW CAT\u2019S EYE NEBULA",
-                                    "description": "<br><strong>STATUS:</strong> The NASA/ESA Hubble Space Telescope and ESA's Euclid space telescope have collaborated to produce a new, highly detailed combined image of the intricate Cat's Eye Nebula (NGC 6543).<br><br><strong>INTEL:</strong> The combined observations provide an unprecedented view of this complex planetary nebula, revealing its multi-layered structure and the process of stellar death. Euclid's wide-field vision captures the nebula's outer halo and surrounding distant galaxies, while Hubble's focused high-resolution images detail the core's concentric shells, high-speed gas jets, and dense knots, offering a \"cosmic fossil record\" of the dying star's final evolutionary stages and placing this astrophysical beauty within the broader cosmic context.",
-                                    "source_url": "https://science.nasa.gov/missions/hubble/two-observatories-one-cosmic-eye-hubble-and-euclid-view-cats-eye-nebula/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-83132",
-                                    "title": "SMOKE RISES OVER BIG CYPRESS NATIONAL PRESERVE",
-                                    "description": "<br><strong>STATUS:</strong> The National fire has burned over 35,000 acres in Florida's Big Cypress National Preserve since February 22, 2026, causing significant smoke and road closures.\n\n<br><strong>INTEL:</strong> Discovered on February 22, 2026, the wildfire spread due to extreme drought-dried and frost-damaged vegetation, impacting visibility, closing I-75 (\"Alligator Alley\"), and contributing to smog over Lake Okeechobee. As of March 2, 2026, it remained approximately 35,000 acres and 38 percent contained, with above-normal fire potential forecast for Florida through May.",
-                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/smoke-rises-over-big-cypress-national-preserve/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-883",
-                                    "title": "WHAT\u2019S UP: MARCH 2026 SKYWATCHING TIPS FROM NASA",
-                                    "description": "<br><strong>STATUS:</strong> March will feature a total lunar eclipse, a Venus-Saturn conjunction, and the vernal equinox.<br><br><strong>INTEL:</strong> A total lunar eclipse, or \"blood moon,\" will occur on March 3rd, visible across eastern Asia, Australia, the Pacific, and most of the Americas, turning the moon red as Earth's atmosphere scatters light. On March 8th, Venus and Saturn will appear close in a conjunction in the western sky after sunset, despite being nearly a billion miles apart, and the vernal equinox on March 20th will signify the start of a new season with roughly equal day and night across the globe.",
-                                    "source_url": "https://science.nasa.gov/solar-system/whats-up-march-2026-skywatching-tips-from-nasa/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2138,6 +2138,22 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-11071",
+                                    "title": "NEW BEATBANKER ANDROID MALWARE POSES AS STARLINK APP TO HIJACK DEVICES",
+                                    "description": "<br><strong>STATUS:</strong> A new Android malware named BeatBanker is actively hijacking devices in Brazil by posing as a Starlink app on fake Google Play Store sites, combining banking trojan functions with Monero cryptocurrency mining.\n\n<br><strong>INTEL:</strong> BeatBanker employs advanced evasion techniques, including environment checks, delayed operations, and a unique persistence method that continuously plays a nearly inaudible audio file to prevent system termination. It utilizes a modified XMRig miner to stealthily mine Monero, dynamically adjusting operations based on detailed device telemetry reported via Firebase Cloud Messaging, and its latest version deploys the BTMOB RAT for full device control, keylogging, and credential capture. This sophisticated malware, while currently targeting Brazil, highlights an evolving threat landscape with potential for global expansion.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/new-beatbanker-android-malware-poses-as-starlink-app-to-hijack-devices/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-45069",
+                                    "title": "NEW 'ZOMBIE ZIP' TECHNIQUE LETS MALWARE SLIP PAST SECURITY TOOLS",
+                                    "description": "<br><strong>STATUS:</strong> A new \"Zombie ZIP\" technique exploits manipulated ZIP headers to conceal malicious payloads, enabling evasion of 50 out of 51 antivirus and EDR solutions.\n\n<br><br><strong>INTEL:</strong> This evasion method, assigned CVE-2026-0866, tricks security scanners by declaring DEFLATE-compressed data as uncompressed (Method=0), preventing signature detection while making standard extractors fail or report errors. Although general users will encounter errors, a custom loader can ignore the malformed header and correctly decompress the hidden payload, posing a significant risk that CERT/CC warns requires security vendors to enhance validation and implement more aggressive inspection of archive structures.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/new-zombie-zip-technique-lets-malware-slip-past-security-tools/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-42294",
                                     "title": "MICROSOFT RELEASES WINDOWS 10 KB5078885 EXTENDED SECURITY UPDATE",
@@ -2519,22 +2535,6 @@ const signalTree = {
                                     "title": "FBI SEIZES LEAKBASE CYBERCRIME FORUM, DATA OF 142,000 MEMBERS",
                                     "description": "<br><strong>STATUS:</strong> The FBI, in coordination with Europol and 14 countries, has seized the LeakBase cybercrime forum, a major online marketplace for stolen data and hacking tools.<br><br><strong>INTEL:</strong> Operation Leak, involving around 100 enforcement actions globally including arrests and searches, collected all forum data like user accounts, private messages, and IP logs for evidentiary purposes. LeakBase, active since 2021 with over 142,000 members and supported by the ARES threat group, offered a market for exploits and cybercrime services, marking another significant disruption in a series of takedowns targeting major cybercrime forums like RaidForums and BreachForums.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/fbi-seizes-leakbase-cybercrime-forum-data-of-142-000-members/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-39550",
-                                    "title": "EUROPOL-COORDINATED ACTION DISRUPTS TYCOON2FA PHISHING PLATFORM",
-                                    "description": "<br><strong>STATUS:</strong> An international law enforcement operation led by Europol has successfully disrupted Tycoon2FA, a prominent phishing-as-a-service (PhaaS) platform responsible for bypassing multi-factor authentication.\n\n<br><strong>INTEL:</strong> Tycoon2FA, active since August 2023, operated as an adversary-in-the-middle platform, utilizing reverse proxy servers to intercept login credentials and session cookies in real-time, thereby bypassing MFA protections for nearly 100,000 organizations worldwide. The collaborative effort, involving law enforcement from multiple countries and private partners like Microsoft and Trend Micro, resulted in the seizure of 330 domains comprising Tycoon2FA's infrastructure, disabling a service that generated tens of millions of phishing emails monthly and lowered the entry barrier for low-skilled cybercriminals.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/europol-coordinated-action-disrupts-tycoon2fa-phishing-platform/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-31497",
-                                    "title": "MISSISSIPPI MEDICAL CENTER REOPENS CLINICS HIT BY RANSOMWARE ATTACK",
-                                    "description": "<br><strong>STATUS:</strong> The University of Mississippi Medical Center (UMMC) has resumed normal operations nine days after a ransomware attack severely disrupted its IT systems and patient care services.<br><br><strong>INTEL:</strong> The ransomware attack significantly impacted UMMC's electronic medical records and IT systems, forcing clinic closures and appointment cancellations, though critical hospital services continued using downtime procedures. UMMC was in contact with the attackers, despite no group publicly claiming responsibility, and is now investigating the incident with assistance from the FBI and CISA, highlighting the operational vulnerabilities and strategic importance of cybersecurity for critical healthcare infrastructure.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/mississippi-medical-center-reopens-clinics-hit-by-ransomware-attack/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
