@@ -494,6 +494,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-85751",
+                                    "title": "CHINA AMPS UP ITS 2026 DEFENSE BUDGET BY 7% AMID PURGE OF GENERALS",
+                                    "description": "<br><strong>STATUS:</strong> China announced a 7% increase to its 2026 defense budget, reaching $277 billion, amidst a massive purge within the People's Liberation Army's highest echelons.\n\n<br><strong>INTEL:</strong> Although China reports its defense spending as modest, international experts widely contend the official $277 billion figure is understated by 32-63% due to excluded categories like research and development, accounting for nearly 44% of Asia's total military expenditure. Concurrently, President Xi Jinping has aggressively consolidated power through an anti-corruption campaign, purging 101 senior PLA leaders since 2022, including recent Central Military Commission members, while simultaneously escalating pressure on Taiwan with a record 5,709 aircraft sorties last year.",
+                                    "source_url": "https://www.defensenews.com/global/asia-pacific/2026/03/10/china-amps-up-its-2026-defense-budget-by-7-amid-purge-of-generals/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-96125",
                                     "title": "US AIR FORCE SEEKS SOURCES FOR STAND-IN ATTACK WEAPON COMPATIBLE WITH F-47, B-21",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Air Force is actively seeking additional industry sources to produce a Stand-in Attack Weapon (SiAW) or equivalent missile, compatible with platforms including the future F-47 fighter and B-21 bomber.\n\n<br><strong>INTEL:</strong> This market research initiative aims to broaden the industrial base for a critical supersonic air-to-ground missile capable of striking mobile targets like integrated air defenses and ballistic missile launchers in contested environments, requiring extended standoff range, advanced anti-radiation seekers, and robust anti-jamming. The outreach, which notably marks the first public mention of the F-47 in relation to a specific weapon, is reportedly driven by heightened concerns over munitions stockpiles and industrial base capacity, potentially influenced by recent geopolitical events like \"Operation Epic Fury against Iran,\" despite Northrop Grumman's existing SiAW development contract.",
@@ -882,14 +890,6 @@ const signalTree = {
                                     "title": "SIX DEAD, 18 SERVICE MEMBERS INJURED IN IRAN OPERATION",
                                     "description": "<br><strong>STATUS:</strong> U.S. casualties have risen to six killed and 18 wounded in Operation Epic Fury, an ongoing assault on Iran, after a projectile struck a U.S. tactical operations center in Kuwait.\n\n<br><strong>INTEL:</strong> This surge in casualties follows initial U.S. and Israeli strikes that killed Iran's Supreme Leader and 555 Iranians, with President Trump outlining objectives to destroy Iran's missile capability, annihilate its navy, and prevent nuclear weapons. Defense officials anticipate more losses in these \"major combat operations,\" leading U.S. Northern Command to raise security levels at domestic military installations to Force Protection Level Bravo.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/02/six-dead-18-service-members-injured-in-iran-operation/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-16628",
-                                    "title": "TRUMP PROJECTS WAR ON IRAN COULD LAST \u2018FOUR TO FIVE WEEKS\u2019",
-                                    "description": "<br><strong>STATUS:</strong> President Trump publicly defended the ongoing U.S. military operations against Iran, known as Operation Epic Fury, stating they are necessary to eliminate grave threats.\n\n<br><strong>INTEL:</strong> The strikes by the U.S. and Israel followed failed nuclear negotiations and target Iran's missile capabilities, navy, nuclear ambitions, and support for proxy groups, with Trump estimating operations could last four to five weeks while acknowledging U.S. casualties. Additional U.S. troops and fighter jets are being deployed to the Middle East, despite expert disagreement on Iran's immediate long-range missile threat to the U.S.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/02/trump-projects-war-on-iran-could-last-four-to-five-weeks/",
                                     "timestamp": "2026.03.02",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
