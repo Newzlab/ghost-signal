@@ -1724,6 +1724,14 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-28475",
+                                    "title": "CURIOSITY BLOG, SOLS 4825-4831: EXPLORING THE BORDERLANDS",
+                                    "description": "<br><strong>STATUS:</strong> The Mars Curiosity rover is in the final phase of exploring a \"spiderweb-like boxwork unit,\" specifically examining its eastern and southern borders.\n\n<br><br><strong>INTEL:</strong> The rover is conducting extensive in-situ and remote sensing measurements using APXS, MAHLI, ChemCam, and Mastcam on bedrock and a dark float rock named \"Thola\"; particular focus is on determining if \"Thola\" is a meteorite or native Martian material, alongside characterizing geological contacts and sedimentary structures of the surrounding terrain.",
+                                    "source_url": "https://science.nasa.gov/blog/curiosity-blog-sols-4825-4831-exploring-the-borderlands/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-8995",
                                     "title": "A MOST UNUSUAL LAKE",
                                     "description": "<br><strong>STATUS:</strong> Lake Unter-See in Antarctica is a unique, perennially frozen lake distinguished by its exceptionally high dissolved oxygen levels and the presence of towering, ancient-analogue stromatolites.\n\n<br><strong>INTEL:</strong> The lake's unusual chemistry, characterized by high oxygen and an alkaline pH, is primarily driven by large, conical stromatolites that release oxygen while trapped under permanent ice, resembling Earth's earliest life forms and offering insights into microbial evolution. Scientists consider Lake Unter-See a significant astrobiological analog for potential life environments on icy moons like Europa and Enceladus or early Mars, especially given that periodic glacial outburst floods observed in 2019 can abruptly alter its chemistry, replenishing carbon dioxide and enhancing microbial productivity, suggesting a mechanism for stimulating other CO2-depleted ecosystems.",
@@ -2112,14 +2120,6 @@ const signalTree = {
                                     "title": "LA NASA REFUERZA ARTEMIS: A\u00d1ADE UNA MISI\u00d3N Y PERFECCIONA SU ARQUITECTURA GENERAL",
                                     "description": "<br><strong>STATUS:</strong> NASA announced a significant update to its Artemis program on February 27th, increasing mission frequency, standardizing the SLS rocket, and adding a new test mission in 2027 ahead of the first crewed lunar landing now targeted for early 2028.\n\n<br><strong>INTEL:</strong> The newly added mission, Artemis III, slated for mid-2027, will involve launching the Orion spacecraft on the SLS to low Earth orbit to test rendezvous and docking capabilities with commercial lunar landers from SpaceX and Blue Origin. This is a crucial step before Artemis IV aims to land astronauts at the lunar South Pole by early 2028, a revised timeline from the previous mid-2025 goal. Meanwhile, the first crewed test flight, Artemis II, is addressing a helium flow issue in the SLS upper stage but remains on track for a launch window opening in April with its four-person international crew.",
                                     "source_url": "https://www.nasa.gov/missions/artemis/la-nasa-refuerza-artemis-anade-una-mision-y-perfecciona-su-arquitectura-general/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-19677",
-                                    "title": "NASA STRENGTHENS ARTEMIS: ADDS MISSION, REFINES OVERALL ARCHITECTURE",
-                                    "description": "<br><strong>STATUS:</strong> NASA announced an increased cadence for the Artemis program, including a new mission in 2027 and standardization of the SLS rocket, to land American astronauts on the Moon and maintain U.S. superiority in exploration.\n\n<br><strong>INTEL:</strong> This strategic update aims for a new system capabilities test mission in 2027 and the first crewed lunar South Pole landing in 2028, followed by one lunar mission per year, leveraging standardized SLS configurations to accelerate lunar exploration and lay groundwork for future Mars missions.",
-                                    "source_url": "https://www.nasa.gov/directorates/esdmd/nasa-strengthens-artemis-adds-mission-refines-overall-architecture/",
                                     "timestamp": "2026.03.03",
                                     "feed_name": "NASA_BREAKING"
                                 }
