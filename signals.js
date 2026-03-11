@@ -10,6 +10,14 @@ const signalTree = {
                             "name": "SHIELD_AI",
                             "articles": [
                                 {
+                                    "id": "GS-65319",
+                                    "title": "BEYOND THE AIRFRAME: SCALING MISSION AUTONOMY FOR CCAS",
+                                    "description": "<br><strong>STATUS:</strong> Shield AI's Hivemind AI pilot successfully achieved full mission autonomy aboard Anduril\u2019s YFQ-44A as part of the U.S. Air Force\u2019s Collaborative Combat Aircraft (CCA) program, marking a significant step in autonomous warfare.<br><br><strong>INTEL:</strong> This flight is crucial as it demonstrates the Air Force's move to decouple mission autonomy from hardware, elevating AI pilots like Hivemind to a foundational warfighting capability, allowing for \"software sold separately\" upgrades. This strategy, underpinned by open standards such as the Autonomy Government Reference Architecture (A-GRA), enables rapid, cost-effective integration and scaling of AI across diverse platforms, aiming to restore air dominance through coordinated manned-unmanned teaming that overwhelms adversaries with mass and decision advantage.",
+                                    "source_url": "https://shield.ai/beyond-the-airframe-scaling-mission-autonomy-for-ccas/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "SHIELD_AI"
+                                },
+                                {
                                     "id": "GS-53373",
                                     "title": "SHIELD AI\u2019S V-BAT PROVES COLD WEATHER CAPABILITIES IN NATO\u2019S ARENA HEIMDALL EXERCISE",
                                     "description": "<br><strong>STATUS:</strong> Shield AI successfully demonstrated Arctic-ready, ship-based intelligence, surveillance, and reconnaissance (ISR) capabilities using its V-BAT UAS during NATO's HEIMDALL 26 exercise in Norway.<br><br><strong>INTEL:</strong> The NATO HEIMDALL 26 exercise validated the alliance's Arctic experimentation arena and evaluated manned-unmanned teaming concepts, integrating Shield AI's V-BAT UAS as an ISR node into the NATO Federated Mission Network and Multi Domain Operation framework. The V-BAT, a NATO Class I VTOL UAS with 12+ hours endurance and a heavy-fuel engine, proved its ability to conduct day and night operations in extreme cold and maritime conditions without modifications, employing various sensor payloads and feeding intelligence directly into multinational command-and-control systems, enhancing situational awareness and serving as a force multiplier in contested environments.",
@@ -494,6 +502,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-78877",
+                                    "title": "NORWEGIAN F-35S INTERCEPT RUSSIAN SPY AIRCRAFT DURING NATO DRILL",
+                                    "description": "<br><strong>STATUS:</strong> Norwegian F-35s intercepted Russian intelligence-gathering aircraft two days in a row during an ongoing NATO military exercise off the Norwegian coast.<br><br><strong>INTEL:</strong> On March 10 and 11, Norwegian F-35s from Evenes Air Station were scrambled in Quick Reaction Alert (QRA) missions to monitor a Russian Ilyushin Il-20M surveillance aircraft operating in international airspace with its transponder off, which the Norwegian Armed Forces described as \"routine and expected\" during the large-scale Cold Response 2026 exercise. These interceptions underscore persistent Russian intelligence activities near NATO operations, with Norwegian pilots averaging 38 annual QRA missions against unidentified Russian planes since 2022.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/11/norwegian-f-35s-intercept-russian-spy-aircraft-during-nato-drill/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-72935",
                                     "title": "IRAN WAR MAY FORCE US TO SHIFT MISSILE DEFENSES FROM SOUTH KOREA, SEOUL SAYS",
                                     "description": "<br><strong>STATUS:</strong> South Korea\u2019s president confirmed that some U.S. THAAD air defense systems stationed on the Korean peninsula could be redeployed overseas to the Middle East due to the intensifying U.S. war with Iran.\n\n<br><strong>INTEL:</strong> This strategic relocation of scarce THAAD missile defense assets, reported amidst actual troop movements, underscores the significant strain on U.S. resources as the conflict with Iran escalates. The ongoing war is reportedly consuming a substantial portion of the limited THAAD inventory, raising critical concerns about the long-term sustainability of missile defense capabilities and replenishment rates, especially given satellite intelligence suggesting Iranian targeting of U.S. missile defense radar sites in the Middle East.",
@@ -882,14 +898,6 @@ const signalTree = {
                                     "title": "GULF STATES WARN OF LEGAL PENALTIES IN SHARING OF IRAN STRIKES FOOTAGE",
                                     "description": "<br><strong>STATUS:</strong> Gulf state authorities are warning residents and tourists against publishing online content of Iranian military strikes, threatening severe legal consequences including substantial fines and imprisonment.<br><br><strong>INTEL:</strong> These directives from Dubai, Bahrain, Kuwait, and Qatar aim to prevent the spread of misinformation, safeguard public safety, maintain operational security, and avoid inadvertently aiding Iranian targeting efforts, mirroring measures taken by Ukraine during the Russian invasion, as Iran continues drone and missile attacks against U.S. forces and infrastructure in the Gulf, including a recent strike on the U.S. Consulate in Dubai.",
                                     "source_url": "https://www.defensenews.com/global/mideast-africa/2026/03/04/gulf-states-warn-of-legal-penalties-in-sharing-of-iran-strikes-footage/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-60299",
-                                    "title": "PENDING TANKER PURCHASE SPOTLIGHTS CHOICE FOR POLAND: BUY EUROPEAN OR US?",
-                                    "description": "<br><strong>STATUS:</strong> Poland is advancing legislation to accept significant EU defense loans, sparking a political debate over national debt, potential procurement shifts from U.S. to European companies, and sovereignty.<br><br><strong>INTEL:</strong> The EU's SAFE scheme offers Poland \u20ac43.7 billion ($50.7 billion) in low-cost loans to bolster its defense capabilities amidst the Ukraine conflict, with parliamentary approval pending presidential decision this month. While Prime Minister Tusk champions the program to inject funds into the Polish defense sector and maintain U.S. procurements, the opposition, led by President Nawrocki and former Defence Minister B\u0142aszczak, fears the loans could increase state debt, impose EU political conditions, bias procurements towards European manufacturers (e.g., Airbus over Boeing), and undermine Poland's strategic alliance with the U.S. and its procurement sovereignty.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/04/pending-tanker-purchase-spotlights-choice-for-poland-buy-european-or-us/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1724,6 +1732,22 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-15702",
+                                    "title": "2026 WILLIAM T. PECORA AWARD NOMINATIONS NOW BEING ACCEPTED",
+                                    "description": "<br><strong>STATUS:</strong> Nominations are now open for the 2026 William T. Pecora Award, recognizing outstanding contributions in satellite or aerial remote sensing.\n\n<br><strong>INTEL:</strong> Sponsored jointly by the U.S. Department of the Interior and NASA since 1974, this annual award honors Dr. William T. Pecora, a pivotal figure in civil remote sensing and the establishment of the Landsat satellite program; nominations close on May 29, 2026.",
+                                    "source_url": "https://science.nasa.gov/missions/landsat/2026-william-t-pecora-award-nominations-now-being-accepted/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-75150",
+                                    "title": "ABOUT UNIVERSITY INNOVATION PROJECT (UI)",
+                                    "description": "<br><strong>STATUS:</strong> NASA's University Innovation (UI) project funds university-led research and student initiatives to address critical challenges within the agency's Aeronautics Research Mission Directorate.\n\n<br><strong>INTEL:</strong> The UI project strategically aims to achieve aviation outcomes defined in ARMD's plan, ensure the transition of research results to stakeholders, and offer broad opportunities for students at all academic levels. This is executed through programs like the University Leadership Initiative (ULI), which fosters university-led technical leadership, and the University Students Research Challenge (USRC), which stimulates novel aeronautics concepts and develops entrepreneurial skills through required crowdfunding for grants.",
+                                    "source_url": "https://www.nasa.gov/directorates/armd/tacp/ui/about-ui/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-16260",
                                     "title": "TELESCOPES TEAM UP FOR NEW VIEW OF CAT\u2019S EYE NEBULA",
                                     "description": "<br><strong>STATUS:</strong> A combined ESA Euclid and NASA Hubble image of the Cat's Eye Nebula was released, showcasing its intricate structure.\n\n<br><br><strong>INTEL:</strong> This March 3, 2026, image combines views from both space telescopes to feature the visually intricate and multilayered Cat's Eye Nebula (NGC 6543), a planetary nebula located 4,400 light-years away in the constellation Draco, offering new insights into the remnants of a dying star.",
@@ -2106,22 +2130,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/news-release/nasa-opm-launch-nasa-force-to-recruit-top-talent-for-us-space-program/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-58916",
-                                    "title": "US-FRENCH SATELLITE TAKES STOCK OF WORLD\u2019S RIVER WATER",
-                                    "description": "<br><strong>STATUS:</strong> The NASA-CNES SWOT mission has provided initial findings indicating that global river volume fluctuations are significantly less than previously modeled, while also revealing new details about underwater river topography.\n\n<br><br><strong>INTEL:</strong> The Surface Water and Ocean Topography (SWOT) satellite, launched in 2022, is the first to precisely survey nearly all Earth's rivers and lakes, using its Ka-band Radar Interferometer (KaRIn) to simultaneously measure river height and width. This new data, analyzing 1.6 million observations from October 2023 to September 2024, showed a 28% smaller aggregate volume swing (83 trillion gallons) than prior estimates, although this was likely skewed by a record Amazon drought. The mission is crucial for untangling complex hydrological questions, improving flood forecasting, understanding water resource dynamics, and mapping previously unknown riverbed contours, with further analysis expected to fully determine the role of floodplain dynamics.",
-                                    "source_url": "https://www.nasa.gov/earth/us-french-satellite-takes-stock-of-worlds-river-water/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-67096",
-                                    "title": "SEARCHING FOR SELENITE",
-                                    "description": "<br><strong>STATUS:</strong> Landsat 8 captured images of Oklahoma's Salt Plains National Wildlife Refuge on October 10, 2025, highlighting its unique geological and ecological features.<br><br><strong>INTEL:</strong> The Salt Plains are globally unique as the sole location for hourglass selenite crystal formation, a process rooted in Permian Period salt deposits combining with gypsum and saline groundwater. Recent Landsat 8 OLI images, utilizing false-color (shortwave infrared and visible light) analysis, provided insights into the region's diverse ecosystem, water bodies, and variations in moisture or salinity levels, underscoring its importance as a habitat for over 300 bird species.",
-                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/searching-for-selenite/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2138,6 +2146,22 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-51281",
+                                    "title": "WHATSAPP INTRODUCES PARENT-MANAGED ACCOUNTS FOR PRE-TEENS",
+                                    "description": "<br><strong>STATUS:</strong> WhatsApp has launched parent-managed accounts for pre-teens, allowing guardians to control contacts and groups while maintaining end-to-end encryption.\n\n<br><strong>INTEL:</strong> These restricted accounts prevent access to features like Meta AI, Channels, and location sharing, and parents use a PIN to manage privacy settings, contact approvals, and receive activity alerts for chat requests or new group members. Setup requires both parent and child devices for verification and linking, with accounts automatically transitioning to standard profiles at age 13; WhatsApp also introduced new anti-scam protections warning users of fraudulent device-linking requests.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/whatsapp-introduces-parent-managed-accounts-for-pre-teens/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-96313",
+                                    "title": "SQLI FLAW IN ELEMENTOR ALLY PLUGIN IMPACTS 250K+ WORDPRESS SITES",
+                                    "description": "<br><strong>STATUS:</strong> A high-severity SQL injection vulnerability (CVE-2026-2313) in the Elementor Ally WordPress plugin allows unauthenticated data theft, leaving over 250,000 websites currently exposed.\n\n<br><strong>INTEL:</strong> This flaw, discovered by Drew Webber, impacts Ally versions up to 4.0.3 and enables attackers to inject SQL commands via URL parameters in the `get_global_remediations()` method, provided the plugin is connected to an Elementor account with the Remediation module active. Although patched in Ally version 4.1.0, a significant portion of installations remain vulnerable, facilitating time-based blind SQL injection attacks; users are urged to upgrade Ally immediately and also apply the latest WordPress 6.9.2 security update.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/sqli-flaw-in-elementor-ally-plugin-impacts-250k-plus-wordpress-sites/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-68349",
                                     "title": "CISA ORDERS FEDS TO PATCH N8N RCE FLAW EXPLOITED IN ATTACKS",
@@ -2519,22 +2543,6 @@ const signalTree = {
                                     "title": "BITWARDEN ADDS SUPPORT FOR PASSKEY LOGIN ON WINDOWS 11",
                                     "description": "<br><strong>STATUS:</strong> Bitwarden has enabled support for logging into Windows 11 devices using passkeys stored in its manager's vault, facilitating phishing-resistant authentication.\n\n<br><strong>INTEL:</strong> This new feature leverages Bitwarden as a passkey provider, storing cryptographic credentials in a user's synced vault rather than a single device, thus allowing account recovery and significantly reducing the risk of phishing attacks by eliminating password entry. Available on all Bitwarden plans, this capability builds upon Microsoft's November 2025 announcement of a passkey provider API, extending it to the fundamental OS authentication layer and enhancing overall security for Windows users.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/bitwarden-adds-support-for-passkey-login-on-windows-11/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-89854",
-                                    "title": "MAIL2SHELL ZERO-CLICK ATTACK LETS HACKERS HIJACK FREESCOUT MAIL SERVERS",
-                                    "description": "<br><strong>STATUS:</strong> A critical, zero-click, unauthenticated remote code execution (RCE) vulnerability (CVE-2026-28289) has been discovered in the FreeScout helpdesk platform.\n<br><br><strong>INTEL:</strong> This maximum severity flaw allows attackers to achieve RCE by sending a single crafted email with a malicious attachment, bypassing a prior patch (CVE-2026-27636) through the use of a zero-width space character in the filename. Affecting all FreeScout versions up to and including 1.8.206, the vulnerability is patched in version 1.8.207, but immediate patching is advised due to the high risk of full server compromise, and OX Research additionally recommends disabling \u2018AllowOverrideAll\u2019 in Apache configurations.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/mail2shell-zero-click-attack-lets-hackers-hijack-freescout-mail-servers/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-70201",
-                                    "title": "WINDOWS 10 KB5075039 UPDATE FIXES BROKEN RECOVERY ENVIRONMENT",
-                                    "description": "<br><strong>STATUS:</strong> Microsoft has released an update (KB5075039) for Windows 10 to fix a critical issue preventing the Windows Recovery Environment (WinRE) from starting successfully.\n\n<br><strong>INTEL:</strong> This update addresses a flaw introduced by the October 2025 KB5068164 update, which broke WinRE functionality; affected users may need to ensure their WinRE partition is at least 256MB and potentially resize it to install the fix, highlighting a recurring challenge with post-update system recovery.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5075039-update-fixes-broken-recovery-environment/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
