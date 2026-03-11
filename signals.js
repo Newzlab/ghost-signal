@@ -494,6 +494,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-7713",
+                                    "title": "AMID US MILITARY ACTIONS, WHITE HOUSE STRUGGLES TO EXPLAIN HOW IRAN WAR WILL END",
+                                    "description": "<br><strong>STATUS:</strong> President Trump's 12-day-old war with Iran is characterized by his inconsistent objectives and lack of clear strategy, leading to global economic tremors and an unpredictable path forward.\n\n<br><br><strong>INTEL:</strong> Despite US claims of significant military success, Iran's leaders remain defiant, keeping the critical Strait of Hormuz closed and threatening further retaliation. Trump's vacillating rhetoric, ranging from \"unconditional surrender\" to an unclear endgame, and his unsubstantiated \"feeling\" as a casus belli, have drawn criticism and failed to rally public support, with polls indicating a perception that the conflict makes the US \"less safe\" while at least seven US troops have died.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/11/amid-us-military-actions-white-house-struggles-to-explain-how-iran-war-will-end/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-83747",
                                     "title": "JAPAN SHRUGS OFF GCAP DELAYS, FAST-TRACKS EXPORT RULES FOR FUTURE WARPLANE",
                                     "description": "<br><strong>STATUS:</strong> Japan is working to accelerate the tri-nation Global Combat Air Programme (GCAP) fighter jet collaboration with the U.K. and Italy, despite reported fiscal and contract delays that are not expected to significantly impact its 2035 deployment target.<br><br><strong>INTEL:</strong> The GCAP project faces contract delays primarily due to funding issues within the U.K.'s Defense Investment Plan, though experts believe this represents a funding adjustment rather than a structural crisis. Concurrently, Japan is advancing efforts to relax stringent export restrictions on defense equipment, which would allow future exports of GCAP and other defense assets like Mogami-class frigates, strengthening its domestic defense industry and providing strategic \"de-risking\" from its traditional reliance on the U.S. while countering increasing Chinese military capabilities.",
@@ -882,14 +890,6 @@ const signalTree = {
                                     "title": "TRUMP SAYS US NAVY COULD ESCORT SHIPS THROUGH STRAIT OF HORMUZ",
                                     "description": "<br><strong>STATUS:</strong> President Trump announced the potential for U.S. naval escorts for shipping in the Strait of Hormuz, amidst threats from Iran to target vessels in the embattled passage.\n\n<br><strong>INTEL:</strong> The Strait of Hormuz is a pivotal oil transit choke point, handling 21 million barrels per day in 2022, and Iran's threats to maritime traffic have already caused a 70% drop in shipping and an average 11-cent rise in U.S. gas prices, highlighting significant economic and strategic stakes in the region.",
                                     "source_url": "https://www.defensenews.com/news/your-navy/2026/03/03/trump-says-us-navy-could-escort-ships-through-strait-of-hormuz/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-88461",
-                                    "title": "B-1B LANCERS CONDUCT DEEP STRIKES IN IRAN AS PART OF OPERATION EPIC FURY",
-                                    "description": "<br><strong>STATUS:</strong> U.S. Air Force B-1B Lancer bombers conducted long-range strikes deep inside Iran, targeting ballistic missile facilities and command-and-control infrastructure as part of Operation Epic Fury.\n\n<br><strong>INTEL:</strong> These B-1B strikes followed previous B-2 Spirit stealth bomber operations, collectively resulting in \"local air superiority\" over Iran and aiming to destroy Iran's missile industry, as stated by the President. The mission involved ultra-long-range sorties, likely from Ellsworth AFB, requiring multiple aerial refuelings and leveraging the B-1B's substantial conventional payload capacity, with over 1,700 targets reportedly struck within the first 72 hours of the operation.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/03/b-1b-lancers-conduct-deep-strikes-in-iran-as-part-of-operation-epic-fury/",
                                     "timestamp": "2026.03.03",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -2139,6 +2139,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-48586",
+                                    "title": "META ADDS NEW WHATSAPP, FACEBOOK, AND MESSENGER ANTI-SCAM TOOLS",
+                                    "description": "<br><strong>STATUS:</strong> Meta is rolling out enhanced anti-scam protections across its WhatsApp, Facebook, and Messenger platforms, specifically addressing device-linking scams and other fraudulent activities.<br><br><strong>INTEL:</strong> The new WhatsApp protections are crucial as they target a sophisticated account hijacking method where scammers trick users into linking a malicious device to their account via QR codes or linking codes, granting full access to messages without the victim losing their account, thus evading easy detection. This initiative follows warnings from intelligence agencies regarding state-backed hackers targeting government employees' messaging accounts via similar tactics, underscoring the strategic importance of securing these communication channels. Meta is also leveraging AI for broader scam detection and is collaborating with law enforcement to disrupt global scam networks.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/meta-adds-new-whatsapp-facebook-and-messenger-anti-scam-tools/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-54753",
                                     "title": "NEW \u2018BLACKSANTA\u2019 EDR KILLER SPOTTED TARGETING HR DEPARTMENTS",
                                     "description": "<br><strong>STATUS:</strong> A Russian-speaking threat actor has been operating a sophisticated malware campaign for over a year, targeting HR departments with a new EDR killer named BlackSanta.<br><br><strong>INTEL:</strong> The campaign leverages spear-phishing with ISO files disguised as resumes, employing advanced evasion techniques like steganography, DLL sideloading, and process hollowing to deploy the BlackSanta EDR killer. BlackSanta works by modifying Windows Defender settings, reducing telemetry, suppressing notifications, and terminating security processes, further enhancing its stealth and persistence by using legitimate signed drivers (RogueKiller and IObitUnlocker) for privilege escalation and bypassing security tools.",
@@ -2527,14 +2535,6 @@ const signalTree = {
                                     "title": "SPYWARE-GRADE CORUNA IOS EXPLOIT KIT NOW USED IN CRYPTO THEFT ATTACKS",
                                     "description": "<br><strong>STATUS:</strong> A newly discovered iOS exploit kit named \u201cCoruna,\u201d comprising 23 exploits and five full chains, has been actively deployed by various threat actors, including surveillance vendors, state-sponsored groups, and financially motivated cybercriminals, to target iOS devices up to version 17.2.1 for both espionage and cryptocurrency theft.\n\n<br><strong>INTEL:</strong> Google Threat Intelligence Group (GTIG) first observed Coruna in February 2025, initially linked to a surveillance vendor customer, later utilized by suspected Russian cyberspies (UNC6353) in watering hole attacks against Ukrainian users, and subsequently by financially motivated Chinese actor UNC6691 on fake gambling and crypto sites. This sophisticated kit bypasses mitigations, fingerprints devices to select appropriate exploit chains, and delivers a stager loader (PlasmaLoader) that targets cryptocurrency wallet apps like MetaMask and Exodus to steal recovery phrases and sensitive data, employing AES encryption and a DGA for C2 resilience; its broad proliferation suggests an active \"second-hand\" market for advanced zero-day exploits.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/spyware-grade-coruna-ios-exploit-kit-now-used-in-crypto-theft-attacks/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-37020",
-                                    "title": "HACKER MASS-MAILS HUNGERRUSH EXTORTION EMAILS TO RESTAURANT PATRONS",
-                                    "description": "<br><strong>STATUS:</strong> Threat actors are extorting HungerRush, a restaurant technology provider, by directly emailing its customers with claims of compromised data to pressure the company into responding.\n\n<br><strong>INTEL:</strong> The attackers leveraged HungerRush's legitimate email infrastructure, authenticated via SPF/DKIM/DMARC, to send extortion emails from the company's domain, claiming access to millions of sensitive customer and restaurant data records. Although HungerRush has not confirmed a breach, an alleged infostealer infection on an employee's device in 2025 (likely a typo) may have compromised corporate credentials, potentially providing an entry point for the claimed data theft and necessitating customer vigilance against phishing attempts.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/hacker-mass-mails-hungerrush-extortion-emails-to-restaurant-patrons/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
