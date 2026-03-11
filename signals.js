@@ -494,6 +494,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-7089",
+                                    "title": "US SPACE FORCE CLEARS DESIGN MILESTONE, ADVANCES MISSILE-WARNING CONSTELLATION",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Space Force has completed the preliminary design review for the 10-satellite Epoch 2 medium Earth orbit constellation, a key step in its Resilient Missile Warning and Tracking program.<br><br><strong>INTEL:</strong> This design milestone, achieved by BAE Systems Space and Mission Systems for the $1.2 billion contract, positions the program to proceed to critical design review this summer with first delivery planned for fiscal year 2029. The Epoch 2 constellation, following Epoch 1, is crucial for providing persistent global coverage and tracking of advanced missile threats, thereby enhancing national security and protecting U.S. and allied interests against sophisticated adversaries.",
+                                    "source_url": "https://www.defensenews.com/space/2026/03/10/us-space-force-clears-design-milestone-advances-missile-warning-constellation/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-34231",
+                                    "title": "TRUMP\u2019S SONS INVEST IN COMPANIES VYING TO FILL GAPS IN US DRONE INDUSTRY",
+                                    "description": "<br><strong>STATUS:</strong> Eric Trump and Donald Trump Jr. have invested in Powerus Corporation, a drone producer merging with their golf course holding company, to develop autonomous drones for the U.S. military.\n\n<br><strong>INTEL:</strong> This investment is strategically timed amidst escalating geopolitical tensions, particularly after Iranian drone attacks on U.S. bases highlighted significant gaps in U.S. air defenses and the underestimation of low-cost drone threats, prompting the U.S. to seek Ukrainian counter-drone expertise. Powerus intends to utilize the investment to scale manufacturing, acquire other drone technology firms, and integrate lessons learned from the Ukraine conflict to provide effective, American-faced autonomous drone solutions to the Pentagon, with Eric Trump also investing in Xtend, an AI-driven drone operating system firm.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/10/trumps-sons-invest-in-companies-vying-to-fill-gaps-in-us-drone-industry/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-19824",
                                     "title": "TWO IRANIAN WARSHIPS TAKE SANCTUARY IN INDIA AND SRI LANKA",
                                     "description": "<br><strong>STATUS:</strong> A U.S. submarine torpedoed an Iranian warship, the Iris Dena, in the Indian Ocean, leading to two other Iranian warships docking in India and Sri Lanka under \"humanitarian\" pretexts.<br><br><strong>INTEL:</strong> The sinking of the Iris Dena off Sri Lanka\u2019s coast marks the first military strike outside the Middle East since the war began, escalating concerns about the conflict's potential expansion beyond the Persian Gulf. This incident caused diplomatic embarrassment for India, which had recently hosted the torpedoed vessel, and exposed the asymmetry in its defense partnership with the U.S., casting a shadow over India's regional influence despite its declared neutrality and humanitarian gestures to the other Iranian ships. U.S. officials confirmed the strike, signaling their extensive reach and intent to destroy Iran's military capabilities.",
@@ -874,22 +890,6 @@ const signalTree = {
                                     "title": "US AIR FORCE WANTS MORE ARMORED TRANSPORTERS FOR ICBM WARHEADS",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Air Force is seeking five additional armored Payload Transporter Replacement (PTR) vehicles to address obsolescence and security deficiencies in its fleet used for Minuteman III intercontinental ballistic missile components.<br><br><strong>INTEL:</strong> The PTR is a specially armored tractor-trailer designed as the sole platform for transporting and conducting remove/replace operations of critical nuclear missile components, including Reentry Systems and Propulsion System Rocket Engines, at ICBM launch facilities. This acquisition addresses immediate logistical and security concerns for the aging Minuteman III force, which itself faces widespread obsolescence issues and whose planned replacement, the LGM-35A Sentinel, is experiencing significant delays, potentially extending the Minuteman III's service life to 2050.",
                                     "source_url": "https://www.defensenews.com/air/2026/03/03/us-air-force-wants-more-armored-transporters-for-icbm-warheads/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-49779",
-                                    "title": "FRANCE SENDS AIRCRAFT CARRIER TO MEDITERRANEAN AS MIDDLE EAST FLARES UP",
-                                    "description": "<br><strong>STATUS:</strong> France is deploying its Charles de Gaulle aircraft carrier strike group to the Mediterranean and augmenting military assets in the Middle East and Cyprus due to the escalating war and threats to vital shipping lanes.\n\n<br><strong>INTEL:</strong> This significant deployment, rerouted from NATO missions and including Rafale jets, various frigates, and an Italian destroyer, is a direct response to the expanding conflict between the U.S., Israel, and Iran, which has profoundly disrupted global trade and threatened critical maritime routes like the Strait of Hormuz and the Suez Canal/Red Sea. France aims to protect its economic interests, secure freedom of navigation, and is actively building an international coalition to pool military resources for this purpose, having already engaged hostile drones and sent additional air-defense assets to the region.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/03/france-sends-aircraft-carrier-to-mediterranean-as-middle-east-flares-up/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-20372",
-                                    "title": "GREECE DEPLOYS WARSHIPS, JETS TO CYPRUS AFTER DRONE STRIKES ON UK AIR BASE AKROTIRI",
-                                    "description": "<br><strong>STATUS:</strong> Greece dispatched two frigates and four F-16s to Cyprus following a drone strike on RAF Akrotiri, the British military's main Middle East hub, as the Iran conflict threatens to spill into the Eastern Mediterranean.<br><br><strong>INTEL:</strong> The Shahed-type drone strike on RAF Akrotiri, causing minimal damage, is widely seen as Iranian retaliation for U.S. operations from British bases in Cyprus supporting U.S.-Israeli actions against Iran, prompting Greece to deploy an advanced frigate with long-range air defense and another with a counter-drone system, alongside F-16s, while the Islamic Revolutionary Guard Corps has threatened ballistic missile strikes on Cyprus and the U.K. reportedly plans to send a ballistic missile-intercepting warship.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/03/greece-deploys-warships-jets-to-cyprus-after-drone-strikes-on-uk-air-base-akrotiri/",
                                     "timestamp": "2026.03.03",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1319,6 +1319,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-99534",
+                                    "title": "STARLAB SPACE FULLY BOOKS COMMERCIAL PAYLOAD SPACE ON PLANNED SPACE STATION",
+                                    "description": "<br><strong>STATUS:</strong> The Starlab commercial space station has fully booked its commercial payload capacity, signaling strong market demand well in advance of its anticipated launch.\n\n<br><br><strong>INTEL:</strong> Voyager Technologies, leading the Starlab joint venture (which includes Airbus and others), reported $6 million in commercial backlog and is conducting a Series A funding round, complementing $183 million received from NASA's CLD program. The station's full reservation, including a year-long commitment from German biotech company Yuri, underscores a growing demand for persistent commercial activity in low Earth orbit, even as NASA's CLD Phase 2 program faces delays, prompting a proposed extension of the ISS until 2032. Starlab plans to launch on SpaceX's Starship via a $90 million contract, with Voyager anticipating the crucial CLD Phase 2 Request for Proposals within the next 60 days to secure further NASA funding and maintain momentum towards its 2027 operational target.",
+                                    "source_url": "https://spacenews.com/starlab-space-fully-books-commercial-payload-space-on-planned-space-station/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-94367",
+                                    "title": "VIASAT WINS $14 MILLION CONTRACT TO PROVIDE IN-FLIGHT SATCOM FOR NAVY EXECUTIVE AIRCRAFT",
+                                    "description": "<br><strong>STATUS:</strong> Viasat secured a $14 million contract to provide in-flight satellite communications for the U.S. Navy's C-37 executive transport aircraft.<br><br><strong>INTEL:</strong> This sole-source, two-year contract ensures critical secure broadband connectivity for senior Navy leaders aboard C-37 executive jets, enabling secure communications, video conferencing, and data access. The acquisition was justified by Viasat's proprietary ArcLight modem system, which provides high-capacity, worldwide connectivity across both classified and unclassified networks, a capability deemed unique for this specific requirement.",
+                                    "source_url": "https://spacenews.com/viasat-wins-14-million-contract-to-provide-in-flight-satcom-for-navy-executive-aircraft/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-30709",
                                     "title": "SUSPENDED NOAA SATELLITE CHIEF WARNS OF THREATS TO FEDERAL SCIENCE PROGRAMS",
                                     "description": "<br><strong>STATUS:</strong> Stephen Volz, a high-ranking NOAA satellite division official on administrative leave, publicly accused the current administration of \"lobotomizing\" federal science agencies through significant workforce reductions and program cuts.\n\n<br><br><strong>INTEL:</strong> Volz, previously associate administrator for NOAA's NESDIS, alleges that his undisclosed administrative leave and broader government policies have led to the separation of 95,000 federal science positions, the cancellation of planned instruments, and the diversion of federal funds to for-profit companies. He warns that these actions severely compromise the government's ability to conduct essential weather and climate research, make informed decisions, and are creating a \"great silencing\" among scientists, despite some proposed budget cuts being rejected by Congress.",
@@ -1701,28 +1717,20 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/deutsche-telekom-aims-to-bring-starlink-mobile-v2-to-europe-in-2028/",
                                     "timestamp": "2026.03.02",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-74875",
-                                    "title": "KELLI KEDIS\u00a0OGBORN JOINING\u00a0COMMERCIAL SPACE FEDERATION AS STRATEGIC ADVISOR FOR GLOBAL MARKETS AND INDUSTRY ENGAGEMENT",
-                                    "description": "<br><strong>STATUS:</strong> Kelli Kedis Ogborn has been appointed as Strategic Advisor for Global Markets and Industry Engagement at the Commercial Space Federation (CSF).<br><br><strong>INTEL:</strong> This strategic hire signals CSF's intent to aggressively expand its global footprint, strengthen international partnerships, and secure resilient supply chains amidst intensifying global competition. Ogborn's expertise will be crucial in translating complex space technologies into actionable policies, aligning industry, governments, and capital markets to bolster the U.S. commercial space economy and national security.",
-                                    "source_url": "https://spacenews.com/kelli-kedis-ogborn-joining-commercial-space-federation-as-strategic-advisor-for-global-markets-and-industry-engagement/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-49827",
-                                    "title": "STARGAZING INTO THE FUTURE OF SSA",
-                                    "description": "<br><strong>STATUS:</strong> SpaceX has launched \"Stargaze,\" a new space situational awareness (SSA) service utilizing its Starlink constellation to track objects in low Earth orbit with unprecedented frequency.\n\n<br><strong>INTEL:</strong> Stargaze leverages nearly 10,000 Starlink satellites to generate 30 million daily observations, a significant leap in LEO object tracking potentially offered free in exchange for maneuver data. While heralded as a \"game changer,\" this initiative raises strategic concerns regarding its disruptive impact on existing commercial SSA providers, the critical need for independent validation of its data accuracy, and the potential for SpaceX's service to become a de facto standard without sufficient oversight from the broader space community or government entities like the Office of Space Commerce.",
-                                    "source_url": "https://spacenews.com/stargazing-into-the-future-of-ssa/",
-                                    "timestamp": "2026.03.02",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-3983",
+                                    "title": "ABOUT SUBSONIC VEHICLE TECHNOLOGIES AND TOOLS PROJECT",
+                                    "description": "<br><strong>STATUS:</strong> NASA's Subsonic Vehicle Technologies and Tools (SVTT) project is actively developing advanced technologies and tools for next-generation subsonic aircraft, including urban air mobility (UAM) vehicles and traditional fixed-wing designs.<br><br><strong>INTEL:</strong> The SVTT project aims to strengthen U.S. industrial competitiveness in the global subsonic transport aircraft market by fostering revolutionary advancements in aircraft performance, fuel efficiency, noise reduction, and the integration of emerging electrified propulsion systems. This strategic research supports both economic expansion into new markets and critical public good missions, such as disaster relief and emergency services, ensuring American leadership in future aviation technologies.",
+                                    "source_url": "https://www.nasa.gov/directorates/armd/aavp/svtt/about-svtt/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-5524",
                                     "title": "INSIGHTS INTO SPALLATION MECHANISMS OF THERMAL PROTECTION SYSTEM MATERIALS FROM MASS SPECTROMETRY AND\u00a0HYMETS\u00a0TESTING",
@@ -2114,14 +2122,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/missions/artemis/artemis-2/artemis-ii-whats-on-the-menu/",
                                     "timestamp": "2026.03.03",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-94879",
-                                    "title": "CURIOSITY BLOG, SOLS 4818-4824: THINKING OUT OF THE BOXWORK",
-                                    "description": "<br><strong>STATUS:</strong> The Mars Curiosity rover is finalizing its investigation of the boxwork unit with extensive scientific observations and atmospheric measurements, while planning its strategic move to the sulfate unit on Mount Sharp.<br><br><strong>INTEL:</strong> The rover executed multiple drives and three planning sessions, completing 19 Mastcam stereo mosaics for a full panorama and documenting nearby features, including a return of polygonal structures. Scientific efforts included MAHLI and APXS investigations on four targets, with one requiring complex arm maneuvers, as the team navigated challenging terrain to minimize slip and conducted atmospheric measurements in preparation for dust-storm season.",
-                                    "source_url": "https://science.nasa.gov/blog/curiosity-blog-sols-4818-4824-thinking-out-of-the-boxwork/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2138,6 +2138,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-54753",
+                                    "title": "NEW \u2018BLACKSANTA\u2019 EDR KILLER SPOTTED TARGETING HR DEPARTMENTS",
+                                    "description": "<br><strong>STATUS:</strong> A Russian-speaking threat actor has been operating a sophisticated malware campaign for over a year, targeting HR departments with a new EDR killer named BlackSanta.<br><br><strong>INTEL:</strong> The campaign leverages spear-phishing with ISO files disguised as resumes, employing advanced evasion techniques like steganography, DLL sideloading, and process hollowing to deploy the BlackSanta EDR killer. BlackSanta works by modifying Windows Defender settings, reducing telemetry, suppressing notifications, and terminating security processes, further enhancing its stealth and persistence by using legitimate signed drivers (RogueKiller and IObitUnlocker) for privilege escalation and bypassing security tools.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/new-blacksanta-edr-killer-spotted-targeting-hr-departments/",
+                                    "timestamp": "2026.03.10",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-11071",
                                     "title": "NEW BEATBANKER ANDROID MALWARE POSES AS STARLINK APP TO HIJACK DEVICES",
@@ -2529,20 +2537,20 @@ const signalTree = {
                                     "source_url": "https://www.bleepingcomputer.com/news/security/hacker-mass-mails-hungerrush-extortion-emails-to-restaurant-patrons/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-82097",
-                                    "title": "FBI SEIZES LEAKBASE CYBERCRIME FORUM, DATA OF 142,000 MEMBERS",
-                                    "description": "<br><strong>STATUS:</strong> The FBI, in coordination with Europol and 14 countries, has seized the LeakBase cybercrime forum, a major online marketplace for stolen data and hacking tools.<br><br><strong>INTEL:</strong> Operation Leak, involving around 100 enforcement actions globally including arrests and searches, collected all forum data like user accounts, private messages, and IP logs for evidentiary purposes. LeakBase, active since 2021 with over 142,000 members and supported by the ARES threat group, offered a market for exploits and cybercrime services, marking another significant disruption in a series of takedowns targeting major cybercrime forums like RaidForums and BreachForums.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/fbi-seizes-leakbase-cybercrime-forum-data-of-142-000-members/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
                         },
                         {
                             "name": "KREBS_ON_SECURITY",
                             "articles": [
+                                {
+                                    "id": "GS-13874",
+                                    "title": "MICROSOFT PATCH TUESDAY, MARCH 2026 EDITION",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft released its monthly security updates (Patch Tuesday) addressing 77 vulnerabilities, including high-impact flaws and one notable vulnerability discovered by an AI agent.<br><br><strong>INTEL:</strong> This Patch Tuesday includes critical vulnerabilities requiring immediate attention, such as remote code execution flaws in Microsoft Office that can be triggered via the Preview Pane and a severe privilege escalation vulnerability in SQL Server 2016 and later. A significant development is the discovery of a critical RCE (CVE-2026-21536) by XBOW, an autonomous AI penetration testing agent, highlighting the emerging role of AI in rapidly identifying complex vulnerabilities without source code access, which suggests a strategic shift towards AI-driven security research.",
+                                    "source_url": "https://krebsonsecurity.com/2026/03/microsoft-patch-tuesday-march-2026-edition/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "KREBS_ON_SECURITY"
+                                },
                                 {
                                     "id": "GS-85174",
                                     "title": "HOW AI ASSISTANTS ARE MOVING THE SECURITY GOALPOSTS",
