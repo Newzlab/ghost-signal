@@ -494,6 +494,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-83747",
+                                    "title": "JAPAN SHRUGS OFF GCAP DELAYS, FAST-TRACKS EXPORT RULES FOR FUTURE WARPLANE",
+                                    "description": "<br><strong>STATUS:</strong> Japan is working to accelerate the tri-nation Global Combat Air Programme (GCAP) fighter jet collaboration with the U.K. and Italy, despite reported fiscal and contract delays that are not expected to significantly impact its 2035 deployment target.<br><br><strong>INTEL:</strong> The GCAP project faces contract delays primarily due to funding issues within the U.K.'s Defense Investment Plan, though experts believe this represents a funding adjustment rather than a structural crisis. Concurrently, Japan is advancing efforts to relax stringent export restrictions on defense equipment, which would allow future exports of GCAP and other defense assets like Mogami-class frigates, strengthening its domestic defense industry and providing strategic \"de-risking\" from its traditional reliance on the U.S. while countering increasing Chinese military capabilities.",
+                                    "source_url": "https://www.defensenews.com/global/asia-pacific/2026/03/11/japan-shrugs-off-gcap-delays-fast-tracks-export-rules-for-future-warplane/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-21135",
+                                    "title": "AUSTRALIA DEPLOYS EARLY-WARNING AIRCRAFT TO THE MIDDLE EAST AMID IRAN ATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> Australia is deploying an E-7A Wedgetail early-warning aircraft and supplying AIM-120 air-to-air missiles to the Middle East to support the United Arab Emirates against Iranian threats.<br><br><strong>INTEL:</strong> This defensive deployment responds to increased Iranian targeting of Gulf nations following recent U.S. and Israeli strikes against Tehran, with the E-7A providing crucial long-range reconnaissance against drones and missiles, and the AMRAAMs replenishing UAE's F-16 fighter inventories. While Canberra supports preventing Iran's nuclear weapon acquisition and regional threats, it has explicitly stated it will not participate in offensive combat operations, emphasizing a purely defensive support role.",
+                                    "source_url": "https://www.defensenews.com/global/asia-pacific/2026/03/11/australia-deploys-early-warning-aircraft-to-the-middle-east-amid-iran-attacks/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-7089",
                                     "title": "US SPACE FORCE CLEARS DESIGN MILESTONE, ADVANCES MISSILE-WARNING CONSTELLATION",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Space Force has completed the preliminary design review for the 10-satellite Epoch 2 medium Earth orbit constellation, a key step in its Resilient Missile Warning and Tracking program.<br><br><strong>INTEL:</strong> This design milestone, achieved by BAE Systems Space and Mission Systems for the $1.2 billion contract, positions the program to proceed to critical design review this summer with first delivery planned for fiscal year 2029. The Epoch 2 constellation, following Epoch 1, is crucial for providing persistent global coverage and tracking of advanced missile threats, thereby enhancing national security and protecting U.S. and allied interests against sophisticated adversaries.",
@@ -874,22 +890,6 @@ const signalTree = {
                                     "title": "B-1B LANCERS CONDUCT DEEP STRIKES IN IRAN AS PART OF OPERATION EPIC FURY",
                                     "description": "<br><strong>STATUS:</strong> U.S. Air Force B-1B Lancer bombers conducted long-range strikes deep inside Iran, targeting ballistic missile facilities and command-and-control infrastructure as part of Operation Epic Fury.\n\n<br><strong>INTEL:</strong> These B-1B strikes followed previous B-2 Spirit stealth bomber operations, collectively resulting in \"local air superiority\" over Iran and aiming to destroy Iran's missile industry, as stated by the President. The mission involved ultra-long-range sorties, likely from Ellsworth AFB, requiring multiple aerial refuelings and leveraging the B-1B's substantial conventional payload capacity, with over 1,700 targets reportedly struck within the first 72 hours of the operation.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/03/b-1b-lancers-conduct-deep-strikes-in-iran-as-part-of-operation-epic-fury/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-44960",
-                                    "title": "NATIONAL GUARD MEMBER\u2019S INVENTION ALLOWS CYBER WARFARE TRAINING ON THE GO",
-                                    "description": "<br><strong>STATUS:</strong> A new portable cyber training system, the Agile Cyber Training Environment (ACTE), designed by Senior Master Sgt. Taylor Gow, is being used by the Massachusetts Air National Guard and has been accepted into the U.S. Air Force\u2019s Spark Tank 2026 initiative.<br><br><strong>INTEL:</strong> This backpack-portable system allows \"on-the-go\" cyber warfare training, bypassing the significant infrastructure, approval delays, and connectivity limitations of traditional ranges. Its affordability and accessibility enable increased training hours and squadron-level development of defensive and offensive cyber tactics, including drone image processing, directly addressing critical gaps in readiness and rapid innovation against emerging threats.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/03/national-guard-members-invention-allows-cyber-warfare-training-on-the-go/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-17148",
-                                    "title": "US AIR FORCE WANTS MORE ARMORED TRANSPORTERS FOR ICBM WARHEADS",
-                                    "description": "<br><strong>STATUS:</strong> The U.S. Air Force is seeking five additional armored Payload Transporter Replacement (PTR) vehicles to address obsolescence and security deficiencies in its fleet used for Minuteman III intercontinental ballistic missile components.<br><br><strong>INTEL:</strong> The PTR is a specially armored tractor-trailer designed as the sole platform for transporting and conducting remove/replace operations of critical nuclear missile components, including Reentry Systems and Propulsion System Rocket Engines, at ICBM launch facilities. This acquisition addresses immediate logistical and security concerns for the aging Minuteman III force, which itself faces widespread obsolescence issues and whose planned replacement, the LGM-35A Sentinel, is experiencing significant delays, potentially extending the Minuteman III's service life to 2050.",
-                                    "source_url": "https://www.defensenews.com/air/2026/03/03/us-air-force-wants-more-armored-transporters-for-icbm-warheads/",
                                     "timestamp": "2026.03.03",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1319,6 +1319,46 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-20706",
+                                    "title": "THE PERILS OF POLITICAL IMPATIENCE IN THE ARTEMIS PROGRAM",
+                                    "description": "<br><strong>STATUS:</strong> NASA's crewed Artemis 2 mission is delayed until April due to technical issues and increasing geopolitical pressure to beat China to the moon, raising concerns about safety compromises. <br><br><strong>INTEL:</strong> The delays are attributed to helium system issues and persistent hydrogen leaks on the Space Launch System, but the core issue is the escalating US-China space race, which some warn could lead to prioritizing deadlines over safety, echoing past tragedies like the Challenger and Columbia disasters. Experts advocate for a focus on sustainable, long-term lunar presence and robust engineering, rather than a risky race for short-term milestones against Beijing.",
+                                    "source_url": "https://spacenews.com/the-perils-of-political-impatience-in-the-artemis-program/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-65966",
+                                    "title": "SPACE FORCE OFFICIALLY TERMINATES AEROVIRONMENT CONTRACT FOR SATELLITE CONTROL ANTENNAS",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Space Force has terminated its estimated $1.7 billion SCAR program contract with AeroVironment for new satellite command and control antennas due to unsuccessful renegotiations.\n\n<br><strong>INTEL:</strong> This decision reflects a strategic shift by the Space Force towards an open competition model, favoring commercially developed systems over single-vendor custom solutions for its satellite control infrastructure, which AeroVironment plans to pursue by commercializing its BADGER design and re-competing for future procurements.",
+                                    "source_url": "https://spacenews.com/space-force-officially-terminates-aerovironment-contract-for-satellite-control-antennas/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-92673",
+                                    "title": "NASA DISQUALIFIES X-RAY TELESCOPE FROM PROBE MISSION COMPETITION",
+                                    "description": "<br><strong>STATUS:</strong> NASA has disqualified the Advanced X-Ray Imaging Satellite (AXIS) astrophysics mission proposal, citing non-compliance with budget and schedule requirements that its principal investigator blames on significant agency-wide programmatic disruptions.\n\n<br><strong>INTEL:</strong> The AXIS mission, initially a finalist for NASA's new Astrophysics Probe Explorer program and awarded a $5 million concept study contract, failed to meet cost targets by approximately 10%, a shortfall exacerbated by a 2025 NASA buyout program that saw a 20% workforce reduction (including key AXIS personnel), budget proposal uncertainties, and a government shutdown. These internal and external pressures critically hampered the Goddard Space Flight Center's ability to manage the project and implement necessary cost-saving measures, thereby revealing the fragility of complex, long-term space initiatives when confronted with systemic organizational instability and budget volatility.",
+                                    "source_url": "https://spacenews.com/nasa-disqualifies-x-ray-telescope-from-probe-mission-competition/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-22002",
+                                    "title": "TELESAT EXPANDS CANADIAN LANDING STATION FOOTPRINT FOR LIGHTSPEED",
+                                    "description": "<br><strong>STATUS:</strong> Telesat is expanding its Canadian ground infrastructure by acquiring and leasing land for new landing stations to support the December deployment of pathfinder satellites for its Lightspeed broadband constellation.\n\n<br><strong>INTEL:</strong> These new sites in Saskatchewan and Quebec, alongside other global stations, are crucial for routing data, minimizing latency, ensuring network resiliency, and complying with national data sovereignty regulations. The 24 planned stations will complement the 198-satellite network, built by MDA Space and featuring optical inter-satellite links, with initial global services anticipated to begin in 2027.",
+                                    "source_url": "https://spacenews.com/telesat-expands-canadian-landing-station-footprint-for-lightspeed/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-84606",
+                                    "title": "LARGE SERIES C SIGNALS SCALE-UP OF CHINA\u2019S LASER SATELLITE COMMUNICATIONS SECTOR",
+                                    "description": "<br><strong>STATUS:</strong> Shanghai-based BlueStar Optical Domain has secured $70 million in Series C funding to expand its manufacturing of laser communication terminals.\n\n<br><strong>INTEL:</strong> This significant investment aims to bolster production capacity to 1,000 units annually by mid-2026, positioning BlueStar Optical Domain as a key supplier for China's ambitious national low Earth orbit satellite internet megaconstellations, such as Guowang and Thousand Sails, which require advanced optical inter-satellite links for global data routing and reduced reliance on ground stations, aligning with China's 15th Five-year plan and strategic push for domestic technological self-reliance in space infrastructure and 6G.",
+                                    "source_url": "https://spacenews.com/large-series-c-signals-scale-up-of-chinas-laser-satellite-communications-sector/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-237",
                                     "title": "ANDURIL TO ACQUIRE SPACE-TRACKING FIRM EXOANALYTIC SOLUTIONS",
                                     "description": "<br><strong>STATUS:</strong> Anduril Industries plans to acquire ExoAnalytic Solutions, a company with one of the world's largest commercial telescope networks for tracking satellites and space debris, to significantly expand its national-security space programs.\n\n<br><strong>INTEL:</strong> ExoAnalytic's approximately 400 ground-based optical telescopes provide crucial space domain awareness and missile defense data to the U.S. government, notably revealing China's Shijian-21 satellite maneuver. This acquisition strengthens Anduril's capability to integrate space-based data into its autonomous defense systems and Lattice command-and-control software, enhancing missile warning, threat assessment, and targeting, while also supporting Anduril's own future spacecraft operations.",
@@ -1676,46 +1716,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> PLD Space has secured 180 million euros in Series C funding, the largest for a European space business this year, to accelerate production of its Miura 5 launch vehicle.\n\n<br><strong>INTEL:</strong> This significant funding, led by Japanese satellite maker Mitsubishi Electric for priority access and support in the Asian market, brings PLD Space's total financing to over 350 million euros as it prepares for Miura 5's maiden orbital flight this year and targets over 30 launches annually by 2030. The strategic investment, backed by the Spanish government, underpins plans to leverage launch sites in French Guiana and Oman, securing critical launch capacity for Mitsubishi Electric's satellite data services, including those focused on national security and disaster response.",
                                     "source_url": "https://spacenews.com/pld-space-raises-209-million-to-shift-into-serial-rocket-production/",
                                     "timestamp": "2026.03.04",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-34273",
-                                    "title": "HOUSE SCIENCE COMMITTEE LEADERS CRITICIZE FCC RULEMAKING ON SPACE SAFETY",
-                                    "description": "<br><strong>STATUS:</strong> House Science Committee leaders are challenging the Federal Communications Commission's (FCC) authority to impose space safety regulations in its new space licensing rulemaking.\n\n<br><strong>INTEL:</strong> The Committee asserts that the FCC's proposed \"Space Modernization for the 21st Century\" rulemaking exceeds its statutory authority by conditioning radiofrequency spectrum licenses on space safety requirements unrelated to spectrum management. This long-standing jurisdictional dispute is significantly bolstered by a recent 2024 Supreme Court ruling that restricts agency regulatory power without clear congressional authorization, potentially undermining the FCC's historical role in orbital debris and space safety regulation in the absence of other designated agencies.",
-                                    "source_url": "https://spacenews.com/house-science-committee-leaders-criticize-fcc-rulemaking-on-space-safety/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-96385",
-                                    "title": "SPACE FORCE MODERNIZATION PUSH RUNS INTO ACQUISITION WORKFORCE SHORTFALL",
-                                    "description": "<br><strong>STATUS:</strong> The Space Force's accelerated procurement of new systems is severely constrained by a critical shortage of contracting officers and financial managers.\n\n<br><strong>INTEL:</strong> This personnel deficit, particularly within the \"PK\" (contracting policy) and \"FM\" (financial management) communities, hinders the Space Force's strategic shift towards integrated warfighting capabilities and the adoption of more complex, agile acquisition methods like Other Transaction Authorities, posing a significant risk to national security and the ability to outpace competitors like China. The problem is exacerbated by recent civilian workforce reductions and is a government-wide issue requiring dedicated training and recruitment efforts.",
-                                    "source_url": "https://spacenews.com/space-force-modernization-push-runs-into-acquisition-workforce-shortfall/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-80856",
-                                    "title": "WHEN SPACE IS HOT, WASHINGTON HOLDS A MATCH",
-                                    "description": "<br><strong>STATUS:</strong> At the Miami Space Summit, Kirk Konert of AE Industrial Partners emphasized that the long-term success of space and defense technology companies, despite a surge in private investment, ultimately hinges on consistent government funding and program support.\n\n<br><strong>INTEL:</strong> While private capital has made space and defense technology fashionable among investors, sustained government engagement, including appropriations and program support, is crucial for portfolio companies to secure their future and scale effectively; consequently, firms like AE Industrial Partners are increasing their focus on Washington D.C. and government relations to navigate budget decisions and leverage private capital as a complement to government spending for strengthening the industrial base.",
-                                    "source_url": "https://spacenews.com/when-space-is-hot-washington-holds-a-match/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-74402",
-                                    "title": "REDWIRE UNVEILS NEW SOLAR ARRAY",
-                                    "description": "<br><strong>STATUS:</strong> Redwire has introduced the Extensible Low-Profile Solar Array (ELSA), a new high-performance, low-mass solar array product designed for mass-produced satellites.\n\n<br><strong>INTEL:</strong> ELSA leverages Redwire's flight-proven ROSA technology to deliver 50% more power per unit of volume while minimizing stowed volume for launch, aiming for competitive pricing and performance to address the robust and growing demand for power in space, particularly for high-power applications like edge computing and orbital data centers, a market also seeing activity from competitors like Rocket Lab.",
-                                    "source_url": "https://spacenews.com/redwire-unveils-new-solar-array/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-31621",
-                                    "title": "SPECTRUM SHOWDOWN",
-                                    "description": "<br><strong>STATUS:</strong> Expanding satellite communication networks are increasingly interfering with critical weather forecasting instruments, jeopardizing essential atmospheric data collection.<br><br><strong>INTEL:</strong> The rapid growth of satellite constellations, competing for limited radio frequency spectrum, is causing significant interference for microwave sounders crucial to meteorology. This interference, affecting vital bands like 24 GHz, 37 GHz, and 50 GHz, risks corrupting data on atmospheric water vapor and precipitation, which are paramount for accurate hurricane forecasts, aviation safety, and agricultural planning. Agencies like NOAA are pressing for scientific quantification of these impacts to guide regulators amidst proposals for increased spectrum usage.",
-                                    "source_url": "https://spacenews.com/spectrum-showdown/",
-                                    "timestamp": "2026.03.03",
                                     "feed_name": "SPACE_NEWS"
                                 }
                             ]
