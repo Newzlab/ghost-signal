@@ -494,6 +494,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-72935",
+                                    "title": "IRAN WAR MAY FORCE US TO SHIFT MISSILE DEFENSES FROM SOUTH KOREA, SEOUL SAYS",
+                                    "description": "<br><strong>STATUS:</strong> South Korea\u2019s president confirmed that some U.S. THAAD air defense systems stationed on the Korean peninsula could be redeployed overseas to the Middle East due to the intensifying U.S. war with Iran.\n\n<br><strong>INTEL:</strong> This strategic relocation of scarce THAAD missile defense assets, reported amidst actual troop movements, underscores the significant strain on U.S. resources as the conflict with Iran escalates. The ongoing war is reportedly consuming a substantial portion of the limited THAAD inventory, raising critical concerns about the long-term sustainability of missile defense capabilities and replenishment rates, especially given satellite intelligence suggesting Iranian targeting of U.S. missile defense radar sites in the Middle East.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/11/iran-war-may-force-us-to-shift-missile-defenses-from-south-korea-seoul-says/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-65546",
+                                    "title": "THESE ARE UKRAINE\u2019S $1,000 INTERCEPTOR DRONES THE PENTAGON WANTS TO BUY",
+                                    "description": "<br><strong>STATUS:</strong> Ukraine, having developed cost-effective interceptor drones to counter mass attacks, is now emerging as a key supplier for allies like the U.S. and Gulf states following a recent conflict that exposed the unsustainable costs and limitations of traditional air defense systems.\n\n<br><strong>INTEL:</strong> Ukraine's state-backed innovation hub, Brave1, has fostered the rapid development of cheap, fast, semi-autonomous interceptor drones (costing $1,000-$2,500) capable of destroying incoming threats by ramming or detonating, a necessity born from overwhelming Russian drone attacks. This expertise is now critically important as a recent \"Iran war\" demonstrated the economic vulnerability of traditional air defenses, with over 800 Patriot interceptors used in three days against swarm attacks, leading to active talks for the U.S. and Gulf states to acquire Ukrainian counter-drone technology.",
+                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/11/these-are-ukraines-1000-interceptor-drones-the-pentagon-wants-to-buy/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-7713",
                                     "title": "AMID US MILITARY ACTIONS, WHITE HOUSE STRUGGLES TO EXPLAIN HOW IRAN WAR WILL END",
                                     "description": "<br><strong>STATUS:</strong> President Trump's 12-day-old war with Iran is characterized by his inconsistent objectives and lack of clear strategy, leading to global economic tremors and an unpredictable path forward.\n\n<br><br><strong>INTEL:</strong> Despite US claims of significant military success, Iran's leaders remain defiant, keeping the critical Strait of Hormuz closed and threatening further retaliation. Trump's vacillating rhetoric, ranging from \"unconditional surrender\" to an unclear endgame, and his unsubstantiated \"feeling\" as a casus belli, have drawn criticism and failed to rally public support, with polls indicating a perception that the conflict makes the US \"less safe\" while at least seven US troops have died.",
@@ -875,22 +891,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Poland is advancing legislation to accept significant EU defense loans, sparking a political debate over national debt, potential procurement shifts from U.S. to European companies, and sovereignty.<br><br><strong>INTEL:</strong> The EU's SAFE scheme offers Poland \u20ac43.7 billion ($50.7 billion) in low-cost loans to bolster its defense capabilities amidst the Ukraine conflict, with parliamentary approval pending presidential decision this month. While Prime Minister Tusk champions the program to inject funds into the Polish defense sector and maintain U.S. procurements, the opposition, led by President Nawrocki and former Defence Minister B\u0142aszczak, fears the loans could increase state debt, impose EU political conditions, bias procurements towards European manufacturers (e.g., Airbus over Boeing), and undermine Poland's strategic alliance with the U.S. and its procurement sovereignty.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/03/04/pending-tanker-purchase-spotlights-choice-for-poland-buy-european-or-us/",
                                     "timestamp": "2026.03.04",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-11737",
-                                    "title": "PENTAGON DISPUTE BOLSTERS ANTHROPIC REPUTATION BUT RAISES QUESTIONS ABOUT AI READINESS IN MILITARY",
-                                    "description": "<br><strong>STATUS:</strong> Anthropic's refusal to permit its AI, Claude, for U.S. military autonomous weapons or mass surveillance has resulted in the Trump administration banning its government use and designating it a supply chain risk.<br><br><strong>INTEL:</strong> This standoff underscores a critical shift in the AI industry, with experts highlighting the inherent unreliability and \"hallucinations\" of large language models as a reason they are unsuitable for high-stakes military applications, potentially causing civilian or friendly casualties despite previous industry hype. The ban necessitates a six-month phase-out of Claude from military systems where it was previously approved, raising questions about its potential past use in strike planning and reinforcing the urgent need for human oversight in AI-driven decision-making within warfare.",
-                                    "source_url": "https://www.defensenews.com/industry/techwatch/2026/03/04/pentagon-dispute-bolsters-anthropic-reputation-but-raises-questions-about-ai-readiness-in-military/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-50857",
-                                    "title": "TRUMP SAYS US NAVY COULD ESCORT SHIPS THROUGH STRAIT OF HORMUZ",
-                                    "description": "<br><strong>STATUS:</strong> President Trump announced the potential for U.S. naval escorts for shipping in the Strait of Hormuz, amidst threats from Iran to target vessels in the embattled passage.\n\n<br><strong>INTEL:</strong> The Strait of Hormuz is a pivotal oil transit choke point, handling 21 million barrels per day in 2022, and Iran's threats to maritime traffic have already caused a 70% drop in shipping and an average 11-cent rise in U.S. gas prices, highlighting significant economic and strategic stakes in the region.",
-                                    "source_url": "https://www.defensenews.com/news/your-navy/2026/03/03/trump-says-us-navy-could-escort-ships-through-strait-of-hormuz/",
-                                    "timestamp": "2026.03.03",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
                             ]
@@ -1319,6 +1319,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-78205",
+                                    "title": "MISSILE STRIKE HITS SES TELEPORT IN ISRAEL",
+                                    "description": "<br><strong>STATUS:</strong> A missile strike on March 9 targeted a satellite teleport facility operated by SES in Israel, causing damage to a portion of its geostationary antenna field but no injuries or disruption to main services.\n\n<br><br><strong>INTEL:</strong> The strike, claimed by Hezbollah as an attack on an Israeli military cyber defense site despite SES identifying it as a commercial facility serving government customers, highlights the escalating risks to dual-use satellite infrastructure and the critical importance of redundancy in strategic space assets amidst regional tensions.",
+                                    "source_url": "https://spacenews.com/missile-strike-hits-ses-teleport-in-israel/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-20706",
                                     "title": "THE PERILS OF POLITICAL IMPATIENCE IN THE ARTEMIS PROGRAM",
                                     "description": "<br><strong>STATUS:</strong> NASA's crewed Artemis 2 mission is delayed until April due to technical issues and increasing geopolitical pressure to beat China to the moon, raising concerns about safety compromises. <br><br><strong>INTEL:</strong> The delays are attributed to helium system issues and persistent hydrogen leaks on the Space Launch System, but the core issue is the escalating US-China space race, which some warn could lead to prioritizing deadlines over safety, echoing past tragedies like the Challenger and Columbia disasters. Experts advocate for a focus on sustainable, long-term lunar presence and robust engineering, rather than a risky race for short-term milestones against Beijing.",
@@ -1709,20 +1717,20 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/blue-origins-surprise-terawave-constellation-jolts-leo-broadband-race/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-14786",
-                                    "title": "PLD SPACE RAISES $209 MILLION TO SHIFT INTO SERIAL ROCKET PRODUCTION",
-                                    "description": "<br><strong>STATUS:</strong> PLD Space has secured 180 million euros in Series C funding, the largest for a European space business this year, to accelerate production of its Miura 5 launch vehicle.\n\n<br><strong>INTEL:</strong> This significant funding, led by Japanese satellite maker Mitsubishi Electric for priority access and support in the Asian market, brings PLD Space's total financing to over 350 million euros as it prepares for Miura 5's maiden orbital flight this year and targets over 30 launches annually by 2030. The strategic investment, backed by the Spanish government, underpins plans to leverage launch sites in French Guiana and Oman, securing critical launch capacity for Mitsubishi Electric's satellite data services, including those focused on national security and disaster response.",
-                                    "source_url": "https://spacenews.com/pld-space-raises-209-million-to-shift-into-serial-rocket-production/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-16260",
+                                    "title": "TELESCOPES TEAM UP FOR NEW VIEW OF CAT\u2019S EYE NEBULA",
+                                    "description": "<br><strong>STATUS:</strong> A combined ESA Euclid and NASA Hubble image of the Cat's Eye Nebula was released, showcasing its intricate structure.\n\n<br><br><strong>INTEL:</strong> This March 3, 2026, image combines views from both space telescopes to feature the visually intricate and multilayered Cat's Eye Nebula (NGC 6543), a planetary nebula located 4,400 light-years away in the constellation Draco, offering new insights into the remnants of a dying star.",
+                                    "source_url": "https://www.nasa.gov/image-article/telescopes-team-up-for-new-view-of-cats-eye-nebula/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-28475",
                                     "title": "CURIOSITY BLOG, SOLS 4825-4831: EXPLORING THE BORDERLANDS",
@@ -2114,14 +2122,6 @@ const signalTree = {
                                     "source_url": "https://science.nasa.gov/earth/earth-observatory/searching-for-selenite/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-27318",
-                                    "title": "LA NASA REFUERZA ARTEMIS: A\u00d1ADE UNA MISI\u00d3N Y PERFECCIONA SU ARQUITECTURA GENERAL",
-                                    "description": "<br><strong>STATUS:</strong> NASA announced a significant update to its Artemis program on February 27th, increasing mission frequency, standardizing the SLS rocket, and adding a new test mission in 2027 ahead of the first crewed lunar landing now targeted for early 2028.\n\n<br><strong>INTEL:</strong> The newly added mission, Artemis III, slated for mid-2027, will involve launching the Orion spacecraft on the SLS to low Earth orbit to test rendezvous and docking capabilities with commercial lunar landers from SpaceX and Blue Origin. This is a crucial step before Artemis IV aims to land astronauts at the lunar South Pole by early 2028, a revised timeline from the previous mid-2025 goal. Meanwhile, the first crewed test flight, Artemis II, is addressing a helium flow issue in the SLS upper stage but remains on track for a launch window opening in April with its four-person international crew.",
-                                    "source_url": "https://www.nasa.gov/missions/artemis/la-nasa-refuerza-artemis-anade-una-mision-y-perfecciona-su-arquitectura-general/",
-                                    "timestamp": "2026.03.03",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2138,6 +2138,30 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-68349",
+                                    "title": "CISA ORDERS FEDS TO PATCH N8N RCE FLAW EXPLOITED IN ATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> CISA has mandated federal agencies patch an actively exploited remote code execution vulnerability (CVE-2025-68613) in the n8n workflow automation platform, widely used in AI development.<br><br><strong>INTEL:</strong> This critical RCE vulnerability allows authenticated attackers to execute arbitrary code, leading to full compromise of n8n instances that often store highly sensitive data like API keys and credentials; over 40,000 unpatched instances are exposed online, prompting CISA to add it to their KEV catalog and order federal agencies to patch by March 25, while the n8n team released a fix in December (v1.122.0) and advised immediate patching for all users due to the significant risk.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-n8n-rce-flaw-exploited-in-attacks/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-58957",
+                                    "title": "MEDTECH GIANT STRYKER OFFLINE AFTER IRAN-LINKED WIPER MALWARE ATTACK",
+                                    "description": "<br><strong>STATUS:</strong> Medical technology giant Stryker suffered a severe global disruption after being hit by a wiper malware attack claimed by the Iranian-linked hacktivist group Handala, resulting in widespread system wipes and data theft.\n\n<br><strong>INTEL:</strong> Handala, an Iranian-linked hacktivist group known for targeting Israeli organizations, claimed responsibility for stealing 50 terabytes of data and wiping over 200,000 systems, servers, and mobile devices across Stryker's global network in 79 countries. This sophisticated attack, which defaced the company's Entra login page and remotely reset both corporate and personal devices used for work, highlights the significant operational and data loss risks posed by state-linked hacktivism against critical infrastructure providers.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/medtech-giant-stryker-offline-after-iran-linked-wiper-malware-attack/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-10507",
+                                    "title": "NEW PHANTOMRAVEN NPM ATTACK WAVE STEALS DEV DATA VIA 88 PACKAGES",
+                                    "description": "<br><strong>STATUS:</strong> New attack waves from the \u2018PhantomRaven\u2019 supply-chain campaign are actively hitting the npm registry, distributing malicious packages that exfiltrate sensitive data from JavaScript developers.<br><br><strong>INTEL:</strong> The campaign, active since August 2025 and ongoing, utilizes 'slopsquatting' to mimic established projects and employs Remote Dynamic Dependencies (RDD) to load malware from external URLs, bypassing automated package inspection. This malware targets sensitive developer information such as emails, CI/CD tokens, and system details for exfiltration to consistent Amazon EC2-hosted command-and-control servers, despite lacking TLS certificates and adapting only minor operational elements like account rotation.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/new-phantomraven-npm-attack-wave-steals-dev-data-via-88-packages/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-48586",
                                     "title": "META ADDS NEW WHATSAPP, FACEBOOK, AND MESSENGER ANTI-SCAM TOOLS",
@@ -2513,36 +2537,20 @@ const signalTree = {
                                     "source_url": "https://www.bleepingcomputer.com/news/microsoft/windows-10-kb5075039-update-fixes-broken-recovery-environment/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-19817",
-                                    "title": "FAKE LASTPASS SUPPORT EMAIL THREADS TRY TO STEAL VAULT PASSWORDS",
-                                    "description": "<br><strong>STATUS:</strong> LastPass is warning its users about an active phishing campaign impersonating unauthorized account access alerts to steal credentials via fake login pages.\n\n<br><strong>INTEL:</strong> The sophisticated phishing campaign uses spoofed sender names and subject lines crafted to mimic internal LastPass support conversations regarding email address change requests, directing targets to malicious URLs like \"verify-lastpass[.]com\" to harvest credentials. While multiple unrelated sender addresses are used, the display name \"LastPass Support\" attempts to legitimize the attack; LastPass confirms its infrastructure has not been compromised and is actively working to take down the fraudulent sites.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/fake-lastpass-support-email-threads-try-to-steal-vault-passwords/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-8830",
-                                    "title": "CISCO WARNS OF MAX SEVERITY SECURE FMC FLAWS GIVING ROOT ACCESS",
-                                    "description": "<br><strong>STATUS:</strong> Cisco has released urgent security updates to patch two maximum-severity vulnerabilities in its Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management software.\n\n<br><strong>INTEL:</strong> These critical vulnerabilities, CVE-2026-20079 (authentication bypass leading to root access) and CVE-2026-20131 (remote code execution), can be exploited remotely by unauthenticated attackers, allowing them to gain complete control over affected devices. While there is currently no evidence of active exploitation, the severity of these flaws and Cisco's history of maximum-severity issues being leveraged as zero-days in the past underscore the imperative for immediate patching to prevent potential widespread compromise of critical network management infrastructure.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-max-severity-secure-fmc-flaws-giving-root-access/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-36950",
-                                    "title": "SPYWARE-GRADE CORUNA IOS EXPLOIT KIT NOW USED IN CRYPTO THEFT ATTACKS",
-                                    "description": "<br><strong>STATUS:</strong> A newly discovered iOS exploit kit named \u201cCoruna,\u201d comprising 23 exploits and five full chains, has been actively deployed by various threat actors, including surveillance vendors, state-sponsored groups, and financially motivated cybercriminals, to target iOS devices up to version 17.2.1 for both espionage and cryptocurrency theft.\n\n<br><strong>INTEL:</strong> Google Threat Intelligence Group (GTIG) first observed Coruna in February 2025, initially linked to a surveillance vendor customer, later utilized by suspected Russian cyberspies (UNC6353) in watering hole attacks against Ukrainian users, and subsequently by financially motivated Chinese actor UNC6691 on fake gambling and crypto sites. This sophisticated kit bypasses mitigations, fingerprints devices to select appropriate exploit chains, and delivers a stager loader (PlasmaLoader) that targets cryptocurrency wallet apps like MetaMask and Exodus to steal recovery phrases and sensitive data, employing AES encryption and a DGA for C2 resilience; its broad proliferation suggests an active \"second-hand\" market for advanced zero-day exploits.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/spyware-grade-coruna-ios-exploit-kit-now-used-in-crypto-theft-attacks/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
                         },
                         {
                             "name": "KREBS_ON_SECURITY",
                             "articles": [
+                                {
+                                    "id": "GS-66056",
+                                    "title": "IRAN-BACKED HACKERS CLAIM WIPER ATTACK ON MEDTECH FIRM STRYKER",
+                                    "description": "<br><strong>STATUS:</strong> An Iran-linked hacktivist group named Handala claims responsibility for a widespread data-wiping attack against the global medical technology company Stryker, severely disrupting its operations.<br><br><strong>INTEL:</strong> Handala, identified by Palo Alto Networks as a persona of Iran's MOIS-affiliated Void Manticore, executed the attack using Microsoft Intune to issue remote wipe commands, leading to the shutdown of offices in at least 79 countries and the wiping of over 200,000 systems and devices, including employees' personal phones. The group states the cyberattack was retaliation for a U.S. missile strike in Iran and claims to have acquired data, indicating potential leak operations, while security experts note Handala's opportunistic tactics often target supply chain vulnerabilities.",
+                                    "source_url": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "KREBS_ON_SECURITY"
+                                },
                                 {
                                     "id": "GS-13874",
                                     "title": "MICROSOFT PATCH TUESDAY, MARCH 2026 EDITION",
