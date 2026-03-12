@@ -119,6 +119,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-25175",
+                                    "title": "US NAVY PARTNERS WITH ANDURIL TO DEVELOP XL UNDERWATER VESSEL",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Navy and the Pentagon\u2019s Defense Innovation Unit selected Anduril to develop an extra-large unmanned underwater vessel (XL-AUV) for the Combat Autonomous Maritime Platform (CAMP) program.\n\n<br><strong>INTEL:</strong> Anduril's Dive-XL platform, an all-electric XL-AUV capable of over 2,000 nautical miles range, deep dives exceeding 656 feet, and prolonged underwater operation in GPS-denied environments, was chosen after a record-setting demonstration. Its highly flexible and modular design allows it to carry multiple payloads, including smaller UUVs to act as a mothership, and is easily transportable via commercial logistics, directly addressing the Navy's requirement for scalable, uncrewed maritime capabilities in strategic areas like the Pacific and Arctic.",
+                                    "source_url": "https://www.c4isrnet.com/news/your-military/2026/03/12/us-navy-partners-with-anduril-to-develop-xl-underwater-vessel/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-4825",
                                     "title": "UKRAINIAN ADVISORS TO TEACH GERMAN ARMY HOW TO WIN A MODERN WAR BY 2029",
                                     "description": "<br><strong>STATUS:</strong> Ukrainian military instructors will deploy to German army schools to train Bundeswehr personnel, aiming to enhance readiness against a hypothetical Russian attack on NATO by 2029.<br><br><strong>INTEL:</strong> This initiative represents a significant role reversal, with Germany seeking to leverage Ukraine's unique, current frontline experience against Russia, particularly in drone employment, artillery, and armored operations. The move reflects NATO's growing recognition of the crucial battlefield lessons learned by Ukraine and underscores the urgency felt by Western intelligence assessments suggesting Russia could pose a large-scale threat to the alliance as early as 2029.",
@@ -526,6 +534,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-47561",
+                                    "title": "B-21 RAIDER COMPLETED \u2018CLOSE-PROXIMITY FLIGHT\u2019 WITH KC-135 TANKER, US AIR FORCE CONFIRMS",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Air Force confirmed a B-21 Raider test aircraft conducted a close-proximity flight with a KC-135 Stratotanker as a precursor to validating its aerial refueling capabilities.\n\n<br><strong>INTEL:</strong> This flight is a critical step towards enabling the B-21's long-range, penetrating strike role by providing extended endurance without reliance on forward basing, a key operational requirement. While the Air Force did not confirm actual fuel transfer for security reasons, the event signifies progress in the bomber's rigorous test campaign to validate its capabilities and operational readiness, with the program on track for initial operational capability in the late 2020s.",
+                                    "source_url": "https://www.defensenews.com/news/your-air-force/2026/03/12/b-21-raider-completed-close-proximity-flight-with-kc-135-tanker-us-air-force-confirms/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-94462",
+                                    "title": "US NAVY PARTNERS WITH ANDURIL TO DEVELOP XL UNDERWATER VESSEL",
+                                    "description": "<br><strong>STATUS:</strong> Anduril has been selected by the U.S. Navy and Pentagon's Defense Innovation Unit to develop an extra-large unmanned underwater vessel (XL-AUV) for the Combat Autonomous Maritime Platform (CAMP) program.<br><br><strong>INTEL:</strong> The CAMP program seeks XL-AUVs capable of deep diving, long endurance in GPS-denied environments, and deploying various payloads, with Anduril's Dive-XL platform demonstrating an all-electric powertrain, over 2,000 nautical miles range, and modularity for reconnaissance or acting as a mothership for smaller UUVs. This initiative addresses the strategic need for robotic systems to supplement crewed operations in critical \"water-based fights\" such as those in the Pacific and Arctic, leveraging Anduril's proven expertise in autonomous subsea technology.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/12/us-navy-partners-with-anduril-to-develop-xl-underwater-vessel/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-74780",
                                     "title": "ITALY\u2019S LEONARDO RIDES HIGH ON SOARING GLOBAL DEFENSE SPENDING",
                                     "description": "<br><strong>STATUS:</strong> Leonardo announced an ambitious new industrial plan forecasting significant growth in orders, revenue, and workforce by 2030, driven by soaring global defense spending and a focus on new technologies.<br><br><strong>INTEL:</strong> The Italian state-controlled firm targets \u20ac32 billion in annual orders and \u20ac30 billion in revenue by 2030, significantly increasing its workforce to 75,500, with strategic investments in cybersecurity, digitalization, and its new Michelangelo Dome multi-layered air defense system, projected to yield \u20ac21 billion. This growth is heavily supported by its Defense Electronics sector, which accounts for half of current revenue, including contracts for British and Italian Eurofighters, Indonesian naval vessels, and the U.S. Navy's Columbia-class submarines and Naval AEGIS systems through its U.S. subsidiary.",
@@ -907,22 +931,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Ukraine is increasingly utilizing cost-effective interceptor drones to destroy Russian aerial targets, with this method now accounting for one in three downed assets nationwide and over 70% of Shahed downings over Kyiv in February.<br><br><strong>INTEL:</strong> This strategic shift is driven by the prohibitively high cost of traditional missile defenses against inexpensive Russian Shahed drones, with interceptor drones providing a significantly more economical solution (approx. $3k-$5k per interceptor vs. $3M for a Patriot missile). Ukraine has rapidly scaled production and deployment, destroying over 1,500 Russian UAVs last month, though Russia is actively countering these efforts with tactics like decoy drones and armed or IR-equipped attack drones.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/03/05/novel-interceptor-drones-bend-air-defense-economics-in-ukraines-favor/",
                                     "timestamp": "2026.03.05",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-54871",
-                                    "title": "TRUMP TO MEET ARMS EXECUTIVES FRIDAY IN PUSH TO BOOST WEAPON SUPPLIES",
-                                    "description": "<br><strong>STATUS:</strong> President Trump is convening defense industry executives to rapidly replenish U.S. munitions and weapons stockpiles depleted during Operation Epic Fury against Iran.<br><br><strong>INTEL:</strong> Despite official assertions of unlimited supplies, the meeting follows an executive order pressing contractors to boost production due to thousands of munitions expended in strikes against nearly 2,000 Iranian targets, including the Supreme Leader, while Iran has retaliated, causing six U.S. casualties in Kuwait.",
-                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/04/trump-to-meet-arms-executives-friday-in-push-to-boost-weapon-supplies/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-9380",
-                                    "title": "DESPITE AIR DOMINANCE, US \u2018CAN\u2019T STOP EVERYTHING\u2019 IRAN FIRES, HEGSETH SAYS",
-                                    "description": "<br><strong>STATUS:</strong> Defense Secretary Pete Hegseth acknowledged that some Iranian air attacks may still hit targets despite the U.S. asserting control of Iranian airspace in the widening war.\n\n<br><strong>INTEL:</strong> The escalating conflict, which has already seen six U.S. soldiers killed in an Iranian drone strike in Kuwait and a U.S. submarine sink an Iranian warship, is now projected to last up to eight weeks or more. While the U.S. claims air superiority has allowed it to shift to gravity bombs for deeper inland strikes, the risk of further casualties is high, and the Trump administration has not ruled out deploying ground troops in Iran.",
-                                    "source_url": "https://www.defensenews.com/flashpoints/2026/03/04/despite-air-dominance-us-cant-stop-everything-iran-fires-hegseth-says/",
-                                    "timestamp": "2026.03.04",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
                             ]
@@ -1756,6 +1764,14 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-50653",
+                                    "title": "NASA TO COVER UPCOMING US SPACEWALKS 94, 95 OUTSIDE SPACE STATION",
+                                    "description": "<br><strong>STATUS:</strong> NASA astronauts are scheduled to conduct two spacewalks beginning March 18, 2026, to prepare the International Space Station for the installation of new roll-out solar arrays.\n\n<br><strong>INTEL:</strong> These spacewalks, U.S. EVAs 94 and 95, are the first of Expedition 74 in 2026 and will prepare the 2A and 3B power channels for International Space Station Roll-Out Solar Arrays (IROSA). Spacewalk 94 on March 18 will feature Jessica Meir and Chris Williams, with a news conference detailing the operations planned for March 16.",
+                                    "source_url": "https://www.nasa.gov/news-release/nasa-to-cover-upcoming-us-spacewalks-94-95-outside-space-station/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-72788",
                                     "title": "TINY NASA SPACECRAFT DELIVERS\u00a0EXOPLANET MISSION\u2019S\u00a0FIRST IMAGES",
                                     "description": "<br><strong>STATUS:</strong> NASA\u2019s Star-Planet Activity Research CubeSat (SPARCS) has achieved \"first light\" with its instruments confirmed functional, officially transitioning to full science operations to study low-mass stars and their potential impact on exoplanet habitability.\n\n<br><strong>INTEL:</strong> SPARCS, a cereal box-sized satellite, will perform a one-year mission continuously monitoring far- and near-ultraviolet radiation from roughly 20 low-mass stars, which host the majority of the galaxy's habitable-zone planets and are known for frequent, atmosphere-altering flares. This mission validates advanced UV-sensitive \"delta-doped\" detectors with integrated filters, developed at JPL, showcasing a compact and highly sensitive technology critical for achieving its scientific goals and paving the way for future UV-capable missions like the Habitable Worlds Observatory.",
@@ -2146,14 +2162,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/image-article/total-lunar-eclipse/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-61995",
-                                    "title": "A LITTLE TOWN WITH A LONG NAME",
-                                    "description": "<br><strong>STATUS:</strong> The article features the Welsh town of Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch, renowned for its unusually long name, and its connection to NASA pioneer Tecwyn Roberts.\n\n<br><br><strong>INTEL:</strong> The town's exceptionally long name, intentionally extended in the 1860s for tourism, reflects a unique local tradition and geographic features, and it was recently captured in an image by Landsat 8. Crucially, NASA luminary Tecwyn Roberts, a key figure in the Apollo era who conceptualized the Deep Space Network, designed Mission Control, and developed vital communication systems, grew up in the nearby village of Llanddaniel Fab.",
-                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/a-little-town-with-a-long-name/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2170,6 +2178,30 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-24929",
+                                    "title": "CANADIAN RETAIL GIANT LOBLAW NOTIFIES CUSTOMERS OF DATA BREACH",
+                                    "description": "<br><strong>STATUS:</strong> Loblaw Companies Limited, Canada's largest food and pharmacy retailer, announced a data breach where basic customer information including names, phone numbers, and email addresses was accessed by a criminal third-party.\n\n<br><strong>INTEL:</strong> The intrusion affected a contained, non-critical part of Loblaw's IT network, with no evidence found to date of compromised financial or health information, or account passwords, nor was its PC Financial brand impacted; customers have been logged out and advised to change passwords as the exposed PII could be used for phishing and fraudulent activities.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/canadian-retail-giant-loblaw-notifies-customers-of-data-breach/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-26714",
+                                    "title": "ENGLAND HOCKEY INVESTIGATING RANSOMWARE DATA BREACH",
+                                    "description": "<br><strong>STATUS:</strong> England Hockey is investigating a potential data breach after the AiLock ransomware gang claimed to have stolen 129GB of data and threatened to publish it.\n\n<br><strong>INTEL:</strong> AiLock, a relatively new double-extortion ransomware operation documented in April 2025, employs sophisticated tactics, including leveraging privacy law violations and setting strict deadlines for ransom payment before leaking data and destroying recovery tools. England Hockey, responsible for thousands of clubs and players, is working with external specialists and law enforcement to determine the extent of the incident and secure potentially impacted data.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/england-hockey-investigating-ransomware-data-breach/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-37516",
+                                    "title": "AI-GENERATED SLOPOLY MALWARE USED IN INTERLOCK RANSOMWARE ATTACK",
+                                    "description": "<br><strong>STATUS:</strong> A new AI-assisted malware strain named Slopoly was deployed by the financially motivated group Hive0163 during an Interlock ransomware attack to maintain persistence and exfiltrate data.\n\n<br><strong>INTEL:</strong> IBM X-Force researchers identified strong indicators of generative AI use in Slopoly's PowerShell backdoor, such as extensive commentary and structured logging, which are rare in human-developed malware. While Slopoly itself is unsophisticated and not truly polymorphic, its deployment demonstrates how threat actors are leveraging AI tools to accelerate custom malware development, potentially aiding in detection evasion within complex attack chains that included ClickFix social engineering and other backdoors like NodeSnake and InterlockRAT.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/ai-generated-slopoly-malware-used-in-interlock-ransomware-attack/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-13791",
                                     "title": "VEEAM WARNS OF CRITICAL FLAWS EXPOSING BACKUP SERVERS TO RCE ATTACKS",
@@ -2543,30 +2575,6 @@ const signalTree = {
                                     "title": "CHINESE STATE HACKERS TARGET TELCOS WITH NEW MALWARE TOOLKIT",
                                     "description": "<br><strong>STATUS:</strong> A China-linked APT group, UAT-9244, has been actively targeting telecommunication service providers in South America since 2024, compromising Windows, Linux, and network-edge devices. <br><br><strong>INTEL:</strong> UAT-9244 is associated with FamousSparrow and Tropic Trooper and utilizes three previously undocumented malware families: TernDoor, a Windows backdoor employing DLL side-loading and an embedded driver; PeerTime, a multi-architecture Linux backdoor that leverages the BitTorrent protocol for peer-to-peer command and control; and BruteEntry, a Go-based brute-force scanner used to build proxy infrastructure (ORBs) and scan for new targets.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/chinese-state-hackers-target-telcos-with-new-malware-toolkit/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-24961",
-                                    "title": "BING AI PROMOTED FAKE OPENCLAW GITHUB REPO PUSHING INFO-STEALING MALWARE",
-                                    "description": "<br><strong>STATUS:</strong> Fake OpenClaw installers promoted by Microsoft Bing's AI search deployed info-stealers and proxy malware to users.\n\n<br><strong>INTEL:</strong> Threat actors created malicious GitHub repositories, leveraging deceptive organization names and copied code, which Bing's AI-powered search then recommended to users seeking the popular OpenClaw AI agent. These fake installers delivered potent malware, including Atomic Stealer for macOS and Rust-based loaders for Vidar stealer and GhostSocks proxy malware for Windows, demonstrating how easily AI search results can be poisoned to distribute sophisticated threats.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/bing-ai-promoted-fake-openclaw-github-repo-pushing-info-stealing-malware/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-38988",
-                                    "title": "WIKIPEDIA HIT BY SELF-PROPAGATING JAVASCRIPT WORM THAT VANDALIZED PAGES",
-                                    "description": "<br><strong>STATUS:</strong> The Wikimedia Foundation suffered a security incident involving a self-propagating JavaScript worm that vandalized pages and modified user scripts across multiple wikis.<br><br><strong>INTEL:</strong> The incident originated from a malicious JavaScript script hosted on Russian Wikipedia, `User:Ololoshka562/test.js`, which was apparently executed by a Wikimedia employee account during testing, though intent is unknown. This worm self-propagated by injecting malicious JavaScript loaders into logged-in users' `common.js` files and the global `MediaWiki:Common.js`, leveraging editor session privileges to spread. The attack resulted in approximately 3,996 page modifications and 85 user `common.js` files being replaced, prompting temporary editing restrictions and a cleanup operation by Wikimedia engineers to revert changes and suppress malicious content.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/wikipedia-hit-by-self-propagating-javascript-worm-that-vandalized-pages/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-40599",
-                                    "title": "WORDPRESS MEMBERSHIP PLUGIN BUG EXPLOITED TO CREATE ADMIN ACCOUNTS",
-                                    "description": "<br><strong>STATUS:</strong> Hackers are actively exploiting a critical vulnerability in the User Registration & Membership WordPress plugin to create administrator accounts without authentication.<br><br><strong>INTEL:</strong> Tracked as CVE-2026-1492 with a critical severity rating of 9.8, this flaw allows unauthenticated users to gain full administrative access on over 60,000 affected WordPress sites running plugin versions through 5.1.2, enabling data theft and malware distribution; immediate updates to version 5.1.3 or higher, or temporary disabling of the plugin, are strongly advised.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/wordpress-membership-plugin-bug-exploited-to-create-admin-accounts/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
