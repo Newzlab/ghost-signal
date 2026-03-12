@@ -119,6 +119,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-93052",
+                                    "title": "UKRAINE\u2019S TOP DRONE UNITS TO BRING FRONTLINE LESSONS TO WASHINGTON THIS MONTH",
+                                    "description": "<br><strong>STATUS:</strong> Ukrainian drone military commanders and experts will visit Washington later this month to brief US policymakers and defense leaders on modern drone warfare and Ukraine's frontline experiences.<br><br><strong>INTEL:</strong> The Ground Truth Symposium on March 25, hosted by the Peace Through Strength Institute, aims to translate Ukraine's combat reality into clearer congressional understanding of the war and the capabilities shaping it. Discussions will focus on Ukraine's expertise in drone tactics, technology, and integrating new weapons, emphasizing the critical lessons for the United States and its allies, particularly concerning the Iranian conflict. Ukraine's successful development of cheap interceptor drones, costing $1,000-$2,500 and employing thermal imaging, radar, and AI-assisted guidance, offers a strategy to counter inexpensive drone threats like Shaheds without depleting scarce and expensive Western-provided air defense missiles.",
+                                    "source_url": "https://www.c4isrnet.com/industry/techwatch/2026/03/11/ukraines-top-drone-units-to-bring-frontline-lessons-to-washington-this-month/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-65220",
                                     "title": "PENTAGON TASK FORCE TO CONDUCT LASER TEST AGAINST DRONES",
                                     "description": "<br><strong>STATUS:</strong> The Pentagon\u2019s counter-drone task force is testing a high-energy laser system against drones at White Sands Missile Range.\n\n<br><strong>INTEL:</strong> This test, conducted in partnership with the FAA, prioritizes demonstrating the laser system's built-in safety features, training protocols, and gathering crucial data for the FAA regarding eye safety for aircrews and potential effects on aircraft surrogate models. The objective is to rapidly provide warfighters with state-of-the-art Counter-Unmanned Aircraft Systems (C-UAS) capabilities using \"soft kill\" high-energy lasers, marking a significant step in the increasing integration of laser weapons into U.S. military services to counter emerging drone threats.",
@@ -345,6 +353,14 @@ const signalTree = {
                             "name": "DEFENSE_ONE_TECH",
                             "articles": [
                                 {
+                                    "id": "GS-23335",
+                                    "title": "DEFENSE ONE RADIO, EP. 205: NEW HEAT SCIENCE AND THE FUTURE OF SOLDIERING",
+                                    "description": "<br><strong>STATUS:</strong> The intercepted text previews an upcoming article focusing on new scientific understanding of heat and its implications for future soldiering.\n\n<br><br><strong>INTEL:</strong> This intelligence primarily consists of a forward-looking topic, rather than current operational data. It suggests a potential future emphasis on thermal management or resilience within military research and development, indicating areas of strategic investment or tactical adaptation to environmental challenges. The remainder of the text is navigational and promotional, lacking specific actionable intelligence on immediate operations or technical specifications.",
+                                    "source_url": "https://www.defenseone.com/technology/2026/03/defense-one-radio-ep-205-new-heat-science-and-future-soldiering/412053/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "DEFENSE_ONE_TECH"
+                                },
+                                {
                                     "id": "GS-5502",
                                     "title": "NEW SCIENCE ON HEAT IS CHANGING THE FUTURE OF SOLDIERING",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Army is actively overhauling its human performance strategy, leveraging wearable biometrics and updated science to prevent heat-related soldier injuries and improve training effectiveness.\n\n<br><strong>INTEL:</strong> New wearable technologies provide early detection of overheating, up to 12 minutes before severe symptoms, enabling timely intervention to mitigate heat stroke. This approach challenges traditional military culture that often equates suffering with \"good soldiering,\" as Lt. Col. David deGroot highlights excessive motivation, lack of acclimatization, and other factors as critical risks, not just hydration. The integration of modern science also aims to optimize training, with new research showing more rapid acclimatization protocols can reduce the time needed for soldiers to adjust to new climates.",
@@ -501,6 +517,30 @@ const signalTree = {
                         {
                             "name": "DEFENSE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-7176",
+                                    "title": "PENTAGON SEEKS SYSTEM TO ENSURE AI MODELS WORK AS PLANNED",
+                                    "description": "<br><strong>STATUS:</strong> The Pentagon and the Office of the Director of National Intelligence are seeking a standardized system to evaluate artificial intelligence models for defense applications. <br><br><strong>INTEL:</strong> The Defense Innovation Unit (DIU) envisions a \"harness\" with a pluggable architecture capable of continuously assessing new AI models from any vendor against mission-specific benchmarks, including human-AI team performance, operational stress, network degradation, and resilience against adversarial attacks. This system aims to ensure the reliability, usability, and fairness of AI before its integration into critical defense operations.",
+                                    "source_url": "https://www.defensenews.com/industry/techwatch/2026/03/12/pentagon-seeks-system-to-ensure-ai-models-work-as-planned/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-24441",
+                                    "title": "US MARINE CORPS PURSUES THERMAL CLOAKS TO HIDE TROOPS FROM HEAT SENSORS",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Marine Corps is actively seeking a new multispectral camouflage overgarment (MCO) to protect Marines from detection by visual and infrared sensors, particularly those on drones, due to modern battlefield hazards.<br><br><strong>INTEL:</strong> Prompted by the Ukraine war's demonstration of drone-based thermal sensor threats, the MCO is designed for individual signature management across visual, near-infrared, short-wave infrared, mid-wave infrared, and long-wave infrared spectrums, with specific non-detection thresholds ranging from 50 to 5,000 meters depending on sensor type and distance. The Marines aim to procure 13,000 cloaks by 2027 and 61,000 by 2030, emphasizing a durable, lightweight, single-piece design for rapid deployment over existing gear, and acknowledging both advanced existing solutions and the risks of poorly designed alternatives.",
+                                    "source_url": "https://www.defensenews.com/industry/techwatch/2026/03/11/us-marine-corps-pursues-thermal-cloaks-to-hide-troops-from-heat-sensors/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-75351",
+                                    "title": "UKRAINE\u2019S TOP DRONE UNITS TO BRING FRONTLINE LESSONS TO WASHINGTON THIS MONTH",
+                                    "description": "<br><strong>STATUS:</strong> Ukrainian drone commanders and experts are scheduled to visit Washington to brief U.S. policymakers on modern drone warfare and share critical lessons from their conflict.\n<br><br><strong>INTEL:</strong> The \"Ground Truth Symposium\" on March 25 will educate U.S. leaders on Ukraine's drone tactics and technology, particularly highlighting their successful, cost-effective interceptor drones (priced between $1,000-$2,500) which counter Shahed attacks, thus preserving more expensive Western-provided air defense missiles for ballistic threats. Ukraine's experience is deemed crucial for the U.S. and its allies, especially given the current conflict in the Middle East, as these semi-autonomous interceptors utilize thermal imaging, radar, and AI guidance to destroy incoming drones.",
+                                    "source_url": "https://www.defensenews.com/industry/techwatch/2026/03/11/ukraines-top-drone-units-to-bring-frontline-lessons-to-washington-this-month/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
                                 {
                                     "id": "GS-78877",
                                     "title": "NORWEGIAN F-35S INTERCEPT RUSSIAN SPY AIRCRAFT DURING NATO DRILL",
@@ -874,30 +914,6 @@ const signalTree = {
                                     "title": "THE US AIR FORCE JUST USED ITS OLDEST BOMBER TO ATTACK IRAN",
                                     "description": "<br><strong>STATUS:</strong> U.S. forces are actively engaged in Operation Epic Fury in Iran, employing B-1 and B-52 bombers to strike over 2,000 targets and achieve local air superiority.<br><br><strong>INTEL:</strong> Operation Epic Fury involves extensive U.S. air attacks against Iran's ballistic missile facilities, command-and-control posts, and naval vessels, aiming to establish local air superiority. The deployment of B-1 Lancer and B-52 Stratofortress bombers highlights a strategy of long-range, heavy conventional strikes to degrade critical Iranian military infrastructure and project power.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/04/the-us-air-force-just-used-its-oldest-bomber-to-attack-iran/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-36234",
-                                    "title": "ISRAELI F-35 NOTCHES FIRST KILL OF A MANNED FIGHTER IN DOWNING OF IRANIAN YAK-130",
-                                    "description": "<br><strong>STATUS:</strong> An Israeli F-35I fighter jet shot down an Iranian Yak-130 over Tehran, marking the first air-to-air kill for an F-35 against a manned aircraft and Israel's first such kill since 1985, amidst the ongoing \"Epic Fury\" military operation.\n\n<br><strong>INTEL:</strong> This significant engagement occurred during a joint U.S.-Israeli operation against military targets in Iran, with the Israeli Air Force reporting approximately 4,000 munitions dropped in 1,600 raids since February 28th. Concurrently, UK Royal Air Force F-35B jets also achieved their first combat kills by intercepting Iranian drones above Jordan, underscoring the advanced capabilities and multinational involvement in the current conflict.",
-                                    "source_url": "https://www.defensenews.com/global/mideast-africa/2026/03/04/israeli-f-35-notches-first-kill-of-a-manned-fighter-in-downing-of-iranian-yak-130/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-62566",
-                                    "title": "US SUBMARINE SINKS IRANIAN SHIP IN FIRST TORPEDO KILL SINCE WWII, PENTAGON CONFIRMS",
-                                    "description": "<br><strong>STATUS:</strong> A United States Navy submarine sunk an Iranian frigate in the Indian Ocean with a single torpedo, marking the first such kill by a U.S. submarine since World War II.\n\n<br><strong>INTEL:</strong> The strike, targeting the IRIS Dena frigate off the southern coast of Sri Lanka, is part of Operation Epic Fury, a broader U.S. campaign that has already conducted over 2,000 strikes against Iran and destroyed more than 20 naval vessels, effectively neutralizing Iran\u2019s major naval presence with further strikes anticipated.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/04/us-submarine-sinks-iranian-ship-in-first-torpedo-kill-since-wwii-pentagon-confirms/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-60733",
-                                    "title": "GULF STATES WARN OF LEGAL PENALTIES IN SHARING OF IRAN STRIKES FOOTAGE",
-                                    "description": "<br><strong>STATUS:</strong> Gulf state authorities are warning residents and tourists against publishing online content of Iranian military strikes, threatening severe legal consequences including substantial fines and imprisonment.<br><br><strong>INTEL:</strong> These directives from Dubai, Bahrain, Kuwait, and Qatar aim to prevent the spread of misinformation, safeguard public safety, maintain operational security, and avoid inadvertently aiding Iranian targeting efforts, mirroring measures taken by Ukraine during the Russian invasion, as Iran continues drone and missile attacks against U.S. forces and infrastructure in the Gulf, including a recent strike on the U.S. Consulate in Dubai.",
-                                    "source_url": "https://www.defensenews.com/global/mideast-africa/2026/03/04/gulf-states-warn-of-legal-penalties-in-sharing-of-iran-strikes-footage/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1327,6 +1343,30 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-83522",
+                                    "title": "THE POST-CAPACITY ERA OF SATELLITE CONNECTIVITY",
+                                    "description": "<br><strong>STATUS:</strong> The satellite connectivity market has entered a \"Post-Capacity Era\" where bandwidth is no longer the primary differentiator, with Starlink accelerating this fundamental shift.\n\n<br><strong>INTEL:</strong> Starlink's vertical integration and sub-$0.30/GB pricing are driving a structural downward trajectory in capacity pricing and forcing the industry to prioritize end-user pricing, integrated service delivery, and the terminal ecosystem as new engines of competitive advantage. This shift commoditizes bandwidth, expands competition to include terrestrial MNOs in rural areas, and makes hardware economics, service integration, and user experience the critical factors for success.",
+                                    "source_url": "https://spacenews.com/the-post-capacity-era-of-satellite-connectivity/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-72930",
+                                    "title": "ENPULSION RAISES $26 MILLION",
+                                    "description": "<br><strong>STATUS:</strong> Enpulsion, an Austrian company specializing in satellite electric propulsion, has secured 22.5 million euros in its first significant external funding round led by Nordwind Growth.<br><br><strong>INTEL:</strong> This funding will enable Enpulsion, which has been profitable and bootstrapped for a decade, to scale production, expand into offering full-fledged satellite mobility systems as a \"one-stop shop,\" and strengthen its presence in the United States with independent assembly and testing capabilities. The company also anticipates future strategic acquisitions and a significant industry consolidation among propulsion suppliers and customers, driven by demand for larger, more reliable systems and increased scrutiny from institutional funding.",
+                                    "source_url": "https://spacenews.com/enpulsion-raises-26-million/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-30036",
+                                    "title": "REPORT CRITICIZES DELAYS IN ARTEMIS LUNAR LANDER DEVELOPMENT",
+                                    "description": "<br><strong>STATUS:</strong> NASA's OIG report indicates that while Artemis human lunar lander development costs are controlled, both SpaceX and Blue Origin face significant schedule delays and technical hurdles.\n\n<br><strong>INTEL:</strong> The report highlights that fixed-price contracts effectively contained costs; however, SpaceX's Starship is at least two years behind schedule with critical propellant transfer tests delayed, and Blue Origin's lander is eight months behind with unresolved design issues. Both companies struggle with cryogenic fluid management, and additional concerns include Starship's single-point-of-failure elevator access, a dispute over manual control capabilities, and the impact of engine plumes during landing.",
+                                    "source_url": "https://spacenews.com/report-criticizes-delays-in-artemis-lunar-lander-development/",
+                                    "timestamp": "2026.03.11",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-78205",
                                     "title": "MISSILE STRIKE HITS SES TELEPORT IN ISRAEL",
                                     "description": "<br><strong>STATUS:</strong> A missile strike on March 9 targeted a satellite teleport facility operated by SES in Israel, causing damage to a portion of its geostationary antenna field but no injuries or disruption to main services.\n\n<br><br><strong>INTEL:</strong> The strike, claimed by Hezbollah as an attack on an Israeli military cyber defense site despite SES identifying it as a commercial facility serving government customers, highlights the escalating risks to dual-use satellite infrastructure and the critical importance of redundancy in strategic space assets amidst regional tensions.",
@@ -1699,30 +1739,6 @@ const signalTree = {
                                     "title": "RETURN OF THE (SPACE) SPAC",
                                     "description": "<br><strong>STATUS:</strong> Former investment banker Raphael Roettgen has successfully launched a new space-focused Special Purpose Acquisition Company (SPAC), signaling a potential resurgence of public market interest in funding the maturing space sector.\n\n<br><strong>INTEL:</strong> The return of space SPACs follows a previous downturn driven by irresponsible mergers, unmet financial targets, and the immaturity of earlier space companies. However, current conditions suggest a more robust environment, with a greater number of space firms now generating \"real revenues\" and contributing to national security, making them more suitable merger candidates. This renewed activity, exemplified by Roettgen's $230 million SPAC, is crucial for tapping the vast capital of public markets to fund expanding space ambitions, particularly in support of recent U.S. executive orders aimed at strengthening American leadership in the sector.",
                                     "source_url": "https://spacenews.com/return-of-the-space-spac/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-31006",
-                                    "title": "RELIABLE SPACE RESCUE IS A PREREQUISITE FOR CONTINUED ECONOMIC OPPORTUNITY IN SPACE AND WE HAVE A LONG WAY TO GO",
-                                    "description": "<br><strong>STATUS:</strong> On January 15, 2026, four SpaceX Crew 11 astronauts were safely returned to Earth from the International Space Station following a medical emergency, marking a significant emergency crew rescue from space.<br><br><strong>INTEL:</strong> While recent government-led missions, including SpaceX Crew 11 and a prior Chinese rescue, have demonstrated the capability for emergency space rescue within Low Earth Orbit, the article critically notes that the burgeoning commercial space economy, particularly for missions beyond LEO, lacks reliable, on-demand rescue infrastructure. It argues that establishing such a capability, akin to military rapid-response readiness, is a fundamental prerequisite for the safe and sustained growth of the space economy, urging governments to develop this vital infrastructure to mitigate future risks and prevent industry setbacks.",
-                                    "source_url": "https://spacenews.com/reliable-space-rescue-is-a-prerequisite-for-continued-economic-opportunity-in-space-and-we-have-a-long-way-to-go/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-12230",
-                                    "title": "SLS UPPER STAGE HELIUM FLOW PROBLEM FIXED",
-                                    "description": "<br><strong>STATUS:</strong> Repairs to the Space Launch System's helium pressurization system have been completed, maintaining the potential for an April launch of the Artemis 2 mission.<br><br><strong>INTEL:</strong> The helium flow blockage was traced to a dislodged seal in a quick-disconnect line, which technicians successfully removed, reassembled, and reinstalled to restore proper flow; this critical repair, along with other concurrent maintenance including battery replacements and a liquid oxygen seal replacement, keeps the SLS on schedule to roll back to the launch pad later this month for launch windows available on April 1, 3, 4, 5, and 6.",
-                                    "source_url": "https://spacenews.com/sls-upper-stage-helium-flow-problem-fixed/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-49532",
-                                    "title": "BLUE ORIGIN\u2019S SURPRISE TERAWAVE CONSTELLATION JOLTS LEO BROADBAND RACE",
-                                    "description": "<br><strong>STATUS:</strong> Blue Origin has filed plans for TeraWave, a new enterprise-grade LEO and MEO satellite network aiming to deliver high-speed, global broadband connectivity.\n\n<br><strong>INTEL:</strong> TeraWave proposes over 5,000 LEO satellites linked to 128 MEO satellites, promising up to 6 Tbps symmetrical point-to-point ground links for enterprise and government clients, using higher-frequency Q- and V-band spectrum and emerging optical technology; however, industry experts express skepticism regarding Blue Origin's ability to meet the ambitious timeline due to concerns about their launch capacity, technological readiness, and the challenge of simultaneously advancing this project alongside Amazon's Project Kuiper.",
-                                    "source_url": "https://spacenews.com/blue-origins-surprise-terawave-constellation-jolts-leo-broadband-race/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "SPACE_NEWS"
                                 }
