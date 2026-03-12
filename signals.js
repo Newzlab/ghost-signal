@@ -518,6 +518,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-71762",
+                                    "title": "FRANCE\u2019S MEDITERRANEAN ARMADA SIGNALS CLOUT AS MIDDLE EAST MAY RETHINK ALLIANCES",
+                                    "description": "<br><strong>STATUS:</strong> France has made an unprecedented naval deployment to the Eastern Mediterranean, including its aircraft carrier, in response to Iranian aggression and to project itself as a regional security partner.<br><br><strong>INTEL:</strong> France's deployment of roughly half its major surface combatants, including the Charles de Gaulle aircraft carrier, is a strategic move to position itself as a reliable security provider in the Middle East. This action aims to capitalize on Arab Gulf states' perceived US unreliability following an American-Israeli war on Iran, thereby strengthening French strategic partnerships, protecting French citizens and interests, and demonstrating European capability in safeguarding regional navigation and supply chains. The deployment, triggered by Iranian missile and drone strikes and the closure of the Strait of Hormuz, also stages assets for potential evacuation operations for France's substantial citizen presence in the region.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/12/frances-mediterranean-armada-signals-clout-as-middle-east-may-rethink-alliances/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-7176",
                                     "title": "PENTAGON SEEKS SYSTEM TO ENSURE AI MODELS WORK AS PLANNED",
                                     "description": "<br><strong>STATUS:</strong> The Pentagon and the Office of the Director of National Intelligence are seeking a standardized system to evaluate artificial intelligence models for defense applications. <br><br><strong>INTEL:</strong> The Defense Innovation Unit (DIU) envisions a \"harness\" with a pluggable architecture capable of continuously assessing new AI models from any vendor against mission-specific benchmarks, including human-AI team performance, operational stress, network degradation, and resilience against adversarial attacks. This system aims to ensure the reliability, usability, and fairness of AI before its integration into critical defense operations.",
@@ -906,14 +914,6 @@ const signalTree = {
                                     "title": "MASTERMIND OF IRANIAN PLOT TO ASSASSINATE TRUMP IS DEAD, HEGSETH CLAIMS",
                                     "description": "<br><strong>STATUS:</strong> The U.S. and Israel have accelerated military operations against Iran, resulting in the killing of both Iran's Supreme Leader Ayatollah Ali Khamenei and an alleged mastermind behind a plot to assassinate President Trump.<br><br><strong>INTEL:</strong> The escalating U.S.-Israeli \"Operation Epic Fury\" against Iran follows alleged assassination plots against President Trump and the earlier killing of General Soleimani. The campaign involves establishing air superiority and systematically targeting Iran's military infrastructure with precision munitions, despite Iranian retaliatory strikes that have seen a significant decrease in effectiveness and the loss of an Iranian warship to a U.S. submarine torpedo. This indicates a decisive shift towards aggressive offensive operations by the allied forces, aimed at dismantling Iran's military capabilities.",
                                     "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/04/mastermind-of-iranian-plot-to-assassinate-trump-is-dead-hegseth-claims/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-9980",
-                                    "title": "THE US AIR FORCE JUST USED ITS OLDEST BOMBER TO ATTACK IRAN",
-                                    "description": "<br><strong>STATUS:</strong> U.S. forces are actively engaged in Operation Epic Fury in Iran, employing B-1 and B-52 bombers to strike over 2,000 targets and achieve local air superiority.<br><br><strong>INTEL:</strong> Operation Epic Fury involves extensive U.S. air attacks against Iran's ballistic missile facilities, command-and-control posts, and naval vessels, aiming to establish local air superiority. The deployment of B-1 Lancer and B-52 Stratofortress bombers highlights a strategy of long-range, heavy conventional strikes to degrade critical Iranian military infrastructure and project power.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/04/the-us-air-force-just-used-its-oldest-bomber-to-attack-iran/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
