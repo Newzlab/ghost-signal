@@ -526,6 +526,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-74780",
+                                    "title": "ITALY\u2019S LEONARDO RIDES HIGH ON SOARING GLOBAL DEFENSE SPENDING",
+                                    "description": "<br><strong>STATUS:</strong> Leonardo announced an ambitious new industrial plan forecasting significant growth in orders, revenue, and workforce by 2030, driven by soaring global defense spending and a focus on new technologies.<br><br><strong>INTEL:</strong> The Italian state-controlled firm targets \u20ac32 billion in annual orders and \u20ac30 billion in revenue by 2030, significantly increasing its workforce to 75,500, with strategic investments in cybersecurity, digitalization, and its new Michelangelo Dome multi-layered air defense system, projected to yield \u20ac21 billion. This growth is heavily supported by its Defense Electronics sector, which accounts for half of current revenue, including contracts for British and Italian Eurofighters, Indonesian naval vessels, and the U.S. Navy's Columbia-class submarines and Naval AEGIS systems through its U.S. subsidiary.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/12/italys-leonardo-rides-high-on-soaring-global-defense-spending/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-81163",
+                                    "title": "PRICE TAG FOR EPIC FURY TOPS $11 BILLION IN FIRST SIX DAYS, PENTAGON TELLS CONGRESS",
+                                    "description": "<br><strong>STATUS:</strong> Pentagon officials briefed senators that the first six days of Operation Epic Fury against Iran cost an estimated $11.3 billion, a figure expected to significantly increase.\n\n<br><strong>INTEL:</strong> The U.S.-Israeli offensive, launched February 28th, has involved 6,000 U.S. strikes and resulted in seven American casualties amidst Iranian retaliation primarily targeting allies, while Iran's new Supreme Leader Mojtaba Khamenei vows revenge for his father's death on day one; simultaneously, President Trump declares victory but insists on completing the mission as Democrats in Congress push war power resolutions to force troop withdrawal.",
+                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/12/price-tag-for-epic-fury-tops-11-billion-in-first-six-days-pentagon-tells-congress/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-63798",
                                     "title": "NATIONS WITHDRAW SOME EQUIPMENT FROM NATO ARCTIC EXERCISE AMID IRAN FALLOUT",
                                     "description": "<br><strong>STATUS:</strong> Several NATO member countries have diverted significant military assets from the upcoming Cold Response 2026 Arctic exercise to address the escalating conflict with Iran.<br><br><strong>INTEL:</strong> These redeployments, including the Italian destroyer Andrea Doria, a U.S. F-35B squadron, and the French Charles de Gaulle carrier strike group, signify a strategic shift towards the Middle East and Eastern Mediterranean. This move is driven by concerns of the Iran war widening, exemplified by an Iranian drone attack on a British base in Cyprus; the French carrier is already near Cyprus, and the Italian destroyer is returning to Southern Italy, indicating urgent repositioning of forces over pre-planned training.",
@@ -906,22 +922,6 @@ const signalTree = {
                                     "title": "DESPITE AIR DOMINANCE, US \u2018CAN\u2019T STOP EVERYTHING\u2019 IRAN FIRES, HEGSETH SAYS",
                                     "description": "<br><strong>STATUS:</strong> Defense Secretary Pete Hegseth acknowledged that some Iranian air attacks may still hit targets despite the U.S. asserting control of Iranian airspace in the widening war.\n\n<br><strong>INTEL:</strong> The escalating conflict, which has already seen six U.S. soldiers killed in an Iranian drone strike in Kuwait and a U.S. submarine sink an Iranian warship, is now projected to last up to eight weeks or more. While the U.S. claims air superiority has allowed it to shift to gravity bombs for deeper inland strikes, the risk of further casualties is high, and the Trump administration has not ruled out deploying ground troops in Iran.",
                                     "source_url": "https://www.defensenews.com/flashpoints/2026/03/04/despite-air-dominance-us-cant-stop-everything-iran-fires-hegseth-says/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-47138",
-                                    "title": "BOMBS HEADED FOR IRAN IN OPERATION EPIC FURY DON NAMES OF US SAILORS",
-                                    "description": "<br><strong>STATUS:</strong> U.S. sailors aboard the USS Abraham Lincoln wrote names and messages on GBU-31 bombs on February 28, prior to their use in Operation Epic Fury, as shown in recent CENTCOM photos.<br><br><strong>INTEL:</strong> This practice of personalizing munitions is a long-standing historical tradition across various militaries, dating back to ancient Greece and continuing through World War II with the \"Fat Man\" atomic bomb, up to modern conflicts in Ukraine and Jordan, serving as a psychological outlet for bravado, anger, or a primitive sense of control over weapons.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/04/bombs-headed-for-iran-in-operation-epic-fury-don-names-of-us-sailors/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-40853",
-                                    "title": "US LAUNCHES PRECISION STRIKE MISSILES IN IRAN WAR IN FIRST COMBAT USE",
-                                    "description": "<br><strong>STATUS:</strong> The U.S. military has for the first time deployed Lockheed Martin's Precision Strike Missile (PrSM) in combat against Iranian targets during Operation Epic Fury.\n\n<br><strong>INTEL:</strong> The PrSM, launched from HIMARS, is a GPS-guided missile with a 250-mile range and a fragmentation warhead, marking a new phase in long-range precision strike capabilities. Its combat debut, alongside other advanced systems like Patriot, THAAD, and LUCAS drones, indicates a strategic focus on leveraging cutting-edge weaponry in the conflict with Iran, where over 2,000 military targets have already been destroyed.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/04/us-launches-precision-strike-missiles-in-iran-war-in-first-combat-use/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1351,6 +1351,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-32399",
+                                    "title": "VOYAGER OPENS DEFENSE AND SPACE TECH HUB IN LONG BEACH",
+                                    "description": "<br><strong>STATUS:</strong> Voyager Technologies has opened a new electronics manufacturing and engineering facility in Long Beach, California, further expanding its defense and space capabilities.\n\n<br><strong>INTEL:</strong> This new facility, part of Voyager's aggressive expansion and acquisition strategy (including Estes Energetics and ExoTerra Resources), significantly boosts its capacity for developing and manufacturing propulsion and energetic materials vital for missile defense and space systems. The company is actively positioning itself for major Pentagon programs like the Next Generation Interceptor and the \"Golden Dome\" missile defense architecture, with defense work now dominating its revenue and executives projecting substantial, growing opportunities driven by current geopolitical circumstances.",
+                                    "source_url": "https://spacenews.com/voyager-opens-defense-and-space-tech-hub-in-long-beach/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-16638",
+                                    "title": "ANOTHER EARTH RAISES $4 MILLION TO BOOST AI TRAINING WITH SYNTHETIC SATELLITE DATA",
+                                    "description": "<br><strong>STATUS:</strong> Vienna-based startup Another Earth has raised $4 million in seed funding to scale its software platform, which generates synthetic satellite data for training AI models to detect environmental and operational risks. <br><br><strong>INTEL:</strong> The funding will accelerate the commercial deployment of their platform, specifically targeting applications in complex biomes in Brazil and Sub-Saharan Africa for monitoring biodiversity, deforestation, and environmental risks, with plans to expand into energy and supply chain monitoring. Another Earth addresses a critical bottleneck in the Earth observation industry\u2014the lack of high-quality training data\u2014by using proprietary generative AI and procedural 3D processing to create high-resolution synthetic imagery, enabling the development of more reliable AI models and contributing to Europe's strategic goal of technological independence in space.",
+                                    "source_url": "https://spacenews.com/another-earth-raises-4-million-to-boost-ai-training-with-synthetic-satellite-data/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-65862",
                                     "title": "THE NEW WAVE OF INDUSTRY COMING FOR THE LEO FRONTIER",
                                     "description": "<br><strong>STATUS:</strong> The SpaceNews Space Minds podcast featured Axiom Space CEO Jonathan Cirtain discussing the evolving space industry, the maturing space economy, and the role of commercial low Earth orbit presence. <br><br><strong>INTEL:</strong> The interview with Jonathan Cirtain, CEO and President of Axiom Space, on the new SpaceNews Space Minds podcast, underscores key strategic trends in the commercial space sector, specifically addressing the financial maturation of the space economy and how commercial operations in low Earth orbit are viewed as foundational for future deep space exploration. This highlights the growing influence of private enterprises in shaping humanity's trajectory in space.",
@@ -1733,28 +1749,36 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/sierra-space-raises-550-million-in-series-c-funding/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-77119",
-                                    "title": "JARED ISAACMAN ON REBUILDING, ARTEMIS AND WHAT HE\u2019S LEARNED DURING HIS FIRST MONTHS AS NASA ADMINISTRATOR",
-                                    "description": "<br><strong>STATUS:</strong> New NASA Administrator Jared Isaacman has identified a critical loss and outsourcing of the agency's core competencies, prompting a directive to rebuild internal expertise while aiming for accelerated lunar missions.<br><br><strong>INTEL:</strong> Upon taking office, Administrator Isaacman rapidly assessed NASA, discovering that approximately 75% of its workforce comprises contractors, leading to a significant degradation or outsourcing of vital capabilities in areas like rocket launching and mission control. Driven by a presidential executive order mandating a human return to the moon by 2028 and a lunar outpost by 2030, Isaacman is actively implementing a workforce directive to internalize key functions and rebuild essential expertise, strengthening NASA's independence and mission execution.",
-                                    "source_url": "https://spacenews.com/jared-isaacman-on-rebuilding-artemis-and-what-hes-learned-during-his-first-months-as-nasa-administrator/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-80370",
-                                    "title": "THIRD KAIROS LAUNCH FAILS",
-                                    "description": "<br><strong>STATUS:</strong> A Japanese Kairos rocket failed its third launch attempt shortly after liftoff, leading to the activation of its flight termination system.\n\n<br><strong>INTEL:</strong> This marks the third consecutive failure for the Kairos rocket, raising significant concerns about its future and the viability of its operator, Space One, despite investor backing and a recent defense contract. The incident further exacerbates a challenging period for Japan's domestic launch industry, which has recently experienced failures with its flagship H3 and smaller Epsilon rockets, prompting the acquisition of foreign launch services.",
-                                    "source_url": "https://spacenews.com/third-kairos-launch-fails/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-72788",
+                                    "title": "TINY NASA SPACECRAFT DELIVERS\u00a0EXOPLANET MISSION\u2019S\u00a0FIRST IMAGES",
+                                    "description": "<br><strong>STATUS:</strong> NASA\u2019s Star-Planet Activity Research CubeSat (SPARCS) has achieved \"first light\" with its instruments confirmed functional, officially transitioning to full science operations to study low-mass stars and their potential impact on exoplanet habitability.\n\n<br><strong>INTEL:</strong> SPARCS, a cereal box-sized satellite, will perform a one-year mission continuously monitoring far- and near-ultraviolet radiation from roughly 20 low-mass stars, which host the majority of the galaxy's habitable-zone planets and are known for frequent, atmosphere-altering flares. This mission validates advanced UV-sensitive \"delta-doped\" detectors with integrated filters, developed at JPL, showcasing a compact and highly sensitive technology critical for achieving its scientific goals and paving the way for future UV-capable missions like the Habitable Worlds Observatory.",
+                                    "source_url": "https://www.nasa.gov/science-research/astrophysics/exoplanet-science/tiny-nasa-spacecraft-delivers-exoplanet-missions-first-images/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-13507",
+                                    "title": "WEBB SPOTS DETAILS IN NEARBY SPIRAL GALAXY",
+                                    "description": "<br><strong>STATUS:</strong> The James Webb Space Telescope captured a detailed infrared image of the spiral galaxy NGC 5134 on February 20, 2026.\n\n<br><strong>INTEL:</strong> Webb utilized its Mid-Infrared Instrument (MIRI) to observe warm dust and its Near Infrared Camera (NIRCam) for stars in NGC 5134, which is 65 million light-years away. This detailed observation of a nearby galaxy allows astronomers to develop knowledge applicable to studying much more distant galaxies that cannot be resolved with such clarity.",
+                                    "source_url": "https://www.nasa.gov/image-article/webb-spots-details-in-nearby-spiral-galaxy/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-21554",
+                                    "title": "HELP GALAXY ZOO: TIDAL TALES OPEN COSMIC STORYBOOK",
+                                    "description": "<br><strong>STATUS:</strong> A new citizen science project, Galaxy Zoo: Tidal Tales, has been launched to identify galaxy interactions using high-resolution images from the Euclid space telescope.\n\n<br><strong>INTEL:</strong> This initiative, open to volunteers, aims to build the first large catalog of galaxy mergers observed by Euclid, train computer models to recognize these features, and ultimately help astronomers trace how galaxy collisions reshape star formation, galaxy growth, and the evolution of the universe over time.",
+                                    "source_url": "https://science.nasa.gov/get-involved/citizen-science/help-galaxy-zoo-tidal-tales-open-cosmic-storybook/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-10032",
                                     "title": "EFFICIENT LARGE DISPLACEMENT/LARGE ROTATION DYNAMIC SIMULATIONS USING NONLINEAR DYNAMIC SUBSTRUCTURES",
@@ -2130,30 +2154,6 @@ const signalTree = {
                                     "source_url": "https://science.nasa.gov/earth/earth-observatory/a-little-town-with-a-long-name/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-2683",
-                                    "title": "HIGH-SPEED FLIGHT PROJECT OVERVIEW",
-                                    "description": "<br><strong>STATUS:</strong> The NASA High-Speed Flight (HSF) project is actively developing technologies for commercial supersonic and hypersonic airbreathing flight, focusing on overcoming challenges like sonic boom and enabling reusable hypersonic vehicles.\n\n<br><strong>INTEL:</strong> The HSF project's strategic goal is to enable commercial flight from Mach 1 to Mach 5+, specifically addressing the sonic boom issue through X-59 vehicle testing and acoustic data validation, while also conducting fundamental research into reusable hypersonic flight technology for future point-to-point travel and space access. Leveraging NASA's unique facilities and expertise, the project emphasizes critical partnerships with industry, academia, and other government agencies to accelerate computational model validation and advance the state of the art in high-speed flight.",
-                                    "source_url": "https://www.nasa.gov/directorates/armd/aavp/hsf/high-speed-flight-project-overview/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-58656",
-                                    "title": "ABOUT ADVANCED AIR VEHICLES PROGRAM (AAVP)",
-                                    "description": "<br><strong>STATUS:</strong> NASA's Advanced Air Vehicles Program (AAVP) is actively developing cutting-edge technologies for future aircraft systems to maintain U.S. leadership in aerospace. <br><br><strong>INTEL:</strong> The AAVP program spans all flight regimes from hover to hypersonic, focusing on creating safer, faster, quieter, and more fuel-efficient aircraft while bolstering U.S. competitiveness and economic benefits. Key initiatives include accelerating subsonic transport technologies for industry transition by the late 2020s and exploring high-risk, high-payoff concepts, all through robust collaboration with industry, academia, and government partners.",
-                                    "source_url": "https://www.nasa.gov/directorates/armd/aavp/about-aavp/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-79312",
-                                    "title": "BLOWING STELLAR BUBBLES",
-                                    "description": "<br><strong>STATUS:</strong> NASA's Chandra X-ray Observatory has for the first time directly observed an astrosphere, a bubble of hot gas, surrounding a young, Sun-like star. <br><br><strong>INTEL:</strong> This discovery provides direct visual evidence of a phenomenon analogous to our Sun's heliosphere, which shields Earth from cosmic radiation. The astrosphere is formed by winds from the star's surface filling a bubble with hot gas that expands into cooler galactic material, offering critical insights into the protective mechanisms around other planetary systems and stellar evolution.",
-                                    "source_url": "https://www.nasa.gov/image-article/blowing-stellar-bubbles/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2170,6 +2170,22 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-13791",
+                                    "title": "VEEAM WARNS OF CRITICAL FLAWS EXPOSING BACKUP SERVERS TO RCE ATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> Veeam Software has patched multiple critical remote code execution (RCE) and other high-severity vulnerabilities in its widely used Backup & Replication solution.<br><br><strong>INTEL:</strong> The patches address four critical RCE flaws, allowing low-privileged users or a Backup Viewer to execute code on vulnerable backup servers, alongside bugs enabling privilege escalation and data manipulation. Given that threat groups like FIN7 and various ransomware gangs (e.g., Cuba, Frag) frequently target VBR servers for lateral movement and to sabotage backup restoration, immediate software upgrades to versions 12.3.2.4465 or 13.0.1.2067 are imperative, as attackers are expected to quickly reverse-engineer these patches.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/veeam-warns-of-critical-flaws-exposing-backup-servers-to-rce-attacks/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-65251",
+                                    "title": "US DISRUPTS SOCKSESCORT PROXY NETWORK POWERED BY LINUX MALWARE",
+                                    "description": "<br><strong>STATUS:</strong> Law enforcement agencies and private partners have successfully disrupted the SocksEscort cybercrime proxy network, which relied on compromised edge devices for malicious activities.\n\n<br><strong>INTEL:</strong> SocksEscort operated for over a decade, utilizing the AVRecon Linux malware to infect tens of thousands of residential and small business routers, providing cybercriminals with \"clean\" IP addresses to facilitate millions in financial fraud and cryptocurrency theft. This sophisticated, dedicated network strategically leveraged compromised devices primarily in the U.S. and U.K. to evade blocklists, with authorities seizing numerous domains and servers while freezing millions in cryptocurrency across multiple countries.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/us-disrupts-socksescort-proxy-network-powered-by-linux-malware/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-95649",
                                     "title": "GOOGLE PAID $17.1 MILLION FOR VULNERABILITY REPORTS IN 2025",
@@ -2551,22 +2567,6 @@ const signalTree = {
                                     "title": "WORDPRESS MEMBERSHIP PLUGIN BUG EXPLOITED TO CREATE ADMIN ACCOUNTS",
                                     "description": "<br><strong>STATUS:</strong> Hackers are actively exploiting a critical vulnerability in the User Registration & Membership WordPress plugin to create administrator accounts without authentication.<br><br><strong>INTEL:</strong> Tracked as CVE-2026-1492 with a critical severity rating of 9.8, this flaw allows unauthenticated users to gain full administrative access on over 60,000 affected WordPress sites running plugin versions through 5.1.2, enabling data theft and malware distribution; immediate updates to version 5.1.3 or higher, or temporary disabling of the plugin, are strongly advised.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/wordpress-membership-plugin-bug-exploited-to-create-admin-accounts/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-24511",
-                                    "title": "FBI ARRESTS SUSPECT LINKED TO $46M CRYPTO THEFT FROM US MARSHALS",
-                                    "description": "<br><strong>STATUS:</strong> John Daghita, a U.S. government contractor's son, was arrested in Saint Martin for allegedly stealing over $46 million in cryptocurrency from the U.S. Marshals Service.\n\n<br><strong>INTEL:</strong> Daghita, son of the CEO of CMDSS which manages seized digital assets for the USMS (including Bitfinex hack funds), exploited his access to steal the funds. The theft was uncovered by blockchain investigator ZachXBT, who traced wallet movements after Daghita inadvertently exposed himself during a Telegram dispute and subsequently taunted ZachXBT. The arrest was a joint operation between the FBI and France's GIGN, with physical assets like cash, hard drives, and security keys also seized.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/fbi-arrests-suspect-linked-to-46m-crypto-theft-from-us-marshals/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-54965",
-                                    "title": "GOOGLE SAYS 90 ZERO-DAYS WERE EXPLOITED IN ATTACKS LAST YEAR",
-                                    "description": "<br><strong>STATUS:</strong> Google Threat Intelligence Group (GTIG) reported 90 zero-day vulnerabilities were actively exploited in 2025, marking a 15% increase from the previous year.\n\n<br><strong>INTEL:</strong> Nearly half of the exploited zero-days targeted enterprise software and appliances, with operating systems, security appliances, and networking infrastructure being the most vulnerable. Notably, commercial spyware vendors emerged as the largest users of zero-day exploits for the first time, surpassing state-sponsored groups, while financially motivated actors also significantly increased their zero-day activity. GTIG anticipates that the advent of AI tools will likely automate vulnerability discovery and accelerate exploit development, suggesting that the high rate of zero-day exploitation is expected to continue into 2026.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/google-says-90-zero-days-were-exploited-in-attacks-last-year/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
