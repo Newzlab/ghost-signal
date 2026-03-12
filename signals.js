@@ -119,6 +119,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-4825",
+                                    "title": "UKRAINIAN ADVISORS TO TEACH GERMAN ARMY HOW TO WIN A MODERN WAR BY 2029",
+                                    "description": "<br><strong>STATUS:</strong> Ukrainian military instructors will deploy to German army schools to train Bundeswehr personnel, aiming to enhance readiness against a hypothetical Russian attack on NATO by 2029.<br><br><strong>INTEL:</strong> This initiative represents a significant role reversal, with Germany seeking to leverage Ukraine's unique, current frontline experience against Russia, particularly in drone employment, artillery, and armored operations. The move reflects NATO's growing recognition of the crucial battlefield lessons learned by Ukraine and underscores the urgency felt by Western intelligence assessments suggesting Russia could pose a large-scale threat to the alliance as early as 2029.",
+                                    "source_url": "https://www.c4isrnet.com/global/europe/2026/03/12/ukrainian-advisors-to-teach-german-army-how-to-win-a-modern-war-by-2029/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-93052",
                                     "title": "UKRAINE\u2019S TOP DRONE UNITS TO BRING FRONTLINE LESSONS TO WASHINGTON THIS MONTH",
                                     "description": "<br><strong>STATUS:</strong> Ukrainian drone military commanders and experts will visit Washington later this month to brief US policymakers and defense leaders on modern drone warfare and Ukraine's frontline experiences.<br><br><strong>INTEL:</strong> The Ground Truth Symposium on March 25, hosted by the Peace Through Strength Institute, aims to translate Ukraine's combat reality into clearer congressional understanding of the war and the capabilities shaping it. Discussions will focus on Ukraine's expertise in drone tactics, technology, and integrating new weapons, emphasizing the critical lessons for the United States and its allies, particularly concerning the Iranian conflict. Ukraine's successful development of cheap interceptor drones, costing $1,000-$2,500 and employing thermal imaging, radar, and AI-assisted guidance, offers a strategy to counter inexpensive drone threats like Shaheds without depleting scarce and expensive Western-provided air defense missiles.",
@@ -518,6 +526,30 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-63798",
+                                    "title": "NATIONS WITHDRAW SOME EQUIPMENT FROM NATO ARCTIC EXERCISE AMID IRAN FALLOUT",
+                                    "description": "<br><strong>STATUS:</strong> Several NATO member countries have diverted significant military assets from the upcoming Cold Response 2026 Arctic exercise to address the escalating conflict with Iran.<br><br><strong>INTEL:</strong> These redeployments, including the Italian destroyer Andrea Doria, a U.S. F-35B squadron, and the French Charles de Gaulle carrier strike group, signify a strategic shift towards the Middle East and Eastern Mediterranean. This move is driven by concerns of the Iran war widening, exemplified by an Iranian drone attack on a British base in Cyprus; the French carrier is already near Cyprus, and the Italian destroyer is returning to Southern Italy, indicating urgent repositioning of forces over pre-planned training.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/12/nations-withdraw-some-equipment-from-nato-arctic-exercise-amid-iran-fallout/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-79015",
+                                    "title": "NATO SENDS PATRIOT SYSTEM TO PROTECT KEY AIR-DEFENSE RADAR IN TURKEY",
+                                    "description": "<br><strong>STATUS:</strong> Turkey is deploying a second Patriot air defense system in Malatya, strategically enhancing its defenses against recent Iranian missile and drone attacks.\n\n<br><br><strong>INTEL:</strong> This new Patriot system, deployed from NATO\u2019s Allied Air Command in Germany, is being positioned near the K\u00fcrecik radar base in Malatya, which hosts a critical AN/TPY-2 radar for early warning against ballistic missiles from Iran, thereby augmenting NATO's integrated air and missile defense architecture in the region, alongside an existing Spanish Patriot system at \u0130ncirlik Air Base.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/12/nato-sends-patriot-system-to-protect-key-air-defense-radar-in-turkey/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-81916",
+                                    "title": "UKRAINIAN ADVISORS TO TEACH GERMAN ARMY HOW TO WIN A MODERN WAR BY 2029",
+                                    "description": "<br><strong>STATUS:</strong> Ukrainian military instructors will deploy to German army schools to train Bundeswehr personnel, reversing traditional roles and leveraging unique battlefield experience to prepare for a potential Russian attack on NATO by 2029.<br><br><strong>INTEL:</strong> This initiative signifies a critical shift where NATO armies are seeking vital, real-world combat lessons from Ukraine, particularly in drone warfare, artillery, and command-and-control, given their unparalleled frontline experience against Russia. The urgency is driven by Western intelligence indicating Russia's potential to launch a large-scale offensive against NATO as early as 2029, making this partnership crucial for German and broader European defense readiness amidst Germany's accelerated military buildup.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/12/ukrainian-advisors-to-teach-german-army-how-to-win-a-modern-war-by-2029/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-71762",
                                     "title": "FRANCE\u2019S MEDITERRANEAN ARMADA SIGNALS CLOUT AS MIDDLE EAST MAY RETHINK ALLIANCES",
                                     "description": "<br><strong>STATUS:</strong> France has made an unprecedented naval deployment to the Eastern Mediterranean, including its aircraft carrier, in response to Iranian aggression and to project itself as a regional security partner.<br><br><strong>INTEL:</strong> France's deployment of roughly half its major surface combatants, including the Charles de Gaulle aircraft carrier, is a strategic move to position itself as a reliable security provider in the Middle East. This action aims to capitalize on Arab Gulf states' perceived US unreliability following an American-Israeli war on Iran, thereby strengthening French strategic partnerships, protecting French citizens and interests, and demonstrating European capability in safeguarding regional navigation and supply chains. The deployment, triggered by Iranian missile and drone strikes and the closure of the Strait of Hormuz, also stages assets for potential evacuation operations for France's substantial citizen presence in the region.",
@@ -890,30 +922,6 @@ const signalTree = {
                                     "title": "US LAUNCHES PRECISION STRIKE MISSILES IN IRAN WAR IN FIRST COMBAT USE",
                                     "description": "<br><strong>STATUS:</strong> The U.S. military has for the first time deployed Lockheed Martin's Precision Strike Missile (PrSM) in combat against Iranian targets during Operation Epic Fury.\n\n<br><strong>INTEL:</strong> The PrSM, launched from HIMARS, is a GPS-guided missile with a 250-mile range and a fragmentation warhead, marking a new phase in long-range precision strike capabilities. Its combat debut, alongside other advanced systems like Patriot, THAAD, and LUCAS drones, indicates a strategic focus on leveraging cutting-edge weaponry in the conflict with Iran, where over 2,000 military targets have already been destroyed.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/04/us-launches-precision-strike-missiles-in-iran-war-in-first-combat-use/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-54844",
-                                    "title": "FRENCH-GERMAN FIGHTER PROGRAM ON LIFE SUPPORT AS DASSAULT BLAMES AIRBUS",
-                                    "description": "<br><strong>STATUS:</strong> The French-German Future Combat Air System (FCAS) project is on the brink of collapse due to irreconcilable disputes between lead partners Dassault Aviation and Airbus regarding leadership and work share.<br><br><strong>INTEL:</strong> Dassault Aviation CEO Eric Trappier attributes the imminent failure to Airbus's refusal to accept Dassault's designated lead role for the next-generation fighter component, a position agreed upon by partner nations. Trappier insists a single, clear leader is essential for such a complex program, while Airbus, supported by some German entities, advocates for a more distributed \"co-co-co construction\" or a \"two-aircraft solution,\" which Dassault and France reject. This long-standing disagreement over project authority, work allocation, and potential differing national requirements, including Germany's possible lack of need for carrier-based or nuclear-capable fighters, has led to a deadlock, leaving the project's future in the hands of the French and German governments.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/04/french-german-fighter-program-on-life-support-as-dassault-blames-airbus/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-92451",
-                                    "title": "US AND ECUADOR LAUNCH MILITARY OPERATION AGAINST ORGANIZED CRIME GROUPS",
-                                    "description": "<br><strong>STATUS:</strong> Ecuador and the United States have initiated joint military operations targeting organized crime and \"Designated Terrorist Organizations\" within Ecuador.<br><br><strong>INTEL:</strong> The operation follows Ecuadorian President Daniel Noboa's call for international cooperation against a wave of narco-terrorism, drug trafficking, and illegal mining, with Ecuador identified as a critical global drug trade logistical hub; however, specific details regarding the location, scope, and ongoing actions of the joint forces remain scarce.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/04/us-and-ecuador-launch-military-operation-against-organized-crime-groups/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-3556",
-                                    "title": "MASTERMIND OF IRANIAN PLOT TO ASSASSINATE TRUMP IS DEAD, HEGSETH CLAIMS",
-                                    "description": "<br><strong>STATUS:</strong> The U.S. and Israel have accelerated military operations against Iran, resulting in the killing of both Iran's Supreme Leader Ayatollah Ali Khamenei and an alleged mastermind behind a plot to assassinate President Trump.<br><br><strong>INTEL:</strong> The escalating U.S.-Israeli \"Operation Epic Fury\" against Iran follows alleged assassination plots against President Trump and the earlier killing of General Soleimani. The campaign involves establishing air superiority and systematically targeting Iran's military infrastructure with precision munitions, despite Iranian retaliatory strikes that have seen a significant decrease in effectiveness and the loss of an Iranian warship to a U.S. submarine torpedo. This indicates a decisive shift towards aggressive offensive operations by the allied forces, aimed at dismantling Iran's military capabilities.",
-                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/04/mastermind-of-iranian-plot-to-assassinate-trump-is-dead-hegseth-claims/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1343,6 +1351,30 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-39004",
+                                    "title": "ASTRANIS TAPS RETIRED GEN. JOHN HYTEN TO LEAD ADVISORY BOARD",
+                                    "description": "<br><strong>STATUS:</strong> Astranis, a small geostationary communications satellite operator, announced retired U.S. Air Force Gen. John Hyten has joined as chairman of its new advisory board.<br><br><strong>INTEL:</strong> General Hyten, a former vice chairman of the Joint Chiefs of Staff and critic of the Pentagon's reliance on large, vulnerable satellites, will advise Astranis on strategy, business, and technology as the company builds resilient space architectures. His appointment underscores a strategic shift towards smaller, proliferated, and commercially-derived satellite systems, which Astranis specializes in, aligning with U.S. strategic interests and potential military applications, including ongoing development funding from the U.S. Space Force.",
+                                    "source_url": "https://spacenews.com/astranis-taps-retired-gen-john-hyten-to-lead-advisory-board/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-83644",
+                                    "title": "YORK SPACE ACQUIRES SATELLITE PROPULSION MANUFACTURER ORBION SPACE",
+                                    "description": "<br><strong>STATUS:</strong> York Space Systems has acquired Orbion Space Technology to integrate key satellite propulsion technology in-house and expand domestic production for national security space programs.<br><br><strong>INTEL:</strong> This acquisition significantly reduces supply-chain risk and improves schedule certainty for York, a major supplier to the U.S. Space Development Agency's proliferated LEO constellation, by bringing critical electric propulsion systems like Orbion's Aurora Hall-effect thrusters under its direct control and enabling increased production capacity to meet growing demand.",
+                                    "source_url": "https://spacenews.com/york-space-acquires-satellite-propulsion-manufacturer-orbion-space/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-83088",
+                                    "title": "MANTIS SPACE EMERGES FROM STEALTH WITH $10 MILLION FOR SOLAR-POWER CONSTELLATION",
+                                    "description": "<br><strong>STATUS:</strong> Mantis Space, a New Mexico startup planning a constellation to supply solar power to spacecraft, has emerged from stealth with $10 million in seed funding.\n\n<br><strong>INTEL:</strong> The company aims to address the critical issue of satellites in low-Earth orbit being in Earth's shadow about a third of the time, which limits their access to solar power. Mantis Space plans to deploy an orbital power constellation in low medium-Earth orbit designed to transmit power directly to existing satellite solar arrays, thereby enabling satellites to perform more work, gather more data, extend mission durations, and operate in more strategic orbits. This initiative is viewed as addressing a significant gap in space infrastructure, with its founders being U.S. military veterans and its technical team including former experts from Google, Apple, and Sandia National Laboratory.",
+                                    "source_url": "https://spacenews.com/mantis-space-emerges-from-stealth-with-10-million-for-solar-power-constellation/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-25209",
                                     "title": "FIREFLY ALPHA RETURNS TO FLIGHT",
                                     "description": "<br><strong>STATUS:</strong> Firefly Aerospace\u2019s Alpha rocket successfully returned to flight on March 11 with a technology demonstration mission after multiple past failures and delays.<br><br><strong>INTEL:</strong> This successful flight, carrying a Lockheed Martin demonstrator payload, validated upgrades for the upcoming Alpha Block 2 configuration and represents a significant recovery for Firefly following a 2025 upper stage failure and a subsequent first stage explosion during ground testing; the company has a mixed launch history, with only two of six previous Alpha flights achieving planned orbits.",
@@ -1716,30 +1748,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> The Senate Commerce Committee advanced a revised NASA authorization bill that modifies the Artemis lunar exploration effort, mandates a lunar base, and extends the life of the International Space Station.<br><br><strong>INTEL:</strong> The bill supports NASA's revised Artemis plan by dropping the Space Launch System's (SLS) Block 1B Exploration Upper Stage in favor of standardizing a \"near Block 1\" version to achieve higher flight rates, while also directing NASA to establish a permanent Lunar Surface Moon Base by 2030 with specific requirements suggesting the Johnson Space Center will lead. It de-emphasizes the lunar Gateway and extends the ISS operational lifetime by two years, to the end of 2032, citing delays in the Commercial Low Earth Orbit Destinations (CLD) program.",
                                     "source_url": "https://spacenews.com/senate-committee-advances-nasa-authorization-bill-that-changes-artemis-and-extends-iss/",
                                     "timestamp": "2026.03.05",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-17613",
-                                    "title": "TELUS INVESTS IN AST SPACEMOBILE TO EXPAND D2D COVERAGE IN CANADA",
-                                    "description": "<br><strong>STATUS:</strong> Canadian telco Telus has partnered with AST SpaceMobile to invest in ground infrastructure and extend direct-to-smartphone satellite coverage to remote locations in Canada by late 2026.<br><br><strong>INTEL:</strong> This agreement places AST SpaceMobile in direct competition with SpaceX's Starlink Mobile, which rival Canadian carrier Rogers is already using for similar services, highlighting the intensifying race for satellite-to-phone connectivity. AST SpaceMobile is rapidly expanding its global footprint with numerous partnerships across continents and is progressing with its BlueBird satellite constellation deployment, targeting 45 Block 2 spacecraft by late 2026 to enable commercial service, while simultaneously navigating regulatory challenges for spectrum access.",
-                                    "source_url": "https://spacenews.com/telus-invests-in-ast-spacemobile-to-expand-d2d-coverage-in-canada/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-46048",
-                                    "title": "SPACE FORCE PRESSES CASE FOR MORE PERSONNEL AND TRAINING",
-                                    "description": "<br><strong>STATUS:</strong> The U.S. Space Force is actively campaigning for more personnel and training resources to meet the rapidly expanding Pentagon reliance on space capabilities amidst escalating global threats.<br><br><strong>INTEL:</strong> Gen. Shawn Bratton informed lawmakers that the Space Force must evolve into a warfighting service capable of defending against space-enabled attacks, necessitating a doubling of its 10,000 uniformed Guardians and a significant increase in training infrastructure and exercises, such as Space Flag, to integrate next-generation systems and personnel into broader military operations.",
-                                    "source_url": "https://spacenews.com/space-force-presses-case-for-more-personnel-and-training/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-94532",
-                                    "title": "MUTABLE TACTICS RAISES $2.1 MILLION FOR AI DRONE COORDINATION IN SATELLITE-DENIED ENVIRONMENTS",
-                                    "description": "<br><strong>STATUS:</strong> British startup Mutable Tactics has secured $2.1 million in pre-seed funding to develop AI software enabling military drone swarms to operate autonomously even when satellite navigation and communications are disrupted.<br><br><strong>INTEL:</strong> This technology addresses a critical vulnerability in modern military operations by allowing unmanned systems to transition to a \"space-degraded mode\" and continue coordinated operations without satellite PNT or communications. The software aims to break the one-to-one human-drone link, enabling operators to supervise teams of drones at scale, which is essential for resilient and high-speed military missions in contested environments. Mutable Tactics plans to expand its engineering team and is already validating the technology with European governments for aerial, maritime, and ground drones.",
-                                    "source_url": "https://spacenews.com/mutable-tactics-raises-2-1-million-for-ai-drone-coordination-in-satellite-denied-environments/",
-                                    "timestamp": "2026.03.04",
                                     "feed_name": "SPACE_NEWS"
                                 }
                             ]
@@ -2163,6 +2171,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-19275",
+                                    "title": "US CHARGES ANOTHER RANSOMWARE NEGOTIATOR LINKED TO BLACKCAT ATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> A former DigitalMint employee, Angelo Martino, has been charged for his involvement in an insider scheme collaborating with the BlackCat (ALPHV) ransomware operation.\n\n<br><strong>INTEL:</strong> Martino, previously identified as \"Co-Conspirator 1,\" allegedly partnered with fellow former DigitalMint employee Kevin Tyler Martin and former Sygnia manager Ryan Goldberg, acting as BlackCat affiliates who shared confidential negotiation details, directly participated in attacks, and demanded ransoms from at least five U.S. organizations, including a medical device manufacturer that paid $1.27 million, while funneling 20% of their collected ransoms to BlackCat administrators.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/us-charges-another-ransomware-negotiator-linked-to-blackcat-attacks/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-51281",
                                     "title": "WHATSAPP INTRODUCES PARENT-MANAGED ACCOUNTS FOR PRE-TEENS",
                                     "description": "<br><strong>STATUS:</strong> WhatsApp has launched parent-managed accounts for pre-teens, allowing guardians to control contacts and groups while maintaining end-to-end encryption.\n\n<br><strong>INTEL:</strong> These restricted accounts prevent access to features like Meta AI, Channels, and location sharing, and parents use a PIN to manage privacy settings, contact approvals, and receive activity alerts for chat requests or new group members. Setup requires both parent and child devices for verification and linking, with accounts automatically transitioning to standard profiles at age 13; WhatsApp also introduced new anti-scam protections warning users of fraudulent device-linking requests.",
@@ -2552,14 +2568,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> A Russian national pleaded guilty to wire fraud conspiracy for administering the Phobos ransomware-as-a-service operation, which extorted over $39 million from hundreds of global victims.<br><br><strong>INTEL:</strong> Evgenii Ptitsyn oversaw the Phobos RaaS operation, linked to the Crysis family, by selling access to criminal affiliates on darknet forums since November 2020 under aliases \"derxan\" and \"zimmermanx.\" These affiliates breached over 1,000 public and private entities, encrypting data and exfiltrating files, while paying Ptitsyn a per-deployment fee for decryption keys and a share of the ransom payments, often through his cryptocurrency wallet. His extradition and guilty plea are a key result of \"Operation Aether,\" a Europol-coordinated international effort that has also led to infrastructure disruptions, server seizures, and the arrest of multiple affiliates across 14 countries.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/phobos-ransomware-admin-pleads-guilty-to-wire-fraud-conspiracy/",
                                     "timestamp": "2026.03.05",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-41845",
-                                    "title": "BITWARDEN ADDS SUPPORT FOR PASSKEY LOGIN ON WINDOWS 11",
-                                    "description": "<br><strong>STATUS:</strong> Bitwarden has enabled support for logging into Windows 11 devices using passkeys stored in its manager's vault, facilitating phishing-resistant authentication.\n\n<br><strong>INTEL:</strong> This new feature leverages Bitwarden as a passkey provider, storing cryptographic credentials in a user's synced vault rather than a single device, thus allowing account recovery and significantly reducing the risk of phishing attacks by eliminating password entry. Available on all Bitwarden plans, this capability builds upon Microsoft's November 2025 announcement of a passkey provider API, extending it to the fundamental OS authentication layer and enhancing overall security for Windows users.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/bitwarden-adds-support-for-passkey-login-on-windows-11/",
-                                    "timestamp": "2026.03.04",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
