@@ -1351,6 +1351,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-65862",
+                                    "title": "THE NEW WAVE OF INDUSTRY COMING FOR THE LEO FRONTIER",
+                                    "description": "<br><strong>STATUS:</strong> The SpaceNews Space Minds podcast featured Axiom Space CEO Jonathan Cirtain discussing the evolving space industry, the maturing space economy, and the role of commercial low Earth orbit presence. <br><br><strong>INTEL:</strong> The interview with Jonathan Cirtain, CEO and President of Axiom Space, on the new SpaceNews Space Minds podcast, underscores key strategic trends in the commercial space sector, specifically addressing the financial maturation of the space economy and how commercial operations in low Earth orbit are viewed as foundational for future deep space exploration. This highlights the growing influence of private enterprises in shaping humanity's trajectory in space.",
+                                    "source_url": "https://spacenews.com/the-new-wave-of-industry-coming-for-the-leo-frontier/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-39004",
                                     "title": "ASTRANIS TAPS RETIRED GEN. JOHN HYTEN TO LEAD ADVISORY BOARD",
                                     "description": "<br><strong>STATUS:</strong> Astranis, a small geostationary communications satellite operator, announced retired U.S. Air Force Gen. John Hyten has joined as chairman of its new advisory board.<br><br><strong>INTEL:</strong> General Hyten, a former vice chairman of the Joint Chiefs of Staff and critic of the Pentagon's reliance on large, vulnerable satellites, will advise Astranis on strategy, business, and technology as the company builds resilient space architectures. His appointment underscores a strategic shift towards smaller, proliferated, and commercially-derived satellite systems, which Astranis specializes in, aligning with U.S. strategic interests and potential military applications, including ongoing development funding from the U.S. Space Force.",
@@ -1741,20 +1749,20 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/third-kairos-launch-fails/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-21057",
-                                    "title": "SENATE COMMITTEE ADVANCES NASA AUTHORIZATION BILL THAT CHANGES ARTEMIS AND EXTENDS ISS",
-                                    "description": "<br><strong>STATUS:</strong> The Senate Commerce Committee advanced a revised NASA authorization bill that modifies the Artemis lunar exploration effort, mandates a lunar base, and extends the life of the International Space Station.<br><br><strong>INTEL:</strong> The bill supports NASA's revised Artemis plan by dropping the Space Launch System's (SLS) Block 1B Exploration Upper Stage in favor of standardizing a \"near Block 1\" version to achieve higher flight rates, while also directing NASA to establish a permanent Lunar Surface Moon Base by 2030 with specific requirements suggesting the Johnson Space Center will lead. It de-emphasizes the lunar Gateway and extends the ISS operational lifetime by two years, to the end of 2032, citing delays in the Commercial Low Earth Orbit Destinations (CLD) program.",
-                                    "source_url": "https://spacenews.com/senate-committee-advances-nasa-authorization-bill-that-changes-artemis-and-extends-iss/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-10032",
+                                    "title": "EFFICIENT LARGE DISPLACEMENT/LARGE ROTATION DYNAMIC SIMULATIONS USING NONLINEAR DYNAMIC SUBSTRUCTURES",
+                                    "description": "<br><strong>STATUS:</strong> A new methodology has been developed for highly efficient nonlinear dynamic simulations involving large displacements and rotations, significantly reducing computational time. <br><br><strong>INTEL:</strong> This innovative approach transforms the Residual Flexibility Mixed Boundary (RFMB) method into a Nonlinear Dynamic Substructure (NDS) by incorporating quaternions, enabling the tracking of large rotations while drastically reducing degrees of freedom. The NDS method allows for complex simulations, such as the real-time analysis of flexible subsea pipes or umbilical models in coupled loads analysis, which previously required days of computation on high-performance clusters, thereby enhancing design and analysis capabilities.",
+                                    "source_url": "https://www.nasa.gov/general/efficient-large-displacement-large-rotation-dynamic-simulations-using-nonlinear-dynamic-substructures/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-68016",
                                     "title": "DUST OUTBREAK REACHES EUROPE",
@@ -2146,14 +2154,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/image-article/blowing-stellar-bubbles/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-76012",
-                                    "title": "I AM ARTEMIS: PAUL BOEHM",
-                                    "description": "<br><strong>STATUS:</strong> Paul Boehm's team has developed crucial life support, flight equipment, and survival systems for the Orion spacecraft, set for their first crewed flight on the upcoming Artemis II mission around the Moon.<br><br><strong>INTEL:</strong> These systems, particularly the regenerative Environmental Control and Life Support System (ECLSS), are specifically designed for the unique challenges of deep space travel, requiring prolonged reliability without resupply and accommodating various human metabolic needs due to the mission's extended duration and inability for quick return, marking a critical advancement for sustained human presence in deep space.",
-                                    "source_url": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-paul-boehm/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2170,6 +2170,30 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-80716",
+                                    "title": "TELUS DIGITAL CONFIRMS BREACH AFTER HACKER CLAIMS 1 PETABYTE DATA THEFT",
+                                    "description": "<br><strong>STATUS:</strong> Telus Digital confirmed a security incident where the ShinyHunters threat group claims to have stolen nearly 1 petabyte of data in a multi-month breach affecting its business process outsourcing operations.<br><br><strong>INTEL:</strong> The breach, carried out by ShinyHunters, reportedly leveraged Google Cloud Platform credentials discovered during a previous Salesloft Drift breach to gain initial access to Telus Digital's systems, including a large BigQuery instance, before pivoting further using additional extracted credentials. This incident is significant as Telus Digital, a major BPO provider, handles extensive customer support, content moderation, and AI data services for numerous global companies, making the alleged 1 petabyte data theft a critical exposure for multiple entities. Telus is actively investigating the scope and impacted customers, confirming they are not engaging with the threat actors in an extortion attempt.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/telus-digital-confirms-breach-after-hacker-claims-1-petabyte-data-theft/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-84295",
+                                    "title": "GOING THE EXTRA MILE: TRAVEL REWARDS TURN INTO UNDERGROUND CURRENCY.",
+                                    "description": "<br><strong>STATUS:</strong> Cybercriminals are operating a structured commercial trade in stolen airline miles and hotel loyalty points, monetizing them into discounted travel and costing the industry billions annually.\n\n<br><strong>INTEL:</strong> This multi-billion dollar \"loyalty fraud\" typically involves four stages: compromising loyalty accounts, identifying valid high-value points, redeeming them for legitimate travel bookings, and then reselling these bookings at a discount. Major airlines and hotel chains are preferentially targeted due to their large membership bases, high liquidity for point redemption, and the potential for point value arbitrage, creating a persistent and difficult-to-track revenue stream for threat actors.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/going-the-extra-mile-travel-rewards-turn-into-underground-currency/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-92384",
+                                    "title": "APPLE PATCHES OLDER IPHONES AND IPADS AGAINST CORUNA EXPLOITS",
+                                    "description": "<br><strong>STATUS:</strong> Apple has released security updates to patch older iPhones and iPads against vulnerabilities exploited by the Coruna exploit kit, which is actively used in cyberespionage and crypto-theft attacks, with CISA ordering federal agencies to apply these fixes.\n\n<br><strong>INTEL:</strong> The Coruna exploit kit, active since February 2025, is leveraged by sophisticated threat actors including a suspected Russian state-backed group and a Chinese financially motivated actor (UNC6691) for espionage and cryptocurrency theft, utilizing zero-day vulnerabilities to gain kernel privileges or remote code execution. These critical flaws, some backported for older devices, prompted CISA to mandate patching for federal agencies by March 26 due to the significant risk they pose, while Apple also fixed a separate CVE-2026-20700 zero-day exploited in \"extremely sophisticated attacks.\"",
+                                    "source_url": "https://www.bleepingcomputer.com/news/apple/apple-patches-older-iphones-and-ipads-against-coruna-exploits/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-19275",
                                     "title": "US CHARGES ANOTHER RANSOMWARE NEGOTIATOR LINKED TO BLACKCAT ATTACKS",
@@ -2543,30 +2567,6 @@ const signalTree = {
                                     "title": "2026 BROWSER DATA REVEALS MAJOR ENTERPRISE SECURITY BLIND SPOTS",
                                     "description": "<br><strong>STATUS:</strong> The browser has rapidly become the most critical and least protected control point in the enterprise due to the mainstream adoption of AI-native tools and embedded copilots.\n\n<br><strong>INTEL:</strong> 2025 marked a tipping point where AI-native browsers transitioned into mainstream business platforms, fundamentally changing the browser's role from a simple gateway to a complex execution layer for AI-driven work, including reading data, generating content, and automating tasks. This shift has created a significant security blind spot, as traditional enterprise security architectures, including DLP solutions, have not evolved to inspect typed inputs, pasted data, or file uploads occurring directly within browser sessions, leading to widespread, unmonitored exposure of sensitive data as employees integrate various AI tools, often via personal accounts, into their daily workflows.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/2026-browser-data-reveals-major-enterprise-security-blind-spots/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-60170",
-                                    "title": "POLICE DISMANTLES ONLINE GAMBLING RING EXPLOITING UKRAINIAN WOMEN",
-                                    "description": "<br><strong>STATUS:</strong> Spanish and Ukrainian law enforcement dismantled a criminal ring that exploited war-displaced Ukrainian women to run an online gambling scheme, laundering nearly \u20ac4.75 million.\n\n<br><strong>INTEL:</strong> The criminal network targeted highly vulnerable women from war-torn Ukrainian areas, financing their travel to Spain to open bank accounts under temporary protection status, which were then immediately controlled by the criminals. These accounts were used in a sophisticated, automated fraud operation employing bots and over 5,000 stolen identities from 17 nationalities to place thousands of low-odds bets on online gambling platforms, generating seemingly legitimate profits. A joint investigation, starting in October 2023, led to 12 arrests in Spain, the seizure of numerous digital devices, vehicles, and SIM cards, and the freezing of over \u20ac2 million in properties and \u20ac470,000 in bank accounts across 11 countries.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/police-dismantles-online-gambling-ring-exploiting-ukrainian-women/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-98206",
-                                    "title": "CISCO FLAGS MORE SD-WAN FLAWS AS ACTIVELY EXPLOITED IN ATTACKS",
-                                    "description": "<br><strong>STATUS:</strong> Cisco has warned administrators about two actively exploited high-severity security flaws in Catalyst SD-WAN Manager, urging immediate upgrades.\n\n<br><strong>INTEL:</strong> Beyond the flagged Catalyst SD-WAN Manager flaws (CVE-2026-20128, CVE-2026-20122), Cisco is grappling with a critical SD-WAN zero-day (CVE-2026-20127) exploited since 2023, which allowed attackers to add rogue network peers and led to CISA Emergency Directive 26-03. Furthermore, recent patches address maximum-severity authentication bypass and RCE flaws in Secure Firewall Management Center (FMC), allowing unauthenticated remote root access. The overall pattern suggests persistent and sophisticated targeting of core Cisco network infrastructure.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/cisco-flags-more-sd-wan-flaws-as-actively-exploited-in-attacks/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-43477",
-                                    "title": "PHOBOS RANSOMWARE ADMIN PLEADS GUILTY TO WIRE FRAUD CONSPIRACY",
-                                    "description": "<br><strong>STATUS:</strong> A Russian national pleaded guilty to wire fraud conspiracy for administering the Phobos ransomware-as-a-service operation, which extorted over $39 million from hundreds of global victims.<br><br><strong>INTEL:</strong> Evgenii Ptitsyn oversaw the Phobos RaaS operation, linked to the Crysis family, by selling access to criminal affiliates on darknet forums since November 2020 under aliases \"derxan\" and \"zimmermanx.\" These affiliates breached over 1,000 public and private entities, encrypting data and exfiltrating files, while paying Ptitsyn a per-deployment fee for decryption keys and a share of the ransom payments, often through his cryptocurrency wallet. His extradition and guilty plea are a key result of \"Operation Aether,\" a Europol-coordinated international effort that has also led to infrastructure disruptions, server seizures, and the arrest of multiple affiliates across 14 countries.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/phobos-ransomware-admin-pleads-guilty-to-wire-fraud-conspiracy/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
