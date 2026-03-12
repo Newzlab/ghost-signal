@@ -2171,6 +2171,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-95649",
+                                    "title": "GOOGLE PAID $17.1 MILLION FOR VULNERABILITY REPORTS IN 2025",
+                                    "description": "<br><strong>STATUS:</strong> Google awarded over $17 million to 747 security researchers in 2025 through its Vulnerability Reward Program (VRP), marking an all-time high and a 40% increase from 2024.\n\n<br><br><strong>INTEL:</strong> This record payout demonstrates Google's strategic commitment to leveraging external security expertise, particularly expanding its VRP to include dedicated programs for AI systems and open-source tools, signaling a proactive approach to address emerging threats and strengthen the security posture across its diverse product portfolio.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/google/google-paid-171-million-for-vulnerability-reports-in-2025/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-80716",
                                     "title": "TELUS DIGITAL CONFIRMS BREACH AFTER HACKER CLAIMS 1 PETABYTE DATA THEFT",
                                     "description": "<br><strong>STATUS:</strong> Telus Digital confirmed a security incident where the ShinyHunters threat group claims to have stolen nearly 1 petabyte of data in a multi-month breach affecting its business process outsourcing operations.<br><br><strong>INTEL:</strong> The breach, carried out by ShinyHunters, reportedly leveraged Google Cloud Platform credentials discovered during a previous Salesloft Drift breach to gain initial access to Telus Digital's systems, including a large BigQuery instance, before pivoting further using additional extracted credentials. This incident is significant as Telus Digital, a major BPO provider, handles extensive customer support, content moderation, and AI data services for numerous global companies, making the alleged 1 petabyte data theft a critical exposure for multiple entities. Telus is actively investigating the scope and impacted customers, confirming they are not engaging with the threat actors in an extortion attempt.",
@@ -2559,14 +2567,6 @@ const signalTree = {
                                     "title": "GOOGLE SAYS 90 ZERO-DAYS WERE EXPLOITED IN ATTACKS LAST YEAR",
                                     "description": "<br><strong>STATUS:</strong> Google Threat Intelligence Group (GTIG) reported 90 zero-day vulnerabilities were actively exploited in 2025, marking a 15% increase from the previous year.\n\n<br><strong>INTEL:</strong> Nearly half of the exploited zero-days targeted enterprise software and appliances, with operating systems, security appliances, and networking infrastructure being the most vulnerable. Notably, commercial spyware vendors emerged as the largest users of zero-day exploits for the first time, surpassing state-sponsored groups, while financially motivated actors also significantly increased their zero-day activity. GTIG anticipates that the advent of AI tools will likely automate vulnerability discovery and accelerate exploit development, suggesting that the high rate of zero-day exploitation is expected to continue into 2026.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/google-says-90-zero-days-were-exploited-in-attacks-last-year/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-53782",
-                                    "title": "2026 BROWSER DATA REVEALS MAJOR ENTERPRISE SECURITY BLIND SPOTS",
-                                    "description": "<br><strong>STATUS:</strong> The browser has rapidly become the most critical and least protected control point in the enterprise due to the mainstream adoption of AI-native tools and embedded copilots.\n\n<br><strong>INTEL:</strong> 2025 marked a tipping point where AI-native browsers transitioned into mainstream business platforms, fundamentally changing the browser's role from a simple gateway to a complex execution layer for AI-driven work, including reading data, generating content, and automating tasks. This shift has created a significant security blind spot, as traditional enterprise security architectures, including DLP solutions, have not evolved to inspect typed inputs, pasted data, or file uploads occurring directly within browser sessions, leading to widespread, unmonitored exposure of sensitive data as employees integrate various AI tools, often via personal accounts, into their daily workflows.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/2026-browser-data-reveals-major-enterprise-security-blind-spots/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
