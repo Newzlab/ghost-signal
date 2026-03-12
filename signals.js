@@ -928,6 +928,126 @@ const signalTree = {
                             "name": "ARXIV_AI_PAPERS",
                             "articles": [
                                 {
+                                    "id": "GS-36197",
+                                    "title": "AGENTIC CONTROL CENTER FOR DATA PRODUCT OPTIMIZATION",
+                                    "description": "<br><strong>STATUS:</strong> A new system is proposed to automate the improvement of data products using specialized AI agents operating in a continuous optimization loop.<br><br><strong>INTEL:</strong> This system addresses the current challenge of manually producing useful data product assets, such as question-SQL pairs or database views, which traditionally requires significant domain expert effort. It functions by continuously surfacing questions, monitoring quality metrics, and incorporating human-in-the-loop controls to balance full automation with necessary trust and oversight, ultimately transforming data into more observable and refinable assets for enhanced insight generation.",
+                                    "source_url": "https://arxiv.org/abs/2603.10133",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-26938",
+                                    "title": "HYBRID SELF-EVOLVING STRUCTURED MEMORY FOR GUI AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> A novel memory system, HyMEM, has been developed to significantly enhance GUI agents, enabling smaller open-source models to outperform leading closed-source counterparts.\n\n<br><strong>INTEL:</strong> Current vision-language models struggle with complex, real-world computer tasks due to limitations in existing flat memory retrieval systems. HyMEM addresses this by implementing a brain-inspired, graph-based memory that combines discrete symbolic nodes with continuous trajectory embeddings, supporting multi-hop retrieval, self-evolution, and dynamic working-memory refreshing. This innovation dramatically improves open-source GUI agents, boosting performance (e.g., Qwen2.5-VL-7B by +22.5%) and allowing them to surpass advanced models like Gemini2.5-Pro-Vision and GPT-4o, indicating a significant leap in AI's capacity for human-like computer interaction.",
+                                    "source_url": "https://arxiv.org/abs/2603.10291",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-18199",
+                                    "title": "HEAL: HINDSIGHT ENTROPY-ASSISTED LEARNING FOR REASONING DISTILLATION",
+                                    "description": "<br><strong>STATUS:</strong> A new framework called Hindsight Entropy-Assisted Learning (HEAL) has been developed to effectively distill complex reasoning capabilities from Large Reasoning Models into smaller models.<br><br><strong>INTEL:</strong> HEAL is an RL-free framework that overcomes the \"Teacher Ceiling\" limitation in standard distillation by actively assisting the teacher model in exploring valid solutions to complex problems. It integrates three key modules: Guided Entropy-Assisted Repair (GEAR) for detecting and repairing reasoning breakpoints with targeted hints, Perplexity-Uncertainty Ratio Estimator (PURE) for filtering genuine cognitive breakthroughs, and Progressive Answer-guided Curriculum Evolution (PACE) for a structured, three-stage distillation strategy, demonstrating significant performance improvements over traditional methods.",
+                                    "source_url": "https://arxiv.org/abs/2603.10359",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-53058",
+                                    "title": "BEYOND SCALARS: EVALUATING AND UNDERSTANDING LLM REASONING VIA GEOMETRIC PROGRESS AND STABILITY",
+                                    "description": "<br><strong>STATUS:</strong> A new framework named TRACED has been introduced, which evaluates LLM reliability by assessing reasoning quality through theoretically grounded geometric kinematics.\n\n<br><strong>INTEL:</strong> TRACED goes beyond scalar probabilities, decomposing reasoning traces into Progress (displacement) and Stability (curvature) to identify distinct patterns where correct reasoning manifests as high-progress, stable trajectories, while hallucinations appear as low-progress, unstable patterns. This framework achieves competitive performance and superior robustness by leveraging these geometric signatures, effectively bridging geometry and cognition to decode internal machine thought dynamics such as \"Hesitation Loops\" and \"Certainty Accumulation.\"",
+                                    "source_url": "https://arxiv.org/abs/2603.10384",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-28616",
+                                    "title": "VERBALIZING LLM'S HIGHER-ORDER UNCERTAINTY VIA IMPRECISE PROBABILITIES",
+                                    "description": "<br><strong>STATUS:</strong> New prompt-based techniques are proposed to more effectively elicit and quantify both first-order and second-order uncertainty from large language models (LLMs) using the imprecise probabilities framework.<br><br><strong>INTEL:</strong> Traditional probabilistic uncertainty frameworks often fall short in capturing LLM behavior in complex scenarios like ambiguous question-answering, leading to systematic failure modes. This research introduces general-purpose prompting and post-processing procedures grounded in \"imprecise probabilities\" to directly quantify first-order uncertainty (over responses) and second-order uncertainty (indeterminacy in the probability model itself), thereby improving the faithfulness of uncertainty reporting and supporting downstream decision-making.",
+                                    "source_url": "https://arxiv.org/abs/2603.10396",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-40099",
+                                    "title": "RESOURCE-CONSTRAINED AMAZONS CHESS DECISION FRAMEWORK INTEGRATING LARGE LANGUAGE MODELS AND GRAPH ATTENTION",
+                                    "description": "<br><strong>STATUS:</strong> A new lightweight hybrid AI framework for the Game of the Amazons significantly outperforms its general-purpose teacher model (GPT-4o-mini) under strict computational constraints.\n\n<br><strong>INTEL:</strong> This innovative framework leverages graph-based learning (Graph Attention Autoencoder, Stochastic Graph Genetic Algorithm) to inform Monte Carlo Tree Search, utilizing GPT-4o-mini for generating synthetic training data from noisy supervision rather than expert demonstrations. The Graph Attention mechanism effectively filters and denoises the LLM's outputs, enabling the specialized AI to achieve 15-56% decision accuracy improvements and competitive win rates against its teacher, verifying a paradigm for evolving high-performance specialized AI from foundation models in resource-constrained settings.",
+                                    "source_url": "https://arxiv.org/abs/2603.10512",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-97545",
+                                    "title": "IH-CHALLENGE: A TRAINING DATASET TO IMPROVE INSTRUCTION HIERARCHY ON FRONTIER LLMS",
+                                    "description": "<br><strong>STATUS:</strong> GPT-5-Mini's instruction hierarchy robustness has been significantly improved by +10.0% through fine-tuning with a new reinforcement learning dataset called IH-Challenge.<br><br><strong>INTEL:</strong> Instruction hierarchy (IH) is a critical security mechanism for LLMs, defending against jailbreaks, system prompt extractions, and agentic prompt injections by defining how models prioritize conflicting instructions. The IH-Challenge dataset, combined with online adversarial example generation, has proven highly effective in training robust IH behavior, reducing unsafe responses from 6.6% to 0.7% while preserving helpfulness and saturating internal agentic prompt injection evaluations, with the dataset now publicly released to aid ongoing research in LLM security.",
+                                    "source_url": "https://arxiv.org/abs/2603.10521",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-77106",
+                                    "title": "ADAPTIVE RAN SLICING CONTROL VIA REWARD-FREE SELF-FINETUNING AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> A new self-finetuning framework enables Generative AI agents to achieve robust continuous control by internalizing experience and generating autonomous linguistic feedback, outperforming traditional methods in complex network management.\n\n<br><strong>INTEL:</strong> This breakthrough addresses critical limitations of current Generative AI in continuous control by distilling long-horizon experiences directly into model parameters, bypassing the need for explicit reward signals and finite context windows. The bi-perspective reflection mechanism autonomously creates preference datasets, leading to superior sample efficiency, stability, and multi-metric optimization, particularly demonstrated in dynamic Radio Access Network (RAN) slicing. This technology has significant strategic implications for autonomous AI-native network infrastructure, potentially enabling self-improving systems that adapt continuously to volatile conditions without human intervention, enhancing efficiency and resilience.",
+                                    "source_url": "https://arxiv.org/abs/2603.10564",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-4319",
+                                    "title": "CUAAUDIT: META-EVALUATION OF VISION-LANGUAGE MODELS AS AUDITORS OF AUTONOMOUS COMPUTER-USE AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> Research investigates using Vision-Language Models (VLMs) as autonomous auditors for evaluating Computer-Use Agents (CUAs) executing tasks in desktop environments.<br><br><strong>INTEL:</strong> While state-of-the-art VLMs show strong accuracy and calibration in auditing CUA task completion, their performance significantly degrades in complex or heterogeneous environments, with even high-performing models exhibiting substantial disagreement in their judgments. These findings highlight fundamental limitations in current model-based auditing approaches, underscoring the critical need to account for evaluator reliability, uncertainty, and variance when deploying autonomous CUAs in real-world settings.",
+                                    "source_url": "https://arxiv.org/abs/2603.10577",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-21141",
+                                    "title": "DOES LLM ALIGNMENT REALLY NEED DIVERSITY? AN EMPIRICAL STUDY OF ADAPTING RLVR METHODS FOR MORAL REASONING",
+                                    "description": "<br><strong>STATUS:</strong> A study found that standard reward-maximizing reinforcement learning methods are effective for LLM alignment in moral reasoning tasks, contrary to the hypothesis that diversity-seeking algorithms would be superior.<br><br><strong>INTEL:</strong> The research, conducted on MoReBench with a Qwen3-1.7B judge model for reward pipeline stability, initially hypothesized that moral reasoning's tolerance for multiple valid responses would necessitate diversity-seeking methods. However, empirical results demonstrated that moral reasoning tasks exhibit more concentrated high-reward distributions than mathematical reasoning, explaining why mode-seeking optimization performs effectively and suggesting that explicit diversity mechanisms are not inherently required for LLM alignment.",
+                                    "source_url": "https://arxiv.org/abs/2603.10588",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-63675",
+                                    "title": "TRAJECTORY-INFORMED MEMORY GENERATION FOR SELF-IMPROVING AGENT SYSTEMS",
+                                    "description": "<br><strong>STATUS:</strong> A novel framework has been developed to enable LLM-powered agents to automatically learn from their execution experiences and improve future performance by extracting actionable insights. <br><br><strong>INTEL:</strong> This framework, comprising four components\u2014Trajectory Intelligence Extractor, Decision Attribution Analyzer, Contextual Learning Generator, and Adaptive Memory Retrieval System\u2014semantically analyzes agent reasoning and decisions to create structured guidance (strategy, recovery, and optimization tips). It differs from generic memory systems by understanding execution patterns, extracting specific learnings with provenance, and adaptively retrieving contextually relevant guidance, resulting in significant performance gains (up to 14.3 percentage points in goal completion, and 28.5 pp on complex tasks) on benchmarks like AppWorld.",
+                                    "source_url": "https://arxiv.org/abs/2603.10600",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-85180",
+                                    "title": "FAME: FORMAL ABSTRACT MINIMAL EXPLANATION FOR NEURAL NETWORKS",
+                                    "description": "<br><strong>STATUS:</strong> Researchers have introduced FAME, a novel abductive explanation method, demonstrating its superior scalability and efficiency in generating minimal explanations for large neural networks.\n\n<br><br><strong>INTEL:</strong> FAME achieves its superior performance by grounding explanations in abstract interpretation and designing dedicated perturbation domains that remove the need for traversal order, systematically discarding irrelevant features using LiRPA-based bounds. This technical approach allows it to generate formal, minimal explanations for complex AI, offering crucial advances in model interpretability and trustworthiness for large-scale neural networks where previous methods struggled with scalability and explanation conciseness.",
+                                    "source_url": "https://arxiv.org/abs/2603.10661",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-31864",
+                                    "title": "EMULATING CLINICIAN COGNITION VIA SELF-EVOLVING DEEP CLINICAL RESEARCH",
+                                    "description": "<br><strong>STATUS:</strong> DxEvolve, a new self-evolving AI diagnostic agent, has demonstrated significant improvements in clinical diagnostic accuracy by mimicking human cognitive processes.\n\n<br><strong>INTEL:</strong> DxEvolve distinguishes itself by treating diagnosis as a dynamic, interactive process, autonomously requesting examinations and continuously accumulating clinical experience as \"diagnostic cognition primitives.\" This approach yielded an average 11.2% accuracy improvement over existing models on the MIMIC-CDM benchmark, reaching 90.4% (comparable to clinician reference at 88.8%), and showed impressive gains of 10.2% to 17.1% on an independent external cohort, including previously \"uncovered\" categories. This framework offers a critical pathway for developing accountable, continually evolving, and auditable AI systems within the medical domain.",
+                                    "source_url": "https://arxiv.org/abs/2603.10677",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-20525",
+                                    "title": "NURTURE-FIRST AGENT DEVELOPMENT: BUILDING DOMAIN-EXPERT AI AGENTS THROUGH CONVERSATIONAL KNOWLEDGE CRYSTALLIZATION",
+                                    "description": "<br><strong>STATUS:</strong> A new paradigm, Nurture-First Development (NFD), is proposed for building domain-expert AI agents by progressively growing them through structured conversational interaction with practitioners, addressing the evolving nature of expertise.<br><br><strong>INTEL:</strong> Existing agent development paradigms (code-first, prompt-first) treat agent construction as a discrete engineering phase, failing to account for domain expertise's tacit, personal, and continuously evolving nature. NFD leverages a Knowledge Crystallization Cycle to consolidate fragmented knowledge from operational dialogue into structured assets, formalized with a Three-Layer Cognitive Architecture and an operational framework comprising a Dual-Workspace Pattern and Spiral Development Model, fundamentally shifting towards continuous human-agent co-evolution, as illustrated by a financial research agent case study.",
+                                    "source_url": "https://arxiv.org/abs/2603.10808",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-83782",
+                                    "title": "A HYBRID KNOWLEDGE-GROUNDED FRAMEWORK FOR SAFETY AND TRACEABILITY IN PRESCRIPTION VERIFICATION",
+                                    "description": "<br><strong>STATUS:</strong> A novel system called PharmGraph-Auditor has been introduced to improve the safety and speed of pharmacist prescription verification.\n\n<br><strong>INTEL:</strong> This system bypasses the unreliability of direct LLM application by utilizing a trustworthy Hybrid Pharmaceutical Knowledge Base (HPKB) implemented under a Virtual Knowledge Graph (VKG) paradigm, constructed via the Iterative Schema Refinement (ISR) algorithm, and employs a KB-grounded Chain of Verification (CoV) to transform LLMs into transparent, evidence-grounded reasoning engines for auditing.",
+                                    "source_url": "https://arxiv.org/abs/2603.10891",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
                                     "id": "GS-88527",
                                     "title": "MASEVAL: EXTENDING MULTI-AGENT EVALUATION FROM MODELS TO SYSTEMS",
                                     "description": "<br><strong>STATUS:</strong> A new evaluation framework, MASEval, has been introduced to assess the performance of LLM-based agentic systems by considering the entire system, not just the underlying models.<br><br><strong>INTEL:</strong> Current benchmarks for LLM agentic systems are limited as they only focus on model performance, neglecting critical framework components such as topology, orchestration logic, and error handling. MASEval addresses this gap by offering a framework-agnostic library that evaluates the entire agentic system, revealing through systematic comparison that framework selection can influence performance as significantly as the choice of the LLM itself, thereby enabling more principled system design and optimized practical deployments. The library is openly available under an MIT license.",
@@ -1206,126 +1326,6 @@ const signalTree = {
                                     "source_url": "https://arxiv.org/abs/2603.05910",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-26518",
-                                    "title": "DEEPFACT: CO-EVOLVING BENCHMARKS AND AGENTS FOR DEEP RESEARCH FACTUALITY",
-                                    "description": "<br><strong>STATUS:</strong> A new evolving benchmarking method called Audit-then-Score (AtS) has been developed to improve the factuality verification of Deep Research Reports (DRRs) generated by search-augmented LLM agents.<br><br><strong>INTEL:</strong> Verifying the claim-level factuality of complex DRRs produced by LLMs is challenging for existing fact-checkers, which are designed for simpler claims. The AtS method, implemented as DeepFact-Bench, proposes an iterative system where benchmark labels are revisable, disputes are adjudicated by an auditor, and accepted revisions update the benchmark, significantly improving expert accuracy from 60.8% to 90.9%. This framework enables the creation of more reliable benchmarks and verification agents like DeepFact-Eval, which outperforms existing verifiers, addressing a critical need for ensuring accuracy in AI-generated deep research.",
-                                    "source_url": "https://arxiv.org/abs/2603.05912",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-19781",
-                                    "title": "AN INTERACTIVE MULTI-AGENT SYSTEM FOR EVALUATION OF NEW PRODUCT CONCEPTS",
-                                    "description": "<br><strong>STATUS:</strong> A new automated approach using an LLM-based multi-agent system has been developed and validated for evaluating product concepts.\n\n<br><br><strong>INTEL:</strong> This system employs eight specialized virtual agents representing domains like R&amp;D and marketing, equipped with retrieval-augmented generation (RAG) and real-time search tools, to objectively assess product concepts across technical and market feasibility. Fine-tuned with professional review data, the agents engage in structured deliberations, with a case study on display monitors confirming its evaluations are consistent with senior industry experts, potentially offering a more scalable, less biased alternative to traditional expert-led processes for strategic resource allocation.",
-                                    "source_url": "https://arxiv.org/abs/2603.05980",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-50159",
-                                    "title": "AGENTIC LLM PLANNING VIA STEP-WISE PDDL SIMULATION: AN EMPIRICAL CHARACTERISATION",
-                                    "description": "<br><strong>STATUS:</strong> A study evaluated direct and agentic Large Language Model (LLM) planning against classical methods for autonomous robot task planning, utilizing a new PDDL simulation engine.\n\n<br><strong>INTEL:</strong> The research found that classical planning achieved 85.3% success, significantly outperforming both direct (63.7%) and agentic (66.7%) LLM approaches, with the agentic method showing only a modest 3% improvement despite a 5.7x higher token cost. The shorter plans generated by LLMs are attributed to training-data recall rather than genuine planning capability, and the limited agentic gains underscore that LLM effectiveness relies heavily on the quality and external verifiability of environmental feedback, which is lacking in self-assessed PDDL step feedback compared to external signals like compiler errors.",
-                                    "source_url": "https://arxiv.org/abs/2603.06064",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-8423",
-                                    "title": "AGGREGATIVE SEMANTICS FOR QUANTITATIVE BIPOLAR ARGUMENTATION FRAMEWORKS",
-                                    "description": "<br><strong>STATUS:</strong> A new family of gradual semantics, termed aggregative semantics, has been introduced for Quantitative Bipolar Argumentation Frameworks (QBAF) in artificial intelligence.<br><br><strong>INTEL:</strong> This novel approach computes argument weights through a three-stage process, independently aggregating the influence of attackers and supporters before combining these with the argument's intrinsic weight. This method provides a more parametrisable and interpretable way to model situations where attackers and supporters have asymmetric roles, enhancing the understanding and preservation of bipolarity in AI reasoning systems that handle conflicting information.",
-                                    "source_url": "https://arxiv.org/abs/2603.06067",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-45680",
-                                    "title": "OFFLINE MATERIALS OPTIMIZATION WITH CLIQUEFLOWMER",
-                                    "description": "<br><strong>STATUS:</strong> A new computational materials discovery technique, CliqueFlowmer, has been developed to optimize material properties.<br><br><strong>INTEL:</strong> This new approach addresses the limitations of current generative models by integrating direct optimization of a target material property into the generation process, utilizing offline model-based optimization and outperforming existing baselines, with its code open-sourced to support specialized research.",
-                                    "source_url": "https://arxiv.org/abs/2603.06082",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-3417",
-                                    "title": "CONVERSATIONAL DEMAND RESPONSE: BIDIRECTIONAL AGGREGATOR-PROSUMER COORDINATION THROUGH AGENTIC AI",
-                                    "description": "<br><strong>STATUS:</strong> A new AI-enabled conversational demand response mechanism (CDR) is introduced to improve prosumer participation in energy management.\n\n<br><strong>INTEL:</strong> CDR utilizes agentic AI in a two-tier multi-agent architecture (aggregator and prosumer Home Energy Management System) to facilitate bidirectional natural language interaction, aiming to bridge the coordination gap in residential demand response. This mechanism offers the scalability of automation while preserving transparency, explainability, and user agency, allowing for informed decision-making, prosumer-initiated preference changes, and rapid interaction completion, with all system components released as open source.",
-                                    "source_url": "https://arxiv.org/abs/2603.06217",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-71622",
-                                    "title": "ARTIFICIAL INTELLIGENCE FOR CLIMATE ADAPTATION: REINFORCEMENT LEARNING FOR CLIMATE CHANGE-RESILIENT TRANSPORT",
-                                    "description": "<br><strong>STATUS:</strong> A novel reinforcement learning framework has been developed and evaluated for long-term urban flood adaptation planning under climate uncertainty.\n\n<br><strong>INTEL:</strong> This advanced decision-support framework, formulated as an integrated assessment model, combines rainfall projections, flood modeling, and transport simulations to learn optimal adaptive strategies for infrastructure investments. Applied to Copenhagen's inner city through 2100, the RL-based approach significantly outperforms traditional optimization methods by discovering more resilient, coordinated spatial and temporal adaptation pathways, thereby enhancing urban planning capabilities against intensified pluvial flooding.",
-                                    "source_url": "https://arxiv.org/abs/2603.06278",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-60474",
-                                    "title": "THE EPISTWIN: A KNOWLEDGE GRAPH-GROUNDED NEURO-SYMBOLIC ARCHITECTURE FOR PERSONAL AI",
-                                    "description": "<br><strong>STATUS:</strong> A new neuro-symbolic framework called EpisTwin has been introduced to create trustworthy Personal AI by integrating fragmented user data into a verifiable Personal Knowledge Graph.<br><br><strong>INTEL:</strong> EpisTwin overcomes the limitations of current Retrieval-Augmented Generation (RAG) by using Multimodal Language Models to convert diverse, cross-application user data into semantic triples. This framework enables complex reasoning over the personal semantic graph via an agentic coordinator that combines Graph Retrieval-Augmented Generation with Online Deep Visual Refinement, dynamically re-grounding symbolic entities in their raw visual context to facilitate holistic sensemaking and is evaluated with a new PersonalQA-71-100 benchmark.",
-                                    "source_url": "https://arxiv.org/abs/2603.06290",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-9062",
-                                    "title": "SAHOO: SAFEGUARDED ALIGNMENT FOR HIGH-ORDER OPTIMIZATION OBJECTIVES IN RECURSIVE SELF-IMPROVEMENT",
-                                    "description": "<br><strong>STATUS:</strong> A new framework, SAHOO, has been developed to effectively monitor and control alignment drift in AI systems undergoing recursive self-improvement, making alignment preservation measurable and deployable at scale.<br><br><strong>INTEL:</strong> SAHOO mitigates the inherent risks of alignment drift during iterative AI self-modification by employing a multi-signal Goal Drift Index (GDI), constraint preservation checks for safety-critical invariants such as syntactic correctness and non-hallucination, and regression-risk quantification. This framework has demonstrated substantial quality gains across diverse tasks, including an 18.3% improvement in code generation and 16.8% in mathematical reasoning, while effectively preserving critical constraints and managing the increasing alignment costs associated with advanced improvement cycles.",
-                                    "source_url": "https://arxiv.org/abs/2603.06333",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-26131",
-                                    "title": "TALK FREELY, EXECUTE STRICTLY: SCHEMA-GATED AGENTIC AI FOR FLEXIBLE AND REPRODUCIBLE SCIENTIFIC WORKFLOWS",
-                                    "description": "<br><strong>STATUS:</strong> A new study identifies a fundamental trade-off between conversational flexibility and execution determinism in LLM-driven scientific workflows and proposes schema-gated orchestration as a resolving principle.<br><br><strong>INTEL:</strong> The research, based on expert interviews and a novel multi-model LLM scoring protocol, reveals that no current system achieves both high flexibility and high determinism. The proposed schema-gated architecture aims to decouple this trade-off by making a machine-checkable specification a mandatory execution boundary, ensuring all actions, including cross-step dependencies, validate before execution. This approach is critical for guaranteeing the determinism, provenance, and governance required in industrial R&D, separating conversational from execution authority.",
-                                    "source_url": "https://arxiv.org/abs/2603.06394",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-4811",
-                                    "title": "SKILLNET: CREATE, EVALUATE, AND CONNECT AI SKILLS",
-                                    "description": "<br><strong>STATUS:</strong> SkillNet, an open infrastructure, has been introduced to enable AI agents to systematically accumulate and transfer skills, addressing the current limitation of fragmented learning.\n\n<br><strong>INTEL:</strong> SkillNet provides a unified ontology for creating, evaluating across multiple dimensions (Safety, Cost-awareness, etc.), and organizing AI skills from heterogeneous sources, preventing agents from repeatedly rediscovering solutions. Integrating a 200,000-skill repository and a Python toolkit, it has demonstrated significant improvements in agent performance, boosting average rewards by 40% and reducing execution steps by 30%, thus establishing a robust foundation for durable AI mastery.",
-                                    "source_url": "https://arxiv.org/abs/2603.04448",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-53853",
-                                    "title": "CAPABILITY THRESHOLDS AND MANUFACTURING TOPOLOGY: HOW EMBODIED INTELLIGENCE TRIGGERS PHASE TRANSITIONS IN ECONOMIC GEOGRAPHY",
-                                    "description": "<br><strong>STATUS:</strong> Embodied intelligence is predicted to fundamentally transform manufacturing by breaking the century-old Fordist paradigm, triggering a phase transition in economic geography.\n\n<br><strong>INTEL:</strong> This transformation extends beyond efficiency gains, redefining where factories are built, how supply chains operate, and viable production scales by enabling demand-proximal micro-manufacturing. A critical strategic implication is the emergence of \"Machine Climate Advantage,\" where optimal factory locations are determined by machine-favorable environmental conditions (e.g., low humidity, thermal stability) rather than human labor pools, leading to a production geography with no historical precedent.",
-                                    "source_url": "https://arxiv.org/abs/2603.04457",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-46842",
-                                    "title": "PROGRESSIVE REFINEMENT REGULATION FOR ACCELERATING DIFFUSION LANGUAGE MODEL DECODING",
-                                    "description": "<br><strong>STATUS:</strong> A new framework called Progressive Refinement Regulation (PRR) has been introduced to accelerate diffusion language model decoding.\n\n<br><strong>INTEL:</strong> PRR addresses the inefficiency of uniform token refinement by learning a dynamic, trajectory-grounded controller that assesses future convergence rather than instantaneous signals, using a progressive self-evolving training scheme to significantly speed up generation while maintaining quality.",
-                                    "source_url": "https://arxiv.org/abs/2603.04514",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-55742",
-                                    "title": "DISCOVERING MATHEMATICAL CONCEPTS THROUGH A MULTI-AGENT SYSTEM",
-                                    "description": "<br><strong>STATUS:</strong> A new multi-agent computational model has been developed to autonomously discover mathematical concepts, mirroring human mathematical discovery processes.<br><br><strong>INTEL:</strong> This system poses its own conjectures, attempts proofs, and makes decisions based on feedback and evolving data, successfully recovering the concept of homology from polyhedral data, thereby demonstrating that the optimization of specific local processes can lead to surprisingly well-aligned notions of mathematical interestingness.",
-                                    "source_url": "https://arxiv.org/abs/2603.04528",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-98021",
-                                    "title": "ADAPTIVE MEMORY ADMISSION CONTROL FOR LLM AGENTS",
-                                    "description": "<br><strong>STATUS:</strong> A new framework called Adaptive Memory Admission Control (A-MAC) has been proposed to manage long-term memory admission in LLM-based agents.<br><br><strong>INTEL:</strong> A-MAC addresses the current lack of control over what information LLM agents retain, which often leads to accumulation of irrelevant or hallucinated facts, by treating memory admission as a structured decision problem. It utilizes five interpretable factors\u2014future utility, factual confidence, semantic novelty, temporal recency, and content type prior\u2014to learn domain-adaptive admission policies, achieving a superior precision-recall tradeoff (F1 to 0.583) and reducing latency by 31% compared to state-of-the-art LLM-native memory systems.",
-                                    "source_url": "https://arxiv.org/abs/2603.04549",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "ARXIV_AI_PAPERS"
                                 }
                             ]
                         }
@@ -1342,6 +1342,14 @@ const signalTree = {
                         {
                             "name": "SPACE_NEWS",
                             "articles": [
+                                {
+                                    "id": "GS-25209",
+                                    "title": "FIREFLY ALPHA RETURNS TO FLIGHT",
+                                    "description": "<br><strong>STATUS:</strong> Firefly Aerospace\u2019s Alpha rocket successfully returned to flight on March 11 with a technology demonstration mission after multiple past failures and delays.<br><br><strong>INTEL:</strong> This successful flight, carrying a Lockheed Martin demonstrator payload, validated upgrades for the upcoming Alpha Block 2 configuration and represents a significant recovery for Firefly following a 2025 upper stage failure and a subsequent first stage explosion during ground testing; the company has a mixed launch history, with only two of six previous Alpha flights achieving planned orbits.",
+                                    "source_url": "https://spacenews.com/firefly-alpha-returns-to-flight/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "SPACE_NEWS"
+                                },
                                 {
                                     "id": "GS-83522",
                                     "title": "THE POST-CAPACITY ERA OF SATELLITE CONNECTIVITY",
@@ -1733,20 +1741,20 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/mutable-tactics-raises-2-1-million-for-ai-drone-coordination-in-satellite-denied-environments/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-999",
-                                    "title": "RETURN OF THE (SPACE) SPAC",
-                                    "description": "<br><strong>STATUS:</strong> Former investment banker Raphael Roettgen has successfully launched a new space-focused Special Purpose Acquisition Company (SPAC), signaling a potential resurgence of public market interest in funding the maturing space sector.\n\n<br><strong>INTEL:</strong> The return of space SPACs follows a previous downturn driven by irresponsible mergers, unmet financial targets, and the immaturity of earlier space companies. However, current conditions suggest a more robust environment, with a greater number of space firms now generating \"real revenues\" and contributing to national security, making them more suitable merger candidates. This renewed activity, exemplified by Roettgen's $230 million SPAC, is crucial for tapping the vast capital of public markets to fund expanding space ambitions, particularly in support of recent U.S. executive orders aimed at strengthening American leadership in the sector.",
-                                    "source_url": "https://spacenews.com/return-of-the-space-spac/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-68016",
+                                    "title": "DUST OUTBREAK REACHES EUROPE",
+                                    "description": "<br><strong>STATUS:</strong> Saharan dust plumes were widely dispersed across Western Europe in March 2026, causing hazy skies, dirty rain, and significantly impacting solar power generation.<br><br><strong>INTEL:</strong> The dust, originating from northwestern Africa and modeled using GEOS, was carried north by winter winds and low-pressure systems, resulting in phenomena like \"blood rain\" and \"dusty cirrus\" clouds. Researchers utilizing satellite data (MERRA-2, MODIS) found that photovoltaic performance dropped to 46% on high-dust days, primarily due to reduced solar radiation and enhanced cirrus cloud reflectance, highlighting a critical impact on renewable energy infrastructure.",
+                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/dust-outbreak-reaches-europe/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-15702",
                                     "title": "2026 WILLIAM T. PECORA AWARD NOMINATIONS NOW BEING ACCEPTED",
@@ -2136,14 +2144,6 @@ const signalTree = {
                                     "title": "I AM ARTEMIS: PAUL BOEHM",
                                     "description": "<br><strong>STATUS:</strong> Paul Boehm's team has developed crucial life support, flight equipment, and survival systems for the Orion spacecraft, set for their first crewed flight on the upcoming Artemis II mission around the Moon.<br><br><strong>INTEL:</strong> These systems, particularly the regenerative Environmental Control and Life Support System (ECLSS), are specifically designed for the unique challenges of deep space travel, requiring prolonged reliability without resupply and accommodating various human metabolic needs due to the mission's extended duration and inability for quick return, marking a critical advancement for sustained human presence in deep space.",
                                     "source_url": "https://www.nasa.gov/missions/artemis/i-am-artemis/i-am-artemis-paul-boehm/",
-                                    "timestamp": "2026.03.04",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-34209",
-                                    "title": "NASA, OPM LAUNCH NASA FORCE TO RECRUIT TOP TALENT FOR US SPACE PROGRAM",
-                                    "description": "<br><strong>STATUS:</strong> The U.S. Office of Personnel Management (OPM) and NASA have launched \"NASA Force,\" a specialized talent recruitment program to attract top engineers and technologists for America's space program.<br><br><strong>INTEL:</strong> This initiative is a focused expansion of the existing US Tech Force, designed to place high-impact technical talent into mission-critical roles within NASA, directly supporting its exploration, research, and advanced technology priorities. By securing cutting-edge expertise, NASA Force aims to strengthen the agency's workforce, accelerate innovation, and ensure the United States maintains its global leadership in space exploration and aerospace technology, addressing critical technical demands for future endeavors.",
-                                    "source_url": "https://www.nasa.gov/news-release/nasa-opm-launch-nasa-force-to-recruit-top-talent-for-us-space-program/",
                                     "timestamp": "2026.03.04",
                                     "feed_name": "NASA_BREAKING"
                                 }
