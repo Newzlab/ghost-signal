@@ -534,6 +534,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-14316",
+                                    "title": "US AIR FORCE KC-135 GOES DOWN IN IRAQ, CENTCOM SAYS",
+                                    "description": "<br><strong>STATUS:</strong> A U.S. Air Force KC-135 refueling aircraft went down in friendly airspace in western Iraq during combat operations, an incident not attributed to hostile or friendly fire.\n\n<br><strong>INTEL:</strong> This loss marks the fourth manned U.S. aircraft casualty this month amidst Operation Epic Fury against Iran, adding to previous F-15E losses and significant combat casualties of 7 killed and 140 wounded. The incident highlights the inherent risks of ongoing combat operations, even when not directly caused by enemy action, with further details regarding the crew's status pending.",
+                                    "source_url": "https://www.defensenews.com/flashpoints/2026/03/12/us-air-force-kc-135-goes-down-in-iraq-centcom-says/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-47561",
                                     "title": "B-21 RAIDER COMPLETED \u2018CLOSE-PROXIMITY FLIGHT\u2019 WITH KC-135 TANKER, US AIR FORCE CONFIRMS",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Air Force confirmed a B-21 Raider test aircraft conducted a close-proximity flight with a KC-135 Stratotanker as a precursor to validating its aerial refueling capabilities.\n\n<br><strong>INTEL:</strong> This flight is a critical step towards enabling the B-21's long-range, penetrating strike role by providing extended endurance without reliance on forward basing, a key operational requirement. While the Air Force did not confirm actual fuel transfer for security reasons, the event signifies progress in the bomber's rigorous test campaign to validate its capabilities and operational readiness, with the program on track for initial operational capability in the late 2020s.",
@@ -922,14 +930,6 @@ const signalTree = {
                                     "title": "FRANCE, GERMANY CREATE PANEL TO ADVANCE SHARED NUCLEAR DETERRENCE PLANS",
                                     "description": "<br><strong>STATUS:</strong> France and Germany have established a high-level nuclear steering group to advance European nuclear deterrence, driven by concerns over long-term U.S. security reliability.<br><br><strong>INTEL:</strong> This new bilateral framework will facilitate doctrinal dialogue and strategic cooperation on conventional, missile defense, and French nuclear capabilities. France, through President Macron, announced significant shifts to its nuclear doctrine, an increased stockpile, and the option to extend its nuclear deterrence across Europe, with Germany agreeing to participate in French nuclear exercises. While explicitly stating it adds to, not replaces, NATO's deterrence, the initiative carries tacit U.S. backing, aligning with a strategic shift where the U.S. encourages Europe to take primary responsibility for its conventional defense to focus on China. The group will also address European shortfalls in non-nuclear capabilities like early warning, air defense, and deep precision strike.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/03/05/france-germany-create-panel-to-advance-shared-nuclear-deterrence-plans/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-54556",
-                                    "title": "NOVEL INTERCEPTOR DRONES BEND AIR-DEFENSE ECONOMICS IN UKRAINE\u2019S FAVOR",
-                                    "description": "<br><strong>STATUS:</strong> Ukraine is increasingly utilizing cost-effective interceptor drones to destroy Russian aerial targets, with this method now accounting for one in three downed assets nationwide and over 70% of Shahed downings over Kyiv in February.<br><br><strong>INTEL:</strong> This strategic shift is driven by the prohibitively high cost of traditional missile defenses against inexpensive Russian Shahed drones, with interceptor drones providing a significantly more economical solution (approx. $3k-$5k per interceptor vs. $3M for a Patriot missile). Ukraine has rapidly scaled production and deployment, destroying over 1,500 Russian UAVs last month, though Russia is actively countering these efforts with tactics like decoy drones and armed or IR-equipped attack drones.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/05/novel-interceptor-drones-bend-air-defense-economics-in-ukraines-favor/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1359,6 +1359,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-26507",
+                                    "title": "CHINA\u2019S TIANWEN-3 MARS SAMPLE RETURN MISSION MOVES INTO SPACECRAFT CONSTRUCTION PHASE",
+                                    "description": "<br><strong>STATUS:</strong> China's Tianwen-3 Mars sample return mission is entering flight hardware development, targeting a late 2028 launch to retrieve samples and search for biosignatures.\n\n<br><strong>INTEL:</strong> This complex multi-spacecraft mission will utilize two Long March 5 launches, incorporating a drone for sample collection, and aims to deliver over 500 grams of Martian material to Earth by 2031. The mission's primary objective is to detect potential biosignatures, marking China's significant lead in Mars sample return capabilities, especially as NASA's comparable program faces funding issues.",
+                                    "source_url": "https://spacenews.com/chinas-tianwen-3-mars-sample-return-mission-moves-into-spacecraft-construction-phase/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-32399",
                                     "title": "VOYAGER OPENS DEFENSE AND SPACE TECH HUB IN LONG BEACH",
                                     "description": "<br><strong>STATUS:</strong> Voyager Technologies has opened a new electronics manufacturing and engineering facility in Long Beach, California, further expanding its defense and space capabilities.\n\n<br><strong>INTEL:</strong> This new facility, part of Voyager's aggressive expansion and acquisition strategy (including Estes Energetics and ExoTerra Resources), significantly boosts its capacity for developing and manufacturing propulsion and energetic materials vital for missile defense and space systems. The company is actively positioning itself for major Pentagon programs like the Next Generation Interceptor and the \"Golden Dome\" missile defense architecture, with defense work now dominating its revenue and executives projecting substantial, growing opportunities driven by current geopolitical circumstances.",
@@ -1749,20 +1757,28 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/vast-raises-500-million-for-commercial-space-station-development/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-26375",
-                                    "title": "SIERRA SPACE RAISES $550 MILLION IN SERIES C FUNDING",
-                                    "description": "<br><strong>STATUS:</strong> Sierra Space secured $550 million in Series C funding, valuing the company at $8 billion, to bolster its national security space initiatives.<br><br><strong>INTEL:</strong> This funding, led by LuminArx Capital Management, and recent appointment of defense executive Dan Jablonsky as CEO, signals Sierra Space's strategic pivot towards military space programs. The company, initially known for its Dream Chaser spacecraft, is now actively pursuing defense contracts like missile-tracking satellites for the Space Development Agency, aligning with the Pentagon's \"commercial-first\" approach to defense procurement and leveraging increased government reliance on private sector space solutions.",
-                                    "source_url": "https://spacenews.com/sierra-space-raises-550-million-in-series-c-funding/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-26675",
+                                    "title": "ABOUT LOW BOOM FLIGHT DEMONSTRATOR (LBFD) PROJECT",
+                                    "description": "<br><strong>STATUS:</strong> NASA's Low Boom Flight Demonstrator (LBFD) project is using the X-59 aircraft to demonstrate greatly reduced sonic booms, aiming to enable new noise standards for commercial supersonic flight over land.<br><br><strong>INTEL:</strong> The federal government banned civilian supersonic flights over land decades ago due to loud sonic booms, preventing the U.S. aviation industry from leading a potentially lucrative market. The LBFD project, as Phase 1 of the Quesst mission, involves designing, fabricating, and testing the X-59 to prove it can fly supersonically with a quiet sound on the ground, thereby establishing the necessary conditions for significantly shorter travel times and a new commercial supersonic market.",
+                                    "source_url": "https://www.nasa.gov/directorates/armd/iasp/armd-iasp-lbfd/about-lbfd/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-79998",
+                                    "title": "ABOUT INTEGRATED AVIATION SYSTEMS PROGRAM (IASP)",
+                                    "description": "<br><strong>STATUS:</strong> The Integrated Aviation Systems Program (IASP) is actively researching and conducting flight demonstrations to advance and transition new aviation technologies into future aircraft systems.<br><br><strong>INTEL:</strong> The IASP program strategically matures diverse aviation technologies through integrated flight demonstrations, from determining early-stage feasibility to executing complex proofs for industry transition. Its current portfolio, including projects like the Electrified Powertrain and Low Boom Flight Demonstrators, signifies a concentrated effort to develop quieter, more efficient, and advanced aviation capabilities for future commercial and military applications.",
+                                    "source_url": "https://www.nasa.gov/directorates/armd/iasp/about-iasp/",
+                                    "timestamp": "2026.03.12",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-50653",
                                     "title": "NASA TO COVER UPCOMING US SPACEWALKS 94, 95 OUTSIDE SPACE STATION",
@@ -2145,22 +2161,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> The Advanced Air Mobility Pathfinders (AAMP) project is accelerating advanced air mobility technologies for wildfire response and urban transportation through real-world demonstrations and strategic partnerships.<br><br><strong>INTEL:</strong> AAMP focuses on developing and validating technologies like the Portable Airspace Management System (PAMS) to enable safe, scalable, and continuous Beyond Visual Line of Sight (BVLOS) operations for Unmanned Aircraft Systems, particularly in challenging environments. The project also addresses Airspace Service Providers to manage medium-density AAM operations, aiming to integrate these systems for both emergency services and resilient urban air mobility across the United States.",
                                     "source_url": "https://www.nasa.gov/directorates/armd/aosp/amp/about-aamp/",
                                     "timestamp": "2026.03.06",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-37869",
-                                    "title": "NASA WALLOPS SUPPORTS FIRST ROCKET LAB HASTE LAUNCH OF 2026",
-                                    "description": "<br><strong>STATUS:</strong> A Rocket Lab HASTE suborbital launch, named Cassowary Vex, was successfully conducted on February 27, 2026, from Virginia, in support of a hypersonic test platform.<br><br><strong>INTEL:</strong> The mission facilitated a hypersonic test platform for the Department of War\u2019s Defense Innovation Unit, indicating ongoing advancements in critical national security technologies. NASA\u2019s Wallops Flight Facility provided crucial support services, including tracking, telemetry, and range safety, demonstrating its integral role in enabling and securing high-priority defense initiatives for both commercial and governmental entities.",
-                                    "source_url": "https://www.nasa.gov/image-article/nasa-wallops-supports-first-rocket-lab-haste-launch-of-2026/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-22359",
-                                    "title": "TOTAL LUNAR ECLIPSE",
-                                    "description": "<br><strong>STATUS:</strong> A total lunar eclipse, known as a \"blood moon,\" is set to occur over New Orleans on March 3, 2026.<br><br><strong>INTEL:</strong> This astronomical phenomenon arises when Earth aligns between the Moon and Sun, causing sunlight to filter through Earth\u2019s atmosphere, where air molecules scatter blue light, allowing only the remaining red-spectrum light to reflect onto the lunar surface, creating its distinctive red glow.",
-                                    "source_url": "https://www.nasa.gov/image-article/total-lunar-eclipse/",
-                                    "timestamp": "2026.03.05",
                                     "feed_name": "NASA_BREAKING"
                                 }
                             ]
