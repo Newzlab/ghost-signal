@@ -534,6 +534,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-50058",
+                                    "title": "SIX US SERVICE MEMBERS KILLED IN KC-135 CRASH IN IRAQ",
+                                    "description": "<br><strong>STATUS:</strong> Six U.S. airmen were killed when a U.S. Air Force KC-135 refueling aircraft crashed in western Iraq during Operation Epic Fury, with officials confirming it was not due to hostile or friendly fire.\n\n<br><strong>INTEL:</strong> This incident marks the fourth manned U.S. aircraft lost and contributes to the total of 13 U.S. service members killed during the opening two weeks of Operation Epic Fury against Iran. The KC-135 was on a combat mission providing aerial refueling when it went down on March 12, and while a second aircraft involved landed safely, the specific circumstances of the crash are currently under investigation.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/13/four-us-airmen-killed-in-kc-135-crash-in-iraq/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-26024",
                                     "title": "POLISH PRESIDENT REJECTS $50 BILLION IN EUROPEAN MILITARY LOANS",
                                     "description": "<br><strong>STATUS:</strong> Polish President Karol Nawrocki announced he will veto an EU bill providing \u20ac43.7 billion in low-cost military loans to Poland, citing threats to national sovereignty and security.\n\n<br><strong>INTEL:</strong> This veto is part of an ongoing political dispute between the right-wing President and the centrist government, which maintains the funds are crucial for modernizing the Polish military with advanced technologies and intends to absorb them regardless of the veto, potentially by integrating the loans into an existing defense acquisition fund. The government champions the loan program, aiming to inject over 80% of the funds into Poland's defense industry for acquisitions of innovative gear such as unmanned systems, anti-drone systems, satellites, and cyber warfare equipment.",
@@ -922,14 +930,6 @@ const signalTree = {
                                     "title": "US AND MIDEAST COUNTRIES SEEK KYIV\u2019S DRONE EXPERTISE AS RUSSIA-UKRAINE TALKS PUT ON ICE",
                                     "description": "<br><strong>STATUS:</strong> The United States and its Middle Eastern allies are actively seeking Ukraine's proven expertise and low-cost drone defense technology to counter Iran's Shahed drones.\n\n<br><strong>INTEL:</strong> Ukraine has developed inexpensive, battle-tested drone interceptors and countermeasures against the Shahed drones, honed during extensive use by Russia, which it is willing to export to bolster its diplomatic efforts against the Russian invasion. This effort highlights the interconnectedness of global conflicts, with Ukraine linking Russia and Iran as allies where Iran supplies weaponry while Russia assists its defense industry, underscoring a strategic shift in international air defense.",
                                     "source_url": "https://www.defensenews.com/industry/techwatch/2026/03/05/us-and-mideast-countries-seek-kyivs-drone-expertise-as-russia-ukraine-talks-put-on-ice/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-90312",
-                                    "title": "ITALY, ALLIES SEND WARSHIPS TO PROTECT EUROPE\u2019S SOUTHEASTERN EDGE FROM IRAN STRIKES",
-                                    "description": "<br><strong>STATUS:</strong> Multiple European nations are deploying naval assets to Cyprus to protect the island from escalating Iranian attacks, with Greece having already sent vessels.\n\n<br><strong>INTEL:</strong> The deployments involve a range of naval vessels from Italy, France, Spain, the UK, and the Netherlands, including a French carrier strike group and advanced frigates, though some ships face readiness or logistical delays. These forces aim to provide protection and air defense for Cyprus, which has been targeted by Iranian drones, operating under a cooperative command structure as the Iran war threatens to expand regionally. Concurrently, Italy, the UK, France, and Germany are also planning to send air defense systems to protect Gulf states.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/05/italy-allies-send-warships-to-protect-europes-southeastern-edge-from-iran-strikes/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -2179,6 +2179,30 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-60148",
+                                    "title": "FROM VMWARE TO WHAT\u2019S NEXT: PROTECTING DATA DURING HYPERVISOR MIGRATION",
+                                    "description": "<br><strong>STATUS:</strong> Broadcom's acquisition of VMware has triggered a significant, ongoing exodus of customers seeking alternative hypervisors.\n\n<br><strong>INTEL:</strong> These migrations, though driven by pricing and operational issues, pose substantial technical and operational risks due to the fundamental lack of interoperability between hypervisors and complex configuration differences; therefore, comprehensive, platform-agnostic backup and recovery is a critical prerequisite to mitigate downtime, data loss, and ensure business continuity during this high-stakes infrastructure change.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/from-vmware-to-whats-next-protecting-data-during-hypervisor-migration/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-6765",
+                                    "title": "POLICE SINKHOLES 45,000 IP ADDRESSES IN CYBERCRIME CRACKDOWN",
+                                    "description": "<br><strong>STATUS:</strong> Operation Synergia III, an Interpol-led international law enforcement action, successfully sinkholed tens of thousands of IP addresses and seized servers, leading to 94 arrests and disrupting widespread cybercrime operations globally.<br><br><strong>INTEL:</strong> This six-month operation involved 72 countries, resulting in the seizure of 212 electronic devices, the identification of over 33,000 phishing websites impersonating legitimate services, and ongoing investigations into 110 additional suspects for various schemes including romance scams, sextortion, and identity theft; it is part of a series of successful, large-scale Interpol initiatives highlighting the strategic importance of global cooperation against increasingly sophisticated cyber threats.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/police-sinkholes-45-000-ip-addresses-in-cybercrime-crackdown/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-57539",
+                                    "title": "FAKE ENTERPRISE VPN DOWNLOADS USED TO STEAL COMPANY CREDENTIALS",
+                                    "description": "<br><strong>STATUS:</strong> Threat actor Storm-2561 is employing SEO poisoning to distribute fake enterprise VPN clients that install the Hyrax infostealer to steal user credentials and configuration data.<br><br><strong>INTEL:</strong> The sophisticated attack uses spoofed vendor websites and a GitHub-hosted MSI installer, dropping a digitally signed infostealer that also establishes persistence. After compromising credentials, the fake client displays an installation error and redirects victims to the legitimate vendor site, making the compromise difficult for end-users to detect as their VPN connection subsequently works as expected.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/fake-enterprise-vpn-downloads-used-to-steal-company-credentials/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-53164",
                                     "title": "STARBUCKS DISCLOSES DATA BREACH AFFECTING HUNDREDS OF EMPLOYEES",
                                     "description": "<br><strong>STATUS:</strong> Starbucks has disclosed a data breach affecting 889 employees after threat actors gained unauthorized access to their Partner Central accounts through stolen login credentials.\n\n<br><strong>INTEL:</strong> The attackers accessed sensitive employee data, including names, Social Security numbers, dates of birth, and financial account information, from January 19 to February 11, after compromising accounts via websites impersonating Partner Central. Starbucks discovered the breach on February 6, notified law enforcement, and is providing affected employees with two years of free identity theft protection and credit monitoring.",
@@ -2551,30 +2575,6 @@ const signalTree = {
                                     "title": "EC-COUNCIL EXPANDS AI CERTIFICATION PORTFOLIO TO STRENGTHEN U.S. AI WORKFORCE READINESS AND SECURITY",
                                     "description": "<br><strong>STATUS:</strong> EC-Council has launched an Enterprise AI Credential Suite, including four new role-based AI certifications and an updated Certified CISO v4, to bridge the gap between AI adoption and workforce preparedness.\n\n<br><strong>INTEL:</strong> This significant portfolio expansion aims to counter the estimated $5.5 trillion global AI risk exposure and address the projected 700,000-person U.S. AI/cybersecurity reskilling gap, aligning with U.S. federal priorities to develop AI education pathways and build job-relevant skills, specifically addressing the urgent need to secure and govern AI systems as they move from pilot projects to core operations amidst rising AI-driven attacks.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/ec-council-expands-ai-certification-portfolio-to-strengthen-us-ai-workforce-readiness-and-security/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-15298",
-                                    "title": "FAKE CLAUDE CODE INSTALL GUIDES PUSH INFOSTEALERS IN INSTALLFIX ATTACKS",
-                                    "description": "<br><strong>STATUS:</strong> Threat actors are employing a new social engineering technique called InstallFix to deliver info-stealing malware via fake CLI tool installation pages promoted through malvertising campaigns.<br><br><strong>INTEL:</strong> InstallFix exploits the common 'curl-to-bash' practice by directing users from malicious Google Ads to perfectly cloned documentation sites for popular CLI tools (e.g., Claude Code), hosted on legitimate platforms like Squarespace. These fake pages provide malicious installation commands for macOS and Windows that download sophisticated info-stealers, specifically the Amatera Stealer \u2013 a new MaaS malware designed to evade detection, steal cryptocurrency wallets, credentials, and other sensitive data, posing a growing threat as more non-technical users adopt CLI tools.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/fake-claude-code-install-guides-push-infostealers-in-installfix-attacks/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-4060",
-                                    "title": "MICROSOFT 365 BACKUP TO ADD FILE-LEVEL RESTORE FOR FASTER RECOVERY",
-                                    "description": "<br><strong>STATUS:</strong> Microsoft is rolling out a significant upgrade to Microsoft 365 Backup, enabling granular file and folder restoration to speed up recovery times.\n\n<br><strong>INTEL:</strong> This new capability allows SharePoint Backup Administrators to selectively restore individual files or folders from existing restore points for SharePoint sites and OneDrive accounts, moving beyond the previous site- or drive-level recovery which often required time-consuming full restores. The feature, entering public preview in early March 2026 and expected for general availability by late April/early May 2026, significantly enhances data loss protection against threats like ransomware or accidental deletion without impacting end-users or changing backup data storage methods.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-365-backup-to-add-file-level-restore-for-faster-recovery/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-72419",
-                                    "title": "GHANAIN MAN PLEADS GUILTY TO ROLE IN $100 MILLION FRAUD RING",
-                                    "description": "<br><strong>STATUS:</strong> A Ghanaian national has pleaded guilty to his role in a massive international fraud ring that stole over $100 million from U.S. victims through sophisticated romance scams and business email compromise attacks.<br><br><strong>INTEL:</strong> Derrick Van Yeboah, a high-ranking member of the Ghana-based operation, admitted to personally conducting many romance scams that exploited vulnerable Americans, resulting in over $10 million in direct losses linked to him. The scheme involved U.S. accomplices who laundered funds, forwarding proceeds to \"chairmen\" in West Africa, demonstrating a multi-national criminal network that leveraged both social engineering and BEC tactics to defraud individuals and businesses.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/ghanain-man-pleads-guilty-to-role-in-100-million-fraud-ring/",
                                     "timestamp": "2026.03.06",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
