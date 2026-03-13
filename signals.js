@@ -2179,6 +2179,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-67397",
+                                    "title": "GOOGLE FIXES TWO NEW CHROME ZERO-DAYS EXPLOITED IN ATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> Google has released emergency security updates for two actively exploited zero-day vulnerabilities in Chrome, CVE-2026-3909 and CVE-2026-3910.<br><br><strong>INTEL:</strong> The vulnerabilities include an out-of-bounds write in the Skia 2D graphics library (CVE-2026-3909), which could lead to code execution, and an inappropriate implementation bug in the V8 JavaScript engine (CVE-2026-3910). Patches have been released for Windows, macOS, and Linux in the Stable Desktop channel, and these are the second and third Chrome zero-days addressed this year, with Google restricting detailed information to ensure widespread user updates.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/google/google-fixes-two-new-chrome-zero-days-exploited-in-attacks/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-24929",
                                     "title": "CANADIAN RETAIL GIANT LOBLAW NOTIFIES CUSTOMERS OF DATA BREACH",
                                     "description": "<br><strong>STATUS:</strong> Loblaw Companies Limited, Canada's largest food and pharmacy retailer, announced a data breach where basic customer information including names, phone numbers, and email addresses was accessed by a criminal third-party.\n\n<br><strong>INTEL:</strong> The intrusion affected a contained, non-critical part of Loblaw's IT network, with no evidence found to date of compromised financial or health information, or account passwords, nor was its PC Financial brand impacted; customers have been logged out and advised to change passwords as the exposed PII could be used for phishing and fraudulent activities.",
@@ -2568,14 +2576,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> The FBI confirmed it is investigating and has addressed a breach impacting systems used to manage surveillance and wiretap warrants.<br><br><strong>INTEL:</strong> The incident compromised highly sensitive FBI systems related to wiretapping and foreign intelligence surveillance warrants, raising concerns about the potential exposure of operational data. While the FBI stated the breach was addressed, it remains unclear if it's linked to a 2024 compromise by the Chinese state-backed group Salt Typhoon, which previously targeted U.S. federal wiretapping request systems and accessed private communications of government officials via telecom network breaches.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/fbi-investigates-breach-of-surveillance-and-wiretap-systems/",
                                     "timestamp": "2026.03.06",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-97682",
-                                    "title": "CHINESE STATE HACKERS TARGET TELCOS WITH NEW MALWARE TOOLKIT",
-                                    "description": "<br><strong>STATUS:</strong> A China-linked APT group, UAT-9244, has been actively targeting telecommunication service providers in South America since 2024, compromising Windows, Linux, and network-edge devices. <br><br><strong>INTEL:</strong> UAT-9244 is associated with FamousSparrow and Tropic Trooper and utilizes three previously undocumented malware families: TernDoor, a Windows backdoor employing DLL side-loading and an embedded driver; PeerTime, a multi-architecture Linux backdoor that leverages the BitTorrent protocol for peer-to-peer command and control; and BruteEntry, a Go-based brute-force scanner used to build proxy infrastructure (ORBs) and scan for new targets.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/chinese-state-hackers-target-telcos-with-new-malware-toolkit/",
-                                    "timestamp": "2026.03.05",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
