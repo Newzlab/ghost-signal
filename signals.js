@@ -1359,6 +1359,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-17329",
+                                    "title": "NASA WORKING TOWARD APRIL 1 LAUNCH OF ARTEMIS 2",
+                                    "description": "<br><strong>STATUS:</strong> NASA is pushing ahead with the Artemis 2 launch as soon as April 1 after completing repairs to a helium line and other systems.\n\n<br><strong>INTEL:</strong> The rocket was rolled back from the pad due to a dislodged seal in a quick-disconnect helium line, caused by high-pressure gas, which was subsequently removed and replaced with a reinforced, qualified seal. NASA officials expressed high confidence in newly replaced liquid hydrogen and oxygen line seals, which had leaked in earlier tests, and therefore opted against another wet dress rehearsal before the planned March 19 rollout to Launch Complex 39B for launch opportunities between April 1 and April 6.",
+                                    "source_url": "https://spacenews.com/nasa-working-toward-april-1-launch-of-artemis-2/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-26507",
                                     "title": "CHINA\u2019S TIANWEN-3 MARS SAMPLE RETURN MISSION MOVES INTO SPACECRAFT CONSTRUCTION PHASE",
                                     "description": "<br><strong>STATUS:</strong> China's Tianwen-3 Mars sample return mission is entering flight hardware development, targeting a late 2028 launch to retrieve samples and search for biosignatures.\n\n<br><strong>INTEL:</strong> This complex multi-spacecraft mission will utilize two Long March 5 launches, incorporating a drone for sample collection, and aims to deliver over 500 grams of Martian material to Earth by 2031. The mission's primary objective is to detect potential biosignatures, marking China's significant lead in Mars sample return capabilities, especially as NASA's comparable program faces funding issues.",
@@ -1747,14 +1755,6 @@ const signalTree = {
                                     "title": "UK ANNOUNCES \u00a3500 MILLION PACKAGE FOR INDUSTRIAL GROWTH AND NATIONAL SECURITY",
                                     "description": "<br><strong>STATUS:</strong> The United Kingdom has announced a new \u00a3500 million space funding package, reprioritizing its investment towards areas of economic growth and national security within the space sector, alongside a departmental restructuring.\n\n<br><strong>INTEL:</strong> This strategic shift, driven by a need for sustainable spending, will concentrate efforts on satellite communications, assured access to space, in-orbit servicing, assembly and manufacturing, and space domain awareness. It follows previous policy signals like reduced ESA commitments and the cancellation of pure science projects, while also addressing setbacks in the domestic launch sector by focusing on Scottish spaceports, all coinciding with the UK Space Agency's integration into the Department for Science, Innovation and Technology.",
                                     "source_url": "https://spacenews.com/uk-announces-500-million-package-for-industrial-growth-and-national-security/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-41675",
-                                    "title": "VAST RAISES $500 MILLION FOR COMMERCIAL SPACE STATION DEVELOPMENT",
-                                    "description": "<br><strong>STATUS:</strong> Commercial space station developer Vast has secured $500 million in its initial significant external investment round.<br><br><strong>INTEL:</strong> This substantial funding, comprising $300 million in Series A equity and $200 million in debt, will accelerate Vast's development of its Haven-1 and Haven-2 commercial space stations, targeting NASA's Commercial Low Earth Orbit Destinations (CLD) program. The company's strategic focus is on securing initial revenue from government and established space agency contracts, rather than nascent LEO economy markets, underscoring a pragmatic, stepping-stone approach to profitability amidst delays in NASA's CLD program and a competitive commercial space station landscape.",
-                                    "source_url": "https://spacenews.com/vast-raises-500-million-for-commercial-space-station-development/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "SPACE_NEWS"
                                 }
@@ -2179,6 +2179,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-53164",
+                                    "title": "STARBUCKS DISCLOSES DATA BREACH AFFECTING HUNDREDS OF EMPLOYEES",
+                                    "description": "<br><strong>STATUS:</strong> Starbucks has disclosed a data breach affecting 889 employees after threat actors gained unauthorized access to their Partner Central accounts through stolen login credentials.\n\n<br><strong>INTEL:</strong> The attackers accessed sensitive employee data, including names, Social Security numbers, dates of birth, and financial account information, from January 19 to February 11, after compromising accounts via websites impersonating Partner Central. Starbucks discovered the breach on February 6, notified law enforcement, and is providing affected employees with two years of free identity theft protection and credit monitoring.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/starbucks-discloses-data-breach-affecting-hundreds-of-employees/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-67397",
                                     "title": "GOOGLE FIXES TWO NEW CHROME ZERO-DAYS EXPLOITED IN ATTACKS",
                                     "description": "<br><strong>STATUS:</strong> Google has released emergency security updates for two actively exploited zero-day vulnerabilities in Chrome, CVE-2026-3909 and CVE-2026-3910.<br><br><strong>INTEL:</strong> The vulnerabilities include an out-of-bounds write in the Skia 2D graphics library (CVE-2026-3909), which could lead to code execution, and an inappropriate implementation bug in the V8 JavaScript engine (CVE-2026-3910). Patches have been released for Windows, macOS, and Linux in the Stable Desktop channel, and these are the second and third Chrome zero-days addressed this year, with Google restricting detailed information to ensure widespread user updates.",
@@ -2567,14 +2575,6 @@ const signalTree = {
                                     "title": "GHANAIN MAN PLEADS GUILTY TO ROLE IN $100 MILLION FRAUD RING",
                                     "description": "<br><strong>STATUS:</strong> A Ghanaian national has pleaded guilty to his role in a massive international fraud ring that stole over $100 million from U.S. victims through sophisticated romance scams and business email compromise attacks.<br><br><strong>INTEL:</strong> Derrick Van Yeboah, a high-ranking member of the Ghana-based operation, admitted to personally conducting many romance scams that exploited vulnerable Americans, resulting in over $10 million in direct losses linked to him. The scheme involved U.S. accomplices who laundered funds, forwarding proceeds to \"chairmen\" in West Africa, demonstrating a multi-national criminal network that leveraged both social engineering and BEC tactics to defraud individuals and businesses.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/ghanain-man-pleads-guilty-to-role-in-100-million-fraud-ring/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-50655",
-                                    "title": "FBI INVESTIGATES BREACH OF SURVEILLANCE AND WIRETAP SYSTEMS",
-                                    "description": "<br><strong>STATUS:</strong> The FBI confirmed it is investigating and has addressed a breach impacting systems used to manage surveillance and wiretap warrants.<br><br><strong>INTEL:</strong> The incident compromised highly sensitive FBI systems related to wiretapping and foreign intelligence surveillance warrants, raising concerns about the potential exposure of operational data. While the FBI stated the breach was addressed, it remains unclear if it's linked to a 2024 compromise by the Chinese state-backed group Salt Typhoon, which previously targeted U.S. federal wiretapping request systems and accessed private communications of government officials via telecom network breaches.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/fbi-investigates-breach-of-surveillance-and-wiretap-systems/",
                                     "timestamp": "2026.03.06",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
