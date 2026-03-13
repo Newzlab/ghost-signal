@@ -119,6 +119,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-41778",
+                                    "title": "AFTER UKRAINE, FPV DRONES COULD TAKE ON ARCTIC WARFARE",
+                                    "description": "<br><strong>STATUS:</strong> Arctic nations, particularly Norway and the US, are actively testing and adapting first-person-view (FPV) drones for potential deployment in cold-weather combat environments, incorporating lessons learned from their use in Ukraine.<br><br><strong>INTEL:</strong> Building on the effectiveness demonstrated in Ukraine, Norway is implementing FPV and intelligence-gathering drones like the Skydio X10D, and even self-built explosive-carrying variants, into Arctic exercises despite challenges with battery life in extreme cold. The U.S. Marines are also experimenting with specialized FPVs for force-on-force training and counter-drone tactics, highlighting a collaborative effort among allies to overcome environmental hurdles and integrate these systems for reconnaissance, high-value target operations, and strike capabilities in Arctic warfare.",
+                                    "source_url": "https://www.c4isrnet.com/industry/techwatch/2026/03/13/after-ukraine-fpv-drones-could-take-on-arctic-warfare/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-25175",
                                     "title": "US NAVY PARTNERS WITH ANDURIL TO DEVELOP XL UNDERWATER VESSEL",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Navy and the Pentagon\u2019s Defense Innovation Unit selected Anduril to develop an extra-large unmanned underwater vessel (XL-AUV) for the Combat Autonomous Maritime Platform (CAMP) program.\n\n<br><strong>INTEL:</strong> Anduril's Dive-XL platform, an all-electric XL-AUV capable of over 2,000 nautical miles range, deep dives exceeding 656 feet, and prolonged underwater operation in GPS-denied environments, was chosen after a record-setting demonstration. Its highly flexible and modular design allows it to carry multiple payloads, including smaller UUVs to act as a mothership, and is easily transportable via commercial logistics, directly addressing the Navy's requirement for scalable, uncrewed maritime capabilities in strategic areas like the Pacific and Arctic.",
@@ -534,6 +542,30 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-38161",
+                                    "title": "PENTAGON REPORTEDLY SENDING MORE WARSHIPS AND MARINES TO MIDDLE EAST",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. is deploying the USS Tripoli Amphibious Ready Group and the 31st Marine Expeditionary Unit, totaling up to 5,000 personnel and multiple warships, to the Middle East to bolster ongoing operations against Iran.<br><br><strong>INTEL:</strong> This substantial reinforcement arrives as U.S. forces intensify attacks, having struck approximately 6,000 targets and eliminated over 90 Iranian vessels, with the initial six days of Operation Epic Fury costing an estimated $11.3 billion. The deployment proceeds despite previous low readiness rates for amphibious assault ships and follows a recent incident where a KC-135 crash killed six U.S. service members, raising total U.S. fatalities in the conflict to 13, with 140 wounded.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/13/pentagon-reportedly-sending-more-warships-and-marines-to-middle-east/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-78626",
+                                    "title": "AFTER UKRAINE, FPV DRONES COULD TAKE ON ARCTIC WARFARE",
+                                    "description": "<br><strong>STATUS:</strong> Arctic nations are actively assessing and testing the deployment of first-person-view (FPV) drones for potential use in cold weather battlefields, drawing lessons from their application in Ukraine.<br><br><strong>INTEL:</strong> During NATO's Cold Response 2026 exercise in Norway, both Norwegian and U.S. forces tested various FPV systems, including the U.S.-made Skydio X10D, self-built explosive-carrying drones, and caged U.S. Marine Corps variants for training, with key challenges identified as significant battery life degradation and general operational difficulties in harsh Arctic conditions.",
+                                    "source_url": "https://www.defensenews.com/industry/techwatch/2026/03/13/after-ukraine-fpv-drones-could-take-on-arctic-warfare/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-71611",
+                                    "title": "UKRAINE OPENS BATTLEFIELD AI DATA TO ALLIES IN WORLD-FIRST MOVE",
+                                    "description": "<br><strong>STATUS:</strong> Ukraine has launched a unique initiative, granting international partners and defense companies access to its extensive real combat data for training artificial intelligence models for autonomous drone systems.<br><br><strong>INTEL:</strong> This \"first of its kind\" program aims to accelerate the development of autonomous capabilities by allowing partners to train AI models on continuously updated, operationally rich battlefield data collected directly from soldiers. The secure platform, built on NIST standards and annually audited, allows joint analytics and co-development without direct access to sensitive military databases; this provides invaluable real-world training data for companies and offers allies a faster path to fielding AI-enabled defense capabilities in an increasingly AI-driven global conflict.",
+                                    "source_url": "https://www.defensenews.com/flashpoints/ukraine/2026/03/13/ukraine-opens-battlefield-ai-data-to-allies-in-world-first-move/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-44494",
                                     "title": "LEBANESE GOVERNMENT TRIES TO AVOID INTERNAL STRIFE AMID ISRAELI BOMBARDMENT",
                                     "description": "<br><strong>STATUS:</strong> The Lebanese Cabinet has banned Hezbollah's military activities and demanded it surrender weapons amidst renewed conflict with Israel following the killing of Iran's Supreme Leader.\n\n<br><strong>INTEL:</strong> Enforcement of the unprecedented ban is proving exceptionally difficult, as Hezbollah, having lost its \"deterrence balance,\" feels compelled to continue fighting while the Lebanese army faces significant obstacles including ongoing Israeli bombardment, potential internal divisions, and Hezbollah's entrenched power. Analysts suggest forceful disarmament is \"virtually impossible\" without sparking major internal conflict, further complicated by mounting Israeli and U.S. pressure and the government's struggle to contain regional escalation.",
@@ -907,30 +939,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Iran's extensive drone swarm tactics against Gulf states are prompting urgent calls for more cost-effective regional defense strategies to counter the financial strain of current interceptor systems and the threat of a prolonged conflict.\n\n<br><strong>INTEL:</strong> Iran has executed over 1,450 drone strikes, comprising three-quarters of its attacks, designed to saturate and overwhelm U.S. and Gulf-aligned air defenses across multiple states. While current high-cost interceptors like Patriot and THAAD achieve high kill rates, they are financially unsustainable, with defensive fire costing $20-28 for every dollar Iran spends on drones. Experts advocate for integrated, cheaper counter-drone layers, including electronic warfare, jammers, and directed energy, to reduce costs and maintain endurance, warning that a shift in Iranian targeting from military bases to critical infrastructure would signify a significant escalation.",
                                     "source_url": "https://www.defensenews.com/global/mideast-africa/2026/03/06/iran-can-still-fire-drones-and-missiles-experts-weigh-the-implications-on-the-war/",
                                     "timestamp": "2026.03.06",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-11127",
-                                    "title": "PENTAGON SAYS IT IS LABELING ANTHROPIC A SUPPLY CHAIN RISK \u2018EFFECTIVE IMMEDIATELY\u2019",
-                                    "description": "<br><strong>STATUS:</strong> The Trump administration has officially designated U.S. AI company Anthropic as a supply chain risk, an unprecedented move that could restrict government contractors from using its Claude AI.\n\n<br><strong>INTEL:</strong> This decision, made on the eve of the Iran war, follows Anthropic's refusal to allow its products to be used for mass surveillance or autonomous weapons, prompting the Pentagon to state the military will not tolerate vendors restricting lawful use of critical capabilities; the action is widely criticized as a misuse of authority typically applied to foreign adversaries, setting a dangerous precedent and potentially harming both the U.S. AI sector and the military's access to advanced technology.",
-                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/06/pentagon-says-it-is-labeling-anthropic-a-supply-chain-risk-effective-immediately/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-12005",
-                                    "title": "\u2018RACE OF ATTRITION\u2019: US MILITARY\u2019S FINITE INTERCEPTOR STOCKPILE IS BEING TESTED",
-                                    "description": "<br><strong>STATUS:</strong> The U.S. military's increased use of missile interceptors during the war with Iran poses a significant long-term strategic risk to its finite defense capabilities.\n\n<br><br><strong>INTEL:</strong> Experts warn that the current rate of interceptor depletion, particularly for critical SM-3 and THAAD systems, could exhaust half the U.S. stockpile in four to five weeks if the conflict with Iran continues at a similar pace to previous engagements. This depletion risk could necessitate moving interceptors from other theaters, creating vulnerabilities, and potentially taking years to replenish, as evidenced by a recent drone strike in Kuwait attributed to stressed interceptor resources.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/06/race-of-attrition-us-militarys-finite-interceptor-stockpile-is-being-tested/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-39126",
-                                    "title": "NORAD INTERCEPTS 2 RUSSIAN MARITIME PATROL AIRCRAFT NEAR ALASKA, CANADA",
-                                    "description": "<br><strong>STATUS:</strong> NORAD detected and intercepted two Russian Tu-142 maritime patrol aircraft operating within the Alaskan and Canadian Air Defense Identification Zones, which remained in international airspace and were not considered a threat.<br><br><strong>INTEL:</strong> This event represents routine Russian military activity in international airspace adjacent to North America, consistent with a similar interception last month. NORAD's rapid deployment of U.S. and Canadian fighter jets, supported by tankers and AWACS, demonstrates its continuous capability to identify and monitor aircraft in the ADIZ, which extends into international airspace for national security.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/05/norad-intercepts-2-russian-maritime-patrol-aircraft-near-alaska-canada/",
-                                    "timestamp": "2026.03.05",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
                             ]
@@ -1359,6 +1367,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-14554",
+                                    "title": "ASTROSCALE SELECTS ISAR AEROSPACE TO LAUNCH ELSA-M MISSION",
+                                    "description": "<br><strong>STATUS:</strong> Japanese satellite servicing company Astroscale has selected Isar Aerospace to launch its ELSA-M deorbiting mission in fiscal year 2028.<br><br><strong>INTEL:</strong> The ELSA-M spacecraft, developed by Astroscale UK with European Space Agency support, is designed to deorbit defunct OneWeb satellites, with its launch on a European rocket carrying strong strategic significance for Europe's independent space-development ambitions. This partnership comes despite Isar Aerospace's Spectrum rocket having only one prior launch attempt which malfunctioned, though the company expects \"several\" successful launches before the mission, highlighting the growing defense interest in satellite servicing capabilities.",
+                                    "source_url": "https://spacenews.com/astroscale-selects-isar-aerospace-to-launch-elsa-m-mission/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-8296",
+                                    "title": "CHINA IS DEVELOPING LOW-COST LUNAR CARGO OPTIONS FOR ITS EXPANDING MOON PROGRAM",
+                                    "description": "<br><strong>STATUS:</strong> A state-owned Chinese space contractor has unveiled a concept for an \"economical lunar cargo transport\" system, including a tested demo vehicle, as China prepares for lunar base construction.<br><br><strong>INTEL:</strong> The Shanghai Academy of Spaceflight Technology (SAST) concept features a family of methane-liquid oxygen propelled landers, capable of delivering 120 kg to 5,000 kg, designed to support China's International Lunar Research Station (ILRS) with regular cargo deliveries. This strategic development, mirroring NASA's CLPS, suggests a move towards a tiered logistics architecture and potential competitive procurement for lunar cargo, aligning with China's 2026-2030 Five-Year Plan goals for lunar exploration.",
+                                    "source_url": "https://spacenews.com/china-is-developing-low-cost-lunar-cargo-options-for-its-expanding-moon-program/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-26351",
                                     "title": "UKRAINE WILL HOST FIRST TEST FOR LEONARDO\u2019S MICHELANGELO SECURITY DOME",
                                     "description": "<br><strong>STATUS:</strong> Leonardo announced that its Michelangelo \u201csecurity dome\u201d architecture will undergo its first field test in Ukraine by the end of 2026.\n\n<br><strong>INTEL:</strong> Michelangelo is an integrated, multi-domain security architecture designed for identifying and tracking threats across air, land, sea, and space, incorporating Leonardo\u2019s proprietary 20-satellite Space Guardian constellation set to be operational by 2029. This initiative is emerging amid a fragmented European push for enhanced air and missile defense capabilities, with Michelangelo aiming for an open architecture despite a lack of coordination with similar projects like Thales's SkyDefender and potential overlaps with broader industry consolidation efforts.",
@@ -1741,28 +1765,20 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/china-designates-space-sector-an-emerging-pillar-industry-sets-deep-space-ambitions-in-new-economic-blueprint/",
                                     "timestamp": "2026.03.06",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-50902",
-                                    "title": "POLAND-BASED LIFTERO WILL PROVIDE CHEMICAL PROPULSION FOR INDIAN FIRM ORBITAID\u2019S IN-ORBIT SERVICING MISSION",
-                                    "description": "<br><strong>STATUS:</strong> Polish startup Liftero will supply green chemical propulsion systems to India's OrbitAID for an in-orbit servicing mission in late 2026, marking the first use of an N2O-based system for six degrees of freedom maneuvering in this application.<br><br><strong>INTEL:</strong> The BOOSTER system, utilizing nitrous oxide-based propulsion, will provide critical 6-DOF maneuverability for both chaser and target spacecraft, enabling controlled proximity operations essential for OrbitAID's mission to extend satellite lifespans and eventually establish in-orbit fuel stations. This collaboration signifies a major advancement for green chemical propulsion, demonstrating its market readiness and strategic importance for sustainable space operations by reducing space debris and prolonging orbital asset viability.",
-                                    "source_url": "https://spacenews.com/poland-based-liftero-will-provide-chemical-propulsion-for-indian-firm-orbitaids-in-orbit-servicing-mission/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-12151",
-                                    "title": "NASA DEPUTY ADMINISTRATOR NOMINEE SAILS THROUGH CONFIRMATION HEARING",
-                                    "description": "<br><strong>STATUS:</strong> Matt Anderson, the White House nominee for NASA deputy administrator, received strong bipartisan support at his Senate confirmation hearing on March 5.\n\n<br><strong>INTEL:</strong> Anderson's confirmation hearing revealed a clear bipartisan consensus and strategic alignment between the administration and the Senate Commerce Committee to accelerate NASA's Artemis lunar return program, specifically to land humans on the moon by 2028 ahead of China. Despite his military background, Anderson emphasized prioritizing this geopolitical objective and supporting Administrator Isaacman's initiatives, with the committee signaling an expedited vote on his nomination.",
-                                    "source_url": "https://spacenews.com/nasa-deputy-administrator-nominee-sails-through-confirmation-hearing/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-89090",
+                                    "title": "NASA\u00a0SELECTS\u00a0FINALISTS IN\u00a0STUDENT AIRCRAFT MAINTENANCE\u00a0COMPETITION",
+                                    "description": "<br><strong>STATUS:</strong> NASA has selected eight student teams as finalists in the 2026 Gateways to Blue Skies Competition (RepAir) to develop innovative solutions for critical U.S. aviation maintenance challenges.<br><br><strong>INTEL:</strong> The \"RepAir\" competition specifically addresses immediate operational needs in commercial aircraft maintenance, a departure from NASA's usual long-term research, aiming to improve efficiency, safety, and costs by 2035. This initiative tackles the critical shortage of qualified maintenance workers and stimulates the future aviation workforce, with finalist concepts involving advanced technologies such as robotic inspections, augmented reality smart glasses, and sensor and machine learning architectures.",
+                                    "source_url": "https://www.nasa.gov/aeronautics/nasa-selects-finalists-in-student-aircraft-maintenance-competition/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-10524",
                                     "title": "NASA ARMSTRONG TO HOST PARTNERSHIP DAYS APRIL 15-16",
@@ -2154,14 +2170,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/flammability-testing-configuration-and-approach-of-barrier-materialassemblies-designed-for-space-flight-applications/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-40932",
-                                    "title": "WEBB STUDIES CRANIUM NEBULA",
-                                    "description": "<br><strong>STATUS:</strong> The Webb Space Telescope has released new, highly detailed images of the \"Exposed Cranium\" nebula, revealing its intricate brain-like structure in both near- and mid-infrared light.<br><br><strong>INTEL:</strong> Nebula PMR 1, nicknamed the \"Exposed Cranium,\" was recently captured by Webb, enhancing its brain-like features beyond observations by the predecessor Spitzer Space Telescope. Webb's advanced instruments show distinct regions representing different evolutionary phases, including an outer hydrogen shell and an inner mixed-gas cloud, and prominently feature a dark vertical lane defining its left and right hemispheres, which is potentially linked to twin jets from the central star.",
-                                    "source_url": "https://www.nasa.gov/image-article/webb-studies-cranium-nebula/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2178,6 +2186,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-40825",
+                                    "title": "FBI SEEKS VICTIMS OF STEAM GAMES USED TO SPREAD MALWARE",
+                                    "description": "<br><strong>STATUS:</strong> The FBI is soliciting information from gamers who installed eight identified malicious Steam games between May 2024 and January 2026, as part of an ongoing investigation into cryptocurrency theft and account hijacking.<br><br><strong>INTEL:</strong> The investigation targets specific games, including BlockBlasters, Chemia, and PirateFi, which distributed sophisticated malware such as cryptodrainers, Vidar, and Fickle Stealer, designed to steal credentials, cryptocurrency, and sensitive data. These attacks have resulted in substantial financial losses, with one notable incident involving BlockBlasters leading to an estimated $150,000 theft from 261 Steam accounts, prompting the FBI to collect victim details for potential restitution and services.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/fbi-seeks-victims-of-steam-games-used-to-spread-malware/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-75803",
                                     "title": "POLAND'S NUCLEAR RESEARCH CENTRE TARGETED BY CYBERATTACK",
@@ -2568,14 +2584,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Microsoft reports an increase in threat actors leveraging AI to accelerate, scale, and lower technical barriers in cyberattacks.<br><br><strong>INTEL:</strong> Threat actors, including North Korean groups Jasper Sleet and Coral Sleet, are utilizing generative AI for tasks such as drafting phishing emails, creating fake identities and resumes for remote IT worker schemes, generating malware code, summarizing stolen data, and developing malicious infrastructure. They employ jailbreaking techniques to bypass AI safeguards, and while current AI use primarily supports human decision-making, experimentation with autonomous agentic AI is also being observed. Microsoft advises treating AI-powered IT worker schemes as insider risks and recommends focusing on abnormal credential use and securing AI systems.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/microsoft-hackers-abusing-ai-at-every-stage-of-cyberattacks/",
                                     "timestamp": "2026.03.07",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-7255",
-                                    "title": "COGNIZANT TRIZETTO BREACH EXPOSES HEALTH DATA OF 3.4 MILLION PATIENTS",
-                                    "description": "<br><strong>STATUS:</strong> TriZetto Provider Solutions, a Cognizant subsidiary, suffered a data breach exposing the sensitive information of over 3.4 million individuals from November 2024 to October 2025.<br><br><strong>INTEL:</strong> The breach involved unauthorized access to insurance eligibility verification transactions, which went undetected for nearly a year, leading to delayed customer notifications starting in February 2026. Although payment card or bank account information was not compromised, the incident underscores ongoing security vulnerabilities within critical healthcare IT infrastructure and raises concerns about Cognizant's repeated involvement in significant security incidents.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/cognizant-trizetto-breach-exposes-health-data-of-34-million-patients/",
-                                    "timestamp": "2026.03.06",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
