@@ -534,6 +534,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-26024",
+                                    "title": "POLISH PRESIDENT REJECTS $50 BILLION IN EUROPEAN MILITARY LOANS",
+                                    "description": "<br><strong>STATUS:</strong> Polish President Karol Nawrocki announced he will veto an EU bill providing \u20ac43.7 billion in low-cost military loans to Poland, citing threats to national sovereignty and security.\n\n<br><strong>INTEL:</strong> This veto is part of an ongoing political dispute between the right-wing President and the centrist government, which maintains the funds are crucial for modernizing the Polish military with advanced technologies and intends to absorb them regardless of the veto, potentially by integrating the loans into an existing defense acquisition fund. The government champions the loan program, aiming to inject over 80% of the funds into Poland's defense industry for acquisitions of innovative gear such as unmanned systems, anti-drone systems, satellites, and cyber warfare equipment.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/13/polish-president-rejects-50-billion-in-european-military-loans/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-14316",
                                     "title": "US AIR FORCE KC-135 GOES DOWN IN IRAQ, CENTCOM SAYS",
                                     "description": "<br><strong>STATUS:</strong> A U.S. Air Force KC-135 refueling aircraft went down in friendly airspace in western Iraq during combat operations, an incident not attributed to hostile or friendly fire.\n\n<br><strong>INTEL:</strong> This loss marks the fourth manned U.S. aircraft casualty this month amidst Operation Epic Fury against Iran, adding to previous F-15E losses and significant combat casualties of 7 killed and 140 wounded. The incident highlights the inherent risks of ongoing combat operations, even when not directly caused by enemy action, with further details regarding the crew's status pending.",
@@ -922,14 +930,6 @@ const signalTree = {
                                     "title": "ITALY, ALLIES SEND WARSHIPS TO PROTECT EUROPE\u2019S SOUTHEASTERN EDGE FROM IRAN STRIKES",
                                     "description": "<br><strong>STATUS:</strong> Multiple European nations are deploying naval assets to Cyprus to protect the island from escalating Iranian attacks, with Greece having already sent vessels.\n\n<br><strong>INTEL:</strong> The deployments involve a range of naval vessels from Italy, France, Spain, the UK, and the Netherlands, including a French carrier strike group and advanced frigates, though some ships face readiness or logistical delays. These forces aim to provide protection and air defense for Cyprus, which has been targeted by Iranian drones, operating under a cooperative command structure as the Iran war threatens to expand regionally. Concurrently, Italy, the UK, France, and Germany are also planning to send air defense systems to protect Gulf states.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/03/05/italy-allies-send-warships-to-protect-europes-southeastern-edge-from-iran-strikes/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-20429",
-                                    "title": "FRANCE, GERMANY CREATE PANEL TO ADVANCE SHARED NUCLEAR DETERRENCE PLANS",
-                                    "description": "<br><strong>STATUS:</strong> France and Germany have established a high-level nuclear steering group to advance European nuclear deterrence, driven by concerns over long-term U.S. security reliability.<br><br><strong>INTEL:</strong> This new bilateral framework will facilitate doctrinal dialogue and strategic cooperation on conventional, missile defense, and French nuclear capabilities. France, through President Macron, announced significant shifts to its nuclear doctrine, an increased stockpile, and the option to extend its nuclear deterrence across Europe, with Germany agreeing to participate in French nuclear exercises. While explicitly stating it adds to, not replaces, NATO's deterrence, the initiative carries tacit U.S. backing, aligning with a strategic shift where the U.S. encourages Europe to take primary responsibility for its conventional defense to focus on China. The group will also address European shortfalls in non-nuclear capabilities like early warning, air defense, and deep precision strike.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/05/france-germany-create-panel-to-advance-shared-nuclear-deterrence-plans/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1359,6 +1359,38 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-38009",
+                                    "title": "KAZAKHSTAN MUST CHOOSE: BE EURASIA\u2019S TECH BROKER OR BECOME A PAWN IN THE NEW GLOBAL SPACE RACE",
+                                    "description": "<br><strong>STATUS:</strong> Kazakhstan faces a critical strategic decision to either assert itself as an indispensable broker in the global space and deeptech economy or risk becoming a geopolitical pawn.\n\n<br><strong>INTEL:</strong> Leveraging its unique position, legacy space assets like Baikonur, and a strong record of global trust and non-proliferation, Kazakhstan can transition from a launch host to a system integrator by actively shaping standards and fostering multilateral cooperation in AI, robotics, and advanced materials. This strategic agency, rather than mere neutrality, is crucial for capturing durable value in the rapidly expanding $1.8 trillion space economy and securing stability amidst complex geopolitical dependencies.",
+                                    "source_url": "https://spacenews.com/kazakhstan-must-choose-be-eurasias-tech-broker-or-become-a-pawn-in-the-new-global-space-race/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-1041",
+                                    "title": "Q&A: REBECCA EVERNDEN ON UK SPACE STRATEGY",
+                                    "description": "<br><strong>STATUS:</strong> The newly appointed Director of the UK Space Agency (UKSA) outlined the agency's strategic priorities, structural integration, and partnership focus amidst a changing geopolitical landscape.\n\n<br><strong>INTEL:</strong> The UKSA is prioritizing SATCOM, launch capabilities, in-orbit servicing/manufacturing, and space domain awareness to achieve economic growth and national security. Despite the setback with Orbex, the UK's launch ambitions continue with SaxaVord spaceport and international partners. The agency is also being integrated more directly into the Department of Science, Innovation and Technology (DSIT) to centralize space policy and operations, aiming for a stronger government voice, while affirming its continued essential partnership and significant investment with the European Space Agency (ESA) in commercialization and scientific programs.",
+                                    "source_url": "https://spacenews.com/qa-rebecca-evernden-on-uk-space-strategy/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-54920",
+                                    "title": "CHINA ENDS MONTH-LONG LAUNCH HIATUS WITH SEPARATE GUOWANG AND SHIYAN-30 SATELLITE MISSIONS",
+                                    "description": "<br><strong>STATUS:</strong> China resumed orbital launch activities with two missions, deploying satellites for its Guowang internet constellation and conducting a classified technology demonstration, following a period of inactivity.\n\n<br><strong>INTEL:</strong> The Guowang launch deployed the 20th batch of satellites for China's 13,000-satellite low Earth orbit internet megaconstellation, intended as a direct competitor to Starlink, with a goal of 400 satellites by 2027. The second mission involved two Shiyan-30 satellites, believed to be testing advanced Earth observation technologies like interferometry, inter-satellite links, and autonomous formation flying, underscoring China's accelerated efforts to validate new space systems for various applications, including remote sensing and space situational awareness, as it aims for over 100 launches in 2026.",
+                                    "source_url": "https://spacenews.com/china-ends-month-long-launch-hiatus-with-separate-guowang-and-shiyan-30-satellite-missions/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-74918",
+                                    "title": "SENATE COMMITTEE ADVANCES NASA DEPUTY ADMINISTRATOR NOMINEE",
+                                    "description": "<br><strong>STATUS:</strong> The Senate Commerce Committee has advanced Matt Anderson's nomination for NASA deputy administrator to a full Senate vote.\n\n<br><strong>INTEL:</strong> Anderson, a retired U.S. Air Force officer, received a 23-5 committee vote despite opposition from five Democrats who did not attend his hearing. If confirmed, he pledged to support Administrator Jared Isaacman's 2028 human moon return goal and back legislation extending the International Space Station's life to 2032, with his confirmation anticipated before the Artemis 2 launch on April 1.",
+                                    "source_url": "https://spacenews.com/senate-committee-advances-nasa-deputy-administrator-nominee/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-17329",
                                     "title": "NASA WORKING TOWARD APRIL 1 LAUNCH OF ARTEMIS 2",
                                     "description": "<br><strong>STATUS:</strong> NASA is pushing ahead with the Artemis 2 launch as soon as April 1 after completing repairs to a helium line and other systems.\n\n<br><strong>INTEL:</strong> The rocket was rolled back from the pad due to a dislodged seal in a quick-disconnect helium line, caused by high-pressure gas, which was subsequently removed and replaced with a reinforced, qualified seal. NASA officials expressed high confidence in newly replaced liquid hydrogen and oxygen line seals, which had leaked in earlier tests, and therefore opted against another wet dress rehearsal before the planned March 19 rollout to Launch Complex 39B for launch opportunities between April 1 and April 6.",
@@ -1723,38 +1755,6 @@ const signalTree = {
                                     "title": "GENERAL GALACTIC AIMS TO BECOME \u201cTHE GALAXY\u2019S ENERGY AND LOGISTICS COMPANY\u201d",
                                     "description": "<br><strong>STATUS:</strong> Southern California startup General Galactic will launch a 500-kilogram satellite in October on SpaceX Transporter-18 to demonstrate its novel multimode chemical and electric water-based propulsion system.\n\n<br><br><strong>INTEL:</strong> The Genesis platform, which uses water electrolysis to power both quick-maneuver chemical engines and long-duration Hall thrusters, aims to provide unparalleled satellite agility for commercial, civil, and military applications, including capabilities like \"sustained maneuver\" and \"rapid maneuverability\" sought by the Space Force. This initial demonstration is a foundational step towards General Galactic's broader vision of becoming a major space logistics and energy provider by eventually deploying propellant factories on the moon and Mars, utilizing the same scalable water electrolysis technology to enable extensive refueling operations beyond Earth.",
                                     "source_url": "https://spacenews.com/general-galactic-aims-to-become-the-galaxys-energy-logistics-company/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-94140",
-                                    "title": "INFINITE ORBITS ACQUIRES UK STARTUP LUNASA TO EXPAND SATELLITE SERVICING CAPABILITIES",
-                                    "description": "<br><strong>STATUS:</strong> In-orbit services provider Infinite Orbits has acquired London-based Lunasa, marking a strategic expansion into the United Kingdom and strengthening its spacecraft rendezvous and life extension capabilities.<br><br><strong>INTEL:</strong> This acquisition strengthens Infinite Orbits' technological foundation by combining its GEO-focused satellite life extension (Endurance service) with Lunasa's LEO rendezvous expertise, laboratories, and simulation capabilities, positioning the company as a leading non-US provider in the sector. Strategically, it expands Infinite Orbits' commercial footprint across Europe, enhances its ability to enter national defense markets by localizing expertise in the UK, and capitalizes on the UK government's increasing support for in-orbit servicing technologies.",
-                                    "source_url": "https://spacenews.com/infinite-orbits-acquires-uk-startup-lunasa-to-expand-satellite-servicing-capabilities/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-56950",
-                                    "title": "TEXAS AS A STRATEGIC SPACE HUB",
-                                    "description": "<br><strong>STATUS:</strong> The latest episode of Space Minds features a panel moderated by Jeff Foust at AIAA AscendxTexas, discussing Texas's role and competitive strategies within the global space economy.<br><br><strong>INTEL:</strong> Space Minds is a new weekly audio and video podcast from SpaceNews, released every Thursday, that focuses on inspiring leaders, technologies, and opportunities in the space sector through interviews with scientists, founders, and experts. This episode's specific focus on regional economic contributions and strategic discussions among industry leaders highlights SpaceNews's effort to provide timely insights into the accelerating demand and global competition shaping the space industry.",
-                                    "source_url": "https://spacenews.com/texas-as-a-strategic-space-hub/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-2550",
-                                    "title": "UNLOCKING AI IN SPACE: THE CASE FOR GREATER INDUSTRY AND SPACE AGENCY COLLABORATION",
-                                    "description": "<br><strong>STATUS:</strong> AI is poised to transform space exploration, but significant engineering hurdles require intense collaboration between hardware developers and space agencies to create resilient, space-rated solutions.\n\n<br><strong>INTEL:</strong> Making AI-powered space exploration a reality demands hardware engineered for extreme longevity, fault tolerance, and radiation hardening, vastly different from commercial AI chips. This necessitates deep public-private partnerships, where AI innovators co-design and validate specialized silicon with space agencies like ESA, leveraging their expertise to ensure robust, autonomous operations critical for national strategic interests in space.",
-                                    "source_url": "https://spacenews.com/unlocking-ai-in-space-the-case-for-greater-industry-and-space-agency-collaboration/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-87271",
-                                    "title": "UK ANNOUNCES \u00a3500 MILLION PACKAGE FOR INDUSTRIAL GROWTH AND NATIONAL SECURITY",
-                                    "description": "<br><strong>STATUS:</strong> The United Kingdom has announced a new \u00a3500 million space funding package, reprioritizing its investment towards areas of economic growth and national security within the space sector, alongside a departmental restructuring.\n\n<br><strong>INTEL:</strong> This strategic shift, driven by a need for sustainable spending, will concentrate efforts on satellite communications, assured access to space, in-orbit servicing, assembly and manufacturing, and space domain awareness. It follows previous policy signals like reduced ESA commitments and the cancellation of pure science projects, while also addressing setbacks in the domestic launch sector by focusing on Scottish spaceports, all coinciding with the UK Space Agency's integration into the Department for Science, Innovation and Technology.",
-                                    "source_url": "https://spacenews.com/uk-announces-500-million-package-for-industrial-growth-and-national-security/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "SPACE_NEWS"
                                 }
