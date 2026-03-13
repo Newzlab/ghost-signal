@@ -1764,6 +1764,62 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-23610",
+                                    "title": "AGENDA DIARIA DE LA MISI\u00d3N A LA LUNA DE ARTEMIS\u00a0II DE LA NASA",
+                                    "description": "<br><strong>STATUS:</strong> Artemis II is a nearly 10-day crewed test flight around the Moon and back, focusing on extensive system checks and critical operational demonstrations of the Orion spacecraft.\n\n<br><strong>INTEL:</strong> The initial phases of Artemis II involve critical post-launch orbital maneuvers, where the Interim Cryogenic Propulsion Stage (ICPS) first elevates Orion's orbit and then acts as a simulated docking target for proximity operations, a vital demonstration for future rendezvous missions. Concurrently, the crew conducts exhaustive validations of Orion's life support, communication, and habitation systems while in high Earth orbit, gathering essential data before the Trans-Lunar Injection (TLI) maneuver.",
+                                    "source_url": "https://www.nasa.gov/es/agenda-diaria-de-la-mision-a-la-luna-de-artemis-ii-de-la-nasa/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-59625",
+                                    "title": "NASA\u2019S ARTEMIS II MOON MISSION DAILY AGENDA",
+                                    "description": "<br><strong>STATUS:</strong> The Artemis II mission is a 10-day crewed test flight to orbit the Moon and return, verifying the Orion spacecraft's systems and critical maneuvers.\n\n<br><strong>INTEL:</strong> Astronauts will conduct extensive system checkouts, including life support and habitability tests, and perform a proximity operations demonstration using the ICPS as a temporary docking target before its controlled disposal. The flight also involves precise orbital maneuvers, culminating in the Translunar Injection (TLI) burn on Flight Day 2, which will place Orion on a free-return trajectory around the Moon, ensuring its path back to Earth on Flight Day 10.",
+                                    "source_url": "https://www.nasa.gov/missions/artemis/nasas-artemis-ii-moon-mission-daily-agenda/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-91397",
+                                    "title": "GVIS VIRTUAL SYSTEMS SIMULATIONS",
+                                    "description": "<br><strong>STATUS:</strong> NASA's Graphics and Visualization Lab (GVIS) develops immersive virtual simulations and visualizations to translate complex scientific and engineering concepts into understandable experiences.<br><br><strong>INTEL:</strong> These simulations, utilizing augmented and virtual reality, reduce risk, accelerate decision-making, and validate performance for internal NASA projects like the High-Efficiency Megawatt Motor (HEMM) and the GRX-810 super-alloy, often years before completion; they also serve public outreach by making intricate scientific processes accessible to thousands, as demonstrated by the interactive fuel cell model for the Great Lakes Science Center.",
+                                    "source_url": "https://www.nasa.gov/centers-and-facilities/glenn/gvis-virtual-systems-simulations/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-83900",
+                                    "title": "GVIS CONCEPTUAL VISUAL DESIGNS",
+                                    "description": "<br><strong>STATUS:</strong> The NASA GVIS Lab creates advanced conceptual visualizations and simulations essential for the development, communication, and public understanding of various NASA missions and technological innovations.<br><br><strong>INTEL:</strong> The GVIS Lab's visualizations are critical technical and strategic tools, providing immersive insights into complex projects like the HyTEC turbofan engine and the SUSAN Electrofan aircraft, alongside futuristic space missions such as the Lunar Gateway Power & Propulsion Element and a Titan submarine. These visual aids, often utilizing augmented reality, are instrumental in fostering technical understanding, communicating mission objectives to diverse audiences, and accelerating development by making advanced concepts and otherwise hidden elements tangible for engineers and the public alike.",
+                                    "source_url": "https://www.nasa.gov/centers-and-facilities/glenn/gvis-conceptual-visual-designs/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-82575",
+                                    "title": "GVIS SCIENTIFIC VISUALIZATIONS",
+                                    "description": "<br><strong>STATUS:</strong> NASA's Graphics and Visualization Lab (GVIS) at Glenn Research Center produces advanced immersive scientific visualizations and simulations to support NASA missions, projects, and future innovations.<br><br><strong>INTEL:</strong> GVIS visualizations are critical tools, aiding in the development and understanding of complex systems such as Zero Boil-Off Tanks (ZBOT) for cryogenic propellants and High-Efficiency Megawatt Motors (HEMM) for electrified aircraft, significantly reducing R&D time and expense. Many of these visualizations are integrated into the GRUVE Lab's fully immersive CAVE virtual reality environment, providing engineers and researchers with a deeper, interactive understanding of challenging scientific and mechanical systems.",
+                                    "source_url": "https://www.nasa.gov/centers-and-facilities/glenn/gvis-scientific-visualizations/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-6094",
+                                    "title": "GVIS TEST FACILITIES VISUALIZATIONS",
+                                    "description": "<br><strong>STATUS:</strong> NASA's GVIS Lab is actively developing immersive visualization and simulation technologies for its test facilities and operations.<br><br><strong>INTEL:</strong> NASA's Graphics and Visualization Lab (GVIS) at Glenn Research Center utilizes virtual reality (VR), extended reality (XR), and 3D printing to create detailed, to-scale digital and physical models of critical test facilities such as the High Speed Multistage Compressor Facility (W-7), NASA Electric Aircraft Testbed (NEAT), Aero-Acoustic Propulsion Laboratory (AAPL), and the Adaptive Icing Tunnel (AIT). These advanced tools enable remote exploration, reduce travel costs, facilitate understanding of complex facilities before and during construction, and provide unique interactive test demonstrations that would otherwise be impossible to experience in person, significantly enhancing research, collaboration, and public engagement.",
+                                    "source_url": "https://www.nasa.gov/centers-and-facilities/glenn/gvis-test-facilities-visualizations/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-95655",
+                                    "title": "ASTRONAUTS\u2019 PERSPECTIVES ON NESC CONTRIBUTIONS TO MISSION SAFETY AND SUCCESS",
+                                    "description": "<br><strong>STATUS:</strong> NASA's NESC (NASA Engineering and Safety Center), established after the Space Shuttle Columbia accident, operates to enhance astronaut safety by providing independent technical assessments and leveraging the Chief Astronaut liaison role.<br><br><strong>INTEL:</strong> The NESC functions as an independent technical authority, integrating astronaut operational insights via the Chief Astronaut to proactively identify and mitigate risks in space missions, from reviewing pre-breathe protocols to devising contingency return plans like using Soyuz for STS-135 and evaluating the safety of new commercial crew vehicles such as SpaceX Crew Dragon.",
+                                    "source_url": "https://www.nasa.gov/general/astronauts-perspectives-on-nesc-contributions-to-mission-safety-and-success/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-33412",
                                     "title": "ERUPTION AT MAYON",
                                     "description": "<br><strong>STATUS:</strong> Mayon Volcano in the Philippines is experiencing an ongoing eruption that began in January 2026, involving lava flows, pyroclastic flows, and significant sulfur dioxide emissions, prompting evacuations of nearby communities.\n\n<br><strong>INTEL:</strong> The eruption of Mayon, the most active volcano in the Philippines, escalated to Alert Level 3 on January 6, 2026, due to active lava and pyroclastic flows. PHIVOLCS reported record-high sulfur dioxide emissions, peaking at 7,633 metric tons on March 6, 2026, the highest in 15 years, along with numerous rockfalls and pyroclastic flows extending up to 4 kilometers. A 6-kilometer evacuation radius has displaced hundreds of families from communities like Tabaco City, Malilpot, and Camalig, underscoring the severe risks associated with Mayon's historically destructive eruptions.",
@@ -2104,62 +2160,6 @@ const signalTree = {
                                     "title": "NASA\u2019S DART MISSION CHANGED ORBIT OF ASTEROID DIDYMOS AROUND SUN",
                                     "description": "<br><strong>STATUS:</strong> NASA's DART mission measurably altered the combined orbit of the Didymos-Dimorphos binary asteroid system around the Sun, marking the first time a human-made object has achieved such a feat.\n\n<br><strong>INTEL:</strong> This unprecedented orbital shift, caused by the impact's ejected debris creating a momentum enhancement factor of two, validated kinetic impact as a viable planetary defense technique. The minute change of 0.15 seconds in the 770-day solar orbital period underscores the potential for spacecraft to deflect hazardous asteroids if detected far enough in advance, prompting NASA's development of the NEO Surveyor mission to identify such threats.",
                                     "source_url": "https://www.nasa.gov/missions/dart/nasas-dart-mission-changed-orbit-of-asteroid-didymos-around-sun/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-46272",
-                                    "title": "TRACK NASA\u2019S ARTEMIS II MISSION IN REAL TIME",
-                                    "description": "<br><strong>STATUS:</strong> NASA is offering the public real-time tracking of the Artemis II crewed mission around the Moon via the Artemis Real-time Orbit Website (AROW) and a mobile application.<br><br><strong>INTEL:</strong> AROW will provide continuous data from Orion's sensors, including its position relative to Earth and the Moon, mission duration, and key milestones, starting one minute after liftoff until atmospheric reentry. The mobile app adds an augmented reality tracker, while advanced users can access state vectors and downloadable ephemeris data to create custom tracking applications or visualizations, highlighting Artemis II's critical role in establishing a long-term lunar presence and paving the way for future Mars missions.",
-                                    "source_url": "https://www.nasa.gov/missions/artemis/artemis-2/track-nasas-artemis-ii-mission-in-real-time/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-15082",
-                                    "title": "ABOUT TRANSFORMATIVE AERONAUTICS CONCEPTS PROGRAM (TACP)",
-                                    "description": "<br><strong>STATUS:</strong> The intercepted text outlines a strategic initiative focused on accelerating revolutionary advancements and maintaining U.S. global leadership in aviation.<br><br><strong>INTEL:</strong> This initiative, which involves elements like Transformational Tools and Technologies (TTT) and a collaborative ecosystem fostered by TACP, prioritizes next-generation engineering, digital tools, partnerships among NASA, academia, industry, and government, and robust workforce development to drive breakthroughs and secure future aeronautics expertise.",
-                                    "source_url": "https://www.nasa.gov/directorates/armd/tacp/about-tacp/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-3307",
-                                    "title": "WEEKENDS ON THE SPACE STATION",
-                                    "description": "<br><strong>STATUS:</strong> NASA astronauts Jessica Meir and Jack Hathaway are depicted in a March 1, 2026 image showing a haircut on the International Space Station.<br><br><strong>INTEL:</strong> The haircut, performed by Jessica Meir, utilizes a specialized electric razor with an integrated vacuum system designed to collect loose clippings and maintain the clean atmosphere critical in microgravity environments; this activity is identified as a routine weekend housekeeping task for crew on the International Space Station.",
-                                    "source_url": "https://www.nasa.gov/image-article/weekends-on-the-space-station/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-54547",
-                                    "title": "NASA TO COVER NORTHROP GRUMMAN CARGO SPACECRAFT DEPARTURE",
-                                    "description": "<br><strong>STATUS:</strong> Northrop Grumman\u2019s Cygnus XL spacecraft is scheduled to undock from the International Space Station on March 12 after delivering over 11,000 pounds of cargo.\n\n<br><strong>INTEL:</strong> This mission represents the first flight of the larger, more cargo-capable Cygnus XL, which launched in September 2025 aboard a SpaceX Falcon 9 rocket and will deorbit on March 14 to dispose of several thousand pounds of trash.",
-                                    "source_url": "https://www.nasa.gov/news-release/nasa-to-cover-northrop-grumman-cargo-spacecraft-departure/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-11617",
-                                    "title": "AILING \u201cMEGABERG\u201d SPARKS SURGE OF MICROSCOPIC LIFE",
-                                    "description": "<br><strong>STATUS:</strong> The disintegration of Iceberg A-23A in January 2026 fueled a massive phytoplankton bloom in the South Atlantic Ocean.<br><br><strong>INTEL:</strong> The \"megaberg's\" meltwater released crucial nutrients like iron, manganese, nitrates, and phosphates, which are typically scarce in this region, and created stable surface layers conducive to phytoplankton growth. Satellite imagery from NASA's VIIRS, OCI, and OLI instruments confirmed the direct link between the iceberg's breakup and the extensive bloom. These phytoplankton blooms are critical as they form the base of the marine food web, produce up to half of Earth's oxygen, and play a significant role in the ocean\u2019s \"biological carbon pump\" by transferring atmospheric carbon dioxide to the deep ocean.",
-                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/ailing-megaberg-sparks-surge-of-microscopic-life/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-37127",
-                                    "title": "ABOUT AIRSPACE OPERATIONS AND SAFETY PROGRAM (AOSP)",
-                                    "description": "<br><strong>STATUS:</strong> The Airspace Operations and Safety Program (AOSP) is actively transforming the U.S. National Airspace System to integrate Advanced Air Mobility and next-generation aviation technologies while ensuring safety and global competitiveness.<br><br><strong>INTEL:</strong> AOSP's mission involves strategic partnerships with the FAA, industry, academia, and other government agencies to facilitate the seamless integration of emerging technologies and new entrants into the National Airspace System. This proactive approach aims to manage the increasing variety, density, and complexity of future airspace users, championing a future where advanced air mobility, automation, and safety converge to maintain U.S. leadership in aviation innovation.",
-                                    "source_url": "https://www.nasa.gov/directorates/armd/aosp/about-aosp/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-82438",
-                                    "title": "ABOUT AIR TRAFFIC MANAGEMENT AND SAFETY PROJECT",
-                                    "description": "<br><strong>STATUS:</strong> The Air Traffic Management and Safety (ATMS) project is modernizing global air traffic management by transitioning from tactical to strategic operations, safely integrating new air vehicles, and leveraging advanced automation.<br><br><strong>INTEL:</strong> ATMS provides crucial solutions for the increasingly complex National Airspace System, moving from reactive decision-making to proactive management of traffic flows and trajectories. By researching automation, it aims to reduce human workload, mitigate hazards, and enable advanced air mobility, while addressing critical gaps in hazard perception, ATC integration, and flight procedures that currently limit autonomous operations. The project focuses on defining explicit safety objectives and assurance processes, ensuring scalable adoption of automation, and ultimately enhancing system resilience, reducing costs, and maintaining global leadership in aviation safety and efficiency.",
-                                    "source_url": "https://www.nasa.gov/directorates/armd/aosp/atms/about-atms/",
                                     "timestamp": "2026.03.06",
                                     "feed_name": "NASA_BREAKING"
                                 }
