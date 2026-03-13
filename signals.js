@@ -534,6 +534,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-44494",
+                                    "title": "LEBANESE GOVERNMENT TRIES TO AVOID INTERNAL STRIFE AMID ISRAELI BOMBARDMENT",
+                                    "description": "<br><strong>STATUS:</strong> The Lebanese Cabinet has banned Hezbollah's military activities and demanded it surrender weapons amidst renewed conflict with Israel following the killing of Iran's Supreme Leader.\n\n<br><strong>INTEL:</strong> Enforcement of the unprecedented ban is proving exceptionally difficult, as Hezbollah, having lost its \"deterrence balance,\" feels compelled to continue fighting while the Lebanese army faces significant obstacles including ongoing Israeli bombardment, potential internal divisions, and Hezbollah's entrenched power. Analysts suggest forceful disarmament is \"virtually impossible\" without sparking major internal conflict, further complicated by mounting Israeli and U.S. pressure and the government's struggle to contain regional escalation.",
+                                    "source_url": "https://www.defensenews.com/global/mideast-africa/2026/03/13/lebanese-government-tries-to-avoid-internal-strife-amid-israeli-bombardment/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-50058",
                                     "title": "SIX US SERVICE MEMBERS KILLED IN KC-135 CRASH IN IRAQ",
                                     "description": "<br><strong>STATUS:</strong> Six U.S. airmen were killed when a U.S. Air Force KC-135 refueling aircraft crashed in western Iraq during Operation Epic Fury, with officials confirming it was not due to hostile or friendly fire.\n\n<br><strong>INTEL:</strong> This incident marks the fourth manned U.S. aircraft lost and contributes to the total of 13 U.S. service members killed during the opening two weeks of Operation Epic Fury against Iran. The KC-135 was on a combat mission providing aerial refueling when it went down on March 12, and while a second aircraft involved landed safely, the specific circumstances of the crash are currently under investigation.",
@@ -922,14 +930,6 @@ const signalTree = {
                                     "title": "NORAD INTERCEPTS 2 RUSSIAN MARITIME PATROL AIRCRAFT NEAR ALASKA, CANADA",
                                     "description": "<br><strong>STATUS:</strong> NORAD detected and intercepted two Russian Tu-142 maritime patrol aircraft operating within the Alaskan and Canadian Air Defense Identification Zones, which remained in international airspace and were not considered a threat.<br><br><strong>INTEL:</strong> This event represents routine Russian military activity in international airspace adjacent to North America, consistent with a similar interception last month. NORAD's rapid deployment of U.S. and Canadian fighter jets, supported by tankers and AWACS, demonstrates its continuous capability to identify and monitor aircraft in the ADIZ, which extends into international airspace for national security.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/05/norad-intercepts-2-russian-maritime-patrol-aircraft-near-alaska-canada/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-81808",
-                                    "title": "US AND MIDEAST COUNTRIES SEEK KYIV\u2019S DRONE EXPERTISE AS RUSSIA-UKRAINE TALKS PUT ON ICE",
-                                    "description": "<br><strong>STATUS:</strong> The United States and its Middle Eastern allies are actively seeking Ukraine's proven expertise and low-cost drone defense technology to counter Iran's Shahed drones.\n\n<br><strong>INTEL:</strong> Ukraine has developed inexpensive, battle-tested drone interceptors and countermeasures against the Shahed drones, honed during extensive use by Russia, which it is willing to export to bolster its diplomatic efforts against the Russian invasion. This effort highlights the interconnectedness of global conflicts, with Ukraine linking Russia and Iran as allies where Iran supplies weaponry while Russia assists its defense industry, underscoring a strategic shift in international air defense.",
-                                    "source_url": "https://www.defensenews.com/industry/techwatch/2026/03/05/us-and-mideast-countries-seek-kyivs-drone-expertise-as-russia-ukraine-talks-put-on-ice/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1359,6 +1359,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-26351",
+                                    "title": "UKRAINE WILL HOST FIRST TEST FOR LEONARDO\u2019S MICHELANGELO SECURITY DOME",
+                                    "description": "<br><strong>STATUS:</strong> Leonardo announced that its Michelangelo \u201csecurity dome\u201d architecture will undergo its first field test in Ukraine by the end of 2026.\n\n<br><strong>INTEL:</strong> Michelangelo is an integrated, multi-domain security architecture designed for identifying and tracking threats across air, land, sea, and space, incorporating Leonardo\u2019s proprietary 20-satellite Space Guardian constellation set to be operational by 2029. This initiative is emerging amid a fragmented European push for enhanced air and missile defense capabilities, with Michelangelo aiming for an open architecture despite a lack of coordination with similar projects like Thales's SkyDefender and potential overlaps with broader industry consolidation efforts.",
+                                    "source_url": "https://spacenews.com/ukraine-will-host-first-test-for-leonardos-michelangelo-security-dome/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-75111",
+                                    "title": "EUTELSAT EXITS TWO RUSSIAN CAPACITY LEASES AFTER SATELLITE FAILURE",
+                                    "description": "<br><strong>STATUS:</strong> Eutelsat has terminated capacity leases on two Russian-owned Express-AT satellites, one due to an in-orbit failure and the other to be relocated, driven by Western sanctions and declining satellite TV demand.<br><br><strong>INTEL:</strong> The termination, which includes 19 transponders on the failed Express-AT1 and 8 on Express-AT2, allows Eutelsat to mitigate impacts from sanctions and avoid further exposure to the declining geostationary TV broadcast market. While expecting a minor revenue impact, Eutelsat anticipates virtually no effect on EBITDA, as avoided lease payments largely offset the lost income; this move also underscores Eutelsat's strategic shift towards low Earth orbit (LEO) broadband services, with OneWeb now accounting for 20% of its total revenue.",
+                                    "source_url": "https://spacenews.com/eutelsat-exits-two-russian-capacity-leases-after-satellite-failure/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-38009",
                                     "title": "KAZAKHSTAN MUST CHOOSE: BE EURASIA\u2019S TECH BROKER OR BECOME A PAWN IN THE NEW GLOBAL SPACE RACE",
                                     "description": "<br><strong>STATUS:</strong> Kazakhstan faces a critical strategic decision to either assert itself as an indispensable broker in the global space and deeptech economy or risk becoming a geopolitical pawn.\n\n<br><strong>INTEL:</strong> Leveraging its unique position, legacy space assets like Baikonur, and a strong record of global trust and non-proliferation, Kazakhstan can transition from a launch host to a system integrator by actively shaping standards and fostering multilateral cooperation in AI, robotics, and advanced materials. This strategic agency, rather than mere neutrality, is crucial for capturing durable value in the rapidly expanding $1.8 trillion space economy and securing stability amidst complex geopolitical dependencies.",
@@ -1741,28 +1757,60 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/nasa-deputy-administrator-nominee-sails-through-confirmation-hearing/",
                                     "timestamp": "2026.03.05",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-5297",
-                                    "title": "TERRAN ORBITAL APPOINTS KWON PARK AS SENIOR DIRECTOR OF MANUFACTURING OPERATIONS",
-                                    "description": "<br><strong>STATUS:</strong> Terran Orbital, a Lockheed Martin Company, has appointed Kwon Park as its new senior director of manufacturing operations.<br><br><strong>INTEL:</strong> Park brings over two decades of experience in high-precision aerospace and defense manufacturing, with a proven track record of scaling production from prototypes to full-rate, managing large-scale operations, and implementing Lean manufacturing and AS9100 quality systems. His appointment is crucial for Terran Orbital's strategic goal of accelerating higher-rate satellite production, improving manufacturing throughput, and increasing overall capacity to meet demand from its commercial, civil, and government clientele, including those involved in national security and deep-space exploration.",
-                                    "source_url": "https://spacenews.com/terran-orbital-appoints-kwon-park-as-senior-director-of-manufacturing-operations/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-62448",
-                                    "title": "GENERAL GALACTIC AIMS TO BECOME \u201cTHE GALAXY\u2019S ENERGY AND LOGISTICS COMPANY\u201d",
-                                    "description": "<br><strong>STATUS:</strong> Southern California startup General Galactic will launch a 500-kilogram satellite in October on SpaceX Transporter-18 to demonstrate its novel multimode chemical and electric water-based propulsion system.\n\n<br><br><strong>INTEL:</strong> The Genesis platform, which uses water electrolysis to power both quick-maneuver chemical engines and long-duration Hall thrusters, aims to provide unparalleled satellite agility for commercial, civil, and military applications, including capabilities like \"sustained maneuver\" and \"rapid maneuverability\" sought by the Space Force. This initial demonstration is a foundational step towards General Galactic's broader vision of becoming a major space logistics and energy provider by eventually deploying propellant factories on the moon and Mars, utilizing the same scalable water electrolysis technology to enable extensive refueling operations beyond Earth.",
-                                    "source_url": "https://spacenews.com/general-galactic-aims-to-become-the-galaxys-energy-logistics-company/",
-                                    "timestamp": "2026.03.05",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-10524",
+                                    "title": "NASA ARMSTRONG TO HOST PARTNERSHIP DAYS APRIL 15-16",
+                                    "description": "<br><strong>STATUS:</strong> NASA's Armstrong Flight Research Center is hosting \"Partnership Days\" in April 2026 to engage external organizations in collaborative research and development.\n\n<br><strong>INTEL:</strong> This initiative aims to accelerate innovation in aerospace, autonomy, and sustainability by inviting companies and government agencies to explore R&D partnerships with NASA experts and leverage Armstrong's capabilities. The event emphasizes strategic collaborations for transformative technologies, requiring RSVP by March 25, 2026.",
+                                    "source_url": "https://www.nasa.gov/news-release/nasa-armstrong-to-host-partnership-days-april-15-16/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-40027",
+                                    "title": "USBR CRACK THE CASE CHALLENGE",
+                                    "description": "<br><strong>STATUS:</strong> NASA is launching a three-phase crowdsourcing challenge to develop novel methods for detecting subsurface cracks in embankment dams.\n\n<br><br><strong>INTEL:</strong> The NASA Tournament Lab, operating under CoECI, is facilitating this government-wide initiative, inviting a broad range of experts including AI/ML practitioners to move from concept to real-world demonstration of crack detection solutions. This structured challenge, with increasing technical rigor across its phases, aims to produce implementable technologies for critical infrastructure, offering a total prize pool of $400,000 with the first submission deadline set for April 30th, 2026.",
+                                    "source_url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/usbr-crack-the-case-challenge/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-69462",
+                                    "title": "NASA VOLUNTEERS STUDY BIOFILM ADAPTABILITY IN SPACE",
+                                    "description": "<br><strong>STATUS:</strong> A new NASA-backed study, performed in part by volunteers, has reframed biofilms from potential infection risks to essential structures for human and plant health in space environments.<br><br><strong>INTEL:</strong> This research, conducted by the Microbes Analysis Working Group under Drs. Katherine Baxter and Nicholas Brereton, describes how biofilms adapt to deep space stressors and alter their architecture and host interactions. The findings suggest biofilms could be crucial for supporting human gut health, immunity, and plant nutrient uptake during spaceflight, a significant shift in understanding their role beyond potential contamination, with implications for long-duration human space exploration.",
+                                    "source_url": "https://science.nasa.gov/get-involved/citizen-science/nasa-volunteers-study-biofilm-adaptability-in-space/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-52403",
+                                    "title": "USBR HALT THE HITCHHIKER: INVASIVE SPECIES CHALLENGE",
+                                    "description": "<br><strong>STATUS:</strong> The Bureau of Reclamation is sponsoring a $550,000 prize challenge to find innovative solutions to prevent aquatic invasive species from being transported in watercraft ballast compartments.<br><br><strong>INTEL:</strong> This multi-phase challenge, managed by yet2 and leveraging NASA's CoECI crowdsourcing capabilities, seeks novel approaches to kill, exclude, or inactivate AIS such as quagga, zebra, and golden mussels. The strategic goal is to protect Reclamation's crucial water delivery and hydropower infrastructure from these invasive threats.",
+                                    "source_url": "https://www.nasa.gov/directorates/stmd/prizes-challenges-crowdsourcing-program/center-of-excellence-for-collaborative-innovation-coeci/usbr-halt-the-hitchhiker-invasive-species-challenge/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-98274",
+                                    "title": "GOOD MORNING, MOON",
+                                    "description": "<br><strong>STATUS:</strong> An image of an unnamed lunar crater, captured by NASA's LROC, has been designated the NASA Science Image of the Month for March 2026.<br><br><strong>INTEL:</strong> The image, taken on August 30, 2023, is part of the ongoing data collection by NASA's LRO mission, which focuses on 3D lunar mapping, identifying future landing sites and resources like polar ice, investigating the radiation environment, and proving new technologies for future robotic and human exploration. The credit to \"Intuitive Machines\" alongside NASA's Goddard Space Flight Center for this featured image suggests potential commercial contributions or collaborations in lunar data processing and public engagement efforts, despite LRO being a long-standing NASA mission.",
+                                    "source_url": "https://www.nasa.gov/image-article/good-morning-moon/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-36037",
+                                    "title": "ARTIFACTS FROM NASA\u2019S WEBB, PARKER SOLAR PROBE ON VIEW AT SMITHSONIAN",
+                                    "description": "<br><strong>STATUS:</strong> A testing replica of the James Webb Space Telescope's Optical Telescope Element (OTE) Pathfinder and a full-scale model of the Parker Solar Probe are now on permanent display at the Smithsonian\u2019s Udvar-Hazy Center.<br><br><strong>INTEL:</strong> The Webb OTE Pathfinder, a nearly identical high-fidelity test structure over 21 feet tall, was critical for engineers to test the largest and most complex space telescope ever built under extreme conditions. The Parker Solar Probe replica, built with several actual flight spare parts including its heat shield and cooling system, demonstrates the innovative technology enabling the real probe to survive and gather unprecedented data while flying closer to the Sun than any other spacecraft, informing our understanding of space weather.",
+                                    "source_url": "https://science.nasa.gov/missions/webb/artifacts-from-nasas-webb-parker-solar-probe-on-view-at-smithsonian/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-23610",
                                     "title": "AGENDA DIARIA DE LA MISI\u00d3N A LA LUNA DE ARTEMIS\u00a0II DE LA NASA",
@@ -2114,54 +2162,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/image-article/webb-studies-cranium-nebula/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-31918",
-                                    "title": "NASA ASTRONAUTS TO ANSWER QUESTIONS FROM STUDENTS IN NEW YORK",
-                                    "description": "<br><strong>STATUS:</strong> NASA astronauts Jack Hathaway and Chris Williams will answer prerecorded STEM questions from students in New York live from the International Space Station on March 11.\n\n<br><strong>INTEL:</strong> This Earth-to-space call, streamed live on the \"Learn With NASA\" YouTube channel and hosted by the Queens Borough Public Library, aims to deepen understanding of space exploration and inspire K-12 students towards STEM careers, highlighting the continuous research aboard the ISS and its role in supporting future deep space missions such as the Artemis program.",
-                                    "source_url": "https://www.nasa.gov/news-release/nasa-astronauts-to-answer-questions-from-students-in-new-york-3/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-38255",
-                                    "title": "LAKE COATEPEQUE",
-                                    "description": "<br><strong>STATUS:</strong> An astronaut aboard the International Space Station captured an image of El Salvador's Lake Coatepeque, detailing its volcanic origins, human development, and unique environmental characteristics as of February 10, 2026.<br><br><strong>INTEL:</strong> Lake Coatepeque fills an ancient caldera within the active Central American Volcanic Arc, located immediately next to the frequently erupting Santa Ana volcano, although Coatepeque itself has been dormant for millennia. Crucially, scientific reports from 2024 determined the lake's intermittent bright turquoise coloration is primarily caused by natural mineralization, offering key insight into its unique geological and chemical processes, observed through a high-resolution photograph taken by the Expedition 74 crew on the ISS.",
-                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/lake-coatepeque/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-1300",
-                                    "title": "FROM CABBAGES TO COUNTDOWNS: NASA MARKS 100 YEARS OF MODERN ROCKETRY",
-                                    "description": "<br><strong>STATUS:</strong> Dr. Robert Goddard successfully launched the world's first liquid-fueled rocket, \"Nell,\" 100 years ago in Massachusetts, marking a foundational moment in modern rocketry.\n\n<br><strong>INTEL:</strong> On March 16, 1926, Goddard's experimental rocket, fueled by gasoline and liquid oxygen, achieved a flight of 41 feet, demonstrating the viability of liquid propulsion despite initial scientific skepticism and public ridicule. This pioneering achievement proved crucial for future space exploration, establishing the core technology that underpins all subsequent major space launch systems, including NASA's SLS rocket for the upcoming Artemis II mission.",
-                                    "source_url": "https://www.nasa.gov/centers-and-facilities/goddard/from-cabbages-to-craters-nasa-marks-one-century-of-modern-rocketry/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-97524",
-                                    "title": "ARMD RESEARCH SOLICITATIONS (UPDATED MARCH 6)",
-                                    "description": "<br><strong>STATUS:</strong> NASA is launching an initiative to establish Aerospace Skilled Technical Workforce Hubs (NAS_Hubs) and is currently seeking both proposals and peer reviewers for this program. <br><br><strong>INTEL:</strong> The NAS_Hub initiative, driven by NASA's Office of STEM Engagement, aims to address a critical national shortage of skilled technical workers\u2014those in science- and engineering-based roles not requiring a bachelor\u2019s degree\u2014vital for the rapidly expanding space economy and aerospace industry. These state or regionally focused hubs will align education, workforce, industry, and government partners to accelerate workforce readiness over a three-year period, with proposals due March 23, 2026, and peer reviewer responses due March 12, 2026, both managed via the NSPIRES system.",
-                                    "source_url": "https://www.nasa.gov/aeronautics/armd-solicitations/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-53469",
-                                    "title": "NASA INVITES MEDIA TO NORTHROP GRUMMAN CRS-24 STATION RESUPPLY LAUNCH",
-                                    "description": "<br><strong>STATUS:</strong> A Northrop Grumman Cygnus XL spacecraft will launch in April on a SpaceX Falcon 9 rocket to deliver NASA science investigations, supplies, and equipment to the International Space Station.<br><br><strong>INTEL:</strong> Targeted for April 8 from Cape Canaveral, the NASA\u2019s Northrop Grumman CRS-24 mission will carry advanced research payloads, including a new module for quantum science to improve computing and dark matter search, hardware for therapeutic stem cell production, and a receiver to enhance space weather models, significantly contributing to scientific breakthroughs and the ISS's role as a testbed for future deep space exploration.",
-                                    "source_url": "https://www.nasa.gov/news-release/nasa-invites-media-to-northrop-grumman-crs-24-station-resupply-launch/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-36087",
-                                    "title": "NASA\u2019S DART MISSION CHANGED ORBIT OF ASTEROID DIDYMOS AROUND SUN",
-                                    "description": "<br><strong>STATUS:</strong> NASA's DART mission measurably altered the combined orbit of the Didymos-Dimorphos binary asteroid system around the Sun, marking the first time a human-made object has achieved such a feat.\n\n<br><strong>INTEL:</strong> This unprecedented orbital shift, caused by the impact's ejected debris creating a momentum enhancement factor of two, validated kinetic impact as a viable planetary defense technique. The minute change of 0.15 seconds in the 770-day solar orbital period underscores the potential for spacecraft to deflect hazardous asteroids if detected far enough in advance, prompting NASA's development of the NEO Surveyor mission to identify such threats.",
-                                    "source_url": "https://www.nasa.gov/missions/dart/nasas-dart-mission-changed-orbit-of-asteroid-didymos-around-sun/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2178,6 +2178,22 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-75803",
+                                    "title": "POLAND'S NUCLEAR RESEARCH CENTRE TARGETED BY CYBERATTACK",
+                                    "description": "<br><strong>STATUS:</strong> Hackers targeted Poland's National Centre for Nuclear Research (NCBJ), but the attack was successfully detected and blocked without compromising systems or impacting the MARIA nuclear reactor's operations.<br><br><strong>INTEL:</strong> The NCBJ, which supports Poland's nuclear power program and operates the research-only MARIA reactor, believes initial indicators suggest Iranian involvement, though false flags are a concern. This incident occurs amidst heightened cyber threat activity against Polish infrastructure, including a recent attack on its power grid attributed to Russia's APT44, highlighting the nation's vulnerability to state-sponsored cyber adversaries despite its stated non-involvement in Middle East conflicts.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/polands-nuclear-research-centre-targeted-by-cyberattack/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-9782",
+                                    "title": "MICROSOFT INVESTIGATES CLASSIC OUTLOOK SYNC AND CONNECTION ISSUES",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft is actively investigating multiple critical bugs affecting the classic Outlook desktop client, impacting email synchronization, group creation, and user interface stability.<br><br><strong>INTEL:</strong> The issues include \"Can't connect to the server\" errors during group creation due to a failing AD Graph call, with a REST API update pending and a workaround to use new Outlook or OWA. Additionally, users are experiencing 0x800CCC0F and 0x80070057 errors when syncing Gmail and Yahoo accounts after password changes, temporarily resolved by deleting specific registry entries. A persistent bug causing the mouse pointer to disappear in classic Outlook and other M365 apps also requires user-reported diagnostic logs and temporary workarounds like clicking in message lists or restarting the computer.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-investigates-classic-outlook-sync-and-connection-issues/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-60148",
                                     "title": "FROM VMWARE TO WHAT\u2019S NEXT: PROTECTING DATA DURING HYPERVISOR MIGRATION",
@@ -2559,22 +2575,6 @@ const signalTree = {
                                     "title": "COGNIZANT TRIZETTO BREACH EXPOSES HEALTH DATA OF 3.4 MILLION PATIENTS",
                                     "description": "<br><strong>STATUS:</strong> TriZetto Provider Solutions, a Cognizant subsidiary, suffered a data breach exposing the sensitive information of over 3.4 million individuals from November 2024 to October 2025.<br><br><strong>INTEL:</strong> The breach involved unauthorized access to insurance eligibility verification transactions, which went undetected for nearly a year, leading to delayed customer notifications starting in February 2026. Although payment card or bank account information was not compromised, the incident underscores ongoing security vulnerabilities within critical healthcare IT infrastructure and raises concerns about Cognizant's repeated involvement in significant security incidents.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/cognizant-trizetto-breach-exposes-health-data-of-34-million-patients/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-82237",
-                                    "title": "CISA WARNS FEDS TO PATCH IOS FLAWS EXPLOITED IN CRYPTO-THEFT ATTACKS",
-                                    "description": "<br><strong>STATUS:</strong> CISA has mandated federal agencies to patch three iOS vulnerabilities actively exploited by the Coruna exploit kit in cyberespionage and crypto-theft attacks.<br><br><strong>INTEL:</strong> The Coruna exploit kit leverages multiple iOS vulnerabilities, many of them zero-days, to achieve WebKit remote code execution and kernel privileges through PAC, sandbox, and PPL bypasses. Google Threat Intelligence Group observed its use by surveillance vendors, suspected Russian state-backed actors, and financially motivated Chinese groups (UNC6691) for cryptocurrency theft, indicating the spread of sophisticated spyware-grade capabilities. CISA's directive (BOD 22-01) requires federal agencies to apply mitigations by March 26, and all organizations are urged to patch these critical flaws immediately to secure their devices.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-apple-flaws-exploited-in-spyware-crypto-theft-attacks/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-9876",
-                                    "title": "EC-COUNCIL EXPANDS AI CERTIFICATION PORTFOLIO TO STRENGTHEN U.S. AI WORKFORCE READINESS AND SECURITY",
-                                    "description": "<br><strong>STATUS:</strong> EC-Council has launched an Enterprise AI Credential Suite, including four new role-based AI certifications and an updated Certified CISO v4, to bridge the gap between AI adoption and workforce preparedness.\n\n<br><strong>INTEL:</strong> This significant portfolio expansion aims to counter the estimated $5.5 trillion global AI risk exposure and address the projected 700,000-person U.S. AI/cybersecurity reskilling gap, aligning with U.S. federal priorities to develop AI education pathways and build job-relevant skills, specifically addressing the urgent need to secure and govern AI systems as they move from pilot projects to core operations amidst rising AI-driven attacks.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/ec-council-expands-ai-certification-portfolio-to-strengthen-us-ai-workforce-readiness-and-security/",
                                     "timestamp": "2026.03.06",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
