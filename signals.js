@@ -542,6 +542,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-40787",
+                                    "title": "US BOMBS KEY IRANIAN ISLAND AMID OIL CONCERNS",
+                                    "description": "<br><strong>STATUS:</strong> President Trump announced the U.S. executed a massive bombing raid on military targets on Iran\u2019s Kharg Island in response to Iran's threats to block the Strait of Hormuz.<br><br><strong>INTEL:</strong> The strike deliberately spared oil infrastructure but warned of further action if Iran interferes with shipping, countering the newly appointed Supreme Leader\u2019s order to block the Strait; this Iranian strategy involves asymmetric naval warfare tactics, including thousands of naval mines, drones, and fast-attack boats, aimed at disrupting 20% of global oil and gas trade, which has already caused Brent crude prices to surge above $100.",
+                                    "source_url": "https://www.defensenews.com/flashpoints/2026/03/14/us-bombs-key-iranian-island-amid-oil-concerns/",
+                                    "timestamp": "2026.03.14",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-38161",
                                     "title": "PENTAGON REPORTEDLY SENDING MORE WARSHIPS AND MARINES TO MIDDLE EAST",
                                     "description": "<br><strong>STATUS:</strong> The U.S. is deploying the USS Tripoli Amphibious Ready Group and the 31st Marine Expeditionary Unit, totaling up to 5,000 personnel and multiple warships, to the Middle East to bolster ongoing operations against Iran.<br><br><strong>INTEL:</strong> This substantial reinforcement arrives as U.S. forces intensify attacks, having struck approximately 6,000 targets and eliminated over 90 Iranian vessels, with the initial six days of Operation Epic Fury costing an estimated $11.3 billion. The deployment proceeds despite previous low readiness rates for amphibious assault ships and follows a recent incident where a KC-135 crash killed six U.S. service members, raising total U.S. fatalities in the conflict to 13, with 140 wounded.",
@@ -930,14 +938,6 @@ const signalTree = {
                                     "title": "GULF ALLIES COMPLAIN US DID NOT PROVIDE NOTICE OF IRAN ATTACKS AND IGNORED WARNINGS, SOURCES SAY",
                                     "description": "<br><strong>STATUS:</strong> Gulf allies are expressing significant discontent with the Trump administration's handling of the war with Iran, citing a lack of warning and inadequate defense against retaliatory attacks.\n\n<br><strong>INTEL:</strong> Gulf nations were not given advance notice of the initial U.S.-Israeli strike on Iran, leading to accusations that the U.S. has prioritized defending Israel and American troops while leaving Gulf countries vulnerable to overwhelming barrages of Iranian drones and missiles, rapidly depleting their air defense stocks; Pentagon officials admit they are struggling to intercept these drone waves, leaving U.S. targets and personnel in the region exposed.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/06/gulf-allies-complain-us-did-not-provide-notice-of-iran-attacks-and-ignored-warnings-sources-say/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-54853",
-                                    "title": "IRAN CAN STILL FIRE DRONES AND MISSILES \u2014 EXPERTS WEIGH THE IMPLICATIONS ON THE WAR",
-                                    "description": "<br><strong>STATUS:</strong> Iran's extensive drone swarm tactics against Gulf states are prompting urgent calls for more cost-effective regional defense strategies to counter the financial strain of current interceptor systems and the threat of a prolonged conflict.\n\n<br><strong>INTEL:</strong> Iran has executed over 1,450 drone strikes, comprising three-quarters of its attacks, designed to saturate and overwhelm U.S. and Gulf-aligned air defenses across multiple states. While current high-cost interceptors like Patriot and THAAD achieve high kill rates, they are financially unsustainable, with defensive fire costing $20-28 for every dollar Iran spends on drones. Experts advocate for integrated, cheaper counter-drone layers, including electronic warfare, jammers, and directed energy, to reduce costs and maintain endurance, warning that a shift in Iranian targeting from military bases to critical infrastructure would signify a significant escalation.",
-                                    "source_url": "https://www.defensenews.com/global/mideast-africa/2026/03/06/iran-can-still-fire-drones-and-missiles-experts-weigh-the-implications-on-the-war/",
                                     "timestamp": "2026.03.06",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1367,6 +1367,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-54478",
+                                    "title": "IMETALX EMERGES FROM STEALTH WITH TECHNOLOGY TO MODEL RESIDENT SPACE OBJECTS",
+                                    "description": "<br><strong>STATUS:</strong> Northern California startup iMetalX Inc. emerged from stealth to announce a collaboration with Psionic, aiming to provide advanced space domain awareness and battle management capabilities for U.S. Space Force architectures.<br><br><strong>INTEL:</strong> This partnership combines Psionic\u2019s Space Navigation Dopper Lidar with iMetalX\u2019s Asgard data/simulation and Thor AI platforms to create accurate 3D models of resident space objects (RSOs) for high-speed, precise navigation in GPS-denied environments. The integrated technology is described as \"battle management software\" designed to enable operators to understand, decide, and act in space faster than evolving threats, with explicit intent to plug into U.S. Space Force and Space Development Agency architectures. iMetalX, funded by $6.2 million in military contracts, plans ground-based product use by 2026 and in-orbit testing on numerous missions starting in 2027 to support dynamic space operations and orbital warfare.",
+                                    "source_url": "https://spacenews.com/imetalx-emerges-from-stealth-with-technology-to-model-resident-space-objects/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-14554",
                                     "title": "ASTROSCALE SELECTS ISAR AEROSPACE TO LAUNCH ELSA-M MISSION",
                                     "description": "<br><strong>STATUS:</strong> Japanese satellite servicing company Astroscale has selected Isar Aerospace to launch its ELSA-M deorbiting mission in fiscal year 2028.<br><br><strong>INTEL:</strong> The ELSA-M spacecraft, developed by Astroscale UK with European Space Agency support, is designed to deorbit defunct OneWeb satellites, with its launch on a European rocket carrying strong strategic significance for Europe's independent space-development ambitions. This partnership comes despite Isar Aerospace's Spectrum rocket having only one prior launch attempt which malfunctioned, though the company expects \"several\" successful launches before the mission, highlighting the growing defense interest in satellite servicing capabilities.",
@@ -1757,20 +1765,28 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/rocket-lab-launches-satellite-for-undisclosed-customer/",
                                     "timestamp": "2026.03.06",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-76064",
-                                    "title": "CHINA DESIGNATES SPACE SECTOR AN \u201cEMERGING PILLAR INDUSTRY,\u201d SETS DEEP SPACE AMBITIONS IN NEW ECONOMIC BLUEPRINT",
-                                    "description": "<br><strong>STATUS:</strong> China has officially elevated aerospace to an \"emerging pillar industry\" in its draft 15th Five-year national economic plan, signaling significant state support and expansion for the sector.\n\n<br><strong>INTEL:</strong> This designation, announced at the National People\u2019s Congress, means Beijing will provide robust policy support, funding, and industrial development programs to integrate aerospace as foundational infrastructure across economic and strategic domains. The draft plan for 2026-2030 further outlines ambitious objectives including expanded deep space exploration, planetary defense, solar system edge missions, the development of reusable heavy-lift launch vehicles, establishment of an international lunar research station, and comprehensive advancement of satellite internet capabilities.",
-                                    "source_url": "https://spacenews.com/china-designates-space-sector-an-emerging-pillar-industry-sets-deep-space-ambitions-in-new-economic-blueprint/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-38188",
+                                    "title": "VOLUNTEERS FIND ODDLY HIGH SOLAR FLARE RATES",
+                                    "description": "<br><strong>STATUS:</strong> A new study leveraging citizen science data has significantly advanced understanding of long-lived solar active regions and their propensity for intense flares.<br><br><strong>INTEL:</strong> Analysis of data from NASA\u2019s Solar Active Region Spotter project revealed that active regions with magnetic fields persisting for at least a month produce disproportionately more flares and are 3-6 times more likely to be the source of the most intense kinds of solar flares. This finding is crucial for improving space weather prediction and offers critical insights into the Sun's deeper magnetic fields.",
+                                    "source_url": "https://science.nasa.gov/get-involved/citizen-science/volunteers-find-oddly-high-solar-flare-rates/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-63295",
+                                    "title": "EXTRA EXTRA! EXTRA DATA STREAM ADDED TO THE DAILY MINOR PLANET!",
+                                    "description": "<br><strong>STATUS:</strong> The Daily Minor Planet citizen science project is expanding its data sources to include images from the Bok 2.3-meter telescope at Kitt Peak National Observatory.\n\n<br><strong>INTEL:</strong> The new Bok telescope data offers deeper, fainter object detection and focuses on the ecliptic, significantly increasing the project's ability to discover and confirm main-belt asteroids and new near-Earth object candidates, leveraging human pattern recognition for the more challenging subjects.",
+                                    "source_url": "https://science.nasa.gov/get-involved/citizen-science/extra-extra-extra-data-stream-added-to-the-daily-minor-planet/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-89090",
                                     "title": "NASA\u00a0SELECTS\u00a0FINALISTS IN\u00a0STUDENT AIRCRAFT MAINTENANCE\u00a0COMPETITION",
@@ -2154,22 +2170,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/news-release/la-nasa-compartira-informacion-actualizada-sobre-la-evaluacion-de-aptitud-para-el-vuelo-de-artemis-ii/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-74559",
-                                    "title": "NASA TO SHARE ARTEMIS II FLIGHT READINESS REVIEW UPDATE",
-                                    "description": "<br><strong>STATUS:</strong> NASA will host a news conference on March 12 to provide updates on the Artemis II crewed mission after a Flight Readiness Review.\n\n<br><strong>INTEL:</strong> This briefing, taking place at Kennedy Space Center, will detail progress on the SLS rocket and Orion spacecraft, which are being prepared for a second rollout and potential April launch, advancing the Artemis program's goal of human lunar and eventual Mars exploration.",
-                                    "source_url": "https://www.nasa.gov/news-release/nasa-to-share-artemis-ii-flight-readiness-review-update/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-34818",
-                                    "title": "FLAMMABILITY TESTING CONFIGURATION AND APPROACH OF BARRIER MATERIALASSEMBLIES DESIGNED FOR SPACE FLIGHT APPLICATIONS",
-                                    "description": "<br><strong>STATUS:</strong> NASA's NESC and partner centers have developed a test to evaluate the effectiveness of material assemblies intended to serve as fire barriers within spacecraft cabins.<br><br><strong>INTEL:</strong> This testing directly addresses a critical safety requirement for human spaceflight by focusing on mitigating fire risks from typical flammable materials inside a spacecraft's habitable volume. The development of reliable barrier materials represents a strategic advancement in passive fire protection, aiming to prevent the spread of fire from an ignition source and significantly enhance crew safety and mission success by improving spacecraft design against potential in-cabin fires.",
-                                    "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/flammability-testing-configuration-and-approach-of-barrier-materialassemblies-designed-for-space-flight-applications/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2186,6 +2186,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-73221",
+                                    "title": "MICROSOFT: WINDOWS 11 USERS CAN'T ACCESS C: DRIVE ON SOME SAMSUNG PCS",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft is investigating a new issue where some Samsung laptops running Windows 11 lose access to their C:\\ drive and cannot launch applications after installing February 2026 security updates.<br><br><strong>INTEL:</strong> This problem, primarily affecting Samsung Galaxy Book 4 and other consumer devices in regions like Brazil and India, is suspected to be related to the Samsung Share application and impacts Windows 11 versions 25H2 and 24H2. While a user-reported workaround exists, it dangerously compromises system security by changing C:\\ drive ownership to \"Everyone,\" making it critical for users to await an official, secure fix from Microsoft.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-users-cant-access-c-drive-on-some-samsung-pcs/",
+                                    "timestamp": "2026.03.13",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-40825",
                                     "title": "FBI SEEKS VICTIMS OF STEAM GAMES USED TO SPREAD MALWARE",
@@ -2575,14 +2583,6 @@ const signalTree = {
                                     "title": "TERMITE RANSOMWARE BREACHES LINKED TO CLICKFIX CASTLERAT ATTACKS",
                                     "description": "<br><strong>STATUS:</strong> Ransomware threat actor Velvet Tempest used the ClickFix technique and legitimate Windows utilities to deploy DonutLoader malware and the CastleRAT backdoor in a recent observed attack.\n\n<br><strong>INTEL:</strong> Velvet Tempest, a notorious ransomware affiliate (DEV-0504) active for over five years and linked to strains like BlackCat and Conti, leveraged malvertising to trick victims into pasting obfuscated commands that initiated a multi-stage infection using legitimate tools like `finger.exe`, PowerShell, and `csc.exe` for payload delivery and persistence, ultimately staging DonutLoader and retrieving the CastleRAT backdoor, though their typical Termite ransomware was not deployed in this specific observed intrusion.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linked-to-clickfix-castlerat-attacks/",
-                                    "timestamp": "2026.03.07",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-35058",
-                                    "title": "MICROSOFT: HACKERS ABUSING AI AT EVERY STAGE OF CYBERATTACKS",
-                                    "description": "<br><strong>STATUS:</strong> Microsoft reports an increase in threat actors leveraging AI to accelerate, scale, and lower technical barriers in cyberattacks.<br><br><strong>INTEL:</strong> Threat actors, including North Korean groups Jasper Sleet and Coral Sleet, are utilizing generative AI for tasks such as drafting phishing emails, creating fake identities and resumes for remote IT worker schemes, generating malware code, summarizing stolen data, and developing malicious infrastructure. They employ jailbreaking techniques to bypass AI safeguards, and while current AI use primarily supports human decision-making, experimentation with autonomous agentic AI is also being observed. Microsoft advises treating AI-powered IT worker schemes as insider risks and recommends focusing on abnormal credential use and securing AI systems.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/microsoft-hackers-abusing-ai-at-every-stage-of-cyberattacks/",
                                     "timestamp": "2026.03.07",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
