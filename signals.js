@@ -2187,6 +2187,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-20304",
+                                    "title": "APPSFLYER WEB SDK HIJACKED TO SPREAD CRYPTO-STEALING JAVASCRIPT CODE",
+                                    "description": "<br><strong>STATUS:</strong> The AppsFlyer Web SDK was temporarily compromised via a supply-chain attack, injecting malicious code to steal cryptocurrency by replacing user-entered wallet addresses.<br><br><strong>INTEL:</strong> Active roughly between March 9-11, this attack leveraged AppsFlyer's broad integration across thousands of applications to covertly replace user-entered cryptocurrency wallet addresses (including Bitcoin, Ethereum, Solana, Ripple, and TRON) with attacker-controlled ones. AppsFlyer confirmed a \"domain registrar incident\" affecting only its Web SDK, not the mobile version, underscoring the critical supply-chain vulnerability inherent in widely deployed third-party SDKs and the need for organizations to review logs and investigate.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/appsflyer-web-sdk-used-to-spread-crypto-stealer-javascript-code/",
+                                    "timestamp": "2026.03.14",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-73221",
                                     "title": "MICROSOFT: WINDOWS 11 USERS CAN'T ACCESS C: DRIVE ON SOME SAMSUNG PCS",
                                     "description": "<br><strong>STATUS:</strong> Microsoft is investigating a new issue where some Samsung laptops running Windows 11 lose access to their C:\\ drive and cannot launch applications after installing February 2026 security updates.<br><br><strong>INTEL:</strong> This problem, primarily affecting Samsung Galaxy Book 4 and other consumer devices in regions like Brazil and India, is suspected to be related to the Samsung Share application and impacts Windows 11 versions 25H2 and 24H2. While a user-reported workaround exists, it dangerously compromises system security by changing C:\\ drive ownership to \"Everyone,\" making it critical for users to await an official, secure fix from Microsoft.",
@@ -2576,14 +2584,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Threat actors are exploiting the special-use .arpa domain and IPv6 reverse DNS to conduct phishing campaigns that more easily bypass domain reputation checks and email security gateways.<br><br><strong>INTEL:</strong> Attackers acquire IPv6 address blocks, then gain control of the associated reverse DNS zones, configuring A records to point to phishing infrastructure instead of standard PTR records. This method, often leveraging reputable DNS providers, allows phishing links embedded in email images to resolve to attacker-controlled sites via reverse IPv6 DNS records, effectively bypassing security measures; these campaigns often employ traffic distribution systems and short-lived links to evade detection and analysis.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-arpa-dns-and-ipv6-to-evade-phishing-defenses/",
                                     "timestamp": "2026.03.08",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-10845",
-                                    "title": "TERMITE RANSOMWARE BREACHES LINKED TO CLICKFIX CASTLERAT ATTACKS",
-                                    "description": "<br><strong>STATUS:</strong> Ransomware threat actor Velvet Tempest used the ClickFix technique and legitimate Windows utilities to deploy DonutLoader malware and the CastleRAT backdoor in a recent observed attack.\n\n<br><strong>INTEL:</strong> Velvet Tempest, a notorious ransomware affiliate (DEV-0504) active for over five years and linked to strains like BlackCat and Conti, leveraged malvertising to trick victims into pasting obfuscated commands that initiated a multi-stage infection using legitimate tools like `finger.exe`, PowerShell, and `csc.exe` for payload delivery and persistence, ultimately staging DonutLoader and retrieving the CastleRAT backdoor, though their typical Termite ransomware was not deployed in this specific observed intrusion.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/termite-ransomware-breaches-linked-to-clickfix-castlerat-attacks/",
-                                    "timestamp": "2026.03.07",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
