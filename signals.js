@@ -1367,6 +1367,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-82356",
+                                    "title": "OSTP TAKING ON SPACE POLICY COORDINATION WORK IN PLACE OF NATIONAL SPACE COUNCIL",
+                                    "description": "<br><strong>STATUS:</strong> The National Space Council has been formally revoked, transferring its lead role in coordinating national space policy to the White House Office of Science and Technology Policy (OSTP).<br><br><strong>INTEL:</strong> The OSTP's new, comprehensive mandate covers critical areas such as developing guidance for space nuclear power\u2014including a moon fission surface power system by 2030\u2014and coordinating new exploration plans and space transportation policy revisions. Concurrently, a separate August executive order drives commercial space policy reforms, including new launch licensing regulations, a mission authorization system for currently unregulated activities, and relocating the Office of Space Commerce to report directly to the Secretary of Commerce, enhancing its influence and engagement.",
+                                    "source_url": "https://spacenews.com/ostp-taking-on-space-policy-coordination-work-in-place-of-national-space-council/",
+                                    "timestamp": "2026.03.15",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-90780",
                                     "title": "STRAIT OF HORMUZ CRISIS DRIVES DEMAND FOR COMMERCIAL GEOSPATIAL INTELLIGENCE",
                                     "description": "<br><strong>STATUS:</strong> The conflict between the United States and Iran has transformed the Strait of Hormuz into a critical testing ground for commercial geospatial intelligence following the shutdown of commercial traffic.\n\n<br><strong>INTEL:</strong> The Strait, vital for global oil trade, now demands urgent real-time maritime awareness, driving the evolution of AI-powered OSINT platforms like Danti. These systems integrate diverse open data streams\u2014including satellite imagery, AIS, social media, and signals data\u2014to overcome the inherent limitations of intermittent satellite snapshots, providing continuous operational pictures and enabling complex analysis for governments, energy companies, and militaries, thereby elevating OSINT to a primary source of critical intelligence.",
@@ -1755,14 +1763,6 @@ const signalTree = {
                                     "title": "EUTELSAT COMPLETES $5.8 BILLION REFINANCING PLAN",
                                     "description": "<br><strong>STATUS:</strong> Eutelsat successfully completed a 5 billion euro refinancing plan to fund its OneWeb LEO broadband constellation refresh and support the European IRIS\u00b2 sovereign connectivity program.\n\n<br><strong>INTEL:</strong> This comprehensive financing, which includes a recent 1.5 billion euro bond and an equity infusion, is critical for Eutelsat's transformation into a multi-orbit provider, allocating 2.2 billion euros for OneWeb's next-generation satellites by 2029 and 2 billion euros for its stake in the strategic IRIS\u00b2 constellation. Despite a recent setback from a failed asset sale, the funding strengthens Eutelsat's competitive position against rivals like Starlink, as its LEO revenues rapidly grow while its legacy geostationary TV business declines.",
                                     "source_url": "https://spacenews.com/eutelsat-completes-5-8-billion-refinancing-plan/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-40515",
-                                    "title": "COMMERCIAL SPACE FEDERATION (CSF) WELCOMES NEW MEMBERS",
-                                    "description": "<br><strong>STATUS:</strong> The Commercial Space Federation (CSF) has expanded its membership by welcoming LeoLabs, the American Society for Gravitational and Space Research (ASGSR), and SurgeStreams.\n\n<br><strong>INTEL:</strong> These new members enhance CSF\u2019s collective expertise across critical domains: LeoLabs brings orbital intelligence for space safety and security, ASGSR contributes biological and physical sciences research crucial for exploration and commercial platforms, and SurgeStreams provides digital infrastructure modernization for supply chain resilience. This expansion reflects the commercial space industry's accelerating growth and its increasing focus on sustainable operations, scientific advancement, and robust digital foundations.",
-                                    "source_url": "https://spacenews.com/commercial-space-federation-csf-welcomes-new-members/",
                                     "timestamp": "2026.03.06",
                                     "feed_name": "SPACE_NEWS"
                                 }
