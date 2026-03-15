@@ -1367,6 +1367,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-84155",
+                                    "title": "RAYTHEON CONTRACT FOR PROTECTED SATELLITE COMMUNICATIONS TERMINALS RAISED BY $2 BILLION",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Air Force has increased a contract with Raytheon by $2 billion to produce and sustain terminals for its most secure satellite communications network.<br><br><strong>INTEL:</strong> This contract, now valued at nearly $3 billion, supports the U.S. nuclear command, control, and communications (NC3) enterprise by providing Advanced Extremely High Frequency (AEHF) terminals that ensure highly encrypted, jam-resistant communication for strategic aircraft (e.g., E-4B, B-52) and deployable command posts, enabling national leadership to maintain contact with nuclear forces under any circumstances.",
+                                    "source_url": "https://spacenews.com/raytheon-contract-for-protected-satellite-communications-terminals-raised-by-2-billion/",
+                                    "timestamp": "2026.03.15",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-54478",
                                     "title": "IMETALX EMERGES FROM STEALTH WITH TECHNOLOGY TO MODEL RESIDENT SPACE OBJECTS",
                                     "description": "<br><strong>STATUS:</strong> Northern California startup iMetalX Inc. emerged from stealth to announce a collaboration with Psionic, aiming to provide advanced space domain awareness and battle management capabilities for U.S. Space Force architectures.<br><br><strong>INTEL:</strong> This partnership combines Psionic\u2019s Space Navigation Dopper Lidar with iMetalX\u2019s Asgard data/simulation and Thor AI platforms to create accurate 3D models of resident space objects (RSOs) for high-speed, precise navigation in GPS-denied environments. The integrated technology is described as \"battle management software\" designed to enable operators to understand, decide, and act in space faster than evolving threats, with explicit intent to plug into U.S. Space Force and Space Development Agency architectures. iMetalX, funded by $6.2 million in military contracts, plans ground-based product use by 2026 and in-orbit testing on numerous missions starting in 2027 to support dynamic space operations and orbital warfare.",
@@ -1755,14 +1763,6 @@ const signalTree = {
                                     "title": "HYPERSCALERS ARE COMING TO AN ORBIT NEAR YOU. POWER WILL DECIDE THE WINNERS.",
                                     "description": "<br><strong>STATUS:</strong> The rapidly expanding space ecosystem, characterized by enormous satellite constellations, is confronting power generation and distribution as its primary limiting factor.\n\n<br><strong>INTEL:</strong> Power systems are emerging as the critical bottleneck and strategic lever in the new orbital economy, with vertically integrated players like SpaceX achieving significant advantages through innovations such as large-scale, efficient solar arrays (reaching 10-20 kW average power for Starlink). This dynamic, coupled with existing supply chain constraints in electrical power components, threatens to create an orbital hyperscaler landscape dominated by a few players unless deliberate investment in shared power infrastructure is undertaken to ensure competition and long-term sustainability.",
                                     "source_url": "https://spacenews.com/hyperscalers-are-coming-to-an-orbit-near-you-power-will-decide-the-winners/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-9808",
-                                    "title": "ROCKET LAB LAUNCHES SATELLITE FOR UNDISCLOSED CUSTOMER",
-                                    "description": "<br><strong>STATUS:</strong> Rocket Lab successfully launched a single satellite on March 5 for a confidential customer, strongly suspected to be Earth observation company BlackSky, into a 470-kilometer mid-inclination orbit.<br><br><strong>INTEL:</strong> The mission's rapid announcement and specific characteristics closely resemble a November 2025 Rocket Lab launch later confirmed to be for a BlackSky Gen-3 satellite, aligning with BlackSky CEO Brian O\u2019Toole\u2019s recent statement that their next Gen-3 spacecraft was awaiting launch. This potential deployment, the fourth Gen-3 satellite if confirmed, underscores the ongoing expansion of BlackSky's Earth observation constellation and Rocket Lab's capability in rapidly deploying sensitive payloads for undisclosed clients.",
-                                    "source_url": "https://spacenews.com/rocket-lab-launches-satellite-for-undisclosed-customer/",
                                     "timestamp": "2026.03.06",
                                     "feed_name": "SPACE_NEWS"
                                 }
@@ -2187,6 +2187,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-77464",
+                                    "title": "BETTERLEAKS, A NEW OPEN-SOURCE SECRETS SCANNER TO REPLACE GITLEAKS",
+                                    "description": "<br><strong>STATUS:</strong> A new open-source secret scanning tool, Betterleaks, has been released as the successor to the popular Gitleaks project.\n\n<br><strong>INTEL:</strong> Betterleaks, developed by Zach Rice and supported by Aikido, is designed to identify sensitive data like credentials and API keys across various sources, including Git repositories, with future plans for LLM-assisted analysis and features optimized for AI-generated code scanning. This tool aims to enhance proactive security for developers by identifying committed secrets before malicious actors can exploit them, addressing governance issues Rice encountered with Gitleaks.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/betterleaks-a-new-open-source-secrets-scanner-to-replace-gitleaks/",
+                                    "timestamp": "2026.03.15",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-77760",
                                     "title": "MICROSOFT RELEASES WINDOWS 11 OOB HOTPATCH TO FIX RRAS RCE FLAW",
                                     "description": "<br><strong>STATUS:</strong> Microsoft released an out-of-band hotpatch (KB5084597) for Windows 11 Enterprise devices to address critical remote code execution vulnerabilities in the Routing and Remote Access Service (RRAS) management tool.<br><br><strong>INTEL:</strong> This hotpatch is specifically designed for mission-critical Enterprise systems enrolled in the hotpatch program, allowing in-memory fixes for CVE-2026-25172, CVE-2026-25173, and CVE-2026-26111 without requiring a system reboot. These vulnerabilities could enable an authenticated attacker to achieve RCE by tricking a domain-joined user into connecting to a malicious server, particularly impacting remote server management scenarios.",
@@ -2576,14 +2584,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> Microsoft is rolling out a fix to Windows Insiders for the bright white flashes experienced when opening File Explorer on some Windows 11 systems.<br><br><strong>INTEL:</strong> While this specific visual bug, previously linked to KB5070311, is being addressed in preview builds, Microsoft is also still working on a permanent solution for a more critical issue causing File Explorer, the Start Menu, and other core system components to crash on Windows 11 24H2/25H2 devices, for which temporary PowerShell workarounds have been provided.",
                                     "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-still-working-to-fix-windows-explorer-white-flashes/",
                                     "timestamp": "2026.03.09",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-1839",
-                                    "title": "EU COURT ADVISER SAYS BANKS MUST IMMEDIATELY REFUND PHISHING VICTIMS",
-                                    "description": "<br><strong>STATUS:</strong> The Advocate General of the CJEU has issued an opinion suggesting banks must immediately refund victims of unauthorized transactions under PSD2, even if the customer was negligent, unless bank fraud is suspected.\n\n<br><strong>INTEL:</strong> This legal opinion, stemming from a phishing case in Poland, clarifies that while banks must provide an immediate refund, they retain the right to pursue recovery from the customer if they can subsequently prove the customer's gross negligence or intentional fault led to the security breach. The recommendation shifts the initial burden of loss to the bank, with the onus on the bank to prove customer culpability to reclaim funds, though this is an opinion and not yet a binding CJEU ruling.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/legal/eu-court-adviser-says-banks-must-immediately-refund-phishing-victims/",
-                                    "timestamp": "2026.03.08",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
