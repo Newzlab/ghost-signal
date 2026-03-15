@@ -1367,6 +1367,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-90780",
+                                    "title": "STRAIT OF HORMUZ CRISIS DRIVES DEMAND FOR COMMERCIAL GEOSPATIAL INTELLIGENCE",
+                                    "description": "<br><strong>STATUS:</strong> The conflict between the United States and Iran has transformed the Strait of Hormuz into a critical testing ground for commercial geospatial intelligence following the shutdown of commercial traffic.\n\n<br><strong>INTEL:</strong> The Strait, vital for global oil trade, now demands urgent real-time maritime awareness, driving the evolution of AI-powered OSINT platforms like Danti. These systems integrate diverse open data streams\u2014including satellite imagery, AIS, social media, and signals data\u2014to overcome the inherent limitations of intermittent satellite snapshots, providing continuous operational pictures and enabling complex analysis for governments, energy companies, and militaries, thereby elevating OSINT to a primary source of critical intelligence.",
+                                    "source_url": "https://spacenews.com/strait-of-hormuz-crisis-drives-demand-for-commercial-geospatial-intelligence/",
+                                    "timestamp": "2026.03.15",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-84155",
                                     "title": "RAYTHEON CONTRACT FOR PROTECTED SATELLITE COMMUNICATIONS TERMINALS RAISED BY $2 BILLION",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Air Force has increased a contract with Raytheon by $2 billion to produce and sustain terminals for its most secure satellite communications network.<br><br><strong>INTEL:</strong> This contract, now valued at nearly $3 billion, supports the U.S. nuclear command, control, and communications (NC3) enterprise by providing Advanced Extremely High Frequency (AEHF) terminals that ensure highly encrypted, jam-resistant communication for strategic aircraft (e.g., E-4B, B-52) and deployable command posts, enabling national leadership to maintain contact with nuclear forces under any circumstances.",
@@ -1755,14 +1763,6 @@ const signalTree = {
                                     "title": "COMMERCIAL SPACE FEDERATION (CSF) WELCOMES NEW MEMBERS",
                                     "description": "<br><strong>STATUS:</strong> The Commercial Space Federation (CSF) has expanded its membership by welcoming LeoLabs, the American Society for Gravitational and Space Research (ASGSR), and SurgeStreams.\n\n<br><strong>INTEL:</strong> These new members enhance CSF\u2019s collective expertise across critical domains: LeoLabs brings orbital intelligence for space safety and security, ASGSR contributes biological and physical sciences research crucial for exploration and commercial platforms, and SurgeStreams provides digital infrastructure modernization for supply chain resilience. This expansion reflects the commercial space industry's accelerating growth and its increasing focus on sustainable operations, scientific advancement, and robust digital foundations.",
                                     "source_url": "https://spacenews.com/commercial-space-federation-csf-welcomes-new-members/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-39602",
-                                    "title": "HYPERSCALERS ARE COMING TO AN ORBIT NEAR YOU. POWER WILL DECIDE THE WINNERS.",
-                                    "description": "<br><strong>STATUS:</strong> The rapidly expanding space ecosystem, characterized by enormous satellite constellations, is confronting power generation and distribution as its primary limiting factor.\n\n<br><strong>INTEL:</strong> Power systems are emerging as the critical bottleneck and strategic lever in the new orbital economy, with vertically integrated players like SpaceX achieving significant advantages through innovations such as large-scale, efficient solar arrays (reaching 10-20 kW average power for Starlink). This dynamic, coupled with existing supply chain constraints in electrical power components, threatens to create an orbital hyperscaler landscape dominated by a few players unless deliberate investment in shared power infrastructure is undertaken to ensure competition and long-term sustainability.",
-                                    "source_url": "https://spacenews.com/hyperscalers-are-coming-to-an-orbit-near-you-power-will-decide-the-winners/",
                                     "timestamp": "2026.03.06",
                                     "feed_name": "SPACE_NEWS"
                                 }
