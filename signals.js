@@ -2187,6 +2187,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-77760",
+                                    "title": "MICROSOFT RELEASES WINDOWS 11 OOB HOTPATCH TO FIX RRAS RCE FLAW",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft released an out-of-band hotpatch (KB5084597) for Windows 11 Enterprise devices to address critical remote code execution vulnerabilities in the Routing and Remote Access Service (RRAS) management tool.<br><br><strong>INTEL:</strong> This hotpatch is specifically designed for mission-critical Enterprise systems enrolled in the hotpatch program, allowing in-memory fixes for CVE-2026-25172, CVE-2026-25173, and CVE-2026-26111 without requiring a system reboot. These vulnerabilities could enable an authenticated attacker to achieve RCE by tricking a domain-joined user into connecting to a malicious server, particularly impacting remote server management scenarios.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-11-oob-hotpatch-to-fix-rras-rce-flaw/",
+                                    "timestamp": "2026.03.14",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-20304",
                                     "title": "APPSFLYER WEB SDK HIJACKED TO SPREAD CRYPTO-STEALING JAVASCRIPT CODE",
                                     "description": "<br><strong>STATUS:</strong> The AppsFlyer Web SDK was temporarily compromised via a supply-chain attack, injecting malicious code to steal cryptocurrency by replacing user-entered wallet addresses.<br><br><strong>INTEL:</strong> Active roughly between March 9-11, this attack leveraged AppsFlyer's broad integration across thousands of applications to covertly replace user-entered cryptocurrency wallet addresses (including Bitcoin, Ethereum, Solana, Ripple, and TRON) with attacker-controlled ones. AppsFlyer confirmed a \"domain registrar incident\" affecting only its Web SDK, not the mobile version, underscoring the critical supply-chain vulnerability inherent in widely deployed third-party SDKs and the need for organizations to review logs and investigate.",
@@ -2575,14 +2583,6 @@ const signalTree = {
                                     "title": "EU COURT ADVISER SAYS BANKS MUST IMMEDIATELY REFUND PHISHING VICTIMS",
                                     "description": "<br><strong>STATUS:</strong> The Advocate General of the CJEU has issued an opinion suggesting banks must immediately refund victims of unauthorized transactions under PSD2, even if the customer was negligent, unless bank fraud is suspected.\n\n<br><strong>INTEL:</strong> This legal opinion, stemming from a phishing case in Poland, clarifies that while banks must provide an immediate refund, they retain the right to pursue recovery from the customer if they can subsequently prove the customer's gross negligence or intentional fault led to the security breach. The recommendation shifts the initial burden of loss to the bank, with the onus on the bank to prove customer culpability to reclaim funds, though this is an opinion and not yet a binding CJEU ruling.",
                                     "source_url": "https://www.bleepingcomputer.com/news/legal/eu-court-adviser-says-banks-must-immediately-refund-phishing-victims/",
-                                    "timestamp": "2026.03.08",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-47286",
-                                    "title": "HACKERS ABUSE .ARPA DNS AND IPV6 TO EVADE PHISHING DEFENSES",
-                                    "description": "<br><strong>STATUS:</strong> Threat actors are exploiting the special-use .arpa domain and IPv6 reverse DNS to conduct phishing campaigns that more easily bypass domain reputation checks and email security gateways.<br><br><strong>INTEL:</strong> Attackers acquire IPv6 address blocks, then gain control of the associated reverse DNS zones, configuring A records to point to phishing infrastructure instead of standard PTR records. This method, often leveraging reputable DNS providers, allows phishing links embedded in email images to resolve to attacker-controlled sites via reverse IPv6 DNS records, effectively bypassing security measures; these campaigns often employ traffic distribution systems and short-lived links to evade detection and analysis.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-arpa-dns-and-ipv6-to-evade-phishing-defenses/",
                                     "timestamp": "2026.03.08",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
