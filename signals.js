@@ -542,6 +542,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-21598",
+                                    "title": "FINCANTIERI IS ITCHING TO BUILD MORE SHIPS FOR THE US NAVY",
+                                    "description": "<br><strong>STATUS:</strong> Fincantieri is actively re-positioning itself to secure future U.S. government shipbuilding contracts, including small surface combatants and specialized vessels, following the cancellation of the Constellation frigate program.\n\n<br><br><strong>INTEL:</strong> Fincantieri Marine Group, having invested heavily in its Wisconsin yard, is targeting the U.S. Navy's \"Golden Fleet\" expansion, specifically the 70-plus vessel Small Surface Combatant segment, which may include corvettes and large unmanned vessels, in addition to recent Marine Landing Vessel orders. The Navy is implementing a new acquisition strategy for programs like the Landing Vessels, utilizing a Vessel Construction Manager (VCM) to streamline construction, enforce final designs with zero modifications, and expedite delivery, a model Fincantieri views as an opportunity to prove its efficiency in serial naval vessel production.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/16/fincantieri-is-itching-to-build-more-ships-for-the-us-navy/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-40787",
                                     "title": "US BOMBS KEY IRANIAN ISLAND AMID OIL CONCERNS",
                                     "description": "<br><strong>STATUS:</strong> President Trump announced the U.S. executed a massive bombing raid on military targets on Iran\u2019s Kharg Island in response to Iran's threats to block the Strait of Hormuz.<br><br><strong>INTEL:</strong> The strike deliberately spared oil infrastructure but warned of further action if Iran interferes with shipping, countering the newly appointed Supreme Leader\u2019s order to block the Strait; this Iranian strategy involves asymmetric naval warfare tactics, including thousands of naval mines, drones, and fast-attack boats, aimed at disrupting 20% of global oil and gas trade, which has already caused Brent crude prices to surge above $100.",
@@ -930,14 +938,6 @@ const signalTree = {
                                     "title": "PATRIOT PRODUCTION DELAYS PROMPT SWITZERLAND TO SEEK EUROPEAN AIR-DEFENSE FALLBACK",
                                     "description": "<br><strong>STATUS:</strong> Switzerland will acquire fewer F-35 jets and is considering a second European long-range air-defense system due to significant delays in US Patriot deliveries and increased fighter jet costs.\n\n<br><strong>INTEL:</strong> The US reprioritized Patriot deliveries to support Ukraine, causing a 4-5 year delay for Switzerland and a potential 50% cost increase, prompting them to seek a European alternative like SAMP/T to mitigate capability gaps and diversify their supply chain dependence. Simultaneously, increased unit costs for the F-35 mean Switzerland will reduce its order from 36 aircraft due to budget constraints, further complicated by a narrow voter approval of the original defense budget.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/03/06/patriot-production-delays-prompt-switzerland-to-seek-european-air-defense-fallback/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-84528",
-                                    "title": "GULF ALLIES COMPLAIN US DID NOT PROVIDE NOTICE OF IRAN ATTACKS AND IGNORED WARNINGS, SOURCES SAY",
-                                    "description": "<br><strong>STATUS:</strong> Gulf allies are expressing significant discontent with the Trump administration's handling of the war with Iran, citing a lack of warning and inadequate defense against retaliatory attacks.\n\n<br><strong>INTEL:</strong> Gulf nations were not given advance notice of the initial U.S.-Israeli strike on Iran, leading to accusations that the U.S. has prioritized defending Israel and American troops while leaving Gulf countries vulnerable to overwhelming barrages of Iranian drones and missiles, rapidly depleting their air defense stocks; Pentagon officials admit they are struggling to intercept these drone waves, leaving U.S. targets and personnel in the region exposed.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/06/gulf-allies-complain-us-did-not-provide-notice-of-iran-attacks-and-ignored-warnings-sources-say/",
                                     "timestamp": "2026.03.06",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1367,6 +1367,30 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-89481",
+                                    "title": "INVESTING IN STUDENT PROGRAMS IS ESSENTIAL FOR AMERICA\u2019S LEAD IN SPACE",
+                                    "description": "<br><strong>STATUS:</strong> The University of Illinois\u2019 SEAQUE experiment has successfully advanced space-based quantum communication technologies, while also highlighting the fragility of US leadership in this domain due to funding uncertainties.<br><br><strong>INTEL:</strong> The SEAQUE project, a first for the U.S. involving a novel entanglement source and radiation-healing sensor annealing techniques, provides critical technology for future secure global quantum networks and trains essential STEM talent through real-world space hardware development. However, despite its success and the global race in quantum technology\u2014with rivals like China heavily investing\u2014US support for such student-driven, cost-effective space experiments is diminishing, threatening the nation's ability to maintain its technological edge and talent pipeline in this crucial sector.",
+                                    "source_url": "https://spacenews.com/investing-in-student-programs-is-essential-for-americas-lead-in-space/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-55860",
+                                    "title": "NEW MOOG INNOVATIONS FOR THE SATELLITE MARKET ON FULL DISPLAY AT SATELLITE 2026 CONFERENCE",
+                                    "description": "<br><strong>STATUS:</strong> Moog Inc. will highlight its newest innovations at the SATELLITE 2026 Conference in Washington, D.C.<br><br><strong>INTEL:</strong> Moog Inc. will showcase its latest advancements in space technology at SATELLITE 2026, emphasizing its 75-year heritage and ongoing commitment to developing solutions for more capable, sustainable, and resilient next-generation missions for commercial, civil, and national security customers.",
+                                    "source_url": "https://spacenews.com/new-moog-innovations-for-the-satellite-market-on-full-display-at-satellite-2026-conference/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-43805",
+                                    "title": "CHINA LAUNCHES NEW HIGHLY RETROGRADE YAOGAN SATELLITE, KZ-11 RIDESHARE DEPLOYS 8 SATELLITES",
+                                    "description": "<br><strong>STATUS:</strong> China conducted two significant space launches, deploying the second Yaogan-50 satellite into a highly retrograde orbit and a Kuaizhou-11 rocket carrying eight payloads, marking an acceleration of its space activities.\n\n<br><strong>INTEL:</strong> The Yaogan-50 (02) satellite, despite China's civilian declarations, is consistent with outside assessments that the Yaogan series serves intelligence, surveillance, and reconnaissance (ISR) purposes, utilizing its unique highly retrograde orbit for distinct remote sensing patterns over China and its vicinity. Crucially, the Kuaizhou-11 mission included the Yuxing-3 (06) satellite, which is designed to test advanced in-orbit servicing and manipulation technologies, including robotic arm operations and simulated refueling, signifying China's growing capabilities in space maintenance and potential dual-use applications.",
+                                    "source_url": "https://spacenews.com/china-launches-new-highly-retrograde-yaogan-satellite-kz-11-rideshare-deploys-8-satellites/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-60532",
                                     "title": "STARCLOUD FILES PLANS FOR 88,000-SATELLITE CONSTELLATION",
                                     "description": "<br><strong>STATUS:</strong> Orbital data center startup Starcloud is seeking FCC approval to deploy a constellation of up to 88,000 satellites designed to host AI and other computing applications.\n\n<br><strong>INTEL:</strong> Starcloud's ambitious proposal aims to mitigate the \"severe roadblocks\" to scaling AI datacenters terrestrially by offering a cost-effective and scalable space-based solution, with satellites operating in dusk-dawn sun-synchronous orbits between 600-850 km and relying on optical intersatellite links for communication; the company, which has already tested an Nvidia H100 processor running Google's Gemini AI on its Starcloud-1 satellite, emphasizes safe operations, full demisability, and brightness mitigation for astronomy, while also planning future constellations like Starcloud-4, potentially involving massive, Starship-deployed satellites with 5-gigawatt data centers.",
@@ -1741,36 +1765,28 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/chinese-official-calls-for-prioritizing-neptune-orbiter-mission/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-11888",
-                                    "title": "RFA PLANS FIRST LAUNCH THIS SUMMER",
-                                    "description": "<br><strong>STATUS:</strong> German launch startup Rocket Factory Augsburg (RFA) has delivered its RFA ONE rocket stages to SaxaVord Spaceport in Scotland, targeting its first orbital launch this summer.\n\n<br><strong>INTEL:</strong> While the rocket's first and second stages are at SaxaVord, its nine engines are still in Sweden undergoing final acceptance testing, recalling a previous 2024 incident where an RFA ONE first stage was destroyed in a fire during similar pre-launch hot-fire tests. RFA is a key player among several European startups in the competitive small launch vehicle market, having secured significant funding from the European Launcher Challenge to bolster European access to space.",
-                                    "source_url": "https://spacenews.com/rfa-plans-first-launch-this-summer/",
-                                    "timestamp": "2026.03.08",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-62411",
-                                    "title": "AIR FORCE LAB AWARDS BLACKSKY CONTRACT WORTH UP TO $99 MILLION FOR LARGE OPTICAL SATELLITE PAYLOAD",
-                                    "description": "<br><strong>STATUS:</strong> The Air Force Research Laboratory has awarded BlackSky a contract worth up to $99 million to develop a large optical imaging payload for future space-based intelligence systems.<br><br><strong>INTEL:</strong> This indefinite-delivery, indefinite-quantity Small Business Innovation Research Phase 3 agreement, running through 2032, focuses on developing a large-aperture optical imaging system using a segmented mirror architecture. This technology will enable wide-area surveillance, allowing satellites to scan vast geographic regions to identify small objects like vehicles, ships, and aircraft, thereby supporting critical missions such as missile detection and tracking by cueing higher-resolution satellites, a capability BlackSky is also advancing with its Aros satellite.",
-                                    "source_url": "https://spacenews.com/air-force-lab-awards-blacksky-contract-worth-up-to-99-million-for-large-optical-satellite-payload/",
-                                    "timestamp": "2026.03.07",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-23219",
-                                    "title": "NASA SELECTS CENTAUR FOR NEW SLS UPPER STAGE",
-                                    "description": "<br><strong>STATUS:</strong> NASA has selected United Launch Alliance's Centaur upper stage for future Space Launch System missions, specifically Artemis 4, 5, and a flight spare, following the agency's decision to halt development of the Block 1B version and its Exploration Upper Stage (EUS).<br><br><strong>INTEL:</strong> The procurement of the Centaur, currently used on Vulcan, was justified as a sole-source contract due to its unique ability to meet SLS performance requirements with minimal modifications, leveraging commonalities with the existing Interim Cryogenic Propulsion Stage (ICPS) such as RL10 engines and liquid hydrogen/oxygen propellants. NASA deemed Centaur the only viable option after assessing alternatives, including Blue Origin\u2019s New Glenn upper stage, which would have required significant design changes, extensive testing, and introduced unacceptable schedule and cost risks due to its early development stage and structural incompatibilities. This decision ensures continuity for Artemis missions beyond Artemis 3 by adapting proven technology and ULA's established infrastructure.",
-                                    "source_url": "https://spacenews.com/nasa-selects-centaur-for-new-sls-upper-stage/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-14569",
+                                    "title": "NESC DEVELOPS METHOD FOR ESTIMATING RISK\u00a0WHEN REDUCING NDE",
+                                    "description": "<br><strong>STATUS:</strong> The NESC has developed a new probabilistic method to estimate the risk associated with reducing or eliminating Non-Destructive Evaluation (NDE) inspections on spaceflight hardware.\n\n<br><strong>INTEL:</strong> This method provides a quantitative framework to assess the risk increase when descoping NDE, which typically ensures damage tolerance per NASA-STD-5019A, by leveraging historical inspection data to estimate the probability of a detectable flaw existing (P(a>aNDE)). This allows for potential cost and schedule savings while aiming to maintain an equivalent level of safety, moving from a deterministic to a probabilistic approach for damage tolerance verification.",
+                                    "source_url": "https://www.nasa.gov/general/nesc-develops-method-for-estimating-risk-when-reducing-nde/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-33066",
+                                    "title": "CA\u00d1ON FIORD\u2019S WHIRLING WATERS",
+                                    "description": "<br><strong>STATUS:</strong> Satellite imagery captured sediment plumes and fractured sea ice forming swirling eddies in Ca\u00f1on Fiord, Canadian Arctic, during the 2022 summer melt season.<br><br><strong>INTEL:</strong> The observed sediment plumes are identified as glacial flour, pulverized rock transported by meltwater from glaciers like the Agassiz Ice Cap into the fjord. This glacial flour is a critical source of soluble iron, a vital nutrient for phytoplankton, which form the base of marine food webs. The rapid shrinking of Canadian Arctic glaciers since the mid-2000s suggests a persistent increase in meltwater and, consequently, glacial flour input into these Arctic ecosystems.",
+                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/canon-fiords-whirling-waters/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-38188",
                                     "title": "VOLUNTEERS FIND ODDLY HIGH SOLAR FLARE RATES",
@@ -2154,22 +2170,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/learning-resources/what-is-pi-grades-5-8/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-31649",
-                                    "title": "NASA ARMSTRONG DIRECTOR BRAD FLICK TO RETIRE AFTER 40 YEARS OF SERVICE",
-                                    "description": "<br><strong>STATUS:</strong> NASA announced the retirement of Bradley Flick, director of its Armstrong Flight Research Center, effective March 19, after a nearly 40-year career.<br><br><strong>INTEL:</strong> Flick's extensive career at NASA significantly advanced aeronautics and flight research, encompassing pivotal projects like the X-29 and the first flight of the X-59 quiet supersonic technology aircraft, and he held numerous leadership positions before becoming center director. His departure marks a transition as Troy Asher will serve as acting center director, highlighting the continued evolution of leadership in critical NASA flight research initiatives.",
-                                    "source_url": "https://www.nasa.gov/news-release/nasa-armstrong-director-brad-flick-to-retire-after-40-years-of-service/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-44726",
-                                    "title": "LA NASA COMPARTIR\u00c1 INFORMACI\u00d3N ACTUALIZADA SOBRE LA EVALUACI\u00d3N DE APTITUD PARA EL VUELO DE ARTEMIS II",
-                                    "description": "<br><strong>STATUS:</strong> NASA will hold a press conference on Thursday, March 12, at 3 p.m. EDT to provide an update on the progress of the crewed Artemis II mission around the Moon.<br><br><strong>INTEL:</strong> The press conference follows the conclusion of the Artemis II flight readiness review and will be held at Kennedy Space Center, covering the mission's status as it prepares for a second transfer to the launch pad later this month for a possible April launch, which is a step towards future crewed lunar landings and eventual Mars missions.",
-                                    "source_url": "https://www.nasa.gov/news-release/la-nasa-compartira-informacion-actualizada-sobre-la-evaluacion-de-aptitud-para-el-vuelo-de-artemis-ii/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2186,6 +2186,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-35179",
+                                    "title": "MICROSOFT PULLS SAMSUNG APP BLOCKING WINDOWS C: DRIVE FROM STORE",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft has removed the Samsung Galaxy Connect app from its store because it was causing critical C:\\ drive access issues and app failures on specific Samsung Windows 11 PCs.\n\n<br><strong>INTEL:</strong> The Samsung Galaxy Connect application, intended for screen mirroring and file sharing, was found to be the root cause of \"C:\\ is not accessible \u2013 Access denied\" errors on various Samsung Galaxy Book 4 and desktop models running Windows 11. This severe bug prevents users from accessing files, launching crucial applications like Outlook and Office apps, and performing administrative tasks, with recovery options for already impacted devices currently limited and no immediate workaround available.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-pulls-samsung-app-blocking-windows-c-drive-from-store/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-912",
                                     "title": "OPENAI SAYS CHATGPT ADS ARE NOT ROLLING OUT GLOBALLY FOR NOW",
@@ -2575,14 +2583,6 @@ const signalTree = {
                                     "title": "FBI WARNS OF PHISHING ATTACKS IMPERSONATING US CITY, COUNTY OFFICIALS",
                                     "description": "<br><strong>STATUS:</strong> The FBI warns of a new phishing campaign where criminals impersonate U.S. officials to defraud businesses and individuals seeking city and county planning and zoning permits.\n\n<br><strong>INTEL:</strong> Scammers use publicly available information about permit applications to create convincing emails, instructing victims to pay fraudulent fees via wire transfer, peer-to-peer payment, or cryptocurrency. Common indicators include non-governmental email domains and tactics to rush payments, with the FBI advising verification of sender details and direct contact with government offices to confirm fee legitimacy, while urging victims to report incidents to the IC3.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-phishing-attacks-impersonating-us-city-county-officials/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-7587",
-                                    "title": "WHY PASSWORD AUDITS MISS THE ACCOUNTS ATTACKERS ACTUALLY WANT",
-                                    "description": "<br><strong>STATUS:</strong> Traditional password audits, while addressing compliance, fail to identify critical security risks by overlooking compromised, easily guessable, and unmonitored accounts.<br><br><strong>INTEL:</strong> Current password audits primarily focus on complexity and expiry, missing vulnerabilities like credentials already exposed in breaches (83% of compromised passwords met regulatory rules), easily guessable context-specific passwords, and high-risk orphaned or service accounts with weak controls. To be effective, audits must incorporate breached-password screening, risk-based prioritization, and extend coverage to all account types, not just active users, to counter attacker tactics and reduce breaches often stemming from stolen credentials.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/why-password-audits-miss-the-accounts-attackers-actually-want/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
