@@ -550,6 +550,30 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-3788",
+                                    "title": "TWO INDIA CARRIERS SECURE SAFE PASSAGE THROUGH STRAIT OF HORMUZ",
+                                    "description": "<br><strong>STATUS:</strong> India successfully negotiated the transit of two of its LPG carriers through the Iranian-blockaded Strait of Hormuz amidst escalating conflict between the United States, Israel, and Iran.<br><br><strong>INTEL:</strong> This diplomatic breakthrough, while not a blanket arrangement, underscores India's crucial energy dependence on the Strait for half its crude oil and LNG imports, its strategic neutrality in the ongoing conflict, and the effectiveness of its engagement with Iran, which included a recent goodwill gesture of repatriating Iranian naval personnel.",
+                                    "source_url": "https://www.defensenews.com/global/asia-pacific/2026/03/16/two-india-carriers-secure-safe-passage-through-strait-of-hormuz/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-53255",
+                                    "title": "IRAN MISSILE STRIKE DAMAGES FIVE KC-135 TANKERS IN SAUDI ARABIA, OFFICIALS SAY",
+                                    "description": "<br><strong>STATUS:</strong> An Iranian missile strike damaged five U.S. Air Force KC-135 Stratotanker refueling aircraft at Prince Sultan Air Base in Saudi Arabia, though the extent of the damage is disputed and no personnel were killed.<br><br><strong>INTEL:</strong> This strike, targeting a crucial U.S. refueling hub supporting the joint U.S.-Israel \"Operation Epic Fury\" against Iran, marks a continued escalation following a prior fatal Iranian attack on the same base. The incident highlights vulnerabilities in U.S. forward deployments, while also occurring amidst challenges in the U.S. Air Force's tanker fleet modernization, as its replacement KC-46A aircraft face significant technical deficiencies and delivery pauses.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/16/iran-missile-strike-damages-five-kc-135-tankers-in-saudi-arabia-officials-say/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-99366",
+                                    "title": "US ARMY PLANS RESEARCH CENTER TO BOOST EXPLOSIVES PRODUCTION",
+                                    "description": "<br><strong>STATUS:</strong> The United States Army is urgently seeking proposals to establish a \"Center of Excellence\" at Blue Grass Army Depot, Kentucky, to rapidly research and produce explosives amidst global shortages.\n\n<br><strong>INTEL:</strong> This initiative aims to address critical supply chain vulnerabilities in essential explosives like RDX and HMX, driven by depleted stockpiles from conflicts in Ukraine and the Middle East, historical domestic production closures due to environmental concerns, and halted exports from major producers like Russia and China. The Army is prioritizing rapid development, considering flexible operational models including distributed sites and private funding, and intends to swiftly issue sole-source contracts to support key allies like Ukraine, Taiwan, and Israel, highlighting the immediate strategic importance of rebuilding domestic explosives manufacturing capabilities.",
+                                    "source_url": "https://www.defensenews.com/land/2026/03/16/us-army-plans-research-center-to-boost-explosives-production/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-38081",
                                     "title": "NORWAY\u2019S ELITE ARCTIC SOLDIERS STILL DIG THEIR OWN SNOW CAVES TO HIDE FROM DRONES",
                                     "description": "<br><strong>STATUS:</strong> Norway's elite Arctic warfare soldiers are utilizing traditional snow caves (quinzhees) as a primary method to evade detection from advanced drone sensors in modern surveillance scenarios.<br><br><strong>INTEL:</strong> These specialized units, including UK Royal Marines and Canadian special forces training alongside Norwegians, face evolving challenges in maintaining invisibility against sophisticated enemy technology, necessitating constant movement or static concealment within snow caves which reduce visual, thermal, and electronic signatures. Concurrently, the Norwegian unit is also experimenting with winterized surveillance drones, like the Skydio, to enhance their own reconnaissance capabilities for potential conflicts, especially with Russia, demonstrating a dual approach of leveraging both proven natural camouflage and cutting-edge unmanned systems.",
@@ -923,30 +947,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> An American anti-drone system, Merops, proven effective against Russian drones in Ukraine, will be deployed to the Middle East to strengthen U.S. defenses against Iranian drones.\n\n<br><strong>INTEL:</strong> The Merops system, which flies counter-drones and uses AI for navigation, is being sent to address the U.S.'s \"disappointing\" struggle with Iran's numerous and inexpensive Shahed drones, which current missile defenses are not cost-effective or optimally designed to counter. This deployment aims to solve the \"math problem\" of using expensive interceptors against cheap drones and bolster regional security against potential Iranian retaliatory strikes, with systems being sent to various locations, including where U.S. forces are not present.",
                                     "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/07/us-to-send-anti-drone-system-to-mideast-after-successful-use-in-ukraine-officials-say/",
                                     "timestamp": "2026.03.07",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-79019",
-                                    "title": "PENTAGON TASK FORCE TO CONDUCT LASER TEST AGAINST DRONES",
-                                    "description": "<br><strong>STATUS:</strong> The Pentagon\u2019s Joint Interagency Task Force 401 is testing a high-energy laser system against drones at White Sands Missile Range this weekend to validate its safety and effectiveness.\n\n<br><strong>INTEL:</strong> The test is conducted in partnership with the FAA to gather critical data on eye safety for aircrews, potential effects on aircraft surrogate models, and to demonstrate automatic safety shut-off functions and training protocols. These high-energy laser systems represent a \"soft kill\" capability against small drones by using concentrated light to bring them down without expending munitions, aligning with a broader trend of integrating laser weapons across U.S. military services, including recent Army acquisition requests and Navy deployments.",
-                                    "source_url": "https://www.defensenews.com/industry/techwatch/2026/03/06/pentagon-task-force-to-conduct-laser-test-against-drones/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-27446",
-                                    "title": "PENTAGON ACKNOWLEDGES TOUGH QUEST TO COUNTER IRANIAN DRONES",
-                                    "description": "<br><strong>STATUS:</strong> U.S. officials concede that Iran\u2019s low-cost Shahed-136 drones are proving more disruptive than anticipated in the Middle East, causing casualties and exposing significant gaps in U.S. counter-drone technology.\n\n<br><strong>INTEL:</strong> The Shahed-136 drones, costing $20,000-$50,000 each, present an asymmetric threat by being cheap to deploy but expensive to intercept with traditional missile systems, rapidly draining U.S. stockpiles and allowing Iran to project power effectively, as demonstrated by a recent strike in Kuwait that killed six U.S. service members. Acknowledging this challenge, the U.S. has now requested assistance from Ukraine, which has developed low-cost anti-drone laser systems and expertise from its ongoing conflict with Russia, where similar Iranian-designed drones are heavily used.",
-                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/06/pentagon-acknowledges-tough-quest-to-counter-iranian-drones/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-73626",
-                                    "title": "RUSSIA PROVIDED IRAN WITH INFORMATION THAT CAN HELP TEHRAN STRIKE US MILITARY, SOURCES SAY",
-                                    "description": "<br><strong>STATUS:</strong> Russia has reportedly provided Iran with intelligence information that could aid Tehran in striking American military assets in the region, marking its initial involvement in the U.S.-Israel war against Iran.\n\n<br><br><strong>INTEL:</strong> This intelligence sharing signifies a strategic escalation, linking the U.S.-Iran conflict with broader geopolitical alliances where Russia and Iran maintain a reciprocal relationship, with Iran supplying drones and missiles for Russia's war in Ukraine. While the White House downplayed the immediate impact on current U.S. military operations, the development highlights deepening ties between Moscow and Tehran amidst Iran's international isolation, though U.S. intelligence has not indicated Russia is directly commanding Iran's use of the information.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/06/russia-provided-iran-with-information-that-can-help-tehran-strike-us-military-sources-say/",
-                                    "timestamp": "2026.03.06",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
                             ]
@@ -2195,6 +2195,22 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-2231",
+                                    "title": "CISA FLAGS WING FTP SERVER FLAW AS ACTIVELY EXPLOITED IN ATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> CISA has issued a directive for U.S. government agencies and advised all organizations to immediately patch Wing FTP Server against actively exploited vulnerabilities, including CVE-2025-47813, which can be chained for remote code execution.\n\n<br><strong>INTEL:</strong> The actively exploited vulnerability, CVE-2025-47813, is an information disclosure flaw allowing low-privilege attackers to discover the application's full installation path and is often chained with CVE-2025-47812, a critical remote code execution (RCE) bug previously exploited in the wild; both were patched in Wing FTP Server v7.4.4 in May 2025. This software is used by over 10,000 customers, including the U.S. Air Force and Sony, prompting CISA to mandate federal agencies to secure their systems within two weeks under BOD 22-01, while urging all defenders to patch due to the significant risk these vulnerabilities pose.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/cisa-flags-wing-ftp-server-flaw-as-actively-exploited-in-attacks/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-43705",
+                                    "title": "UK\u2019S COMPANIES HOUSE CONFIRMS SECURITY FLAW EXPOSED BUSINESS DATA",
+                                    "description": "<br><strong>STATUS:</strong> Companies House fixed a security flaw in its WebFiling service that exposed sensitive data of five million U.K. companies for five months. <br><br><strong>INTEL:</strong> The vulnerability, active since October 2025, allowed any logged-in user to access another company's dashboard, view residential addresses, dates of birth, and company emails, and potentially make unauthorized filings like changing directors, though no user passwords were compromised and no exploitation has yet been confirmed.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/uks-companies-house-confirms-security-flaw-exposed-business-data/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-35910",
                                     "title": "MICROSOFT EXCHANGE ONLINE OUTAGE BLOCKS ACCESS TO MAILBOXES",
                                     "description": "<br><strong>STATUS:</strong> Microsoft is actively investigating and addressing a widespread Exchange Online outage preventing customers from accessing their mailboxes and calendars.\n\n<br><strong>INTEL:</strong> This outage affects multiple Exchange Online connection methods, including Outlook desktop and web, and is occurring concurrently with a separate incident impacting Microsoft 365 Copilot web access and sign-in due to inefficient service infrastructure processing, for which configuration changes are being applied. While Microsoft's telemetry suggests recovery for Exchange Online, customers continue to report issues, following a pattern of similar Exchange Online outages in January and November.",
@@ -2575,22 +2591,6 @@ const signalTree = {
                                     "title": "DUTCH GOVT WARNS OF SIGNAL, WHATSAPP ACCOUNT HIJACKING ATTACKS",
                                     "description": "<br><strong>STATUS:</strong> Russian state-sponsored hackers are conducting an ongoing phishing campaign targeting government officials, military personnel, and journalists via Signal and WhatsApp.\n\n<br><strong>INTEL:</strong> The operation employs sophisticated phishing and social engineering, abusing legitimate authentication features such as SMS verification codes, Signal PINs, and device linking via malicious QR codes to achieve account takeovers. While Signal's core encryption and infrastructure remain uncompromised, attackers exploit user trust to gain full control, enabling them to monitor incoming messages, access contact lists, change associated phone numbers, and impersonate victims.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/dutch-govt-warns-of-signal-whatsapp-account-hijacking-attacks/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-58619",
-                                    "title": "ERICSSON US DISCLOSES DATA BREACH AFTER SERVICE PROVIDER HACK",
-                                    "description": "<br><strong>STATUS:</strong> Ericsson Inc.'s U.S. subsidiary announced that a data breach at one of its service providers exposed sensitive personal data belonging to an undisclosed number of employees and customers.\n\n<br><strong>INTEL:</strong> The breach, discovered in April 2025 with an investigation concluding in February 2026, involved unauthorized access to files containing names, addresses, Social Security Numbers, driver's licenses, government IDs, financial, medical information, and dates of birth, affecting at least 4,377 individuals in Texas alone. While no evidence of data misuse has been found, and no cybercrime group has claimed responsibility, Ericsson is offering free identity protection services to mitigate potential harm.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/ericsson-us-discloses-data-breach-after-service-provider-hack/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-47041",
-                                    "title": "MICROSOFT TEAMS WILL TAG THIRD-PARTY BOTS TRYING TO JOIN MEETINGS",
-                                    "description": "<br><strong>STATUS:</strong> Microsoft Teams will introduce a feature by May 2026 to automatically tag external third-party bots in meeting lobbies, requiring explicit organizer approval for them to join.\n\n<br><br><strong>INTEL:</strong> This upcoming security enhancement aims to prevent malicious or unintended automated participants from inadvertently gaining access to Teams meetings, thereby bolstering user control and mitigating risks associated with social engineering and cybercrime. The feature, rolling out across all major platforms and cloud environments, is part of Microsoft's ongoing efforts to strengthen Teams security, following recent additions like call reporting, fraud protection warnings, and options for admins to block external users.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-will-tag-third-party-bots-in-meeting-lobbies/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
