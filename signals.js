@@ -952,6 +952,126 @@ const signalTree = {
                             "name": "ARXIV_AI_PAPERS",
                             "articles": [
                                 {
+                                    "id": "GS-45520",
+                                    "title": "CONTEXT-ENRICHED NATURAL LANGUAGE DESCRIPTIONS OF VESSEL TRAJECTORIES",
+                                    "description": "<br><strong>STATUS:</strong> A new framework is proposed to transform raw AIS vessel trajectory data into structured, semantically enriched representations.<br><br><strong>INTEL:</strong> This context-aware abstraction segments noisy AIS sequences into distinct trips and mobility-annotated episodes, further enriching them with multi-source information like geographic entities and weather. Crucially, these representations support the generation of controlled natural language descriptions using LLMs, which significantly increases semantic density, reduces spatiotemporal complexity, and facilitates advanced downstream analytics and maritime reasoning tasks.",
+                                    "source_url": "https://arxiv.org/abs/2603.12287",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-58162",
+                                    "title": "EFFICIENT REASONING WITH BALANCED THINKING",
+                                    "description": "<br><strong>STATUS:</strong> A new training-free framework named ReBalance has been introduced to optimize Large Reasoning Models (LRMs) by balancing their reasoning processes to prevent overthinking and underthinking.\n\n<br><strong>INTEL:</strong> ReBalance leverages confidence as a continuous indicator to dynamically identify overthinking (high confidence variance) and underthinking (consistent overconfidence) in LRMs. It then computes a steering vector from hidden state prototypes and applies a dynamic control function to modulate reasoning trajectories, pruning redundancy during overthinking and promoting exploration during underthinking, which demonstrably reduces output redundancy and improves accuracy across various benchmarks and model sizes.",
+                                    "source_url": "https://arxiv.org/abs/2603.12372",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-13989",
+                                    "title": "GENERATING EXPRESSIVE AND CUSTOMIZABLE EVALS FOR TIMESERIES DATA ANALYSIS AGENTS WITH AGENTFUEL",
+                                    "description": "<br><strong>STATUS:</strong> A new framework named AgentFuel has been developed to enable customized and expressive evaluations for conversational timeseries data analysis agents.\n\n<br><strong>INTEL:</strong> Conversational data analysis agents, vital in domains like IoT, cybersecurity, and telecommunications for \"talking to data,\" are currently failing on stateful and incident-specific queries due to expressivity gaps in existing evaluation datasets and query types. AgentFuel addresses these shortcomings by empowering domain experts to rapidly create tailored, end-to-end functional benchmarks, which not only highlight critical areas for improvement in current data agent frameworks but have also shown anecdotal evidence of improving agent performance.",
+                                    "source_url": "https://arxiv.org/abs/2603.12483",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-36085",
+                                    "title": "AI PLANNING FRAMEWORK FOR LLM-BASED WEB AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> A new framework and metrics have been developed to diagnose and evaluate autonomous web agent failures by formally mapping their architectures to traditional planning paradigms.<br><br><strong>INTEL:</strong> This research introduces a taxonomy mapping modern web agent architectures (e.g., Step-by-Step, Full-Plan-in-Advance) to traditional planning paradigms (e.g., BFS, DFS) to address the black-box nature of LLM agents in web tasks. This framework enables principled diagnosis of system failures like context drift, supported by five novel evaluation metrics and a new dataset. Initial validation indicates that while Step-by-Step agents align more closely with human trajectories, Full-Plan-in-Advance agents excel in technical accuracy, underscoring the necessity of these proposed metrics for selecting appropriate agent architectures based on specific application constraints.",
+                                    "source_url": "https://arxiv.org/abs/2603.12710",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-5157",
+                                    "title": "ON USING MACHINE LEARNING TO EARLY DETECT CATASTROPHIC FAILURES IN MARINE DIESEL ENGINES",
+                                    "description": "<br><strong>STATUS:</strong> A new method has been developed for the early detection of catastrophic marine engine failures to prevent severe damage and loss of life.<br><br><strong>INTEL:</strong> This innovative approach leverages the derivatives of deviations between actual and expected engine sensor readings, processed by a Random Forest algorithm, to identify anomalous dynamics significantly earlier than traditional critical threshold alarms, allowing operators to proactively shut down engines and avoid severe consequences.",
+                                    "source_url": "https://arxiv.org/abs/2603.12733",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-59362",
+                                    "title": "TOOLTREE: EFFICIENT LLM AGENT TOOL PLANNING VIA DUAL-FEEDBACK MONTE CARLO TREE SEARCH AND BIDIRECTIONAL PRUNING",
+                                    "description": "<br><strong>STATUS:</strong> A new planning paradigm named ToolTree has been introduced to enhance Large Language Model (LLM) agent tool planning capabilities.<br><br><strong>INTEL:</strong> ToolTree utilizes a Monte Carlo tree search-inspired approach, employing a dual-stage LLM evaluation and bidirectional pruning mechanism to explore potential tool usage trajectories. This method allows LLM agents to make more informed and adaptive decisions over extended tool-use sequences by pruning less promising branches, demonstrating an average performance gain of approximately 10% over state-of-the-art planning paradigms across four benchmarks.",
+                                    "source_url": "https://arxiv.org/abs/2603.12740",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-41951",
+                                    "title": "AI MODEL MODULATION WITH LOGITS REDISTRIBUTION",
+                                    "description": "<br><strong>STATUS:</strong> A new model modulation paradigm, AIM, is proposed to allow a single large-scale model to exhibit diverse behaviors without requiring multiple specialized versions.<br><br><strong>INTEL:</strong> AIM introduces utility and focus modulations, providing dynamic control over output quality and input feature focus, respectively. It operates via a training data-agnostic and retraining-free logits redistribution strategy, with its practical versatility confirmed across image classification, semantic segmentation, and text generation tasks using architectures like ResNet, SegFormer, and Llama.",
+                                    "source_url": "https://arxiv.org/abs/2603.12755",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-1600",
+                                    "title": "CONTEXT IS ALL YOU NEED: TOWARDS AUTONOMOUS MODEL-BASED PROCESS DESIGN USING AGENTIC AI IN FLOWSHEET SIMULATIONS",
+                                    "description": "<br><strong>STATUS:</strong> A new agentic AI framework has been developed to apply large language models (LLMs) to assist in industrial chemical process flowsheet modeling.\n\n<br><strong>INTEL:</strong> This framework leverages GitHub Copilot with state-of-the-art LLMs like Claude Opus 4.6 to generate valid syntax for the in-house process modeling tool Chemasim, using technical documentation and examples as context. It features a multi-agent system that decomposes process development tasks, with one agent solving abstract engineering problems and another implementing solutions as Chemasim code, demonstrating effectiveness in complex chemical process simulations like reaction/separation and various distillations. This represents a significant extension of agentic AI capabilities from software development into specialized industrial engineering applications.",
+                                    "source_url": "https://arxiv.org/abs/2603.12813",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-36208",
+                                    "title": "ODRL POLICY COMPARISON THROUGH NORMALISATION",
+                                    "description": "<br><strong>STATUS:</strong> A new approach has been developed to simplify and standardize ODRL (Open Digital Rights Language) policies to overcome its complexity and interoperability issues.<br><br><strong>INTEL:</strong> This method involves parametrised normalisation, reducing ODRL policies into minimal components by reformulating permissions and prohibitions into permissions exclusively, and simplifying complex logic constraints. Algorithms are provided to compute this normal form and simplify numerical/symbolic constraints, preserving policy semantics and transforming complex policy comparison into a simpler check for identical rules, despite an exponential size complexity on the number of attributes.",
+                                    "source_url": "https://arxiv.org/abs/2603.12926",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-30198",
+                                    "title": "EFFICIENT AND INTERPRETABLE MULTI-AGENT LLM ROUTING VIA ANT COLONY OPTIMIZATION",
+                                    "description": "<br><strong>STATUS:</strong> A new framework, AMRO-S, has been introduced to enhance efficient and interpretable routing in Large Language Model (LLM)-driven Multi-Agent Systems (MAS).<br><br><strong>INTEL:</strong> AMRO-S tackles the challenges of high inference cost, latency, and limited transparency in MAS by modeling routing as a semantic-conditioned path selection problem. It achieves this through a supervised fine-tuned small language model for low-overhead intent inference, task-specific \"pheromone\" specialists to reduce cross-task interference, and a quality-gated asynchronous update mechanism that decouples inference from learning, ultimately optimizing the quality-cost trade-off and providing traceable routing evidence.",
+                                    "source_url": "https://arxiv.org/abs/2603.12933",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-53175",
+                                    "title": "STRUCTURED DISTILLATION FOR PERSONALIZED AGENT MEMORY: 11X TOKEN REDUCTION WITH RETRIEVAL PRESERVATION",
+                                    "description": "<br><strong>STATUS:</strong> A new method for compressing personalized AI agent conversation history has been developed, significantly reducing context cost without uniformly sacrificing retrieval quality.<br><br><strong>INTEL:</strong> This technique distills user-agent exchanges into a compact 38-token compound object, achieving 11x compression (from 371 to 38 tokens) and allowing thousands of exchanges to fit within a single prompt. Evaluation shows distilled memory reaches 96% of verbatim recall with pure search, and cross-layer setups can slightly exceed verbatim performance while retaining the original source for drill-down.",
+                                    "source_url": "https://arxiv.org/abs/2603.13017",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-50755",
+                                    "title": "BEYOND FINAL ANSWERS: CRYSTAL BENCHMARK FOR TRANSPARENT MULTIMODAL REASONING EVALUATION",
+                                    "description": "<br><strong>STATUS:</strong> A new diagnostic benchmark called CRYSTAL and a training method called Causal Process Reward (CPR) Curriculum have been introduced to evaluate and improve multimodal reasoning in MLLMs.<br><br><strong>INTEL:</strong> CRYSTAL evaluates Multimodal Large Language Models (MLLMs) via verifiable intermediate steps using metrics like Match F1 and Ordered Match F1, revealing systematic failures in 20 evaluated models, including universal cherry-picking and disordered reasoning where models fail to preserve step order. To address these issues, the Causal Process Reward (CPR) and CPR-Curriculum are proposed, a novel multiplicative reward strategy achieving substantial reasoning improvements (+32% Match F1) without requiring manual step annotations, thus offering a scalable method to train more robust MLLMs.",
+                                    "source_url": "https://arxiv.org/abs/2603.13099",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-64200",
+                                    "title": "STEVE-EVOLVING: OPEN-WORLD EMBODIED SELF-EVOLUTION VIA FINE-GRAINED DIAGNOSIS AND DUAL-TRACK KNOWLEDGE DISTILLATION",
+                                    "description": "<br><strong>STATUS:</strong> \"Steve-Evolving\" is a new non-parametric, self-evolving framework designed to help open-world embodied agents solve long-horizon tasks by continually organizing and evolving interaction experience.\n\n<br><strong>INTEL:</strong> This framework tightly couples fine-grained execution diagnosis with dual-track knowledge distillation in a closed loop, operating through Experience Anchoring (structuring attempts with detailed diagnosis), Experience Distillation (generalizing successes into reusable skills and failures into executable guardrails), and Knowledge-Driven Closed-Loop Control (injecting knowledge into an LLM planner for online, diagnosis-triggered replanning). It achieves continual evolution without requiring model parameter updates and has demonstrated consistent improvements over static-retrieval baselines in long-horizon tasks within Minecraft MCU.",
+                                    "source_url": "https://arxiv.org/abs/2603.13131",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-99754",
+                                    "title": "WHEN RIGHT MEETS WRONG: BILATERAL CONTEXT CONDITIONING WITH REWARD-CONFIDENCE CORRECTION FOR GRPO",
+                                    "description": "<br><strong>STATUS:</strong> Researchers have introduced a contrastive reformulation of Group Relative Policy Optimization (GRPO) along with Bilateral Context Conditioning (BICC) and Reward-Confidence Correction (RCC) to significantly enhance the training of reasoning models.\n\n<br><strong>INTEL:</strong> The proposed method addresses a key limitation of standard GRPO, which treats outputs independently and ignores the vital structural signal of contrast between correct and incorrect reasoning traces within the same group. By re-formulating GRPO to implicitly maximize the margin between policy ratios of correct and incorrect samples, and introducing BICC for cross-referencing traces and RCC for dynamic advantage baseline adjustment, the new approach allows for direct information flow and stabilized training. These mechanisms integrate seamlessly without additional sampling or auxiliary models, are adaptable to all GRPO variants, and have demonstrated consistent improvements on mathematical reasoning benchmarks.",
+                                    "source_url": "https://arxiv.org/abs/2603.13134",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-97722",
+                                    "title": "DEVELOPING AND EVALUATING A CHATBOT TO SUPPORT MATERNAL HEALTH CARE",
+                                    "description": "<br><strong>STATUS:</strong> A new phone-based chatbot for maternal health in India has been developed and rigorously evaluated to provide trustworthy information in low-resource settings.<br><br><strong>INTEL:</strong> This project details the development of a phone-based maternal health chatbot for India, designed to overcome challenges like low health literacy and code-mixed queries in low-resource settings. The system integrates stage-aware triage, hybrid retrieval, and evidence-conditioned LLM generation, validated by a crucial multi-method evaluation workflow that includes a triage benchmark achieving 86.7% emergency recall, highlighting the need for defense-in-depth design for trustworthy medical AI.",
+                                    "source_url": "https://arxiv.org/abs/2603.13168",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
                                     "id": "GS-76975",
                                     "title": "DIVE: SCALING DIVERSITY IN AGENTIC TASK SYNTHESIS FOR GENERALIZABLE TOOL USE",
                                     "description": "<br><strong>STATUS:</strong> A new evidence-driven method, DIVE, significantly enhances the out-of-distribution generalization of tool-using Large Language Models by addressing limitations in task diversity.\n\n<br><strong>INTEL:</strong> Existing LLMs exhibit brittleness in tool-using tasks due to insufficient diversity in synthesized training data; DIVE overcomes this by inverting the synthesis order, executing diverse real-world tools first and then reverse-deriving tasks from the resulting traces, ensuring grounded and structurally diverse training. This method, which prioritizes diversity scaling over data quantity, yielded substantial performance improvements (+22 average points) for Qwen3-8B on nine out-of-distribution benchmarks and outperformed leading 8B baselines, demonstrating that diversity is a more critical factor than sheer volume for achieving robust out-of-distribution generalization.",
@@ -1229,126 +1349,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> The article proposes a new Personal Agent Operating System (AgentOS) paradigm to resolve architectural mismatches faced by emerging open-source AI agents running on legacy operating systems.<br><br><strong>INTEL:</strong> Existing AI agents encounter challenges like fragmented interaction models and poor permission management (\"Shadow AI\") when confined to traditional OS. AgentOS aims to revolutionize this by replacing conventional GUI desktops with Natural User Interfaces (NUIs) and employing an Agent Kernel to interpret user intent, orchestrate tasks, and coordinate agents, effectively transforming applications into modular \"Skills-as-Modules.\" The paper highlights that the fundamental realization of AgentOS is a Knowledge Discovery and Data Mining (KDD) problem, requiring the Agent Kernel to function as a real-time engine for intent mining, workflow automation, skill retrieval, and the dynamic evolution of personal knowledge graphs.",
                                     "source_url": "https://arxiv.org/abs/2603.08938",
                                     "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-32022",
-                                    "title": "A CONSENSUS-DRIVEN MULTI-LLM PIPELINE FOR MISSING-PERSON INVESTIGATIONS",
-                                    "description": "<br><strong>STATUS:</strong> A new multi-model LLM system named Guardian has been developed to enhance missing-child investigations and early search planning.\n\n<br><strong>INTEL:</strong> The Guardian LLM Pipeline utilizes task-specialized LLMs for intelligent information extraction and processing, incorporating a consensus LLM engine to compare and resolve disagreements between multiple model outputs. The system is further strengthened by QLoRA-based fine-tuning using curated datasets, aligning with principles of weak supervision and auditable LLM-assisted annotation for structured extraction rather than unconstrained decision-making.",
-                                    "source_url": "https://arxiv.org/abs/2603.08954",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-46274",
-                                    "title": "THE FABRIC STRATEGY FOR VERIFYING NEURAL FEEDBACK SYSTEMS",
-                                    "description": "<br><strong>STATUS:</strong> New algorithms for backward reachability analysis have been developed and integrated with forward analysis into a system called FaBRIC, significantly improving the verification of neural feedback systems.<br><br><strong>INTEL:</strong> This work addresses the limited scalability of backward reachability analysis in nonlinear neural feedback systems by introducing novel algorithms for computing both over- and underapproximations of backward reachable sets. The resulting FaBRIC algorithm combines these advancements with existing forward analysis techniques, offering a more robust and efficient approach for certifying reach-avoid specifications. This represents a critical step forward in ensuring the reliability and safety of systems controlled by neural networks, providing enhanced capabilities for formal verification in AI-driven control applications.",
-                                    "source_url": "https://arxiv.org/abs/2603.08964",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-24683",
-                                    "title": "MEISSA: MULTI-MODAL MEDICAL AGENTIC INTELLIGENCE",
-                                    "description": "<br><strong>STATUS:</strong> A new lightweight medical multi-modal large language model (MM-LLM) named Meissa has been developed, enabling offline agentic capabilities for medical image understanding and clinical reasoning.<br><br><strong>INTEL:</strong> Meissa, with 4B parameters, was trained on 40K curated trajectories to learn strategy selection and execution, matching or exceeding proprietary frontier agents in 10 of 16 evaluation settings across 13 medical benchmarks. It operates fully offline with 22x lower latency compared to API-based deployment, addressing high cost, latency, and privacy risks of frontier models (e.g., GPT, Gemini-3) for on-premise clinical requirements.",
-                                    "source_url": "https://arxiv.org/abs/2603.09018",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-76142",
-                                    "title": "MEMO: MEMORY-AUGMENTED MODEL CONTEXT OPTIMIZATION FOR ROBUST MULTI-TURN MULTI-AGENT LLM GAMES",
-                                    "description": "<br><strong>STATUS:</strong> A new self-play framework called MEMO significantly enhances multi-agent LLM game win rates and reduces evaluation variance by optimizing inference-time context.<br><br><strong>INTEL:</strong> MEMO, a Memory-augmented MOdel context optimization framework, improves multi-agent LLM performance by coupling a persistent memory for self-play insights (retention) with tournament-style prompt evolution and uncertainty-aware selection (exploration). This method nearly doubles win rates for models like GPT-4o-mini and Qwen-2.5-7B-Instruct, substantially reducing evaluation variance, with its greatest impact observed in negotiation and imperfect-information games.",
-                                    "source_url": "https://arxiv.org/abs/2603.09022",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-14492",
-                                    "title": "TIME, IDENTITY AND CONSCIOUSNESS IN LANGUAGE MODEL AGENTS",
-                                    "description": "<br><strong>STATUS:</strong> A new toolkit is introduced for evaluating the genuine self-identity and organizational stability of machine consciousness in language model agents, aiming to differentiate it from mere behavioral mimicry.\n\n<br><strong>INTEL:</strong> The evaluation method applies Stack Theory's temporal gap to scaffold agent trajectories, distinguishing between the sequential occurrence of identity components and their simultaneous co-instantiation at a single objective step. By instantiating Stack Theory's Arpeggio and Chord postulates on grounded identity statements, the system computes two persistence scores, providing a conservative framework to determine if an agent is truly organized as a stable self or merely talks like one, thus offering a more robust assessment of machine consciousness beyond superficial language and tool use.",
-                                    "source_url": "https://arxiv.org/abs/2603.09043",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-96535",
-                                    "title": "EPOCH: AN AGENTIC PROTOCOL FOR MULTI-ROUND SYSTEM OPTIMIZATION",
-                                    "description": "<br><strong>STATUS:</strong> A new engineering protocol named EPOCH has been introduced to standardize multi-round self-optimization for autonomous agents.\n\n<br><strong>INTEL:</strong> EPOCH provides a unified approach to establish baselines and manage iterative improvement across diverse components like prompts, model configurations, and code, structuring optimization into distinct phases and stages to ensure stability, reproducibility, and traceability in production environments.",
-                                    "source_url": "https://arxiv.org/abs/2603.09049",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-55551",
-                                    "title": "FROM DAYS TO MINUTES: AN AUTONOMOUS AI AGENT ACHIEVES RELIABLE CLINICAL TRIAGE IN REMOTE PATIENT MONITORING",
-                                    "description": "<br><strong>STATUS:</strong> Sentinel, an autonomous AI agent, successfully triages remote patient monitoring (RPM) vitals with sensitivity exceeding individual clinicians, addressing prior scalability limitations.\n\n<br><strong>INTEL:</strong> Prior RPM trials failed because human staff were overwhelmed by data, making intensive 24/7 monitoring, despite its proven mortality reduction, prohibitively expensive and unscalable. Sentinel overcomes this by employing a Model Context Protocol (MCP) that utilizes 21 clinical tools and multi-step reasoning to automate contextual triage, achieving 95.8% emergency sensitivity and outperforming individual clinicians while maintaining a clinically defensible overtriage profile at a median cost of $0.34 per triage.",
-                                    "source_url": "https://arxiv.org/abs/2603.09052",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-79981",
-                                    "title": "CHAOTIC DYNAMICS IN MULTI-LLM DELIBERATION",
-                                    "description": "<br><strong>STATUS:</strong> Research reveals multi-LLM deliberation systems exhibit unexpected instability and divergence under repeated execution, even in their initial deterministic state.<br><br><strong>INTEL:</strong> Multi-LLM committees, vital for collective AI, display significant inter-run sensitivity quantified by the empirical Lyapunov exponent ($\\hat{\\lambda}$), with instability at T=0 driven by role differentiation in homogeneous committees and model heterogeneity in no-role committees. Mitigation strategies, such as Chair-role ablation and shortened memory windows, are shown to significantly reduce this divergence. These findings underscore the critical need for stability auditing as a fundamental design requirement for reliable multi-LLM governance systems.",
-                                    "source_url": "https://arxiv.org/abs/2603.09127",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-85366",
-                                    "title": "DEEP TABULAR RESEARCH VIA CONTINUAL EXPERIENCE-DRIVEN EXECUTION",
-                                    "description": "<br><strong>STATUS:</strong> A novel agentic framework has been developed to enable Large Language Models to perform complex, multi-step analytical tasks over unstructured tables, formalized as Deep Tabular Research (DTR).<br><br><strong>INTEL:</strong> This framework treats tabular reasoning as a closed-loop decision-making process, utilizing a hierarchical meta graph to map natural language queries into an operational search space, an expectation-aware selection policy to prioritize high-utility execution paths, and a siamese structured memory for continual refinement from historical outcomes, emphasizing the critical separation of strategic planning from low-level execution.",
-                                    "source_url": "https://arxiv.org/abs/2603.09151",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-36519",
-                                    "title": "DATAFACTORY: COLLABORATIVE MULTI-AGENT FRAMEWORK FOR ADVANCED TABLE QUESTION ANSWERING",
-                                    "description": "<br><strong>STATUS:</strong> A new multi-agent framework called DataFactory has been introduced, significantly enhancing Table Question Answering (TableQA) capabilities by overcoming limitations of existing LLM approaches.<br><br><strong>INTEL:</strong> DataFactory utilizes a multi-agent architecture comprising a Data Leader employing the ReAct paradigm, alongside dedicated Database and Knowledge Graph teams, to systematically decompose complex queries and enable automated data-to-knowledge graph transformation. This framework implements flexible inter-agent deliberation and context engineering to reduce hallucinations and improve reliability, achieving substantial accuracy gains of up to 23.9% over baselines and offering a robust platform for enterprise data analysis.",
-                                    "source_url": "https://arxiv.org/abs/2603.09152",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-98723",
-                                    "title": "AUTONOMOUS AI AGENTS FOR OPTION HEDGING: ENHANCING FINANCIAL STABILITY THROUGH SHORTFALL AWARE REINFORCEMENT LEARNING",
-                                    "description": "<br><strong>STATUS:</strong> New reinforcement learning frameworks, RLOP and an adaptive QLBS extension, have been introduced to address the growing discrepancy between static model calibration and realized hedging outcomes for autonomous AI agents in derivatives markets.<br><br><strong>INTEL:</strong> These frameworks prioritize downside-sensitive hedging by focusing on shortfall probability and tail risk, rather than traditional implied volatility fit. Empirical evaluations show RLOP significantly reduces shortfall frequency and improves tail-risk metrics, especially under stress, suggesting a practical, friction-aware approach for autonomous derivatives risk management even when parametric models appear to fit implied volatility better.",
-                                    "source_url": "https://arxiv.org/abs/2603.06587",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-39404",
-                                    "title": "SCALING STRATEGY, NOT COMPUTE: A STAND-ALONE, OPEN-SOURCE STARCRAFT II BENCHMARK FOR ACCESSIBLE REINFORCEMENT LEARNING RESEARCH",
-                                    "description": "<br><strong>STATUS:</strong> A new intermediate benchmark suite, the \"Two-Bridge Map Suite,\" has been released to address the complexity gap in Reinforcement Learning research for Real-Time Strategy (RTS) environments.\n<br><br><strong>INTEL:</strong> This open-source, Gym-compatible benchmark fills the void between StarCraft II's full game and its mini-games by disabling economy mechanics to isolate core tactical skills: long-range navigation and micro-combat. It allows researchers to develop and test modern Reinforcement Learning algorithms more effectively under realistic compute budgets, encouraging broad adoption as a standard benchmark in the community.",
-                                    "source_url": "https://arxiv.org/abs/2603.06608",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-82643",
-                                    "title": "MULTIGEN: LEVEL-DESIGN FOR EDITABLE MULTIPLAYER WORLDS IN DIFFUSION GAME ENGINES",
-                                    "description": "<br><strong>STATUS:</strong> A new video world model architecture is introduced to enhance interactivity, user control, and multiplayer capabilities.<br><br><strong>INTEL:</strong> This novel approach addresses limitations in user control and shared inference in current video world models by integrating an explicit external memory, separate from the model's context window, that is updated by user actions. Unlike conventional diffusion game engines, its architecture decomposes generation into Memory, Observation, and Dynamics modules, providing direct editable control over environment structure and facilitating robust real-time multiplayer rollouts with consistent cross-player interactions.",
-                                    "source_url": "https://arxiv.org/abs/2603.06679",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-55619",
-                                    "title": "BEST-OF-TAILS: BRIDGING OPTIMISM AND PESSIMISM IN INFERENCE-TIME ALIGNMENT",
-                                    "description": "<br><strong>STATUS:</strong> A new adaptive inference-time alignment framework for large language models (LLMs) called Best-of-Tails (BoT) has been introduced.\n\n<br><strong>INTEL:</strong> BoT formalizes the trade-off between optimistic and pessimistic inference-time alignment strategies, demonstrating that the optimal approach depends on the reward distribution's tail behavior. It dynamically adjusts its selection rule using Tsallis divergence as a tunable regularizer and the Hill estimator to characterize per-prompt reward-tail heaviness, balancing exploration against alignment error to improve performance over fixed-strategy baselines across multiple evaluations.",
-                                    "source_url": "https://arxiv.org/abs/2603.06797",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-92964",
-                                    "title": "BREAKING THE MARTINGALE CURSE: MULTI-AGENT DEBATE VIA ASYMMETRIC COGNITIVE POTENTIAL ENERGY",
-                                    "description": "<br><strong>STATUS:</strong> A new framework called AceMAD has been developed to overcome the \"Martingale Curse\" in Multi-Agent Debate for large language models, allowing them to converge on truth even when initial majorities are incorrect.\n\n<br><strong>INTEL:</strong> The \"Martingale Curse\" highlights a critical flaw in standard Multi-Agent Debate (MAD) for LLMs, where correlated errors prevent it from exceeding majority voting accuracy. AceMAD breaks this by introducing asymmetric cognitive potential energy, identified through a peer-prediction mechanism where agents holding the truth can anticipate the crowd's misconceptions, a capability the erring majority lacks. This quantified asymmetry generates a \"submartingale drift toward truth\" under nonlinear aggregation, transforming MAD from a random walk into a directed process that effectively recovers sparse truth signals and outperforms baselines on challenging reasoning benchmarks.",
-                                    "source_url": "https://arxiv.org/abs/2603.06801",
-                                    "timestamp": "2026.03.10",
                                     "feed_name": "ARXIV_AI_PAPERS"
                                 }
                             ]
