@@ -119,6 +119,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-55157",
+                                    "title": "TURKEY\u2019S BAYKAR TESTS SWARM BEHAVIOR OF ITS K2 ONE-WAY ATTACK DRONE",
+                                    "description": "<br><strong>STATUS:</strong> Turkish defense firm Baykar announced successful flight tests of its K2 loitering munition, showcasing autonomous swarm formation and navigation capabilities in GPS-denied environments.<br><br><strong>INTEL:</strong> The K2 is a large, long-endurance fixed-wing loitering munition with a significant warhead, engineered to operate effectively without global navigation satellite systems through advanced terrain-referenced visual navigation and AI-assisted swarm synergy. This robust navigation architecture, a direct response to GPS jamming observed in modern conflicts, positions the K2 as a strategic, low-cost asset for large-scale precision strikes, aiming to reduce dependence on more expensive conventional munitions.",
+                                    "source_url": "https://www.c4isrnet.com/global/europe/2026/03/16/turkeys-baykar-tests-swarm-behavior-of-its-k2-one-way-attack-drone/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-41778",
                                     "title": "AFTER UKRAINE, FPV DRONES COULD TAKE ON ARCTIC WARFARE",
                                     "description": "<br><strong>STATUS:</strong> Arctic nations, particularly Norway and the US, are actively testing and adapting first-person-view (FPV) drones for potential deployment in cold-weather combat environments, incorporating lessons learned from their use in Ukraine.<br><br><strong>INTEL:</strong> Building on the effectiveness demonstrated in Ukraine, Norway is implementing FPV and intelligence-gathering drones like the Skydio X10D, and even self-built explosive-carrying variants, into Arctic exercises despite challenges with battery life in extreme cold. The U.S. Marines are also experimenting with specialized FPVs for force-on-force training and counter-drone tactics, highlighting a collaborative effort among allies to overcome environmental hurdles and integrate these systems for reconnaissance, high-value target operations, and strike capabilities in Arctic warfare.",
@@ -542,6 +550,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-60194",
+                                    "title": "TURKEY\u2019S BAYKAR TESTS SWARM BEHAVIOR OF ITS K2 ONE-WAY ATTACK DRONE",
+                                    "description": "<br><strong>STATUS:</strong> Turkish defense company Baykar has announced successful flight tests of its K2 loitering munition, demonstrating autonomous swarm formation and navigation capabilities in GPS-denied environments.<br><br><strong>INTEL:</strong> The K2 is a large fixed-wing loitering munition designed for long-range strike and reconnaissance, featuring advanced electro-optical/infrared sensors and a substantial warhead. Its critical capability lies in its robust navigation architecture, which utilizes terrain-referenced visual navigation to operate effectively in GPS-denied or jammed environments, a direct response to modern conflict observations. Additionally, the platform successfully demonstrated AI-assisted swarm synergy, allowing multiple K2 units to autonomously maintain formation and execute tasks, positioning it as a potentially inexpensive, high-volume precision strike option.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/16/turkeys-baykar-tests-swarm-behavior-of-its-k2-one-way-attack-drone/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-21598",
                                     "title": "FINCANTIERI IS ITCHING TO BUILD MORE SHIPS FOR THE US NAVY",
                                     "description": "<br><strong>STATUS:</strong> Fincantieri is actively re-positioning itself to secure future U.S. government shipbuilding contracts, including small surface combatants and specialized vessels, following the cancellation of the Constellation frigate program.\n\n<br><br><strong>INTEL:</strong> Fincantieri Marine Group, having invested heavily in its Wisconsin yard, is targeting the U.S. Navy's \"Golden Fleet\" expansion, specifically the 70-plus vessel Small Surface Combatant segment, which may include corvettes and large unmanned vessels, in addition to recent Marine Landing Vessel orders. The Navy is implementing a new acquisition strategy for programs like the Landing Vessels, utilizing a Vessel Construction Manager (VCM) to streamline construction, enforce final designs with zero modifications, and expedite delivery, a model Fincantieri views as an opportunity to prove its efficiency in serial naval vessel production.",
@@ -930,14 +946,6 @@ const signalTree = {
                                     "title": "NO DEAL WITH IRAN EXCEPT \u2018UNCONDITIONAL SURRENDER,\u2019 TRUMP SAYS",
                                     "description": "<br><strong>STATUS:</strong> U.S. President Trump has publicly demanded Iran's unconditional surrender to end the ongoing conflict, rejecting any negotiated deal. <br><br><strong>INTEL:</strong> U.S. forces are conducting \"Operation Epic Fury,\" having struck approximately 2,000 targets, including Iran's navy, missile capabilities, and \"space command,\" leading to a 90% reduction in ballistic missile attacks and an 83% decrease in drone attacks. Despite significant tactical successes and assurances of surging U.S. munitions, there are strategic concerns regarding the high cost of U.S. interceptor missiles versus inexpensive Iranian drones, leading the U.S. to seek Ukrainian expertise and plan to increase domestic missile system production.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/06/no-deal-with-iran-except-unconditional-surrender-trump-says/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-22999",
-                                    "title": "PATRIOT PRODUCTION DELAYS PROMPT SWITZERLAND TO SEEK EUROPEAN AIR-DEFENSE FALLBACK",
-                                    "description": "<br><strong>STATUS:</strong> Switzerland will acquire fewer F-35 jets and is considering a second European long-range air-defense system due to significant delays in US Patriot deliveries and increased fighter jet costs.\n\n<br><strong>INTEL:</strong> The US reprioritized Patriot deliveries to support Ukraine, causing a 4-5 year delay for Switzerland and a potential 50% cost increase, prompting them to seek a European alternative like SAMP/T to mitigate capability gaps and diversify their supply chain dependence. Simultaneously, increased unit costs for the F-35 mean Switzerland will reduce its order from 36 aircraft due to budget constraints, further complicated by a narrow voter approval of the original defense budget.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/06/patriot-production-delays-prompt-switzerland-to-seek-european-air-defense-fallback/",
                                     "timestamp": "2026.03.06",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1367,6 +1375,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-14527",
+                                    "title": "KEPLER COMMUNICATIONS: CALL FOR LIVE-STREAM PAYLOAD CONCEPTS",
+                                    "description": "<br><strong>STATUS:</strong> Kepler is soliciting proposals for hosted payloads on its 2027 and 2028 LEO missions, offering real-time data streaming via its optical constellation with formal selections expected by Q1 2026.<br><br><strong>INTEL:</strong> Kepler is rapidly deploying an optically interconnected LEO constellation, with 33 satellites launched to date, to provide persistent, real-time data streaming and on-orbit compute services. This initiative targets critical applications like Intelligence, Surveillance and Reconnaissance (ISR) and Space Domain Awareness, allowing hosted payloads on 300 kg-class spacecraft from 2027 to bypass traditional communications bottlenecks and achieve continuous, high-volume data collection and live-streaming through an always-connected network.",
+                                    "source_url": "https://spacenews.com/kepler-communications-call-for-live-stream-payload-concepts/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-89481",
                                     "title": "INVESTING IN STUDENT PROGRAMS IS ESSENTIAL FOR AMERICA\u2019S LEAD IN SPACE",
                                     "description": "<br><strong>STATUS:</strong> The University of Illinois\u2019 SEAQUE experiment has successfully advanced space-based quantum communication technologies, while also highlighting the fragility of US leadership in this domain due to funding uncertainties.<br><br><strong>INTEL:</strong> The SEAQUE project, a first for the U.S. involving a novel entanglement source and radiation-healing sensor annealing techniques, provides critical technology for future secure global quantum networks and trains essential STEM talent through real-world space hardware development. However, despite its success and the global race in quantum technology\u2014with rivals like China heavily investing\u2014US support for such student-driven, cost-effective space experiments is diminishing, threatening the nation's ability to maintain its technological edge and talent pipeline in this crucial sector.",
@@ -1757,20 +1773,28 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/first-starship-v3-launch-slips/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-23508",
-                                    "title": "CHINESE OFFICIAL CALLS FOR PRIORITIZING NEPTUNE ORBITER MISSION",
-                                    "description": "<br><strong>STATUS:</strong> A senior Chinese space scientist is proposing that China prioritize an unprecedented orbiter mission to the ice giant Neptune.\n\n<br><strong>INTEL:</strong> The proposal, made during China's ongoing political sessions, calls for including a Neptune orbiter as a priority in national science and technology plans, requiring significant technological advancements like space nuclear power (RTGs) for a projected 2033 launch, and aims for a world-first orbital study to explore Neptune's formation, composition, and the potential habitability of its moon Triton, strategically enhancing China's deep space capabilities.",
-                                    "source_url": "https://spacenews.com/chinese-official-calls-for-prioritizing-neptune-orbiter-mission/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-51682",
+                                    "title": "CELEBRATING 100 YEARS SINCE GODDARD\u2019S BREAKTHROUGH MOMENT IN MODERN ROCKETRY",
+                                    "description": "<br><strong>STATUS:</strong> The article commemorates the 100th anniversary of Dr. Robert H. Goddard's pioneering launch of the first successful liquid-fueled rocket on March 16, 1926.<br><br><strong>INTEL:</strong> This initial test, utilizing liquid oxygen and gasoline and flying only 41 feet, was a pivotal technological breakthrough despite its modest scope, establishing the fundamental principles for modern space travel, satellite deployment, and planetary exploration that continue to be critical for humanity's strategic access to and understanding of space.",
+                                    "source_url": "https://www.nasa.gov/image-article/celebrating-100-years-since-goddards-breakthrough-moment-in-modern-rocketry/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-29254",
+                                    "title": "A COMBINATION OF TECHNIQUES LEADS TO IMPROVED FRICTION STIR WELDING",
+                                    "description": "<br><strong>STATUS:</strong> The NESC has successfully improved Self-Reacting Friction Stir Welding (SRFSW) by resolving issues of poor tensile strength and low topography anomalies, thereby lifting constraints on flight hardware production.\n\n<br><strong>INTEL:</strong> SRFSW is a vital solid-state welding process that creates stronger joints and enables the use of high-performance, traditionally non-weldable alloys, critical for aerospace applications. The root causes were identified using a combination of machine learning, statistical modeling, and physics-based simulations, leading to refined control parameters and a defined weld power input window, which subsequent production tests confirmed eliminated both low-strength welds and anomalies.",
+                                    "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/a-combination-of-techniques-leads-to-improved-friction-stir-welding/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-14569",
                                     "title": "NESC DEVELOPS METHOD FOR ESTIMATING RISK\u00a0WHEN REDUCING NDE",
@@ -2154,22 +2178,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/directorates/armd/iasp/sfd/about-sfd/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-30761",
-                                    "title": "ABOUT FLIGHT DEMONSTRATIONS AND CAPABILITIES (FDC) PROJECT",
-                                    "description": "<br><strong>STATUS:</strong> The FDC project conducts complex flight research to validate new technologies across all phases of maturation for NASA and the aviation industry.<br><br><strong>INTEL:</strong> The project operates national flight research capabilities at NASA's Armstrong Flight Research Center at Edwards, California, including a support aircraft fleet, the Dryden Aeronautical Test Range, and flight simulators. It leverages extensive collaboration with academia, industry, and government to integrate diverse assets and execute aggressive, success-oriented flight campaigns aimed at maturing and validating critical aviation technologies.",
-                                    "source_url": "https://www.nasa.gov/directorates/armd/iasp/fdc/about-fdc/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-77472",
-                                    "title": "WHAT IS PI? (GRADES 5-8)",
-                                    "description": "<br><strong>STATUS:</strong> The article explains how the mathematical constant Pi is extensively utilized by NASA for various space exploration and engineering calculations.<br><br><strong>INTEL:</strong> Pi, an irrational number approximated by NASA as 3.14 for most applications, is fundamental for calculations involving circles, curves, or spheres in geometry, physics, and engineering. Its critical uses by NASA include determining parachute sizes for spacecraft landings, calculating the volume and density of planets or asteroids, and managing fuel capacity and flow within spacecraft systems, highlighting its indispensable role in mission success and understanding the cosmos.",
-                                    "source_url": "https://www.nasa.gov/learning-resources/what-is-pi-grades-5-8/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2186,6 +2194,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-86477",
+                                    "title": "SHADOW AI IS EVERYWHERE. HERE\u2019S HOW TO FIND AND SECURE IT.",
+                                    "description": "<br><strong>STATUS:</strong> Nudge Security is presented as a solution for organizations to secure and govern the pervasive and often unmonitored use of AI tools, addressing the challenge of \"shadow AI.\"<br><br><strong>INTEL:</strong> Nudge Security achieves this by integrating with existing IdPs (Microsoft 365/Google Workspace) to provide Day One and continuous discovery of AI apps and accounts through analysis of machine-generated emails. Its browser extension enables real-time monitoring of AI conversations and file uploads for sensitive data, tracks SaaS-to-AI integrations, and allows for proactive governance through configurable alerts and user \"nudges\" to enforce policies and mitigate data exposure risks.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/shadow-ai-is-everywhere-heres-how-to-find-and-secure-it/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-35179",
                                     "title": "MICROSOFT PULLS SAMSUNG APP BLOCKING WINDOWS C: DRIVE FROM STORE",
@@ -2575,14 +2591,6 @@ const signalTree = {
                                     "title": "SHINYHUNTERS CLAIMS ONGOING SALESFORCE AURA DATA THEFT ATTACKS",
                                     "description": "<br><strong>STATUS:</strong> Salesforce is warning customers that the ShinyHunters group is actively exploiting misconfigured Experience Cloud guest user settings, allowing data theft from hundreds of companies.\n\n<br><strong>INTEL:</strong> Attackers leverage overly permissive guest user profiles on public Salesforce Experience sites, enabling direct querying of CRM objects via the `/s/sfsites/aura` API endpoint. ShinyHunters, claiming 300-400 compromises since September 2023, is using a modified AuraInspector tool for scanning. Salesforce emphasizes this is a customer misconfiguration, not a platform vulnerability, and recommends auditing guest permissions, applying least privilege, and disabling guest API access.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-ongoing-salesforce-aura-data-theft-attacks/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-75745",
-                                    "title": "FBI WARNS OF PHISHING ATTACKS IMPERSONATING US CITY, COUNTY OFFICIALS",
-                                    "description": "<br><strong>STATUS:</strong> The FBI warns of a new phishing campaign where criminals impersonate U.S. officials to defraud businesses and individuals seeking city and county planning and zoning permits.\n\n<br><strong>INTEL:</strong> Scammers use publicly available information about permit applications to create convincing emails, instructing victims to pay fraudulent fees via wire transfer, peer-to-peer payment, or cryptocurrency. Common indicators include non-governmental email domains and tactics to rush payments, with the FBI advising verification of sender details and direct contact with government offices to confirm fee legitimacy, while urging victims to report incidents to the IC3.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/fbi-warns-of-phishing-attacks-impersonating-us-city-county-officials/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
