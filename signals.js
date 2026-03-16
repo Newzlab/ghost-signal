@@ -550,6 +550,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-38081",
+                                    "title": "NORWAY\u2019S ELITE ARCTIC SOLDIERS STILL DIG THEIR OWN SNOW CAVES TO HIDE FROM DRONES",
+                                    "description": "<br><strong>STATUS:</strong> Norway's elite Arctic warfare soldiers are utilizing traditional snow caves (quinzhees) as a primary method to evade detection from advanced drone sensors in modern surveillance scenarios.<br><br><strong>INTEL:</strong> These specialized units, including UK Royal Marines and Canadian special forces training alongside Norwegians, face evolving challenges in maintaining invisibility against sophisticated enemy technology, necessitating constant movement or static concealment within snow caves which reduce visual, thermal, and electronic signatures. Concurrently, the Norwegian unit is also experimenting with winterized surveillance drones, like the Skydio, to enhance their own reconnaissance capabilities for potential conflicts, especially with Russia, demonstrating a dual approach of leveraging both proven natural camouflage and cutting-edge unmanned systems.",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/16/norways-elite-arctic-soldiers-still-dig-their-own-snow-caves-to-hide-from-drones/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-60244",
+                                    "title": "TRUMP ASKS \u2018ABOUT 7\u2032 COUNTRIES FOR HELP TO OPEN THE STRAIT OF HORMUZ",
+                                    "description": "<br><strong>STATUS:</strong> President Trump has demanded that key oil-importing nations deploy warships to secure the Strait of Hormuz amidst the Iran war and soaring oil prices, but has not yet secured firm commitments for this coalition.\n\n<br><strong>INTEL:</strong> Despite U.S. appeals to nations heavily reliant on Middle East oil, including China, Japan, and European allies, there is widespread reluctance to commit military assets to the Strait of Hormuz, with some countries like Germany explicitly refusing. Iran, meanwhile, is selectively granting passage to some vessels but refuses to negotiate with the U.S. to end the conflict, blaming the U.S. and Israel for initiating hostilities. Concurrently, the International Energy Agency is releasing a record 412 million barrels of emergency oil stocks to global markets to counteract the escalating oil prices and mitigate the disruption.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/16/trump-asks-about-7-countries-for-help-to-open-the-strait-of-hormuz/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-60194",
                                     "title": "TURKEY\u2019S BAYKAR TESTS SWARM BEHAVIOR OF ITS K2 ONE-WAY ATTACK DRONE",
                                     "description": "<br><strong>STATUS:</strong> Turkish defense company Baykar has announced successful flight tests of its K2 loitering munition, demonstrating autonomous swarm formation and navigation capabilities in GPS-denied environments.<br><br><strong>INTEL:</strong> The K2 is a large fixed-wing loitering munition designed for long-range strike and reconnaissance, featuring advanced electro-optical/infrared sensors and a substantial warhead. Its critical capability lies in its robust navigation architecture, which utilizes terrain-referenced visual navigation to operate effectively in GPS-denied or jammed environments, a direct response to modern conflict observations. Additionally, the platform successfully demonstrated AI-assisted swarm synergy, allowing multiple K2 units to autonomously maintain formation and execute tasks, positioning it as a potentially inexpensive, high-volume precision strike option.",
@@ -930,22 +946,6 @@ const signalTree = {
                                     "title": "RUSSIA PROVIDED IRAN WITH INFORMATION THAT CAN HELP TEHRAN STRIKE US MILITARY, SOURCES SAY",
                                     "description": "<br><strong>STATUS:</strong> Russia has reportedly provided Iran with intelligence information that could aid Tehran in striking American military assets in the region, marking its initial involvement in the U.S.-Israel war against Iran.\n\n<br><br><strong>INTEL:</strong> This intelligence sharing signifies a strategic escalation, linking the U.S.-Iran conflict with broader geopolitical alliances where Russia and Iran maintain a reciprocal relationship, with Iran supplying drones and missiles for Russia's war in Ukraine. While the White House downplayed the immediate impact on current U.S. military operations, the development highlights deepening ties between Moscow and Tehran amidst Iran's international isolation, though U.S. intelligence has not indicated Russia is directly commanding Iran's use of the information.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/06/russia-provided-iran-with-information-that-can-help-tehran-strike-us-military-sources-say/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-86330",
-                                    "title": "AIR FORCE TEST LAUNCHES MINUTEMAN III WITH MULTIPLE REENTRY VEHICLES",
-                                    "description": "<br><strong>STATUS:</strong> Air Force Global Strike Command successfully conducted an operational test launch of an unarmed Minuteman III intercontinental ballistic missile equipped with two test reentry vehicles from Vandenberg Space Force Base.<br><br><strong>INTEL:</strong> The pre-scheduled test, designated GT 255, validated the Minuteman III's reliability and its capability to deliver multiple, independently targeted payloads with precision to a predetermined target thousands of miles away. This data is crucial for enhancing the performance of the ICBM fleet and ensuring the readiness of the land-based leg of the nuclear triad, particularly as the Minuteman III may need to remain operational beyond 2050 due to delays in the LGM-35A Sentinel modernization program.",
-                                    "source_url": "https://www.defensenews.com/news/your-air-force/2026/03/06/air-force-test-launches-minuteman-iii-with-multiple-reentry-vehicles/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-17419",
-                                    "title": "NO DEAL WITH IRAN EXCEPT \u2018UNCONDITIONAL SURRENDER,\u2019 TRUMP SAYS",
-                                    "description": "<br><strong>STATUS:</strong> U.S. President Trump has publicly demanded Iran's unconditional surrender to end the ongoing conflict, rejecting any negotiated deal. <br><br><strong>INTEL:</strong> U.S. forces are conducting \"Operation Epic Fury,\" having struck approximately 2,000 targets, including Iran's navy, missile capabilities, and \"space command,\" leading to a 90% reduction in ballistic missile attacks and an 83% decrease in drone attacks. Despite significant tactical successes and assurances of surging U.S. munitions, there are strategic concerns regarding the high cost of U.S. interceptor missiles versus inexpensive Iranian drones, leading the U.S. to seek Ukrainian expertise and plan to increase domestic missile system production.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/06/no-deal-with-iran-except-unconditional-surrender-trump-says/",
                                     "timestamp": "2026.03.06",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1375,6 +1375,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-31010",
+                                    "title": "MELAGEN LABS AND SATLYT ANNOUNCE JOINT ISS MISSION TO DEMONSTRATE RADIATION-RESILIENT IN-ORBIT COMPUTING AND NEXT-GEN SHIELDING",
+                                    "description": "<br><strong>STATUS:</strong> Melagen Labs and Satlyt are conducting a joint technology demonstration on the International Space Station to evaluate advanced radiation shielding for commercial AI processors in orbit.<br><br><strong>INTEL:</strong> The six-month mission, deploying on Aegis Aerospace\u2019s MISSE platform, will test Melagen\u2019s MLC1 composite shielding on a COTS AI processor managed by Satlyt\u2019s software to validate its reliable operation and data integrity under real radiation exposure, a crucial step for building future distributed compute infrastructure and Virtual AI Data Centers in Space.",
+                                    "source_url": "https://spacenews.com/melagen-labs-and-satlyt-announce-joint-iss-mission-to-demonstrate-radiation-resilient-in-orbit-computing-and-next-gen-shielding/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-14527",
                                     "title": "KEPLER COMMUNICATIONS: CALL FOR LIVE-STREAM PAYLOAD CONCEPTS",
                                     "description": "<br><strong>STATUS:</strong> Kepler is soliciting proposals for hosted payloads on its 2027 and 2028 LEO missions, offering real-time data streaming via its optical constellation with formal selections expected by Q1 2026.<br><br><strong>INTEL:</strong> Kepler is rapidly deploying an optically interconnected LEO constellation, with 33 satellites launched to date, to provide persistent, real-time data streaming and on-orbit compute services. This initiative targets critical applications like Intelligence, Surveillance and Reconnaissance (ISR) and Space Domain Awareness, allowing hosted payloads on 300 kg-class spacecraft from 2027 to bypass traditional communications bottlenecks and achieve continuous, high-volume data collection and live-streaming through an always-connected network.",
@@ -1763,14 +1771,6 @@ const signalTree = {
                                     "title": "VOYAGER TECHNOLOGIES INVESTS IN MAX SPACE",
                                     "description": "<br><strong>STATUS:</strong> Voyager Technologies has made a strategic investment in Max Space to accelerate their partnership in developing expandable lunar habitats.<br><br><strong>INTEL:</strong> The investment, in the \"low eight figures,\" aims to integrate Max Space's expandable module technology with Voyager's power and propulsion systems to quickly deliver hardware for lunar bases, aligning with White House space policy. This funding will enable Max Space to build a new manufacturing facility and conduct module demonstrations, with future collaboration also being explored for commercial space stations despite some competitive overlap.",
                                     "source_url": "https://spacenews.com/voyager-technologies-invests-in-max-space/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-54616",
-                                    "title": "FIRST STARSHIP V3 LAUNCH SLIPS",
-                                    "description": "<br><strong>STATUS:</strong> SpaceX has delayed the first launch of its Starship V3 by approximately four weeks, now targeting early April.<br><br><strong>INTEL:</strong> This Starship V3 launch delay occurs amidst NASA's urgent push for SpaceX to accelerate its Human Landing System (HLS) development for the revised Artemis lunar missions, which now project docking in low Earth orbit for Artemis 3 in mid-2027 and lunar landings starting in early 2028. While both SpaceX and Blue Origin have submitted accepted acceleration plans for their HLS contracts, NASA emphasizes that Starship's launch rate is paramount for unlocking necessary lunar capabilities, a goal challenged by the current schedule slip and previous V3 booster damage.",
-                                    "source_url": "https://spacenews.com/first-starship-v3-launch-slips/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "SPACE_NEWS"
                                 }
@@ -2195,6 +2195,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-35910",
+                                    "title": "MICROSOFT EXCHANGE ONLINE OUTAGE BLOCKS ACCESS TO MAILBOXES",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft is actively investigating and addressing a widespread Exchange Online outage preventing customers from accessing their mailboxes and calendars.\n\n<br><strong>INTEL:</strong> This outage affects multiple Exchange Online connection methods, including Outlook desktop and web, and is occurring concurrently with a separate incident impacting Microsoft 365 Copilot web access and sign-in due to inefficient service infrastructure processing, for which configuration changes are being applied. While Microsoft's telemetry suggests recovery for Exchange Online, customers continue to report issues, following a pattern of similar Exchange Online outages in January and November.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-exchange-online-outage-blocks-access-to-mailboxes/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-86477",
                                     "title": "SHADOW AI IS EVERYWHERE. HERE\u2019S HOW TO FIND AND SECURE IT.",
                                     "description": "<br><strong>STATUS:</strong> Nudge Security is presented as a solution for organizations to secure and govern the pervasive and often unmonitored use of AI tools, addressing the challenge of \"shadow AI.\"<br><br><strong>INTEL:</strong> Nudge Security achieves this by integrating with existing IdPs (Microsoft 365/Google Workspace) to provide Day One and continuous discovery of AI apps and accounts through analysis of machine-generated emails. Its browser extension enables real-time monitoring of AI conversations and file uploads for sensitive data, tracks SaaS-to-AI integrations, and allows for proactive governance through configurable alerts and user \"nudges\" to enforce policies and mitigate data exposure risks.",
@@ -2583,14 +2591,6 @@ const signalTree = {
                                     "title": "MICROSOFT TEAMS WILL TAG THIRD-PARTY BOTS TRYING TO JOIN MEETINGS",
                                     "description": "<br><strong>STATUS:</strong> Microsoft Teams will introduce a feature by May 2026 to automatically tag external third-party bots in meeting lobbies, requiring explicit organizer approval for them to join.\n\n<br><br><strong>INTEL:</strong> This upcoming security enhancement aims to prevent malicious or unintended automated participants from inadvertently gaining access to Teams meetings, thereby bolstering user control and mitigating risks associated with social engineering and cybercrime. The feature, rolling out across all major platforms and cloud environments, is part of Microsoft's ongoing efforts to strengthen Teams security, following recent additions like call reporting, fraud protection warnings, and options for admins to block external users.",
                                     "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-will-tag-third-party-bots-in-meeting-lobbies/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-95307",
-                                    "title": "SHINYHUNTERS CLAIMS ONGOING SALESFORCE AURA DATA THEFT ATTACKS",
-                                    "description": "<br><strong>STATUS:</strong> Salesforce is warning customers that the ShinyHunters group is actively exploiting misconfigured Experience Cloud guest user settings, allowing data theft from hundreds of companies.\n\n<br><strong>INTEL:</strong> Attackers leverage overly permissive guest user profiles on public Salesforce Experience sites, enabling direct querying of CRM objects via the `/s/sfsites/aura` API endpoint. ShinyHunters, claiming 300-400 compromises since September 2023, is using a modified AuraInspector tool for scanning. Salesforce emphasizes this is a customer misconfiguration, not a platform vulnerability, and recommends auditing guest permissions, applying least privilege, and disabling guest API access.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-ongoing-salesforce-aura-data-theft-attacks/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
