@@ -1367,6 +1367,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-60532",
+                                    "title": "STARCLOUD FILES PLANS FOR 88,000-SATELLITE CONSTELLATION",
+                                    "description": "<br><strong>STATUS:</strong> Orbital data center startup Starcloud is seeking FCC approval to deploy a constellation of up to 88,000 satellites designed to host AI and other computing applications.\n\n<br><strong>INTEL:</strong> Starcloud's ambitious proposal aims to mitigate the \"severe roadblocks\" to scaling AI datacenters terrestrially by offering a cost-effective and scalable space-based solution, with satellites operating in dusk-dawn sun-synchronous orbits between 600-850 km and relying on optical intersatellite links for communication; the company, which has already tested an Nvidia H100 processor running Google's Gemini AI on its Starcloud-1 satellite, emphasizes safe operations, full demisability, and brightness mitigation for astronomy, while also planning future constellations like Starcloud-4, potentially involving massive, Starship-deployed satellites with 5-gigawatt data centers.",
+                                    "source_url": "https://spacenews.com/starcloud-files-plans-for-88000-satellite-constellation/",
+                                    "timestamp": "2026.03.15",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-82356",
                                     "title": "OSTP TAKING ON SPACE POLICY COORDINATION WORK IN PLACE OF NATIONAL SPACE COUNCIL",
                                     "description": "<br><strong>STATUS:</strong> The National Space Council has been formally revoked, transferring its lead role in coordinating national space policy to the White House Office of Science and Technology Policy (OSTP).<br><br><strong>INTEL:</strong> The OSTP's new, comprehensive mandate covers critical areas such as developing guidance for space nuclear power\u2014including a moon fission surface power system by 2030\u2014and coordinating new exploration plans and space transportation policy revisions. Concurrently, a separate August executive order drives commercial space policy reforms, including new launch licensing regulations, a mission authorization system for currently unregulated activities, and relocating the Office of Space Commerce to report directly to the Secretary of Commerce, enhancing its influence and engagement.",
@@ -1755,14 +1763,6 @@ const signalTree = {
                                     "title": "NASA SELECTS CENTAUR FOR NEW SLS UPPER STAGE",
                                     "description": "<br><strong>STATUS:</strong> NASA has selected United Launch Alliance's Centaur upper stage for future Space Launch System missions, specifically Artemis 4, 5, and a flight spare, following the agency's decision to halt development of the Block 1B version and its Exploration Upper Stage (EUS).<br><br><strong>INTEL:</strong> The procurement of the Centaur, currently used on Vulcan, was justified as a sole-source contract due to its unique ability to meet SLS performance requirements with minimal modifications, leveraging commonalities with the existing Interim Cryogenic Propulsion Stage (ICPS) such as RL10 engines and liquid hydrogen/oxygen propellants. NASA deemed Centaur the only viable option after assessing alternatives, including Blue Origin\u2019s New Glenn upper stage, which would have required significant design changes, extensive testing, and introduced unacceptable schedule and cost risks due to its early development stage and structural incompatibilities. This decision ensures continuity for Artemis missions beyond Artemis 3 by adapting proven technology and ULA's established infrastructure.",
                                     "source_url": "https://spacenews.com/nasa-selects-centaur-for-new-sls-upper-stage/",
-                                    "timestamp": "2026.03.06",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-40761",
-                                    "title": "EUTELSAT COMPLETES $5.8 BILLION REFINANCING PLAN",
-                                    "description": "<br><strong>STATUS:</strong> Eutelsat successfully completed a 5 billion euro refinancing plan to fund its OneWeb LEO broadband constellation refresh and support the European IRIS\u00b2 sovereign connectivity program.\n\n<br><strong>INTEL:</strong> This comprehensive financing, which includes a recent 1.5 billion euro bond and an equity infusion, is critical for Eutelsat's transformation into a multi-orbit provider, allocating 2.2 billion euros for OneWeb's next-generation satellites by 2029 and 2 billion euros for its stake in the strategic IRIS\u00b2 constellation. Despite a recent setback from a failed asset sale, the funding strengthens Eutelsat's competitive position against rivals like Starlink, as its LEO revenues rapidly grow while its legacy geostationary TV business declines.",
-                                    "source_url": "https://spacenews.com/eutelsat-completes-5-8-billion-refinancing-plan/",
                                     "timestamp": "2026.03.06",
                                     "feed_name": "SPACE_NEWS"
                                 }
@@ -2187,6 +2187,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-912",
+                                    "title": "OPENAI SAYS CHATGPT ADS ARE NOT ROLLING OUT GLOBALLY FOR NOW",
+                                    "description": "<br><strong>STATUS:</strong> OpenAI clarified that general ChatGPT ads are not currently expanding globally beyond the US, despite user speculation stemming from a privacy policy update.\n\n<br><strong>INTEL:</strong> While general ads are limited to US-based, logged-in Free and Go plan users, appearing below answers and personalized without influencing model responses, OpenAI is taking a phased approach to learn from real-world use; notably, the ChatGPT Go subscription, which *does* include ads, is concurrently rolling out worldwide for $8.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-chatgpt-ads-are-not-rolling-out-globally-for-now/",
+                                    "timestamp": "2026.03.15",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-77464",
                                     "title": "BETTERLEAKS, A NEW OPEN-SOURCE SECRETS SCANNER TO REPLACE GITLEAKS",
                                     "description": "<br><strong>STATUS:</strong> A new open-source secret scanning tool, Betterleaks, has been released as the successor to the popular Gitleaks project.\n\n<br><strong>INTEL:</strong> Betterleaks, developed by Zach Rice and supported by Aikido, is designed to identify sensitive data like credentials and API keys across various sources, including Git repositories, with future plans for LLM-assisted analysis and features optimized for AI-generated code scanning. This tool aims to enhance proactive security for developers by identifying committed secrets before malicious actors can exploit them, addressing governance issues Rice encountered with Gitleaks.",
@@ -2575,14 +2583,6 @@ const signalTree = {
                                     "title": "WHY PASSWORD AUDITS MISS THE ACCOUNTS ATTACKERS ACTUALLY WANT",
                                     "description": "<br><strong>STATUS:</strong> Traditional password audits, while addressing compliance, fail to identify critical security risks by overlooking compromised, easily guessable, and unmonitored accounts.<br><br><strong>INTEL:</strong> Current password audits primarily focus on complexity and expiry, missing vulnerabilities like credentials already exposed in breaches (83% of compromised passwords met regulatory rules), easily guessable context-specific passwords, and high-risk orphaned or service accounts with weak controls. To be effective, audits must incorporate breached-password screening, risk-based prioritization, and extend coverage to all account types, not just active users, to counter attacker tactics and reduce breaches often stemming from stolen credentials.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/why-password-audits-miss-the-accounts-attackers-actually-want/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-83083",
-                                    "title": "MICROSOFT STILL WORKING TO FIX WINDOWS EXPLORER WHITE FLASHES",
-                                    "description": "<br><strong>STATUS:</strong> Microsoft is rolling out a fix to Windows Insiders for the bright white flashes experienced when opening File Explorer on some Windows 11 systems.<br><br><strong>INTEL:</strong> While this specific visual bug, previously linked to KB5070311, is being addressed in preview builds, Microsoft is also still working on a permanent solution for a more critical issue causing File Explorer, the Start Menu, and other core system components to crash on Windows 11 24H2/25H2 devices, for which temporary PowerShell workarounds have been provided.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-still-working-to-fix-windows-explorer-white-flashes/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
