@@ -1375,6 +1375,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-14513",
+                                    "title": "KAYRROS SALE SIGNALS RISING DEMAND FOR SATELLITE INTELLIGENCE AMID HORMUZ CRISIS",
+                                    "description": "<br><strong>STATUS:</strong> Tensions in the Strait of Hormuz, following February 28th strikes and subsequent Iranian shipping disruptions, have caused an unprecedented surge in demand for commercial geospatial intelligence services.\n\n<br><strong>INTEL:</strong> This heightened demand is driving consolidation in the analytics sector, as exemplified by Energy Aspects acquiring Kayrros, a French satellite analytics provider specializing in onshore energy infrastructure monitoring. Geospatial intelligence offers critical, near real-time insights into energy markets during geopolitical crises by observing physical assets like storage levels and tanker movements, providing a more immediate and independent assessment than traditional, delayed data sources.",
+                                    "source_url": "https://spacenews.com/kayrros-sale-signals-rising-demand-for-satellite-intelligence-amid-hormuz-crisis/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-31010",
                                     "title": "MELAGEN LABS AND SATLYT ANNOUNCE JOINT ISS MISSION TO DEMONSTRATE RADIATION-RESILIENT IN-ORBIT COMPUTING AND NEXT-GEN SHIELDING",
                                     "description": "<br><strong>STATUS:</strong> Melagen Labs and Satlyt are conducting a joint technology demonstration on the International Space Station to evaluate advanced radiation shielding for commercial AI processors in orbit.<br><br><strong>INTEL:</strong> The six-month mission, deploying on Aegis Aerospace\u2019s MISSE platform, will test Melagen\u2019s MLC1 composite shielding on a COTS AI processor managed by Satlyt\u2019s software to validate its reliable operation and data integrity under real radiation exposure, a crucial step for building future distributed compute infrastructure and Virtual AI Data Centers in Space.",
@@ -1765,20 +1773,36 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/gnss-resilience-is-an-economic-and-security-priority/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-3890",
-                                    "title": "VOYAGER TECHNOLOGIES INVESTS IN MAX SPACE",
-                                    "description": "<br><strong>STATUS:</strong> Voyager Technologies has made a strategic investment in Max Space to accelerate their partnership in developing expandable lunar habitats.<br><br><strong>INTEL:</strong> The investment, in the \"low eight figures,\" aims to integrate Max Space's expandable module technology with Voyager's power and propulsion systems to quickly deliver hardware for lunar bases, aligning with White House space policy. This funding will enable Max Space to build a new manufacturing facility and conduct module demonstrations, with future collaboration also being explored for commercial space stations despite some competitive overlap.",
-                                    "source_url": "https://spacenews.com/voyager-technologies-invests-in-max-space/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-66751",
+                                    "title": "NASA INVITES MEDIA TO LEARN ABOUT UPCOMING X-59 TEST FLIGHTS",
+                                    "description": "<br><strong>STATUS:</strong> NASA will hold a media teleconference on March 19 to discuss upcoming flight tests for its X-59 quiet supersonic aircraft after its second flight.\n\n<br><strong>INTEL:</strong> The teleconference follows the X-59's second flight, which initiates an \"envelope expansion\" series to gradually increase speed and altitude, ensuring safety and performance, before assessing its unique acoustic profile. This aircraft, central to NASA's Quesst mission, aims to enable commercial supersonic flight over land by eliminating loud sonic booms, potentially revolutionizing global travel times.",
+                                    "source_url": "https://www.nasa.gov/news-release/nasa-invites-media-to-learn-about-upcoming-x-59-test-flights/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-46597",
+                                    "title": "SPARCS CUBESAT \u2018FIRST LIGHT\u2019 IMAGES",
+                                    "description": "<br><strong>STATUS:</strong> The SPARCS space telescope, launched on January 11, 2026, successfully recorded its first simultaneous near-ultraviolet and far-ultraviolet observations of stars on February 6, 2026.<br><br><strong>INTEL:</strong> This cereal box-sized CubeSat is the first dedicated mission to continuously monitor ultraviolet radiation from low-mass stars, which are the most common in the Milky Way and host the majority of its habitable-zone exoplanets. SPARCS's one-year mission aims to observe roughly 20 such stars to understand their flare and sunspot activity, which is critical for assessing the potential habitability of orbiting worlds. Its enhanced sensitivity is due to detector-integrated filters fabricated at NASA's Jet Propulsion Laboratory, representing a significant technological advancement for space-based UV astronomy.",
+                                    "source_url": "https://science.nasa.gov/photojournal/sparcs-cubesat-first-light-images/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-8935",
+                                    "title": "TO PROTECT ARTEMIS II ASTRONAUTS, NASA EXPERTS KEEP EYES\u00a0ON SUN",
+                                    "description": "<br><strong>STATUS:</strong> NASA\u2019s Artemis II mission will monitor intense space weather in real-time to protect its four-person crew from hazardous solar radiation as they travel around the Moon.<br><br><strong>INTEL:</strong> Astronauts aboard the Orion spacecraft will venture beyond Earth's magnetic field into deep space where solar flares and coronal mass ejections can trigger high-energy particle events, increasing radiation risks like cancer or cognitive impairment. NASA and NOAA will utilize a vast network of Sun-observing spacecraft, including the Perseverance rover on Mars for far-side views, to track solar eruptions and predict particle paths, while Orion\u2019s sensors and crew dosimeters will provide real-time radiation levels, prompting shelter recommendations if dose thresholds are reached.",
+                                    "source_url": "https://science.nasa.gov/missions/artemis/artemis-2/to-protect-artemis-ii-astronauts-nasa-experts-keep-eyes-on-sun/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-51682",
                                     "title": "CELEBRATING 100 YEARS SINCE GODDARD\u2019S BREAKTHROUGH MOMENT IN MODERN ROCKETRY",
@@ -2154,30 +2178,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/news-release/nasa-invites-media-to-63rd-annual-goddard-space-science-symposium/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-76613",
-                                    "title": "SHADES OF A LUNAR ECLIPSE",
-                                    "description": "<br><strong>STATUS:</strong> Satellite images documented the variation of moonlight reaching Earth's surface during the total lunar eclipse on March 3, 2026.<br><br><strong>INTEL:</strong> The NOAA-21 satellite's VIIRS instrument captured composite images of the Arctic showing how Earth's illumination changed during the eclipse; during the total phase at 11:20 Universal Time, minimal moonlight allowed the aurora borealis and artificial city lights to become prominently visible, while partial phases and pre/post-eclipse periods showed increasing levels of lunar illumination.",
-                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/shades-of-a-lunar-eclipse/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-60682",
-                                    "title": "NASA\u2019S\u00a0VAN ALLEN PROBE A\u00a0TO RE-ENTER ATMOSPHERE",
-                                    "description": "<br><strong>STATUS:</strong> NASA's Van Allen Probe A is predicted to re-enter Earth's atmosphere on March 10, 2026, significantly earlier than initially calculated.\n\n<br><strong>INTEL:</strong> The 1,323-pound spacecraft, which operated from 2012-2019 to study Earth's radiation belts, is re-entering sooner than its original 2034 estimate due to increased atmospheric drag caused by an unexpectedly active solar cycle that reached its solar maximum in 2024. While most of the probe is expected to burn up with a low risk of harm (1 in 4,200), the mission's data remains crucial for understanding space weather and its impact on satellites, astronauts, and Earth's communication, navigation, and power grids.",
-                                    "source_url": "https://www.nasa.gov/missions/van-allen-probes/nasa-van-allen-probe-a-to-re-enter-atmosphere/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-58658",
-                                    "title": "ABOUT SUBSONIC FLIGHT DEMONSTRATOR (SFD) PROJECT",
-                                    "description": "<br><strong>STATUS:</strong> NASA is leading the Subsonic Flight Demonstrator (SFD) project to mature critical airframe technologies for next-generation single-aisle airliners.<br><br><strong>INTEL:</strong> The SFD project specifically aims to overcome the significant technical and economic challenges industry faces in transitioning promising research technologies, such as new wing designs, from development to production for future commercial aircraft. This initiative, a partnership between NASA and industry, is crucial for ensuring the successful adoption of advanced airframe innovations in the next generation of single-aisle seat class airliners.",
-                                    "source_url": "https://www.nasa.gov/directorates/armd/iasp/sfd/about-sfd/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2194,6 +2194,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-91204",
+                                    "title": "STRYKER ATTACK WIPED TENS OF THOUSANDS OF DEVICES, NO MALWARE NEEDED",
+                                    "description": "<br><strong>STATUS:</strong> A cyberattack on medical technology giant Stryker remotely wiped tens of thousands of employee devices in its internal Microsoft environment, though medical devices remain safe and no data was exfiltrated.<br><br><strong>INTEL:</strong> The Iran-linked Handala hacktivist group compromised an administrator account within Stryker's Microsoft environment and leveraged Intune's wipe command to erase data from nearly 80,000 employee devices. This sophisticated wiper attack, which did not involve ransomware or malware deployment and showed no signs of data exfiltration, has critically disrupted electronic ordering systems and impacted employee data, prompting ongoing restoration efforts focused on resuming supply chain and transactional services.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/stryker-attack-wiped-tens-of-thousands-of-devices-no-malware-needed/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-2231",
                                     "title": "CISA FLAGS WING FTP SERVER FLAW AS ACTIVELY EXPLOITED IN ATTACKS",
@@ -2583,14 +2591,6 @@ const signalTree = {
                                     "title": "GOOGLE: CLOUD ATTACKS EXPLOIT FLAWS MORE THAN WEAK CREDENTIALS",
                                     "description": "<br><strong>STATUS:</strong> Hackers are increasingly exploiting newly disclosed third-party software vulnerabilities for initial cloud access, rapidly weaponizing them within days as traditional credential-based attacks decline.\n\n<br><strong>INTEL:</strong> Bug exploits, primarily Remote Code Execution (RCE) vulnerabilities, are now the leading access vector (44.5% of intrusions), surpassing credential compromise (27%) due to enhanced cloud security. This rapid shift means attackers, including state-sponsored groups from Iran, China, and North Korea, are deploying threats like cryptominers within 48 hours of vulnerability disclosure, focusing on long-term persistence, silent data exfiltration, and digital asset theft through sophisticated tactics such as supply chain attacks via developer deception and lateral movement within Kubernetes environments.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/google-cloud-attacks-exploit-flaws-more-than-weak-credentials/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-4119",
-                                    "title": "DUTCH GOVT WARNS OF SIGNAL, WHATSAPP ACCOUNT HIJACKING ATTACKS",
-                                    "description": "<br><strong>STATUS:</strong> Russian state-sponsored hackers are conducting an ongoing phishing campaign targeting government officials, military personnel, and journalists via Signal and WhatsApp.\n\n<br><strong>INTEL:</strong> The operation employs sophisticated phishing and social engineering, abusing legitimate authentication features such as SMS verification codes, Signal PINs, and device linking via malicious QR codes to achieve account takeovers. While Signal's core encryption and infrastructure remain uncompromised, attackers exploit user trust to gain full control, enabling them to monitor incoming messages, access contact lists, change associated phone numbers, and impersonate victims.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/dutch-govt-warns-of-signal-whatsapp-account-hijacking-attacks/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
