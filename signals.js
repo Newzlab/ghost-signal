@@ -1788,6 +1788,14 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-28239",
+                                    "title": "SOLVING ASTEROID BENNU\u2019S MYSTERIES",
+                                    "description": "<br><strong>STATUS:</strong> X-ray computed tomography (XCT) scans of asteroid Bennu samples have revealed crack networks that explain why its boulder-covered surface behaves thermally like a sandy beach.\n\n<br><strong>INTEL:</strong> The mystery stemmed from conflicting data: NASA's Spitzer Telescope measured low thermal inertia, indicative of a sandy surface, while the OSIRIS-REx spacecraft found Bennu covered in large boulders, which typically retain heat longer. The XCT scans of the returned samples provided the solution, demonstrating that these boulders are highly porous due to extensive crack networks, allowing them to rapidly heat and cool, thus reconciling the disparate observations about the asteroid's thermal properties.",
+                                    "source_url": "https://www.nasa.gov/image-article/solving-asteroid-bennus-mysteries/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-71217",
                                     "title": "ASTEROID BENNU\u2019S RUGGED SURFACE BAFFLED NASA, WE FINALLY KNOW WHY",
                                     "description": "<br><strong>STATUS:</strong> OSIRIS-REx mission scientists discovered that asteroid Bennu's unexpectedly rugged, boulder-covered surface behaves thermally like a sandy beach due to the highly porous and fractured internal structure of its rocks.<br><br><strong>INTEL:</strong> Initial observations suggested Bennu had low thermal inertia, indicative of a smooth surface, which conflicted with OSIRIS-REx's discovery of a boulder-strewn landscape upon arrival. Laboratory analysis of returned samples using techniques such as lock-in thermography and X-ray computed tomography revealed that Bennu's boulders are extensively porous and contain numerous micro-cracks, enabling them to shed heat rapidly and reconcile the discrepancy between remote sensing data and direct observations.",
@@ -2178,14 +2186,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/a-technical-resource-for-the-agency/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-46892",
-                                    "title": "CELEBRATING NASA\u2019S MARS RECONNAISSANCE ORBITER\u2019S 20TH ANNIVERSARY: CRATER NEAR SIRENUM FOSSAE",
-                                    "description": "<br><strong>STATUS:</strong> NASA's Mars Reconnaissance Orbiter (MRO) captured and released an image on June 3, 2015, detailing a relatively fresh Martian crater.<br><br><strong>INTEL:</strong> The crater displays distinct features like a sharp rim, well-preserved ejecta, gullies, and possible recurring slope lineae, and is under monitoring for changes. MRO's two-decade mission focuses on understanding Mars' water history, providing crucial data to inform and support future astronaut landings and exploration.",
-                                    "source_url": "https://www.nasa.gov/image-article/celebrating-nasas-mars-reconnaissance-orbiters-20th-anniversary-crater-near-sirenum-fossae/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2202,6 +2202,30 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-91516",
+                                    "title": "TOP 5 THINGS CISOS NEED TO DO TODAY TO SECURE AI AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> Agentic AI is transforming operations with autonomous agents, but organizations are unprepared for the significant security risks that demand an immediate shift from guardrails to identity-centric access control.\n\n<br><br><strong>INTEL:</strong> Agentic AI agents are autonomous actors executing critical functions across systems without human intervention, rendering traditional security guardrails ineffective due to their non-deterministic nature and the ease of bypass. The strategic implication is that identity-based access control is the only scalable foundation for securing these systems, spanning every platform an agent touches, and CISOs must prioritize treating agents as first-class identities, gaining visibility into their usage, and securing them based on their operational intent rather than static permissions to prevent data exfiltration and cascading failures.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/top-5-things-cisos-need-to-do-today-to-secure-ai-agents/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-44578",
+                                    "title": "NEW FONT-RENDERING TRICK HIDES MALICIOUS COMMANDS FROM AI TOOLS",
+                                    "description": "<br><strong>STATUS:</strong> A new font-rendering attack causes AI assistants to miss malicious commands displayed on webpages by hiding them in seemingly harmless HTML.\n\n<br><strong>INTEL:</strong> This attack, devised by LayerX, uses custom fonts and CSS to present an encoded malicious payload to the user while showing only benign text to the AI assistant analyzing the page's HTML, exploiting the disconnect between visual rendering and underlying DOM. Though successful against popular AI tools like ChatGPT and Gemini as of December 2025, most vendors, including Google, classified the issue as 'out of scope' due to its reliance on social engineering, while Microsoft accepted and addressed the vulnerability.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/new-font-rendering-trick-hides-malicious-commands-from-ai-tools/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-88254",
+                                    "title": "MICROSOFT STOPS FORCE-INSTALLING THE MICROSOFT 365 COPILOT APP",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft has temporarily paused the automatic installation of the Microsoft 365 Copilot app on Windows devices globally, excluding the EEA, without providing a reason for the halt.\n\n<br><strong>INTEL:</strong> This reversal comes after an announced rollout planned for December 2025, with Microsoft previously aiming to simplify Copilot access across its 365 suite, yet simultaneously exploring options for IT admins to uninstall the app and potentially cancelling other Copilot-powered Windows features. The exclusion of EEA customers suggests a strategic response to regional regulations, while the overall picture points to an evolving and possibly complex deployment strategy for Microsoft's AI assistant.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-stops-force-installing-the-microsoft-365-copilot-app/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-48848",
                                     "title": "LEAKNET RANSOMWARE USES CLICKFIX, DENO RUNTIME IN STEALTHY ATTACKS",
@@ -2575,30 +2599,6 @@ const signalTree = {
                                     "title": "MICROSOFT BRINGS PHISHING-RESISTANT WINDOWS SIGN-INS VIA ENTRA PASSKEYS",
                                     "description": "<br><strong>STATUS:</strong> Microsoft is rolling out public preview support for Entra passkeys on Windows devices, enabling phishing-resistant passwordless authentication via Windows Hello.\n\n<br><strong>INTEL:</strong> This update extends device-bound passkey authentication to unmanaged Windows devices, which previously relied on passwords, significantly enhancing security by storing cryptographic passkeys locally in the Windows Hello container, making them resistant to network-based phishing and malware attacks. IT administrators must opt-in and configure the feature within Microsoft Entra's authentication policies for a staggered rollout starting in March 2026 for worldwide tenants, with government clouds following later.",
                                     "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-brings-phishing-resistant-sign-in-to-windows/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-77978",
-                                    "title": "NEW KADNAP BOTNET HIJACKS ASUS ROUTERS TO FUEL CYBERCRIME PROXY NETWORK",
-                                    "description": "<br><strong>STATUS:</strong> A newly discovered botnet called KadNap is actively targeting ASUS routers and other edge networking devices to establish a malicious proxy network, with Lumen Technologies taking initial disruption measures.\n\n<br><strong>INTEL:</strong> KadNap has infected 14,000 devices since August 2025, primarily in the United States, and employs a modified Kademlia Distributed Hash Table (DHT) protocol to decentralize and conceal its command-and-control (C2) infrastructure. Researchers at Black Lotus Labs discovered a weakness in this custom DHT implementation that allows for C2 identification, and have linked KadNap to the Doppelganger proxy service, which monetizes access to compromised devices for various cyberattacks including DDoS and credential stuffing.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/new-kadnap-botnet-hijacks-asus-routers-to-fuel-cybercrime-proxy-network/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-11975",
-                                    "title": "THE NEW TURING TEST: HOW THREATS USE GEOMETRY TO PROVE 'HUMANNESS'",
-                                    "description": "<br><strong>STATUS:</strong> Attackers are drastically shifting towards stealthy, long-term infiltration tactics, heavily relying on advanced evasion techniques like virtualization and sandbox detection.\n\n<br><strong>INTEL:</strong> The Picus Red Report 2026 confirms 80% of top observed techniques are for evasion and persistence, with Virtualization/Sandbox Evasion (T1497) skyrocketing to the #4 most-used technique, impacting 1 in 5 modern malware strains. These \"Digital Parasites\" employ mathematically complex checks on system artifacts (e.g., CPU count, screen resolution, specific drivers) and human activity patterns (e.g., \"Trigonometry-Based Turing Test\") to identify and avoid automated analysis environments, ensuring they only execute on real, vulnerable hosts.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/the-new-turing-test-how-threats-use-geometry-to-prove-humanness/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-4812",
-                                    "title": "CISA: RECENTLY PATCHED IVANTI EPM FLAW NOW ACTIVELY EXPLOITED",
-                                    "description": "<br><strong>STATUS:</strong> CISA has flagged a high-severity Ivanti Endpoint Manager (EPM) vulnerability (CVE-2026-1603) as actively exploited and mandated U.S. federal agencies to patch it within three weeks.<br><br><strong>INTEL:</strong> Tracked as CVE-2026-1603, this unauthenticated, low-complexity cross-site scripting flaw allows remote threat actors to bypass authentication and steal credential data without user interaction. Although Ivanti patched it a month ago and claims no awareness of prior exploitation, CISA's addition to the KEV Catalog highlights its critical risk as a \"frequent attack vector,\" reinforcing a pattern of threat actors targeting Ivanti EPM vulnerabilities.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/cisa-recently-patched-ivanti-epm-flaw-now-actively-exploited/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
