@@ -10,6 +10,14 @@ const signalTree = {
                             "name": "SHIELD_AI",
                             "articles": [
                                 {
+                                    "id": "GS-68112",
+                                    "title": "SHIELD AI AND MITSUBISHI HEAVY INDUSTRIES, LTD., COMPLETE AUTONOMOUS   FLIGHT TESTS IN UNDER 60 DAYS",
+                                    "description": "<br><strong>STATUS:</strong> Shield AI successfully integrated its Hivemind autonomy software onto Mitsubishi Heavy Industries' ARMD drones and completed autonomous flight tests in under 60 days.\n\n<br><strong>INTEL:</strong> This rapid integration and demonstration of advanced reinforcement learning and coordinated motions on MHI's drones signifies a major leap in accelerating defense-focused autonomous air operations, drastically shortening development timelines from months to weeks. The collaboration supports Japan's defense needs by enabling platforms to dynamically sense, decide, and act independently, showcasing a new paradigm for rapid prototyping and deployment of intelligent airpower.",
+                                    "source_url": "https://shield.ai/shield-ai-and-mitsubishi-heavy-industries-ltd-complete-autonomous-flight-tests-in-under-60-days/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "SHIELD_AI"
+                                },
+                                {
                                     "id": "GS-65319",
                                     "title": "BEYOND THE AIRFRAME: SCALING MISSION AUTONOMY FOR CCAS",
                                     "description": "<br><strong>STATUS:</strong> Shield AI's Hivemind AI pilot successfully achieved full mission autonomy aboard Anduril\u2019s YFQ-44A as part of the U.S. Air Force\u2019s Collaborative Combat Aircraft (CCA) program, marking a significant step in autonomous warfare.<br><br><strong>INTEL:</strong> This flight is crucial as it demonstrates the Air Force's move to decouple mission autonomy from hardware, elevating AI pilots like Hivemind to a foundational warfighting capability, allowing for \"software sold separately\" upgrades. This strategy, underpinned by open standards such as the Autonomy Government Reference Architecture (A-GRA), enables rapid, cost-effective integration and scaling of AI across diverse platforms, aiming to restore air dominance through coordinated manned-unmanned teaming that overwhelms adversaries with mass and decision advantage.",
@@ -1375,6 +1383,30 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-73280",
+                                    "title": "CANADIAN MILITARY INVESTS IN SOVEREIGN LAUNCH",
+                                    "description": "<br><strong>STATUS:</strong> Canada has committed significant funds to establish a sovereign space launch capability, including a dedicated launch pad and development of domestic small launch vehicles.<br><br><strong>INTEL:</strong> This strategic investment comprises a C$200 million 10-year lease for a dedicated military launch pad at Spaceport Nova Scotia and C$105 million for three Canadian companies (Canada Rocket Company, NordSpace, Reaction Dynamics) to develop responsive small launch vehicles by 2028. The primary objective is to reduce Canada's reliance on foreign launch services, safeguard national sovereignty and satellite connectivity, and bolster the domestic space industry, further underscored by Canada's decision to join NATO's Starlift project for rapid payload launches.",
+                                    "source_url": "https://spacenews.com/canadian-military-invests-in-sovereign-launch/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-23069",
+                                    "title": "AN ASTRONAUT\u2019S TINY STAND-IN: TISSUE CHIPS IN SPACE HEALTH",
+                                    "description": "<br><strong>STATUS:</strong> Organ-on-a-chip technology is being developed to safely study human physiological responses to deep space hazards and test countermeasures for future astronaut missions.\n\n<br><strong>INTEL:</strong> These microphysiological systems (MPS), engineered from human cells, offer a superior alternative to animal models and limited astronaut samples for understanding the long-duration effects of cosmic radiation and microgravity, which cannot be adequately simulated on Earth or the ISS. Investing in autonomous, standardized tissue-chip platforms for deep space is crucial for preparing astronauts for missions like Artemis, enabling efficient and safe testing of countermeasure efficacy and dose responses.",
+                                    "source_url": "https://spacenews.com/an-astronauts-tiny-stand-in-tissue-chips-in-space-health/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-65380",
+                                    "title": "INNOSPACE COMPLETES INVESTIGATION INTO HANBIT-NANO LAUNCH FAILURE",
+                                    "description": "<br><strong>STATUS:</strong> South Korean startup Innospace's inaugural Hanbit-Nano rocket launch failed in December due to an exhaust leak from its combustion chamber.<br><br><strong>INTEL:</strong> An investigation, completed March 17, determined the failure was caused by plastic deformation of sealing components during combustion chamber reassembly at the launch site, leading to a rupture and the rocket's breakup 80 seconds after liftoff. Innospace plans design improvements, enhanced quality management, and revised assembly processes, with the next launch now scheduled for Q3 this year in Brazil, a shift from an initial H1 2026 target.",
+                                    "source_url": "https://spacenews.com/innospace-completes-investigation-into-hanbit-nano-launch-failure/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-80712",
                                     "title": "NVIDIA UNVEILS AI COMPUTING MODULE FOR SPACE-BASED DATA CENTERS",
                                     "description": "<br><strong>STATUS:</strong> Nvidia unveiled the Space-1 Vera Rubin Module, a new computing system designed to bring powerful AI processing capabilities to satellites and potential orbital data centers.\n\n<br><br><strong>INTEL:</strong> This module aims to significantly boost in-space computing power beyond current GPUs, combining IGX Thor and Jetson Orin platforms to enable onboard AI analysis and future orbital data centers, addressing bandwidth limitations for transmitting raw data to Earth. While technical challenges like radiation and thermal management remain, growing industry interest and existing partnerships with companies like Planet Labs highlight a strategic shift towards decentralized space-based intelligence, with the module expected to reach customers soon.",
@@ -1749,36 +1781,28 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/landspace-tests-220-ton-methane-engine-for-future-heavy-lift-launchers/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-865",
-                                    "title": "MERIDIAN SPACE DIPLOMACY FORUM & EXECUTIVE SPACE TRAINING \u2013 MARCH 25 & 26",
-                                    "description": "<br><strong>STATUS:</strong> Meridian International Center announced the return of its Space Diplomacy Forum, \"Shared Horizons,\" to foster international cooperation in outer space.\n\n<br><strong>INTEL:</strong> This second forum, bringing together delegates from nearly 50 nations, is crucial given the increasingly commercial, congested, and contested orbital domain, aiming to address governance and market questions for global space exploration and commerce. It explicitly seeks to reassure global partners of continued U.S. commitment to international space cooperation and forge new partnerships, while a subsequent executive training will prepare senior decision-makers for operating in contested space environments.",
-                                    "source_url": "https://spacenews.com/meridian-space-diplomacy-forum-executive-space-training-march-25-26/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-1866",
-                                    "title": "SSTL TO BUILD SPACECRAFT FOR PRIVATE SPACE TELESCOPE",
-                                    "description": "<br><strong>STATUS:</strong> British company SSTL has been selected by Schmidt Sciences to build the spacecraft platform for Lazuli, a privately funded space telescope with a primary mirror larger than Hubble.\n\n<br><strong>INTEL:</strong> This ambitious project, targeting a mid-2028 launch, aims to achieve a cost significantly lower than typical NASA flagship missions by leveraging SSTL's \"small-satellite approach\" of rapid development, pragmatic engineering, and intelligent reuse of commercial components for a large-scale observatory. Schmidt Sciences plans streamlined development and final assembly near its Florida launch site, with indications pointing to a Cape Canaveral pad currently used by Relativity Space, whose CEO is also Eric Schmidt.",
-                                    "source_url": "https://spacenews.com/sstl-to-build-spacecraft-for-private-space-telescope/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-25052",
-                                    "title": "MISSILE DETECTION SATELLITE DESIGNED BY BAE SYSTEMS PASSES EARLY REVIEW",
-                                    "description": "<br><strong>STATUS:</strong> A missile-tracking satellite constellation developed by BAE Systems for the U.S. Space Force successfully completed its preliminary design review.\n\n<br><strong>INTEL:</strong> This BAE Systems-built Epoch 2 constellation, comprising 10 medium Earth orbit (MEO) satellites, is designed to detect and track advanced threats like hypersonic weapons using infrared sensors, forming a crucial part of the Space Force\u2019s layered missile warning and tracking architecture that aims to improve tracking of maneuvering targets and complement existing geosynchronous systems.",
-                                    "source_url": "https://spacenews.com/missile-detection-satellite-designed-by-bae-systems-passes-early-review/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-71217",
+                                    "title": "ASTEROID BENNU\u2019S RUGGED SURFACE BAFFLED NASA, WE FINALLY KNOW WHY",
+                                    "description": "<br><strong>STATUS:</strong> OSIRIS-REx mission scientists discovered that asteroid Bennu's unexpectedly rugged, boulder-covered surface behaves thermally like a sandy beach due to the highly porous and fractured internal structure of its rocks.<br><br><strong>INTEL:</strong> Initial observations suggested Bennu had low thermal inertia, indicative of a smooth surface, which conflicted with OSIRIS-REx's discovery of a boulder-strewn landscape upon arrival. Laboratory analysis of returned samples using techniques such as lock-in thermography and X-ray computed tomography revealed that Bennu's boulders are extensively porous and contain numerous micro-cracks, enabling them to shed heat rapidly and reconcile the discrepancy between remote sensing data and direct observations.",
+                                    "source_url": "https://science.nasa.gov/missions/osiris-rex/asteroid-bennus-rugged-surface-baffled-nasa-we-finally-know-why/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-72316",
+                                    "title": "HAIL YEAH! NASA RESEARCHERS USE VOLUNTEER OBSERVATIONS FOR HAIL ESTIMATES",
+                                    "description": "<br><strong>STATUS:</strong> The SEaRCH project, part of the NASA-supported CoCoRaHS network, engages citizen scientists to report hail observations, providing critical data for understanding hailstone melting and improving precipitation forecasts.<br><br><strong>INTEL:</strong> The SouthEAst REgion CoCoRaHS Hail (SEaRCH) project, part of the NASA, NOAA, and NSF-supported CoCoRaHS network, aims to overcome challenges in predicting hailstone size and melt rates by leveraging citizen science. Volunteers use a smartphone app to report hail observations, which NASA scientists combine with satellite data and newly developed melt profiles to model hailstone behavior. This data, exemplified by a June 14, 2023 report of hailstones causing significant damage, is crucial for agencies like the National Weather Service, enhancing scientific understanding and improving localized precipitation forecasts.",
+                                    "source_url": "https://science.nasa.gov/get-involved/citizen-science/hail-yeah-nasa-researchers-use-volunteer-observations-for-hail-estimates/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-89928",
                                     "title": "A BIT OF GRAY ON AN EMERALD ISLE",
@@ -2162,22 +2186,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/image-article/celebrating-nasas-mars-reconnaissance-orbiters-20th-anniversary-crater-near-sirenum-fossae/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-52038",
-                                    "title": "DEVELOPING ROBUST ELECTRONICS THAT CAN WITHSTAND HARSH CONDITIONS ON COLD PLANETARY BODIES",
-                                    "description": "<br><strong>STATUS:</strong> A NASA-sponsored team has developed robust silicon-germanium (SiGe) electronics capable of operating reliably in the extreme radiation and low-temperature conditions found on distant ocean worlds.\n\n<br><br><strong>INTEL:</strong> This new SiGe technology, developed by Georgia Tech, JPL, and the University of Tennessee-Knoxville, can withstand 5 Mrad of radiation and temperatures down to -180\u00b0C, eliminating the need for bulky \"warm boxes\" and offering significant size, weight, power, and cost (SWaP-C) advantages. This breakthrough is critical for enabling autonomous robotic exploration of ocean worlds like Europa, supporting the search for extraterrestrial life, and facilitating human outposts on the Moon and Mars by providing durable electronics for sensing, control, and communications.",
-                                    "source_url": "https://science.nasa.gov/science-research/science-enabling-technology/technology-highlights/developing-robust-electronics-that-can-withstand-harsh-conditions-on-cold-planetary-bodies/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-25412",
-                                    "title": "NASA DISCOVERS CRASH OF EXTREME STARS IN UNEXPECTED SITE",
-                                    "description": "<br><strong>STATUS:</strong> NASA missions have likely uncovered an unprecedented collision between two ultradense neutron stars within a tiny galaxy located in a massive intergalactic gas stream.<br><br><strong>INTEL:</strong> This discovery, dubbed GRB 230906A and observed by multiple NASA telescopes, is game-changing as it may explain two cosmic mysteries: why some gamma-ray bursts appear without a clear host galaxy (the host being too small to detect) and how heavy elements like gold and platinum are found in stars far from galactic centers, implying such events can occur in these unusual, distant environments likely triggered by earlier galaxy collisions.",
-                                    "source_url": "https://www.nasa.gov/missions/chandra/nasa-discovers-crash-of-extreme-stars-in-unexpected-site/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2194,6 +2202,38 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-48848",
+                                    "title": "LEAKNET RANSOMWARE USES CLICKFIX, DENO RUNTIME IN STEALTHY ATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> The LeakNet ransomware gang has adopted the ClickFix social engineering technique for initial access and a Deno-based malware loader for stealthy, in-memory payload execution, significantly improving their evasion capabilities.<br><br><strong>INTEL:</strong> LeakNet's new \"bring your own runtime\" (BYOR) tactic utilizes the legitimate Deno runtime to execute malicious JavaScript directly in system memory, bypassing blocklists and minimizing forensic artifacts, initiated via VBS and PowerShell scripts. This advanced evasion is followed by post-exploitation using DLL sideloading, 'klist' for credential discovery, PsExec for lateral movement, and data exfiltration to Amazon S3, making detection challenging but possible through vigilance for behavioral anomalies like Deno usage outside development environments or suspicious network traffic.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/leaknet-ransomware-uses-clickfix-and-deno-runtime-for-stealthy-attacks/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-72201",
+                                    "title": "MICROSOFT SHARES FIX FOR WINDOWS C: DRIVE ACCESS ISSUES ON SAMSUNG PCS",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft and Samsung have released a fix and detailed 29-step recovery guidance for C:\\ drive access and application failures on some Windows 11 Samsung laptops, caused by the Samsung Galaxy Connect app's permission issues.<br><br><strong>INTEL:</strong> The Samsung Galaxy Connect app incorrectly modified C:\\ drive permissions, leading to critical failures in file access, app launches, and administrative functions for affected users. While a new app version addresses the bug, affected systems require a 29-step manual recovery procedure to restore standard Windows permissions, a process that involves uninstalling the old app and running a .bat repair file to return the system to normal functionality.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-fix-for-windows-c-drive-access-issues-on-samsung-pcs/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-22287",
+                                    "title": "NEW WINDOWS 11 HOTPATCH FIXES BLUETOOTH DEVICE VISIBILITY ISSUE",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft has released an emergency out-of-band hotpatch to resolve a critical Bluetooth device visibility issue on hotpatch-enabled Windows 11 Enterprise devices. <br><br><strong>INTEL:</strong> The KB5084897 hotpatch, automatically installing without a restart, addresses a bug where Bluetooth devices were connected and functioning but not appearing in Windows Settings or Quick Settings, thus preventing the addition of new devices. This fix specifically targets Enterprise versions 25H2 and 24H2 utilizing hotpatch updates, a method designed for rapid, in-memory patching of critical vulnerabilities and bugs without requiring reboots, as seen previously with patches for high-severity RRAS RCE flaws.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/new-windows-11-hotpatch-fixes-bluetooth-device-visibility-issue/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-89182",
+                                    "title": "MICROSOFT: ENABLING TEAMS MEETING ADD-IN BREAKS OUTLOOK CLASSIC",
+                                    "description": "<br><strong>STATUS:</strong> Microsoft is addressing an issue (EX1254044) causing the classic Outlook email client to become unusable for users with the Microsoft Teams Meeting Add-in enabled.<br><br><strong>INTEL:</strong> The bug is attributed to a previous Outlook build version, with temporary fixes including updating Outlook or performing an Online Repair. Microsoft is actively working to ensure the latest Outlook version is enabled for affected users to resolve this conflict, which could impact productivity for those relying on both classic Outlook and Teams integration.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-enabling-teams-meeting-add-in-breaks-outlook-classic/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-91204",
                                     "title": "STRYKER ATTACK WIPED TENS OF THOUSANDS OF DEVICES, NO MALWARE NEEDED",
@@ -2560,38 +2600,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> CISA has flagged a high-severity Ivanti Endpoint Manager (EPM) vulnerability (CVE-2026-1603) as actively exploited and mandated U.S. federal agencies to patch it within three weeks.<br><br><strong>INTEL:</strong> Tracked as CVE-2026-1603, this unauthenticated, low-complexity cross-site scripting flaw allows remote threat actors to bypass authentication and steal credential data without user interaction. Although Ivanti patched it a month ago and claims no awareness of prior exploitation, CISA's addition to the KEV Catalog highlights its critical risk as a \"frequent attack vector,\" reinforcing a pattern of threat actors targeting Ivanti EPM vulnerabilities.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/cisa-recently-patched-ivanti-epm-flaw-now-actively-exploited/",
                                     "timestamp": "2026.03.10",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-24601",
-                                    "title": "MICROSOFT TO ENABLE WINDOWS HOTPATCH SECURITY UPDATES BY DEFAULT",
-                                    "description": "<br><strong>STATUS:</strong> Microsoft will enable hotpatch security updates by default for eligible Windows devices managed through Intune and the Microsoft Graph API, starting with the May 2026 Windows security update.\n<br><br><strong>INTEL:</strong> This new default, delivered via Windows Autopatch, significantly reduces the time to reach 90% patch compliance by eliminating the need for device restarts, thereby minimizing exposure to attacks. IT administrators will gain new controls in April 2026 to disable hotpatch updates at the tenant level or enable them for specific devices, with an April 2026 baseline update serving as a prerequisite and providing a review window until May 11, 2026, before hotpatch deployment.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-to-enable-hotpatch-security-updates-by-default-in-may/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-74984",
-                                    "title": "APT28 HACKERS DEPLOY CUSTOMIZED VARIANT OF COVENANT OPEN-SOURCE TOOL",
-                                    "description": "<br><strong>STATUS:</strong> Russian state-sponsored APT28 is deploying custom Covenant and BeardShell implants for long-term espionage operations against Ukrainian military and government entities.<br><br><strong>INTEL:</strong> The threat group employs a dual-implant strategy, using a heavily modified Covenant framework as the primary tool and BeardShell as a fallback, both leveraging cloud storage services like Filen and Icedrive for command-and-control, indicating a resurgence of their advanced malware development team and sophisticated capabilities for persistent surveillance.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/apt28-hackers-deploy-customized-variant-of-covenant-open-source-tool/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-79023",
-                                    "title": "MICROSOFT TEAMS PHISHING TARGETS EMPLOYEES WITH A0BACKDOOR MALWARE",
-                                    "description": "<br><strong>STATUS:</strong> Hackers are employing social engineering via Microsoft Teams and Quick Assist to deploy the new A0Backdoor malware against financial and healthcare organizations.\n\n<br><strong>INTEL:</strong> The attack begins with spamming inboxes, followed by a fake IT support contact on Teams to convince employees to grant remote access through Quick Assist, deploying digitally signed malicious MSI installers masquerading as legitimate Microsoft components. The A0Backdoor is then introduced via DLL sideloading and uses sophisticated evasion techniques, including sandbox detection and excessive thread creation to deter analysis, with its command-and-control (C2) communication hidden in DNS MX record queries to blend in and evade detection, a new technique linked to an evolution of BlackBasta ransomware gang tactics.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/microsoft-teams-phishing-targets-employees-with-backdoors/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-11098",
-                                    "title": "GOOGLE: CLOUD ATTACKS EXPLOIT FLAWS MORE THAN WEAK CREDENTIALS",
-                                    "description": "<br><strong>STATUS:</strong> Hackers are increasingly exploiting newly disclosed third-party software vulnerabilities for initial cloud access, rapidly weaponizing them within days as traditional credential-based attacks decline.\n\n<br><strong>INTEL:</strong> Bug exploits, primarily Remote Code Execution (RCE) vulnerabilities, are now the leading access vector (44.5% of intrusions), surpassing credential compromise (27%) due to enhanced cloud security. This rapid shift means attackers, including state-sponsored groups from Iran, China, and North Korea, are deploying threats like cryptominers within 48 hours of vulnerability disclosure, focusing on long-term persistence, silent data exfiltration, and digital asset theft through sophisticated tactics such as supply chain attacks via developer deception and lateral movement within Kubernetes environments.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/google-cloud-attacks-exploit-flaws-more-than-weak-credentials/",
-                                    "timestamp": "2026.03.09",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
                             ]
