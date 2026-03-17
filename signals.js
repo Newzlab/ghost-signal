@@ -566,6 +566,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-65673",
+                                    "title": "IRAN WAR IS NOT DELAYING US WEAPONS SHIPMENTS TO TAIWAN, OFFICIALS SAY",
+                                    "description": "<br><strong>STATUS:</strong> U.S. officials confirm the ongoing war against Iran has not delayed weapon shipments to Taiwan or altered U.S. policy regarding the island.\n<br><br><strong>INTEL:</strong> Despite concerns about the U.S. defense industry's capacity and an existing multi-billion-dollar arms backlog for Taiwan, the administration claims it is working to expedite shipments to the island, which faces rising military pressure from China. A postponed U.S.-China summit, where a major $14 billion arms deal for Taiwan was expected to be discussed, adds uncertainty to the timing of critical military aid amidst China's unwavering territorial claims.",
+                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/17/iran-war-is-not-delaying-us-weapons-shipments-to-taiwan-officials-say/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-24754",
                                     "title": "US NAVY TAPS GECKO ROBOTICS TO HELP REMEDY MAINTENANCE HEADACHES",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Navy is deploying AI and robotic systems from Gecko Robotics in a $54 million contract to streamline ship maintenance and combat readiness delays.<br><br><strong>INTEL:</strong> Gecko Robotics will utilize drones, wall-climbing robots, and fixed sensors with AI tools to inspect 18 ships in the U.S. Pacific Fleet, identifying hidden structural issues up to 50 times faster than manual methods. This technology aims to significantly reduce maintenance backlogs, which have historically hampered naval readiness rates\u2014falling as low as 41% for amphibious ships in 2025\u2014and is crucial for achieving the Navy's ambitious goal of 80% fleet deployability by 2027.",
@@ -954,14 +962,6 @@ const signalTree = {
                                     "title": "NATO TO STUDY WHAT-IF SCENARIOS THAT COULD CAUSE ARCTIC CONFLICT WITH RUSSIA",
                                     "description": "<br><strong>STATUS:</strong> NATO is conducting a major cold-weather military exercise in Norway and launching a multi-year study to analyze and prepare for potential conflict in the rapidly militarizing Arctic region.\n\n<br><strong>INTEL:</strong> This initiative, encompassing the \"Cold Response\" exercise with 25,000 troops and the \"Winter Storm 2030\" research task force, addresses escalating geopolitical tensions in the Arctic, driven by climate change opening new shipping routes and resource access, and the anticipation of potential Russian aggression post-Ukraine. The strategic planning explicitly considers Russian attack scenarios, such as the rapid seizure of the undefended Svalbard archipelago through hybrid activities, necessitating NATO's development of detailed defense and counter-aggression plans for the High North.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/03/09/nato-to-study-what-if-scenarios-that-could-cause-arctic-conflict-with-russia/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-41318",
-                                    "title": "NATO DEFENSES SHOOT DOWN BALLISTIC MISSILE IN TURKEY",
-                                    "description": "<br><strong>STATUS:</strong> NATO defenses successfully intercepted an Iranian ballistic missile that violated Turkish airspace, marking the second such incident since recent U.S. and Israeli strikes on Iran.\n\n<br><strong>INTEL:</strong> This interception underscores escalating regional hostilities, with Iran actively retaliating across multiple countries following military actions by the U.S. and Israel on February 28th. The successful downing by NATO units in the eastern Mediterranean demonstrates a robust collective defense posture and reinforces Turkey's resolve to firmly protect its territory and airspace, despite valuing regional stability, issuing a clear warning against future incursions.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/09/nato-defenses-shoot-down-ballistic-missile-in-turkey/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1391,6 +1391,22 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-27657",
+                                    "title": "TELESAT PIVOTS LIGHTSPEED TOWARD DEFENSE AS DELAYS PUSH GLOBAL SERVICE TO 2028",
+                                    "description": "<br><strong>STATUS:</strong> Telesat is reallocating 25% of its Lightspeed broadband constellation to military Ka-band to meet surging defense demand, pushing global service availability to early 2028.<br><br><strong>INTEL:</strong> This strategic pivot, adding 500 MHz of Mil-Ka capacity, directly addresses increased defense investments by allied nations and the critical need for resilient, secure, high-throughput, and low-latency LEO communications, particularly for polar regions. While incurring a modest $25 million cost and requiring regulatory approval, the modification aligns with NATO and allied partners' data requirements and leverages digital payloads for dynamic capacity allocation, though the overall program faces a further delay into 2028 due to challenges with key satellite chip readiness.",
+                                    "source_url": "https://spacenews.com/telesat-pivots-lightspeed-toward-defense-as-delays-push-global-service-to-2028/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-68460",
+                                    "title": "OFFICE OF SPACE COMMERCE WEIGHING OPTIONS FOR TRACSS USER FEES",
+                                    "description": "<br><strong>STATUS:</strong> The Trump administration has not yet decided whether to charge user fees for space safety data from its Traffic Coordination System for Space (TraCSS), despite a recent policy change that enables the government to do so.<br><br><strong>INTEL:</strong> A December executive order removed the \"free of direct user fees\" clause from Space Policy Directive 3, granting the Commerce Department flexibility to explore charging for TraCSS services, with officials stating they are \"beginning the conversations\" about various options, including in-kind contributions. This discussion occurs amidst a rapidly evolving commercial space situational awareness market, exemplified by new free services like SpaceX's Stargaze, and broader uncertainties regarding TraCSS's future, including budget proposals to cancel it and delays in its anticipated rollout.",
+                                    "source_url": "https://spacenews.com/office-of-space-commerce-weighing-options-for-tracss-user-fees/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-77193",
                                     "title": "SPACE BOOM STRAINS SUPPLY CHAIN, INDUSTRY REPORT WARNS",
                                     "description": "<br><strong>STATUS:</strong> The accelerating growth of the U.S. space industry is creating significant strain and bottlenecks within its supporting supply chain.\n\n<br><strong>INTEL:</strong> The existing supply chain, originally structured for low-volume government projects, is struggling to meet the high-volume demands from commercial ventures and national security priorities, specifically impacting specialized components (microelectronics, sensors), advanced manufacturing services (precision machining), and testing infrastructure. This bottleneck, coupled with workforce shortages and inconsistent government demand signals, threatens to impede innovation and U.S. leadership in space if not addressed through strategic investments and policy changes.",
@@ -1773,28 +1789,28 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/suspended-noaa-satellite-chief-warns-of-threats-to-federal-science-programs/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-50476",
-                                    "title": "PRECISION IN ORBIT: HERAEUS CATALYSTS SAFEGUARD SATELLITE CONTROL",
-                                    "description": "<br><strong>STATUS:</strong> Heraeus Precious Metals' H-KC12GA catalyst is critical for reliable satellite propulsion and precise orbital control in the international space industry.<br><br><strong>INTEL:</strong> Hydrazine (N\u2082H\u2084) remains the industry standard monopropellant for satellite propulsion, decomposing exothermically into thrust-generating gases upon contact with a specialized catalyst. Heraeus's benchmark H-KC12GA catalyst, based on iridium supported on aluminum oxide, is crucial for reliable impulse generation, ensuring stable reactions during cold starts and thousands of ignition cycles. Its proven robustness across numerous international space programs, including with ArianeGroup, directly contributes to precise altitude control, orbit maintenance, and overall mission success and safety for satellites.",
-                                    "source_url": "https://spacenews.com/precision-in-orbit-heraeus-catalysts-safeguard-satellite-control/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-26889",
-                                    "title": "IMPULSE SPACE EXPANDS COLORADO PRESENCE",
-                                    "description": "<br><strong>STATUS:</strong> Impulse Space has opened a new 20,000-square-foot manufacturing facility in Colorado to support the development of hardware and subsystems for its Mira and Helios transfer vehicles.\n\n<br><strong>INTEL:</strong> This facility near Boulder will focus on developing guidance, navigation, and control (GNC) systems for precision maneuvers, as well as manufacturing components like valves and pumps for the Helios transfer vehicle and its Deneb main engine. The expansion aims to scale production to meet strong demand from government and commercial customers for Mira and Helios, including for space defense and control missions, and to advance GNC technologies for a potential lunar lander concept.",
-                                    "source_url": "https://spacenews.com/impulse-space-expands-colorado-presence/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-28193",
+                                    "title": "NASA\u2019S X-59 PREPARES FOR SECOND FLIGHT",
+                                    "description": "<br><strong>STATUS:</strong> NASA's X-59 experimental quiet supersonic jet is poised for its second flight, initiating the critical envelope expansion phase of its testing.\n\n<br><strong>INTEL:</strong> This flight begins the X-59's journey towards its mission parameters of Mach 1.4 at 55,000 feet, aiming to prove that supersonic flight can produce a quiet \"thump\" instead of a loud sonic boom. This demonstration is central to NASA's Quesst mission, which seeks to gather data for regulators to potentially lift the ban on commercial supersonic flight over land.",
+                                    "source_url": "https://www.nasa.gov/centers-and-facilities/armstrong/nasas-x-59-prepares-for-second-flight/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-86817",
+                                    "title": "DIM DELIGHTS IN CANCER",
+                                    "description": "<br><strong>STATUS:</strong> The article guides readers on locating the Cancer constellation and highlights two significant celestial objects within it: the Beehive Cluster and the exoplanet 55 Cancri e.<br><br><strong>INTEL:</strong> The Beehive Cluster (M44) is an ancient, large open star cluster easily visible under good conditions, while 55 Cancri e (Janssen) is a super-Earth with an 18-hour year, notable for being the first exoplanet to have its hydrogen and helium atmosphere successfully analyzed, confirming it as an extremely hot and unlikely world for life.",
+                                    "source_url": "https://science.nasa.gov/solar-system/skywatching/night-sky-network/dim-delights-in-cancer/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-28239",
                                     "title": "SOLVING ASTEROID BENNU\u2019S MYSTERIES",
@@ -2178,22 +2194,6 @@ const signalTree = {
                                     "source_url": "https://science.nasa.gov/science-research/earth-science/webinar-3-25-nasa-csda-vendor-focus-satellogic/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-24209",
-                                    "title": "COPV DAMAGE TOLERANCE LIFE DEMONSTRATION GUIDELINES",
-                                    "description": "<br><strong>STATUS:</strong> The NESC has finalized new guidelines for assessing damage-tolerance data for Composite Overwrapped Pressure Vessels (COPVs) used in spaceflight.<br><br><strong>INTEL:</strong> These guidelines are critical for NASA's ubiquitous COPVs, which store high-pressure propulsion and life-support fluids and can fail catastrophically. By clarifying existing damage-tolerance requirements from AIAA S-081 and NASA-STD-5019, and incorporating best practices derived from NESC assessments of unconservative approaches, they aim to standardize evaluation methods, improve safety, and minimize the risk of failures without introducing new standards, specifically applying a 4x life factor to ensure cracks do not grow to failure over the service life.",
-                                    "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/copv-damage-tolerance-life-demonstration-guidelines/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-45823",
-                                    "title": "A TECHNICAL RESOURCE FOR THE AGENCY",
-                                    "description": "<br><strong>STATUS:</strong> The NESC\u2019s Thermal Control & Protection Technical Discipline Team (TDT) reported on its wide-ranging activities in 2025, covering critical mission support, technical investigations, and community development.\n\n<br><strong>INTEL:</strong> The TDT's strategic importance is highlighted by its direct involvement in ongoing high-profile projects such as the Artemis I heat shield investigation and finding replacements for Per- and Polyfluoroalkyl Substances (PFAS) in thermal control fluids. Beyond direct mission support, the TDT actively fosters the next generation of engineers through rotational programs and leads major knowledge-sharing initiatives like the Thermal and Fluids Analysis Workshop, ensuring the sustained health and expertise of NASA's thermal and fluids engineering community.",
-                                    "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/a-technical-resource-for-the-agency/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2210,6 +2210,14 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-72385",
+                                    "title": "GLASSWORM MALWARE HITS 400+ CODE REPOS ON GITHUB, NPM, VSCODE, OPENVSX",
+                                    "description": "<br><strong>STATUS:</strong> The GlassWorm supply-chain campaign has re-emerged with a more extensive, coordinated attack, compromising 433 GitHub, npm, and VSCode/OpenVSX components to steal cryptocurrency and developer credentials.<br><br><strong>INTEL:</strong> Attributed to Russia-speaking actors, the campaign compromises GitHub accounts to inject malicious code using \"invisible\" Unicode characters, then publishes trojanized packages and extensions that query the Solana blockchain for C2 instructions, ultimately deploying a JavaScript info-stealer targeting crypto wallets, developer credentials, and SSH keys; key indicators of compromise include the marker variable \"lzcdrtfxyqiplpd\" and the persistence file `~/init.json`.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/glassworm-malware-hits-400-plus-code-repos-on-github-npm-vscode-openvsx/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-74265",
                                     "title": "EUROPE SANCTIONS CHINESE AND IRANIAN FIRMS FOR CYBERATTACKS",
@@ -2599,14 +2607,6 @@ const signalTree = {
                                     "title": "WINDOWS 11 KB5079473 & KB5078883 CUMULATIVE UPDATES RELEASED",
                                     "description": "<br><strong>STATUS:</strong> Microsoft released mandatory March 2026 Patch Tuesday cumulative updates for Windows 11, addressing security vulnerabilities, bugs, and introducing new features.\n\n<br><strong>INTEL:</strong> These updates (KB5079473 and KB5078883) consolidate security fixes and a wide array of new functionalities across Windows 11 versions 25H2/24H2 and 23H2, including enhanced enterprise backup/recovery capabilities, a native network speed test, improved security via Sysmon and Secure Boot certificate targeting, and various user experience refinements such as Emoji 16.0 and improved File Explorer search reliability.",
                                     "source_url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5079473-and-kb5078883-cumulative-updates-released/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-73544",
-                                    "title": "HPE WARNS OF CRITICAL AOS-CX FLAW ALLOWING ADMIN PASSWORD RESETS",
-                                    "description": "<br><strong>STATUS:</strong> Hewlett Packard Enterprise (HPE) has patched multiple critical security vulnerabilities, including an authentication bypass (CVE-2026-23813), in its Aruba Networking AOS-CX operating system for CX-series switches.<br><br><strong>INTEL:</strong> The most severe flaw, CVE-2026-23813, is a critical authentication bypass in the web-based management interface that allows unauthenticated remote attackers to reset admin passwords with low complexity. While HPE is not yet aware of public exploits or in-the-wild abuse, this vulnerability in a core network operating system poses a significant risk for enterprise and data center environments, necessitating immediate patching or mitigation measures.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/hpe-warns-of-critical-aos-cx-flaw-allowing-admin-password-resets/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
