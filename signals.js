@@ -550,6 +550,22 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-6757",
+                                    "title": "TESLA\u2019S CYBERTRUCK MAY BE WRONG FOR SOME. COULD IT BE RIGHT FOR THE BATTLEFIELD?",
+                                    "description": "<br><strong>STATUS:</strong> The article discusses the deployment of US-developed M-ACE counter-drone systems in Ukraine and proposes the Tesla Cybertruck as a superior, remotely-operable platform to overcome current vulnerabilities and logistical challenges.\n\n<br><strong>INTEL:</strong> The M-ACE system, utilizing 30mm chain guns with programmable shells, is an effective and cost-friendly solution against battlefield drones, but its current mounting on civilian pickup trucks leaves crew members vulnerable. The Tesla Cybertruck is identified as an ideal alternative due to its high availability from commercial market failure, existing self-driving capabilities for remote operation, significantly lower cost and faster mass production potential compared to purpose-built unmanned ground vehicles, and logistical advantages of electric power like reduced noise and thermal signature, all of which would enhance counter-drone effectiveness and operator safety.",
+                                    "source_url": "https://www.defensenews.com/opinion/2026/03/17/teslas-cybertruck-may-be-wrong-for-some-could-it-be-right-for-the-battlefield/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-85426",
+                                    "title": "THE US HAS SEVERAL OPTIONS TO COUNTER IRANIAN MINES. THESE ARE SOME KEY ASSETS.",
+                                    "description": "<br><strong>STATUS:</strong> U.S. forces are responding to reports of Iranian mine-laying activity in the Strait of Hormuz by deploying countermine assets and conducting strikes against Iranian mine-related targets.<br><br><strong>INTEL:</strong> Iran's Islamic Revolutionary Guard Corps Navy reportedly considers naval mines a key strategic pillar and possesses an estimated 6,000 mines, prompting the U.S. to destroy Iranian mine storage bunkers and minelayers, and to deploy advanced mine countermeasure capabilities, including Independence-class littoral combat ships with specialized mission packages, to the region.",
+                                    "source_url": "https://www.defensenews.com/news/your-navy/2026/03/16/the-us-has-several-options-to-counter-iranian-mines-these-are-some-key-assets/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-3788",
                                     "title": "TWO INDIA CARRIERS SECURE SAFE PASSAGE THROUGH STRAIT OF HORMUZ",
                                     "description": "<br><strong>STATUS:</strong> India successfully negotiated the transit of two of its LPG carriers through the Iranian-blockaded Strait of Hormuz amidst escalating conflict between the United States, Israel, and Iran.<br><br><strong>INTEL:</strong> This diplomatic breakthrough, while not a blanket arrangement, underscores India's crucial energy dependence on the Strait for half its crude oil and LNG imports, its strategic neutrality in the ongoing conflict, and the effectiveness of its engagement with Iran, which included a recent goodwill gesture of repatriating Iranian naval personnel.",
@@ -931,22 +947,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> European NATO countries are diversifying their major arms imports away from the United States, significantly increasing acquisitions from South Korea, France, and Israel.<br><br><strong>INTEL:</strong> This strategic shift reflects heightened European defense spending post-Ukraine invasion and growing doubts about the long-term reliability of the U.S. as an ally, fueled by past threats from President Trump and a U.S. policy focus on homeland defense. While the U.S. remains the largest overall supplier to European NATO and the world's top arms exporter, European nations are proactively reducing their proportional dependency to enhance defense autonomy.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/03/09/european-nato-nations-reduce-reliance-on-us-arms-imports-sipri-data/",
                                     "timestamp": "2026.03.09",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-15150",
-                                    "title": "TRUMP ENCOURAGES LATIN AMERICAN LEADERS TO USE MILITARY ACTION TO HELP US FIGHT CARTELS",
-                                    "description": "<br><strong>STATUS:</strong> President Trump hosted a \"Shield of the Americas\" summit with Latin American leaders, urging collective military action against cartels and transnational gangs.<br><br><strong>INTEL:</strong> The summit signals a renewed U.S. focus on the Western Hemisphere despite ongoing crises like the war with Iran, promoting an \"America First\" foreign policy that advocates military force against cartels, citing the ISIS coalition as a precedent. This initiative follows a previous failed regional summit and aims to leverage U.S. military and intelligence assets, with future attention also promised for Cuba.",
-                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/07/trump-encourages-latin-american-leaders-to-use-military-action-to-help-us-fight-cartels/",
-                                    "timestamp": "2026.03.07",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-53380",
-                                    "title": "US TO SEND ANTI-DRONE SYSTEM TO MIDEAST AFTER SUCCESSFUL USE IN UKRAINE, OFFICIALS SAY",
-                                    "description": "<br><strong>STATUS:</strong> An American anti-drone system, Merops, proven effective against Russian drones in Ukraine, will be deployed to the Middle East to strengthen U.S. defenses against Iranian drones.\n\n<br><strong>INTEL:</strong> The Merops system, which flies counter-drones and uses AI for navigation, is being sent to address the U.S.'s \"disappointing\" struggle with Iran's numerous and inexpensive Shahed drones, which current missile defenses are not cost-effective or optimally designed to counter. This deployment aims to solve the \"math problem\" of using expensive interceptors against cheap drones and bolster regional security against potential Iranian retaliatory strikes, with systems being sent to various locations, including where U.S. forces are not present.",
-                                    "source_url": "https://www.defensenews.com/news/pentagon-congress/2026/03/07/us-to-send-anti-drone-system-to-mideast-after-successful-use-in-ukraine-officials-say/",
-                                    "timestamp": "2026.03.07",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
                             ]
@@ -1375,6 +1375,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-80712",
+                                    "title": "NVIDIA UNVEILS AI COMPUTING MODULE FOR SPACE-BASED DATA CENTERS",
+                                    "description": "<br><strong>STATUS:</strong> Nvidia unveiled the Space-1 Vera Rubin Module, a new computing system designed to bring powerful AI processing capabilities to satellites and potential orbital data centers.\n\n<br><br><strong>INTEL:</strong> This module aims to significantly boost in-space computing power beyond current GPUs, combining IGX Thor and Jetson Orin platforms to enable onboard AI analysis and future orbital data centers, addressing bandwidth limitations for transmitting raw data to Earth. While technical challenges like radiation and thermal management remain, growing industry interest and existing partnerships with companies like Planet Labs highlight a strategic shift towards decentralized space-based intelligence, with the module expected to reach customers soon.",
+                                    "source_url": "https://spacenews.com/nvidia-unveils-ai-computing-module-for-space-based-data-centers/",
+                                    "timestamp": "2026.03.16",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-14513",
                                     "title": "KAYRROS SALE SIGNALS RISING DEMAND FOR SATELLITE INTELLIGENCE AMID HORMUZ CRISIS",
                                     "description": "<br><strong>STATUS:</strong> Tensions in the Strait of Hormuz, following February 28th strikes and subsequent Iranian shipping disruptions, have caused an unprecedented surge in demand for commercial geospatial intelligence services.\n\n<br><strong>INTEL:</strong> This heightened demand is driving consolidation in the analytics sector, as exemplified by Energy Aspects acquiring Kayrros, a French satellite analytics provider specializing in onshore energy infrastructure monitoring. Geospatial intelligence offers critical, near real-time insights into energy markets during geopolitical crises by observing physical assets like storage levels and tanker movements, providing a more immediate and independent assessment than traditional, delayed data sources.",
@@ -1763,14 +1771,6 @@ const signalTree = {
                                     "title": "MISSILE DETECTION SATELLITE DESIGNED BY BAE SYSTEMS PASSES EARLY REVIEW",
                                     "description": "<br><strong>STATUS:</strong> A missile-tracking satellite constellation developed by BAE Systems for the U.S. Space Force successfully completed its preliminary design review.\n\n<br><strong>INTEL:</strong> This BAE Systems-built Epoch 2 constellation, comprising 10 medium Earth orbit (MEO) satellites, is designed to detect and track advanced threats like hypersonic weapons using infrared sensors, forming a crucial part of the Space Force\u2019s layered missile warning and tracking architecture that aims to improve tracking of maneuvering targets and complement existing geosynchronous systems.",
                                     "source_url": "https://spacenews.com/missile-detection-satellite-designed-by-bae-systems-passes-early-review/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-23707",
-                                    "title": "GNSS RESILIENCE IS AN ECONOMIC AND SECURITY PRIORITY",
-                                    "description": "<br><strong>STATUS:</strong> Malicious interference with Global Navigation Satellite Systems (GNSS) is rapidly escalating, threatening critical infrastructure and international security with significant operational and strategic implications.<br><br><strong>INTEL:</strong> GNSS, vital for navigation and precise timing across essential services, is increasingly vulnerable to deliberate jamming and spoofing, evidenced by a 220% rise in signal-loss events affecting European commercial flights from 2021-2024. This fragility is particularly acute during major international events, where concentrated leadership amplifies the impact of disruption; consequently, a layered resilience approach integrating diverse sensing, independent timing, and cross-sector cooperation is crucial to detect threats early and ensure continuity in increasingly contested electromagnetic environments.",
-                                    "source_url": "https://spacenews.com/gnss-resilience-is-an-economic-and-security-priority/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "SPACE_NEWS"
                                 }
