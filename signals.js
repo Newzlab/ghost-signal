@@ -960,6 +960,126 @@ const signalTree = {
                             "name": "ARXIV_AI_PAPERS",
                             "articles": [
                                 {
+                                    "id": "GS-70422",
+                                    "title": "HUMAN ATTRIBUTION OF CAUSALITY TO AI ACROSS AGENCY, MISUSE, AND MISALIGNMENT",
+                                    "description": "<br><strong>STATUS:</strong> New research investigates folk perceptions of causal responsibility when AI systems are involved in harmful outcomes within causal chain structures.<br><br><strong>INTEL:</strong> Human experiments revealed that participants attribute greater causal responsibility to AI when its agency is moderate or high, but consistently judge humans as more causal when performing the same actions as an AI. Developers, despite their temporal distance, were also judged highly causal, reducing blame on human users but not on the AI, with the agentic component of an AI seen as more causal than its LLM component, findings critical for designing AI liability frameworks and shaping policy debates.",
+                                    "source_url": "https://arxiv.org/abs/2603.13236",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-26264",
+                                    "title": "A DUAL-PATH GENERATIVE FRAMEWORK FOR ZERO-DAY FRAUD DETECTION IN BANKING SYSTEMS",
+                                    "description": "<br><strong>STATUS:</strong> A novel Dual-Path Generative Framework is proposed to achieve low-latency fraud detection and regulatory explainability in high-frequency banking.<br><br><strong>INTEL:</strong> This framework utilizes a Variational Autoencoder (VAE) for real-time legitimate transaction anomaly detection with sub-50ms inference, while an asynchronous Wasserstein GAN with Gradient Penalty (WGAN-GP) synthesizes high-entropy fraudulent scenarios for stress-testing. Key innovations include integrating a Gumbel-Softmax estimator for discrete banking data and a trigger-based SHAP explainability mechanism, activated only for high-uncertainty transactions, to balance computational cost with real-time throughput.",
+                                    "source_url": "https://arxiv.org/abs/2603.13237",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-38943",
+                                    "title": "BENCHMARKING ZERO-SHOT REASONING APPROACHES FOR ERROR DETECTION IN SOLIDITY SMART CONTRACTS",
+                                    "description": "<br><strong>STATUS:</strong> A new research paper evaluates the effectiveness of state-of-the-art Large Language Models (LLMs) in detecting and classifying vulnerabilities in Solidity smart contracts.\n\n<br><br><strong>INTEL:</strong> The evaluation tested LLMs on 400 contracts across Error Detection (binary classification) and Error Classification (categorization) tasks, utilizing zero-shot, Chain-of-Thought (CoT), and Tree-of-Thought (ToT) prompting strategies. While CoT and ToT significantly increased recall (often $\\approx 95$--$99\\%$) in error detection, they typically reduced precision. For error classification, Claude 3 Opus, particularly with the ToT prompt, achieved the highest Weighted F1-score (90.8), demonstrating its superior performance in assigning specific vulnerability categories.",
+                                    "source_url": "https://arxiv.org/abs/2603.13239",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-99464",
+                                    "title": "THINK FIRST, DIFFUSE FAST: IMPROVING DIFFUSION LANGUAGE MODEL REASONING VIA AUTOREGRESSIVE PLAN CONDITIONING",
+                                    "description": "<br><strong>STATUS:</strong> Researchers have introduced \"plan conditioning,\" a training-free method that significantly improves the multi-step reasoning performance of diffusion large language models by prepending a natural-language plan to their prompts.<br><br><strong>INTEL:</strong> This technique addresses the coordination problem in dLLMs, allowing them to match the performance of same-size autoregressive models on benchmarks like GSM8K and HumanEval, with diffusion models benefiting 2-10x more than AR models. The plan acts as a frozen, globally visible scaffold that tokens attend to from the first denoising step, improving stability and enabling strategy adherence, with the quality of the planning model being a critical factor for maximal gains at a minimal cost and latency.",
+                                    "source_url": "https://arxiv.org/abs/2603.13243",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-45254",
+                                    "title": "AUTOMATING DOCUMENT INTELLIGENCE IN STATUTORY CITY PLANNING",
+                                    "description": "<br><strong>STATUS:</strong> UK planning authorities are piloting an AI system to automate the identification and redaction of personal information and extract metadata from planning documents to resolve a legislative conflict and reduce manual workload.<br><br><strong>INTEL:</strong> The integrated AI system employs an AI-in-the-Loop (AI2L) design, requiring human officer review and confirmation for all suggestions to ensure compliance and improve performance over time through active learning, ultimately aiming to mitigate legal risks, reduce administrative burden, and provide a quantifiable return on investment.",
+                                    "source_url": "https://arxiv.org/abs/2603.13245",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-62294",
+                                    "title": "MULTI-AXIS TRUST MODELING FOR INTERPRETABLE ACCOUNT HIJACKING DETECTION",
+                                    "description": "<br><strong>STATUS:</strong> A new Hadith-inspired multi-axis trust modeling framework has been proposed to assess the trustworthiness of information sources using interpretable, multidimensional criteria.\n\n<br><strong>INTEL:</strong> This framework translates five trust axes into 26 behavioral features, augmented with lightweight temporal features, and demonstrates near-perfect detection of account hijacking on the CLUE-LDS dataset. Crucially, it shows substantial and consistent improvements in detecting sparse malicious behavior within the challenging CERT Insider Threat Test Dataset, with temporal modeling improving ROC-AUC from 0.627 to 0.715 and PR-AUC from 0.072 to 0.264 on a leakage-controlled configuration, suggesting a robust method for identifying sophisticated insider threats.",
+                                    "source_url": "https://arxiv.org/abs/2603.13246",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-77039",
+                                    "title": "ILION: DETERMINISTIC PRE-EXECUTION SAFETY GATES FOR AGENTIC AI SYSTEMS",
+                                    "description": "<br><strong>STATUS:</strong> A new system named ILION has been developed and evaluated to address the critical safety risk posed by autonomous AI agents executing unauthorized real-world actions. <br><br><strong>INTEL:</strong> ILION is presented as a deterministic execution gate that employs a five-component cascade architecture to classify agent actions as BLOCK or ALLOW without statistical training or API dependencies. It achieves a high F1 score of 0.8515 with a low false positive rate of 7.9% and sub-millisecond latency (143 microseconds), significantly outperforming existing content moderation systems like Lakera Guard, OpenAI Moderation API, and Llama Guard 3, which are deemed fundamentally unsuitable for agent execution safety tasks.",
+                                    "source_url": "https://arxiv.org/abs/2603.13247",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-52880",
+                                    "title": "MANIBENCH: A BENCHMARK FOR TESTING VISUAL-LOGIC DRIFT AND SYNTACTIC HALLUCINATIONS IN MANIM CODE GENERATION",
+                                    "description": "<br><strong>STATUS:</strong> A new benchmark called ManiBench has been introduced to evaluate Large Language Models' (LLMs) performance in generating dynamic, pedagogical visuals using Manim CE code.\n\n<br><strong>INTEL:</strong> ManiBench specifically targets critical failure modes like \"Syntactic Hallucinations\" and \"Visual-Logic Drift\" where traditional benchmarks fall short, offering 150-200 problems across five difficulty levels in calculus, linear algebra, probability, topology, and AI. This open-source benchmark, grounded in analysis of 3Blue1Brown's ManimGL source, uses a four-tier evaluation framework measuring Executability, Version-Conflict Error Rate, Alignment Score, and Coverage Score, providing a specialized tool for assessing LLMs' temporal fidelity and version-aware API correctness in visual code generation.",
+                                    "source_url": "https://arxiv.org/abs/2603.13251",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-24608",
+                                    "title": "WHEN ALPHA BREAKS: TWO-LEVEL UNCERTAINTY FOR SAFE DEPLOYMENT OF CROSS-SECTIONAL STOCK RANKERS",
+                                    "description": "<br><strong>STATUS:</strong> An AI stock forecaster using a LightGBM ranker experienced failure during a 2024 AI thematic rally and sector rotation, leading to the proposal of a new two-level deployment policy to enhance robustness.\n\n<br><strong>INTEL:</strong> The traditional point prediction approach for cross-sectional ranking models is insufficient under non-stationarity, as demonstrated by the failure of a 20-day horizon LightGBM ranker during a specific market regime shift. The proposed solution involves adapting Direct Epistemic Uncertainty Prediction (DEUP) to create a strategy-level \"regime-trust gate\" G(t) to decide whether to trade, combined with a position-level epistemic tail-risk cap for uncertain predictions, which empirically improves risk-adjusted performance by primarily functioning as a tail-risk guard rather than a continuous sizing factor.",
+                                    "source_url": "https://arxiv.org/abs/2603.13252",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-80305",
+                                    "title": "DISTILLING DEEP REINFORCEMENT LEARNING INTO INTERPRETABLE FUZZY RULES: AN EXPLAINABLE AI FRAMEWORK",
+                                    "description": "<br><strong>STATUS:</strong> A new research paper introduces a Hierarchical TSK Fuzzy Classifier System to make opaque Deep Reinforcement Learning agents explainable through human-readable IF-THEN rules.<br><br><strong>INTEL:</strong> This novel framework directly addresses the critical challenge of DRL opaqueness, which currently impedes its deployment in safety-critical applications. By distilling complex neural policies into verifiable IF-THEN rules using K-Means clustering and Ridge Regression, the system achieves superior fidelity (81.48%) and interpretability on continuous control tasks compared to existing methods, thus enabling human verification of autonomous system decisions and fostering trust in advanced AI.",
+                                    "source_url": "https://arxiv.org/abs/2603.13257",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-10551",
+                                    "title": "DEEP CONVOLUTIONAL ARCHITECTURES FOR EEG CLASSIFICATION: A COMPARATIVE STUDY WITH TEMPORAL AUGMENTATION AND CONFIDENCE-BASED VOTING",
+                                    "description": "<br><strong>STATUS:</strong> A new paper presents a comparative study of deep learning architectures for classifying event-related potentials (ERPs) in EEG signals for brain-computer interface (BCI) systems.<br><br><strong>INTEL:</strong> The study evaluates 2D CNNs (with/without Common Spatial Pattern) against a novel 3D CNN that jointly models spatiotemporal representations, enhanced by a temporal shift augmentation and a confidence-based test-time voting mechanism. The findings indicate the proposed 3D CNN significantly outperforms 2D variants in AUC and balanced accuracy, highlighting the effectiveness of temporal-aware architectures and augmentation for robust EEG classification despite low signal-to-noise ratio and temporal variability challenges.",
+                                    "source_url": "https://arxiv.org/abs/2603.13261",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-33454",
+                                    "title": "MULTI-HOP REASONING AND RETRIEVAL IN EMBEDDING SPACE: LEVERAGING LARGE LANGUAGE MODELS WITH KNOWLEDGE",
+                                    "description": "<br><strong>STATUS:</strong> A new framework called EMBRAG has been proposed to enhance LLM reasoning by integrating knowledge graph retrieval, achieving state-of-the-art performance.\n\n<br><strong>INTEL:</strong> EMBRAG addresses issues like LLM hallucination and knowledge incompleteness by generating multiple logical rules grounded in knowledge graphs from an input query, applying these rules to reasoning in the embedding space, and using a reranker model to refine results, leading to robust and accurate reasoning.",
+                                    "source_url": "https://arxiv.org/abs/2603.13266",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-50972",
+                                    "title": "AGENT-BASED USER-ADAPTIVE FILTERING FOR CATEGORIZED HARASSING COMMUNICATION",
+                                    "description": "<br><strong>STATUS:</strong> A new agent-based framework has been proposed for personalized filtering of harassing communication in online social networks.\n\n<br><br><strong>INTEL:</strong> This innovative approach utilizes adaptive filtering agents that learn individual user tolerance levels and preferences, dynamically adjusting content filtering thresholds across multiple harassment categories. Unlike traditional global moderation systems, this method significantly improves filtering precision and user satisfaction by preserving user autonomy, representing a strategic advancement in content moderation technology with potential implications for enhancing digital environment control and user experience.",
+                                    "source_url": "https://arxiv.org/abs/2603.13288",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-5747",
+                                    "title": "DOVA: DELIBERATION-FIRST MULTI-AGENT ORCHESTRATION FOR AUTONOMOUS RESEARCH AUTOMATION",
+                                    "description": "<br><strong>STATUS:</strong> A new multi-agent platform, DOVA (Deep Orchestrated Versatile Agent), has been introduced to address the limitations of single LLM agents in complex research tasks.\n\n<br><strong>INTEL:</strong> DOVA leverages three key innovations: deliberation-first orchestration for explicit meta-reasoning, hybrid collaborative reasoning combining ensemble diversity with iterative refinement, and adaptive multi-tiered thinking that reduces inference costs by 40-60% while preserving deep reasoning capacity. The system aims to enhance multi-source synthesis, adversarial verification, and personalized delivery for LLM-driven research.",
+                                    "source_url": "https://arxiv.org/abs/2603.13327",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-88138",
+                                    "title": "WHY GROKKING TAKES SO LONG: A FIRST-PRINCIPLES THEORY OF REPRESENTATIONAL PHASE TRANSITIONS",
+                                    "description": "<br><strong>STATUS:</strong> A new first-principles theory has been developed that quantitatively explains the delay observed in AI grokking.\n\n<br><strong>INTEL:</strong> The theory posits that grokking, where AI models generalize long after memorizing training data, results from a norm-driven representational phase transition in regularized training dynamics, moving from a high-norm memorization solution to a lower-norm structured representation. This work establishes a quantitative scaling law for the grokking delay, inversely proportional to the effective optimizer contraction rate (gamma_eff) and logarithmically dependent on the ratio of norms between memorization and generalized representations, a finding empirically validated across various tasks and highlighting that optimizers like AdamW, which can decouple memorization from contraction, are crucial for its occurrence.",
+                                    "source_url": "https://arxiv.org/abs/2603.13331",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
                                     "id": "GS-45520",
                                     "title": "CONTEXT-ENRICHED NATURAL LANGUAGE DESCRIPTIONS OF VESSEL TRAJECTORIES",
                                     "description": "<br><strong>STATUS:</strong> A new framework is proposed to transform raw AIS vessel trajectory data into structured, semantically enriched representations.<br><br><strong>INTEL:</strong> This context-aware abstraction segments noisy AIS sequences into distinct trips and mobility-annotated episodes, further enriching them with multi-source information like geographic entities and weather. Crucially, these representations support the generation of controlled natural language descriptions using LLMs, which significantly increases semantic density, reduces spatiotemporal complexity, and facilitates advanced downstream analytics and maritime reasoning tasks.",
@@ -1237,126 +1357,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> New prompt-based techniques are proposed to more effectively elicit and quantify both first-order and second-order uncertainty from large language models (LLMs) using the imprecise probabilities framework.<br><br><strong>INTEL:</strong> Traditional probabilistic uncertainty frameworks often fall short in capturing LLM behavior in complex scenarios like ambiguous question-answering, leading to systematic failure modes. This research introduces general-purpose prompting and post-processing procedures grounded in \"imprecise probabilities\" to directly quantify first-order uncertainty (over responses) and second-order uncertainty (indeterminacy in the probability model itself), thereby improving the faithfulness of uncertainty reporting and supporting downstream decision-making.",
                                     "source_url": "https://arxiv.org/abs/2603.10396",
                                     "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-40099",
-                                    "title": "RESOURCE-CONSTRAINED AMAZONS CHESS DECISION FRAMEWORK INTEGRATING LARGE LANGUAGE MODELS AND GRAPH ATTENTION",
-                                    "description": "<br><strong>STATUS:</strong> A new lightweight hybrid AI framework for the Game of the Amazons significantly outperforms its general-purpose teacher model (GPT-4o-mini) under strict computational constraints.\n\n<br><strong>INTEL:</strong> This innovative framework leverages graph-based learning (Graph Attention Autoencoder, Stochastic Graph Genetic Algorithm) to inform Monte Carlo Tree Search, utilizing GPT-4o-mini for generating synthetic training data from noisy supervision rather than expert demonstrations. The Graph Attention mechanism effectively filters and denoises the LLM's outputs, enabling the specialized AI to achieve 15-56% decision accuracy improvements and competitive win rates against its teacher, verifying a paradigm for evolving high-performance specialized AI from foundation models in resource-constrained settings.",
-                                    "source_url": "https://arxiv.org/abs/2603.10512",
-                                    "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-97545",
-                                    "title": "IH-CHALLENGE: A TRAINING DATASET TO IMPROVE INSTRUCTION HIERARCHY ON FRONTIER LLMS",
-                                    "description": "<br><strong>STATUS:</strong> GPT-5-Mini's instruction hierarchy robustness has been significantly improved by +10.0% through fine-tuning with a new reinforcement learning dataset called IH-Challenge.<br><br><strong>INTEL:</strong> Instruction hierarchy (IH) is a critical security mechanism for LLMs, defending against jailbreaks, system prompt extractions, and agentic prompt injections by defining how models prioritize conflicting instructions. The IH-Challenge dataset, combined with online adversarial example generation, has proven highly effective in training robust IH behavior, reducing unsafe responses from 6.6% to 0.7% while preserving helpfulness and saturating internal agentic prompt injection evaluations, with the dataset now publicly released to aid ongoing research in LLM security.",
-                                    "source_url": "https://arxiv.org/abs/2603.10521",
-                                    "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-77106",
-                                    "title": "ADAPTIVE RAN SLICING CONTROL VIA REWARD-FREE SELF-FINETUNING AGENTS",
-                                    "description": "<br><strong>STATUS:</strong> A new self-finetuning framework enables Generative AI agents to achieve robust continuous control by internalizing experience and generating autonomous linguistic feedback, outperforming traditional methods in complex network management.\n\n<br><strong>INTEL:</strong> This breakthrough addresses critical limitations of current Generative AI in continuous control by distilling long-horizon experiences directly into model parameters, bypassing the need for explicit reward signals and finite context windows. The bi-perspective reflection mechanism autonomously creates preference datasets, leading to superior sample efficiency, stability, and multi-metric optimization, particularly demonstrated in dynamic Radio Access Network (RAN) slicing. This technology has significant strategic implications for autonomous AI-native network infrastructure, potentially enabling self-improving systems that adapt continuously to volatile conditions without human intervention, enhancing efficiency and resilience.",
-                                    "source_url": "https://arxiv.org/abs/2603.10564",
-                                    "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-4319",
-                                    "title": "CUAAUDIT: META-EVALUATION OF VISION-LANGUAGE MODELS AS AUDITORS OF AUTONOMOUS COMPUTER-USE AGENTS",
-                                    "description": "<br><strong>STATUS:</strong> Research investigates using Vision-Language Models (VLMs) as autonomous auditors for evaluating Computer-Use Agents (CUAs) executing tasks in desktop environments.<br><br><strong>INTEL:</strong> While state-of-the-art VLMs show strong accuracy and calibration in auditing CUA task completion, their performance significantly degrades in complex or heterogeneous environments, with even high-performing models exhibiting substantial disagreement in their judgments. These findings highlight fundamental limitations in current model-based auditing approaches, underscoring the critical need to account for evaluator reliability, uncertainty, and variance when deploying autonomous CUAs in real-world settings.",
-                                    "source_url": "https://arxiv.org/abs/2603.10577",
-                                    "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-21141",
-                                    "title": "DOES LLM ALIGNMENT REALLY NEED DIVERSITY? AN EMPIRICAL STUDY OF ADAPTING RLVR METHODS FOR MORAL REASONING",
-                                    "description": "<br><strong>STATUS:</strong> A study found that standard reward-maximizing reinforcement learning methods are effective for LLM alignment in moral reasoning tasks, contrary to the hypothesis that diversity-seeking algorithms would be superior.<br><br><strong>INTEL:</strong> The research, conducted on MoReBench with a Qwen3-1.7B judge model for reward pipeline stability, initially hypothesized that moral reasoning's tolerance for multiple valid responses would necessitate diversity-seeking methods. However, empirical results demonstrated that moral reasoning tasks exhibit more concentrated high-reward distributions than mathematical reasoning, explaining why mode-seeking optimization performs effectively and suggesting that explicit diversity mechanisms are not inherently required for LLM alignment.",
-                                    "source_url": "https://arxiv.org/abs/2603.10588",
-                                    "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-63675",
-                                    "title": "TRAJECTORY-INFORMED MEMORY GENERATION FOR SELF-IMPROVING AGENT SYSTEMS",
-                                    "description": "<br><strong>STATUS:</strong> A novel framework has been developed to enable LLM-powered agents to automatically learn from their execution experiences and improve future performance by extracting actionable insights. <br><br><strong>INTEL:</strong> This framework, comprising four components\u2014Trajectory Intelligence Extractor, Decision Attribution Analyzer, Contextual Learning Generator, and Adaptive Memory Retrieval System\u2014semantically analyzes agent reasoning and decisions to create structured guidance (strategy, recovery, and optimization tips). It differs from generic memory systems by understanding execution patterns, extracting specific learnings with provenance, and adaptively retrieving contextually relevant guidance, resulting in significant performance gains (up to 14.3 percentage points in goal completion, and 28.5 pp on complex tasks) on benchmarks like AppWorld.",
-                                    "source_url": "https://arxiv.org/abs/2603.10600",
-                                    "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-85180",
-                                    "title": "FAME: FORMAL ABSTRACT MINIMAL EXPLANATION FOR NEURAL NETWORKS",
-                                    "description": "<br><strong>STATUS:</strong> Researchers have introduced FAME, a novel abductive explanation method, demonstrating its superior scalability and efficiency in generating minimal explanations for large neural networks.\n\n<br><br><strong>INTEL:</strong> FAME achieves its superior performance by grounding explanations in abstract interpretation and designing dedicated perturbation domains that remove the need for traversal order, systematically discarding irrelevant features using LiRPA-based bounds. This technical approach allows it to generate formal, minimal explanations for complex AI, offering crucial advances in model interpretability and trustworthiness for large-scale neural networks where previous methods struggled with scalability and explanation conciseness.",
-                                    "source_url": "https://arxiv.org/abs/2603.10661",
-                                    "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-31864",
-                                    "title": "EMULATING CLINICIAN COGNITION VIA SELF-EVOLVING DEEP CLINICAL RESEARCH",
-                                    "description": "<br><strong>STATUS:</strong> DxEvolve, a new self-evolving AI diagnostic agent, has demonstrated significant improvements in clinical diagnostic accuracy by mimicking human cognitive processes.\n\n<br><strong>INTEL:</strong> DxEvolve distinguishes itself by treating diagnosis as a dynamic, interactive process, autonomously requesting examinations and continuously accumulating clinical experience as \"diagnostic cognition primitives.\" This approach yielded an average 11.2% accuracy improvement over existing models on the MIMIC-CDM benchmark, reaching 90.4% (comparable to clinician reference at 88.8%), and showed impressive gains of 10.2% to 17.1% on an independent external cohort, including previously \"uncovered\" categories. This framework offers a critical pathway for developing accountable, continually evolving, and auditable AI systems within the medical domain.",
-                                    "source_url": "https://arxiv.org/abs/2603.10677",
-                                    "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-20525",
-                                    "title": "NURTURE-FIRST AGENT DEVELOPMENT: BUILDING DOMAIN-EXPERT AI AGENTS THROUGH CONVERSATIONAL KNOWLEDGE CRYSTALLIZATION",
-                                    "description": "<br><strong>STATUS:</strong> A new paradigm, Nurture-First Development (NFD), is proposed for building domain-expert AI agents by progressively growing them through structured conversational interaction with practitioners, addressing the evolving nature of expertise.<br><br><strong>INTEL:</strong> Existing agent development paradigms (code-first, prompt-first) treat agent construction as a discrete engineering phase, failing to account for domain expertise's tacit, personal, and continuously evolving nature. NFD leverages a Knowledge Crystallization Cycle to consolidate fragmented knowledge from operational dialogue into structured assets, formalized with a Three-Layer Cognitive Architecture and an operational framework comprising a Dual-Workspace Pattern and Spiral Development Model, fundamentally shifting towards continuous human-agent co-evolution, as illustrated by a financial research agent case study.",
-                                    "source_url": "https://arxiv.org/abs/2603.10808",
-                                    "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-83782",
-                                    "title": "A HYBRID KNOWLEDGE-GROUNDED FRAMEWORK FOR SAFETY AND TRACEABILITY IN PRESCRIPTION VERIFICATION",
-                                    "description": "<br><strong>STATUS:</strong> A novel system called PharmGraph-Auditor has been introduced to improve the safety and speed of pharmacist prescription verification.\n\n<br><strong>INTEL:</strong> This system bypasses the unreliability of direct LLM application by utilizing a trustworthy Hybrid Pharmaceutical Knowledge Base (HPKB) implemented under a Virtual Knowledge Graph (VKG) paradigm, constructed via the Iterative Schema Refinement (ISR) algorithm, and employs a KB-grounded Chain of Verification (CoV) to transform LLMs into transparent, evidence-grounded reasoning engines for auditing.",
-                                    "source_url": "https://arxiv.org/abs/2603.10891",
-                                    "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-88527",
-                                    "title": "MASEVAL: EXTENDING MULTI-AGENT EVALUATION FROM MODELS TO SYSTEMS",
-                                    "description": "<br><strong>STATUS:</strong> A new evaluation framework, MASEval, has been introduced to assess the performance of LLM-based agentic systems by considering the entire system, not just the underlying models.<br><br><strong>INTEL:</strong> Current benchmarks for LLM agentic systems are limited as they only focus on model performance, neglecting critical framework components such as topology, orchestration logic, and error handling. MASEval addresses this gap by offering a framework-agnostic library that evaluates the entire agentic system, revealing through systematic comparison that framework selection can influence performance as significantly as the choice of the LLM itself, thereby enabling more principled system design and optimized practical deployments. The library is openly available under an MIT license.",
-                                    "source_url": "https://arxiv.org/abs/2603.08835",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-23487",
-                                    "title": "LDP: AN IDENTITY-AWARE PROTOCOL FOR MULTI-AGENT LLM SYSTEMS",
-                                    "description": "<br><strong>STATUS:</strong> A new AI-native communication protocol, the LLM Delegate Protocol (LDP), has been developed to enhance multi-agent AI system capabilities by exposing crucial model-level properties.\n\n<br><br><strong>INTEL:</strong> LDP addresses shortcomings in existing protocols by introducing mechanisms for rich delegate identity, progressive payload modes, governed sessions, structured provenance tracking, and trust domains. Initial evaluations using local Ollama models show LDP achieves significant performance improvements, including 12x lower latency with identity-aware routing, 37% token reduction with semantic frame payloads, and 39% token overhead elimination with governed sessions. Simulated analyses further demonstrate LDP's architectural advantages in attack detection (96% vs. 6%) and failure recovery (100% vs. 35%), indicating a critical advancement for efficient and governable AI delegation.",
-                                    "source_url": "https://arxiv.org/abs/2603.08852",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-67721",
-                                    "title": "QUANTIFYING THE ACCURACY AND COST IMPACT OF DESIGN DECISIONS IN BUDGET-CONSTRAINED AGENTIC LLM SEARCH",
-                                    "description": "<br><strong>STATUS:</strong> A study details how search depth, retrieval strategy, and completion budget impact accuracy and cost for Agentic Retrieval-Augmented Generation (RAG) systems under explicit resource constraints.\n\n<br><strong>INTEL:</strong> The research, utilizing a Budget-Constrained Agentic Search (BCAS) evaluation harness across multiple LLMs and benchmarks, demonstrates that accuracy improves with limited additional searches, hybrid lexical and dense retrieval with lightweight re-ranking offers the best gains, and larger completion budgets are most beneficial for complex synthesis tasks. These findings provide crucial practical guidance for optimizing and configuring cost-effective yet accurate agentic retrieval pipelines in real-world deployment scenarios by balancing computational resources with performance.",
-                                    "source_url": "https://arxiv.org/abs/2603.08877",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-54643",
-                                    "title": "INTERPRETABLE MARKOV-BASED SPATIOTEMPORAL RISK SURFACES FOR MISSING-CHILD SEARCH PLANNING WITH REINFORCEMENT LEARNING AND LLM-BASED QUALITY ASSURANCE",
-                                    "description": "<br><strong>STATUS:</strong> A new decision-support system named Guardian has been developed to enhance missing-child investigations and early search planning.\n\n<br><br><strong>INTEL:</strong> Guardian is an end-to-end system designed to convert heterogeneous, unstructured case data into schema-aligned spatiotemporal representations, enrich it with geocoding and transportation context, and generate probabilistic search products for the critical 0-72 hour window using a three-layer predictive model comprising a Markov chain, reinforcement learning, and a Large Language Model (LLM) for post-hoc validation, aiming to produce interpretable search plans for human review.",
-                                    "source_url": "https://arxiv.org/abs/2603.08933",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-98651",
-                                    "title": "AGENTOS: FROM APPLICATION SILOS TO A NATURAL LANGUAGE-DRIVEN DATA ECOSYSTEM",
-                                    "description": "<br><strong>STATUS:</strong> The article proposes a new Personal Agent Operating System (AgentOS) paradigm to resolve architectural mismatches faced by emerging open-source AI agents running on legacy operating systems.<br><br><strong>INTEL:</strong> Existing AI agents encounter challenges like fragmented interaction models and poor permission management (\"Shadow AI\") when confined to traditional OS. AgentOS aims to revolutionize this by replacing conventional GUI desktops with Natural User Interfaces (NUIs) and employing an Agent Kernel to interpret user intent, orchestrate tasks, and coordinate agents, effectively transforming applications into modular \"Skills-as-Modules.\" The paper highlights that the fundamental realization of AgentOS is a Knowledge Discovery and Data Mining (KDD) problem, requiring the Agent Kernel to function as a real-time engine for intent mining, workflow automation, skill retrieval, and the dynamic evolution of personal knowledge graphs.",
-                                    "source_url": "https://arxiv.org/abs/2603.08938",
-                                    "timestamp": "2026.03.11",
                                     "feed_name": "ARXIV_AI_PAPERS"
                                 }
                             ]
@@ -1780,6 +1780,14 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-89928",
+                                    "title": "A BIT OF GRAY ON AN EMERALD ISLE",
+                                    "description": "<br><strong>STATUS:</strong> The article details the unique gray limestone karst landscape of Ireland's Burren region, captured by satellite imagery.<br><br><strong>INTEL:</strong> This distinctive terrain, observed by Landsat 8 on May 16, 2025, formed from 325-million-year-old fossil-rich limestone deposited in ancient seas, subsequently folded by tectonic collisions, sculpted by glacial activity, and chemically weathered into an irregular landscape of grikes, which provide footholds for vegetation including shamrocks.",
+                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/a-bit-of-gray-in-an-emerald-isle/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-66751",
                                     "title": "NASA INVITES MEDIA TO LEARN ABOUT UPCOMING X-59 TEST FLIGHTS",
                                     "description": "<br><strong>STATUS:</strong> NASA will hold a media teleconference on March 19 to discuss upcoming flight tests for its X-59 quiet supersonic aircraft after its second flight.\n\n<br><strong>INTEL:</strong> The teleconference follows the X-59's second flight, which initiates an \"envelope expansion\" series to gradually increase speed and altitude, ensuring safety and performance, before assessing its unique acoustic profile. This aircraft, central to NASA's Quesst mission, aims to enable commercial supersonic flight over land by eliminating loud sonic booms, potentially revolutionizing global travel times.",
@@ -2168,14 +2176,6 @@ const signalTree = {
                                     "title": "NASA DISCOVERS CRASH OF EXTREME STARS IN UNEXPECTED SITE",
                                     "description": "<br><strong>STATUS:</strong> NASA missions have likely uncovered an unprecedented collision between two ultradense neutron stars within a tiny galaxy located in a massive intergalactic gas stream.<br><br><strong>INTEL:</strong> This discovery, dubbed GRB 230906A and observed by multiple NASA telescopes, is game-changing as it may explain two cosmic mysteries: why some gamma-ray bursts appear without a clear host galaxy (the host being too small to detect) and how heavy elements like gold and platinum are found in stars far from galactic centers, implying such events can occur in these unusual, distant environments likely triggered by earlier galaxy collisions.",
                                     "source_url": "https://www.nasa.gov/missions/chandra/nasa-discovers-crash-of-extreme-stars-in-unexpected-site/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-62044",
-                                    "title": "NASA INVITES MEDIA TO 63RD ANNUAL GODDARD SPACE SCIENCE SYMPOSIUM",
-                                    "description": "<br><strong>STATUS:</strong> The 63rd annual Goddard Space Science Symposium, gathering experts to discuss space science and exploration, is scheduled for March 12-13 at the National Housing Center in Washington.\n\n<br><strong>INTEL:</strong> The symposium's theme, \"Advancing an Integrated Space Enterprise,\" highlights a strategic focus on public-private sector collaboration to accelerate priorities like Moon and Mars exploration. Key discussions will cover next-generation capabilities, joint-use solutions, commercial space, future policy (2026), space weather, and the economic and national security implications of space science, with high-level speakers from NASA and the National Reconnaissance Office underscoring the event's significance in charting the collective path forward for an integrated space enterprise.",
-                                    "source_url": "https://www.nasa.gov/news-release/nasa-invites-media-to-63rd-annual-goddard-space-science-symposium/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "NASA_BREAKING"
                                 }
