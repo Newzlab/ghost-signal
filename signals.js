@@ -127,6 +127,14 @@ const signalTree = {
                             "name": "C4ISRNET_UNMANNED",
                             "articles": [
                                 {
+                                    "id": "GS-83862",
+                                    "title": "US NAVY TAPS GECKO ROBOTICS TO HELP REMEDY MAINTENANCE HEADACHES",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Navy has contracted Gecko Robotics to deploy AI and robotic systems to expedite maintenance and improve fleet readiness.\n\n<br><strong>INTEL:</strong> This 5-year, $54 million deal will utilize drones, wall-climbing robots, and fixed sensors combined with AI to identify structural issues on ships, aiming to perform inspections up to 50 times faster and more accurately than traditional methods. The initiative addresses significant historical readiness shortfalls, particularly in the Pacific Fleet, to help the Navy achieve its ambitious goal of 80% fleet readiness by 2027.",
+                                    "source_url": "https://www.c4isrnet.com/industry/techwatch/2026/03/17/us-navy-taps-gecko-robotics-to-help-remedy-maintenance-headaches/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "C4ISRNET_UNMANNED"
+                                },
+                                {
                                     "id": "GS-55157",
                                     "title": "TURKEY\u2019S BAYKAR TESTS SWARM BEHAVIOR OF ITS K2 ONE-WAY ATTACK DRONE",
                                     "description": "<br><strong>STATUS:</strong> Turkish defense firm Baykar announced successful flight tests of its K2 loitering munition, showcasing autonomous swarm formation and navigation capabilities in GPS-denied environments.<br><br><strong>INTEL:</strong> The K2 is a large, long-endurance fixed-wing loitering munition with a significant warhead, engineered to operate effectively without global navigation satellite systems through advanced terrain-referenced visual navigation and AI-assisted swarm synergy. This robust navigation architecture, a direct response to GPS jamming observed in modern conflicts, positions the K2 as a strategic, low-cost asset for large-scale precision strikes, aiming to reduce dependence on more expensive conventional munitions.",
@@ -558,6 +566,30 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-24754",
+                                    "title": "US NAVY TAPS GECKO ROBOTICS TO HELP REMEDY MAINTENANCE HEADACHES",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Navy is deploying AI and robotic systems from Gecko Robotics in a $54 million contract to streamline ship maintenance and combat readiness delays.<br><br><strong>INTEL:</strong> Gecko Robotics will utilize drones, wall-climbing robots, and fixed sensors with AI tools to inspect 18 ships in the U.S. Pacific Fleet, identifying hidden structural issues up to 50 times faster than manual methods. This technology aims to significantly reduce maintenance backlogs, which have historically hampered naval readiness rates\u2014falling as low as 41% for amphibious ships in 2025\u2014and is crucial for achieving the Navy's ambitious goal of 80% fleet deployability by 2027.",
+                                    "source_url": "https://www.defensenews.com/industry/techwatch/2026/03/17/us-navy-taps-gecko-robotics-to-help-remedy-maintenance-headaches/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-60204",
+                                    "title": "PATRIOT AIR DEFENSE INTERCEPTION IS COSTLY: HERE\u2019S HOW IT WORKS",
+                                    "description": "<br><strong>STATUS:</strong> U.S. forces are heavily employing expensive Patriot missile defense systems against intensifying missile and drone attacks in the Middle East.<br><br><strong>INTEL:</strong> The Patriot system relies on radar and PAC-3 \"hit-to-kill\" interceptors for precision engagement, making it vital for ballistic missile defense as part of a layered air defense. However, the multi-million dollar cost of each PAC-3 interceptor creates a significant financial burden when used against cheaper drone threats, raising concerns about the finite supply and slow production rates meeting the sustained high demand in ongoing Middle East conflicts.",
+                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/17/patriot-air-defense-interception-is-costly-heres-how-it-works/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
+                                    "id": "GS-47312",
+                                    "title": "EUROPEAN ALLIES TELL TRUMP \u2018NEIN,\u2019 \u2018NON\u2019 AND \u2018NO\u2019 ON HELP TO FORCE OPEN HORMUZ STRAIT",
+                                    "description": "<br><strong>STATUS:</strong> European NATO allies are resisting U.S. demands to use force to reopen the Strait of Hormuz, which Iran shut down in response to the American-Israeli war.\n\n<br><strong>INTEL:</strong> Key European leaders, including those from the UK, Germany, and the EU, explicitly refuse to expand their naval operations or deploy forces to the Strait of Hormuz, citing a lack of consultation, unclear U.S. war objectives, and an unwillingness to be drawn into a conflict they deem \"not their war.\" This pushback occurs despite U.S. President Trump linking allied cooperation on the Strait to the future of NATO and support for Ukraine, while the Strait's closure has caused Brent crude oil prices to surge above $100 a barrel and Iran is reportedly attacking vessels and laying sea mines. France is considering a future, collaborative, non-military escort mission only after the conflict's most intense phase concludes.",
+                                    "source_url": "https://www.defensenews.com/global/mideast-africa/2026/03/17/european-allies-tell-trump-nein-non-and-no-on-help-to-force-open-hormuz-strait/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-6757",
                                     "title": "TESLA\u2019S CYBERTRUCK MAY BE WRONG FOR SOME. COULD IT BE RIGHT FOR THE BATTLEFIELD?",
                                     "description": "<br><strong>STATUS:</strong> The article discusses the deployment of US-developed M-ACE counter-drone systems in Ukraine and proposes the Tesla Cybertruck as a superior, remotely-operable platform to overcome current vulnerabilities and logistical challenges.\n\n<br><strong>INTEL:</strong> The M-ACE system, utilizing 30mm chain guns with programmable shells, is an effective and cost-friendly solution against battlefield drones, but its current mounting on civilian pickup trucks leaves crew members vulnerable. The Tesla Cybertruck is identified as an ideal alternative due to its high availability from commercial market failure, existing self-driving capabilities for remote operation, significantly lower cost and faster mass production potential compared to purpose-built unmanned ground vehicles, and logistical advantages of electric power like reduced noise and thermal signature, all of which would enhance counter-drone effectiveness and operator safety.",
@@ -930,30 +962,6 @@ const signalTree = {
                                     "title": "NATO DEFENSES SHOOT DOWN BALLISTIC MISSILE IN TURKEY",
                                     "description": "<br><strong>STATUS:</strong> NATO defenses successfully intercepted an Iranian ballistic missile that violated Turkish airspace, marking the second such incident since recent U.S. and Israeli strikes on Iran.\n\n<br><strong>INTEL:</strong> This interception underscores escalating regional hostilities, with Iran actively retaliating across multiple countries following military actions by the U.S. and Israel on February 28th. The successful downing by NATO units in the eastern Mediterranean demonstrates a robust collective defense posture and reinforces Turkey's resolve to firmly protect its territory and airspace, despite valuing regional stability, issuing a clear warning against future incursions.",
                                     "source_url": "https://www.defensenews.com/global/europe/2026/03/09/nato-defenses-shoot-down-ballistic-missile-in-turkey/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-72160",
-                                    "title": "TURKEY SENDS SIX F-16 FIGHTERS TO NORTHERN CYPRUS AMID IRAN MISSILE THREATS",
-                                    "description": "<br><strong>STATUS:</strong> Turkey has deployed six F-16C fighter jets to the Turkish Republic of Northern Cyprus as part of a phased approach to enhance regional security.\n\n<br><strong>INTEL:</strong> This deployment is a direct response to escalating military activities in the Eastern Mediterranean, including Greece's recent deployment of F-16s and frigates to Cyprus following an Iranian attack on RAF Akrotiri, and France's announced dispatch of an aircraft carrier strike group and advanced anti-drone/missile systems to bolster Cyprus's defenses. The Turkish F-16s, operating from Ercan International Airport, are equipped for combat air patrol and air defense missions, indicating a significant and rapidly increasing military presence in the area.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/09/turkey-sends-six-f-16-fighters-to-northern-cyprus-amid-iran-missile-threats/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-49451",
-                                    "title": "FINLAND READIES ITSELF TO BE ABLE TO HOST NUKES IN LONGTIME POLICY DEPARTURE",
-                                    "description": "<br><strong>STATUS:</strong> Finland's government has proposed scrapping its Cold War-era ban on nuclear weapons to fully integrate into NATO's deterrence architecture.\n\n<br><br><strong>INTEL:</strong> The proposed amendment would allow the import and transport of nuclear weapons for homeland or collective defense, departing from a 1987 law that categorically prohibited them, though manufacturing and detonation would remain illegal. This legislative shift, essential for strengthening Finland's military defense within NATO, aligns its status with most other alliance members, and is likely to pass given the ruling coalition's parliamentary majority and government backing.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/09/finland-readies-itself-to-be-able-to-host-nukes-in-longtime-policy-departure/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-95211",
-                                    "title": "EUROPEAN NATO NATIONS REDUCE RELIANCE ON US ARMS IMPORTS: SIPRI DATA",
-                                    "description": "<br><strong>STATUS:</strong> European NATO countries are diversifying their major arms imports away from the United States, significantly increasing acquisitions from South Korea, France, and Israel.<br><br><strong>INTEL:</strong> This strategic shift reflects heightened European defense spending post-Ukraine invasion and growing doubts about the long-term reliability of the U.S. as an ally, fueled by past threats from President Trump and a U.S. policy focus on homeland defense. While the U.S. remains the largest overall supplier to European NATO and the world's top arms exporter, European nations are proactively reducing their proportional dependency to enhance defense autonomy.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/09/european-nato-nations-reduce-reliance-on-us-arms-imports-sipri-data/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1383,6 +1391,30 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-77193",
+                                    "title": "SPACE BOOM STRAINS SUPPLY CHAIN, INDUSTRY REPORT WARNS",
+                                    "description": "<br><strong>STATUS:</strong> The accelerating growth of the U.S. space industry is creating significant strain and bottlenecks within its supporting supply chain.\n\n<br><strong>INTEL:</strong> The existing supply chain, originally structured for low-volume government projects, is struggling to meet the high-volume demands from commercial ventures and national security priorities, specifically impacting specialized components (microelectronics, sensors), advanced manufacturing services (precision machining), and testing infrastructure. This bottleneck, coupled with workforce shortages and inconsistent government demand signals, threatens to impede innovation and U.S. leadership in space if not addressed through strategic investments and policy changes.",
+                                    "source_url": "https://spacenews.com/space-boom-strains-supply-chain-industry-report-warns/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-87755",
+                                    "title": "GOLDEN DOME COST ESTIMATE RISES TO $185 BILLION AS PENTAGON EXPANDS SPACE LAYER",
+                                    "description": "<br><strong>STATUS:</strong> The Pentagon has increased its cost estimate for the Golden Dome missile defense initiative to $185 billion over the next decade, primarily to accelerate its space-based capabilities.<br><br><strong>INTEL:</strong> This updated budget reflects a strategic shift toward procuring more satellites and building out a space-based data network to enhance tracking and targeting against ballistic, hypersonic, and cruise missile threats. While $25 billion has been allocated by Congress to date, the main challenge identified is not the underlying technology but scaling production and reducing the \"cost per kill\" for interceptors, leading to exploration of alternative solutions like directed energy weapons.",
+                                    "source_url": "https://spacenews.com/golden-dome-cost-estimate-rises-to-185-billion-as-pentagon-expands-space-layer/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-43625",
+                                    "title": "ISPTECH RAISES \u20ac5.5M SEED ROUND TO REDEFINE HOW SPACECRAFT MANOEUVRE IN ORBIT",
+                                    "description": "<br><strong>STATUS:</strong> German space technology company ISPTech has secured \u20ac5.5 million in seed funding to accelerate the deployment of its advanced, non-toxic propulsion systems for operational space missions.<br><br><strong>INTEL:</strong> ISPTech's funding will expand manufacturing and commercial deployment of its HyNOx and patented HIP_11 propulsion systems, which offer multi-mode capabilities, non-toxic alternatives to hypergolics, and the ability for efficient electric maneuvers. These technologies address the critical need for rapid, agile, and high-thrust in-orbit mobility, essential for sustainable operations, defense, servicing, refuelling, and unlocking the broader space ecosystem, with initial customer missions planned for 2026.",
+                                    "source_url": "https://spacenews.com/isptech-raises-e5-5m-seed-round-to-redefine-how-spacecraft-manoeuvre-in-orbit/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-73280",
                                     "title": "CANADIAN MILITARY INVESTS IN SOVEREIGN LAUNCH",
                                     "description": "<br><strong>STATUS:</strong> Canada has committed significant funds to establish a sovereign space launch capability, including a dedicated launch pad and development of domestic small launch vehicles.<br><br><strong>INTEL:</strong> This strategic investment comprises a C$200 million 10-year lease for a dedicated military launch pad at Spaceport Nova Scotia and C$105 million for three Canadian companies (Canada Rocket Company, NordSpace, Reaction Dynamics) to develop responsive small launch vehicles by 2028. The primary objective is to reduce Canada's reliance on foreign launch services, safeguard national sovereignty and satellite connectivity, and bolster the domestic space industry, further underscored by Canada's decision to join NATO's Starlift project for rapid payload launches.",
@@ -1755,30 +1787,6 @@ const signalTree = {
                                     "title": "IMPULSE SPACE EXPANDS COLORADO PRESENCE",
                                     "description": "<br><strong>STATUS:</strong> Impulse Space has opened a new 20,000-square-foot manufacturing facility in Colorado to support the development of hardware and subsystems for its Mira and Helios transfer vehicles.\n\n<br><strong>INTEL:</strong> This facility near Boulder will focus on developing guidance, navigation, and control (GNC) systems for precision maneuvers, as well as manufacturing components like valves and pumps for the Helios transfer vehicle and its Deneb main engine. The expansion aims to scale production to meet strong demand from government and commercial customers for Mira and Helios, including for space defense and control missions, and to advance GNC technologies for a potential lunar lander concept.",
                                     "source_url": "https://spacenews.com/impulse-space-expands-colorado-presence/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-668",
-                                    "title": "STARLINER AND ARTEMIS: COMMERCIAL LABEL VS. COMMERCIAL DISCIPLINE",
-                                    "description": "<br><strong>STATUS:</strong> NASA designated Boeing's 2024 Starliner crewed test flight as a Type A mishap, its most serious category, citing decision-making and leadership failures as the core problem rather than hardware.\n\n<br><br><strong>INTEL:</strong> This incident serves as a case study highlighting the critical difference between \"commercial structure\" (contractual arrangements) and \"commercial discipline\" (behavioral rigor, root-cause resolution, and designing for repeatability). The article argues that a lack of commercial discipline led to the Starliner failures, prompting NASA to revise its Artemis approach to emphasize standardization, higher flight cadence, and smaller technical steps, aiming to de-risk through repetition and learn from successful examples like SpaceX and Axiom Space that embody true market-building discipline.",
-                                    "source_url": "https://spacenews.com/starliner-and-artemis-commercial-label-vs-commercial-discipline/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-8439",
-                                    "title": "LUX AETERNA RAISES $10 MILLION AHEAD OF 2027 REUSABLE SATELLITE DEMO",
-                                    "description": "<br><strong>STATUS:</strong> Lux Aeterna secured $10 million in seed funding to develop a reusable satellite designed for atmospheric reentry and reflight, with a demonstration flight planned for early 2027.<br><br><strong>INTEL:</strong> The startup's Delphi-1 spacecraft, weighing 200 kg with a 30 kg payload capacity, uniquely integrates a rigid heat shield as its primary structural bus, enabling it to function as a conventional satellite before autonomous recovery in South Australia. This innovation aims to transform the space industry by offering lower costs, greater sustainability, and mission flexibility for short-duration missions and hardware return from orbit, attracting both commercial and defense customers, including U.S. government organizations.",
-                                    "source_url": "https://spacenews.com/lux-aeterna-raises-10-million-for-reusable-satellite-ahead-of-2027-demo/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-72168",
-                                    "title": "LANDSPACE TESTS 220-TON METHANE ENGINE FOR FUTURE HEAVY-LIFT LAUNCHERS",
-                                    "description": "<br><strong>STATUS:</strong> Chinese startup Landspace successfully completed a long-duration hot-fire test of its new 220-ton-class BF methane rocket engine for next-generation heavy-lift launch vehicles.<br><br><strong>INTEL:</strong> This advanced full-flow staged combustion (FFSC) engine, similar in ambition to SpaceX's Raptor, is a critical component for Landspace's future large, reusable launchers, differentiating it from their current Zhuque-3, which recently failed its first recovery attempt; its development positions Landspace competitively within a crowded Chinese market where both commercial and state-owned entities are pursuing FFSC technology for future super heavy-lift rockets and reusable spaceflight capabilities.",
-                                    "source_url": "https://spacenews.com/landspace-tests-220-ton-methane-engine-for-future-heavy-lift-launchers/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "SPACE_NEWS"
                                 }
@@ -2203,6 +2211,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-74265",
+                                    "title": "EUROPE SANCTIONS CHINESE AND IRANIAN FIRMS FOR CYBERATTACKS",
+                                    "description": "<br><strong>STATUS:</strong> The Council of the European Union has sanctioned three companies and two individuals from China and Iran for malicious cyberattacks targeting critical infrastructure and EU devices.<br><br><strong>INTEL:</strong> The sanctions target Chinese entities Integrity Technology Group and Anxun Information Technology (and its co-founders) for providing hacking services, supporting the 'Raptor Train' botnet, and compromising tens of thousands of EU devices, alongside Iranian company Emennet Pasargad for influence campaigns, data theft (e.g., Charlie Hebdo subscribers), and critical service compromises. These measures, which include asset freezes and travel bans, reflect an escalating coordinated international effort against state-sponsored and commercial hacking operations, complementing prior US sanctions on these entities.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/europe-sanctions-chinese-and-iranian-firms-for-cyberattacks/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-91516",
                                     "title": "TOP 5 THINGS CISOS NEED TO DO TODAY TO SECURE AI AGENTS",
                                     "description": "<br><strong>STATUS:</strong> Agentic AI is transforming operations with autonomous agents, but organizations are unprepared for the significant security risks that demand an immediate shift from guardrails to identity-centric access control.\n\n<br><br><strong>INTEL:</strong> Agentic AI agents are autonomous actors executing critical functions across systems without human intervention, rendering traditional security guardrails ineffective due to their non-deterministic nature and the ease of bypass. The strategic implication is that identity-based access control is the only scalable foundation for securing these systems, spanning every platform an agent touches, and CISOs must prioritize treating agents as first-class identities, gaining visibility into their usage, and securing them based on their operational intent rather than static permissions to prevent data exfiltration and cascading failures.",
@@ -2591,14 +2607,6 @@ const signalTree = {
                                     "title": "HPE WARNS OF CRITICAL AOS-CX FLAW ALLOWING ADMIN PASSWORD RESETS",
                                     "description": "<br><strong>STATUS:</strong> Hewlett Packard Enterprise (HPE) has patched multiple critical security vulnerabilities, including an authentication bypass (CVE-2026-23813), in its Aruba Networking AOS-CX operating system for CX-series switches.<br><br><strong>INTEL:</strong> The most severe flaw, CVE-2026-23813, is a critical authentication bypass in the web-based management interface that allows unauthenticated remote attackers to reset admin passwords with low complexity. While HPE is not yet aware of public exploits or in-the-wild abuse, this vulnerability in a core network operating system poses a significant risk for enterprise and data center environments, necessitating immediate patching or mitigation measures.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/hpe-warns-of-critical-aos-cx-flaw-allowing-admin-password-resets/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-75164",
-                                    "title": "MICROSOFT BRINGS PHISHING-RESISTANT WINDOWS SIGN-INS VIA ENTRA PASSKEYS",
-                                    "description": "<br><strong>STATUS:</strong> Microsoft is rolling out public preview support for Entra passkeys on Windows devices, enabling phishing-resistant passwordless authentication via Windows Hello.\n\n<br><strong>INTEL:</strong> This update extends device-bound passkey authentication to unmanaged Windows devices, which previously relied on passwords, significantly enhancing security by storing cryptographic passkeys locally in the Windows Hello container, making them resistant to network-based phishing and malware attacks. IT administrators must opt-in and configure the feature within Microsoft Entra's authentication policies for a staggered rollout starting in March 2026 for worldwide tenants, with government clouds following later.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-entra-brings-phishing-resistant-sign-in-to-windows/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
