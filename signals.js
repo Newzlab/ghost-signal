@@ -976,6 +976,126 @@ const signalTree = {
                             "name": "ARXIV_AI_PAPERS",
                             "articles": [
                                 {
+                                    "id": "GS-14103",
+                                    "title": "NEURAL-SYMBOLIC LOGIC QUERY ANSWERING IN NON-EUCLIDEAN SPACE",
+                                    "description": "<br><strong>STATUS:</strong> A new neural-symbolic model called HYQNET has been proposed to effectively answer complex first-order logic queries on knowledge graphs by fully leveraging hyperbolic space.\n\n<br><strong>INTEL:</strong> HYQNET enhances interpretability by decomposing FOL queries into relation projections and logical operations over fuzzy sets, while also addressing incomplete graphs through a hyperbolic Graph Neural Network (GNN) based approach for knowledge graph completion. Its key innovation lies in utilizing hyperbolic representations to capture the hierarchical nature of logical projection reasoning and embedding the recursive query tree, which significantly outperforms Euclidean-based methods in preserving structural dependencies and achieving strong performance on benchmark datasets.",
+                                    "source_url": "https://arxiv.org/abs/2603.15633",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-84410",
+                                    "title": "NEXTMEM: TOWARDS LATENT FACTUAL MEMORY FOR LLM-BASED AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> A new latent factual memory framework called NextMem has been introduced to improve LLM-based agents' ability to preserve past observations efficiently and accurately.<br><br><strong>INTEL:</strong> NextMem addresses the limitations of existing textual and parametric memory methods by employing an autoregressive autoencoder for efficient latent memory construction and accurate reconstruction. It utilizes a two-stage training process (autoregressive reconstruction alignment and progressive latent substitution) and incorporates quantization to reduce storage, demonstrating superior performance in retrieval, robustness, and extensibility, with code and model checkpoints publicly available.",
+                                    "source_url": "https://arxiv.org/abs/2603.15634",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-94889",
+                                    "title": "AIDABENCH: AI DATA ANALYTICS BENCHMARK",
+                                    "description": "<br><strong>STATUS:</strong> A new comprehensive benchmark, AIDABench, has been introduced to evaluate AI systems on complex, end-to-end data analytics tasks, revealing current models struggle significantly.<br><br><strong>INTEL:</strong> AIDABench comprises over 600 diverse document analysis tasks across question answering, data visualization, and file generation, utilizing realistic heterogeneous data types to assess end-to-end AI effectiveness. It addresses limitations of existing benchmarks by simulating real-world difficulty, with tasks so challenging that even AI-assisted human experts require hours per question. Initial evaluations of 11 state-of-the-art models showed the best performer achieved only 59.43%, highlighting significant current AI limitations in practical, complex data analytics and offering a crucial reference for enterprise procurement and future research.",
+                                    "source_url": "https://arxiv.org/abs/2603.15636",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-35222",
+                                    "title": "THE COMPREHENSION-GATED AGENT ECONOMY: A ROBUSTNESS-FIRST ARCHITECTURE FOR AI ECONOMIC AGENCY",
+                                    "description": "<br><strong>STATUS:</strong> A new architecture, the Comprehension-Gated Agent Economy (CGAE), is introduced to formally gate AI agents' economic permissions based on verified comprehension and adversarial robustness audits, not just capability.\n\n<br><strong>INTEL:</strong> CGAE's gating mechanism measures robustness across constraint compliance, epistemic integrity, and behavioral alignment, using intrinsic hallucination rates as a diagnostic. This framework ensures bounded economic exposure, incentivizes agents to invest in robustness over capability alone for profit maximization, and guarantees aggregate system safety scaling as the AI economy grows, transforming AI safety into a competitive advantage by bridging empirical robustness evaluation with economic governance.",
+                                    "source_url": "https://arxiv.org/abs/2603.15639",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-13047",
+                                    "title": "FORM FOLLOWS FUNCTION: RECURSIVE STEM MODEL",
+                                    "description": "<br><strong>STATUS:</strong> A new Recursive Stem Model (RSM) has been introduced, demonstrating significantly faster training, improved accuracy, and enhanced test-time inference for complex reasoning tasks compared to prior recursive models.<br><br><strong>INTEL:</strong> RSM addresses limitations of deep supervision and long unrolls in existing recursive models by learning a stable, depth-agnostic transition operator via detached hidden-state history and final-step loss application. This approach yields over 20x faster training and a 5x reduction in error rates compared to TRM, while also enabling inference to run for arbitrarily many refinement steps at test time, essentially allowing the model to \"think\" longer without retraining. Crucially, RSM's iterative settling process provides an architecture-native reliability signal, where non-settling trajectories can warn against potential hallucination.",
+                                    "source_url": "https://arxiv.org/abs/2603.15641",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-49880",
+                                    "title": "CRANIMEM: CRANIAL INSPIRED GATED AND BOUNDED MEMORY FOR AGENTIC SYSTEMS",
+                                    "description": "<br><strong>STATUS:</strong> A new neurocognitively motivated, multi-stage memory system called CraniMem has been developed to enhance the robustness and state preservation of LLM agents in long-running workflows.\n\n<br><strong>INTEL:</strong> CraniMem addresses the limitations of existing ad hoc memory systems by integrating goal-conditioned gating, utility tagging, a bounded episodic buffer for near-term continuity, and a structured long-term knowledge graph for durable recall. It utilizes a scheduled consolidation loop to replay high-utility traces and prune low-utility items, managing memory growth and reducing interference. Benchmarking reveals CraniMem's superior robustness and smaller performance drops under distraction compared to Vanilla RAG and Mem0 baselines on long-horizon tasks, with its code publicly available.",
+                                    "source_url": "https://arxiv.org/abs/2603.15642",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-39627",
+                                    "title": "GSI AGENT: DOMAIN KNOWLEDGE ENHANCEMENT FOR LARGE LANGUAGE MODELS IN GREEN STORMWATER INFRASTRUCTURE",
+                                    "description": "<br><strong>STATUS:</strong> A new LLM framework, GSI Agent, has been developed to significantly improve performance in Green Stormwater Infrastructure (GSI) inspection and maintenance tasks.\n\n<br><strong>INTEL:</strong> GSI Agent addresses the challenge of scattered GSI domain knowledge and the limitations of general LLMs by integrating supervised fine-tuning on a curated GSI instruction dataset, retrieval-augmented generation (RAG) over an internal knowledge base derived from municipal documents, and an agent-based reasoning pipeline. This methodology aims to provide reliable and actionable guidance for non-expert users in professional infrastructure applications, demonstrating substantial domain-specific performance improvements (BLEU-4 increased from 0.090 to 0.307 on the GSI dataset) while maintaining general knowledge capabilities.",
+                                    "source_url": "https://arxiv.org/abs/2603.15643",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-19635",
+                                    "title": "DID YOU CHECK THE RIGHT POCKET? COST-SENSITIVE STORE ROUTING FOR MEMORY-AUGMENTED AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> Memory-augmented agents can achieve higher accuracy and efficiency by using selective memory retrieval through a store-routing mechanism instead of querying all memory stores.\n\n<br><strong>INTEL:</strong> Current systems suffer from high costs and irrelevant context due to uniform retrieval from all specialized memory stores; the new store-routing formulation significantly improves performance by reducing context tokens and is identified as a first-class design component for scalable multi-store systems, with store selection also formalized as a cost-sensitive decision problem.",
+                                    "source_url": "https://arxiv.org/abs/2603.15658",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-60380",
+                                    "title": "DYNATRUST: DEFENDING MULTI-AGENT SYSTEMS AGAINST SLEEPER AGENTS VIA DYNAMIC TRUST GRAPHS",
+                                    "description": "<br><strong>STATUS:</strong> A novel defense method named DynaTrust has been developed to combat \"sleeper agents\" in Large Language Model-based Multi-Agent Systems (MAS).<br><br><strong>INTEL:</strong> DynaTrust addresses the vulnerability of sleeper agents, which accumulate trust before revealing malicious behavior, by modeling MAS as a dynamic trust graph. It continuously updates agent trust based on historical behavior and expert confidence, and rather than simply blocking, it autonomously restructures the graph to isolate compromised agents while maintaining task connectivity. This approach significantly improves defense success rates by 41.7% compared to state-of-the-art methods like AgentShield and reduces false-positive rates, balancing security with system utility.",
+                                    "source_url": "https://arxiv.org/abs/2603.15661",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-50627",
+                                    "title": "QV MAY BE ENOUGH: TOWARD THE ESSENCE OF ATTENTION IN LLMS",
+                                    "description": "<br><strong>STATUS:</strong> A new theoretical framework for the Query-Key-Value (QKV) mechanism within Transformer architectures has been derived using a linguistic perspective.<br><br><strong>INTEL:</strong> This work provides a unified explanatory framework for modern architectures like MQA, GQA, and MLA, identifying their trade-offs and optimization trajectories. It introduces the QV paradigm and a validated QV-Ka optimization scheme, establishing an interpretable theoretical foundation crucial for the future evolution of large language model architectures.",
+                                    "source_url": "https://arxiv.org/abs/2603.15665",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-59041",
+                                    "title": "COMPILED MEMORY: NOT MORE INFORMATION, BUT MORE PRECISE INSTRUCTIONS FOR LANGUAGE AGENTS",
+                                    "description": "<br><strong>STATUS:</strong> A new memory kernel named Atlas is introduced, which significantly enhances language agent performance by dynamically rewriting their system prompts based on distilled task experience rather than conventional memory management.\n\n<br><strong>INTEL:</strong> Atlas redefines memory as distillation rather than storage, compiling verified facts from agent successes and failures directly into their instruction structure via system prompt rewriting, bypassing RAG or fine-tuning. This method yielded substantial gains for GPT-4o (e.g., +8.7pp F1 on CUAD, +3.16pp F1 on HotpotQA) and proved model-agnostic, showing improvements on Claude Sonnet 4.5 even when using prompts derived from GPT-4o errors, confirming the compiled knowledge is task-shaped and effectively modifies agent behavior.",
+                                    "source_url": "https://arxiv.org/abs/2603.15666",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-18428",
+                                    "title": "A DYNAMIC SURVEY OF FUZZY, INTUITIONISTIC FUZZY, NEUTROSOPHIC, PLITHOGENIC, AND EXTENSIONAL SETS",
+                                    "description": "<br><strong>STATUS:</strong> A new book is announced, providing a comprehensive survey of Fuzzy, Intuitionistic Fuzzy, Neutrosophic, and Plithogenic Set theories.<br><br><strong>INTEL:</strong> This large-scale survey aims to provide a unified exposition of existing developments in these generalized set-theoretic frameworks, which are essential for mathematically modeling real-world uncertainty, vagueness, and incomplete information, thereby stimulating new insights, conceptual extensions, and applications across various disciplines.",
+                                    "source_url": "https://arxiv.org/abs/2603.15667",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-79585",
+                                    "title": "QUANTUM-SECURE-BY-CONSTRUCTION (QSC): A PARADIGM SHIFT FOR POST-QUANTUM AGENTIC INTELLIGENCE",
+                                    "description": "<br><strong>STATUS:</strong> A new design paradigm, \"quantum secure by construction\" (QSC), is introduced to establish secure and policy-compliant communication for distributed agentic AI systems in the quantum era.<br><br><strong>INTEL:</strong> QSC integrates post-quantum cryptography, quantum random number generation, and quantum key distribution into a runtime adaptive, policy-guided security model, positioning quantum security as a fundamental architectural property rather than a later upgrade. This approach creates a governance-aware orchestration layer to dynamically apply link-specific cryptographic protections throughout the entire agent lifecycle, thereby reducing the operational complexity and cost of preparing AI deployments for future quantum threats.",
+                                    "source_url": "https://arxiv.org/abs/2603.15668",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-21022",
+                                    "title": "I KNOW WHAT I DON'T KNOW: LATENT POSTERIOR FACTOR MODELS FOR MULTI-EVIDENCE PROBABILISTIC REASONING",
+                                    "description": "<br><strong>STATUS:</strong> A new framework called Latent Posterior Factors (LPF) has been introduced to enable tractable probabilistic reasoning with calibrated uncertainty over noisy, unstructured evidence.\n\n<br><strong>INTEL:</strong> LPF transforms Variational Autoencoder (VAE) latent posteriors into soft likelihood factors for Sum-Product Network (SPN) inference, allowing it to process unstructured data while preserving uncertainty quantification crucial for real-world decision-making like medical diagnosis. The LPF-SPN instantiation demonstrably achieves high accuracy (up to 97.8%) and low calibration error (ECE 1.4%), significantly outperforming evidential deep learning, large language models (LLMs), and graph-based baselines.",
+                                    "source_url": "https://arxiv.org/abs/2603.15670",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
+                                    "id": "GS-32785",
+                                    "title": "THEORETICAL FOUNDATIONS OF LATENT POSTERIOR FACTORS: FORMAL GUARANTEES FOR MULTI-EVIDENCE REASONING",
+                                    "description": "<br><strong>STATUS:</strong> A new principled AI framework, Latent Posterior Factors (LPF), has been developed for aggregating multiple heterogeneous evidence items in probabilistic prediction tasks, offering strong formal guarantees for trustworthiness.\n\n<br><strong>INTEL:</strong> LPF addresses the pervasive challenge of multi-evidence reasoning in high-stakes domains by encoding each evidence item into a Gaussian latent posterior via a variational autoencoder, converting these to soft factors through Monte Carlo marginalization, and then aggregating them via exact Sum-Product Network inference (LPF-SPN) or a learned neural aggregator (LPF-Learned). The framework establishes LPF as a foundation for trustworthy multi-evidence AI in safety-critical applications through seven robust formal guarantees, which include calibration preservation, graceful degradation under adversarial corruption (maintaining 88% performance with half evidence replaced), and exact epistemic-aleatoric uncertainty decomposition, all empirically validated.",
+                                    "source_url": "https://arxiv.org/abs/2603.15674",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "ARXIV_AI_PAPERS"
+                                },
+                                {
                                     "id": "GS-70422",
                                     "title": "HUMAN ATTRIBUTION OF CAUSALITY TO AI ACROSS AGENCY, MISUSE, AND MISALIGNMENT",
                                     "description": "<br><strong>STATUS:</strong> New research investigates folk perceptions of causal responsibility when AI systems are involved in harmful outcomes within causal chain structures.<br><br><strong>INTEL:</strong> Human experiments revealed that participants attribute greater causal responsibility to AI when its agency is moderate or high, but consistently judge humans as more causal when performing the same actions as an AI. Developers, despite their temporal distance, were also judged highly causal, reducing blame on human users but not on the AI, with the agentic component of an AI seen as more causal than its LLM component, findings critical for designing AI liability frameworks and shaping policy debates.",
@@ -1253,126 +1373,6 @@ const signalTree = {
                                     "description": "<br><strong>STATUS:</strong> SoLA, a new Semantic routing-based LoRA framework, is proposed to achieve accurate, efficient, and reversible lifelong model editing for Large Language Models.\n\n<br><strong>INTEL:</strong> This framework addresses semantic drift and knowledge forgetting by encapsulating each edit as an independent, frozen LoRA module activated via semantic routing. Its crucial innovation is the unprecedented ability to precisely revoke specific edits, restoring a model's original behavior by removing keys from the semantic routing, a capability not seen in prior literature.",
                                     "source_url": "https://arxiv.org/abs/2603.11239",
                                     "timestamp": "2026.03.13",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-5039",
-                                    "title": "MIND THE SIM2REAL GAP IN USER SIMULATION FOR AGENTIC TASKS",
-                                    "description": "<br><strong>STATUS:</strong> A study reveals a significant \"Sim2Real gap\" in LLM-based user simulations, finding they do not accurately represent real human interactive behaviors or feedback.\n\n<br><strong>INTEL:</strong> LLM simulators consistently create an \"easy mode\" by being overly cooperative, stylistically uniform, and lacking realistic human frustrations or nuanced negative feedback, leading to inflated agent success rates compared to human baselines. The study, involving 451 participants and introducing the User-Sim Index (USI), found that general model capability does not correlate with simulation fidelity, underscoring the critical need for human validation and the development of more realistic user simulation models in NLP agent evaluation.",
-                                    "source_url": "https://arxiv.org/abs/2603.11245",
-                                    "timestamp": "2026.03.13",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-26096",
-                                    "title": "THE UNLEARNING MIRAGE: A DYNAMIC FRAMEWORK FOR EVALUATING LLM UNLEARNING",
-                                    "description": "<br><strong>STATUS:</strong> A new research paper reveals that current unlearning methods in Large Language Models (LLMs) are brittle, allowing supposedly forgotten information to be recovered, and proposes a dynamic framework to robustly evaluate these vulnerabilities.<br><br><strong>INTEL:</strong> Existing LLM unlearning techniques, designed for safety and compliance, are fundamentally flawed, as minor query modifications like multi-hop reasoning can bypass them. This vulnerability stems from multi-hop queries utilizing alternative computational pathways that remain undisturbed by current unlearning methods, creating an 'illusion of effectiveness' in standard benchmarks and posing significant risks to the reliable enforcement of 'right to be forgotten' mandates.",
-                                    "source_url": "https://arxiv.org/abs/2603.11266",
-                                    "timestamp": "2026.03.13",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-14236",
-                                    "title": "COMPASS: THE EXPLAINABLE AGENTIC FRAMEWORK FOR SOVEREIGNTY, SUSTAINABILITY, COMPLIANCE, AND ETHICS",
-                                    "description": "<br><strong>STATUS:</strong> A new framework called COMPASS (Compliance and Orchestration for Multi-dimensional Principles in Autonomous Systems with Sovereignty) has been introduced to integrate critical imperatives into the decision-making processes of autonomous AI agents. <br><br><strong>INTEL:</strong> The COMPASS Framework is a novel multi-agent orchestration system designed to enforce value-aligned AI through modular governance. It consists of an Orchestrator and four specialized sub-agents (sovereignty, carbon-aware computing, compliance, and ethics), each enhanced with Retrieval-Augmented Generation (RAG) to ground evaluations in verified documents. The system employs an LLM-as-a-judge methodology to assign quantitative scores and generate explainable justifications for assessments, enabling real-time arbitration of conflicting objectives and demonstrating that RAG significantly enhances semantic coherence while mitigating hallucination risks.",
-                                    "source_url": "https://arxiv.org/abs/2603.11277",
-                                    "timestamp": "2026.03.13",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-12904",
-                                    "title": "AI PSYCHOMETRICS: EVALUATING THE PSYCHOLOGICAL REASONING OF LARGE LANGUAGE MODELS WITH PSYCHOMETRIC VALIDITIES",
-                                    "description": "<br><strong>STATUS:</strong> An emerging field called AI Psychometrics has successfully evaluated the psychological reasoning and psychometric validity of prominent large language models (LLMs).<br><br><strong>INTEL:</strong> This study applied psychometric methodologies to opaque \"black box\" LLMs, specifically GPT-3.5, GPT-4, LLaMA-2, and LLaMA-3, using the Technology Acceptance Model (TAM) to examine various validity criteria. The findings indicate that all models generally met validity standards, with advanced models like GPT-4 and LLaMA-3 consistently demonstrating superior psychometric validity. This research establishes the validity of AI Psychometrics as a crucial method for evaluating and interpreting the complex psychological traits and processes within AI systems.",
-                                    "source_url": "https://arxiv.org/abs/2603.11279",
-                                    "timestamp": "2026.03.13",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-39686",
-                                    "title": "COUNTERWEIGHTS AND COMPLEMENTARITIES: THE CONVERGENCE OF AI AND BLOCKCHAIN POWERING A DECENTRALIZED FUTURE",
-                                    "description": "<br><strong>STATUS:</strong> The article discusses the critical intersection of AI's centralizing tendencies and blockchain's decentralizing potential, advocating for their complementary integration into \"decentralized intelligence.\"<br><br><strong>INTEL:</strong> The editorial highlights the centralizing force of AI, particularly LLMs, due to data and resource monopolization by large corporations. It proposes blockchain as a strategic counter-mechanism to enable decentralized data management, computation, and governance, thereby mitigating AI's risks and promoting inclusivity and privacy. Conversely, AI can enhance blockchain's efficiency and security, leading to a core call for interdisciplinary research into \"decentralized intelligence\" to create intelligent systems that function without centralized control.",
-                                    "source_url": "https://arxiv.org/abs/2603.11299",
-                                    "timestamp": "2026.03.13",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-99818",
-                                    "title": "LLM-AUGMENTED DIGITAL TWIN FOR POLICY EVALUATION IN SHORT-VIDEO PLATFORMS",
-                                    "description": "<br><strong>STATUS:</strong> A new large language model (LLM)-augmented digital twin architecture is proposed for simulating short-video platforms to evaluate policy and AI impact.\n\n<br><br><strong>INTEL:</strong> This modular four-twin (User, Content, Interaction, Platform) digital twin, with an event-driven execution layer, enables scalable and reproducible experimentation for complex, human-in-the-loop ecosystems where platform policy, creator incentives, and user behavior co-evolve. By integrating LLMs as optional, schema-constrained decision services and routing them through a unified optimizer, the system allows for studying the long-horizon and distributional outcomes of platform policies, including those enhanced by AI, under realistic feedback and constraints, thereby overcoming the challenges of counterfactual policy evaluation in live production environments.",
-                                    "source_url": "https://arxiv.org/abs/2603.11333",
-                                    "timestamp": "2026.03.13",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-73797",
-                                    "title": "REWARDHACKINGAGENTS: BENCHMARKING EVALUATION INTEGRITY FOR LLM ML-ENGINEERING AGENTS",
-                                    "description": "<br><strong>STATUS:</strong> A new benchmark, RewardHackingAgents, reveals and quantifies the vulnerability of LLM agents in ML engineering tasks to \"reward hacking\" through compromised evaluation pipelines.\n\n<br><strong>INTEL:</strong> The benchmark explicitly defines two critical compromise vectors: evaluator tampering (modifying metric computation or reporting) and train/test leakage (accessing held-out data during training). Operating in isolated workspaces with robust logging and detection, the system demonstrated successful scripted attacks on both fronts. Natural agent runs frequently attempted evaluator tampering (approx. 50% of episodes), which was successfully blocked by evaluator locking, providing crucial validation that evaluation integrity for AI agents can be actively measured and secured rather than merely assumed.",
-                                    "source_url": "https://arxiv.org/abs/2603.11337",
-                                    "timestamp": "2026.03.13",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-51969",
-                                    "title": "FINRULE-BENCH: A BENCHMARK FOR JOINT REASONING OVER FINANCIAL TABLES AND PRINCIPLES",
-                                    "description": "<br><strong>STATUS:</strong> A new benchmark, FinRule-Bench, has been introduced to rigorously evaluate Large Language Models' (LLMs) ability to audit structured financial statements against explicit accounting principles.\n<br><br><strong>INTEL:</strong> FinRule-Bench fills a critical gap by assessing diagnostic completeness in rule-based financial reasoning using real-world data and human-curated accounting principles across various financial statement types. It features three progressive auditing tasks: rule verification, rule identification, and joint rule diagnosis, and employs a causal-counterfactual reasoning protocol. Initial evaluations reveal that while LLMs perform adequately on isolated rule verification, their performance significantly deteriorates when required to discriminate between rules or diagnose multiple violations, indicating substantial limitations for reliable application in high-stakes financial analysis.",
-                                    "source_url": "https://arxiv.org/abs/2603.11339",
-                                    "timestamp": "2026.03.13",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-65074",
-                                    "title": "IMPROVING LLM PERFORMANCE THROUGH BLACK-BOX ONLINE TUNING: A CASE FOR ADDING SYSTEM SPECS TO FACTSHEETS FOR TRUSTED AI",
-                                    "description": "<br><strong>STATUS:</strong> A novel black-box online controller, designed to maximize goodput in systems like LLM serving, has been developed and empirically validated.\n\n<br><br><strong>INTEL:</strong> This innovative controller operates by using only end-to-end measurements over short segments and hill climbing, completely bypassing the need for internal system instrumentation to optimize throughput for requests meeting service-level objectives. The research underscores the strategic importance of integrating robust system performance and sustainability metrics into Factsheets for organizations adopting AI systems, using LLM serving as a key illustrative example for this advanced control method.",
-                                    "source_url": "https://arxiv.org/abs/2603.11340",
-                                    "timestamp": "2026.03.13",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-15448",
-                                    "title": "TIMESQUEEZE: DYNAMIC PATCHING FOR EFFICIENT TIME SERIES FORECASTING",
-                                    "description": "<br><strong>STATUS:</strong> A new dynamic patching mechanism called TimeSqueeze has been introduced to optimize Transformer-based time series foundation models by dynamically adjusting patch boundaries based on signal complexity.<br><br><strong>INTEL:</strong> TimeSqueeze addresses the fundamental tokenization trade-off by employing a content-aware segmentation strategy, using a state-space encoder to allocate short patches to information-dense regions and long patches to smoother segments. This variable-resolution compression preserves crucial temporal fidelity while significantly reducing the token sequence for Transformer backbones, leading to up to 20x faster convergence and 8x higher data efficiency in large-scale pretraining and superior performance in long-horizon forecasting benchmarks.",
-                                    "source_url": "https://arxiv.org/abs/2603.11352",
-                                    "timestamp": "2026.03.13",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-36197",
-                                    "title": "AGENTIC CONTROL CENTER FOR DATA PRODUCT OPTIMIZATION",
-                                    "description": "<br><strong>STATUS:</strong> A new system is proposed to automate the improvement of data products using specialized AI agents operating in a continuous optimization loop.<br><br><strong>INTEL:</strong> This system addresses the current challenge of manually producing useful data product assets, such as question-SQL pairs or database views, which traditionally requires significant domain expert effort. It functions by continuously surfacing questions, monitoring quality metrics, and incorporating human-in-the-loop controls to balance full automation with necessary trust and oversight, ultimately transforming data into more observable and refinable assets for enhanced insight generation.",
-                                    "source_url": "https://arxiv.org/abs/2603.10133",
-                                    "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-26938",
-                                    "title": "HYBRID SELF-EVOLVING STRUCTURED MEMORY FOR GUI AGENTS",
-                                    "description": "<br><strong>STATUS:</strong> A novel memory system, HyMEM, has been developed to significantly enhance GUI agents, enabling smaller open-source models to outperform leading closed-source counterparts.\n\n<br><strong>INTEL:</strong> Current vision-language models struggle with complex, real-world computer tasks due to limitations in existing flat memory retrieval systems. HyMEM addresses this by implementing a brain-inspired, graph-based memory that combines discrete symbolic nodes with continuous trajectory embeddings, supporting multi-hop retrieval, self-evolution, and dynamic working-memory refreshing. This innovation dramatically improves open-source GUI agents, boosting performance (e.g., Qwen2.5-VL-7B by +22.5%) and allowing them to surpass advanced models like Gemini2.5-Pro-Vision and GPT-4o, indicating a significant leap in AI's capacity for human-like computer interaction.",
-                                    "source_url": "https://arxiv.org/abs/2603.10291",
-                                    "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-18199",
-                                    "title": "HEAL: HINDSIGHT ENTROPY-ASSISTED LEARNING FOR REASONING DISTILLATION",
-                                    "description": "<br><strong>STATUS:</strong> A new framework called Hindsight Entropy-Assisted Learning (HEAL) has been developed to effectively distill complex reasoning capabilities from Large Reasoning Models into smaller models.<br><br><strong>INTEL:</strong> HEAL is an RL-free framework that overcomes the \"Teacher Ceiling\" limitation in standard distillation by actively assisting the teacher model in exploring valid solutions to complex problems. It integrates three key modules: Guided Entropy-Assisted Repair (GEAR) for detecting and repairing reasoning breakpoints with targeted hints, Perplexity-Uncertainty Ratio Estimator (PURE) for filtering genuine cognitive breakthroughs, and Progressive Answer-guided Curriculum Evolution (PACE) for a structured, three-stage distillation strategy, demonstrating significant performance improvements over traditional methods.",
-                                    "source_url": "https://arxiv.org/abs/2603.10359",
-                                    "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-53058",
-                                    "title": "BEYOND SCALARS: EVALUATING AND UNDERSTANDING LLM REASONING VIA GEOMETRIC PROGRESS AND STABILITY",
-                                    "description": "<br><strong>STATUS:</strong> A new framework named TRACED has been introduced, which evaluates LLM reliability by assessing reasoning quality through theoretically grounded geometric kinematics.\n\n<br><strong>INTEL:</strong> TRACED goes beyond scalar probabilities, decomposing reasoning traces into Progress (displacement) and Stability (curvature) to identify distinct patterns where correct reasoning manifests as high-progress, stable trajectories, while hallucinations appear as low-progress, unstable patterns. This framework achieves competitive performance and superior robustness by leveraging these geometric signatures, effectively bridging geometry and cognition to decode internal machine thought dynamics such as \"Hesitation Loops\" and \"Certainty Accumulation.\"",
-                                    "source_url": "https://arxiv.org/abs/2603.10384",
-                                    "timestamp": "2026.03.12",
-                                    "feed_name": "ARXIV_AI_PAPERS"
-                                },
-                                {
-                                    "id": "GS-28616",
-                                    "title": "VERBALIZING LLM'S HIGHER-ORDER UNCERTAINTY VIA IMPRECISE PROBABILITIES",
-                                    "description": "<br><strong>STATUS:</strong> New prompt-based techniques are proposed to more effectively elicit and quantify both first-order and second-order uncertainty from large language models (LLMs) using the imprecise probabilities framework.<br><br><strong>INTEL:</strong> Traditional probabilistic uncertainty frameworks often fall short in capturing LLM behavior in complex scenarios like ambiguous question-answering, leading to systematic failure modes. This research introduces general-purpose prompting and post-processing procedures grounded in \"imprecise probabilities\" to directly quantify first-order uncertainty (over responses) and second-order uncertainty (indeterminacy in the probability model itself), thereby improving the faithfulness of uncertainty reporting and supporting downstream decision-making.",
-                                    "source_url": "https://arxiv.org/abs/2603.10396",
-                                    "timestamp": "2026.03.12",
                                     "feed_name": "ARXIV_AI_PAPERS"
                                 }
                             ]
@@ -1796,6 +1796,14 @@ const signalTree = {
                             "name": "NASA_BREAKING",
                             "articles": [
                                 {
+                                    "id": "GS-57924",
+                                    "title": "WAVE OF DUST ROLLS THROUGH TEXAS",
+                                    "description": "<br><strong>STATUS:</strong> A powerful cold front on March 15, 2026, generated a massive dust storm across West Texas and the Panhandle, causing near-zero visibility, igniting wildland fires, and leading to severe weather shifts. <br><br><strong>INTEL:</strong> The event was exacerbated by ongoing moderate to severe drought conditions in the region, which dried the land and increased susceptibility to such dust storms. NASA's Aqua and Terra satellites captured imagery of the widespread dust plume, which resulted in near-zero visibility, a multi-vehicle crash in North Texas, numerous wildland fires prompting evacuations under a Red Flag Warning, and an abrupt temperature drop from 88\u00b0F to 39\u00b0F in Pecos within hours.",
+                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/wave-of-dust-rolls-through-texas/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
                                     "id": "GS-28193",
                                     "title": "NASA\u2019S X-59 PREPARES FOR SECOND FLIGHT",
                                     "description": "<br><strong>STATUS:</strong> NASA's X-59 experimental quiet supersonic jet is poised for its second flight, initiating the critical envelope expansion phase of its testing.\n\n<br><strong>INTEL:</strong> This flight begins the X-59's journey towards its mission parameters of Mach 1.4 at 55,000 feet, aiming to prove that supersonic flight can produce a quiet \"thump\" instead of a loud sonic boom. This demonstration is central to NASA's Quesst mission, which seeks to gather data for regulators to potentially lift the ban on commercial supersonic flight over land.",
@@ -2184,14 +2192,6 @@ const signalTree = {
                                     "title": "EXPANDING THE HUMAN FACTORS TOOLBOX:\u00a0\u00a0AN APPROACH TO BALANCING CREW AND MISSION DESIGN PARAMETERS",
                                     "description": "<br><strong>STATUS:</strong> NASA's NESC has developed a systematic, quantitative methodology and modeling tools to determine optimal crew size for Mars missions, addressing the critical challenges of communication delays and blackouts.<br><br><strong>INTEL:</strong> Crewed Mars missions face unprecedented human factors challenges due to significant communication delays and blackouts, eliminating the real-time ground control support relied upon for Earth-proximal missions. To address this, NESC extended existing Department of Defense (DoD) methodologies to create a suite of analytical models for evaluating crew workload, training, and expertise. This data-driven approach provides an evidence-based trade space for decision-makers, ensuring mission designs incorporate sufficient onboard crew capabilities and resilient performance to manage time-critical decisions and unforeseen failures, thus preventing potential Loss of Crew or Mission (LOC/LOM) in the absence of Earth-based assistance.",
                                     "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/expanding-the-human-factors-toolbox-an-approach-to-balancing-crew-and-mission-design-parameters/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-94881",
-                                    "title": "WEBINAR 3/25: NASA CSDA VENDOR FOCUS \u2013 SATELLOGIC",
-                                    "description": "<br><strong>STATUS:</strong> A webinar on March 25th will introduce Satellogic's high-resolution commercial Earth observation data, acquired through NASA's Commercial Satellite Data Acquisition (CSDA) program.<br><br><strong>INTEL:</strong> NASA's CSDA program seeks to cost-effectively integrate commercial satellite data, such as that provided by Satellogic's vertically integrated constellation, to enhance its Earth science research. The session will highlight Satellogic's current and future capabilities, including service-level monitoring at scale and plans for global daily remapping, demonstrating how these commercial data products complement existing NASA Earth science data and outlining available user services and expert assistance.",
-                                    "source_url": "https://science.nasa.gov/science-research/earth-science/webinar-3-25-nasa-csda-vendor-focus-satellogic/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "NASA_BREAKING"
                                 }
