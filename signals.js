@@ -566,6 +566,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-30488",
+                                    "title": "ISRAEL TO MOUNT LASERS ON FIGHTER JETS AND HELICOPTERS",
+                                    "description": "<br><strong>STATUS:</strong> Elbit Systems is developing airborne laser weapons for the Israeli Air Force to counter missile and drone threats, ordered amidst the joint \"Epic Fury\" operation against Iran.\n\n<br><br><strong>INTEL:</strong> This high-power airborne laser system, intended for fighter jets and helicopters, aims to overcome atmospheric limitations of ground-based defenses like the Iron Beam, enabling greater range and effectiveness by operating above clouds. The technology is at an advanced engineering stage and is expected to be a breakthrough against swarm attacks, with potential offensive applications hinted at by Elbit's CEO.",
+                                    "source_url": "https://www.defensenews.com/global/mideast-africa/2026/03/18/israel-to-mount-lasers-on-fighter-jets-and-helicopters/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-65673",
                                     "title": "IRAN WAR IS NOT DELAYING US WEAPONS SHIPMENTS TO TAIWAN, OFFICIALS SAY",
                                     "description": "<br><strong>STATUS:</strong> U.S. officials confirm the ongoing war against Iran has not delayed weapon shipments to Taiwan or altered U.S. policy regarding the island.\n<br><br><strong>INTEL:</strong> Despite concerns about the U.S. defense industry's capacity and an existing multi-billion-dollar arms backlog for Taiwan, the administration claims it is working to expedite shipments to the island, which faces rising military pressure from China. A postponed U.S.-China summit, where a major $14 billion arms deal for Taiwan was expected to be discussed, adds uncertainty to the timing of critical military aid amidst China's unwavering territorial claims.",
@@ -954,14 +962,6 @@ const signalTree = {
                                     "title": "PREWAR US INTEL FOUND INTERVENTION IN IRAN WASN\u2019T LIKELY TO CHANGE LEADERSHIP",
                                     "description": "<br><strong>STATUS:</strong> A pre-war U.S. intelligence assessment concluded that military intervention in Iran would not lead to regime change, a finding immediately underscored by the succession of a more hardline leader following the conflict's outset.<br><br><strong>INTEL:</strong> The National Intelligence Council's assessment, largely dismissed by the administration, determined that neither limited strikes nor a prolonged campaign would dislodge the Iranian regime, even if its leaders were killed, due to the absence of a unified opposition and the establishment's preparedness to ensure continuity of power. This strategic implication was swiftly confirmed when Iran's clerics immediately chose Mojtaba Khamenei, a more hardline successor, demonstrating the regime's resilience and intention to resist rather than collapse, directly undermining the administration's claims of achieving objectives quickly.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/09/prewar-us-intel-found-intervention-in-iran-wasnt-likely-to-change-leadership/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-97758",
-                                    "title": "NATO TO STUDY WHAT-IF SCENARIOS THAT COULD CAUSE ARCTIC CONFLICT WITH RUSSIA",
-                                    "description": "<br><strong>STATUS:</strong> NATO is conducting a major cold-weather military exercise in Norway and launching a multi-year study to analyze and prepare for potential conflict in the rapidly militarizing Arctic region.\n\n<br><strong>INTEL:</strong> This initiative, encompassing the \"Cold Response\" exercise with 25,000 troops and the \"Winter Storm 2030\" research task force, addresses escalating geopolitical tensions in the Arctic, driven by climate change opening new shipping routes and resource access, and the anticipation of potential Russian aggression post-Ukraine. The strategic planning explicitly considers Russian attack scenarios, such as the rapid seizure of the undefended Svalbard archipelago through hybrid activities, necessitating NATO's development of detailed defense and counter-aggression plans for the High North.",
-                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/09/nato-to-study-what-if-scenarios-that-could-cause-arctic-conflict-with-russia/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
