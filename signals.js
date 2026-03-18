@@ -566,6 +566,14 @@ const signalTree = {
                             "name": "DEFENSE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-36643",
+                                    "title": "TURKEY DEPLOYS THIRD NATO PATRIOT SYSTEM TO REPEL IRANIAN MISSILES",
+                                    "description": "<br><strong>STATUS:</strong> Turkey has deployed an additional Patriot air and missile defense system to \u0130ncirlik Air Base following an intercepted Iranian ballistic missile launch targeting the base.\n\n<br><strong>INTEL:</strong> Authorized by NATO Allied Air Command, this deployment increases NATO's Patriot presence in Turkey to three batteries, with two now at \u0130ncirlik alongside an existing Spanish system, significantly bolstering the region's air and missile defense architecture against threats originating from Iran, which has launched three intercepted ballistic missiles towards Turkish territory since \"Operation Epic Fury.\"",
+                                    "source_url": "https://www.defensenews.com/global/europe/2026/03/18/turkey-deploys-third-nato-patriot-system-to-repel-iranian-missiles/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "DEFENSE_NEWS"
+                                },
+                                {
                                     "id": "GS-30488",
                                     "title": "ISRAEL TO MOUNT LASERS ON FIGHTER JETS AND HELICOPTERS",
                                     "description": "<br><strong>STATUS:</strong> Elbit Systems is developing airborne laser weapons for the Israeli Air Force to counter missile and drone threats, ordered amidst the joint \"Epic Fury\" operation against Iran.\n\n<br><br><strong>INTEL:</strong> This high-power airborne laser system, intended for fighter jets and helicopters, aims to overcome atmospheric limitations of ground-based defenses like the Iron Beam, enabling greater range and effectiveness by operating above clouds. The technology is at an advanced engineering stage and is expected to be a breakthrough against swarm attacks, with potential offensive applications hinted at by Elbit's CEO.",
@@ -954,14 +962,6 @@ const signalTree = {
                                     "title": "US B-1B LANCERS ARRIVE AT RAF FAIRFORD AS STRIKES ON IRAN INTENSIFY",
                                     "description": "<br><strong>STATUS:</strong> Multiple U.S. B-1B Lancer bombers have deployed to RAF Fairford in the UK to intensify strike operations against Iran under Operation Epic Fury.<br><br><strong>INTEL:</strong> This forward deployment enables U.S. forces to conduct specific defensive operations against Iranian missile capabilities, significantly shortening turnaround times for bomber missions. B-1B and B-2 bombers have already executed pinpoint strikes on nearly 200 targets deep inside Iran, including missile sites, with Defense Secretary Hegseth warning of a dramatic surge in strikes and a shift to gravity bombs following U.S. control of Iranian airspace. B-52H Stratofortress bombers have also subsequently arrived at RAF Fairford.",
                                     "source_url": "https://www.defensenews.com/news/your-military/2026/03/09/us-b-1b-lancers-arrive-at-raf-fairford-as-strikes-on-iran-intensify/",
-                                    "timestamp": "2026.03.09",
-                                    "feed_name": "DEFENSE_NEWS"
-                                },
-                                {
-                                    "id": "GS-54101",
-                                    "title": "PREWAR US INTEL FOUND INTERVENTION IN IRAN WASN\u2019T LIKELY TO CHANGE LEADERSHIP",
-                                    "description": "<br><strong>STATUS:</strong> A pre-war U.S. intelligence assessment concluded that military intervention in Iran would not lead to regime change, a finding immediately underscored by the succession of a more hardline leader following the conflict's outset.<br><br><strong>INTEL:</strong> The National Intelligence Council's assessment, largely dismissed by the administration, determined that neither limited strikes nor a prolonged campaign would dislodge the Iranian regime, even if its leaders were killed, due to the absence of a unified opposition and the establishment's preparedness to ensure continuity of power. This strategic implication was swiftly confirmed when Iran's clerics immediately chose Mojtaba Khamenei, a more hardline successor, demonstrating the regime's resilience and intention to resist rather than collapse, directly undermining the administration's claims of achieving objectives quickly.",
-                                    "source_url": "https://www.defensenews.com/news/your-military/2026/03/09/prewar-us-intel-found-intervention-in-iran-wasnt-likely-to-change-leadership/",
                                     "timestamp": "2026.03.09",
                                     "feed_name": "DEFENSE_NEWS"
                                 }
@@ -1391,6 +1391,38 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-15432",
+                                    "title": "SOLAR ARRAY DEAL SHEDS MORE LIGHT ON SOUTH KOREA\u2019S DEFENSE CONSTELLATION",
+                                    "description": "<br><strong>STATUS:</strong> South Korea's national security satellite constellation program is progressing with a new solar array supply deal, aiming for a demonstrator launch as early as late 2027.<br><br><strong>INTEL:</strong> Lithuania's Kongsberg NanoAvionics secured a multi-million-euro contract with South Korean startup Flexell Space to provide large, powerful kilowatt-class solar arrays for the low Earth orbit (LEO) network, which is led by Hanwha Systems. This agreement is NanoAvionics' largest single order for solar arrays by value, with the arrays designed to be more powerful than their previous models; Flexell is also exploring the future integration of cost-effective CIGS and perovskite-based solar cells, and this defense-focused initiative is distinct from Hanwha's earlier commercial connectivity satellite plans.",
+                                    "source_url": "https://spacenews.com/solar-array-deal-sheds-more-light-on-south-koreas-defense-constellation/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-47145",
+                                    "title": "FRONTIER JUSTICE: NAVIGATING THE FUTURE LEGAL LANDSCAPE FOR PRIVATE ACTORS IN SPACE LAW",
+                                    "description": "<br><strong>STATUS:</strong> The rapid growth of the private space industry, coupled with inadequate international regulation, creates a high risk of chaos and conflict akin to historical \"wild west\" land grabs.<br><br><strong>INTEL:</strong> The current legal framework for space activities is insufficient, primarily addressing governmental actors with non-binding rules, while national laws create a disjointed framework. This regulatory vacuum, reminiscent of the American frontier's problems with contested land titles and vigilante justice, poses a significant risk of \"land grabs\" and disputes over burgeoning lunar and orbital resources, thereby hindering orderly economic development and fostering uncertainty among competing private and sovereign entities.",
+                                    "source_url": "https://spacenews.com/frontier-justice-navigating-the-future-legal-landscape-for-private-actors-in-space-law/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-6245",
+                                    "title": "CHINA SIGNALS NEW TARGET FOR 2027 ASTEROID DEFLECTION TEST",
+                                    "description": "<br><strong>STATUS:</strong> China has identified asteroid 2016 WP8 as the new target for its first planetary defense kinetic impact test mission, scheduled to launch in December 2027.\n\n<br><strong>INTEL:</strong> This mission, outlined by a CASC official, aims to combine kinetic impact and follow-up observation in a single launch, mirroring aspects of NASA's DART and ESA's Hera missions. The plan involves a Long March 3B rocket launching separate impactor and observer spacecraft, with the observer conducting a Venus flyby before rendezvous with the Aten-class asteroid 2016 WP8 for impact in 2029. This initiative is a key part of China's latest Five-Year Plan and follows advancements in related deflection technologies, signifying a strategic commitment to planetary defense capabilities.",
+                                    "source_url": "https://spacenews.com/china-signals-new-target-for-2027-asteroid-deflection-test/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
+                                    "id": "GS-79677",
+                                    "title": "NASA GRAPPLING WITH PLANETARY SCIENCE FUNDING SHORTFALL",
+                                    "description": "<br><strong>STATUS:</strong> NASA's planetary science program is experiencing a $200 million funding shortfall for fiscal year 2026, necessitating difficult strategic choices regarding mission continuation.\n\n<br><strong>INTEL:</strong> The $200 million deficit compared to fiscal year 2025 requires NASA to make \"hard strategic choices\" in an upcoming operating plan, with Venus missions (DAVINCI, VERITAS, and the ESA's EnVision) explicitly identified as being at risk. Further uncertainty impacts extended missions, including the potentially unrecoverable MAVEN Mars orbiter, and the Mars Sample Return program, which received no dedicated funding in the 2026 appropriations bill.",
+                                    "source_url": "https://spacenews.com/nasa-grappling-with-planetary-science-funding-shortfall/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-92685",
                                     "title": "SPACE FORCE OVERHAULS BUYING STRUCTURE WITH NEW MISSION PORTFOLIOS",
                                     "description": "<br><strong>STATUS:</strong> The U.S. Space Force is implementing a sweeping reorganization of its acquisition process to accelerate procurement and better integrate commercial technology.\n\n<br><br><strong>INTEL:</strong> This overhaul introduces Portfolio Acquisition Executives (PAEs) who will manage mission-specific groups of systems, empowering them with authority to adjust funding, requirements, and cancel programs across their portfolios, a significant departure from individual program management. This strategic shift aims to foster greater flexibility, streamline development, and enable quicker adoption of commercial solutions by giving PAEs authority to define less prescriptive requirements and align acquisitions with mission capabilities rather than individual systems.",
@@ -1757,44 +1789,44 @@ const signalTree = {
                                     "source_url": "https://spacenews.com/telesat-expands-canadian-landing-station-footprint-for-lightspeed/",
                                     "timestamp": "2026.03.11",
                                     "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-84606",
-                                    "title": "LARGE SERIES C SIGNALS SCALE-UP OF CHINA\u2019S LASER SATELLITE COMMUNICATIONS SECTOR",
-                                    "description": "<br><strong>STATUS:</strong> Shanghai-based BlueStar Optical Domain has secured $70 million in Series C funding to expand its manufacturing of laser communication terminals.\n\n<br><strong>INTEL:</strong> This significant investment aims to bolster production capacity to 1,000 units annually by mid-2026, positioning BlueStar Optical Domain as a key supplier for China's ambitious national low Earth orbit satellite internet megaconstellations, such as Guowang and Thousand Sails, which require advanced optical inter-satellite links for global data routing and reduced reliance on ground stations, aligning with China's 15th Five-year plan and strategic push for domestic technological self-reliance in space infrastructure and 6G.",
-                                    "source_url": "https://spacenews.com/large-series-c-signals-scale-up-of-chinas-laser-satellite-communications-sector/",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-237",
-                                    "title": "ANDURIL TO ACQUIRE SPACE-TRACKING FIRM EXOANALYTIC SOLUTIONS",
-                                    "description": "<br><strong>STATUS:</strong> Anduril Industries plans to acquire ExoAnalytic Solutions, a company with one of the world's largest commercial telescope networks for tracking satellites and space debris, to significantly expand its national-security space programs.\n\n<br><strong>INTEL:</strong> ExoAnalytic's approximately 400 ground-based optical telescopes provide crucial space domain awareness and missile defense data to the U.S. government, notably revealing China's Shijian-21 satellite maneuver. This acquisition strengthens Anduril's capability to integrate space-based data into its autonomous defense systems and Lattice command-and-control software, enhancing missile warning, threat assessment, and targeting, while also supporting Anduril's own future spacecraft operations.",
-                                    "source_url": "https://spacenews.com/anduril-to-acquire-space-tracking-firm-exoanalytic-solutions/",
-                                    "timestamp": "2026.03.11",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-99534",
-                                    "title": "STARLAB SPACE FULLY BOOKS COMMERCIAL PAYLOAD SPACE ON PLANNED SPACE STATION",
-                                    "description": "<br><strong>STATUS:</strong> The Starlab commercial space station has fully booked its commercial payload capacity, signaling strong market demand well in advance of its anticipated launch.\n\n<br><br><strong>INTEL:</strong> Voyager Technologies, leading the Starlab joint venture (which includes Airbus and others), reported $6 million in commercial backlog and is conducting a Series A funding round, complementing $183 million received from NASA's CLD program. The station's full reservation, including a year-long commitment from German biotech company Yuri, underscores a growing demand for persistent commercial activity in low Earth orbit, even as NASA's CLD Phase 2 program faces delays, prompting a proposed extension of the ISS until 2032. Starlab plans to launch on SpaceX's Starship via a $90 million contract, with Voyager anticipating the crucial CLD Phase 2 Request for Proposals within the next 60 days to secure further NASA funding and maintain momentum towards its 2027 operational target.",
-                                    "source_url": "https://spacenews.com/starlab-space-fully-books-commercial-payload-space-on-planned-space-station/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-94367",
-                                    "title": "VIASAT WINS $14 MILLION CONTRACT TO PROVIDE IN-FLIGHT SATCOM FOR NAVY EXECUTIVE AIRCRAFT",
-                                    "description": "<br><strong>STATUS:</strong> Viasat secured a $14 million contract to provide in-flight satellite communications for the U.S. Navy's C-37 executive transport aircraft.<br><br><strong>INTEL:</strong> This sole-source, two-year contract ensures critical secure broadband connectivity for senior Navy leaders aboard C-37 executive jets, enabling secure communications, video conferencing, and data access. The acquisition was justified by Viasat's proprietary ArcLight modem system, which provides high-capacity, worldwide connectivity across both classified and unclassified networks, a capability deemed unique for this specific requirement.",
-                                    "source_url": "https://spacenews.com/viasat-wins-14-million-contract-to-provide-in-flight-satcom-for-navy-executive-aircraft/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "SPACE_NEWS"
                                 }
                             ]
                         },
                         {
                             "name": "NASA_BREAKING",
                             "articles": [
+                                {
+                                    "id": "GS-56188",
+                                    "title": "LAVA FLOWS DOWN MAYON",
+                                    "description": "<br><strong>STATUS:</strong> Mayon, the most active volcano in the Philippines, exhibited significant eruptive activity on February 26, 2026, as captured by Landsat 8.\n\n<br><strong>INTEL:</strong> The natural-color image from February 26, 2026, overlaid with infrared, highlighted a clear lava heat signature from Mayon. PHIVOLCS reported concurrent volcanic earthquakes, rockfalls, and pyroclastic flows, while NASA satellites monitored substantial sulfur dioxide emissions drifting southwest on February 4 and March 6, indicating active and sustained volcanic processes with potential regional impact.",
+                                    "source_url": "https://www.nasa.gov/image-article/lava-flows-down-mayon/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-83407",
+                                    "title": "FROM SERVICE TO SPACE SYSTEMS: A PATHWAYS JOURNEY TO NASA",
+                                    "description": "<br><strong>STATUS:</strong> Corey Elmore, a U.S. Navy veteran, is currently a NASA Pathways engineering intern at Kennedy Space Center, where he focuses on integrating artificial intelligence, machine learning, and automation into engineering workflows.\n\n<br><strong>INTEL:</strong> Elmore's work within the Technical Processes and Tools Branch (KSC-NE-TA) is critical for enhancing NASA's ability to manage vast mission data, improve analytical capabilities, and accelerate decision-making for complex space exploration systems. His unique background, combining military service as a hospital corpsman and instructor with experience in the defense and shipbuilding industry, brings invaluable operational systems thinking and a focus on mission-critical execution to the development of intelligent engineering tools. The Pathways program strategically leverages diverse talent, including veterans, to tackle the increasingly complex technical challenges of modern space exploration by providing hands-on experience and mentorship in emerging technologies.",
+                                    "source_url": "https://www.nasa.gov/general/from-service-to-space-systems-a-pathways-journey-to-nasa/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-77664",
+                                    "title": "WIDELY ATTENDED GATHERINGS (WAGS) DETERMINATIONS",
+                                    "description": "<br><strong>STATUS:</strong> This article details an entity's comprehensive engagement log across the government and commercial space industry, with a significant emphasis on the Artemis lunar exploration program.<br><br><strong>INTEL:</strong> The chronological record, spanning from late 2021 into early 2026, illustrates consistent participation in critical industry conferences, legislative receptions, and key program milestones, particularly those associated with NASA's Artemis missions. The repeated presence at supplier conferences, launch receptions, and engagements with major contractors, space agencies, and international partners signifies strategic influence, robust networking, and direct involvement in the development and policy-making of future space exploration endeavors.",
+                                    "source_url": "https://www.nasa.gov/organizations/nasa-ethics-advice-for-widely-attended-gatherings-wags/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "NASA_BREAKING"
+                                },
+                                {
+                                    "id": "GS-95340",
+                                    "title": "NASA\u2019S HUBBLE UNEXPECTEDLY CATCHES COMET BREAKING UP",
+                                    "description": "<br><strong>STATUS:</strong> NASA\u2019s Hubble Space Telescope made an extraordinarily rare observation, accidentally witnessing comet K1 breaking apart into multiple pieces.\n\n<br><br><strong>INTEL:</strong> This fortuitous discovery, published in Icarus, provides an unprecedented opportunity to study unprocessed primordial materials from the early solar system, a goal researchers had previously struggled to achieve. Hubble's sharp vision captured the fragmentation event close to its occurrence (November 8-10, 2025), enabling the reconstruction of the comet's disintegration timeline, which began eight days prior near its perihelion, and uncovering a significant mystery regarding the delayed brightening after the comet exposed fresh ice.",
+                                    "source_url": "https://science.nasa.gov/missions/hubble/nasas-hubble-unexpectedly-catches-comet-breaking-up/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "NASA_BREAKING"
+                                },
                                 {
                                     "id": "GS-57924",
                                     "title": "WAVE OF DUST ROLLS THROUGH TEXAS",
@@ -2162,38 +2194,6 @@ const signalTree = {
                                     "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/insights-into-spallation-mechanisms-of-thermal-protection-system-materials-from-mass-spectrometry-and-hymets-testing/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-63755",
-                                    "title": "MARCH 2026 SATELLITE PUZZLER",
-                                    "description": "<br><strong>STATUS:</strong> NASA Earth Observatory has released its March 2026 satellite image puzzler, inviting the public to identify the location. <br><br><strong>INTEL:</strong> This is a monthly challenge from NASA Earth Observatory where participants submit answers and clues to identify a geographical location from a satellite image. Participants are encouraged to provide details such as the satellite, instrument, and geological or historical context. The 'prize' for correct or insightful answers is \"puzzler bragging rights\" and a potential shout-out on their blog, with the answer and a detailed explanation posted within a week.",
-                                    "source_url": "https://science.nasa.gov/earth/earth-observatory/march-2026-satellite-puzzler/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-1265",
-                                    "title": "COMPUTATIONAL MODELING OF FAILURE AT THE FABRIC WEAVE\u00a0LEVEL IN REENTRY PARACHUTE ENERGY MODULATORS",
-                                    "description": "<br><strong>STATUS:</strong> A novel computational model was developed to analyze and predict failure mechanisms, specifically 'EM shredding,' in reentry parachute energy modulators due to observed performance variability.<br><br><strong>INTEL:</strong> Energy modulators (EMs) in reentry parachutes, designed to dissipate snatch loads, are exhibiting unpredictable behavior and failures like 'EM shredding'\u2014where Kevlar webbing tears due to nylon stitches skipping. This study implements a novel computational approach using LS-DYNA, modeling individual Kevlar weave and nylon stitching threads as 3D solid elements at the fabric weave level, a departure from global fabric modeling, to gain deeper insight into these complex failure mechanisms and improve predictability.",
-                                    "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/computational-modeling-of-failure-at-the-fabric-weave-level-in-reentry-parachute-energy-modulators/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-55523",
-                                    "title": "ICE TO FUEL: NASA TESTS TECHNOLOGY FOR\u00a0REFUELING\u00a0LANDERS",
-                                    "description": "<br><strong>STATUS:</strong> NASA Glenn is testing CryoFILL technology to liquefy oxygen on other planetary surfaces, aiming to enable in-space refueling and reduce Earth-launched propellant.\n\n<br><strong>INTEL:</strong> The CryoFILL project seeks to transform future space exploration by producing rocket fuel (liquid oxygen) directly on the Moon or Mars from local resources like water ice, significantly reducing the propellant mass needed for launch from Earth. This capability supports NASA\u2019s Artemis program goal for a sustained lunar presence, extends mission durations, and is critical for future crewed Mars missions by enabling cost-effective in-situ resource utilization (ISRU) for refueling landers and spacecraft.",
-                                    "source_url": "https://www.nasa.gov/general/nasa-tests-lander-refueling-tech/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "NASA_BREAKING"
-                                },
-                                {
-                                    "id": "GS-81232",
-                                    "title": "EXPANDING THE HUMAN FACTORS TOOLBOX:\u00a0\u00a0AN APPROACH TO BALANCING CREW AND MISSION DESIGN PARAMETERS",
-                                    "description": "<br><strong>STATUS:</strong> NASA's NESC has developed a systematic, quantitative methodology and modeling tools to determine optimal crew size for Mars missions, addressing the critical challenges of communication delays and blackouts.<br><br><strong>INTEL:</strong> Crewed Mars missions face unprecedented human factors challenges due to significant communication delays and blackouts, eliminating the real-time ground control support relied upon for Earth-proximal missions. To address this, NESC extended existing Department of Defense (DoD) methodologies to create a suite of analytical models for evaluating crew workload, training, and expertise. This data-driven approach provides an evidence-based trade space for decision-makers, ensuring mission designs incorporate sufficient onboard crew capabilities and resilient performance to manage time-critical decisions and unforeseen failures, thus preventing potential Loss of Crew or Mission (LOC/LOM) in the absence of Earth-based assistance.",
-                                    "source_url": "https://www.nasa.gov/centers-and-facilities/nesc/expanding-the-human-factors-toolbox-an-approach-to-balancing-crew-and-mission-design-parameters/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "NASA_BREAKING"
                                 }
                             ]
                         }
@@ -2210,6 +2210,38 @@ const signalTree = {
                         {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
+                                {
+                                    "id": "GS-33003",
+                                    "title": "MARQUIS: RANSOMWARE GANG STOLE DATA OF 672K PEOPLE IN CYBERATTACK",
+                                    "description": "<br><strong>STATUS:</strong> Marquis, a financial services provider, disclosed a major August 2025 ransomware attack that exfiltrated data from over 670,000 individuals and impacted operations at 74 banks.\n\n<br><strong>INTEL:</strong> The attack exploited a compromised SonicWall firewall, resulting in the theft of extensive personal and financial data including Social Security numbers and financial account details. Marquis blames SonicWall, filing a lawsuit for gross negligence and misrepresentation, asserting the breach stemmed from a September 2025 SonicWall cloud backup security incident that Mandiant linked to a state-sponsored hacking group; Marquis also faces over 36 consumer class-action lawsuits.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/marquis-ransomware-gang-stole-data-of-672-000-people-in-2025-cyberattack/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-21262",
+                                    "title": "THE REFUND FRAUD ECONOMY: EXPLOITING MAJOR RETAILERS AND PAYMENT PLATFORMS",
+                                    "description": "<br><strong>STATUS:</strong> Refund fraud has evolved from opportunistic abuse into a structured underground marketplace offering services and tutorials for exploitation.<br><br><strong>INTEL:</strong> This sophisticated form of social engineering weaponizes knowledge of customer service processes and payment dispute systems, enabling fraudsters to reliably extract money or goods by manipulating return guarantees and chargeback procedures. It's a scalable fraud business costing retailers billions annually, exacerbated by consumer demand for flexible return policies, making continuous threat intelligence crucial for businesses.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/the-refund-fraud-economy-exploiting-major-retailers-and-payment-platforms/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-49760",
+                                    "title": "NEW \u201cDARKSWORD\u201d IOS EXPLOIT USED IN INFOSTEALER ATTACK ON IPHONES",
+                                    "description": "<br><strong>STATUS:</strong> \"DarkSword,\" a new and sophisticated iOS exploit kit, is being actively deployed by various state-sponsored and commercial threat actors to steal personal data, including cryptocurrency wallet information, from iPhones running iOS versions 18.4 through 18.7.<br><br><strong>INTEL:</strong> This highly sophisticated platform, showing signs of LLM-assisted development, leverages six previously known and patched vulnerabilities to gain kernel access via Safari browser exploits, subsequently injecting a JavaScript engine into privileged iOS services to exfiltrate data. Linked to actors like Russian espionage group UNC6353 and Turkish surveillance vendor PARS Defense, DarkSword has been observed in campaigns against targets in Saudi Arabia, Turkey, Malaysia, and Ukraine since late 2025, highlighting the persistent threat of exploit kits that weaponize documented flaws for targeted surveillance.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/new-darksword-ios-exploit-used-in-infostealer-attack-on-iphones/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
+                                    "id": "GS-18754",
+                                    "title": "NORDSTROM'S EMAIL SYSTEM ABUSED TO SEND CRYPTO SCAMS TO CUSTOMERS",
+                                    "description": "<br><strong>STATUS:</strong> Nordstrom customers received fraudulent cryptocurrency scam emails promoting a St. Patrick's Day \"deal\" from a legitimate company address, indicating a security breach.\n\n<br><strong>INTEL:</strong> The scam emails, sent from nordstrom@eml.nordstrom.com, promised to double cryptocurrency deposits within two hours, leveraging urgency despite a misspelling of \"Normstorm\" in the heading. A source indicates the breach occurred via an Okta SSO > Salesforce compromise, with emails dispatched through Salesforce Marketing Cloud, resulting in over $5,600 in illicit gains for the threat actor.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/nordstroms-email-system-abused-to-send-crypto-scams-to-customers/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
                                 {
                                     "id": "GS-91507",
                                     "title": "APPLE PUSHES FIRST BACKGROUND SECURITY IMPROVEMENTS UPDATE TO FIX WEBKIT FLAW",
@@ -2575,38 +2607,6 @@ const signalTree = {
                                     "title": "NEW \u2018BLACKSANTA\u2019 EDR KILLER SPOTTED TARGETING HR DEPARTMENTS",
                                     "description": "<br><strong>STATUS:</strong> A Russian-speaking threat actor has been operating a sophisticated malware campaign for over a year, targeting HR departments with a new EDR killer named BlackSanta.<br><br><strong>INTEL:</strong> The campaign leverages spear-phishing with ISO files disguised as resumes, employing advanced evasion techniques like steganography, DLL sideloading, and process hollowing to deploy the BlackSanta EDR killer. BlackSanta works by modifying Windows Defender settings, reducing telemetry, suppressing notifications, and terminating security processes, further enhancing its stealth and persistence by using legitimate signed drivers (RogueKiller and IObitUnlocker) for privilege escalation and bypassing security tools.",
                                     "source_url": "https://www.bleepingcomputer.com/news/security/new-blacksanta-edr-killer-spotted-targeting-hr-departments/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-11071",
-                                    "title": "NEW BEATBANKER ANDROID MALWARE POSES AS STARLINK APP TO HIJACK DEVICES",
-                                    "description": "<br><strong>STATUS:</strong> A new Android malware named BeatBanker is actively hijacking devices in Brazil by posing as a Starlink app on fake Google Play Store sites, combining banking trojan functions with Monero cryptocurrency mining.\n\n<br><strong>INTEL:</strong> BeatBanker employs advanced evasion techniques, including environment checks, delayed operations, and a unique persistence method that continuously plays a nearly inaudible audio file to prevent system termination. It utilizes a modified XMRig miner to stealthily mine Monero, dynamically adjusting operations based on detailed device telemetry reported via Firebase Cloud Messaging, and its latest version deploys the BTMOB RAT for full device control, keylogging, and credential capture. This sophisticated malware, while currently targeting Brazil, highlights an evolving threat landscape with potential for global expansion.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/new-beatbanker-android-malware-poses-as-starlink-app-to-hijack-devices/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-45069",
-                                    "title": "NEW 'ZOMBIE ZIP' TECHNIQUE LETS MALWARE SLIP PAST SECURITY TOOLS",
-                                    "description": "<br><strong>STATUS:</strong> A new \"Zombie ZIP\" technique exploits manipulated ZIP headers to conceal malicious payloads, enabling evasion of 50 out of 51 antivirus and EDR solutions.\n\n<br><br><strong>INTEL:</strong> This evasion method, assigned CVE-2026-0866, tricks security scanners by declaring DEFLATE-compressed data as uncompressed (Method=0), preventing signature detection while making standard extractors fail or report errors. Although general users will encounter errors, a custom loader can ignore the malformed header and correctly decompress the hidden payload, posing a significant risk that CERT/CC warns requires security vendors to enhance validation and implement more aggressive inspection of archive structures.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/security/new-zombie-zip-technique-lets-malware-slip-past-security-tools/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-42294",
-                                    "title": "MICROSOFT RELEASES WINDOWS 10 KB5078885 EXTENDED SECURITY UPDATE",
-                                    "description": "<br><strong>STATUS:</strong> Microsoft has released the Windows 10 KB5078885 extended security update for March 2026, fixing 79 vulnerabilities, including two actively exploited zero-days and critical shutdown issues.\n\n<br><strong>INTEL:</strong> This update is vital for Windows 10 Enterprise LTSC and ESU users, specifically addressing a known issue preventing device shutdown or hibernation on Secure Launch-capable PCs with Virtual Secure Mode (VSM) enabled, and continuing the critical rollout of new Secure Boot certificates to replace older 2011 certificates expiring in June 2026, which, if unaddressed, could allow threat actors to bypass security protections.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5078885-extended-security-update/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-68317",
-                                    "title": "MICROSOFT MARCH 2026 PATCH TUESDAY FIXES 2 ZERO-DAYS, 79 FLAWS",
-                                    "description": "<br><strong>STATUS:</strong> Microsoft released its March 2026 Patch Tuesday updates, addressing 79 flaws, including two publicly disclosed zero-day vulnerabilities and three critical vulnerabilities.\n\n<br><strong>INTEL:</strong> The two publicly disclosed zero-day vulnerabilities are an SQL Server Elevation of Privilege (CVE-2026-21262) and a .NET Denial of Service (CVE-2026-26127), with neither currently known to be exploited in active attacks. Critical patches include remote code execution flaws in Microsoft Office, exploitable via the preview pane, and an Excel information disclosure vulnerability (CVE-2026-26144) specifically highlighted for its potential to exfiltrate data via Microsoft Copilot in a zero-click attack.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
