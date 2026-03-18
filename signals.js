@@ -1391,6 +1391,14 @@ const signalTree = {
                             "name": "SPACE_NEWS",
                             "articles": [
                                 {
+                                    "id": "GS-92685",
+                                    "title": "SPACE FORCE OVERHAULS BUYING STRUCTURE WITH NEW MISSION PORTFOLIOS",
+                                    "description": "<br><strong>STATUS:</strong> The U.S. Space Force is implementing a sweeping reorganization of its acquisition process to accelerate procurement and better integrate commercial technology.\n\n<br><br><strong>INTEL:</strong> This overhaul introduces Portfolio Acquisition Executives (PAEs) who will manage mission-specific groups of systems, empowering them with authority to adjust funding, requirements, and cancel programs across their portfolios, a significant departure from individual program management. This strategic shift aims to foster greater flexibility, streamline development, and enable quicker adoption of commercial solutions by giving PAEs authority to define less prescriptive requirements and align acquisitions with mission capabilities rather than individual systems.",
+                                    "source_url": "https://spacenews.com/space-force-overhauls-buying-structure-with-new-mission-portfolios/",
+                                    "timestamp": "2026.03.17",
+                                    "feed_name": "SPACE_NEWS"
+                                },
+                                {
                                     "id": "GS-27657",
                                     "title": "TELESAT PIVOTS LIGHTSPEED TOWARD DEFENSE AS DELAYS PUSH GLOBAL SERVICE TO 2028",
                                     "description": "<br><strong>STATUS:</strong> Telesat is reallocating 25% of its Lightspeed broadband constellation to military Ka-band to meet surging defense demand, pushing global service availability to early 2028.<br><br><strong>INTEL:</strong> This strategic pivot, adding 500 MHz of Mil-Ka capacity, directly addresses increased defense investments by allied nations and the critical need for resilient, secure, high-throughput, and low-latency LEO communications, particularly for polar regions. While incurring a modest $25 million cost and requiring regulatory approval, the modification aligns with NATO and allied partners' data requirements and leverages digital payloads for dynamic capacity allocation, though the overall program faces a further delay into 2028 due to challenges with key satellite chip readiness.",
@@ -1779,14 +1787,6 @@ const signalTree = {
                                     "title": "VIASAT WINS $14 MILLION CONTRACT TO PROVIDE IN-FLIGHT SATCOM FOR NAVY EXECUTIVE AIRCRAFT",
                                     "description": "<br><strong>STATUS:</strong> Viasat secured a $14 million contract to provide in-flight satellite communications for the U.S. Navy's C-37 executive transport aircraft.<br><br><strong>INTEL:</strong> This sole-source, two-year contract ensures critical secure broadband connectivity for senior Navy leaders aboard C-37 executive jets, enabling secure communications, video conferencing, and data access. The acquisition was justified by Viasat's proprietary ArcLight modem system, which provides high-capacity, worldwide connectivity across both classified and unclassified networks, a capability deemed unique for this specific requirement.",
                                     "source_url": "https://spacenews.com/viasat-wins-14-million-contract-to-provide-in-flight-satcom-for-navy-executive-aircraft/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "SPACE_NEWS"
-                                },
-                                {
-                                    "id": "GS-30709",
-                                    "title": "SUSPENDED NOAA SATELLITE CHIEF WARNS OF THREATS TO FEDERAL SCIENCE PROGRAMS",
-                                    "description": "<br><strong>STATUS:</strong> Stephen Volz, a high-ranking NOAA satellite division official on administrative leave, publicly accused the current administration of \"lobotomizing\" federal science agencies through significant workforce reductions and program cuts.\n\n<br><br><strong>INTEL:</strong> Volz, previously associate administrator for NOAA's NESDIS, alleges that his undisclosed administrative leave and broader government policies have led to the separation of 95,000 federal science positions, the cancellation of planned instruments, and the diversion of federal funds to for-profit companies. He warns that these actions severely compromise the government's ability to conduct essential weather and climate research, make informed decisions, and are creating a \"great silencing\" among scientists, despite some proposed budget cuts being rejected by Congress.",
-                                    "source_url": "https://spacenews.com/suspended-noaa-satellite-chief-warns-of-threats-to-federal-science-programs/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "SPACE_NEWS"
                                 }
@@ -2211,6 +2211,14 @@ const signalTree = {
                             "name": "BLEEPING_COMPUTER",
                             "articles": [
                                 {
+                                    "id": "GS-91507",
+                                    "title": "APPLE PUSHES FIRST BACKGROUND SECURITY IMPROVEMENTS UPDATE TO FIX WEBKIT FLAW",
+                                    "description": "<br><strong>STATUS:</strong> Apple has released its first \"Background Security Improvements\" update to fix a WebKit flaw (CVE-2026-20643) without requiring a full operating system upgrade.<br><br><strong>INTEL:</strong> This update addresses a critical cross-origin issue in the Navigation API that allowed malicious web content to bypass the browser's Same Origin Policy. The significance lies in Apple's inaugural use of its Background Security Improvements feature, which enables rapid, lightweight security patches for components like Safari and WebKit outside the normal OS update cycle, eliminating the need for full system upgrades and device restarts for these types of fixes.",
+                                    "source_url": "https://www.bleepingcomputer.com/news/security/apple-pushes-first-background-security-improvements-update-to-fix-webkit-flaw/",
+                                    "timestamp": "2026.03.18",
+                                    "feed_name": "BLEEPING_COMPUTER"
+                                },
+                                {
                                     "id": "GS-72385",
                                     "title": "GLASSWORM MALWARE HITS 400+ CODE REPOS ON GITHUB, NPM, VSCODE, OPENVSX",
                                     "description": "<br><strong>STATUS:</strong> The GlassWorm supply-chain campaign has re-emerged with a more extensive, coordinated attack, compromising 433 GitHub, npm, and VSCode/OpenVSX components to steal cryptocurrency and developer credentials.<br><br><strong>INTEL:</strong> Attributed to Russia-speaking actors, the campaign compromises GitHub accounts to inject malicious code using \"invisible\" Unicode characters, then publishes trojanized packages and extensions that query the Solana blockchain for C2 instructions, ultimately deploying a JavaScript info-stealer targeting crypto wallets, developer credentials, and SSH keys; key indicators of compromise include the marker variable \"lzcdrtfxyqiplpd\" and the persistence file `~/init.json`.",
@@ -2599,14 +2607,6 @@ const signalTree = {
                                     "title": "MICROSOFT MARCH 2026 PATCH TUESDAY FIXES 2 ZERO-DAYS, 79 FLAWS",
                                     "description": "<br><strong>STATUS:</strong> Microsoft released its March 2026 Patch Tuesday updates, addressing 79 flaws, including two publicly disclosed zero-day vulnerabilities and three critical vulnerabilities.\n\n<br><strong>INTEL:</strong> The two publicly disclosed zero-day vulnerabilities are an SQL Server Elevation of Privilege (CVE-2026-21262) and a .NET Denial of Service (CVE-2026-26127), with neither currently known to be exploited in active attacks. Critical patches include remote code execution flaws in Microsoft Office, exploitable via the preview pane, and an Excel information disclosure vulnerability (CVE-2026-26144) specifically highlighted for its potential to exfiltrate data via Microsoft Copilot in a zero-click attack.",
                                     "source_url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-march-2026-patch-tuesday-fixes-2-zero-days-79-flaws/",
-                                    "timestamp": "2026.03.10",
-                                    "feed_name": "BLEEPING_COMPUTER"
-                                },
-                                {
-                                    "id": "GS-78447",
-                                    "title": "WINDOWS 11 KB5079473 & KB5078883 CUMULATIVE UPDATES RELEASED",
-                                    "description": "<br><strong>STATUS:</strong> Microsoft released mandatory March 2026 Patch Tuesday cumulative updates for Windows 11, addressing security vulnerabilities, bugs, and introducing new features.\n\n<br><strong>INTEL:</strong> These updates (KB5079473 and KB5078883) consolidate security fixes and a wide array of new functionalities across Windows 11 versions 25H2/24H2 and 23H2, including enhanced enterprise backup/recovery capabilities, a native network speed test, improved security via Sysmon and Secure Boot certificate targeting, and various user experience refinements such as Emoji 16.0 and improved File Explorer search reliability.",
-                                    "source_url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5079473-and-kb5078883-cumulative-updates-released/",
                                     "timestamp": "2026.03.10",
                                     "feed_name": "BLEEPING_COMPUTER"
                                 }
